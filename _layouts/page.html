@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<article class="page section">
+
+  <span class="page-content">
+    <div class="row">
+
+      <div class="col s12 l7 offset-l1 flow-text">
+        {{ content }}
+      </div>
+
+      <aside class="col s12 l3 no-padding">      
+        <span class="pin-wrapper">
+
+          {% assign collection = page.collection %}
+
+          <div class="collection with-header">
+            <div class="collection-header center-align">
+              <img src="{{ page.image_path }}" style="height:84px" />
+            </div>
+            {% for p in site.[collection] %}
+            <a href="{{ p.url }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+            {% endfor %}
+          </div>
+
+          {% if site.data.[collection] %}
+          <div class="collection">
+            {% for p in site.data.[collection] %}
+            <a href="{{ p.url }}" class="collection-item waves-effect waves-dark">{{ p.title }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+        </span>
+      </aside>
+
+    </div>
+  </span>
+
+  <footer class="section grey lighten-3">
+    <span class="row">
+      <div class="col s12 l10 offset-l1" role="button">
+        {% if page.previous.url %}
+        <a rel="prev" class="col s3 btn btn-large {{ page.color }} waves-effect left" href="{{page.previous.url}}">
+          <i class="material-icons left">chevron_left</i>Previous</a>
+        {% endif %}
+        {% if page.next.url %}
+        <a rel="next" class="col s9 btn btn-large waves-effect right" href="{{page.next.url}}">
+          <i class="material-icons right">chevron_right</i>Next</a>
+        {% endif %}
+      </div>
+    </span>
+  </footer>
+
+</article>

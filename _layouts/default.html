@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+
+  </body>
+
+  {% if page.layout == "page" %}
+  <script>
+    $('.page .pin-wrapper').pushpin({
+      top: $('.page aside').offset().top,
+      offset: $('header .section').offset().top
+    });
+  </script>
+  {% endif %}
+
+</html>

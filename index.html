@@ -1,0 +1,40 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="welcome">
+
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+    {% include header.html %}
+
+    <main class="valign-wrapper">
+      <span class="row grey-text text-darken-1">
+
+        <!-- title wrapper -->
+        <span class="col s12">
+          <p class="flow-text">Welcome to</p>
+          <h1 class="title grey-text text-darken-2">{{ site.title | upcase }}</h1>
+          <blockquote class="flow-text">{{ site.description }}</blockquote>
+        </span>
+
+        <!-- button wrapper -->
+        <div class="section center-align hide">
+          <a href="" class="btn btn-flat btn-large white-text waves-effect waves-light">HSE Overview<i class="material-icons right">exit_to_app</i></a>
+          <a href="" class="btn btn-flat btn-large white-text waves-effect waves-light">Resources<i class="material-icons right">exit_to_app</i></a>
+        </div>
+
+      </span>
+    </main>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+
+  </body>
+</html>

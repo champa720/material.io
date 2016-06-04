@@ -1,0 +1,44 @@
+<header>
+  <div class="navbar-fixed">
+    <nav class="{{ page.color }} darken-3">
+      <div class="row">
+        <span class="nav-wrapper col s12">
+          <!-- menu button -->
+          <a href="#!" data-activates="main-menu" class="button-collapse show-on-large">
+            <i class="material-icons">menu</i>
+          </a>
+          <!-- social media -->
+          <ul class="right">
+            {% for media in site.social %}
+            <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
+              <a href="{{ media.url }}" target="_blank">
+                <i class="material-icons fa fa-{{ media.name }}-square"></i>
+                <span class="icon-text">{{ media.name }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </span>
+      </div>
+
+      {% include side-nav-main.html %}
+
+    </nav>
+  </div>
+  {% if page.layout == "page" %}
+  <div class="section {{ page.color }} grey-text">
+    <div class="row">
+      <span class="col s10 l8 offset-l1">
+        <h1 class="title">{{ page.title }}</h1>
+        {% if page.source %}
+        <blockquote class="truncate">
+          {{ "source: " | downcase }}
+          <a href="{{ page.source }}">{{ page.source }}</a><br />
+          <label>{{ page.date | date_to_long_string | prepend: "last updated: " }}</label>
+        </blockquote>
+        {% endif %}
+      </span>
+    </div>
+  </div>
+  {% endif %}
+</header>

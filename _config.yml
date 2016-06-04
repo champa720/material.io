@@ -1,0 +1,63 @@
+# Site settings
+title: "Jason's classroom"
+email: your-email@domain.com
+description: > 
+  A place to study for your High School Equivalency Diploma
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://jasonsclassroom.com
+repository: champa720/hse-materialize
+timezone: America/Denver
+
+social:
+  - name: facebook
+    tooltip: join my closed group
+    url: http://www.facebook.com/groups/jasonsclassroom
+  - name: github
+    tooltip: see my code
+    url: https://www.github.com/champa720
+  - name: linkedin
+    tooltip: network
+    url: https://www.linkedin.com/in/jason-kilpatrick-17111717
+  # - name: rss url:
+  # - name: twitter url:
+  # - name: dropbox url:
+  # - name: google-plus url:
+
+# Build settings
+markdown: kramdown
+exclude: [vendor] # vendor exculsion is essential for Travis-CL
+
+collections:
+  materials:
+    output: false
+  hse:
+    output: true
+  ged:
+    output: true
+  hiset:
+    output: true
+  tasc:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      author: jason
+      color: deep-purple
+  - scope:
+      type: ged
+    values:
+      layout: page
+      image_path: /assets/img/ged-logo-1x.png
+  - scope:
+      type: hiset
+    values:
+      layout: page
+      image_path: /assets/img/hiset-logo-1x.png
+  - scope:
+      type: tasc
+    values:
+      layout: page
+      image_path: /assets/img/tasc-logo-1x.png

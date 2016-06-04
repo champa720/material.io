@@ -1,0 +1,147 @@
+body {
+  background-color: ghostwhite;
+  .side-nav {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    // casper
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
+  }
+}
+
+main,
+.side-nav-main {
+  flex: 1 0 auto;
+}
+
+// casper
+h1, h2, h3,
+h4, h5, h6 {
+  -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+  font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+  font-family: "Open Sans", sans-serif; // new font
+  text-rendering: geometricPrecision;
+}
+
+// casper
+p, ul, ol, dl {
+  -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  margin: 0 0 1.75em 0; // breathing space around paragraphs ***
+  text-rendering: geometricPrecision;
+}
+
+h1,
+.footer-copyright {
+  font-family: 'Architects Daughter', cursive;
+  &.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: ghostwhite;
+  }
+}
+
+// side-nav color
+.side-nav,
+.side-nav.fixed {
+  background-color: color('grey', 'darken-3');
+  & li a {
+    color: #FFFFFF;
+  }
+  & .collapsible-body {
+    background-color: color('blue', 'base');
+  }
+}
+
+// icon rotate
+i.material-icons {
+  &.one {
+    display: initial;
+  }
+  &.two {
+    display: none;
+  }
+}
+
+.active i.material-icons {
+  &.one {
+    display: none;
+  }
+  &.two {
+    display: initial;
+  }
+}
+
+// default list styles
+.page .page-content ul {
+  list-style-type: disc; 
+  list-style-position: inside;
+  & li {
+    list-style-type: inherit; 
+    list-style-position: inherit;
+  }
+  & ul {
+    list-style-type: circle; 
+    list-style-position: inside; 
+    //margin-left: 15px;
+    & li {
+      list-style-type: inherit; 
+      list-style-position: inherit;
+    }
+  }
+}
+
+// default list spacing
+.page {
+  & ol, ul {
+    padding-left: 3rem;
+  }
+  & ol ol, ul ul, ul ol, ol ul {
+    margin: 0 0 0.4em 0;
+    padding-left: 2em;
+  }
+}
+
+.page dl dt {
+  float: left;
+  width: 180px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.page dl dd {
+  margin-left: 200px;
+  margin-bottom: 1em
+}
+
+.page li {
+  margin: 0.4em 0;
+  & li {
+    margin: 0;
+  }
+}
+
+// pushpin pinned
+.page aside .pin-wrapper.pinned {
+  //top: calc( 64px + 1rem ) !important;
+  width: inherit !important;
+
+  @media #{$medium-and-down} {
+    position: inherit !important;
+    top: inherit !important;
+}
+}

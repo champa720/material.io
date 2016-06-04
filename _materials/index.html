@@ -1,0 +1,52 @@
+---
+layout: page
+title: Resource Overview
+description: Prepare for the exams
+---
+<div class="right-align">
+
+  {% for page in site.collections %}
+  {% unless page.label == "posts" %}
+  <a class="btn dropdown-button" href="" data-activates="{{ page.label }}">{{ page.title }}<i class="material-icons right">expand_more</i>
+  </a>
+
+  <ul id="{{ page.label }}" class="dropdown-content">
+
+    {% for item in page.docs %}
+    {% if item.url contains "index.html" %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  {% endunless %}
+  {% endfor %}
+</div>
+
+{% for page in site.pages %}
+{% if page.title != null %}
+{{ page.title }} --- {{ page.url }}<br/>
+{% endif %}
+{% endfor %}
+
+---
+
+{% for page in site.collections %}
+{{ page.title }} --- {{ page.url }}<br/>
+{% for item in page.docs %}
+{{ item.title }} --- {{ item.url }}<br/>
+{% endfor %}
+{% endfor %}
+
+<aside class="card-panel">
+  {% for collection in site.data.collections %}
+  <h4>{{ collection.title }}</h4>
+  {% for page in collection.pages %}
+  <p>{{ page.title }}</p>
+  {% for doc in page.docs %}
+  <li>{{ doc }}</li>
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+</aside>

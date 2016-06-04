@@ -1,0 +1,33 @@
+<footer class="page-footer {{ page.color }} darken-3">
+  {% if page.layout == "materials"%}
+  <div class="row">
+    <span class="col s10 offset-m1">
+      <span class="col s12 m6">
+        <h5 class="white-text">{{ site.title | titleize }}</h5>
+        <p class="grey-text text-lighten-4">{{ site.description | capitalize }}</p>
+      </span>
+      <div class="col s12 m4 offset-m1">
+        <h5 class="white-text">{{ 'stay connected' | titleize }}</h5>
+        <ul class="social_media">
+          {% for media in site.social %}
+          <li class="left">
+            <a href="{{ media.url }}" class="social-btn icon-{{ media.name }} waves-effect waves-light" target="_blank">
+              <span class="icon-text">{{ media.name }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </span>
+  </div>
+  {% endif %}
+  <div class="footer-copyright {{ page.color }} darken-4">
+    <div class="row">
+      <span class="col s12 offset-m1">
+        <span>&copy;</span>
+        <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+        <span>{{ page.author | upcase }}</span>
+      </span>
+    </div>
+  </div>
+</footer>
