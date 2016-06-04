@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/{{ site.repository }}.svg?branch=master)](https://travis-ci.org/{{ site.repository }})
+[![Build Status](https://travis-ci.org/champa720/hse-materialize.svg?branch=master)](https://travis-ci.org/champa720/hse-materialize)
