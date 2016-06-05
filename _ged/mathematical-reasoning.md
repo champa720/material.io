@@ -2,7 +2,7 @@
 title: The Math Test
 source: http://www.gedtestingservice.com/testers/mathlink
 ---
-## Mathematical reasoning
+## Mathematical Reasoning
 
 The GED&reg; Mathematical Reasoning Test focuses on two major content areas: quantitative problem solving and algebraic problem solving.
 

@@ -2,7 +2,7 @@
 title: The RLA Test
 source: http://www.gedtestingservice.com/testers/rlalink
 ---
-## Reasoning through language arts
+## Reasoning through Language Arts
 
 In alignment with career and college readiness standards, the GED&reg; RLA assessment focuses on three essential groupings of skills:
 
