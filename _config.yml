@@ -4,8 +4,8 @@ email: your-email@domain.com
 description: > 
   A place to study for your High School Equivalency Diploma
   
-baseurl: "/hse-materialize"
-url: "http://champa720.github.io/"
+baseurl: ""
+url: "http://hse.jasonsclassroom.com"
 repository: champa720/hse-materialize
 gems:
   - jekyll-github-metadata
