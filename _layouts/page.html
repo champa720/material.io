@@ -17,17 +17,17 @@ layout: default
 
           <div class="collection with-header">
             <div class="collection-header center-align">
-              <img src="{{ page.image_path }}" style="height:84px" />
+              <img src="{{ page.image_path | prepend: site.baseurl }}" style="height:84px" />
             </div>
             {% for p in site.[collection] %}
-            <a href="{{ p.url }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
             {% endfor %}
           </div>
 
           {% if site.data.[collection] %}
           <div class="collection">
             {% for p in site.data.[collection] %}
-            <a href="{{ p.url }}" class="collection-item waves-effect waves-dark">{{ p.title }}</a>
+            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark">{{ p.title }}</a>
             {% endfor %}
           </div>
           {% endif %}
