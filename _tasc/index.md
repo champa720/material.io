@@ -1,7 +1,6 @@
 ---
 title: TASC Test Assessing Secondary Completion&trade;
 source: https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
-permalink: /tasc/
 ---
 ## TASC Test Assessing Secondary Completion&trade;
 

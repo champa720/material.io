@@ -6,7 +6,7 @@ description: >
   
 baseurl: ""
 url: "http://hse.jasonsclassroom.com"
-repository: champa720.github.io/hse-materialize
+repository: champa720/hse-materialize
 gems:
   - jekyll-github-metadata
 
@@ -34,7 +34,7 @@ exclude: [vendor]
 collections:
   materials:
     output: false
-  hse:
+  cde:
     output: true
   ged:
     output: true
@@ -49,6 +49,11 @@ defaults:
     values:
       author: jason
       color: deep-purple
+  - scope:
+      type: cde
+    values:
+      layout: page
+      image_path: /assets/img/cde-shield-1x.png
   - scope:
       type: ged
     values:

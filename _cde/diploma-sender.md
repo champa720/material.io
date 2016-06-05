@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Ordering Diplomas & Transcripts
-source: https://www.cde.state.co.us/postsecondary/hse_documents
+source:
+  - https://www.cde.state.co.us/postsecondary/hse_documents
+  - https://www.cde.state.co.us/postsecondary/hse_dsinfosheet
 ---
 ## [Diploma Sender](http://www.diplomasender.com/)
 The Colorado Department of Education uses Diploma Sender, an external internet-based service to help test takers order HSE documents via email, fax and mail. These are not issued automatically and the Colorado HSE Testing Office does not provide these documents.

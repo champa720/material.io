@@ -19,9 +19,19 @@ layout: default
             <div class="collection-header center-align">
               <img src="{{ page.image_path | prepend: site.baseurl }}" style="height:84px" />
             </div>
+            
             {% for p in site.[collection] %}
-            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+            {% if p.path contains "index" %}
+            <a href="{{ p.url | remove: "index.html" | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+            {% endif %}
             {% endfor %}
+            
+            {% for p in site.[collection] %}
+            {% unless p.path contains "index" %}
+            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+            {% endunless %}
+            {% endfor %}
+            
           </div>
 
           {% if site.data.[collection] %}

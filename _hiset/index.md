@@ -1,7 +1,6 @@
 ---
 title: The HiSET&reg; Exam from ETS
 source: https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
-permalink: /hiset/
 ---
 ## HiSET: High School Equivalency Test
 
