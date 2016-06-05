@@ -4,9 +4,11 @@
       <div class="row">
         <span class="nav-wrapper col s12">
           <!-- menu button -->
+          {% unless page.url == "/" %}
           <a href="#!" data-activates="main-menu" class="button-collapse show-on-large">
             <i class="material-icons">menu</i>
           </a>
+          {% endunless %}
           <!-- social media -->
           <ul class="right">
             {% for media in site.social %}

@@ -4,9 +4,9 @@ email: your-email@domain.com
 description: > 
   A place to study for your High School Equivalency Diploma
   
-baseurl: "" # the subpath of your site, e.g. /blog
-url: http://jasonsclassroom.com
-repository: champa720/hse-materialize
+baseurl: "/hse-materialize"
+url: "http://champa720.github.io/"
+repository: "champa720/hse-materialize"
 timezone: America/Denver
 
 social:
@@ -26,7 +26,7 @@ social:
 
 # Build settings
 markdown: kramdown
-exclude: [vendor] # vendor exculsion is essential for Travis-CL
+exclude: [vendor]
 
 collections:
   materials:
