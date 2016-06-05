@@ -13,10 +13,10 @@ The HiSET is administered on computer and paper, at approved testing centers. It
 
 ### Content Area Tests:
 
-  * [Language Arts – Reading](la-reading-exam.html)
-  * [Language Arts – Writing](la-writing-exam.html)
-  * [Mathematics](mathematics-exam.html)
-  * [Science](science-exam.html)
+  * [Language Arts – Reading](la-reading.html)
+  * [Language Arts – Writing](la-writing.html)
+  * [Mathematics](mathematics.html)
+  * [Science](science.html)
   * [Social Studies](social-studies.html)
 
 ### Minimum Passing Score:
