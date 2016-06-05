@@ -6,7 +6,10 @@ description: >
   
 baseurl: "/hse-materialize"
 url: "http://champa720.github.io/"
-repository: "champa720/hse-materialize"
+repository: champa720/hse-materialize
+gems:
+  - jekyll-github-metadata
+
 timezone: America/Denver
 
 social:
