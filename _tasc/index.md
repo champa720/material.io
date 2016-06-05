@@ -13,11 +13,11 @@ The TASC is administered on computer and paper, at approved testing centers. It 
 
 ### Content Area Tests:
 
-  * Language Arts – Reading
-  * Language Arts – Writing
-  * Mathematics
-  * Science
-  * Social Studies
+  * [Language Arts – Reading](reading.html)
+  * [Language Arts – Writing](writing.html)
+  * [Mathematics](mathematics.html)
+  * [Science](science.html)
+  * [Social Studies](social-studies.html)
 
 ### Minimum Passing Score:
 

@@ -6,7 +6,7 @@ description: >
   
 baseurl: ""
 url: "http://hse.jasonsclassroom.com"
-repository: champa720/hse-materialize
+repository: champa720.github.io/hse-materialize
 gems:
   - jekyll-github-metadata
 
