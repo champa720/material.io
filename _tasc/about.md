@@ -1,6 +1,7 @@
 ---
 title: About TASC Test
-source: http://www.tasctest.com/about-tasc-test-for-test-takers.html
+source:
+  - http://www.tasctest.com/about-tasc-test-for-test-takers.html
 ---
 ##  TASC Test Assessing Secondary Completion&trade;
 

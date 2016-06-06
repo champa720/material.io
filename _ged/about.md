@@ -1,6 +1,7 @@
 ---
 title: About GED Testing Service
-source: http://www.gedtestingservice.com/testers/about-ged-testing-service-test-taker
+source:
+  - http://www.gedtestingservice.com/testers/about-ged-testing-service-test-taker
 ---
 GED Testing Service is a joint venture between Pearson and the American Council on Education (ACE). GED Testing Service provides opportunities to transform lives, support families, and build stronger communities. We offer any adult who wants it the opportunity to earn a high school equivalency credential, prepare for a better job, support their family, and realize their dream for a better life.
 

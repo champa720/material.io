@@ -1,6 +1,7 @@
 ---
 title: About the HiSET&reg; Exam
-source: http://hiset.ets.org/about/overview
+source:
+  - http://hiset.ets.org/about/overview
 ---
 ## Why Take the HiSET&reg; Exam?
 
