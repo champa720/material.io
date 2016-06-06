@@ -1,5 +1,4 @@
 ---
-navagation_weight: 1
 title: TASC Test Assessing Secondary Completion&trade;
 source:
   - https://www.cde.state.co.us/postsecondary/hse
