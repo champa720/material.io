@@ -54,18 +54,22 @@ defaults:
     values:
       layout: page
       image_path: /assets/img/cde-shield-1x.png
+      navagation_weight: 2
   - scope:
       type: ged
     values:
       layout: page
       image_path: /assets/img/ged-logo-1x.png
+      navagation_weight: 2
   - scope:
       type: hiset
     values:
       layout: page
       image_path: /assets/img/hiset-logo-1x.png
+      navagation_weight: 2
   - scope:
       type: tasc
     values:
       layout: page
       image_path: /assets/img/tasc-logo-1x.png
+      navagation_weight: 2

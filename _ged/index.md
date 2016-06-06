@@ -1,4 +1,5 @@
 ---
+navagation_weight: 1
 title: GED&reg; General Education Development
 source:
   - https://www.cde.state.co.us/postsecondary/hse

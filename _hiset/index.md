@@ -1,4 +1,5 @@
 ---
+navagation_weight: 1
 title: The HiSET&reg; Exam from ETS
 source:
   - https://www.cde.state.co.us/postsecondary/hse

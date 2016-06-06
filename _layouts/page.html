@@ -13,7 +13,7 @@ layout: default
       <aside class="col s12 l3 no-padding">      
         <span class="pin-wrapper">
 
-          {% assign collection = page.collection %}
+          {% assign collection = page.collection | sort: "navagation_weight" %}
 
           <div class="collection with-header">
             <div class="collection-header center-align">
@@ -21,15 +21,7 @@ layout: default
             </div>
             
             {% for p in site.[collection] %}
-            {% if p.path contains "index" %}
             <a href="{{ p.url | remove: "index.html" | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
-            {% endif %}
-            {% endfor %}
-            
-            {% for p in site.[collection] %}
-            {% unless p.path contains "index" %}
-            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
-            {% endunless %}
             {% endfor %}
             
           </div>

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: GED Data Report, Fiscal Year 2014-15
 source:
   - https://www.cde.state.co.us/postsecondary/hse

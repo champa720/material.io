@@ -1,5 +1,5 @@
 ---
-layout: page
+navagation_weight: 1
 title: High School Equivalency Testing Program
 source:
   - https://www.cde.state.co.us/postsecondary/hse

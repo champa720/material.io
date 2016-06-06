@@ -1,5 +1,4 @@
 ---
-layout: page
 title: GED Resources for Students and Educators
 source:
   - https://www.cde.state.co.us/postsecondary/hse

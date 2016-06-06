@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Ordering Diplomas & Transcripts
 source:
   - https://www.cde.state.co.us/postsecondary/hse_documents
