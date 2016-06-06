@@ -1,8 +1,16 @@
 ---
-title: The Social Studies Test
-source: http://www.gedtestingservice.com/testers/socialstudieslink
+title: Social Studies
+source:
+  - http://www.gedtestingservice.com/educators/2014test
+  - http://www.gedtestingservice.com/testers/socialstudieslink
 ---
-## Social Studies
+## Test Specifications
+
+Social Studies
+
+**70 minutes**
+
+## Overview
 
 The GED&reg; Social Studies Test focuses on the fundamentals of social studies reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Social Studies Test is aligned to one social studies practice and one content topic. 
 

@@ -1,8 +1,23 @@
 ---
-title: The RLA Test
-source: http://www.gedtestingservice.com/testers/rlalink
+title: Reasoning through Language Arts (RLA)
+source:
+  - http://www.gedtestingservice.com/educators/2014test
+  - http://www.gedtestingservice.com/testers/rlalinkt
 ---
-## Reasoning through Language Arts
+## Test Specifications
+
+Reasoning Through Language Arts (RLA)
+
+**150 minutes**
+
+  * Section 1 (27 minutes)
+  * Section 2 (45 minutes)
+  * Student Break (10 minutes)
+  * Section 3 (60 minutes)
+  
+*The time allotted for sections 1 and 3 may vary slightly, but the total test time will always be 150 minutes.*
+
+## Overview
 
 In alignment with career and college readiness standards, the GED&reg; RLA assessment focuses on three essential groupings of skills:
 

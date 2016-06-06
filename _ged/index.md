@@ -11,10 +11,10 @@ The GED is administered only on a computer, at approved testing centers. It cons
 
 ### Content Area Tests:
 
-  * [Reasoning through Language Arts (RLA)](rla-test.html)
-  * [Mathematical Reasoning](mathematical-reasoning-test.html)
-  * [Science](science-test.html)
-  * [Social Studies](social-studies-test.html)
+  * [Reasoning through Language Arts (RLA)](rla.html)
+  * [Mathematical Reasoning](mathematical-reasoning.html)
+  * [Science](science.html)
+  * [Social Studies](social-studies.html)
 
 ###  Minimum Passing Score:
 

@@ -1,8 +1,16 @@
 ---
-title: The Science Test
-source: http://www.gedtestingservice.com/testers/sciencelink
+title: Science
+source:
+  - http://www.gedtestingservice.com/educators/2014test
+  - http://www.gedtestingservice.com/testers/sciencelink
 ---
-## Science
+## Test Specifications
+
+Science
+
+**90 minutes**
+
+## Overview
 
 The GED&reg; Science Test focuses on the fundamentals of science reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Science Test is aligned to one science practice and one content topic.
 
