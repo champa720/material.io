@@ -21,11 +21,11 @@ The test can be taken on most days when the centers are open. You can schedule a
 
 Your skills and knowledge are measured in five core areas that make up the five HiSET subtests:
 
-  * Language Arts – Reading
-  * Language Arts – Writing
-  * Mathematics
-  * Science
-  * Social Studies
+  * [Language Arts – Reading](la-reading.html)
+  * [Language Arts – Writing](la-writing.html)
+  * [Mathematics](mathematics.html)
+  * [Science](science.html)
+  * [Social Studies](social-studies.html)
 
 See [Test Content](http://hiset.ets.org/about/content) for more details.
 

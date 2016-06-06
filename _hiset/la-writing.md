@@ -16,13 +16,13 @@ If you are taking the HiSET exam in English, the Writing subtest measures your s
   * Part 1 measures your ability to edit and revise written text.
   * Part 2 measures your ability to generate and organize ideas in writing.
   
-##  Part 1
+**Part 1**
 
 In Part 1, you are asked to make revision choices concerning organization, diction and clarity, sentence structure, usage, and mechanics.
 
 The subtest questions are embedded in complete texts in the form of letters, essays, newspaper articles, personal accounts and reports. The texts are presented as drafts in which parts have been underlined to indicate a possible need for revision. You are given alternatives that may correct or improve the underlined portions. Aspects of written language that are measured may include appropriate style, logical transitions, discourse structure and organization, conciseness and clarity, or usage and mechanics.
 
-## Part 2
+**Part 2**
 
 In Part 2, you are asked to generate and organize ideas in writing. Your writing is assessed on development, organization, language facility and writing conventions.
 
