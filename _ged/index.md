@@ -11,8 +11,8 @@ The GED is administered only on a computer, at approved testing centers. It cons
 
 ### Content Area Tests:
 
-  * [Reasoning through Language Arts (RLA)](rla.html)
   * [Mathematical Reasoning](mathematical-reasoning.html)
+  * [Reasoning through Language Arts (RLA)](rla.html)
   * [Science](science.html)
   * [Social Studies](social-studies.html)
 
