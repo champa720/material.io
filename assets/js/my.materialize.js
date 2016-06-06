@@ -28,6 +28,7 @@
     // Models
     $('.modal-trigger').leanModal();
     // Parallax
+    $('.parallax').parallax();
     // Pushpin
     //var wrap = $(".page aside").offset().top;
     //var hdr = $('.page header').height();

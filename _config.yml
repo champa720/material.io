@@ -50,9 +50,6 @@ defaults:
       author: jason
       color: deep-purple
   - scope:
-      type: materials
-    values:
-  - scope:
       type: cde
     values:
       layout: page
