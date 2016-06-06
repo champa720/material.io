@@ -1,7 +1,8 @@
 ---
 layout: page
 title: High School Equivalency Testing Program
-source: https://www.cde.state.co.us/postsecondary/hse
+source:
+  - https://www.cde.state.co.us/postsecondary/hse
 ---
 ## Colorado contracts with vendors of three high school equivalency examinations
 

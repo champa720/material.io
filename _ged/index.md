@@ -1,6 +1,8 @@
 ---
 title: GED&reg; General Education Development
 source:
+  - https://www.cde.state.co.us/postsecondary/hse
+pdf:
   - https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
 ---
 ## GED&reg; General Education Development

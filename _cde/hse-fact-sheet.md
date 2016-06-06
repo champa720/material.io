@@ -3,6 +3,7 @@ layout: page
 title: High School Equivalency Testing Program Fact Sheet
 source:
   - https://www.cde.state.co.us/postsecondary/hse
+pdf:
   - https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
 ---
 The Colorado State Board of Education approves the high school equivalency examinations utilized in Colorado to measure major outcomes and concepts associated with high school education.
