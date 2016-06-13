@@ -2,53 +2,71 @@
 layout: default
 ---
 <article class="page section">
+  <div class="row">
 
-  <span class="page-content">
-    <div class="row">
-
-      <div class="col s12 l7 offset-l1 flow-text">
+    <div class="col s12 m8 flow-text">
+      <span class="page-content">
         {{ content }}
-      </div>
-
-      <aside class="col s12 l3 no-padding">      
-        <span class="pin-wrapper">
-
-          {% assign collection = page.collection %}
-
-          <div class="collection with-header">
-            <div class="collection-header center-align">
-              <img src="{{ page.image_path | prepend: site.baseurl }}" style="height:84px" />
-            </div>
-            
-            {% for p in site.[collection] %}
-            <a href="{{ p.url | remove: "index.html" | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
-            {% endfor %}
-            
-          </div>
-
-          {% if site.data.[collection] %}
-          <div class="collection">
-            {% for p in site.data.[collection] %}
-            <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark">{{ p.title }}</a>
-            {% endfor %}
-          </div>
-          {% endif %}
-
-        </span>
-      </aside>
-
+      </span>
     </div>
-  </span>
+
+    <aside class="col s12 m4">
+      <span class="pin-wrapper">
+
+        {% assign a = page.collection %}
+        <div class="collection with-header">
+          <div class="collection-header center-align">
+            <img src="{{ page.image_path | prepend: site.baseurl }}" class="responsive-img" style="height:84px" />
+          </div>
+          <div class="collection-item {{ page.color }} white-text">
+            {{ page.tagline | upcase }}
+          </div>
+
+          {% for p in site.[a] %}
+          {% if p.categories == page.categories %}
+          <a href="{{ p.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
+
+          {% endif %}
+          {% endfor %}
+          <div class="collection-item {{ page.color }} white-text"></div>
+        </div>
+
+        {% if site.data.[a] %}
+        <ul class="collapsible" data-collapsible="accordion">
+
+          {% for p in site.data.[a] %}
+          <li>
+            <div class="collapsible-header {{ page.color }} white-text waves-effect waves-light">
+              <i class="material-icons rotate">expand_more</i>
+              {{ p.title | titleize }}
+            </div>
+            <div class="collapsible-body">
+              <div class="collection">
+
+                {% for q in p.docs %}
+                <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
+
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </span>
+    </aside>
+  </div>
 
   <footer class="section">
     <span class="row">
-      <div class="col s12 l10 offset-l1" role="button">
+      <div class="col s12" role="button">
         {% if page.previous.url %}
-        <a rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}" class="col s3 btn btn-large {{ page.color }} waves-effect left">
+        <a rel="prev" href="{{ page.previous.url | remove: 'index.html' | prepend: site.baseurl }}" class="col s4 btn btn-large {{ page.color }} waves-effect left tooltipped" data-tooltip="{{ page.previous.title }}" data-position="top">
           <i class="material-icons left">chevron_left</i>Previous</a>
         {% endif %}
         {% if page.next.url %}
-        <a rel="next" href="{{ page.next.url | prepend: site.baseurl }}" class="col s9 btn btn-large waves-effect right">
+        <a rel="next" href="{{ page.next.url | remove: 'index.html' | prepend: site.baseurl }}" class="col s8 btn btn-large waves-effect right tooltipped" data-tooltip="{{ page.next.title }}" data-position="top">
           <i class="material-icons right">chevron_right</i>Next</a>
         {% endif %}
       </div>

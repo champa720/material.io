@@ -1,13 +1,13 @@
 ---
-title: About the HiSET&reg; Exam
+title: About the <em>HiSET</em><sup>&reg;</sup> Exam
 source:
   - http://hiset.ets.org/about/overview
 ---
-## Why Take the HiSET&reg; Exam?
+## Why Take the <em>HiSET</em><sup>&reg;</sup> Exam?
 
 If you want to pursue a rewarding career or continue your education, then getting your high school credential is the most important step you can take. Colleges as well as many employers require one. The HISET&reg; exam, the new alternative to the GED&reg; test, can help you achieve this important state-issued high school equivalency credential.
 
-The HiSET exam is more accessible and more affordable*; with your test fee, you'll get free test prep and two retests within 12 months of your original purchase when you buy the [battery](http://hiset.ets.org/take/schedule/battery) (all five HiSET subtests). And we provide all the support and preparation tools you need to succeed.
+The HiSET exam is more accessible and more affordable; with your test fee, you'll get free test prep and two retests within 12 months of your original purchase when you buy the [battery](http://hiset.ets.org/take/schedule/battery) (all five HiSET subtests). And we provide all the support and preparation tools you need to succeed.
 
 Learn more about [why you should take the HiSET exam](http://hiset.ets.org/about/why).
 

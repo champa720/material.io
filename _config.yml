@@ -14,7 +14,7 @@ timezone: America/Denver
 
 social:
   - name: facebook
-    tooltip: join my closed group
+    tooltip: join my private study group
     url: http://www.facebook.com/groups/jasonsclassroom
   - name: github
     tooltip: see my code
@@ -32,21 +32,80 @@ markdown: kramdown
 exclude: [vendor]
 
 collections:
-  materials:
-    output: false
+  # xyz
   cde:
     output: true
+    categories: xyz
+    image_path: /assets/img/cde-shield-1x.png
+    permalink: /hse/:collection/:path
+  curriculum:
+    output: true
+    categories: xyz
+    icon: description
+    color: grey
+  posts:
+    output: true
+    categories: xyz
+    icon: chrome_reader_mode
+    color: grey
+    
+  # hse exams
   ged:
     output: true
+    categories: hse exams
+    image_path: /assets/img/ged-logo-1x.png
+    tagline: Welcome to the first step towards your dreams
+    permalink: /hse/:collection/:path
   hiset:
     output: true
+    categories: hse exams
+    image_path: /assets/img/hiset-logo-1x.png
+    tagline: Now there’s a choice in High School Equivalency Tests
+    permalink: /hse/:collection/:path
   tasc:
     output: true
+    categories: hse exams
+    image_path: /assets/img/tasc-logo-1x.png
+    tagline: The New National High School Equivalency Exam
+    permalink: /hse/:collection/:path
+    
+  # study materials
+  mathematics:
+    output: true
+    categories: study materials
+    icon: widgets
+    color: orange
+    permalink: /materials/:collection/:path
+  reading:
+    output: true
+    categories: study materials
+    icon: book
+    color: blue
+    permalink: /materials/:collection/:path
+  science:
+    output: true
+    categories: study materials
+    icon: lightbulb_outline
+    color: purple
+    permalink: /materials/:collection/:path
+  social-studies:
+    output: true
+    categories: study materials
+    icon: account_balance
+    color: green
+    permalink: /materials/:collection/:path
+  writing:
+    output: true
+    categories: study materials
+    icon: edit
+    color: red
+    permalink: /materials/:collection/:path
 
 defaults:
   - scope:
       path: ""
     values:
+      layout: page
       author: jason
       color: deep-purple
   - scope:
@@ -55,17 +114,96 @@ defaults:
       layout: page
       image_path: /assets/img/cde-shield-1x.png
   - scope:
-      type: ged
+      type: curriculum
     values:
-      layout: page
+      layout: iframe
+  # pages
+  - scope:
+      path: "hse"
+    values:
+      categories: hse exams
+  - scope:
+      path: "materials"
+    values:
+      categories: study materials
+  - scope:
+      path: "resources"
+    values:
+      categories: study resources
+  
+  # hse exams  
+  - scope:
+      path: "_ged"
+    values:
+      category: ged
+      tagline: Welcome to the first step towards your dreams
       image_path: /assets/img/ged-logo-1x.png
   - scope:
-      type: hiset
+      path: "_hiset"
     values:
-      layout: page
+      category: hiset
+      tagline: Now there’s a choice in High School Equivalency Tests
       image_path: /assets/img/hiset-logo-1x.png
   - scope:
-      type: tasc
+      path: "_tasc"
     values:
-      layout: page
+      category: tasc
+      tagline: The New National High School Equivalency Exam
       image_path: /assets/img/tasc-logo-1x.png
+      
+  # materials
+  - scope:
+      path: "_mathematics"
+    values:
+      category: 
+      color: orange
+  - scope:
+      path: "_mathematics/cc-basics"
+    values:
+      category: cc-basics
+      tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
+      image_path: /assets/img/book_covers/ccb-mathematics.jpg
+  - scope:
+      path: "_reading"
+    values:
+      color: blue
+  - scope:
+      path: "_reading/cc-basics"
+    values:
+      category: cc-basics
+      tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
+      image_path: /assets/img/book_covers/ccb-reading.jpg
+  - scope:
+      path: "_science"
+    values:
+      color: purple
+  - scope:
+      path: "_science/cc-basics"
+    values:
+      category: cc-basics
+      tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
+      image_path: /assets/img/book_covers/ccb-science.jpg
+  - scope:
+      path: "_social-studies"
+    values:
+      color: green
+  - scope:
+      path: "_social-studies/cc-basics"
+    values:
+      category: cc-basics
+      tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
+      image_path: /assets/img/book_covers/ccb-social_studies.jpg
+  - scope:
+      path: "_social-studies/cc-achieve"
+    values:
+      category: cc-achieve
+  - scope:
+      path: "_writing"
+    values:
+      color: red
+  - scope:
+      path: "_writing/cc-achieve"
+    values:
+      category: cc-achieve
+      tagline: 
+      image_path: 

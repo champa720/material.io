@@ -1,6 +1,7 @@
 body {
   background-color: ghostwhite;
-  .side-nav {
+  .side-nav,
+  .side-nav.fixed {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -17,6 +18,33 @@ body {
 main,
 .side-nav-main {
   flex: 1 0 auto;
+}
+
+// fixed side-nav
+//#title-wrapper, main .page {
+//  padding-left: 300px;
+//}
+//
+//@media only screen and (max-width : 992px) {
+//  #title-wrapper, main .page {
+//    padding-left: 0;
+//  }
+//}
+
+// index
+body.welcome {
+  background:  color('deep-purple', 'base') url("/assets/img/denver.jpg") center / cover;
+}
+
+body.welcome::before {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 // casper
@@ -40,10 +68,10 @@ p, ul, ol, dl {
   text-rendering: geometricPrecision;
 }
 
-h1,
+h1, h2.sub,
 .footer-copyright {
   font-family: 'Architects Daughter', cursive;
-  &.title {
+  &.page-title {
     text-transform: uppercase;
     font-weight: 900;
     color: ghostwhite;
@@ -55,30 +83,23 @@ h1,
 .side-nav.fixed {
   background-color: color('grey', 'darken-3');
   & li a {
-    color: #FFFFFF;
+    color: ghostwhite;
+    & i {
+      color: color('light-blue', 'base');
+    }
   }
   & .collapsible-body {
-    background-color: color('blue', 'base');
+    background-color: color('light-blue', 'base');
   }
 }
 
 // icon rotate
-i.material-icons {
-  &.one {
-    display: initial;
-  }
-  &.two {
-    display: none;
-  }
+i.material-icons.rotate {
+  transition: transform .35s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
-.active i.material-icons {
-  &.one {
-    display: none;
-  }
-  &.two {
-    display: initial;
-  }
+.active i.material-icons.rotate {
+  transform: rotate(-540deg);
 }
 
 // default list styles
@@ -101,7 +122,7 @@ i.material-icons {
 }
 
 // default list spacing
-.page {
+.page .page-content {
   & ol, ul {
     padding-left: 3rem;
   }
@@ -111,7 +132,7 @@ i.material-icons {
   }
 }
 
-.page dl dt {
+.page .page-content dl dt {
   float: left;
   width: 180px;
   overflow: hidden;
@@ -123,12 +144,12 @@ i.material-icons {
   margin-bottom: 1em;
 }
 
-.page dl dd {
+.page .page-content dl dd {
   margin-left: 200px;
   margin-bottom: 1em
 }
 
-.page li {
+.page .page-content li {
   margin: 0.4em 0;
   & li {
     margin: 0;

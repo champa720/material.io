@@ -20,7 +20,7 @@
   /* JavaScript */
     // Collapsible
     $('.collapsible').collapsible({
-      accordion : true
+      accordion: true
     });
     // Dialogs
     // Dropdown

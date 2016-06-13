@@ -11,17 +11,39 @@ layout: null
     <span id="splash-overlay" class="splash"></span>
     <span id="dot" class="z-depth-4"></span>
 
-    {% include header.html %}
+    <header>
+      <div class="navbar-fixed">
+        <nav class="{{ page.color }} darken-3">
+          <div class="row">
+            <span class="nav-wrapper col s12">
+
+              <!-- social media -->
+              <ul class="right">
+                {% for media in site.social %}
+                <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
+                  <a href="{{ media.url }}" target="_blank">
+                    <i class="material-icons fa fa-{{ media.name }}-square"></i>
+                    <span class="icon-text">{{ media.name }}</span>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </span>
+
+          </div>
+        </nav>
+      </div>
+    </header>
 
     <main class="valign-wrapper">
-      <span class="row grey-text text-lighten-1">
+      <span class="container">
 
         <!-- title wrapper -->
-        <span class="col s12">
+        <div class="section grey-text text-lighten-2">
           <p class="flow-text">Welcome to</p>
-          <h1 class="title grey-text text-lighten-2">{{ site.title | upcase }}</h1>
+          <h1 class="page-title">{{ site.title | upcase }}</h1>
           <blockquote class="flow-text">{{ site.description }}</blockquote>
-        </span>
+        </div>
 
         <!-- button wrapper -->
         <div class="section center-align">

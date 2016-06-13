@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="page section">
+  <div class="container">
+
+    <div class="flow-text">
+      <span class="page-content">
+        {{ content }}
+      </span>
+    </div>
+
+  </div>
+  
+  {% assign a = page.collection %}
+  <div class="valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <ul class="collection">
+
+          {% for b in site.[a] %}
+          {% if b.categories == page.categories and b.url contains "index" %}
+          <li class="collection-item avatar">
+            <i class="material-icons circle {{ page.color }}">filter_{{ forloop.index }}</i>
+            <a href="{{ b.url | remove: 'index' | prepend: site.baseurl }}" class="title">{{ b.title }}</a>
+            <p>{{ b.excerpt }}</p>
+          </li>
+
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>

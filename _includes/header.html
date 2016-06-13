@@ -27,28 +27,31 @@
 
     </nav>
   </div>
-  {% if page.layout == "page" %}
-  <div class="section {{ page.color }} grey-text text-lighten-1">
+
+  {% unless page.url == "/" or page.layout == "iframe" %}
+  <div id="title-wrapper" class="section {{ page.color }} grey-text text-lighten-1">
     <div class="row">
-      <span class="col s10 l8 offset-l1">
-        <h1 class="title">{{ page.title }}</h1>
+      <span class="col s12">
+        <h1 class="page-title center-align">{{ page.title }}</h1>
         {% if page.source %}
         <blockquote class="truncate">
-          
+
           {% for source in page.source %}
           {{ "source: " | downcase }}<a href="{{ source }}">{{ source }}</a><br />
           {% endfor %}
-          
+
           {% for source_pdf in page.pdf %}
           {{ "source pdf: " | downcase }}<a href="{{ source_pdf }}">{{ source_pdf }}</a><br />
           {% endfor %}
-          
+
+          {% if page.date != null %}
           <label>{{ page.date | date_to_long_string | prepend: "last updated: " }}</label>
-          
+          {% endif %}
+
         </blockquote>
         {% endif %}
+        </div>
       </span>
-    </div>
   </div>
-  {% endif %}
+  {% endunless %}
 </header>

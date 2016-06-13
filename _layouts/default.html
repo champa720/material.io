@@ -8,7 +8,9 @@
     {% include header.html %}
 
     <main>
-    {{ content }}
+      
+      {{ content }}
+      
     </main>
 
     {% include footer.html %}
@@ -17,7 +19,7 @@
 
   </body>
 
-  {% if page.layout == "page" %}
+  {% comment %}
   <script>
     $('.page .pin-wrapper').pushpin({
       top: $('.page aside').offset().top,
@@ -25,6 +27,6 @@
       bottom: $('.page footer').offset().top
     });
   </script>
-  {% endif %}
+  {% endcomment %}
 
 </html>

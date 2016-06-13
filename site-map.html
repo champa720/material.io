@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="container">
+  {% assign collections = site.collections | group_by: "categories" %}
+
+  {% for a in collections %}
+  <h1 class="center-align">{{ a.name | upcase }}</h1>
+
+  {% for b in a.items %}
+  <ul class="collection with-header">
+    <li class="collection-header center-align">
+      {% if b.image_path %}
+      <img src="{{ b.image_path }}" style="height:84px;"/>
+      {% elsif b.icon %}
+      <i class="material-icons" style="font-size:84px;">{{ b.icon }}</i>
+      {% endif %}
+    </li>
+
+    {% if b.tagline %}
+    <li class="collection-item {{ page.color }} white-text">{{ b.tagline }}</li>
+    {% elsif b.label %}
+    <li class="collection-item {{ page.color }} white-text">{{ b.label }}</li>
+    {% endif %}
+
+    {% for c in b.docs %}
+    <a href="{{ c.url}}" class="collection-item waves-effect waves-dark">
+      {{ c.title }}
+      <i class="material-icons right">chevron_right</i>
+    </a>
+
+    {% endfor %}
+  </ul>
+  
+  {% endfor %}
+  {% endfor %}
+</div>

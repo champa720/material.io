@@ -1,34 +1,55 @@
 ---
 layout: default
-title: home
+title: table of contents
 ---
-<div class="parallax-container" style="height:250px">
-  <div class="valign-wrapper" style="height:inherit">
-    <span class="row grey-text text-lighten-1">
-      <!-- title wrapper -->
-      <span class="col s12">
-        <h1 class="title grey-text text-lighten-2">{{ site.title | upcase }}</h1>
-      </span>
-    </span>
-  </div>
-  <div class="parallax">
-    <img src="/assets/img/denver.jpg">
-  </div>
-</div>
 
-<!-- temporary -->
-<div class="row">
-  {% for collection in site.collections %}
+{% assign collections = site.collections | group_by: 'categories' | sort: 'name' %}
 
-  <div class="col s12 m6 l4">
-    <div class="card {{ page.color }}">
-      <div class="card-content white-text">
-        <span class="card-title">{{ collection.label }}</span>
-        {% for item in collection.docs %}
-        <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% for c in collections %}
+{% if c.name != 'null' %}
+<div class="section">
+  <div class="valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h2 class="sub page-title grey-text text-darken-2 center-align">{{ c.name | upcase }}</h2>
+
+        {% for a in c.items %}
+        <div class="col s12 m6 l4">
+          <div class="collection with-header hoverable">
+            <!-- constructed anchor link -->
+            <a href="{{ a.label | prepend: a.permalink | remove: ':collection/:path' }}">
+
+              {% if a.image_path %}
+              <div class="collection-header center-align">
+                <img src="{{ a.image_path }}" class="responsive-img" style="height:84px" />
+              </div>
+
+              {% elsif a.icon %}
+              <div class="collection-header {{ a.color }} center-align">
+                <i class="material-icons" style="font-size:84px; color:ghostwhite;">{{ a.icon }}</i>
+              </div>
+
+              {% endif %}
+
+              {% if a.tagline %}
+              <div class="collection-item {{ page.color }}" style="color:ghostwhite;">
+                {{ a.tagline | upcase }}
+              </div>
+
+              {% elsif a.label %}
+              <div class="collection-item {{ page.color }} center-align" style="color:ghostwhite;">
+                {{ a.label | upcase }}
+              </div>
+
+              {% endif %}
+            </a>
+          </div>
+        </div>
+
         {% endfor %}
       </div>
     </div>
   </div>
-  {% endfor %}
 </div>
+{% endif %}
+{% endfor %}

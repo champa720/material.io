@@ -1,0 +1,41 @@
+<!-- side-nav-main -->
+{% assign menu = site.data.side-nav-main %}
+<ul id="main-menu" class="side-nav">
+  <span class="side-nav-main">
+    {% for item in menu.pages %}
+    <li>
+      <a href="#!" class="waves-effect waves-light">{{ item.title | upcase }}
+        <i class="material-icons light-blue-text right one">chevron_right</i>
+      </a>
+    </li>
+    {% endfor %}
+    <li class="no-padding">
+      <ul class="collapsible" data-activates="collapsible-accordion">
+        {% for dropdown in menu.dropdown %}
+        <li class="active">
+          <a class="collapsible-header waves-effect waves-light active">{{ dropdown.title | upcase }}
+            <i class="material-icons light-blue-text one">expand_more</i>
+            <i class="material-icons two">expand_less</i>
+          </a>
+          <div class="collapsible-body">
+            <ul>
+              {% for item in dropdown.pages %}
+              <li class="{% if page.url contains item.permalink %}active{% endif %}">
+                <a href="{{ item.permalink | prepend: site.baseurl }}" class="waves-effect waves-light">{{ item.title | upcase }}
+                  <i class="material-icons right">{{ item.icon }}</i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </span>
+  <footer class="footer-copyright center-align">
+    <span>&copy;</span>
+    <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+    <span>{{ page.author | upcase }}</span>
+  </footer>
+</ul>

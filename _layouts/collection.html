@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="page section">
+  <div class="container">
+
+    <div class="flow-text">
+      <span class="page-content">
+        {{ content }}
+      </span>
+    </div>
+
+  </div>
+
+  {% assign a = site.[page.collection] | group_by: 'categories' %}
+  <div class="valign-wrapper">
+    <div class="container">
+      <div class="row">
+
+        {% for b in a %}
+        {% for c in b.items %}
+        {% if forloop.first and c.image_path != null %}
+        <div class="col s6 m4">
+          <div class="card hoverable">
+            <a href="{{ c.categories }}">
+              <div class="card-image">
+                <img src="{{ c.image_path }}" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</article>
