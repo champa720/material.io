@@ -73,9 +73,7 @@ The most common measure of our money supply is called the Ml. The Ml consists of
 | Traveler's checks | $4 |
 | Check-able deposits | $451 |
 | Total Ml | $2,460 |
-{: .striped }
-
----
+{: .bordered .striped }
 
 ### Financial Institutions
 

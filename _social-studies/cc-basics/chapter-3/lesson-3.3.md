@@ -129,9 +129,7 @@ In 1985, Mikhail Gorbachev came to power in the Soviet Union. He encouraged refo
 | Israel | 314.2 | 181.8 | 1,769.5 | 1,758.1 |
 | South Korea | 1,229.1 | 622.3 | 69.3 | 0.1 |
 | Vietnam | 1.035.0 | 2,108.4 | ( < 550,000 ) | 0.1 |
-{: .striped }
-
----
+{: .bordered .striped }
 
 ### George H. W. Bush, 1989-1993
 

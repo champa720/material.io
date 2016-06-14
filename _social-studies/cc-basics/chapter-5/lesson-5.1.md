@@ -48,9 +48,7 @@ People have tried to overcome scarcity by improving the ways goods and services 
 | Natural Resources, land |natural features or materials | oceans, wild animals, forests, minerals |
 | Human Resources, labor | the time and effort of workers | factory workers, doctors, teachers, farmers |
 | Capital Goods, capitol | items designed to produce other goods | tractors, computers, office and factory buildings |
-{: .striped }
-
----
+{: .bordered .striped }
 
 Unfortunately, changes that occurred during the Industrial Revolution did not mean workers and their families had easier lives. In fact, large factories often became sweatshops. Laborers were forced to work long hours under unpleasant and dangerous conditions for little pay. Technology had made production more efficient (productive without being wasteful) and had increased output, but scarcity was not eliminated.
 
@@ -88,9 +86,7 @@ Clara's Clothing Outlet can produce 1,000 T-shirts or 500 sweatshirts per day, b
 | | A | B | C | D |
 | T-Shirts | 1,000 | 800 | 500 | 0 |
 | Sweatshirts | 0 | 200 | 400 | 500 |
-{: .striped }
-
----
+{: .bordered .striped }
 
 ![Production Possibilities Curve](.../img/ppc.png){: .responsive-img .materialboxed }
 

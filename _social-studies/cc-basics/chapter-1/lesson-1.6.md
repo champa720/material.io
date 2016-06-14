@@ -76,9 +76,7 @@ Another device used to disenfranchise African Americans was a literacy test. Whe
 | Fourteenth and Fifteenth Amendments were passed. | Formerly enslaved persons were given the right to vote. |
 | Formerly enslaved persons were given the right to vote. | Southern states begin to disfranchise these voters. |
 | Poll taxes and literacy tests were set up. | Poor and uneducated people could not vote. |
-{: .striped }
-
----
+{: .bordered .striped }
 
 ### Women Gain the Right to Vote
 

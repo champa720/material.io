@@ -63,7 +63,7 @@ A dictatorship is a government ruled by one person or by a small group that has 
 
 ---
 
-## READING PRIMARY DOCUMENTS
+## Reading Primary Documents
 
 Primary documents are original papers. They include letters, autobiographies, speeches, and official records.
 
@@ -85,7 +85,7 @@ The passage below is the beginning of the second paragraph of the Declaration of
 
 ---
 
-## THE MAGNA CARTA AND THE US CONSTITUTION
+## The Magna Carta and The US Constitution
 
 The Magna Carta and the US Constitution are important primary documents. They are studied by people learning about government.
 

@@ -59,9 +59,7 @@ After President Kennedy's death, Vice President Lyndon Johnson was sworn in as p
 | Head Start | Preschool for children of low-income families |
 | Clean Air and Water Quality Acts | Set standards and guidelines for air and water quality |
 | Housing and Urban Development Act | Created a government department that oversees federal government involvement in community development and housing |
-{: .striped }
-
----
+{: .bordered .striped }
 
 Important Supreme Court cases were decided during this time. In a series of decisions, the Court ruled that the Bill of Rights applied to states as well as to the federal government. Specifically, the Supreme Court made these rulings:
 

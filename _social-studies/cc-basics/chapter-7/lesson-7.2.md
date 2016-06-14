@@ -65,9 +65,7 @@ Globalization is supported by many international organizations. These institutio
 | International Monetary Fund (IMF) | Gives loans, advice, and supervision to poorer countries to stabilize (hold steady) currencies, financial institutions, and trading relations with other countries |
 | World Trade Organization (WTO) | Establishes and enforces rules to guide and encourage free trade |
 | United Nations (UN) | Establishes a forum to discuss and promote global security, economic development, and social progress |
-{: .striped }
-
----
+{: .bordered .striped }
 
 ![Free Trade Political Cartoon](.../img/free_trade.png){: .responsive-img .materialboxed }
 

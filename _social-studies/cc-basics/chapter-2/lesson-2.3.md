@@ -55,9 +55,7 @@ In 1849, California asked to be admitted to the Union as a free state. Again Con
 |:-|:-|
 | California admitted as a free state | no restrictions on slavery in the territories of Utah and New Mexico |
 | slave trade outlawed in the District of Columbia | passage of the Fugitive Slave Act, a law that helped slave owners recover runaway slaves |
-{: .striped }
-
----
+{: .bordered .striped }
 
 Although the Compromise of 1850 settled the issues in Congress, many people in the North were angry over the Fugitive Slave Act.
 
@@ -87,9 +85,7 @@ President Lincoln, however, was unwilling to allow the Union to break up. In 186
 | industrial resources, such as factories and shops to produce weapons and other supplies | most of the fighting happened on Southern land |
 | more railroads to get supplies to troops | farmers could produce plenty of food |
 | control of the national treasury | - |
-{: .striped }
-
----
+{: .bordered .striped }
 
 The Civil War began as an attempt by President Lincoln to save the Union. However, in 1863, Lincoln issued the Emancipation Proclamation, which freed the slaves living in Confederate states. Many former enslaved persons joined the Union Army as it moved through the South. This helped strengthen the Union Army.
 
