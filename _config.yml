@@ -192,7 +192,7 @@ defaults:
     values:
       category: cc-basics
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
-      image_path: /assets/img/book_covers/ccb-social_studies.jpg
+      image_path: /assets/img/book_covers/ccb-social-studies.jpg
   - scope:
       path: "_social-studies/cc-achieve"
     values:
