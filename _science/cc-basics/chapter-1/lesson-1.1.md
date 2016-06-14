@@ -11,9 +11,9 @@ key_concept:
 ---
 ## The Skeletal System
 
-Human bones are not solid. They are more like hollow tubes that have been filled with jelly. This jellylike substance is a combination of nerves and blood vessels called marrow. New blood cells are produced in the marrow.
+Human bones are not solid. They are more like hollow tubes that have been filled with jelly. This jelly like substance is a combination of nerves and blood vessels called marrow. New blood cells are produced in the marrow.
 
-How many bones make up the human skeleton? A typical adult has 206 bones, although some people have an extra rib or extra bones in their fingers. The largest bones are the thigh bones, and the smallest bones are located in the ear. Thigh bones contribute about one fourth of a skeleton's entire weight. 
+How many bones make up the human skeleton? A typical adult has 206 bones, although some people have an extra rib or extra bones in their fingers. The largest bones are the thigh bones, and the smallest bones are located in the ear. Thigh bones contribute about one-fourth of a skeleton's entire weight. 
 
 Bones are made of living, growing tissue that has a unique set of needs. This is why a proper diet is important to maintain healthy bones. Bone-building nutrients include calcium and vitamin D.
 
@@ -53,6 +53,6 @@ All muscles work in the same way; they contract. Each muscle can only pull-not p
 
 When people hear the word exercise, they sometimes think its purpose is to make bigger, stronger muscles. However, exercise benefits all of the major systems in the human body, including the skeletal system. Exercise can increase the width and strength of bones, while a lack of exercise causes a decrease in bone density, size, and strength. Exercise and proper diet are especially important for older adults, whose bones can become weak and brittle.
 
-Different kinds of exercises help the body in different ways. Some exercises, such as yoga or tai chi, increase flexibility and range of motion. This helps strengthen ligaments and reduces the strain on the joints. Other exercises, such as wefght lifting, help build stronger muscle. Aerobic exercises, such as bicycling or swimming, help large muscle groups all over the body. This type of exercise also strengthens the heart and lungs.
+Different kinds of exercises help the body in different ways. Some exercises, such as yoga or tai chi, increase flexibility and range of motion. This helps strengthen ligaments and reduces the strain on the joints. Other exercises, such as weight lifting, help build stronger muscle. Aerobic exercises, such as bicycling or swimming, help large muscle groups all over the body. This type of exercise also strengthens the heart and lungs.
 
 To stay healthy and fit, exercise in each of these different ways. Just thirty minutes of exercise a day-even if it is merely a brisk walk-can lead to a longer, healthier life.

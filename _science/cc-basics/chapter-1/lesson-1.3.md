@@ -27,7 +27,7 @@ Nerve cells can react to changes in the environment quickly. This reaction is ca
 
 The brain is the most complex part of the nervous system. It contains 90 percent of the body's nerve cells. All actions, except for reflex actions, are controlled by the brain. The brain is protected by the skull.
 
-The upper portion of the brain is called the cerebrum. It receives, stores, and recalls all the information picked up through the senses. It is also the processing center for memory, decision making, thinking, speech, smell, taste, touch, vision, and hearing.
+The upper portion of the brain is called the cerebrum. It receives, stores, and recalls all the information picked up through the senses. It is also the processing center for memory, decision-making, thinking, speech, smell, taste, touch, vision, and hearing.
 
 ![HUMAN BRAIN]()
 
