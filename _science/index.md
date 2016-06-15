@@ -1,4 +1,4 @@
 ---
 layout: collection
-title: Science Index
+title: Science Collection
 ---

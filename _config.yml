@@ -184,6 +184,12 @@ defaults:
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-science.jpg
   - scope:
+      path: "_science/cc-achieve"
+    values:
+      category: cc-achieve
+      tagline: Mastering Essential Test Readiness Skills for High School Equivalency Exams
+      image_path: /assets/img/book_covers/cca-science.jpg
+  - scope:
       path: "_social-studies"
     values:
       color: green

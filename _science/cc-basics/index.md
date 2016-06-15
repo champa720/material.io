@@ -1,5 +1,5 @@
 ---
 layout: collection_index
-title: CCB Science
+title: CCB Science Index
 permalink: /materials/:collection/
 ---
