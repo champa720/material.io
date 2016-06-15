@@ -1,5 +1,5 @@
 ---
 layout: collection
-title: Social Studies Index
+title: Social Studies Collection
 permalink: /materials/:collection/
 ---

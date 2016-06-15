@@ -1,5 +1,6 @@
 ---
 layout: collection_index
-title: CCB Science Index
-permalink: /materials/:collection/
+title: CCB Science
 ---
+
+## Table of Contents

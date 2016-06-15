@@ -1,3 +1,6 @@
 ---
-title: Social Studies CC-Acieve Index
+layout: collection_index
+title: CCA Social Studies
 ---
+
+## Table of Contents

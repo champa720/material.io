@@ -1,4 +1,6 @@
 ---
 layout: collection_index
-title: CCA Science Index
+title: CCA Science
 ---
+
+## Table of Contents

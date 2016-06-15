@@ -1,5 +1,5 @@
 ---
-title: 
+title: Skeletal, Muscular, and Nervous Systems
 
 objectives:
 - Identify the components and functions of the skeletal, muscular, and nervous systems
