@@ -47,7 +47,7 @@ Some infectious diseases can be acquired only once. The reason is that the body 
 Sexually transmitted diseases (STDs) are caused by germs that travel through sexual contact. The chart on the next page shows symptoms, diagnosis, and treatment of the most common STDs. All STDs can be prevented by avoiding exposure to them.
 
 **Sexually Transmitted Diseases**
-{: .center-aligned }
+{: .center-align }
 
 | Disease | Symptoms | Treatment |
 |:-:|:-:|:-:|
