@@ -1,7 +1,11 @@
 ---
 title: Human Body and Health
 ---
-"Eat the right foods." "Exercise regularly." "Get enough sleep." "Wash your hands often."
+"Eat the right foods."
+
+"Exercise regularly."
+
+"Get enough sleep." "Wash your hands often."
 
 We certainly hear a lot of advice about how to keep our bodies working well! 
 

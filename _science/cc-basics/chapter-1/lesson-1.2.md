@@ -1,6 +1,22 @@
 ---
 title: Digestive, Respiratory, Excretory, and Circulatory System
 
+objectives:
+- Recognize the organs and processes of the digestive. excretory. circulatory. and respiratory systems
+- Explain how these systems work together to provide the body's cells with energy and remove cellular wastes
+
+skills:
+- Determine Central Ideas
+- Integrate Text and Visuals
+
+vocabulary:
+- digest
+- excretory system
+- plasma
+- platelet
+- respiratory system
+- trachea
+
 key_concept:
 - concept: >
     To carry out life activities, cells require food and oxygen. They also produce wastes. Each system plays a role in delivering the materials that cells need and carrying away wastes they make.

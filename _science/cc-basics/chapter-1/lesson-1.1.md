@@ -1,6 +1,25 @@
 ---
 title: Skeletal and Muscular Systems
 
+objectives:
+- Identify main parts of the human skeletal system
+- Classify different types of joints
+- Explain how the skeletal and muscular systems work together for movement
+
+skills:
+- Understand Text Organization
+- Determine Meaning
+
+vocabulary:
+- cardiac muscle
+- cartilage
+- ligaments
+- marrow
+- organization
+- skeletal muscle
+- smooth muscle
+
+voluntary 
 key_concept:
 - concept: >
     The human skeletal and muscular systems work together for support, protection, and movement.

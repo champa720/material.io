@@ -1,6 +1,26 @@
 ---
 title: Health and Disease
 
+objectives:
+- Identify common diseases and their causes
+- Discuss the types of nutrients used by the body
+- Relate different types of drugs to their effects on the body
+
+skills:
+- Evaluate Conclusions
+- Compare and Contrast Multimedia Sources
+
+vocabulary:
+- acquire
+- antibiotic
+- calorie
+- drug
+- immunity
+- over-the-counter
+- prescription
+- symptom
+- well-balanced diet
+
 key_concept:
 - concept: >
     To promote wellness and avoid common diseases, it is important to maintain a well-balanced diet and avoid any substances that change the normal functioning of the body.
@@ -21,9 +41,10 @@ Some infectious diseases can be acquired only once. The reason is that the body 
 
 ### STDs
 
-Sexually transmitted diseases (STDs) are caused by germs that travel through sexual contact. The chart on the next page shows symptoms, diagnosis, and treatment of the most common STDs. All STDs can be prevented by avoiding exposure to them.\
+Sexually transmitted diseases (STDs) are caused by germs that travel through sexual contact. The chart on the next page shows symptoms, diagnosis, and treatment of the most common STDs. All STDs can be prevented by avoiding exposure to them.
 
-SEXUALLY TRANSMITTED DISEASES
+**Sexually Transmitted Diseases**
+{: .center-aligned }
 
 | Disease | Symptoms | Treatment |
 |:-:|:-:|:-:|
@@ -107,5 +128,7 @@ Nutritionists know that some foods are more valuable than others. Milk, for exam
 No single food provides all the nutrients that the body needs to stay healthy. This is why it is important to eat a balanced diet, which is made of a variety of healthful foods.
 
 ![http://www.ChooseMyPlate.gov]()
+
+[http://www.ChooseMyPlate.gov](http://www.ChooseMyPlate.gov)
 
 The new food guide shows what a healthy and balanced diet might look like. It includes the five groups of food that include essential nutrients that promote good health. These are: fruits and vegetables, grains, proteins, dairy, and oils. Oils are not a food group, but used sparingly, they are important nutrients. As a general rule, you should make half your plate fruits and vegetables. You should select whole grains, such as wheat flour, oatmeal, and brown rice, at least half the time. Following these guidelines provides an excellent foundation for a diet that promotes wellness.

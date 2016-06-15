@@ -1,6 +1,23 @@
 ---
 title: Nervous, Endocrine, and Reproductive Systems
 
+objectives:
+- Recognize the organs and processes of the nervous and endocrine systems
+- Differentiate between male and female reproductive organs
+- Sequence the events in the development of a fetus from a fertilized egg
+- Identify conclusions and supporting details
+
+skills:
+- Determine Central Ideas
+- Cite Textual Evidence
+
+vocabulary:
+- fetus
+- hormones
+- labor
+- menstrual cycle
+- sequence
+
 key_concept:
 - concept: >
     The nervous system and endocrine system are responsible for communications within the body. They control many processes in the body, including those of the reproductive system.
