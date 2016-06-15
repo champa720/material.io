@@ -47,11 +47,9 @@ Both plant and animal food sources contain proteins. Proteins that come from fis
 
 Fats and other lipids are an important part of cell membranes, nerve insulation, and hormones. The three types of fat molecules-saturated fats, unsaturated fats, and trans fats-are classified based on their chemical structure. Fats support some of the body's functions and provide energy, but trans fats should be avoided.
 
-• Saturated fats usually come from animals. Saturated fats are also known as solid fats because they are solid at room temperature. Butter and lard are examples of saturated fats.
-
-• Unsaturated fats usually come from plants. Extracted unsaturated fats, such as com oil and olive oil, are typically liquid at room temperature. Nuts, avocado, and fish are just a few other foods rich in unsaturated fats. Unsaturated fats are, in general, considered more healthful than saturated fats. Eating unsaturated fats in moderate amounts may lower your risk of heart disease.
-
-• Trans fats are manufactured by adding hydrogen to vegetable oils. They are often used in processed foods and may have adverse effects on health, including an increased risk of stroke and heart disease.
+* Saturated fats usually come from animals. Saturated fats are also known as solid fats because they are solid at room temperature. Butter and lard are examples of saturated fats.
+* Unsaturated fats usually come from plants. Extracted unsaturated fats, such as com oil and olive oil, are typically liquid at room temperature. Nuts, avocado, and fish are just a few other foods rich in unsaturated fats. Unsaturated fats are, in general, considered more healthful than saturated fats. Eating unsaturated fats in moderate amounts may lower your risk of heart disease.
+* Trans fats are manufactured by adding hydrogen to vegetable oils. They are often used in processed foods and may have adverse effects on health, including an increased risk of stroke and heart disease.
 
 ### Water
 
@@ -63,17 +61,15 @@ Every day the human body loses between two to three liters of water through resp
 
 Complex organic molecules that help the body build new tissues, regulate body functions, and fight disease are called vitamins. There are 13 different vitamins. Their sources, functions, and results of deficiencies are shown in the table below. Even though only a few hundredths of a gram of each vitamin is needed every day, deficiencies can cause severe health problems.
 
-![VITAMINS](http://cdn.shopify.com/s/files/1/1060/9112/products/205_1024x1024.png?v=1448869715)
-{: .responsive-img }
+![VITAMINS](http://cdn.shopify.com/s/files/1/1060/9112/products/205_1024x1024.png?v=1448869715){: .materialboxed .responsive-img }
 
 ### Minerals
 
 Inorganic elements the body needs for most of its metabolic functions are called minerals. Minerals contribute to making bones strong, enabling nerves to send impulses and allowing muscles to contract. Some of the many minerals the body needs, their sources, functions, and results of deficiencies, are shown in the table on the next page.
 
-![MINERALS]()
-{: .responsive-img }
+![MINERALS](){: .materialboxed .responsive-img }
 
- ## Eating a Healthy, Balanced Diet
+## Eating a Healthy, Balanced Diet
 
 When you eat meals that provide a variety of the nutrients your body needs, you are eating a balanced diet. Most foods contain more than one nutrient. For example, vegetables contain fiber, carbohydrates, vitamins, and minerals. Quinoa is a grain that contains carbohydrates, minerals, and protein. In order to have a healthy diet, it is important to include a variety of nutrient-rich foods that are low in fat and added sugars.
 

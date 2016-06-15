@@ -79,4 +79,3 @@ The United States government organization that oversees public health issues is 
 The CDC is also tasked with educating the public in ways to prevent disease. You can protect yourself and others from disease in several ways. Covering your mouth when you cough, washing your hands, and keeping surfaces clean are some ways to prevent the spread of disease.
 
 [FOOD SAFETY PROGRESS REPORT FOR 2012](http://www.cdc.gov/features/dsfoodnet2012/food-safety-progress-report-2012-508c.pdf)
-

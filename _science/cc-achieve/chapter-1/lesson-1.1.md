@@ -37,7 +37,7 @@ Each bone is composed of living, growing tissue. If a bone breaks, one type of b
 
 Two types of bone marrow, red and yellow, run through the center of many long bones, such as those in the legs and arms. Red bone marrow produces red blood cells, which transport oxygen throughout the body. It also produces certain types of white blood cells, which help to fight disease. Yellow bone marrow is made up mostly of fat cells that are a source of stored energy.
 
-![HUMAN SKELETON]()
+![HUMAN SKELETON](){: .materialboxed .responsive-img }
 
 Bones come in different shapes and sizes, and are based on their functions. For example, short, slender bones in your fingers allow your fingers to move and grasp things. Bones are classified as:
 
@@ -50,7 +50,7 @@ Bones come in different shapes and sizes, and are based on their functions. For 
 
 Joints are places where two or more bones meet. Tough strands of connective tissue called ligaments connect bones at most joints. Bones at joints are covered in flexible cartilage, which is a tough, elastic connective tissue. Cartilage covers bones to prevent them from rubbing against each other.
 
-![TYPES OF JOINTS]()
+![TYPES OF JOINTS](){: .materialboxed .responsive-img }
 
 The amount of bone movement at a joint varies. For example, joints in the skull are not movable, while joints in the shoulder allow a wide range of motion. Joints are classified by the type of movement they allow and the shapes of their parts.
 
@@ -68,7 +68,7 @@ The skeletal and muscular systems are interrelated. The muscular system uses mus
 
 Skeletal muscles, or the muscles that are used to control bone movement, are all voluntary muscles you can consciously control. These muscles are connected to bones by tendons, which are bands of strong, fibrous connective tissue. Because a muscle can only contract, every joint is controlled by opposing muscles. This allows back-and-forth movement to occur. As shown in the image, you contract your biceps muscle to bend your arm. When your biceps muscle contracts, your triceps muscle relaxes and becomes stretched. You contract your triceps muscle to straighten your arm. When your triceps muscle contracts, your biceps muscle relaxes and becomes stretched.
 
-![ARM MUSCLES]()
+![ARM MUSCLES](){: .materialboxed .responsive-img }
 
 ### Involuntary Muscles
 
@@ -82,7 +82,7 @@ When you want to move, what causes your muscles to contract? Muscles move in res
 
 A neuron consists of three main parts: dendrites that receive messages from other neurons, a cell body that contains the nucleus, and an axon that allows an electrical signal to travel to other neurons and muscles. Axons are surrounded by a myelin sheath that insulates the axon and improves the speed at which impulses are conducted. At the gap between neurons, called a synapse, the electrical message is changed to a chemical message that is picked up by the next nerve cell.
 
-![NEURONS]()
+![NEURONS](){: .materialboxed .responsive-img }
 
 ### The Spinal Cord
 
@@ -103,4 +103,4 @@ Each hemisphere contains four lobes that perform specific functions:
   * The parietal lobe processes sensory signals from the body.
   * The occipital lobe is involved with sight and visual memory.
 
-![THE HUMAN BRAIN]()
+![THE HUMAN BRAIN](){: .materialboxed .responsive-img }

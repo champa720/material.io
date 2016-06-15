@@ -43,8 +43,7 @@ Digestion starts as soon as you put food in your mouth. Chewing breaks food into
 
 Partially digested food moves from the stomach to the small intestine, where absorption occurs. Digested nutrients and water pass through the walls of the small intestine and into the bloodstream. Waste materials continue through the small intestine and move into the large intestine. In the large intestine, waste materials are prepared for elimination, which is the passage of undigested material out of the body through a:n opening called the anus.
 
-![HUMAN DIGESTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/1/14/Blausen_0316_DigestiveSystem.png)
-{: .responsive-img }
+![HUMAN DIGESTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/1/14/Blausen_0316_DigestiveSystem.png){: .materialboxed .responsive-img }
 
 ### The Liver, Gallbladder, and Pancreas
 
@@ -60,15 +59,13 @@ Your skin is one of the organs of the excretory system, and sweating is one proc
 
 Urine is produced by the kidneys, which are organs that are separate from the digestive tract. Kidneys are the main organs of the excretory system. People usually have two kidneys. The kidneys use millions of tiny filters to separate waste products in the blood from the water, glucose, and minerals the body needs.
 
-![HUMAN EXCRETORY SYSTEM](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gray1123.png)
-{: .responsive-img }
+![HUMAN EXCRETORY SYSTEM](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gray1123.png){: .materialboxed .responsive-img }
 
 Liquid waste produced by the kidneys is carried in urine, which passes through a tube called the ureter and is stored in the bladder. When the bladder is full, it contracts and pushes urine out of the body through the urethra. In most instances, the emptying of the bladder is under the control of voluntary muscles.
 
 Blood enters each kidney through a large artery. Inside the kidney, the artery divides into many networks of capillaries that surround the filtering units of the kidney, which are called nephrons. Each kidney has about one million nephrons. Each nephron looks like a long coiled tube with a cup at one end. The cups of the nephrons are found in the outer rim of the kidney. Fluid from the blood is pushed through the walls of the capillaries and into the nephron. Some of the material that is moved into the nephron is waste material, and some is material the body needs. The material the body needs is returned to the blood through a process called re-absorption. The material that is waste, along with water, leaves the body as urine.
 
-![THE HUMAN KIDNEY](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gray1123.png)
-{: .responsive-img }
+![THE HUMAN KIDNEY](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gray1123.png){: .materialboxed .responsive-img }
 
 ### Solid Waste
 
@@ -82,8 +79,7 @@ Did you know that your digestive system is closely connected to your respiratory
 
 When you breathe, you pull air into a pair of organs inside the chest called lungs. The inside of a lung is divided into many small air sacs, called alveoli, which are surrounded by tiny blood vessels called pulmonary capillaries. Oxygen in the lungs enters the body by diffusing across the alveoli and into the blood vessels. Diffusion is the movement of molecules from an area of higher concentration to an area of lower concentration. Inside the alveoli, oxygen moves into the bloodstream because there is more oxygen in the alveoli than there is in the blood. Meanwhile, carbon dioxide leaves the bloodstream because there is more carbon dioxide in the blood than there is in the alveoli. The oxygen travels within the bloodstream to other parts of the body, and most of the carbon dioxide is exhaled.
 
-![HUMAN RESPIRATORY SYSTEM](https://upload.wikimedia.org/wikipedia/commons/7/77/Blausen_0770_RespiratorySystem_02.png)
-{: .responsive-img }
+![HUMAN RESPIRATORY SYSTEM](https://upload.wikimedia.org/wikipedia/commons/7/77/Blausen_0770_RespiratorySystem_02.png){: .materialboxed .responsive-img }
 
 ## The Circulatory System
 
@@ -93,8 +89,7 @@ The circulatory system transports blood through the human body. Blood delivers w
 
 The center of the circulatory system is the heart, which pumps blood. The heart is a fist-sized muscle divided into two upper chambers called atria and two lower chambers called ventricles.
 
-![THE HUMAN HEART](https://upload.wikimedia.org/wikipedia/commons/1/12/Blausen_0457_Heart_SectionalAnatomy.png)
-{: .responsive-img }
+![THE HUMAN HEART](https://upload.wikimedia.org/wikipedia/commons/1/12/Blausen_0457_Heart_SectionalAnatomy.png){: .materialboxed .responsive-img }
 
 Oxygen-poor blood from the body enters the right side of the heart. The right atrium and right ventricle pump oxygen-poor blood to the lungs. While in the lungs, the blood takes up oxygen gas and releases waste carbon-dioxide gas it has carried away from body cells. Oxygen-rich blood returns to the left side of the heart from the lungs. The left atrium and left ventricle pump oxygen rich blood to the rest of the body. When it reaches body cells, the oxygen-rich blood gives up its oxygen and nutrients and picks up carbon-dioxide gas. The blood returns back to the right atrium, and the cycle continues.
 

@@ -55,20 +55,17 @@ Internal stimuli such as hunger or thirst come from inside an organism's body an
 
 In general, the human body remains in homeostasis when it is functioning properly and all basic needs are met. Every body system contributes to maintaining homeostasis in some way, and this maintenance is similar to a very complex balancing act. Variables such as body temperature, heart rate, blood pressure, blood glucose, blood pH, and hydration levels all have a normal range. If these values deviate significantly from their norm, body systems work together to restore the normal value. Feedback mechanisms are systems set up to respond to changes in these variables. The diagram below provides a visual explanation as to how homeostasis is maintained.
 
-![MAINTAINING HOMEOSTASIS]()
-{: .responsive-img }
+![MAINTAINING HOMEOSTASIS](){: .materialboxed .responsive-img }
 
 ### Negative-Feedback Mechanism
 
 Effect of change returns variable to normal range (homeostasis restored) When a condition in the body, such as temperature, deviates from its normal value, or set point, due to an internal or external stimulus, the body activates certain systems or chemicals. These systems or chemicals help reverse the change and return the value to its set point. This process is called a negative feedback mechanism. For example, when the internal body temperature in humans gets too high due to high external temperatures, a signal is sent from the brain to dilate blood vessels. Dilated blood vessels are closer to the skin's surface, so excess heat can escape. Another signal from the brain activates sweat glands to produce sweat, which also cools the body. Both of these systems work to return the body's temperature to its set point.
 
-![NEGATIVE FEEDBACK MECHANISM]()
-{: .responsive-img }
+![NEGATIVE FEEDBACK MECHANISM](){: .materialboxed .responsive-img }
 
 If the negative-feedback mechanism is not activated, homeostasis cannot be restored and the body temperature will continue to rise. This can lead to hyperthermia, which can cause dehydration, dizziness, and nausea. It is often called heat exhaustion. More severe hyperthermia leads to heat stroke, brain damage, organ-system shutdown, or possibly death. Blood glucose levels are also controlled by a negative-feedback mechanism. After a meal, especially one high in carbohydrates, blood glucose levels rise. Receptors in the body sense the change and the pancreas, which acts as a control center for this feedback mechanism, releases a chemical called insulin into the blood. Insulin acts to lower the level of glucose in the blood and return it to its normal range, or set point.
 
-![HEADACHE]()
-{: .responsive-img }
+![HEADACHE](){: .materialboxed .responsive-img }
 
 ### Positive-Feedback Mechanism
 

@@ -40,8 +40,7 @@ The pituitary gland is located in the brain and is connected to and controlled b
 
 The pituitary gland secretes nine different hormones that either control other glands or directly regulate body processes. These hormones include adrenocorticotropic hormone (ACTH), which responds to stress and triggers the adrenal glands to release epinephrine; follicle-stimulating hormone (FSH), which triggers the production of sperm and the maturation of egg cells; and prolactin, which triggers the production of milk in females.
 
-![THE PRIMARY GLANDS](https://upload.wikimedia.org/wikipedia/commons/1/15/1801_The_Endocrine_System.jpg)
-{: .responsive-img }
+![THE PRIMARY GLANDS](https://upload.wikimedia.org/wikipedia/commons/1/15/1801_The_Endocrine_System.jpg){: .materialboxed .responsive-img }
 
 ### Other Glands
 
@@ -59,15 +58,14 @@ Testosterone and estrogen are the hormones mostly responsible for the physical d
 
 The male reproductive system includes, the testes, epididymis, scrotum, penis, urethra, and a variety of glands. The testes produce male gametes, called sperm and the hormone testosterone. Millions of sperm are produced each day and stored in the epididymis. The testes and epididymis are suspended in the scrotum, which is a sac that hangs outside the body. The position of the scrotum keeps sperm at a cooler temperature, so the sperm are able to mature. During sexual activity, the sperm travel toward the urethra, which is a tube that spans from the urinary bladder through the penis. A series of glands add fluids to the sperm to form semen. Semen leaves the body through the penis during ejaculation
 
-![MALE REPRODUCTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Male_anatomy_en.svg/2000px-Male_anatomy_en.svg.png)
-{: .responsive-img }
+![MALE REPRODUCTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Male_anatomy_en.svg/2000px-Male_anatomy_en.svg.png){: .materialboxed .responsive-img }
+
 
 ### Female Reproductive System
 
 The female reproductive system includes the ovaries, fallopian tubes, uterus, and vagina. Female gametes, called eggs, are produced in the ovaries. The female reproduction system has several functions, including producing female sex hormones and storing and releasing the eggs.
 
-![FEMALE REPRODUCTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/8/8e/Blausen_0400_FemaleReproSystem_02.png)
-{: .responsive-img }
+![FEMALE REPRODUCTIVE SYSTEM](https://upload.wikimedia.org/wikipedia/commons/8/8e/Blausen_0400_FemaleReproSystem_02.png){: .materialboxed .responsive-img }
 
 #### The Menstrual Cycle
 
