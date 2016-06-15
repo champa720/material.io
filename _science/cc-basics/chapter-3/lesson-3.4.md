@@ -35,13 +35,13 @@ An ecosystem is composed of biotic and abiotic factors. Biotic factors include a
 
 Decades ago, ecologist Barry Commoner described four basic laws of ecology that apply to all ecosystems.
 
-1. Everything is connected to everything else. What happens to one organism within an ecosystem affects all organisms in some way.
-
-1 . Everything goes somewhere. Nature doesn't create waste, and it doesn't throw things away. What exists remains in existence in one form or another.
-
-1. Nature knows more than humankind. Things are always changing within nature. When humans cause those changes, however, the changes are likely to be harmful to the system.
-
-1. Everything has limits. That is, there is only so much nature that humans can exploit, or take advantage of. When humans use natural resources, those resources eventually change from useful to useless forms.
+  1. Everything is connected to everything else. What happens to one organism within an ecosystem affects all organisms in some way.
+  
+  1. Everything goes somewhere. Nature doesn't create waste, and it doesn't throw things away. What exists remains in existence in one form or another.
+  
+  1. Nature knows more than humankind. Things are always changing within nature. When humans cause those changes, however, the changes are likely to be harmful to the system.
+  
+  1. Everything has limits. That is, there is only so much nature that humans can exploit, or take advantage of. When humans use natural resources, those resources eventually change from useful to useless forms.
 
 ## Responding to Change
 
