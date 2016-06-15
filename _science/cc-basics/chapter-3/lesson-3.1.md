@@ -25,7 +25,7 @@ key_concept:
     Within an ecosystem, organisms interact with one another and with nonliving things in their environment.
 
 
-- example: >
+- example: |
     Your school is not just a building. It is a community mode up of populations such as teachers, students, and custodians, oil of whom interact with each other. When you interact with someone, you act in close personal relationship with that person. You hove on effect on each other. A population also interacts with nonliving things. Each population at your school hos a role in making the school successful.
 
     In nature, oil living things interact with other living and nonliving things in their environment.
