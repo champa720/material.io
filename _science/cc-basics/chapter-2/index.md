@@ -3,7 +3,7 @@ title: Life Functions and Energy Intake
 ---
 All living things require energy to do work. Plants get the energy they need by producing their own food. Other organisms get the food they need by eating other organisms, including plants.
 
-Plants make their own food in a process called photosynthesis. The prefix photo- means "light," and the base word syn means "together." During photosynthesis, carbon dioxide and water react in the presence of light energy from the Sun. The reaction produces food in the form of a sugar. It also releases oxygen as a waste product.
+Plants make their own food in a process called photosynthesis. The prefix "photo" means "light," and the base word "syn" means "together." During photosynthesis, carbon dioxide and water react in the presence of light energy from the Sun. The reaction produces food in the form of a sugar. It also releases oxygen as a waste product.
 
 Organisms that eat other organisms to get the energy they need must digest their food. Digestion is the process of breaking down food into its simplest parts, or molecules. The body breaks down molecules in the presence of oxygen to release the energy locked in the molecules' chemical bonds. This process, called respiration, is the opposite of photosynthesis.
 
