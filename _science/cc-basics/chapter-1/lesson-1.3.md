@@ -19,11 +19,15 @@ vocabulary:
 - sequence
 
 key_concept:
+
 - concept: >
     The nervous system and endocrine system are responsible for communications within the body. They control many processes in the body, including those of the reproductive system.
+
 - example: >
     In today's world, communication is essential and incredibly fast. Information travels through air waves and optic fibers at tremendous speeds. Such communication is essential to your survival too. When your senses receive messages suggesting that you are in danger. your brain must receive and process those messages in time to prevent serious injury. Thankfully, you have a high-speed communication system of your own-your nervous system.
+
 ---
+
 ## The Nervous System
 
 The nervous system is the body's communication system. It consists of two parts. The central nervous system includes the brain and spinal cord. The peripheral nervous system includes all other nerves.

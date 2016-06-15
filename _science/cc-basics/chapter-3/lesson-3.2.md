@@ -21,14 +21,16 @@ vocabulary:
 - population
 
 key_concept:
+
 - concept: >
     A habitat's limited ability to support the living things within it is called its carrying capacity. Carrying capacity is shaped by limiting factors in the environment.
 
 
-- example: |
+- example: >
     You live in and ploy a role in on ecosystem. An ecosystem is a community. or collection of populations of different plants and animals that share a physical environment. In an ecosystem. species live together and interact. Terrestrial ecosystems occur on land. Aquatic ecosystems exist in freshwater and salt water. The largest terrestrial ecosystems are called biomes, and they include different kinds of grasslands, deserts. forests. and alpine or mountain biomes.
 
     Biomes and aquatic ecosystems have different chemical and physical characteristics. They also have different species of organisms. Think about the plants and animals you see every day in your surroundings. You and they are part of the some ecosystem.
+
 ---
 
 ## Carrying Capacity

@@ -21,13 +21,17 @@ vocabulary:
 - visual
 
 key_concept:
+
 - concept: >
     Flowers contain male and female reproductive structures and attract pollinators that transfer reproductive materials.
-- example: |
+
+- example: >
     Have you ever opened a magazine and smelled on advertisement? Some companies make colorful, attractive, and sometimes scented advertisements to get your attention.
 
     Some plants use the some advertising strategies. Think about flowers bright colors, patterns, and fragrances. These "advertisements" attract pollinators, such as birds and bees, that con spread pollen from one flower to another.
+
 ---
+
 ## Flowering Plants
 
 Earth is home to hundreds of thousands of species of flowering plants. In recent studies, some scientists claim there may be as many as 400,000 different species.

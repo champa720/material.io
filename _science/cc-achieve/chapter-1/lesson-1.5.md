@@ -47,9 +47,9 @@ Both plant and animal food sources contain proteins. Proteins that come from fis
 
 Fats and other lipids are an important part of cell membranes, nerve insulation, and hormones. The three types of fat molecules-saturated fats, unsaturated fats, and trans fats-are classified based on their chemical structure. Fats support some of the body's functions and provide energy, but trans fats should be avoided.
 
-* Saturated fats usually come from animals. Saturated fats are also known as solid fats because they are solid at room temperature. Butter and lard are examples of saturated fats.
-* Unsaturated fats usually come from plants. Extracted unsaturated fats, such as com oil and olive oil, are typically liquid at room temperature. Nuts, avocado, and fish are just a few other foods rich in unsaturated fats. Unsaturated fats are, in general, considered more healthful than saturated fats. Eating unsaturated fats in moderate amounts may lower your risk of heart disease.
-* Trans fats are manufactured by adding hydrogen to vegetable oils. They are often used in processed foods and may have adverse effects on health, including an increased risk of stroke and heart disease.
+  * Saturated fats usually come from animals. Saturated fats are also known as solid fats because they are solid at room temperature. Butter and lard are examples of saturated fats.
+  * Unsaturated fats usually come from plants. Extracted unsaturated fats, such as com oil and olive oil, are typically liquid at room temperature. Nuts, avocado, and fish are just a few other foods rich in unsaturated fats. Unsaturated fats are, in general, considered more healthful than saturated fats. Eating unsaturated fats in moderate amounts may lower your risk of heart disease.
+  * Trans fats are manufactured by adding hydrogen to vegetable oils. They are often used in processed foods and may have adverse effects on health, including an increased risk of stroke and heart disease.
 
 ### Water
 

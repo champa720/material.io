@@ -19,6 +19,7 @@ vocabulary:
 - symbiosis
 
 key_concept:
+
 - concept: >
     The term symbiosis describes specific kinds of relationships between organisms in the same environment.
 

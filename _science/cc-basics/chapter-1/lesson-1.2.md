@@ -2,7 +2,7 @@
 title: Digestive, Respiratory, Excretory, and Circulatory System
 
 objectives:
-- Recognize the organs and processes of the digestive. excretory. circulatory. and respiratory systems
+- Recognize the organs and processes of the digestive, excretory, circulatory, and respiratory systems
 - Explain how these systems work together to provide the body's cells with energy and remove cellular wastes
 
 skills:
@@ -18,11 +18,15 @@ vocabulary:
 - trachea
 
 key_concept:
+
 - concept: >
     To carry out life activities, cells require food and oxygen. They also produce wastes. Each system plays a role in delivering the materials that cells need and carrying away wastes they make.
+
 - example: >
-    For a moment, think of your body as a factory. It hos a number of systems operating simultaneously, all to keep you functioning properly. Systems toke in row products, change them into forms your body con use, and get rid of wastes. Working together, your digestive, respiratory, excretory, and circulatory systems keep you functioning like a we/I-oiled machine.
+    For a moment, think of your body as a factory. It hos a number of systems operating simultaneously, all to keep you functioning properly. Systems toke in row products, change them into forms your body con use, and get rid of wastes. Working together, your digestive, respiratory, excretory, and circulatory systems keep you functioning like a well-oiled machine.
+
 ---
+
 ## The Digestive System
 
 Molecules of food are too large to enter the cells of the body. To make use of the nutrients in food, the body must break down the food molecules. This process occurs in the digestive system. When food is chewed, the teeth grind and tear the food into small bits. Saliva not only keeps the food moist, it also begins to digest, or break down, the largest molecules.

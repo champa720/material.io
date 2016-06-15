@@ -21,11 +21,15 @@ vocabulary:
 - process
 
 key_concept:
+
 - concept: >
     When you breathe, you respire, or bring oxygen into your body. This process is called respiration. There's another kind of respiration, too. Within your cells, microscopic structures use the oxygen that you respire to release the energy locked in food molecules.
+
 - example: >
     You know that you breathe in and out all day long. When you breathe in, oxygen goes into your lungs. When you breathe out, carbon dioxide leaves the lungs. At rest, the average adult breathes in and out about 78-20 times per minute. This rate increases with exercise or other activities. You may wonder why we breathe in oxygen and breathe out carbon dioxide. You may also wonder why we breathe faster and deeper during exercise. These are good questions, and their answers are related to your body's energy demands.
+
 ---
+
 ## The Need for Energy
 
 When a car runs low on fuel, you put more gas in it. The car needs energy to move, and that energy is locked within the molecules of the gasoline in the car's tank. Molecules are atoms connected by chemical bonds.

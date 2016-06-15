@@ -20,11 +20,15 @@ vocabulary:
 - research
 
 key_concept:
+
 - concept: >
     Fermentation is a process that produces energy within a cell in the absence of oxygen.
+
 - example: >
     Have you ever played on intense round of basketball or run full-speed for a long distance? Activities like these o~en leave you with burning muscles. You may also experience shortness of breath. What causes the burn, and how is it related to breathing? Both are good questions. In order to answer them, we need to examine the process of fermentation.
+
 ---
+
 ## Fermentation
 
 Cellular respiration is an aerobic process that depends on oxygen to break apart sugar molecules for the purpose of producing ATP. Fermentation also breaks apart sugar molecules for the purpose of producing ATP. However, it does so without the presence of oxygen, meaning it is an anaerobic process. Plus, it generates only two molecules of ATP for each molecule of glucose, making it a less efficient means of energy production.

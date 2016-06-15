@@ -19,10 +19,11 @@ vocabulary:
 - speculation
 
 key_concept:
+
 - concept: >
     Increased human population makes increased demands on Earth's resources and adds to pollution in the environment.
     
-- example: |
+- example: >
     In a system, different parts interact to make something work as a whole. You have first-hand knowledge of a system-you! The human body is a system made up of parts working together. When one part is harmed or diseased, it can make the whole person ill.
 
     Ecosystems are also made up of parts working together. When one part of an ecosystem is harmed by pollution or overuse, the effects can be widespread. Today, the demands of an increasing human population are adding stress and causing damage to ecosystems around the world.
