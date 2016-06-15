@@ -27,7 +27,6 @@ key_concept:
 
 - example: |
     Have you ever opened a magazine and smelled on advertisement? Some companies make colorful, attractive, and sometimes scented advertisements to get your attention.
-
     Some plants use the some advertising strategies. Think about flowers bright colors, patterns, and fragrances. These "advertisements" attract pollinators, such as birds and bees, that con spread pollen from one flower to another.
 
 ---

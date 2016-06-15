@@ -18,8 +18,8 @@ vocabulary:
 - organization
 - skeletal muscle
 - smooth muscle
+- voluntary 
 
-voluntary 
 key_concept:
 
 - concept: >
@@ -27,7 +27,6 @@ key_concept:
 
 - example: |
     When it is supported by poles, a tent provides easy, portable shelter for campers. However, hove you ever forgotten to bring tent poles? Without a framework, the tent collapses to the ground.
-    
     You also need a supporting framework. It's called a skeletal system. Together, your skeletal and muscular systems support and protect you. They also do what a tent can't. They let you move.
 
 ---

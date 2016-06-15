@@ -28,7 +28,6 @@ key_concept:
 
 - example: |
     Given regular oil changes, the right gasoline, and proper maintenance, on automobile con keep running for well over 700,000 miles. However, if a harmful substance were put into the car, it might stop running altogether and end up in a junkyard!
-
     Cars and your body hove some things in common. They are both machines, and with proper core and maintenance, and by avoiding harmful substances, your body con remain healthy and functional for many years.
 
 ---
