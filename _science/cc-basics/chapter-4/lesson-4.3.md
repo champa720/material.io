@@ -71,6 +71,8 @@ In contrast, earthworms are beneficial. By burrowing through the soil, they help
 
 ### Mollusks
 
+![SNAIL](){: .materialboxed .responsive-img }
+
 Mollusks are generally made up of a soft body and shell. Slugs, squids, and octopuses also fit into this group, although they don't have shells like the others. Mollusks have no skeletal system, but they have all the other basic organ systems (muscular, digestive, circulatory, nervous, excretory, respiratory, and reproductive). Their bodies include a foot, a mantle, a shell, and a mass of body organs.
 
 #### Role of Mollusks in the Environment
@@ -78,8 +80,6 @@ Mollusks are generally made up of a soft body and shell. Slugs, squids, and octo
 Many mollusks feed on bits of decaying plants and animals, which helps clean up their environment. Scientists sometimes use certain mollusks to measure the level of pollutants in their sea environments.
 
 Some mollusks, such as snails and slugs, eat plants, including many farm crops. But mollusks help humans, too. Squid, clams, and oysters are mollusks that are important food sources for humans and other animals. The shells and pearls produced by some mollusks are used for jewelry.
-
-![SNAIL](){: .materialboxed .responsive-img }
 
 ### Arthropods
 
