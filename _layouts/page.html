@@ -12,48 +12,12 @@ layout: default
 
     <aside class="col s12 m4">
       <span class="pin-wrapper">
+        
+        {% if page.url contains "hse" %}{% include aside_hse.html %}{% endif %}
 
-        {% assign a = page.collection %}
-        <div class="collection with-header">
-          <div class="collection-header center-align">
-            <img src="{{ page.image_path | prepend: site.baseurl }}" class="responsive-img" style="height:84px" />
-          </div>
-          <div class="collection-item {{ page.color }} white-text">
-            {{ page.tagline | upcase }}
-          </div>
+        
 
-          {% for p in site.[a] %}
-          {% if p.categories == page.categories %}
-          <a href="{{ p.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
-
-          {% endif %}
-          {% endfor %}
-          <div class="collection-item {{ page.color }} white-text"></div>
-        </div>
-
-        {% if site.data.[a] %}
-        <ul class="collapsible" data-collapsible="accordion">
-
-          {% for p in site.data.[a] %}
-          <li>
-            <div class="collapsible-header {{ page.color }} white-text waves-effect waves-light">
-              <i class="material-icons rotate">expand_more</i>
-              {{ p.title | titleize }}
-            </div>
-            <div class="collapsible-body">
-              <div class="collection">
-
-                {% for q in p.docs %}
-                <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
-
-                {% endfor %}
-              </div>
-            </div>
-          </li>
-
-          {% endfor %}
-          {% endif %}
-        </ul>
+        
       </span>
     </aside>
   </div>

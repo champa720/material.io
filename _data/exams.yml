@@ -1,41 +1,63 @@
 ged:
-  - title: Learning Library
-    url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-ged-test
-    tag: online
-  - title: Learning Library ( Espa&ntilde;ol )
-    url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/ged-en-espanol
-    tag: online
-  - title:
-    url: http://www.kaptest.com/pages/booksonline
-    tag: 
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
+  - title: More GED<sup>&reg;</sup> Resources
+    docs:
+    - title: "Learning Library"
+      tagline: "With practice, you can get a great score on every part of the GED® test. Here's how to get started:"
+      url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-ged-test
+      image_path: /assets/img/lel-logo-1x.png
+
+    - title: "Learning Library ( Español )"
+      tagline: "Con la práctica puede obtener un gran resultado en cada parte de la versión en español del examen de GED®. Aquí le mostramos cómo es que el examen empieza:"
+      url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/ged-en-espanol
+      image_path: /assets/img/lel-logo-1x.png
+
+    - title: "World Cat: The World's Largest Library Catalog"
+      tagline: "GED Test 2016: Strategies, Practice, and Review"
+      url: https://www.worldcat.org/title/ged-test-2016-strategies-practice-review/oclc/908373367
+      image_path: /assets/img/worldcat-logo-1x.png
+
+    - title: "Kaplan Books Online"
+      tagline: 
+      url: http://www.kaptest.com/pages/booksonline
+      image_path: /assets/img/ktp-logo-1x.png
+
+    - title: "Texas Instruments TI-30XS Multiview"
+      tagline: "Texas Instruments TI-30XS on-screen calculator will automatically be available when you sit for the GED<sup>&reg;</sup> test on computer after January 2nd, 2014 for all but a select few Mathematical Reasoning questions, and some Social Studies and Science questions."
+      url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
+      image_path: /assets/img/amazon-logo-1x.png
 
 hiset:
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
+  - title: More <em>HiSET</em><sup>&reg;</sup> Resources
+    docs:
+    - title: "Learning Library"
+      tagline: "With practice, you can get a great score on every part of the <em>HiSET</em><sup>&reg;</sup>. Here&#39;s how to get started:"
+      url:  http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-hiset-exam
+      image_path: /assets/img/lel-logo-1x.png
+
+    - title: "Texas Instruments TI-30XS Multiview"
+      tagline: "Calculators are provided by test centers. You may not bring your own calculator to the test center."
+      url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
+      image_path: /assets/img/amazon-logo-1x.png
 
 tasc:
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
-  - title:
-    url: 
-    tag: 
+  - title: More TASC Test Resources
+    docs:
+    - title: "Learning Library"
+      tagline: "With practice, you can get a great score on every part of TASC Test Assessing Secondary Completion. Here's how to get started:"
+      url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-tasc-test
+      image_path: /assets/img/lel-logo-1x.png
+
+    - title: "World Cat: The World's Largest Library Catalog"
+      tagline: "TASC: strategies, practice, & review 2015-2016"
+      url: https://www.worldcat.org/title/tasc-strategies-practice-review-2015-2016/oclc/873007237
+      image_path: /assets/img/worldcat-logo-1x.png
+
+    - title: "Kaplan Books Online"
+      tagline: 
+      url: http://www.kaptest.com/pages/booksonline
+      image_path: /assets/img/ktp-logo-1x.png
+
+    - title: "Texas Instruments TI-30XS Multiview"
+      tagline: "The TI-30XS is the recommended calculator for use on the TASC test."
+      url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
+      image_path: /assets/img/amazon-logo-1x.png

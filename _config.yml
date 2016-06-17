@@ -111,7 +111,6 @@ defaults:
   - scope:
       type: cde
     values:
-      layout: page
       image_path: /assets/img/cde-shield-1x.png
   - scope:
       type: curriculum
