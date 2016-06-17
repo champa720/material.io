@@ -13,7 +13,9 @@ layout: default
     <aside class="col s12 m4">
       <span class="pin-wrapper">
         
-        {% if page.url contains "hse" %}{% include aside_hse.html %}{% endif %}
+        {% if page.url contains "/hse/" or page.url contains "/cde/" %}
+        {% include aside_hse.html %}
+        {% endif %}
 
         
 
