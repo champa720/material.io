@@ -1,0 +1,23 @@
+{% assign a = page.collection %}
+<div class="collection with-header">
+  <div class="collection-header center-align">
+    <img src="{{ page.image_path | prepend: site.baseurl }}" class="responsive-img" style="height:84px" />
+  </div>
+  <div class="collection-item {{ page.color }} white-text">
+    {{ page.tagline | upcase }}
+  </div>
+
+  {% for c in site.[a] %}
+  {% if c.categories == page.categories and c.url contains 'index' %}
+  <a href="{{ c.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url contains c.url %} active{% endif %}">{{ c.title }}</a>
+
+  {% endif %}
+  {% endfor %}
+  <div class="collection-item {{ page.color }} white-text"></div>
+</div>
+
+{% comment %}
+
+insert videos // external resources
+
+{% endcomment %}
