@@ -5,21 +5,24 @@ layout: default
   <div class="row">
 
     <div class="col s12 m8 flow-text">
-      
-      <p class="valign-wrapper {{ page.color }}-text text-darken-3">
-        {% assign words = content | number_of_words %}
-        <i class="material-icons left">access_time</i>read time: 
-        {% if 360 > words %}
-        1 minute
-        {% else %}
-        {{ words | divided_by:180 }} minutes
-        {% endif %}
+
+      {% if page.url contains "/materials/" %}
+      <p id="time">
+        <span class="valign-wrapper {{ page.color }}-text text-darken-3">
+          {% assign words = content | number_of_words %}
+          <i class="material-icons left">timer</i>{{ "read time: " }}{% if 360 > words %}1 minute{% else %}{{ words | divided_by:180 }} minutes{% endif %}
+        </span>
+        <span class="valign-wrapper {{ page.color }}-text text-darken-3">
+          {% assign words = content | number_of_words %}
+          <i class="material-icons left">access_time</i>{{ "study time: " }}{% if 360 > words %}1 minute{% else %}{{ words | divided_by:45 }} minutes{% endif %}
+        </span>
       </p>
+      {% endif %}
 
       <span class="page-content">
         {{ content }}
       </span>
-      
+
     </div>
 
     <aside class="col s12 m4">
