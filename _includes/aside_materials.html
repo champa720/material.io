@@ -1,4 +1,9 @@
 {% assign a = page.collection %}
+{% assign b = page.categories %}
+{% capture z %}{{ page.categories }}{% endcapture %}
+
+{% capture page_url %}{{ page.url | split: '/' | last }}{% endcapture %}
+
 <div class="collection with-header">
   <div class="collection-header center-align">
     <img src="{{ page.image_path | prepend: site.baseurl }}" class="responsive-img" style="height:84px" />
@@ -8,16 +13,34 @@
   </div>
 
   {% for c in site.[a] %}
-  {% if c.categories == page.categories and c.url contains 'index' %}
-  <a href="{{ c.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if page.url contains c.url %} active{% endif %}">{{ c.title }}</a>
+  {% if c.categories == b and c.url contains 'index' %}
+
+  {% capture url %}{{ c.url | remove: 'index' }}{% endcapture %}
+  {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
+  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active{% endif %}">{{ toc | replace: '-',' ' | titleize }} : {{ c.title }}</a>
 
   {% endif %}
   {% endfor %}
   <div class="collection-item {{ page.color }} white-text"></div>
 </div>
 
-{% comment %}
+{% for data in site.data.[a].[z] %}
+{% if page_url == data.title %}
 
-insert videos // external resources
+{% for v in data.videos %}
+<div class="card">
+  <div class="card-image video-container">
+    <iframe width="853" height="480" src="{{ v.url }}?rel=0&hl=es;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="card-action">
+    <a href="{{ v.url }}" target="_blank" class="truncate">{{ v.title }}</a>
+  </div>
+</div>
+{% endfor%}
 
-{% endcomment %}
+{% for m in data.movies %}
+<p>{{ m.title }} // {{ m.url }}</p>
+{% endfor%}
+
+{% endif %}
+{% endfor %}
