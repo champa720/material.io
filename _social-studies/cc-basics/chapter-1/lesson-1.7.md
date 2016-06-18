@@ -55,7 +55,7 @@ Foreign aid is the help that one country offers to other countries. This aid can
 
 The major federal agency involved in managing US aid programs is known as the United States Agency for International Development (USAID). Aid programs are operating in Sub-Saharan Africa, Asia, Latin America and the Caribbean, Europe and Eurasia, and the Middle East. The agency offers aid in such areas as agriculture, government, environment, and education.
 
-![Foreign Aid](.../img/usaid.jpg){: .responsive-img .materialboxed }
+![Foreign Aid](img/usaid.jpg){: .responsive-img .materialboxed }
 
 [https://www.usaid.gov/](https://www.usaid.gov/){: target="_blank" }
 

@@ -60,7 +60,7 @@ Now think of the trillions of economic transactions that take place every day ar
 
 ## Productivity and Interdependence
 
-![Adam Smith](.../img/adam-smith.jpg){: .responsive-img .materialboxed }
+![Adam Smith](img/adam-smith.jpg){: .responsive-img .materialboxed }
 
 Adam Smith is sometimes called the father of modern economics. In his book The Wealth of Nations (1776), Smith described a pin factory that employed ten pin makers. Smith wrote that if each pin maker made pins alone, each pin maker could produce 20 pins a day. In total, all ten workers could make 200 pins in a day. However, if the pin makers divided the work-with one worker unrolling and straightening the wire, another cutting the wire, a third grinding the tip, and so on-they could make more pins. A lot more pins. Instead of 200 pins a day, the same number of workers could produce 48,000 pins in the same amount of time.
 

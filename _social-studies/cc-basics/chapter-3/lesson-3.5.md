@@ -84,7 +84,7 @@ In 2007-2008, a recession led to a rapid economic decline in housing, banks, aut
 
 Americans were becoming increasingly aware of environmental issues. Drastic climate change, also known as global warming was a great concern. This concern grew in 2012, as heat waves and storms, like Hurricane Sandy, affected much of the United States. The need to develop renewable energy resources became more urgent. Automobile companies worked to develop cars that ran on biologically-based fuels other than gasoline. Other companies created new materials and technologies that generated power from sustainable energy sources such as wind, the Sun, and heat deep in the ground.
 
-![Wind Turbines](.../img/wind_turbines.jpg){: .responsive-img .materialboxed }
+![Wind Turbines](img/wind_turbines.jpg){: .responsive-img .materialboxed }
 
 [http://www.loc.gov/pictures/item/2010630507/](http://www.loc.gov/pictures/item/2010630507/){: target="_blank" }
 

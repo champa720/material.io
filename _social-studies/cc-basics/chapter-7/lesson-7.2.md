@@ -67,7 +67,7 @@ Globalization is supported by many international organizations. These institutio
 | United Nations (UN) | Establishes a forum to discuss and promote global security, economic development, and social progress |
 {: .bordered .striped }
 
-![Free Trade Political Cartoon](.../img/free_trade.png){: .responsive-img .materialboxed }
+![Free Trade Political Cartoon](img/free_trade.png){: .responsive-img .materialboxed }
 
 ### Benefits and Costs of Globalization
 

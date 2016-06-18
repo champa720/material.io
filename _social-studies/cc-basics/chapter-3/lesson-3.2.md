@@ -81,7 +81,7 @@ The movement to end discrimination (unfair treatment) and guarantee African-Amer
 
 In 1963, President Kennedy announced a civil rights bill. The bill would ban segregation in public places and end discrimination in voting and employment. However, the bill stalled in the Senate. To pressure Congress to pass the bill, Dr. King organized a march in Washington, DC. More than 200,000 supporters joined the march. It was there that King gave his famous "I Have a Dream" speech.
 
-![Martin Luther King Jr. Memorial](.../img/mlk_memorial.jpg){: .responsive-img .materialboxed }
+![Martin Luther King Jr. Memorial](img/mlk_memorial.jpg){: .responsive-img .materialboxed }
 
 [http://www.loc.gov/pictures/item/2013650718/](http://www.loc.gov/pictures/item/2013650718/){: target="_blank" }
 

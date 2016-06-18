@@ -51,7 +51,7 @@ Presidential elections are held every four years. In the summer before the Novem
 
 Many people vote for the same political party at each election. Others consider themselves independents. They switch parties depending on the issues or candidates. Sometimes they support third parties, such as the Libertarian or Populist parties. Third parties tend to have narrower interests compared to the broader platforms of the two major parties.
 
-![Political Cartoon](.../img/cagle.com.jpg){: .responsive-img .materialboxed }
+![Political Cartoon](img/cagle.com.jpg){: .responsive-img .materialboxed }
 
 [http://www.cagle.com/](http://www.cagle.com/){: target="_blank" }
 

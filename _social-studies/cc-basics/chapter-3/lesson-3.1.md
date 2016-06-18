@@ -65,7 +65,7 @@ World War II was truly a "world" war. Fighting raged in Europe, Asia, Africa, an
 
 At home, major industries quickly mobilized to produce war goods after the Lend-Lease Act was passed. Many men were drafted into the armed forces or joined voluntarily. As they left their jobs behind, women took their places. Women also served in the military in noncombat positions. A system of rationing, limiting the availability of food and other products, was put in place. Americans planted "Victory Gardens" to grow their own fruits and vegetables. They organized scrap drives to collect and reuse paper, rubber, and metals such as copper and steel.
 
-![War Ration Book](.../img/war_rations.jpg){: .responsive-img .materialboxed }
+![War Ration Book](img/war_rations.jpg){: .responsive-img .materialboxed }
 
 [http://www.loc.gov/pictures/item/oem2002007228/PP/](http://www.loc.gov/pictures/item/oem2002007228/PP/){: target="_blank" }
 

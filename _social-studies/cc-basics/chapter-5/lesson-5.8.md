@@ -53,13 +53,13 @@ Because the government collects and spends so much money, its fiscal policies ha
 
 Federal tax policies not only raise the money that the government needs, they also attempt to change the way people and businesses spend money. Many economists (people who study the economy) believe businesses and individuals will spend more money if they pay less taxes. When people buy more goods and services, there is more economic activity and more jobs are created. This, in turn, increases the amount of taxes collected. Tax policy is also used to discourage behavior. For example, the federal government has increased the taxes on tobacco products as a means of discouraging smoking.
 
-![Fiscal Policy](.../img/government-expenditures.png){: .responsive-img .materialboxed }
+![Fiscal Policy](img/government-expenditures.png){: .responsive-img .materialboxed }
 
 Federal spending policy is a powerful tool as well. By buying hundreds of billions of dollars' worth of goods and services from private businesses, the federal government helps the economy. Often the government increases its expenditures in bad economic times in order to increase economic activity. For example, the federal government may provide additional benefits to people who lose their jobs so these people can continue to spend money and keep the economy moving.
 
 For many years, the federal government has spent billions of dollars more than it has taken in. To cover its costs, it has borrowed large sums of money. The money that the federal government owes is called the national debt. Interest payments on the national debt are a major expenditure. This is a subject of concern to some economists.
 
-![Fiscal Policy](.../img/government-revenues.png){: .responsive-img .materialboxed }
+![Fiscal Policy](img/government-revenues.png){: .responsive-img .materialboxed }
 
 ## Monetary Policy
 

@@ -64,7 +64,7 @@ The European Union (EU) is an organization of 27 nations from both Western and E
 
 Military alliances are formed to provide countries with defense and security. An alliance is a formal agreement that establishes an association between nations. The North Atlantic Treaty Organization (NATO) is a military alliance mad: up o: the United Sta:es, Canada, and 26 European nations. It was established m ~949. The United States entered into several international alliances following World War II with the goal of preventing future aggression from the Soviet Union.
 
-![Military Alliances after WWII](.../img/military-alliances.png){: .responsive-img .materialboxed }
+![Military Alliances after WWII](img/military-alliances.png){: .responsive-img .materialboxed }
 
 Members of NATO have agreed to settle disputes peacefully and to support each other in the event of attack from another country. This idea is set out in the North Atlantic Treaty, which states that "an armed attack against one or more of them in Europe or in North America shall be considered an attack against them all."
 

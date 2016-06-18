@@ -41,7 +41,7 @@ To prevent an imbalance (lack of equality) of power, the Constitution divided th
 
 This graphic shows the branches of US government.
 
-![Three Branches of Government](.../img/usa_government_branches_infographic.png){: .responsive-img .materialboxed }
+![Three Branches of Government](img/usa_government_branches_infographic.png){: .responsive-img .materialboxed }
 
 [https://www.usa.gov/branches-of-government](https://www.usa.gov/branches-of-government){: target="_blank" }
 

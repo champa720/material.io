@@ -81,7 +81,7 @@ The Mexican government gave grants of land in its province of Texas to American 
 
 In 1845, the United States annexed, or added on, Texas as a state. This angered many Mexicans. When US troops occupied a border region claimed by Mexico, the Mexican War began. The United States won the war. It took control of an area that now makes up the states of California, Nevada, Utah, Arizona, New Mexico, Texas, and parts of Oklahoma, Kansas, Colorado, and Wyoming. The United States also acquired the Oregon Territory from England.
 
-![The United States 1783-1853](.../img/1783-1853.jpg){: .responsive-img .materialboxed }
+![The United States 1783-1853](img/1783-1853.jpg){: .responsive-img .materialboxed }
 [http://www.learner.org/](http://www.learner.org/){: target="blank" }
 
 ### Economic Development

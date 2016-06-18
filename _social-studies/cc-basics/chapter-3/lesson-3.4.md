@@ -57,7 +57,7 @@ Toward the end of the 1970s, the United States was becoming more conservative. I
 
 To help the economy, Reagan and Congress passed a 25 percent tax cut. Major cuts were made to spending on social programs to keep the budget deficit, or shortage, under control. Reagan eliminated many government regulations, or rules, especially in the transportation, energy, and banking industries. The economy began to recover and Reagan won reelection in 1984. In 1988, his vice president, George H. W. Bush, was the Republican candidate. He, too, was elected.
 
-![Political Cartoon](.../img/cagle.com_reagan.jpg){: .responsive-img .materialboxed }
+![Political Cartoon](img/cagle.com_reagan.jpg){: .responsive-img .materialboxed }
 
 [http://www.cagle.com/news/ronaldreagan/](http://www.cagle.com/news/ronaldreagan/){: target="_blank" }
 

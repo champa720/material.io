@@ -76,7 +76,7 @@ Isolationism meant that world affairs were quiet for the United States in the 19
 
 Chain stores and department stores replaced small shops. Industrial production rose 64 percent between 1919 and 1923. Many workers' real wages (that is, wages adjusted for inflation) rose 24 percent. Stock dividends often increased by 100 percent. Expanding industry brought more women into the work force. The Nineteenth Amendment (1920) gave women the right to vote.
 
-![Women out in force](.../img/1920_election_day.jpg){: .responsive-img .materialboxed}
+![Women out in force](img/1920_election_day.jpg){: .responsive-img .materialboxed}
 
 [http://www.loc.gov/pictures/item/2002695608/](http://www.loc.gov/pictures/item/2002695608/){: target="_blank"}
 

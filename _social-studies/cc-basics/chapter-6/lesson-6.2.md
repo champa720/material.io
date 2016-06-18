@@ -46,7 +46,7 @@ Industrialization caused huge growth in the population of cities and towns. Amer
 
 Industry centered around sources of raw materials, energy sources, and good transportation. New industry was needed to build housing and transportation for the new urban areas. A boom in immigration from Europe helped US cities grow. About 25 million Europeans were recruited, or enlisted, to work in US mines, mills, and forges. Many of these immigrants had faced hard economic times and political problems in their homelands. They came to the United States to find a better life. However, the new immigrants often faced poverty and discrimination in their new homeland.
 
-![FDR Political Cartoon](.../img/fdr_political_cartoon.png){: .responsive-img .materialboxed }
+![FDR Political Cartoon](img/fdr_political_cartoon.png){: .responsive-img .materialboxed }
 
 A powerful group of businessmen developed during this period of industrialization. Andrew Carnegie, John D. Rockefeller, J. P. Morgan, Cornelius Vanderbilt, and others controlled giant companies that ruled the US economy. They created monopolies, businesses that owned nearly all of the market for one particular type of goods or services. The power of these business leaders was often misused to keep prices high and wages of their workers low. Because they controlled large sectors of US industry, these business owners were able to influence politics so laws would be passed that were favorable to their businesses.
 

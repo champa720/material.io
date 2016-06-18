@@ -88,7 +88,7 @@ Clara's Clothing Outlet can produce 1,000 T-shirts or 500 sweatshirts per day, b
 | Sweatshirts | 0 | 200 | 400 | 500 |
 {: .bordered .striped }
 
-![Production Possibilities Curve](.../img/ppc.png){: .responsive-img .materialboxed }
+![Production Possibilities Curve](img/ppc.png){: .responsive-img .materialboxed }
 
 Notice option A-if the firm produces 1,000 T-shirts, 0 sweatshirts are produced. This is the case when all of the firm's resources are used to produce T-shirts. With option B, however, some of the firm's resources are switched from the production of T-shirts to the production of sweatshirts, so the firm can produce 800 T-shirts and 200 sweatshirts. With option D, all of the firm's resources are used to produce 500 sweatshirts, and no resources are available to produce any T-shirts.
 

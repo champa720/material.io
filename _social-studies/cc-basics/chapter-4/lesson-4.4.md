@@ -63,7 +63,7 @@ The United States is the world's largest consumer of energy. However, countries 
 
 The HIV/ AIDS crisis is another major problem in the twenty-first century. The first known cases of AIDS were reported in 1981. The World Health Organization (WHO) estimated that about 34 million people w~re living with HIV in 2011. About 1.7 million people around the world died from AIDS that year. Caribbean nations and the sub-Saharan nations of Africa are most critically affected. Although only about 10 percent of the world's people live in sub-Saharan Africa, about 70 percent of those infected with HIV live there. No place on the globe is immune. New drugs make it possible for people with the disease to live, but efforts to prevent the spread of the disease have not been effective so far.
 
-![Adults Living with HIV, 2011](.../img/hiv-2011.png){: .reponsive-img .materialboxed }
+![Adults Living with HIV, 2011](img/hiv-2011.png){: .reponsive-img .materialboxed }
 
 ### Terrorism
 

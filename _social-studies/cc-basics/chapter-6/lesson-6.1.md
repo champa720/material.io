@@ -77,7 +77,7 @@ Then entered an economist named John Maynard Keynes.
 
 ## Keynesian Economics and the New Deal
 
-![John Maynard Keynes](.../img/john_maynard_kaynes.png){: .responsive-img .materialboxed }
+![John Maynard Keynes](img/john_maynard_kaynes.png){: .responsive-img .materialboxed }
 
 John Maynard Keynes (1883-1946) was a British economist. During the Great Depression, he wrote a book stating that governments should use their powers to manage economies. Economists had previously argued that government should stay out of economic affairs. Their approach, called laissez-faire [less' -ay fair'], is French for "let it be."
 
