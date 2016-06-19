@@ -9,8 +9,23 @@
             <i class="material-icons">menu</i>
           </a>
           {% endunless %}
-          <!-- social media -->
+          <!-- nav links -->
           <ul class="right">
+            {% if page.url contains 'materials' and page.layout != 'page_index' %}
+            
+            {% for a in site.collections %}
+            {% if a.categories == 'study materials' %}
+            <li class="waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ a.label | upcase }}">
+              <a href="{{ a.label | prepend: '/materials/' | prepend: site.base.url | prepend: site.url }}">
+                <i class="material-icons {{ a.color }}-text">{{ a.icon }}</i>
+                <span class="icon-text">{{ a.label }}</span>
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            
+            {% else %}
+            
             {% for media in site.social %}
             <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
               <a href="{{ media.url }}" target="_blank">
@@ -19,6 +34,8 @@
               </a>
             </li>
             {% endfor %}
+            
+            {% endif %}
           </ul>
         </span>
       </div>

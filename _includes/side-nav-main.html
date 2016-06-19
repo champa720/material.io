@@ -23,3 +23,40 @@
     <span>{{ page.author | upcase }}</span>
   </footer>
 </ul>
+
+<!-- side-nav-collection -->
+{% if page.layout == 'collection' %}
+
+{% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
+
+{% for b in a %}
+<ul id="{{ b.name }}-menu" class="side-nav">
+  <span class="side-nav-main">
+    <li class="{{ page.color }} white-text center-align">
+      <strong><a href="/">{{ site.title | upcase }}</a></strong>
+    </li>
+
+    {% for p in b.items %}
+    {% if p.url contains 'index' and p.layout != 'collection_index' %}
+
+    {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
+    {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
+
+    <li class="{% if p.url == page.url %}active{% endif %}">
+      <a href="{{ url }}" class="truncate">
+        {{ toc | replace: '-',' ' | upcase }} : {{ p.title | upcase }}
+        <!-- <i class="material-icons right">chevron_right</i> -->
+      </a>
+    </li>
+
+    {% endif %}
+    {% endfor %}
+  </span>
+  <footer class="footer-copyright center-align">
+    <span>&copy;</span>
+    <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+    <span>{{ page.author | upcase }}</span>
+  </footer>
+</ul>
+{% endfor %}
+{% endif %}

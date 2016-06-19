@@ -12,17 +12,20 @@ layout: default
 
   </div>
 
-  {% assign a = site.[page.collection] | group_by: 'categories' %}
+  {% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
   <div class="valign-wrapper">
     <div class="container">
       <div class="row">
 
         {% for b in a %}
+        
+        {% capture name %}{{ b.name }}{% endcapture %}
+        
         {% for c in b.items %}
         {% if forloop.first and c.image_path != null %}
         <div class="col s6 m4">
           <div class="card hoverable">
-            <a href="{{ c.categories }}">
+            <a href="#!" data-activates="{{ name }}-menu" class="button-collapse">
               <div class="card-image">
                 <img src="{{ c.image_path }}" />
               </div>

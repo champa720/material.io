@@ -1,6 +1,5 @@
 {% assign a = page.collection %}
-{% assign b = page.categories %}
-{% capture z %}{{ page.categories }}{% endcapture %}
+{% assign b = page.category %}
 
 {% capture page_url %}{{ page.url | split: '/' | last }}{% endcapture %}
 
@@ -13,7 +12,7 @@
   </div>
 
   {% for c in site.[a] %}
-  {% if c.categories == b and c.url contains 'index' %}
+  {% if c.category == b and c.url contains 'index' %}
 
   {% capture url %}{{ c.url | remove: 'index' }}{% endcapture %}
   {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
@@ -24,7 +23,7 @@
   <div class="collection-item {{ page.color }} white-text"></div>
 </div>
 
-{% for data in site.data.[a].[z] %}
+{% for data in site.data.[a].[b] %}
 {% if page_url == data.title %}
 
 {% for v in data.videos %}

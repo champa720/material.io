@@ -60,13 +60,23 @@ h4, h5, h6 {
 }
 
 // casper
-p, ul, ol, dl, table {
-  -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  margin: 0 0 1.75em 0; // breathing space around paragraphs ***
-  text-rendering: geometricPrecision;
+.page {
+  & a, p, ul, ol, dl, table {
+    -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    margin: 0 0 1.75em 0; // breathing space around paragraphs ***
+    text-rendering: geometricPrecision;
+  }
+}
+
+.card .card-action a {
+  margin-bottom: 0; // reset of casper
+}
+
+.page #time {
+  margin: 1em 0; // reset of casper
 }
 
 h1, h2.sub,
