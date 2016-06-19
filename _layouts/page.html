@@ -8,7 +8,7 @@ layout: default
 
       {% if page.url contains "/materials/" %}
       <p id="time">
-        <span class="valign-wrapper {{ page.color }}-text text-darken-3">
+        <span class="valign-wrapper {{ page.color }}-text text-accent-4">
           {% assign words = content | number_of_words %}
           <i class="material-icons left">timer</i>{{ "read time: " }}{% if 360 > words %}1 minute{% else %}{{ words | divided_by:180 }} minutes{% endif %}
         </span>
