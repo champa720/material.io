@@ -19,17 +19,17 @@ layout: default
         {% for a in site.collections %}
         {% if a.categories == page.categories %}
         <div class="col s12 m6 l4">
-          <div class="collection with-header hoverable">
+          <div class="collection hoverable">
 
             <a href="{{ a.label }}">
 
               {% if a.image_path %}
-              <div class="collection-header center-align">
+              <div class="collection-item center-align">
                 <img src="{{ a.image_path }}" class="responsive-img" style="height:84px" />
               </div>
 
               {% elsif a.icon %}
-              <div class="collection-header {{ a.color }} center-align">
+              <div class="collection-item {{ a.color }} center-align">
                 <i class="material-icons" style="font-size:84px; color:ghostwhite;">{{ a.icon }}</i>
               </div>
 

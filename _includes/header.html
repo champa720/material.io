@@ -17,7 +17,7 @@
             {% if a.categories == 'study materials' %}
             <li class="waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ a.label | upcase }}">
               <a href="{{ a.label | prepend: '/materials/' | prepend: site.base.url | prepend: site.url }}">
-                <i class="material-icons {{ a.color }}-text">{{ a.icon }}</i>
+                <i class="material-icons {{ a.color }}-text text-accent-1">{{ a.icon }}</i>
                 <span class="icon-text">{{ a.label }}</span>
               </a>
             </li>

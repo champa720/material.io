@@ -11,12 +11,13 @@
     {{ page.tagline | upcase }}
   </div>
 
-  {% for c in site.[a] %}
-  {% if c.category == b and c.url contains 'index' %}
+  {% for p in site.[a] %}
+  {% if p.category == b and p.url contains 'index' %}
 
-  {% capture url %}{{ c.url | remove: 'index' }}{% endcapture %}
+  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
   {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
-  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active{% endif %}">{{ toc | replace: '-',' ' | titleize }} : {{ c.title }}</a>
+  
+  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active{% endif %}">{{ toc | replace: '-',' ' | titleize }} : {{ p.title }}</a>
 
   {% endif %}
   {% endfor %}

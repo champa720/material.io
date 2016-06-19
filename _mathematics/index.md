@@ -1,4 +1,5 @@
 ---
-layout: page_index
-title: Mathematics Index
+layout: collection
+title: Mathematics Collection
+permalink: /materials/:collection/
 ---

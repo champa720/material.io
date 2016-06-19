@@ -13,6 +13,7 @@ layout: default
   </div>
 
   {% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
+  
   <div class="valign-wrapper">
     <div class="container">
       <div class="row">
@@ -21,13 +22,14 @@ layout: default
         
         {% capture name %}{{ b.name }}{% endcapture %}
         
-        {% for c in b.items %}
-        {% if forloop.first and c.image_path != null %}
+        {% for p in b.items limit:1 reversed %}
+        {% if p.image_path != null %}
+        
         <div class="col s6 m4">
           <div class="card hoverable">
             <a href="#!" data-activates="{{ name }}-menu" class="button-collapse">
               <div class="card-image">
-                <img src="{{ c.image_path }}" />
+                <img src="{{ p.image_path }}" />
               </div>
             </a>
           </div>

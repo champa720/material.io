@@ -1,3 +1,5 @@
 ---
-title: Reading Index
+layout: collection
+title: Reading Collection
+permalink: /materials/:collection/
 ---

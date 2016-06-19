@@ -3,42 +3,42 @@ layout: default
 title: table of contents
 ---
 
-{% assign collections = site.collections | group_by: 'categories' | sort: 'name' %}
+{% assign a = site.collections | group_by: 'categories' | sort: 'name' %}
 
-{% for c in collections %}
-{% if c.name != 'null' %}
+{% for b in a %}
+{% if b.name != 'null' %}
 <div class="section">
   <div class="valign-wrapper">
     <div class="container">
       <div class="row">
-        <h2 class="sub page-title grey-text text-darken-2 center-align">{{ c.name | upcase }}</h2>
+        <h2 class="sub page-title grey-text text-darken-2 center-align">{{ b.name | upcase }}</h2>
 
-        {% for a in c.items %}
+        {% for p in b.items %}
         <div class="col s12 m6 l4">
-          <div class="collection with-header hoverable">
+          <div class="collection hoverable">
             <!-- constructed anchor link -->
-            <a href="{{ a.label | prepend: a.permalink | remove: ':collection/:path' }}">
+            <a href="{{ p.label | prepend: p.permalink | remove: ':collection/:path' }}">
 
-              {% if a.image_path %}
-              <div class="collection-header center-align">
-                <img src="{{ a.image_path }}" class="responsive-img" style="height:84px" />
+              {% if p.image_path %}
+              <div class="collection-item center-align">
+                <img src="{{ p.image_path }}" class="responsive-img" style="height:84px" />
               </div>
 
-              {% elsif a.icon %}
-              <div class="collection-header {{ a.color }} center-align">
-                <i class="material-icons" style="font-size:84px; color:ghostwhite;">{{ a.icon }}</i>
+              {% elsif p.icon %}
+              <div class="collection-item {{ p.color }} center-align">
+                <i class="material-icons" style="font-size:84px; color:ghostwhite;">{{ p.icon }}</i>
               </div>
 
               {% endif %}
 
-              {% if a.tagline %}
+              {% if p.tagline %}
               <div class="collection-item {{ page.color }}" style="color:ghostwhite;">
-                {{ a.tagline | upcase }}
+                {{ p.tagline | upcase }}
               </div>
 
-              {% elsif a.label %}
+              {% elsif p.label %}
               <div class="collection-item {{ page.color }} center-align" style="color:ghostwhite;">
-                {{ a.label | upcase }}
+                {{ p.label | upcase }}
               </div>
 
               {% endif %}

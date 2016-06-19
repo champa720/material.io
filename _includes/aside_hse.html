@@ -7,9 +7,9 @@
     {{ page.tagline | upcase }}
   </div>
 
-  {% for c in site.[a] %}
-  {% if c.categories == page.categories %}
-  <a href="{{ c.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if c.url == page.url %} active{% endif %}">{{ c.title }}</a>
+  {% for p in site.[a] %}
+  {% if p.categories == page.categories %}
+  <a href="{{ p.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
 
   {% endif %}
   {% endfor %}

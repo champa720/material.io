@@ -30,6 +30,7 @@
 {% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
 
 {% for b in a %}
+
 <ul id="{{ b.name }}-menu" class="side-nav">
   <span class="side-nav-main">
     <li class="{{ page.color }} white-text center-align">
@@ -37,7 +38,7 @@
     </li>
 
     {% for p in b.items %}
-    {% if p.url contains 'index' and p.layout != 'collection_index' %}
+    {% if p.url contains 'index' %}
 
     {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
     {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
