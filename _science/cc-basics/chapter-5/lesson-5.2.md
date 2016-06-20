@@ -20,10 +20,10 @@ vocabulary:
 - Punnett square
 
 key_concept:
-- concept: >
+- concept: |
     Traits, or characteristics, are transmitted from one generation to the next. This transmission is called heredity. The young. also called offspring, resemble their parents. However, there are also differences, or variations, between them. The traits we observe in an organism represent its phenotype. The genetic information underlying the phenotype is called the genotype.
-
-Traits con be dominant or recessive. Dominant traits are expressed. They are the traits that you observe. Recessive traits may or may not be expressed, depending on other factors.
+    |
+    Traits con be dominant or recessive. Dominant traits are expressed. They are the traits that you observe. Recessive traits may or may not be expressed, depending on other factors.
 
 - example: >
     Have you ever looked at photographs of celebrities and their children and noticed a strong resemblance? Or perhaps you resemble someone in your family. An organism's traits, or characteristics, are passed from parents to their offspring on chromosomes. Chromosomes are threads of proteins and a substance coiled DNA. or deoxyribonucleic acid, which contains small sections called genes. Each gene lives in a specific spot on a chromosome. This spot is called a gene's locus. Different genes live at different loci. You con think of genes as computer code for specific traits.
