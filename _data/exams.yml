@@ -17,8 +17,11 @@ ged:
       image_path: /assets/img/worldcat-logo-1x.png
 
     - title: "Kaplan Books Online"
-      description: 
-      url: http://www.kaptest.com/pages/booksonline
+      description: |
+        Question: What is the first word of question 27 on page 325?
+        |
+        Answer: <b>Milania</b>
+      url: https://www.kaptest.com/booksonline/questkey.jhtml?clid=383017154
       image_path: /assets/img/ktp-logo-1x.png
 
     - title: "Texas Instruments TI-30XS Multiview"
