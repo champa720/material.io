@@ -21,15 +21,24 @@ main,
 }
 
 // fixed side-nav
-//#title-wrapper, main .page {
-//  padding-left: 300px;
-//}
+iframe#iframe {
+  padding-left: 240px;
+  border: none;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  bottom: 70px;
+  left: 0;
+  height: 100%;
+  width: 100%
+}
 //
-//@media only screen and (max-width : 992px) {
-//  #title-wrapper, main .page {
-//    padding-left: 0;
-//  }
-//}
+@media only screen and (max-width : 992px) {
+  iframe#iframe {
+    padding-left: 0;
+    top: 54px;
+  }
+}
 
 // index
 body.welcome {

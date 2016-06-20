@@ -1,6 +1,6 @@
 <footer class="page-footer {{ page.color }} darken-3">
 
-  {% unless page.url == '/' %}
+  {% unless page.url == '/' or page.layout == 'iframe' %}
   <div class="row">
     <span class="col s12">
       <span class="col s12 m8">

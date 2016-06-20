@@ -61,3 +61,30 @@
 </ul>
 {% endfor %}
 {% endif %}
+
+<!-- side-nav-curriculum -->
+{% if page.side-nav == 'curriculum' %}
+
+<ul id="{{ page.side-nav }}-menu" class="side-nav fixed">
+  <span class="side-nav-main">
+    <li class="{{ page.color }} white-text center-align">
+      <strong><a href="/">{{ site.title | upcase }}</a></strong>
+    </li>
+    
+    {% for doc in page.docs %}
+
+    <li class="{% if p.url == page.url %}active{% endif %}">
+      <a href="{{ doc | prepend: page.repository }}" target="#iframe" class="truncate">{{ doc }}
+        <!-- <i class="material-icons right">chevron_right</i> -->
+      </a>
+    </li>
+    
+    {% endfor %}
+  </span>
+  <footer class="footer-copyright center-align">
+    <span>&copy;</span>
+    <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+    <span>{{ page.author | upcase }}</span>
+  </footer>
+</ul>
+{% endif %}
