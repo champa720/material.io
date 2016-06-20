@@ -46,7 +46,7 @@
 
   {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
   
-  {% elsif page.url contains url %}
+  {% elsif p.category == b and page.url contains url %}
   {% capture lesson %}{{ p.url | split: '/' | last }}{% endcapture %}
 
   <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains p.url %} active{% endif %}">{{ lesson | replace: '-',' ' }} : {{ p.title }}</a>
