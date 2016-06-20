@@ -10,27 +10,27 @@ mathematics:
   - title: "Learning Express Library"
     description: "Build Your Math Skills: Math Skills Tutorials"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/build-your-math-skills/math-skills-tutorials/basic-math-tutorials
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
  
   - title: "Learning Express Library"
     description: "Build Your Math Skills: Algebra Skills Tutorials"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/build-your-math-skills/math-skills-tutorials/algebra-skills-tutorials
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
  
   - title: "Learning Express Library"
     description: "Build Your Math Skills: Math Test Preparation"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/build-your-math-skills/math-skills-ebooks/math-test-preparation
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
  
   - title: "Learning Express Library"
     description: "Basic Math Practice and Tutorials"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/math-skills-improvement/basic-math-practice-and-tutorials
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: "Learning Express Library"
     description: "Algebra Practice and Tutorials"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/math-skills-improvement/algebra-practice-and-tutorials
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
  
   - title: "Web Math Minute"
     description: "Practice Online: Addition, Subtraction, Multiplication, Division"
@@ -43,22 +43,22 @@ reading:
   - title: Learning Express Library
     description: Become a Better Reader
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-tutorials/become-a-better-reader
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: Learning Express Library
     description: General Reading Practice
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/reading-comprehension-skills-improvement/general-reading-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: Learning Express Library
     description: High School Reading Tutorials
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/reading-comprehension-skills-improvement/high-school-reading-tutorials
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: Learning Express Library
     description: Persuasive Reading Practice
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/reading-comprehension-skills-improvement/persuasive-reading-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
 science:
 - title: More Science Resources
@@ -67,12 +67,12 @@ science:
   - title: Learning Express Library
     description: Biology Practice
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/science-skills-improvement/biology-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
   
   - title: Learning Express Library
     description: Chemistry Practice
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/science-skills-improvement/chemistry-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
 social-studies:
 - title: More Social Studies Resources
@@ -81,17 +81,17 @@ social-studies:
   - title: "Learning Express Library"
     description: "Become a U.S. Citizen"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-u-s--citizen/prepare-for-your-citizenship-exam/citizenship-test-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: "Learning Express Library"
     description: "American History Practice"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/social-studies-skills-improvement/american-history-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
   - title: Learning Express Library
     description: "Geography Practice"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/social-studies-skills-improvement/geography-practice
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
 
 writing:
 - title: More Writing Resources
@@ -100,14 +100,14 @@ writing:
   - title: "Learning Express Library"
     description: "Improve Your Writing, Speaking, and Grammar"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/improve-your-writing-speaking-and-grammar/writing-and-grammar-skills-tutorials/writing-skills-tutorial
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
   
   - title: "Learning Express Library"
     description: "Grammar Skills Improvement"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/writing-and-grammar-skills-improvement/grammar-skills-improvement
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
       
   - title: "Learning Express Library"
     description: "Writing Skills Improvement"
     url: http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center/resources/high-school/writing-and-grammar-skills-improvement/writing-skills-improvement
-    image_path: /lel-logo-1x.png
+    image_path: /lel-logo.png
