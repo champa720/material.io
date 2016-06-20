@@ -3,17 +3,17 @@ layout: default
 title: table of contents
 ---
 
-{% assign a = site.collections | group_by: 'categories' | sort: 'name' %}
+{% assign x = site.collections | group_by: 'categories' | sort: 'name' %}
 
-{% for b in a %}
-{% if b.name != 'null' %}
+{% for a_grouped in x %}
+{% if a_grouped.name != 'null' %}
 <div class="section">
   <div class="valign-wrapper">
     <div class="container">
       <div class="row">
-        <h2 class="sub page-title grey-text text-darken-2 center-align">{{ b.name | upcase }}</h2>
+        <h2 class="sub page-title grey-text text-darken-2 center-align">{{ a_grouped.name | upcase }}</h2>
 
-        {% for p in b.items %}
+        {% for p in a_grouped.items %}
         <div class="col s12 m6 l4">
           <div class="collection hoverable">
             <!-- constructed anchor link -->

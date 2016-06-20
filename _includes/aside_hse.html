@@ -1,4 +1,5 @@
 {% assign a = page.collection %}
+
 <div class="collection with-header">
   <div class="collection-header center-align">
     <img src="{{ page.image_path | prepend: site.baseurl }}" class="responsive-img" style="height:84px" />
@@ -16,6 +17,7 @@
   <div class="collection-item {{ page.color }} white-text"></div>
 </div>
 
+<!-- data.[page.collection] -->
 {% if site.data.[a] %}
 <ul class="collapsible" data-collapsible="accordion">
 
@@ -40,6 +42,7 @@
   {% endif %}
 </ul>
 
+<!-- data.exams.[page.collection] -->
 {% if site.data.exams.[a] %}
 <div class="collection with-header">
   {% for data in site.data.exams.[a] %}
@@ -49,7 +52,7 @@
 
   {% for q in data.docs %}
   <div class="collection-item avatar">
-    <img src="{{ q.image_path }}" class="circle" />
+    <img src="{{ q.image_path | prepend: "/assets/img" | prepend: site.baseurl | prepend: site.url }}" class="circle" />
     <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
     <p>{{ q.description }}</p>
   </div>

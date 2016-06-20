@@ -11,6 +11,89 @@
     {{ page.tagline | upcase }}
   </div>
   
+  <!-- [collection] subfolders -->
+  {% for p in site.[a] %}
+  {% if p.category == b and p.url contains 'index' %}
+
+  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
+  
+  {% elsif p.category == b and page.url contains url %}
+  {% capture lesson %}{{ p.url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains p.url %} active{% endif %}">{{ lesson | replace: '-',' ' }} : {{ p.title }}</a>
+
+  {% endif %}
+  {% endfor %}
+  
+  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
+
+  <!-- [collection] folder index -->
+  {% for p in site.[a] %}
+  {% if p.category == b and p.url contains 'index' %}
+
+  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
+  {% capture chapter %}{{ url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active {{ page.color }}{% endif %}">{{ chapter | replace: '-',' ' | titleize }} : {{ p.title }}</a>
+
+  {% endif %}
+  {% endfor %}
+  
+  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
+</div>
+
+<!-- data.materials.[page.collection] -->
+{% if site.data.materials.[a] %}
+<div class="collection with-header">
+  {% for data in site.data.materials.[a] %}
+  <div class="collection-header {{ page.color }} white-text">
+    {{ data.title | upcase }}
+  </div>
+
+  {% for q in data.docs %}
+  <div class="collection-item avatar">
+    {% if q.image_path %}
+    <img src="{{ q.image_path | prepend: "/assets/img" | prepend: site.baseurl | prepend: site.url }}" class="circle" />
+    {% else %}
+    <i class="material-icons circle {{ page.color }}">{{ page.icon }}</i>
+    {% endif %}
+    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+    <p>{{ q.description }}</p>
+  </div>
+
+  {% endfor %}
+  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
+  {% endfor %}
+</div>
+{% endif %}
+
+
+
+<!-- data.[page.collection].[page.category] -->
+{% for data in site.data.[a].[b] %}
+{% if page_url == data.title %}
+
+{% for v in data.videos %}
+<div class="card">
+  <div class="card-image video-container">
+    <iframe width="853" height="480" src="{{ v.url }}?rel=0&hl=es;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="card-action">
+    <a href="{{ v.url }}" target="_blank" class="truncate">{{ v.title }}</a>
+  </div>
+</div>
+{% endfor%}
+
+{% for m in data.movies %}
+<p>{{ m.title }} // {{ m.url }}</p>
+{% endfor%}
+
+{% endif %}
+{% endfor %}
+
+
+
+  
   
   
 {% comment %}  // chapters and lessons of active chapter...
@@ -40,79 +123,3 @@
   
 {% endcomment %}
   
-  
-  {% for p in site.[a] %}
-  {% if p.category == b and p.url contains 'index' %}
-
-  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
-  
-  {% elsif p.category == b and page.url contains url %}
-  {% capture lesson %}{{ p.url | split: '/' | last }}{% endcapture %}
-
-  <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains p.url %} active{% endif %}">{{ lesson | replace: '-',' ' }} : {{ p.title }}</a>
-
-  {% endif %}
-  {% endfor %}
-  
-  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
-
-
-
-  {% for p in site.[a] %}
-  {% if p.category == b and p.url contains 'index' %}
-
-  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
-  {% capture chapter %}{{ url | split: '/' | last }}{% endcapture %}
-
-  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active {{ page.color }}{% endif %}">{{ chapter | replace: '-',' ' | titleize }} : {{ p.title }}</a>
-
-  {% endif %}
-  {% endfor %}
-  
-  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
-</div>
-
-<!-- data.materials.[page.collection] -->
-{% if site.data.materials.[a] %}
-<div class="collection with-header">
-  {% for data in site.data.exams.[a] %}
-  <div class="collection-header {{ page.color }} white-text">
-    {{ data.title | upcase }}
-  </div>
-
-  {% for q in data.docs %}
-  <div class="collection-item avatar">
-    <img src="{{ q.image_path }}" class="circle" />
-    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
-    <p>{{ q.description }}</p>
-  </div>
-
-  {% endfor %}
-  <div class="collection-item {{ page.color }} white-text"></div>
-  {% endfor %}
-</div>
-{% endif %}
-
-
-
-<!-- data.[page.collection].[page.category] -->
-{% for data in site.data.[a].[b] %}
-{% if page_url == data.title %}
-
-{% for v in data.videos %}
-<div class="card">
-  <div class="card-image video-container">
-    <iframe width="853" height="480" src="{{ v.url }}?rel=0&hl=es;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <div class="card-action">
-    <a href="{{ v.url }}" target="_blank" class="truncate">{{ v.title }}</a>
-  </div>
-</div>
-{% endfor%}
-
-{% for m in data.movies %}
-<p>{{ m.title }} // {{ m.url }}</p>
-{% endfor%}
-
-{% endif %}
-{% endfor %}

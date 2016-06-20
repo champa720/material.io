@@ -156,6 +156,7 @@ defaults:
     values:
       category: 
       color: orange
+      icon: widgets
   - scope:
       path: "_mathematics/cc-basics"
     values:
@@ -172,6 +173,7 @@ defaults:
       path: "_reading"
     values:
       color: blue
+      icon: book
   - scope:
       path: "_reading/cc-basics"
     values:
@@ -182,6 +184,7 @@ defaults:
       path: "_science"
     values:
       color: purple
+      icon: lightbulb_outline
   - scope:
       path: "_science/cc-basics"
     values:
@@ -198,6 +201,7 @@ defaults:
       path: "_social-studies"
     values:
       color: green
+      icon: account_balance
   - scope:
       path: "_social-studies/cc-basics"
     values:
@@ -214,6 +218,7 @@ defaults:
       path: "_writing"
     values:
       color: red
+      icon: edit
   - scope:
       path: "_writing/cc-achieve"
     values:

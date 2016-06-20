@@ -10,35 +10,58 @@ layout: default
       </span>
     </div>
 
-  </div>
+    {% assign a = page.collection %}
+    {% assign x = site.[page.collection] | group_by: 'category' | sort: 'name' %}
 
-  {% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
-  
-  <div class="valign-wrapper">
-    <div class="container">
-      <div class="row">
+    <div class="row">
 
-        {% for b in a %}
-        
-        {% capture name %}{{ b.name }}{% endcapture %}
-        
-        {% for p in b.items limit:1 reversed %}
-        {% if p.image_path != null %}
-        
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <a href="#!" data-activates="{{ name }}-menu" class="button-collapse">
-              <div class="card-image">
-                <img src="{{ p.image_path }}" />
-              </div>
-            </a>
-          </div>
+      {% for a_grouped in x %}
+
+      {% capture name %}{{ a_grouped.name }}{% endcapture %}
+
+      {% for p in a_grouped.items limit:1 reversed %}
+      {% if p.image_path != null %}
+
+      <div class="col s6 m4">
+        <div class="card hoverable">
+          <a href="#!" data-activates="{{ name }}-menu" class="button-collapse">
+            <div class="card-image">
+              <img src="{{ p.image_path }}" />
+            </div>
+          </a>
         </div>
-
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
       </div>
+
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
     </div>
+
+    <!-- data.materials.[page.collection] -->
+    {% if site.data.materials.[a] %}
+    <div class="collection with-header">
+
+      {% for data in site.data.materials.[a] %}
+      <div class="collection-header {{ page.color }} white-text">
+        {{ data.title | upcase }}
+      </div>
+
+      {% for q in data.docs %}
+      <div class="collection-item avatar">
+        {% if q.image_path %}
+        <img src="{{ q.image_path | prepend: "/assets/img/" | prepend: site.baseurl | prepend: site.url }}" class="circle" />
+        {% else %}
+        <i class="material-icons circle {{ page.color }}">{{ page.icon }}</i>
+        {% endif %}
+        <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+        <p>{{ q.description }}</p>
+      </div>
+
+      {% endfor %}
+      <div class="collection-item {{ page.color }} darken-3 white-text"></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
 </article>

@@ -27,17 +27,17 @@
 <!-- side-nav-collection -->
 {% if page.layout == 'collection' %}
 
-{% assign a = site.[page.collection] | group_by: 'category' | sort: 'name' %}
+{% assign x = site.[page.collection] | group_by: 'category' | sort: 'name' %}
 
-{% for b in a %}
+{% for a_grouped in x %}
 
-<ul id="{{ b.name }}-menu" class="side-nav">
+<ul id="{{ a_grouped.name }}-menu" class="side-nav">
   <span class="side-nav-main">
     <li class="{{ page.color }} white-text center-align">
       <strong><a href="/">{{ site.title | upcase }}</a></strong>
     </li>
 
-    {% for p in b.items %}
+    {% for p in a_grouped.items %}
     {% if p.url contains 'index' %}
 
     {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
