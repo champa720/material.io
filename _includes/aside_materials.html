@@ -72,9 +72,30 @@
   <div class="collection-item {{ page.color }} darken-3 white-text"></div>
 </div>
 
+<!-- data.materials.[page.collection] -->
+{% if site.data.exams.[a] %}
+<div class="collection with-header">
+  {% for data in site.data.exams.[a] %}
+  <div class="collection-header {{ page.color }} white-text">
+    {{ data.title | upcase }}
+  </div>
+
+  {% for q in data.docs %}
+  <div class="collection-item avatar">
+    <img src="{{ q.image_path }}" class="circle" />
+    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+    <p>{{ q.description }}</p>
+  </div>
+
+  {% endfor %}
+  <div class="collection-item {{ page.color }} white-text"></div>
+  {% endfor %}
+</div>
+{% endif %}
 
 
 
+<!-- data.[page.collection].[page.category] -->
 {% for data in site.data.[a].[b] %}
 {% if page_url == data.title %}
 
