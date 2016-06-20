@@ -163,6 +163,12 @@ defaults:
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-mathematics.jpg
   - scope:
+      path: "_mathematics/khan-academy"
+    values:
+      category: khan-academy
+      tagline: You can learn anything!
+      image_path: /assets/img/ka-logo-5x.png
+  - scope:
       path: "_reading"
     values:
       color: blue
