@@ -10,19 +10,70 @@
   <div class="collection-item {{ page.color }} white-text">
     {{ page.tagline | upcase }}
   </div>
+  
+  
+  
+{% comment %}  // chapters and lessons of active chapter...
+
+  {% assign z = site.[page.collection] | group_by: 'category' | sort: 'name' %}
+
+  {% for x in z %}
+  {% if x.name == b %}
+  {% for p in x.items %}
+
+  {% if p.url contains 'index' %}
+
+  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
+  {% capture chapter %}{{ url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} {{ page.color }} active{% endif %}">{{ chapter | replace: '-',' ' }} : {{ p.title }}</a>
+
+  {% elsif page.url contains url %}
+  {% capture lesson %}{{ p.url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains p.url %} active{% endif %}">{{ lesson | replace: '-',' ' }} : {{ p.title }}</a>
+
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+  
+{% endcomment %}
+  
+  
+  {% for p in site.[a] %}
+  {% if p.category == b and p.url contains 'index' %}
+
+  {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
+  
+  {% elsif page.url contains url %}
+  {% capture lesson %}{{ p.url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ p.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains p.url %} active{% endif %}">{{ lesson | replace: '-',' ' }} : {{ p.title }}</a>
+
+  {% endif %}
+  {% endfor %}
+  
+  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
+
+
 
   {% for p in site.[a] %}
   {% if p.category == b and p.url contains 'index' %}
 
   {% capture url %}{{ p.url | remove: 'index' }}{% endcapture %}
-  {% capture toc %}{{ url | split: '/' | last }}{% endcapture %}
-  
-  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active{% endif %}">{{ toc | replace: '-',' ' | titleize }} : {{ p.title }}</a>
+  {% capture chapter %}{{ url | split: '/' | last }}{% endcapture %}
+
+  <a href="{{ url | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if page.url contains url %} active {{ page.color }}{% endif %}">{{ chapter | replace: '-',' ' | titleize }} : {{ p.title }}</a>
 
   {% endif %}
   {% endfor %}
-  <div class="collection-item {{ page.color }} white-text"></div>
+  
+  <div class="collection-item {{ page.color }} darken-3 white-text"></div>
 </div>
+
+
+
 
 {% for data in site.data.[a].[b] %}
 {% if page_url == data.title %}

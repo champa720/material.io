@@ -12,7 +12,7 @@ layout: default
           {% assign words = content | number_of_words %}
           <i class="material-icons left">timer</i>{{ "read time: " }}{% if 360 > words %}1 minute{% else %}{{ words | divided_by:180 }} minutes{% endif %}
         </span>
-        <span class="valign-wrapper {{ page.color }}-text text-darken-3">
+        <span class="valign-wrapper {{ page.color }}-text text-accent-4">
           {% assign words = content | number_of_words %}
           <i class="material-icons left">access_time</i>{{ "study time: " }}{% if 360 > words %}1 minute{% else %}{{ words | divided_by:45 }} minutes{% endif %}
         </span>
