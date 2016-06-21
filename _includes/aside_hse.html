@@ -23,7 +23,7 @@
 
   {% for d in site.data.[a] %}
   <li>
-    <div class="collapsible-header {{ page.color }} white-text waves-effect waves-light">
+    <div class="collapsible-header {{ page.color }} white-text waves-effect waves-light truncate">
       <i class="material-icons rotate">expand_more</i>
       {{ d.title | upcase }}
     </div>
@@ -31,7 +31,7 @@
       <div class="collection">
 
         {% for q in d.docs %}
-        <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark truncate">{{ q.title }}</a>
+        <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
 
         {% endfor %}
       </div>
