@@ -12,7 +12,7 @@
           <!-- nav links -->
           <ul class="right">
             {% if page.url contains 'materials' and page.layout != 'page_index' %}
-            
+
             {% for a in site.collections %}
             {% if a.categories == 'study materials' %}
             <li class="waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ a.label | upcase }}">
@@ -23,9 +23,9 @@
             </li>
             {% endif %}
             {% endfor %}
-            
+
             {% else %}
-            
+
             {% for media in site.social %}
             <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
               <a href="{{ media.url }}" target="_blank">
@@ -34,7 +34,15 @@
               </a>
             </li>
             {% endfor %}
-            
+
+            {% endif %}
+            <!-- iframe button -->
+            {% if page.layout == 'iframe' %}
+            <li class="waves-effect waves-light">
+              <a href="#!" data-activates="{{ page.side-nav }}-menu" class="button-collapse hide-med-and-up">
+              <i class="material-icons">more_vert</i>
+              </a>
+            </li>
             {% endif %}
           </ul>
         </span>
