@@ -10,7 +10,7 @@
 
   {% for p in site.[a] %}
   {% if p.categories == page.categories %}
-  <a href="{{ p.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
+  <a href="{{ p.url | remove: 'index' | remove: 'index.html' | prepend: site.baseurl }}" class="collection-item waves-effect waves-dark truncate{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
 
   {% endif %}
   {% endfor %}
@@ -31,7 +31,7 @@
       <div class="collection">
 
         {% for q in d.docs %}
-        <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
+        <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark truncate">{{ q.title }}</a>
 
         {% endfor %}
       </div>
