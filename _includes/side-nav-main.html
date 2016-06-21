@@ -74,8 +74,8 @@
     {% for doc in page.docs %}
 
     <li class="{% if p.url == page.url %}active{% endif %}">
-      <a href="{{ doc | prepend: page.repository }}" target="#iframe" class="truncate">{{ doc }}
-        <!-- <i class="material-icons right">chevron_right</i> -->
+      <a href="{{ doc.url | prepend: page.repository }}" target="iframe" class="truncate">{{ doc.title }}
+        <i class="material-icons right">chevron_right</i>
       </a>
     </li>
     
