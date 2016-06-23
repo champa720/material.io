@@ -35,36 +35,36 @@ collections:
   # xyz
   cde:
     output: true
-    categories: xyz
+    categories: "instructor resources"
     image_path: /assets/img/cde-shield-1x.png
     permalink: /hse/:collection/:path
   curriculum:
     output: true
-    categories: xyz
+    categories: "instructor resources"
     icon: description
     color: grey
   posts:
     output: true
-    categories: xyz
+    categories: "instructor resources"
     icon: chrome_reader_mode
     color: grey
     
   # hse exams
   ged:
     output: true
-    categories: hse exams
+    categories: "hse exams"
     image_path: /assets/img/ged-logo-1x.png
     tagline: Welcome to the first step towards your dreams
     permalink: /hse/:collection/:path
   hiset:
     output: true
-    categories: hse exams
+    categories: "hse exams"
     image_path: /assets/img/hiset-logo-1x.png
     tagline: Now there’s a choice in High School Equivalency Tests
     permalink: /hse/:collection/:path
   tasc:
     output: true
-    categories: hse exams
+    categories: "hse exams"
     image_path: /assets/img/tasc-logo-1x.png
     tagline: The New National High School Equivalency Exam
     permalink: /hse/:collection/:path
@@ -72,31 +72,31 @@ collections:
   # study materials
   mathematics:
     output: true
-    categories: study materials
+    categories: "study materials"
     icon: widgets
     color: orange
     permalink: /materials/:collection/:path
   reading:
     output: true
-    categories: study materials
+    categories: "study materials"
     icon: book
     color: blue
     permalink: /materials/:collection/:path
   science:
     output: true
-    categories: study materials
+    categories: "study materials"
     icon: lightbulb_outline
     color: purple
     permalink: /materials/:collection/:path
   social-studies:
     output: true
-    categories: study materials
+    categories: "study materials"
     icon: account_balance
     color: green
     permalink: /materials/:collection/:path
   writing:
     output: true
-    categories: study materials
+    categories: "study materials"
     icon: edit
     color: red
     permalink: /materials/:collection/:path
@@ -128,7 +128,7 @@ defaults:
   - scope:
       path: "resources"
     values:
-      categories: study resources
+      categories: instructor resources
   
   # hse exams  
   - scope:
