@@ -3,14 +3,16 @@ layout: default
 title: table of contents
 ---
 
+{% assign x = site.pages | sort: 'path' %}
+
 <div class="section">
   <div class="container">
-    {% for p in site.pages %}
+    {% for p in x %}
     {% if p.title != null and p.title != 'table of contents' %}
 
     <div class="section">
       <h2 class="sub page-title grey-text text-darken-2 center-align">
-        <a href="{{ p.url }}">{{ p.title | upcase }}</a>
+        {{ p.title | upcase }}
       </h2>
       <div class="flow-text">
         {{ p.content | markdownify }}

@@ -1,11 +1,13 @@
 <!-- side-nav-main -->
+{% assign x = site.pages | sort: 'path' %}
+
 <ul id="main-menu" class="side-nav">
   <span class="side-nav-main">
     <li class="{{ page.color }} white-text center-align">
       <strong><a href="/">{{ site.title | upcase }}</a></strong>
     </li>
 
-    {% for p in site.pages %}
+    {% for p in x %}
     {% if p.title != null %}
     <li class="{% if p.url == page.url %}active{% endif %}">
       <a href="{{ p.url }}">
