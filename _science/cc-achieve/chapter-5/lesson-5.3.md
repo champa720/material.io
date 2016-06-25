@@ -44,7 +44,9 @@ Work is done only when a force causes an object to move in the same direction th
 
 The amount of work done is shown by the equation:
 
-$$ work = force \times distance $$ or $$ W = Fd $$
+$$ work = force \times distance $$
+
+$$ W = Fd $$
 
 When force is measured in newtons and distance is measured in meters, the unit of work is the newton,meter (N•m), which is also known as a joule (J), the SI unit for work.
 
@@ -60,7 +62,9 @@ Because the second weight lifter raised the dumbbell twice as high, twice as muc
 
 Power measures the rate at which work is done. It can be calculated using the following equation:
 
-$$ power = work \div time $$ or $$ P = \frac{W}{t} $$
+$$ power = work \div time $$
+
+$$ P = \frac{W}{t} $$
 
 When work is measured in joules, and time in seconds, the unit of power is the joule per second, which is the same as the SI unit watts (W). Power can be calculated if the work and time are known. For example, what is the power when a person does 140 J of work in 20 s?
 
@@ -160,7 +164,9 @@ Work is the transfer of energy. Recall that energy is neither created nor destro
 
 The number of times a machine increases the input force is the mechanical advantage (MA) of the machine. The MA of a machine is the ratio of the output force to the input force. It can be calculated using the following equation:
 
-$$ mechanical advantage = \frac{output \;force}{input \;force} $$ or $$ MA = \frac{F_{out}}{F_{in}} $$
+$$ mechanical \;advantage = \frac{output \;force}{input \;force} $$
+
+$$ MA = \frac{F_{out}}{F_{in}} $$
 
 Both the input force and the output force are measured in newtons. As a result, the units cancel, and mechanical advantage does not have any units associated with it.
 
