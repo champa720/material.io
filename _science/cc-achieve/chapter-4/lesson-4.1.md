@@ -3,8 +3,7 @@ title: Basic Principles of Genetics
 
 objectives:
 - Describe how Mendel's research contributed to modern genetics
-- Explain the link between chromosomes, genes, and
-alleles
+- Explain the link between chromosomes, genes, and alleles
 - Relate meiosis to the inheritance of traits
 
 skills:
