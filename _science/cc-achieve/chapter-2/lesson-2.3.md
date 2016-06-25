@@ -1,7 +1,8 @@
 ---
 title: Interactions Among Populations
 
-objectives:-  Analyze the factors that affect a population's carrying capacity
+objectives:
+- Analyze the factors that affect a population's carrying capacity
 - List three kinds of symbiosis
 - Explain how predators and prey affect population size
 

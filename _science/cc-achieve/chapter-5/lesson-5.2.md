@@ -1,5 +1,5 @@
 ---
-mathjax: true
+mathjax: 'true'
 
 title: Forces and Newton's Laws of Motion
 
@@ -45,7 +45,7 @@ In the seventeenth century, Sir Isaac Newton published three laws that explain t
 
 Newton's first law of motion states that an object at rest tends to stay at rest, and an object in motion tends to stay in motion with the same velocity, unless an unbalanced force acts on it. To state means "to declare," or "to express in words." The combination of all the forces acting on an object is the net force. Balanced forces cancel each other to produce a zero net force. Unbalanced forces do not cancel out. When a car is parked, the forces acting on it are balanced, and it does not move. It will stay at rest until an unbalanced force is exerted on it. The forces on the car are also balanced when it is in motion with a constant velocity. It will continue moving at this velocity until an unbalanced force acts on it.
 
-![](){: .materialboxed .responsive-img }
+![Collision](){: .materialboxed .responsive-img }
 
 *The forces on a parked car are balanced until an unbalanced force is exerted on it.*
 
@@ -116,5 +116,6 @@ Think about Science
 
 Directions: Answer the following questions.
 
-1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ *blank* ].
-2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ *blank* ] Mars, where the acceleration due to gravity is smaller than it is on Earth. </div> 
+  1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ *blank* ].
+  2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ *blank* ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
+</div> 

@@ -1,5 +1,5 @@
 ---
-mathjax: true
+mathjax: 'true'
 
 title: Work and Simple Machines
 
@@ -162,7 +162,8 @@ Work is the transfer of energy. Recall that energy is neither created nor destro
 
 The number of times a machine increases the input force is the mechanical advantage (MA) of the machine. The MA of a machine is the ratio of the output force to the input force. It can be calculated using the following equation:
 
-$$ $$
+$$ mechanical advantage = \frac{output force}{input force} $$
+$$ MA = \frac{F out}{F in} $$
 
 Both the input force and the output force are measured in newtons. As a result, the units cancel, and mechanical advantage does not have any units associated with it.
 

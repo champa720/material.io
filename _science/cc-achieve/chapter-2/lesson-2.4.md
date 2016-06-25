@@ -3,8 +3,7 @@ title: Disruptions to Ecosystems
 
 objectives:
 - Identify and analyze ways ecosystems are disrupted
-- Describe the interdependence
-of organisms in an ecosystem
+- Describe the interdependence of organisms in an ecosystem
 
 skills:
 - Reason from Data or Evidence to a Conclusion
