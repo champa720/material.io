@@ -99,9 +99,9 @@ Newton also developed the law of universal gravitation, which describes the forc
 
 Newton determined that the force of gravity depends on the masses of the objects and the distance between them. He developed an equation to identify this relationship.
 
-$$ f = \frac{Gm_1 m_2}{r^2} $$
+$$ F = \frac{Gm_1 m_2}{r^2} $$
 
-In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \( G = 6.67 \times 10^-11 N \times m^2 / kg^2)\. The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
+In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \( G = 6.67 \times 10^-11 N \times m^2 / kg^2 \). The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
 
 ![Gravity](){: .materialboxed .responsive-img }
 
