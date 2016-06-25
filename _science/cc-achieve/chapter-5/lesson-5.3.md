@@ -110,7 +110,7 @@ Walking or driving straight up a steep incline is much more difficult than trave
 
 ![Inclined Plane](){: .materialboxed .responsive-img }
 
-The same amount of work is done to lift a box as is done to push that box up an inclined plane. To lift the box, the amount of work done is equal to the force of 1,500 N times the distance of 1 m, or W = 1,500 N x 1 m = 1,500 J. To push the box along the ramp, the amount of work done is equal to the force of 300 N times the distance of 5 m, or W = 300 N x 5 m = 1,500 J. The same amount of work is done to lift the box as is done to push that box up the ramp. The advantage of the inclined plane is that the plane enables the mover to use a smaller force. The trade-off is that the force must be exerted over a longer distance.
+The same amount of work is done to lift a box as is done to push that box up an inclined plane. To lift the box, the amount of work done is equal to the force of 1,500 N times the distance of 1 m, or \( W = 1,500 N \times 1 m = 1,500 J )\. To push the box along the ramp, the amount of work done is equal to the force of 300 N times the distance of 5 m, or \( W = 300 N \times 5 m = 1,500 J )\. The same amount of work is done to lift the box as is done to push that box up the ramp. The advantage of the inclined plane is that the plane enables the mover to use a smaller force. The trade-off is that the force must be exerted over a longer distance.
 
 #### Screw
 
@@ -163,11 +163,11 @@ Work is the transfer of energy. Recall that energy is neither created nor destro
 The number of times a machine increases the input force is the mechanical advantage (MA) of the machine. The MA of a machine is the ratio of the output force to the input force. It can be calculated using the following equation:
 
 $$ mechanical advantage = \frac{output force}{input force} $$
-$$ MA = \frac{F out}{F in} $$
+$$ MA = \frac{F_out}{F_in} $$
 
 Both the input force and the output force are measured in newtons. As a result, the units cancel, and mechanical advantage does not have any units associated with it.
 
-For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, F < F. , so the mechanical advantage is always out in less than 1.
+For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, \( F_out < F-in )\ so the mechanical advantage is always out in less than 1.
 
 The mechanical advantage of a fixed pulley is 1. As shown below, a person needs to exert a force of 4 N to lift the 4-N weight. However, the person is able to pull downward instead of upward, which is easier.
 
