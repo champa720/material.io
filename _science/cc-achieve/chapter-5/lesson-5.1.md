@@ -81,15 +81,15 @@ $$ momentum = mass \times velocity $$
 
 If mass is measured in kilograms, and velocity in meters per second, momentum has units of kilogram-meters per second, or kg \times m/s. The greater the velocity of an object, the greater the object's momentum. Consider, for example, a 12-kg bicycle at two different velocities.
 
-$$ 2 m/s south: momentum = 12 kg \times 2 m/s = 24 kg \times m/s south $$
+$$ 2 m/s \;south: momentum = 12 kg \times 2 m/s = 24 kg \times m/s \;south $$
 
-$$ 3 m/s south: momentum = 12 kg \times 2 m/s = 36 kg \times m/s south $$
+$$ 3 m/s \;south: momentum = 12 kg \times 2 m/s = 36 kg \times m/s \;south $$
 
 The greater the mass of an object, the greater the object's momentum. Consider a cart moving at a velocity of 2 m/s west. Bricks can be added to the cart to change its mass. The calculations below show how the cart's momentum increases as its mass increases.
 
-$$ 2 kg: momentum = 2 kg \times 2 m/s = 4 kg \times m/s west $$
+$$ 2 kg: momentum = 2 kg \times 2 m/s = 4 kg \times m/s \;west $$
 
-$$ 5 kg: momentum = 5 kg \times 2 m/s = 10 kg \times m/s west $$
+$$ 5 kg: momentum = 5 kg \times 2 m/s = 10 kg \times m/s \;west $$
 
 ## Law of Conservation of Momentum
 
@@ -113,7 +113,7 @@ Some of the kinetic energy is changed to another form of energy in an inelastic 
 
 For example, a bicycle helmet protects the rider in an accident by transmitting the energy of a collision with the ground into the padding of the helmet. As the protective foam collapses, it absorbs energy. Without the helmet, much more of the energy of the collision is transferred to the rider's head. Although energy is not conserved, momentum is conserved in an inelastic collision.
 
-<div class=card-panel {{ page.color }} white-text>
+<div class="card-panel {{ page.color }} white-text">
 Think about Science
 
 Directions: Answer the following questions.

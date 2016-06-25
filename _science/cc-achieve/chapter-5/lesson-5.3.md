@@ -44,8 +44,7 @@ Work is done only when a force causes an object to move in the same direction th
 
 The amount of work done is shown by the equation:
 
-$$ work = force \times distance $$
-$$ W = Fd $$
+$$ work = force \times distance $$ or $$ W = Fd $$
 
 When force is measured in newtons and distance is measured in meters, the unit of work is the newton,meter (N•m), which is also known as a joule (J), the SI unit for work.
 
@@ -61,8 +60,7 @@ Because the second weight lifter raised the dumbbell twice as high, twice as muc
 
 Power measures the rate at which work is done. It can be calculated using the following equation:
 
-$$ power = work \div time $$
-$$ P = \frac{W}{t} $$
+$$ power = work \div time $$ or $$ P = \frac{W}{t} $$
 
 When work is measured in joules, and time in seconds, the unit of power is the joule per second, which is the same as the SI unit watts (W). Power can be calculated if the work and time are known. For example, what is the power when a person does 140 J of work in 20 s?
 
@@ -72,7 +70,7 @@ If the time decreased to 10 s, the power would double.
 
 $$ P = \frac{140J}{10s} = 14W $$
 
-<div class=card-panel {{ page.color }} white-text>
+<div class="card-panel {{ page.color }} white-text">
 Think about Science
 
 Directions: Answer the following questions.
@@ -148,7 +146,7 @@ A wheel and axle is a simple machine consisting of two circular objects of diffe
 
 Compound machines, like cars, are made up of more than one simple machine. Burning fuel in the cylinders of a car engine causes the pistons to move up and down. This makes the crankshaft rotate. The force exerted by the rotating crankshaft is transmitted to other parts of the car, such as the transmission and the differential. Both of these parts contain gears, which are wheel and axles. Cars also contain levers and pulleys.
 
-<div class=card-panel {{ page.color }} white-text>
+<div class="card-panel {{ page.color }} white-text">
 Think about Science
 
 Directions: Answer the following question.
@@ -162,12 +160,11 @@ Work is the transfer of energy. Recall that energy is neither created nor destro
 
 The number of times a machine increases the input force is the mechanical advantage (MA) of the machine. The MA of a machine is the ratio of the output force to the input force. It can be calculated using the following equation:
 
-$$ mechanical advantage = \frac{output force}{input force} $$
-$$ MA = \frac{F_out}{F_in} $$
+$$ mechanical advantage = \frac{output \;force}{input \;force} $$ or $$ MA = \frac{F_{out}}{F_{in}} $$
 
 Both the input force and the output force are measured in newtons. As a result, the units cancel, and mechanical advantage does not have any units associated with it.
 
-For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, \\( F_out < F-in \\) so the mechanical advantage is always out in less than 1.
+For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, \\( F_{out} < F_{in} \\) so the mechanical advantage is always out in less than 1.
 
 The mechanical advantage of a fixed pulley is 1. As shown below, a person needs to exert a force of 4 N to lift the 4-N weight. However, the person is able to pull downward instead of upward, which is easier.
 
@@ -175,7 +172,7 @@ The mechanical advantage of a movable pulley is greater than 1. It is equal to t
 
 ![Pulley](){: .materialboxed .responsive-img }
 
-<div class=card-panel {{ page.color }} white-text>
+<div class="card-panel {{ page.color }} white-text">
 Think about Science
 
 Directions: Answer the following question.

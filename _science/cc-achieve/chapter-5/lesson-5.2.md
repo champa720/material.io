@@ -55,9 +55,7 @@ Another way of thinking of the first law of motion is that an object tends to re
 
 According to Newton's second law of motion, an object acted upon by a net force will accelerate in the direction of the force. Acceleration can be determined by the following equation:
 
-$$ acceleration = \frac{net force}{mass} $$
-
-$$ a = \frac{Fnet}{m} $$
+$$ acceleration = \frac{net \;force}{mass} $$ or $$ a = \frac{Fnet}{m} $$
 
 Acceleration is measured in m/s<sup>2</sup>, net force is measured in N, and mass is measured in kg. According to the equation, the acceleration of an object produced by a net force is directly proportional to the magnitude of the net force, in the same direction as the net force, and inversely proportional to the mass of the object. This means that if two cars are acted on with the same force, the car with less mass car will have a larger acceleration. Similarly if the two cars with the same mass are acted on by two different forces, the car acted on by the larger force will have a greater acceleration.
 
@@ -101,7 +99,7 @@ Newton determined that the force of gravity depends on the masses of the objects
 
 $$ F = \frac{Gm_1 m_2}{r^2} $$
 
-In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \\( G = 6.67 \times 10^-11 N \times m^2 / kg^2 \\). The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
+In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \\( G = 6.67 \times 10^{-11} N \times m^2 / kg^2 \\). The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
 
 ![Gravity](){: .materialboxed .responsive-img }
 
