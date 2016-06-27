@@ -106,14 +106,12 @@ The chemical formula for the compound known as carbon dioxide is CO<sub>2</sub>.
   Directions: Answer the following questions.
 
   1. What is represented by the number 3 in the chemical formula for rust, Fe<sub>2</sub>O<sub>3</sub>?
-
     A. The number of iron atoms in one molecule
     B. The total number of atoms in each molecule
     C. The number of oxygen atoms in one molecule
     D. The number of electrons shared between iron and oxygen
 
   2. Atoms combine to form compounds by sharing
-
     A. protons.
     B. neutrons.
     C. electrons.
