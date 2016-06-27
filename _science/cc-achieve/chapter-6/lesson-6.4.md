@@ -95,7 +95,11 @@ The frequency of a wave is the number of wavelengths that pass a given point in 
 
 #### Speed
 
-If a wave's frequency and wavelength are known, the wave's speed can be calculated by using the following equation: \\( speed = frequency \times wavelength \\). This equation can also be written using the symbol \\( v \\) for speed, the symbol \\( f \\) for frequency, and the Greek letter lambda \\( \lambda \\) for wavelength, or \\( v= f \times \lambda \\).
+If a wave's frequency and wavelength are known, the wave's speed can be calculated by using the following equation: 
+
+$$ speed = frequency \times wavelength $$
+
+This equation can also be written using the symbol \\( v \\) for speed, the symbol \\( f \\) for frequency, and the Greek letter lambda \\( \lambda \\) for wavelength, or \\( v= f \times \lambda \\).
 
 The speed of a wave is dependent upon the medium through which it travels. Sound waves, for example, travel at approximately 340 mis through air, at more than 1,400 mis in water, and at an estimated 5,800 mis in steel. Light waves are also affected by the medium through which they travel. In the vacuum of space, the speed of light is 3.0 x 10<sup>8</sup> m/s. The speed slows in gases, and it slows more in liquids and solids. Temperature also affects wave speed. The speed of sound in air is increased at higher air temperatures.
 

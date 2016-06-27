@@ -97,15 +97,21 @@ Some substances will not form a solution no matter how much they are stirred, sh
 
 Solubility is the maximum amount of a solute that can dissolve in a given amount of a solvent under a given set of conditions, like temperature or pressure. If a solute has a high solubility, a large amount of the solute can dissolve under given conditions. If a solute has a low solubility, only a small amount of the solute can dissolve under the conditions. When a solute has an extremely low solubility, it is considered insoluble. Solubility is usually expressed in grams of solute per 100 g of solvent as shown in the table.
 
-Solubility of Substances in Water at 20° C
+#### Solubility of Substances in Water at 20° C
+
+
+**Solid Substances**
 
 | Substances | Solubility in g/100 g of Water |
-| Solid Substances |
 |:-:|:-:|
 | salt ( sodium chloride ) | 35.9 |
 | baking soda ( sodium bicarbonate ) | 9.6 |
 | sugar ( sucrose ) | 203.9 |
-| Gaseous Substances* |
+
+**Gaseous Substances**
+
+| Substances | Solubility in g/100 g of Water |
+|:-:|:-:|
 | oxygen | 0.0005 |
 | carbon dioxide | 0.16 |
 {: .bordered .striped }
@@ -163,11 +169,11 @@ Acids and bases vary in strength, as do solutions containing acids and bases. So
 
 Acids and bases can react with each other. When an acid is added to a base solution, their hydroxide ions and hydrogen ions combine to form molecules of water. The other ions combine to form a salt. A salt is an ionic compound formed from the negative ions of an acid and the positive ions of a base. The reaction of an acid with a base is called a neutralization reaction. This is because the products formed are neutral- they are neither acids nor bases. The general formula for an acid-base reaction is:
 
-$$ Acid + base &rarr; salt + water $$
+$$ Acid + base \to salt + water $$
 
 Here is an example.
 
-$$ HCL (aq) + NaOH &rarr; NaCL (aq) + H_2O $$
+$$ HCL (aq) + NaOH \to NaCL (aq) + H_2O $$
 
 This example shows the formation of table salt. Although people often think only of table salt when they hear the term salt, there are hundreds of different salts that can form when an acid reacts with a base.
 

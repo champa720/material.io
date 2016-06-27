@@ -1,4 +1,6 @@
 ---
+mathjax: 'true'
+
 title: Chemical Reactions
 
 objectives:
