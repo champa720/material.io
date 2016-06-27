@@ -110,7 +110,6 @@ The chemical formula for the compound known as carbon dioxide is CO<sub>2</sub>.
     B. The total number of atoms in each molecule
     C. The number of oxygen atoms in one molecule
     D. The number of electrons shared between iron and oxygen
-
   2. Atoms combine to form compounds by sharing
     A. protons.
     B. neutrons.
