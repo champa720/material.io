@@ -59,18 +59,19 @@ Another chemical property is flammability, which is the ability to burn. Paper a
 |  | shape |  |
 {: .bordered .striped }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Which physical property would be most useful when trying to identify a substance?
+
     A. density
     B. flammability
     C. mass
     D. shape
 
   2. Which property can be observed only by the formation of a new substance?
+
     A. ability to rust
     B. color
     C. melting point
@@ -111,9 +112,8 @@ Droplets of water form on glass when water vapor cools and condenses. The change
 
 Under certain conditions, matter can change from a solid directly to a gas. The change of state in which a solid changes directly to a gas is called sublimation. During sublimation, the particles of a solid absorb enough energy so that they change from being held very close together to being very far apart. You may have seen fog for special effects made by the sublimation of dry ice, which is solid carbon dioxide.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Which is a change of state from a gas to a liquid?
@@ -155,9 +155,8 @@ The metals in group 1 are slightly more reactive than those in group 2. However,
 
 Very few of the materials around you are made of a single element. Some materials are compounds, but most are complex mixtures. The chemical composition of a compound can help you predict the properties of a compound because the properties are the result of interactions between the atoms, ions, or molecules that make up the compound. By understanding these interactions, scientists and engineers can design materials that have specific properties. For example, they can make steel that is stronger than pure iron or polymers that are rigid or flexible.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions
 
   1. Based on its position in the periodic table, which element would you expect to conduct electricity?

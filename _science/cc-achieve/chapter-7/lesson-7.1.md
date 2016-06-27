@@ -73,8 +73,7 @@ All the elements in a group of the periodic table share certain properties becau
 Group 1 elements are known as the alkali metals. Alkali metals are soft enough to be cut with a knife. They are usually silver in color, shiny, and have low densities. The elements in Group 2 are the alkaline earth metals. These elements are generally hard, gray-white, and good conductors of electricity. The elements in Groups 3 through 12 are known as transition elements, or transition metals. The behavior of transition elements is less predictable. For example, iron might react with oxygen to form FeO or Fe<sub>2</sub>0<sub>3</sub>, depending on the amount of oxygen available.
 
 <div class="card-panel {{ page.color }} white-text" markdown="1">
-Think about Science
-
+##### Think about Science
 Directions: Fill in the blank.
 
 1. [ blank ] are good conductors of electricity.
@@ -98,8 +97,7 @@ Just as elements can be represented by chemical symbols, compounds can be repres
 The chemical formula for the compound known as carbon dioxide is CO<sub>2</sub>. The formula includes the chemical symbol for carbon, C, and the chemical symbol for oxygen, O - the two elements that make up the compound. The number 2 below the symbol for oxygen is called a subscript. A subscript below an element's symbol indicates the number of atoms of that element present in each molecule of the compound. The subscript below the symbol for oxygen indicates that there are two atoms of oxygen. If there is no subscript, as in the case of the carbon atom, it is understood that there is one atom of that element. So, the ratio of oxygen to carbon in every molecule of carbon dioxide is 2 to 1.
 
 <div class="card-panel {{ page.color }} white-text" markdown="1">
-Think about Science
-
+##### Think about Science
 Directions: Answer the following questions.
 
   1. What is represented by the number 3 in the chemical formula for rust, Fe<sub>2</sub>O<sub>3</sub>?  

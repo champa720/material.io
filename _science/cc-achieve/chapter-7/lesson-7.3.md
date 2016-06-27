@@ -49,9 +49,8 @@ The illustration of the formation of water shows that two molecules of hydrogen 
 
 In this situation, hydrogen is called the limiting reactant, which is the reactant that is completely consumed when the reaction goes to completion and limits the amount of product formed. The final mixture will contain 50 molecules of water and 25 molecules of unreacted oxygen. The actual numbers of molecules involved in a reaction would be many orders of magnitude higher. These numbers are used only for demonstration.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. What change always indicates that a chemical reaction has occurred?
@@ -112,13 +111,12 @@ The number of atoms of each element on the left is now equal to the number of at
 | Step 4 | Check to be sure that you have the same number of atoms of each element on both sides of the equation. |
 {: .bordered .striped }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Write balanced equation for the chemical reactions.
 
-  $$ \mathrm { CH_4 + 0_2 \to CO_2 + H_2O } $$
-  $$ \mathrm { KOH + H_2SO_4 \to K_2SO_4 + H_2O } $$
+  1. \\( \mathrm { CH_4 + 0_2 \to CO_2 + H_2O } \\)
+  2. \\( \mathrm { KOH + H_2SO_4 \to K_2SO_4 + H_2O } \\)
 </div>
 
 ## Energy Changes in Chemical Reactions
@@ -141,9 +139,8 @@ The energy changes that occur during a chemical reaction can be modeled on a gra
 
 ![Exothermic Reaction]()
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Fill in the blank.
 
   1. When vinegar and a solution of baking soda are mixed, the final  solution is colder than either of the original solutions. This observation indicates that the reaction between vinegar and baking soda is an [ blank ] reaction.

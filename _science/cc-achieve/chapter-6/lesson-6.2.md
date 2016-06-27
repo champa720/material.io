@@ -60,9 +60,8 @@ A nuclear power plant operates much the same way as a coal power plant. In each,
 
 The use of nuclear energy does not release carbon dioxide or other pollution into the atmosphere. Another advantage of nuclear energy is that a small amount of uranium can produce a large amount of energy. One disadvantage of nuclear energy is that the waste material produced is highly radioactive and must be stored safely.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. All fossil fuels and nuclear energy share which characteristic?
@@ -108,9 +107,8 @@ The Sun drives the water cycle and is a main source of the energy of moving wate
 
 Hydroelectric power is very efficient and creates no pollution. However, water power is limited by the number of rivers present. Darns can also disrupt fish breeding cycles and flood the land behind the darn.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. How are biomass, wind energy, and hydroelectric power related?
@@ -138,9 +136,8 @@ A large amount of nuclear energy is produced from little fuel and does not produ
 
 Geothermal, wind, and water energy resources are available only in certain places. For example, wind can produce electricity only in places where the wind is strong enough to tum the blades of the turbines. Geothermal energy can be generated in areas where there are hot springs. It is currently more expensive to generate electricity by using wind and solar energy than it is by using fossil fuels, however costs are decreasing.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Which is a disadvantage of biomass but not of hydroelectric power?

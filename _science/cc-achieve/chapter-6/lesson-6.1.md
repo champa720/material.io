@@ -61,9 +61,8 @@ The gravitational potential energy will increase by 23.5 J.
 
 Potential energy can also be affected by other field forces between objects. For example, a magnetic field exerts a force on a paper clip that pulls the paper clip toward a magnet. The field forces around charged particles are called electrical fields. When a charged particle or object is moved a distance against the force of this field, its electric potential increases.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. A leaf falls from a tree to the ground. At what point is the gravitational potential energy the greatest?
@@ -106,9 +105,8 @@ The nuclei of atoms contain a tremendous amount of potential energy. Energy stor
 
 Radiant energy is emitted from a source as waves. These waves carry energy from the Sun through the vacuum of space to Earth. Radiant energy is a form of kinetic energy. In addition to the light we can see, radiant energy includes radio waves, microwaves, infrared radiation, ultraviolet radiation, gamma rays, and X-rays.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Fill in the blank.
 
   1. Turning on a flashlight releases [ blank ] energy.
@@ -134,9 +132,8 @@ A magnet produces a force that can attract or repel other magnets and can attrac
 
 When two magnets are brought close together, their magnetic fields interact with each other. As shown here, the north pole of one magnet will repel the north pole of another magnet. South poles also repel each other. The north pole of one magnet and the south pole of another magnet, however, attract each other and stick together.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following question.
 
   1. Earth has a magnetic field that extends from its North and South  Magnetic Poles. When a compass is allowed to line up with Earth's magnetic field, the end labeled with an N points toward the magnetic North Pole. Based on this observation, if Earth's North Pole were a labeled magnet, should it be labeled as N or as S?
@@ -168,9 +165,8 @@ Plants transform radiant energy into chemical energy. Electric eels transform ch
 | Thermal energy | Kinetic energy | Steam turbine |
 {: .bordered .striped }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following question.
 
   1. What energy transformation occurs in a toaster?

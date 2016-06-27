@@ -45,9 +45,8 @@ A wave's movement continues as long as the wave has energy to carry. This energy
 
 Waves transmit energy in various ways and through all phases of matter. An example of a solid transmitting wave energy is the seismic wave produced by an earthquake that takes place when rocks are under pressure and snap or slide into new positions. Waves that are felt and seen in water are examples of a liquid medium transmitting wave energy. Gases also transmit wave energy, as in an explosion, when heat and sound waves are generated.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. In a stadium wave, a section of fans stands up with their arms raised and then sit back down. When executed in succession from one section to the next a visual wave is created that spreads around a circular stadium. Which part of a stadium wave represents the source of the disturbance?
@@ -107,12 +106,12 @@ The speed of a wave is dependent upon the medium through which it travels. Sound
 
 The amplitude of a wave is related to the amount of energy it carries. The greater the energy a wave has, the greater its amplitude. The amplitude of any transverse wave is the distance from the rest position to either a crest or a trough. In longitudinal waves, the amplitude depends on how tightly the medium is squeezed together in its regions of compression. Using a coil as a model, imagine areas of a wave that are squeezed together. When compressions are more tightly squeezed, the wave has a higher amplitude.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Based on the formula \\( v= f \times \lambda \\), hich of the following is true for a sound wave whose velocity is 340 m/s?
+
     A. As the frequency of a wave increases, its wavelength decreases.
     B. As the frequency of a wave increases, its wavelength increases.
     C. As the frequency of a wave increases, its wavelength stays the same.
@@ -149,17 +148,19 @@ Short exposures to ultraviolet waves have several beneficial effects. The human 
 
 X-rays are high-energy electromagnetic waves with wavelengths shorter than those of ultraviolet waves. Gamma rays have the shortest wavelength and highest energy of the electromagnetic waves. Whereas ultraviolet waves can penetrate the top layer of a person's skin, X-rays have enough energy to pass through skin and muscle. X-rays and gamma rays have important uses in medicine. Images are formed when X-rays are beamed through a person's body. The rays strike a film plate or an electronic sensor, creating an image of internal structures such as bones. Gamma rays are used to treat some cancers. Exposing a cancerous tumor to a highly focused beam of gamma rays can kill the cancerous cells.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Select the correct answer to the following questions.
 
   1. Which statement accurately describes the organization of waves on the electromagnetic spectrum in terms of frequency, velocity, and wavelength?
+
     A. Frequency and velocity increase; wavelength decreases.
     B. Frequency increases; velocity and wavelength decrease.
     C. Frequency decreases; wavelength decreases.
     D. Frequency decreases; wavelength increases.
+
   2. What is the disturbance that produces an electromagnetic wave?
+
     A. Nuclear explosions
     B. Heat
     C. Wind
