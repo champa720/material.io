@@ -74,12 +74,12 @@ Group 1 elements are known as the alkali metals. Alkali metals are soft enough t
 
 <div class="card {{ page.color }}">
   <div class="card-content white-text" markdown="1">
-  <span class="card-title">Think about Science</span>
+  <span class="card-title">Think about {{ page.collection | capitalize }}</span>
 
   Directions: Fill in the blank.
 
-  1. [ blank ] good conductors of electricity.
-  2. [ blank ] solid at room temperature.
+  1. [ blank ] are good conductors of electricity.
+  2. [ blank ] are solid at room temperature.
   3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
   4. The total number of make up an atom's mass [ blank ] number.
   </div>
@@ -99,10 +99,11 @@ Just as elements can be represented by chemical symbols, compounds can be repres
 
 The chemical formula for the compound known as carbon dioxide is CO<sub>2</sub>. The formula includes the chemical symbol for carbon, C, and the chemical symbol for oxygen, O - the two elements that make up the compound. The number 2 below the symbol for oxygen is called a subscript. A subscript below an element's symbol indicates the number of atoms of that element present in each molecule of the compound. The subscript below the symbol for oxygen indicates that there are two atoms of oxygen. If there is no subscript, as in the case of the carbon atom, it is understood that there is one atom of that element. So, the ratio of oxygen to carbon in every molecule of carbon dioxide is 2 to 1.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
+<div class="card {{ page.color }}">
+  <div class="card-content white-text" markdown="1">
+  <span class="card-title">Think about {{ page.collection | capitalize }}</span>
 
-Directions: Answer the following questions.
+  Directions: Answer the following questions.
 
   1. What is represented by the number 3 in the chemical formula for rust, Fe<sub>2</sub>O<sub>3</sub>?
     A The number of iron atoms in one molecule
@@ -115,4 +116,5 @@ Directions: Answer the following questions.
     B. neutrons.
     C. electrons.
     D. molecules.
+  </div>
 </div>
