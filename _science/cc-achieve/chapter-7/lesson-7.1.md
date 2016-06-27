@@ -76,10 +76,10 @@ Group 1 elements are known as the alkali metals. Alkali metals are soft enough t
 ##### Think about Science
 Directions: Fill in the blank.
 
-1. [ blank ] are good conductors of electricity.
-2. [ blank ] are solid at room temperature.
-3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
-4. The total number of make up an atom's mass [ blank ] number.
+  1. [ blank ] are good conductors of electricity.
+  2. [ blank ] are solid at room temperature.
+  3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
+  4. The total number of make up an atom's mass [ blank ] number.
 </div>
 
 ### Compounds

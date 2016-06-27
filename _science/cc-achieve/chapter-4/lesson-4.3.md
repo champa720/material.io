@@ -41,14 +41,12 @@ Other fossils formed when insects or small animals were trapped in tree sap or i
 
 Fossils provide a snapshot of life on Earth over time, and they reveal that life on Earth has changed over time. Fossil evidence showed scientists that new species appeared at different points in time, which strongly supported Darwin's theory of evolution.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Two organisms that can produce live offspring are considered to be the
-same [ fill-in-the-blank ]
-
+same [ blank ].
   2. List two species that are similar and that you think may have evolved from a single species into two distinct species.
 </div>
 
@@ -58,17 +56,15 @@ In Darwin's publication On the Origin of Species, he also proposed that all orga
 
 It is easy to see how people in the same family are related or even how two different dog breeds might be related, but it is very difficult to see evidence that a human is related to bacteria. Long after Darwin's UCA theory was proposed, scientists developed a quantitative large-scale test for the relatedness of species. With this test, they have found that evidence in the natural world overwhelmingly supports UCA. Scientific evidence links all three domains of life: Eukarya (humans, animals, plants, yeast), Bacteria, and Archaea. Scientists can now link every known organism back to a single common ancestor. However, what this universal ancestor looks like and where it lived are still questions unanswered by scientists. The most current hypothesis is that the first form of life on Earth was a simple, single-celled organism that lived in water.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. The theory of Universal Common Ancestry states that
-
-    A. all humans are related to eac.h other. B. all life originated from a single organism.
+    A. all humans are related to eac.h other.
+    B. all life originated from a single organism.
     C. all life has slowly changed over time.
     D. all species that look similar are related to each other.
-
   2. What evidence has scientists found to support UCA?
 </div>
 

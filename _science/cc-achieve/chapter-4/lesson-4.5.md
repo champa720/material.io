@@ -59,9 +59,8 @@ Each island provided a different sour.ce of food. Some birds needed a strong bea
 
 ![Adaptations](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Why might farmers use artificial selection when they plant crops from one year to the next?
@@ -105,9 +104,8 @@ Other animals, such as Burmese pythons, have heat sensors in their top lips. Alo
 
 ![Predator Adaptations](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. How could the adaptations of the giant tortoises of the Galapagos Islands be explained through natural selection?
@@ -133,9 +131,8 @@ Darwin's finches, discussed earlier, are examples of adaptive radiation. The 13 
 
 ![Cichlid Fishes](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. What is speciation?

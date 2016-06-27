@@ -44,13 +44,11 @@ Mendel then allowed the plants of the F1 generation to self-pollinate. Again, he
 
 ![Medalls Peas](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Fill in the blank.
 
-  1. In the pea-plant example, the tall form of the trait is the [ fill-in-the-blank ] trait.
-  
+  1. In the pea-plant example, the tall form of the trait is the [ fill-in-the-blank ] trait.  
   2. The short form of the trait is the [ fill-in-the-blank ] trait.
 </div>
 
@@ -98,19 +96,16 @@ Mendel's observations can be explained by the cellular process of meiosis. Recal
 
 The diagram shows two peas and their color alleles. Each parent plant has two alleles, one on each chromosome within a homologous pair. Each chromosome replicates before meiosis. Meiosis separates each homologous pair and separates the sister chromatids. Only one of the original pair of homologous chromosomes ends up in a single gamete. The parent plant with yellow peas (YY) has Y alleles on both chromosomes; therefore, it only forms gametes with the Y allele. The parent plant with green peas (yy) has y alleles on both chromosomes; therefore, it only forms gametes with the y allele. The Y and y gametes join through fertilization, forming offspring with Yy alleles. All offspring plants have the dominant Y allele, so they will produce yellow peas. In this way, traits are passed from parent to offspring through chromosome movement.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Which alleles does a plant that produces green peas have?
     A. YY
     B. Yy
     C. yY
-    D. yy
-    
+    D. yy    
   2. Which alleles does a plant that produces yellow peas have?
-
     A. YYor Yy
     B. Yy or yy
     C. yY or yy

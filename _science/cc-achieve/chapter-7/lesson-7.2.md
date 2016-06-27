@@ -64,14 +64,11 @@ Another chemical property is flammability, which is the ability to burn. Paper a
 Directions: Answer the following questions.
 
   1. Which physical property would be most useful when trying to identify a substance?
-
     A. density
     B. flammability
     C. mass
     D. shape
-
   2. Which property can be observed only by the formation of a new substance?
-
     A. ability to rust
     B. color
     C. melting point
@@ -121,7 +118,6 @@ Directions: Answer the following questions.
     B. condensation
     C. freezing
     D. sublimation
-
   2. During which change do the particles in a substance gain enough energy to begin moving past one another?
     A. boiling
     B. evaporation
@@ -164,7 +160,6 @@ Directions: Answer the following questions
     B. nitrogen (N)
     C. phosphorus (P)
     D. silver (Ag)
-
   2. Based on its position in the periodic table, which element would you expect to be the most reactive?
     A. argon (Ar)
     B. cobalt (Co)

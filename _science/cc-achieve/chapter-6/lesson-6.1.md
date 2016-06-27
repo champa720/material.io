@@ -66,7 +66,6 @@ Potential energy can also be affected by other field forces between objects. For
 Directions: Answer the following questions.
 
   1. A leaf falls from a tree to the ground. At what point is the gravitational potential energy the greatest?
-
     A. while the leaf is still attached to the branch
     B. after the leaf has fallen a short distance
     C. when the leaf is about half way to the ground
@@ -110,8 +109,7 @@ Radiant energy is emitted from a source as waves. These waves carry energy from 
 Directions: Fill in the blank.
 
   1. Turning on a flashlight releases [ blank ] energy.
-  2. Thermal energy is the sum of the [ blank ] and potential
-  energy of the particles in an object.
+  2. Thermal energy is the sum of the [ blank ] and potential energy of the particles in an object.
   3. Energy stored in the nucleus of an atom is [ blank ]energy.
   4. Chemical energy is a type of potential energy stored in [ blank ].
 </div>
@@ -170,7 +168,6 @@ Plants transform radiant energy into chemical energy. Electric eels transform ch
 Directions: Answer the following question.
 
   1. What energy transformation occurs in a toaster?
-
     A. kinetic energy to electrical energy
     B. electrical energy to thermal energy
     C. magnetic energy to electrical energy

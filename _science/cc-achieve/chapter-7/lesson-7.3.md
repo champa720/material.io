@@ -113,7 +113,7 @@ The number of atoms of each element on the left is now equal to the number of at
 
 <div class="card-panel {{ page.color }} white-text" markdown="1">
 ##### Think about Science
-Directions: Write balanced equation for the chemical reactions.
+Directions: Write a balanced equation for the chemical reactions.
 
   1. \\( \mathrm { CH_4 + 0_2 \to CO_2 + H_2O } \\)
   2. \\( \mathrm { KOH + H_2SO_4 \to K_2SO_4 + H_2O } \\)
@@ -143,7 +143,7 @@ The energy changes that occur during a chemical reaction can be modeled on a gra
 ##### Think about Science
 Directions: Fill in the blank.
 
-  1. When vinegar and a solution of baking soda are mixed, the final  solution is colder than either of the original solutions. This observation indicates that the reaction between vinegar and baking soda is an [ blank ] reaction.
+  1. When vinegar and a solution of baking soda are mixed, the final solution is colder than either of the original solutions. This observation indicates that the reaction between vinegar and baking soda is an [ blank ] reaction.
   2. The thermal energy released by a forest fire indicates that combustion is an [ blank ] reaction.
 </div>
 

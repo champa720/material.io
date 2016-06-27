@@ -68,8 +68,7 @@ Directions: Answer the following questions.
     A. They can be replaced quickly.
     B. They produce carbon dioxide.
     C. They can release thermal energy.
-    D. They are burned in automobiles.
-  
+    D. They are burned in automobiles.  
   2. What is a potential advantage of fossil fuels over nuclear fuels?
     A. Fossil fuels do not produce pollution.
     B. There are vast supplies of fossil fuels.
@@ -115,8 +114,7 @@ Directions: Answer the following questions.
     A. They have energy that comes from the Sun.
     B. They all produce pollution.
     C. They must be replaced as they are used.
-    D. They can be used to meet any energy need.
-  
+    D. They can be used to meet any energy need.  
   2. Which is a use of energy from biomass but not from geothermal energy?
     A. producing heat
     B. producing electricity
@@ -144,8 +142,7 @@ Directions: Answer the following questions.
     A. radioactive waste
     B. pollution in the atmosphere
     C. availability at any location
-    D. inability to be replaced
-    
+    D. inability to be replaced    
   2. Which could cause the cost of natural gas to increase but is not likely to affect solar power?
     A. decrease in supply
     B. improvements in technology

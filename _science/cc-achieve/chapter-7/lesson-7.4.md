@@ -176,14 +176,11 @@ This example shows the formation of table salt. Although people often think only
 Directions: Answer the following questions.
 
   1. What could be the pH level of an alkaline solution?
-
     A. 2
     B. 5
     C. 7
     D. 13
-
   2. What is a solution that has excess hydrogen ions?
-
     A. acid
     B. base
     C. neutral

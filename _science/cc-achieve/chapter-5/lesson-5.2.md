@@ -55,9 +55,9 @@ Another way of thinking of the first law of motion is that an object tends to re
 
 According to Newton's second law of motion, an object acted upon by a net force will accelerate in the direction of the force. Acceleration can be determined by the following equation:
 
-$$ acceleration = \frac{net \;force}{mass} $$
+$$ \mathrm { acceleration = \frac{net \;force}{mass} } $$
 
-$$ a = \frac{Fnet}{m} $$
+$$ \mathrm { a = \frac{Fnet}{m} } $$
 
 Acceleration is measured in m/s<sup>2</sup>, net force is measured in N, and mass is measured in kg. According to the equation, the acceleration of an object produced by a net force is directly proportional to the magnitude of the net force, in the same direction as the net force, and inversely proportional to the mass of the object. This means that if two cars are acted on with the same force, the car with less mass car will have a larger acceleration. Similarly if the two cars with the same mass are acted on by two different forces, the car acted on by the larger force will have a greater acceleration.
 
@@ -73,20 +73,16 @@ The magnitude of the force on the first object equals the magnitude of the force
 
 If equal and opposite forces on an object cancel out, why don't action and reaction forces cancel out? Forces can cancel out only if they act on the same object. Action and reaction forces do not act on the same object. When a person takes a step, the person's foot exerts an action force on the ground. The ground, which is Earth, exerts a reaction force on the person's foot that pushes the person forward.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. Which is true, based on Newton's first law?
-
     A. A ball that is in motion has a tendency to come to a stop.
     B. A ball that is not moving has a tendency to stay stationary.
     C. The net force on any moving ball is not zero.
     D. A force must act on a ball to prevent it from moving.
-
-  2. A pushed box is accelerating at 3.0 m/s<sup>2</sup>. If the force pushing the box is tripled, what is the acceleration of the box?
-  
+  2. A pushed box is accelerating at 3.0 m/s<sup>2</sup>. If the force pushing the box is tripled, what is the acceleration of the box?  
     A. 0.0 m/s<sup>2</sup>
     B. 1.0 m/s<sup>2</sup>
     C. 3.0 m/s<sup>2</sup>
@@ -99,7 +95,7 @@ Newton also developed the law of universal gravitation, which describes the forc
 
 Newton determined that the force of gravity depends on the masses of the objects and the distance between them. He developed an equation to identify this relationship.
 
-$$ F = \frac{Gm_1 m_2}{r^2} $$
+$$ \mathrm { F = \frac{Gm_1 m_2}{r^2} } $$
 
 In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \\( G = 6.67 \times 10^{-11} N \times m^2 / kg^2 \\). The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
 
@@ -111,11 +107,10 @@ When you step on a bathroom scale, the scale measures your weight. Weight is a m
 
 Near Earth's surface, the acceleration due to gravity is 9.8 m/s<sup>2</sup> for all objects. However, the acceleration due to gravity is different on other planets because the planets have different masses. For example, the acceleration due to gravity on Jupiter is 2.6 times more than it is on Earth. So, the same object on Jupiter would weigh 2.6 times more than it would on Earth, even though the object's mass remains the same.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
-  1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ *blank* ].
-  2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ *blank* ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
+  1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ blank ].
+  2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ blank ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
 </div> 

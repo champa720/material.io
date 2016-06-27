@@ -35,7 +35,7 @@ An object is in motion when it changes position. When an object moves from one l
 
 One measure of motion is speed, or the distance an object travels over time compared to a reference point. Speed can be calculated using the following equation.
 
-$$ speed = \frac{distance}{time} $$
+$$ \mathrm { speed = \frac{distance}{time} } $$
 
 Speed is always measured in a unit of distance per a unit of time, such as meters per second (m/s) or kilometers per hour (km/h). A falling rock, for example, might hit the ground at a speed of 10 m/s, while a car on the highway may travel at a speed of 100 km/h (about 60 mph).
 
@@ -59,13 +59,11 @@ If the direction of motion does not change, the change in velocity is the same a
 
 If the direction of motion does not change, the change in velocity is the same as the change in speed. The change in velocity is then the final speed minus the initial speed. The change in velocity is a unit of speed, such as m/s. Therefore the unit of acceleration is a unit of speed divided by a unit of time. Time is commonly measured in seconds, so acceleration is usually measured in meters per second per second, or -3 m/s<sup>2</sup>.
 
-<div class=card-panel {{ page.color }} white-text>
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. A ball rolls 20 m across a parking lot in 4 s. What is the speed of the ball?
-
   2. What does a horizontal line on a speed-time graph indicate about the acceleration of an object traveling in a straight line?
 </div>
 
@@ -81,15 +79,15 @@ $$ momentum = mass \times velocity $$
 
 If mass is measured in kilograms, and velocity in meters per second, momentum has units of kilogram-meters per second, or kg \times m/s. The greater the velocity of an object, the greater the object's momentum. Consider, for example, a 12-kg bicycle at two different velocities.
 
-$$ 2 m/s \;south: momentum = 12 kg \times 2 m/s = 24 kg \times m/s \;south $$
+$$ \mathrm { 2 m/s \;south: momentum = 12 kg \times 2 m/s = 24 kg \times m/s \;south } $$
 
-$$ 3 m/s \;south: momentum = 12 kg \times 2 m/s = 36 kg \times m/s \;south $$
+$$ \mathrm { 3 m/s \;south: momentum = 12 kg \times 2 m/s = 36 kg \times m/s \;south } $$
 
 The greater the mass of an object, the greater the object's momentum. Consider a cart moving at a velocity of 2 m/s west. Bricks can be added to the cart to change its mass. The calculations below show how the cart's momentum increases as its mass increases.
 
-$$ 2 kg: momentum = 2 kg \times 2 m/s = 4 kg \times m/s \;west $$
+$$ \mathrm { 2 kg: momentum = 2 kg \times 2 m/s = 4 kg \times m/s \;west } $$
 
-$$ 5 kg: momentum = 5 kg \times 2 m/s = 10 kg \times m/s \;west $$
+$$ \mathrm { 5 kg: momentum = 5 kg \times 2 m/s = 10 kg \times m/s \;west } $$
 
 ## Law of Conservation of Momentum
 
@@ -113,10 +111,9 @@ Some of the kinetic energy is changed to another form of energy in an inelastic 
 
 For example, a bicycle helmet protects the rider in an accident by transmitting the energy of a collision with the ground into the padding of the helmet. As the protective foam collapses, it absorbs energy. Without the helmet, much more of the energy of the collision is transferred to the rider's head. Although energy is not conserved, momentum is conserved in an inelastic collision.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
-  1. A ball of wet clay thrown against a wall sticks to the wall in a(n) [ fill-in-the-blank].
+  1. A ball of wet clay thrown against a wall sticks to the wall in a(n) [ blank ].
 </div>

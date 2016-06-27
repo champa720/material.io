@@ -50,14 +50,11 @@ Waves transmit energy in various ways and through all phases of matter. An examp
 Directions: Answer the following questions.
 
   1. In a stadium wave, a section of fans stands up with their arms raised and then sit back down. When executed in succession from one section to the next a visual wave is created that spreads around a circular stadium. Which part of a stadium wave represents the source of the disturbance?
-
     A. The stadium
     B. The fans in the stadium
     C. A fan standing up and down
     D. The motion of the wave around the stadium
-
-  2. A boat is about half a kilometer offshore. A strong wind begins to blow. Which of the following best describes the transfer of energy that will take place between the wind, the boat, and the water?
-  
+  2. A boat is about half a kilometer offshore. A strong wind begins to blow. Which of the following best describes the transfer of energy that will take place between the wind, the boat, and the water?  
     A. Energy in the wind will be transferred to the boat and the water.
     B. Energy in the boat will be transferred to the wind and the water.
     C. Energy from the water will be transferred to the wind and the boat.
@@ -111,7 +108,6 @@ The amplitude of a wave is related to the amount of energy it carries. The great
 Directions: Answer the following questions.
 
   1. Based on the formula \\( v= f \times \lambda \\), hich of the following is true for a sound wave whose velocity is 340 m/s?
-
     A. As the frequency of a wave increases, its wavelength decreases.
     B. As the frequency of a wave increases, its wavelength increases.
     C. As the frequency of a wave increases, its wavelength stays the same.
@@ -153,14 +149,11 @@ X-rays are high-energy electromagnetic waves with wavelengths shorter than those
 Directions: Select the correct answer to the following questions.
 
   1. Which statement accurately describes the organization of waves on the electromagnetic spectrum in terms of frequency, velocity, and wavelength?
-
     A. Frequency and velocity increase; wavelength decreases.
     B. Frequency increases; velocity and wavelength decrease.
     C. Frequency decreases; wavelength decreases.
     D. Frequency decreases; wavelength increases.
-
   2. What is the disturbance that produces an electromagnetic wave?
-
     A. Nuclear explosions
     B. Heat
     C. Wind

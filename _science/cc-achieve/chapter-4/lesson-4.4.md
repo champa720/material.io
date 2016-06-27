@@ -70,9 +70,8 @@ Mutations may occur in a single allele-one form of a gene. Recall that an allele
 
 Mutations can also occur at the chromosome level. These types of mutations can change a large number of genes at once. Large amounts of genetic information can be lost, switched around, or duplicated, causing abnormalities. Sometimes entire chromosomes are lost or extra chromosomes are added. Down syndrome, for example, is the result of an extra copy of chromosome 21.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
   1. How does crossing over create genetic variation?
@@ -93,20 +92,16 @@ Genetic testing is a group of procedures performed on blood or other biological 
 
 As genetic testing becomes more common, people are faced with some difficult choices. Some couples may be faced with the decision of whether they should have children if there is a chance they could pass on a specific disease to them. Genetic counselors are medical professionals who help people understand their risks of heritable disease and help them consider their options when faced with these decisions.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
-
+<div class="card-panel {{ page.color }} white-text" markdown="1">
+##### Think about Science
 Directions: Answer the following questions.
 
-  1. How can the food we eat affect genetic expression?
-  
+  1. How can the food we eat affect genetic expression?  
     A It causes gene mutations.
     B. It causes replication errors.
     C. It changes when crossing over occurs.
-    D. It changes the chemicals in our cells.
-    
-  2.  What is one benefit of genetic testing?
-  
+    D. It changes the chemicals in our cells.    
+  2.  What is one benefit of genetic testing?  
     A You can find out if you will get a particular disease.
     B. You can find out how to prevent a particular disease.
     C. You can find out all the diseases you will get.
