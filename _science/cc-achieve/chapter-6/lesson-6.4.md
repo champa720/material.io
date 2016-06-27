@@ -97,7 +97,7 @@ The frequency of a wave is the number of wavelengths that pass a given point in 
 
 If a wave's frequency and wavelength are known, the wave's speed can be calculated by using the following equation: 
 
-$$ \text { speed = frequency \times wavelength } $$
+$$ \mathrm { speed = frequency \times wavelength } $$
 
 This equation can also be written using the symbol \\( v \\) for speed, the symbol \\( f \\) for frequency, and the Greek letter lambda \\( \lambda \\) for wavelength, or \\( v= f \times \lambda \\).
 
