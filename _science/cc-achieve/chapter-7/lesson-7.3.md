@@ -69,7 +69,7 @@ Hydrogen and oxygen molecules react to form water. That is one way to describe t
 | \\( (\text s) \\) | solid |
 | \\( (\text l) \\) | liquid |
 | \\( (\text g) \\) | gas |
-| \\( (\text aq) \\) | aqueous, a substance is dissolved in water |
+| \\( (\text {aq}) \\) | aqueous, a substance is dissolved in water |
 | \\( \xrightarrow { \text { heat } } \\) | the reactants are heated |
 | \\( \xrightarrow { \text { light } } \\) |  the reactants are exposed to light |
 | \\( \xrightarrow { \text { elec } } \\) | an electric current is passed through the reactants |
