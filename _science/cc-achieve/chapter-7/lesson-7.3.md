@@ -74,6 +74,7 @@ Hydrogen and oxygen molecules react to form water. That is one way to describe t
 | \\( \xrightarrow { \mathrm { light } } \\) |  the reactants are exposed to light |
 | \\( \xrightarrow { \mathrm { elec } } \\) | an electric current is passed through the reactants |
 | \\( \xrightarrow { \mathrm { 0°C } } \\) | the reaction is carried out at 0° C|
+{: .bordered .striped }
 
 ### Chemical Equations
 
