@@ -72,15 +72,17 @@ All the elements in a group of the periodic table share certain properties becau
 
 Group 1 elements are known as the alkali metals. Alkali metals are soft enough to be cut with a knife. They are usually silver in color, shiny, and have low densities. The elements in Group 2 are the alkaline earth metals. These elements are generally hard, gray-white, and good conductors of electricity. The elements in Groups 3 through 12 are known as transition elements, or transition metals. The behavior of transition elements is less predictable. For example, iron might react with oxygen to form FeO or Fe<sub>2</sub>0<sub>3</sub>, depending on the amount of oxygen available.
 
-<div class="card-panel {{ page.color }} white-text">
-Think about Science
+<div class="card {{ page.color }}">
+  <div class="card-content white-text" markdown="1">
+  <span class="card-title">Think about Science</span>
 
-Directions: Fill in the blank.
+  Directions: Fill in the blank.
 
-1. [ blank ] good conductors of electricity.
-2. [ blank ] solid at room temperature.
-3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
-4. The total number of make up an atom's mass [ blank ] number.
+  1. [ blank ] good conductors of electricity.
+  2. [ blank ] solid at room temperature.
+  3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
+  4. The total number of make up an atom's mass [ blank ] number.
+  </div>
 </div>
 
 ### Compounds
