@@ -100,7 +100,8 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 #### Solubility of Substances in Water at 20° C
 
 
-**Solid Substances**{: .center-align }
+**Solid Substances**
+{: .center-align }
 
 | Substances | Solubility in g/100 g of Water |
 |:-:|:-:|
@@ -109,8 +110,8 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 | sugar ( sucrose ) | 203.9 |
 {: .bordered .striped }
 
-**Gaseous Substances**{: .center-align }
-( at normal atmospheric pressure ){: .center-align }
+**Gaseous Substances** ( at normal atmospheric pressure )
+{: .center-align }
 
 | Substances | Solubility in g/100 g of Water |
 |:-:|:-:|
