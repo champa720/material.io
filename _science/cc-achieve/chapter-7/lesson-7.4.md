@@ -100,22 +100,23 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 #### Solubility of Substances in Water at 20° C
 
 
-**Solid Substances**
+**Solid Substances**{: .center-align }
 
 | Substances | Solubility in g/100 g of Water |
 |:-:|:-:|
 | salt ( sodium chloride ) | 35.9 |
 | baking soda ( sodium bicarbonate ) | 9.6 |
 | sugar ( sucrose ) | 203.9 |
+{: .bordered .striped }
 
-**Gaseous Substances**
+**Gaseous Substances**{: .center-align }
+( at normal atmospheric pressure ){: .center-align }
 
 | Substances | Solubility in g/100 g of Water |
 |:-:|:-:|
 | oxygen | 0.0005 |
 | carbon dioxide | 0.16 |
 {: .bordered .striped }
-*at normal atmospheric pressure
 
 ### Rules of Solubility
 
@@ -169,11 +170,11 @@ Acids and bases vary in strength, as do solutions containing acids and bases. So
 
 Acids and bases can react with each other. When an acid is added to a base solution, their hydroxide ions and hydrogen ions combine to form molecules of water. The other ions combine to form a salt. A salt is an ionic compound formed from the negative ions of an acid and the positive ions of a base. The reaction of an acid with a base is called a neutralization reaction. This is because the products formed are neutral- they are neither acids nor bases. The general formula for an acid-base reaction is:
 
-$$ Acid + base \to salt + water $$
+$$ \text { Acid + base \to salt + water } $$
 
 Here is an example.
 
-$$ HCL (aq) + NaOH \to NaCL (aq) + H_2O $$
+$$ \text { HCL (aq) + NaOH \to NaCL (aq) + H_2O } $$
 
 This example shows the formation of table salt. Although people often think only of table salt when they hear the term salt, there are hundreds of different salts that can form when an acid reacts with a base.
 

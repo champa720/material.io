@@ -51,11 +51,11 @@ Gravitational potential energy (GPE) is related to the mass and height of the ob
 
 If you lift a 2.00 kilogram book to a shelf 1.20 meters above the floor, what is the change in potential energy in joules? The gravitational field of the book is not considered because the field of an object only affects other objects.
 
-$$ GPE = mgh $$
+$$ \text { GPE = mgh } $$
 
-$$ GPE = (2.00 kg)(9.80 m/s^2)(1.20 m) $$
+$$ \text { GPE = (2.00 kg)(9.80 m/s^2)(1.20 m) } $$
 
-$$ GPE = 23.5 (kg \times m^2)/s^2 = 23.5 J $$
+$$ \text { GPE = 23.5 (kg \times m^2)/s^2 = 23.5 J } $$
 
 The gravitational potential energy will increase by 23.5 J.
 

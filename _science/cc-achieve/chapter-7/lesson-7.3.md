@@ -79,7 +79,7 @@ Hydrogen and oxygen molecules react to form water. That is one way to describe t
 
 A chemical equation is a form of notation that shows the reactants and products involved in a chemical reaction. The reactants are shown on the left, and the products are shown on the right, with an arrow between to indicate the direction in which the reaction proceeds. The arrow indicates that something is produced or formed. Words above the arrow can describe the conditions under which the reaction takes place. They can show, for example, if the reaction requires heat to occur. Each reactant is separated in the equation by a plus sign ( + ), as shown in the equation below. If there are two or more products, each product is also separated by a plus sign. The equation for the formation of water is written as follows:
 
-$$ 2H_2 \;(\text g) + O_2 \;(\text g) \to 2H_2O \;(\text l) $$
+$$ \text { 2H_2 \;(g) + O_2 \;(g) \to 2H_2O \;(l) } $$
 
 Notice that in this equation, a number appears in front of some of the chemical formulas. These numbers, called coefficients, indicate how many molecules of each substance are involved in the reaction. If there is no coefficient in front of a formula, the coefficient is assumed to be 1. The coefficient shows the ratio of molecules in a reaction. In this reaction, the ratio is two hydrogen atoms to one oxygen atom, so two hydrogen molecules will react with one oxygen molecule and produce two water molecules.
 
@@ -87,7 +87,7 @@ Notice that in this equation, a number appears in front of some of the chemical 
 
 Look at the following chemical equation written without coefficients:
 
-$$ H_2 \;(\text g) + O_2 \;(\text g) \to H_2O \;(\text l) $$
+$$ \text { H_2 \;(g) + O_2 \;(g) \to H_2O \;(l) } $$
 
 Count the number of atoms on each side of the equation Recall that the subscripts indicate the number of atoms in one molecule of a compound. There are two hydrogen atoms and two oxygen atoms on the reactant side of the equation There are two hydrogen atoms but only one oxygen atom on the product side of the equation The number of atoms on each side of the equation is not the same. This means that the reaction as written cannot take place, because it violates the law of conservation of mass.
 
@@ -95,11 +95,11 @@ Coefficients are used to write a balanced chemical equation which is an equation
 
 To balance the equation place the coefficient 2 in front of the formula for water. This signifies that two molecules of water are produced for every one molecule of oxygen that reacts.
 
-$$ H_2 \;(\text g) + O_2 \;(\text g) \to 2H_2O \;(\text l) $$
+$$ \text { H_2 \;(g) + O_2 \;(g) \to 2H_2O \;(l) } $$
 
 Notice that oxygen is now balanced in the equation There are two oxygen atoms on the left side of the equation and two on the right. Hydrogen, however, is now unbalanced. To balance hydrogen, place the coefficient 2 in front of hydrogen on the reactant side of the equation.
 
-$$ 2H_2 \;(\text g) + O_2 \;(\text g) \to 2H_2O \;(\text l) $$
+$$ \text { 2H_2 \;(g) + O_2 \;(g) \to 2H_2O \;(l) } $$
 
 The number of atoms of each element on the left is now equal to the number of atoms of that element on the right. The equation is balanced.
 
@@ -116,8 +116,8 @@ Think about Science
 
 Directions: Write balanced equation for the chemical reactions.
 
-  1. \\( CH_4 + 0_2 \to CO_2 + H_2O \\)
-  2. \\( KOH + H_2SO_4 \to K_2SO_4 + H_2O \\)
+  $$ \text { CH_4 + 0_2 \to CO_2 + H_2O } $$
+  $$ \text { KOH + H_2SO_4 \to K_2SO_4 + H_2O } $$
 </div>
 
 ## Energy Changes in Chemical Reactions
