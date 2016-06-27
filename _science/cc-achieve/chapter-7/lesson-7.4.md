@@ -99,25 +99,19 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 
 #### Solubility of Substances in Water at 20° C
 
-
-**Solid Substances**
-{: .center-align }
-
-| Substances | Solubility in g/100 g of Water |
+| Solid Substances | Solubility in g/100 g of Water |
 |:-:|:-:|
 | salt ( sodium chloride ) | 35.9 |
 | baking soda ( sodium bicarbonate ) | 9.6 |
 | sugar ( sucrose ) | 203.9 |
 {: .bordered .striped }
 
-**Gaseous Substances** ( at normal atmospheric pressure )
-{: .center-align }
-
-| Substances | Solubility in g/100 g of Water |
+| Gaseous Substances * | Solubility in g/100 g of Water |
 |:-:|:-:|
 | oxygen | 0.0005 |
 | carbon dioxide | 0.16 |
 {: .bordered .striped }
+** at normal atmospheric pressure*
 
 ### Rules of Solubility
 
