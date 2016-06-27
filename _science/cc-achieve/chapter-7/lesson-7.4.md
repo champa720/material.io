@@ -111,7 +111,7 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 | oxygen | 0.0005 |
 | carbon dioxide | 0.16 |
 {: .bordered .striped }
-** at normal atmospheric pressure*
+\* *at normal atmospheric pressure*
 
 ### Rules of Solubility
 
