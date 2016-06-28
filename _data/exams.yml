@@ -12,13 +12,13 @@ ged:
       image_path: /lel-logo.png
             
     - title: "GED Test 2015: Strategies, Practice, and Review"
-      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+      description: "Request It: a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
       url: http://encore.coalliance.org/iii/encore/record/C__Rb33183718__St%3A%28GED%20test%202015%20%3A%20strategies%2C%20practice%20%26%20review%29__Orightresult__U__X4?lang=eng&suite=def
       image_path: /dpl-logo.png
 
-    - title: "World Cat: The World's Largest Library Catalog"
-      description: "GED Test 2015: Strategies, Practice, and Review"
-      url: https://www.worldcat.org/title/ged-test-2015-strategies-practice-review/oclc/908373367
+    - title: "GED Test 2015: Strategies, Practice, and Review"
+      description: "World Cat: The World's Largest Library Catalog. Ask your librarian how to request it."
+      url: https://www.worldcat.org/title/ged-test-2015-strategies-practice-review/oclc/899031959
       image_path: /worldcat-logo.png
 
     - title: "Kaplan Books Online"
@@ -30,7 +30,7 @@ ged:
 
     - title: "GED Test 2015: Strategies, Practice, and Review"
       description: "Buy from Amazon"
-      url: https://www.amazon.com/Kaplan-Test-Mathematical-Reasoning-Prep/dp/1625232365
+      url: https://www.amazon.com/Kaplan-Strategies-Practice-Review-Tests/dp/1618658875
       image_path: /amazon-logo.png
 
     - title: "Texas Instruments TI-30XS Multiview"
@@ -47,12 +47,12 @@ hiset:
       image_path: /lel-logo.png
             
     - title: "The Official Guide to the HiSET Exam"
-      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+      description: "Request It: a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
       url: http://encore.coalliance.org/iii/encore/record/C__Rb34738061__St%3A%28The%20Official%20Guide%20to%20the%20HiSET%20Exam%29__Orightresult__U__X6?lang=eng&suite=def
       image_path: /dpl-logo.png
 
-    - title: "World Cat: The World's Largest Library Catalog"
-      description: "The Official Guide to the HiSET Exam"
+    - title: "The Official Guide to the HiSET Exam"
+      description: "World Cat: The World's Largest Library Catalog. Ask your librarian how to request it."
       url: http://www.worldcat.org/title/official-guide-to-the-hiset-exam/oclc/881450009
       image_path: /worldcat-logo.png
 
@@ -74,13 +74,13 @@ tasc:
       url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-tasc-test
       image_path: /lel-logo.png
             
-    - title: "GED Test 2016: Strategies, Practice, and Review"
-      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+    - title: "TASC: strategies, practice, & review 2015-2016
+      description: "Request It: a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
       url: http://encore.coalliance.org/iii/encore/record/C__Rb32379641__St%3A%28TASC%20%3A%20strategies%2C%20practice%20%26%20review%29__P0%2C1__Orightresult__U__X4?lang=eng&suite=def
       image_path: /dpl-logo.png
 
-    - title: "World Cat: The World's Largest Library Catalog"
-      description: "TASC: strategies, practice, & review 2015-2016"
+    - title: "TASC: strategies, practice, & review 2015-2016"
+      description: "World Cat: The World's Largest Library Catalog. Ask your librarian how to request it."
       url: https://www.worldcat.org/title/tasc-strategies-practice-review-2015-2016/oclc/873007237
       image_path: /worldcat-logo.png
 
