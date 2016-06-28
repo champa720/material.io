@@ -10,10 +10,15 @@ ged:
       description: "Con la práctica puede obtener un gran resultado en cada parte de la versión en español del examen de GED®. Aquí le mostramos cómo es que el examen empieza:"
       url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/ged-en-espanol
       image_path: /lel-logo.png
+            
+    - title: "GED Test 2015: Strategies, Practice, and Review"
+      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+      url: http://encore.coalliance.org/iii/encore/record/C__Rb33183718__St%3A%28GED%20test%202015%20%3A%20strategies%2C%20practice%20%26%20review%29__Orightresult__U__X4?lang=eng&suite=def
+      image_path: /dpl-logo.png
 
     - title: "World Cat: The World's Largest Library Catalog"
-      description: "GED Test 2016: Strategies, Practice, and Review"
-      url: https://www.worldcat.org/title/ged-test-2016-strategies-practice-review/oclc/908373367
+      description: "GED Test 2015: Strategies, Practice, and Review"
+      url: https://www.worldcat.org/title/ged-test-2015-strategies-practice-review/oclc/908373367
       image_path: /worldcat-logo.png
 
     - title: "Kaplan Books Online"
@@ -23,8 +28,13 @@ ged:
       url: https://www.kaptest.com/booksonline/questkey.jhtml?clid=383017154
       image_path: /ktp-logo.png
 
+    - title: "GED Test 2015: Strategies, Practice, and Review"
+      description: "Buy from Amazon"
+      url: https://www.amazon.com/Kaplan-Test-Mathematical-Reasoning-Prep/dp/1625232365
+      image_path: /amazon-logo.png
+
     - title: "Texas Instruments TI-30XS Multiview"
-      description: "Texas Instruments TI-30XS on-screen calculator will automatically be available when you sit for the GED<sup>&reg;</sup> test on computer after January 2nd, 2014 for all but a select few Mathematical Reasoning questions, and some Social Studies and Science questions."
+      description: "Buy from Amazon"
       url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
       image_path: /amazon-logo.png
 
@@ -35,9 +45,24 @@ hiset:
       description: "With practice, you can get a great score on every part of the <em>HiSET</em><sup>&reg;</sup>. Here&#39;s how to get started:"
       url:  http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-hiset-exam
       image_path: /lel-logo.png
+            
+    - title: "The Official Guide to the HiSET Exam"
+      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+      url: http://encore.coalliance.org/iii/encore/record/C__Rb34738061__St%3A%28The%20Official%20Guide%20to%20the%20HiSET%20Exam%29__Orightresult__U__X6?lang=eng&suite=def
+      image_path: /dpl-logo.png
+
+    - title: "World Cat: The World's Largest Library Catalog"
+      description: "The Official Guide to the HiSET Exam"
+      url: http://www.worldcat.org/title/official-guide-to-the-hiset-exam/oclc/881450009
+      image_path: /worldcat-logo.png
+
+    - title: "The Official Guide to the HiSET Exam"
+      description: "Buy from Amazon"
+      url: https://www.amazon.com/Official-Guide-HiSET-Exam-Second/dp/1259640795
+      image_path: /amazon-logo.png
 
     - title: "Texas Instruments TI-30XS Multiview"
-      description: "Calculators are provided by test centers. You may not bring your own calculator to the test center."
+      description: "Buy from Amazon"
       url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
       image_path: /amazon-logo.png
 
@@ -48,6 +73,11 @@ tasc:
       description: "With practice, you can get a great score on every part of TASC Test Assessing Secondary Completion. Here's how to get started:"
       url: http://www.learningexpresshub.com/hsequivalencycenter/guidance/prepare-for-the-tasc-test
       image_path: /lel-logo.png
+            
+    - title: "GED Test 2016: Strategies, Practice, and Review"
+      description: "Denver Public Library: Search Prospector, a combined catalog from other library collections near Denver. Not available from Prospector? Try WorldCat."
+      url: http://encore.coalliance.org/iii/encore/record/C__Rb32379641__St%3A%28TASC%20%3A%20strategies%2C%20practice%20%26%20review%29__P0%2C1__Orightresult__U__X4?lang=eng&suite=def
+      image_path: /dpl-logo.png
 
     - title: "World Cat: The World's Largest Library Catalog"
       description: "TASC: strategies, practice, & review 2015-2016"
@@ -58,8 +88,13 @@ tasc:
       description: 
       url: http://www.kaptest.com/pages/booksonline
       image_path: /ktp-logo.png
+      
+    - title: "TASC: strategies, practice, & review 2015-2016"
+      description: "Buy from Amazon"
+      url: https://www.amazon.com/Kaplan-2015-2016-Strategies-Practice-Review/dp/1618658867
+      image_path: /amazon-logo.png
 
     - title: "Texas Instruments TI-30XS Multiview"
-      description: "The TI-30XS is the recommended calculator for use on the TASC test."
+      description: "Buy from Amazon"
       url: https://www.amazon.com/Texas-Instruments-MultiView-Scientific-Calculator/dp/B000PDFQ6K/
       image_path: /amazon-logo.png
