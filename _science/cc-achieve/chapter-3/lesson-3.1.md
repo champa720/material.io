@@ -1,5 +1,5 @@
 ---
-title: Cells: Basic Units of Life
+title: "Cells: Basic Units of Life"
 
 objectives:
 - Explain the principles of the cell theory
