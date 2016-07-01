@@ -154,7 +154,6 @@ defaults:
   - scope:
       path: "_mathematics"
     values:
-      category: 
       color: orange
       icon: widgets
   - scope:
