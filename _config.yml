@@ -15,13 +15,13 @@ timezone: America/Denver
 social:
   - name: facebook
     tooltip: join my private study group
-    url: http://www.facebook.com/groups/jasonsclassroom
+    url: "http://www.facebook.com/groups/jasonsclassroom"
   - name: github
     tooltip: see my code
-    url: https://www.github.com/champa720
+    url: "https://github.com/champa720/hse-materialize"
   - name: linkedin
     tooltip: network
-    url: https://www.linkedin.com/in/jason-kilpatrick-17111717
+    url: "https://www.linkedin.com/in/jason-kilpatrick-17111717"
   # - name: rss url:
   # - name: twitter url:
   # - name: dropbox url:
