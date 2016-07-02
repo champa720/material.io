@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "theme_color": "#4527a0",
   "background_color": "#673ab7",
-  "display": "minimal-ui",
+  "display": "fullscreen",
   "icons": [
     {
     "src": "/assets/img/icon.png",
