@@ -34,9 +34,11 @@ layout: default_alt
       <h5 class="white-text">{{ page.collection | upcase }}</h5>
       <ul class="table-of-contents">
         {% for p in site.[a] %}
+        {% unless p.url contains "resources" %}
         <li>
           <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
         </li>
+        {% endunless %}
         {% endfor %}
       </ul>
     </aside>
@@ -49,15 +51,23 @@ layout: default_alt
       <section class="col s12 m8 l7 offset-l1" id="page-content">
         <div class="card page">
           <div class="card-content page-content">
+            <!-- table of contents dropdown -->
             <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop" data-constrainwidth="false">
               <i class="material-icons medium">more_vert</i>
             </a>
-            <!-- table of contents dropdown -->
             <ul class="dropdown-content" id="toc_drop">
               {% for p in site.[a] %}
+              {% unless p.url contains "resources" %}
               <li>
                 <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
               </li>
+              {% endunless %}
+              {% endfor %}
+              {% for p in site.[a] %}
+              {% if p.url contains "resources" %}
+              <li class="divider"></li>
+              <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
+              {% endif %}
               {% endfor %}
             </ul>
             <span class="card-title">{{ page.title }}</span>
@@ -78,7 +88,7 @@ layout: default_alt
             </a>
             {% endfor %}
             {% if page.date != null %}
-            <small>{{ page.date | date_to_long_string | prepend: "last updated: " | upcase }}</small>
+            <small>{{"last updated: " | upcase }}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></small>
             {% endif %}
           </div>          
         </div>
@@ -86,7 +96,7 @@ layout: default_alt
       <!-- more information -->
       <aside class="col s12 m4 l3">
         <div class="collection">
-          <a href="#" class="collection-item avatar waves-effect">
+          <a href="../{{ page.collection }}/resources" class="collection-item avatar waves-effect{% if page.url contains 'resources' %} active{% endif %}">
             <i class="material-icons circle {{ page.color }}">exit_to_app</i>
             <strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong>
             <p>{{ "practice, references, and more..." | titleize }}</p>

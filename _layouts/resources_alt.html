@@ -1,0 +1,41 @@
+---
+layout: page_alt
+---
+{% assign a = page.collection %}
+
+<!-- data.[page.collection] -->
+{% if site.data.[a] %}
+
+{% for d in site.data.[a] %}
+<div class="collection with-header">
+  <div class="collection-header {{ page.color }} white-text">{{ d.title | upcase }}</div>
+
+  {% for q in d.docs %}
+  <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
+
+  {% endfor %}
+  <div class="collection-item {{ page.color }} white-text"></div>
+</div>
+{% endfor %}
+{% endif %}
+
+<!-- data.exams.[page.collection] -->
+{% if site.data.exams.[a] %}
+<div class="collection with-header">
+  {% for data in site.data.exams.[a] %}
+  <div class="collection-header {{ page.color }} white-text">
+    {{ data.title | upcase }}
+  </div>
+
+  {% for q in data.docs %}
+  <div class="collection-item avatar">
+    <img src="{{ q.image_path | prepend: "/assets/img" | prepend: site.baseurl | prepend: site.url }}" class="circle" />
+    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+    <p>{{ q.description }}</p>
+  </div>
+
+  {% endfor %}
+  <div class="collection-item {{ page.color }} white-text"></div>
+  {% endfor %}
+</div>
+{% endif %}
