@@ -1,21 +1,41 @@
 ---
 layout: default_alt
 ---
-<header>
+<header class="{{ page.color }}">
   <div class="row">
-    <nav>
+    <!-- in progress -->
+    <nav class="transparent z-depth-0">
     </nav>
     <!-- breadcrumbs -->
-    <nav class="transparent">
+    <nav class="transparent z-depth-0">
+      <div class="col s12 m12 l10 offset-l1 truncate">
+        {% if page.url == '/' %}
+        <a class="breadcrumb">{{ page.title | upcase }}</a>
+        {% endif %}
+
+        {% assign crumbs = page.url | split: '/' %}
+        {% for crumb in crumbs %}
+        {% if forloop.first == true %}
+        <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}">{{ "Home" | upcase }}</a>
+
+        {% elsif forloop.last == true %}
+        <a class="breadcrumb">{{ page.title | upcase }}</a>
+
+        {% else %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs | limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+
+        {% endif %}
+        {% endfor %}
+      </div>
     </nav>
     <!-- table of contents -->
     {% assign a = page.collection %}
     <aside class="col s12 m4 offset-m8 l3 offset-l8 hide-on-small-only" id="toc">
-      <h5 class="white-text">{{ a.label }}</h5>
+      <h5 class="white-text">{{ page.collection | upcase }}</h5>
       <ul class="table-of-contents">
         {% for p in site.[a] %}
-        <li class="waves-effect truncate">
-          <a href="{{ p.url }}" class="{% if page.url contains p.url %}active{% endif %}">{{ p.title }}</a>
+        <li>
+          <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -29,14 +49,14 @@ layout: default_alt
       <section class="col s12 m8 l7 offset-l1" id="page-content">
         <div class="card">
           <div class="card-content">
-            <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop">
+            <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop" data-constrainwidth="false">
               <i class="material-icons medium">more_vert</i>
             </a>
             <!-- table of contents dropdown -->
             <ul class="dropdown-content" id="toc_drop">
               {% for p in site.[a] %}
-              <li class="waves-effect truncate">
-                <a href="{{ p.url }}" class="{% if page.url contains p.url %}active{% endif %}">{{ p.title }}</a>
+              <li>
+                <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
               </li>
               {% endfor %}
             </ul>
@@ -44,22 +64,21 @@ layout: default_alt
             {{ content }}
           </div>
           <div class="card-action grey lighten-3">
-            <!-- includes footer -->
-            {% if page.source %}
-            <blockquote class="grey-text text-lighten-2 truncate">
-              {% for source in page.source %}
-              <a href="{{ source }}">{{ source prepend: "source: " | downcase }}</a><br />
-              {% endfor %}
-              {% for source_pdf in page.pdf %}
-              <a href="{{ source_pdf }}">{{ source_pdf | prepend | "source pdf: " | downcase }}</a><br />
-              {% endfor %}              
-              {% if page.date != null %}
-              <label>{{ page.date | date_to_long_string | prepend: "last updated: " }}</label>
-              {% endif %}
-            </blockquote>
-            {% else %}
-            <h5 class="white-text">{{ site.title | titleize }}</h5>
-            <blockquote class="grey-text text-lighten-2">{{ site.description | capitalize }}</blockquote>
+            <!-- revised includes footer -->
+            {% for source in page.source %}
+            <a href="{{ source }}" class="truncate">
+              <i class="material-icons left">link</i>
+              <span>{{ source | prepend: "source: " | downcase }}</span>
+            </a>
+            {% endfor %}
+            {% for source_pdf in page.pdf %}
+            <a href="{{ source_pdf }}" class="truncate">
+              <i class="material-icons left">link</i>
+              <span>{{ source_pdf | prepend: "source pdf: " | downcase }}</span>
+            </a>
+            {% endfor %}
+            {% if page.date != null %}
+            <small>{{ page.date | date_to_long_string | prepend: "last updated: " | upcase }}</small>
             {% endif %}
           </div>          
         </div>
@@ -68,8 +87,8 @@ layout: default_alt
       <aside class="col s12 m4 l3">
         <div class="collection">
           <a href="#" class="collection-item avatar waves-effect">
-            <i class="material-icons circle">exit_to_app</i>
-            <span class="title">{{ collection.label | prepend: resources | upcase }}</span>
+            <i class="material-icons circle {{ page.color }}">exit_to_app</i>
+            <span class="title">{{ " resources" | prepend: page.collection | upcase }}</span>
             <p>practice, references, and more...</p>
           </a>
         </div>
@@ -116,7 +135,6 @@ layout: default_alt
       </div>
     </span>
   </div>
-  {% endunless %}
   <div class="footer-copyright {{ page.color }} darken-4">
     <div class="row">
       <span class="col s12">
@@ -128,7 +146,7 @@ layout: default_alt
   </div>
 </footer>
 
-{% include page.foot.html %}
+{% include foot.html %}
 
 <script>
   $(window).on("load resize", function () {
