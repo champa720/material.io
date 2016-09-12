@@ -47,8 +47,8 @@ layout: default_alt
   <article>   
     <div class="row">
       <section class="col s12 m8 l7 offset-l1" id="page-content">
-        <div class="card">
-          <div class="card-content">
+        <div class="card page">
+          <div class="card-content page-content">
             <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop" data-constrainwidth="false">
               <i class="material-icons medium">more_vert</i>
             </a>
@@ -88,8 +88,8 @@ layout: default_alt
         <div class="collection">
           <a href="#" class="collection-item avatar waves-effect">
             <i class="material-icons circle {{ page.color }}">exit_to_app</i>
-            <span class="title">{{ " resources" | prepend: page.collection | upcase }}</span>
-            <p>practice, references, and more...</p>
+            <strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong>
+            <p>{{ "practice, references, and more..." | titleize }}</p>
           </a>
         </div>
       </aside>

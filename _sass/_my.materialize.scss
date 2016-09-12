@@ -95,6 +95,13 @@ h1, h2.sub,
   }
 }
 
+.table-of-contents a {
+  color: rgba(255,255,255, .7);
+  &.active {
+    color: #fff;
+  }
+}
+
 // side-nav color
 .side-nav,
 .side-nav.fixed {
