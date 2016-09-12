@@ -9,54 +9,92 @@
 
 - title: PBT Free Practice, English
   docs:
+    # Reading
+    - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT6A
+      url: https://hiset.ets.org/s/pdf/practice/reading_fpt6a.pdf
 
     - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT3
       url: http://hiset.ets.org/s/pdf/practice/reading_fp3.pdf
 
     - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT2
       url: http://hiset.ets.org/s/pdf/practice/reading_fp2.pdf
+      
+    # Writing
+    - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT6A
+      url: https://hiset.ets.org/s/pdf/practice/writing_fpt6a.pdf
 
     - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT3
       url: http://hiset.ets.org/s/pdf/practice/writing_fp3.pdf
 
     - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT2
       url: http://hiset.ets.org/s/pdf/practice/writing_fp2.pdf
+      
+    # Mathematics
+    - title: Mathematics, HiSET® Exam Free Practice Test FPT6A
+      url: https://hiset.ets.org/s/pdf/practice/math_fpt6a.pdf
 
     - title: Mathematics, HiSET® Exam Free Practice Test FPT3
       url: http://hiset.ets.org/s/pdf/practice/math_fp3.pdf
 
     - title: Mathematics, HiSET® Exam Free Practice Test FPT2
       url: http://hiset.ets.org/s/pdf/practice/math_fp2.pdf
-
+      
+    # Science
+    - title: Science, HiSET® Exam Free Practice Test FPT6A
+      url: https://hiset.ets.org/s/pdf/practice/science_fpt6a.pdf
+      
     - title: Science, HiSET® Exam Free Practice Test FPT2
       url: http://hiset.ets.org/s/pdf/practice/science_fp2.pdf
+      
+    # Social Studies
+    - title: Social Studies, HiSET® Exam Free Practice Test FPT6A
+      url: https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a.pdf
 
     - title: Social Studies, HiSET® Exam Free Practice Test FPT2
       url: http://hiset.ets.org/s/pdf/practice/social_studies_fp2.pdf
 
 - title: PBT Pra&#769;ctica Gratuito, Espan&#771;ol
   docs:
+    # Reading
+    - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT6A de HiSET® 
+      url: https://hiset.ets.org/s/pdf/practice/reading_fpt6a_es.pdf
 
     - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT3 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/reading_fp3_es.pdf
 
     - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT2 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/reading_fp2_es.pdf
-
+      
+    # Writing
+    - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT6A de HiSET® 
+      url: https://hiset.ets.org/s/pdf/practice/writing_fpt6a_es.pdf
+      
     - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT3 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/writing_fp3_es.pdf
 
     - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT2 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/writing_fp2_es.pdf
+      
+    # Mathematics
+    - title: Matemáticas, Examen de práctica gratuito FPT6A de HiSET® 
+      url: https://hiset.ets.org/s/pdf/practice/math_fpt6a_es.pdf
 
     - title: Matemáticas, Examen de práctica gratuito FPT3 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/math_fp3_es.pdf
 
     - title: Matemáticas, Examen de práctica gratuito FPT2 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/mathematics_fp2_es.pdf
-
+      
+    # Science
+    - title: Ciencia, Examen de práctica gratuito FPT6A de HiSET® 
+      url: https://hiset.ets.org/s/pdf/practice/science_fpt6a_es.pdf
+      
     - title: Ciencia, Examen de práctica gratuito FPT2 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/science_fp2_es.pdf
-
+      
+    # Social Studies
+    - title: Estudios Sociales, Examen de práctica gratuito FPT6A de HiSET® 
+      url: https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a_es.pdf
+      
     - title: Estudios Sociales, Examen de práctica gratuito FPT2 de HiSET® 
       url: http://hiset.ets.org/s/pdf/practice/social_studies_fp2_es.pdf
