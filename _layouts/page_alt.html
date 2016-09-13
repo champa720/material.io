@@ -22,7 +22,7 @@ layout: default_alt
         <a class="breadcrumb">{{ page.title | upcase }}</a>
 
         {% else %}
-        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs | limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
         {% endif %}
         {% endfor %}
@@ -33,7 +33,7 @@ layout: default_alt
     <aside class="col s12 m4 offset-m8 l3 offset-l8 hide-on-small-only" id="toc">
       <h5 class="white-text">{{ page.collection | upcase }}</h5>
       <ul class="table-of-contents">
-        {% for p in site.[a] %}
+        {% for p in site[a] %}
         {% unless p.url contains "resources" %}
         <li>
           <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
@@ -56,14 +56,14 @@ layout: default_alt
               <i class="material-icons medium">more_vert</i>
             </a>
             <ul class="dropdown-content" id="toc_drop">
-              {% for p in site.[a] %}
+              {% for p in site[a] %}
               {% unless p.url contains "resources" %}
               <li>
                 <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
               </li>
               {% endunless %}
               {% endfor %}
-              {% for p in site.[a] %}
+              {% for p in site[a] %}
               {% if p.url contains "resources" %}
               <li class="divider"></li>
               <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>

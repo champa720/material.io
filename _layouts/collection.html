@@ -19,7 +19,7 @@ layout: default
 
       {% capture name %}{{ a_grouped.name }}{% endcapture %}
 
-      {% for p in a_grouped.items limit:1 reversed %}
+      {% for p in a_grouped.items reversed limit: 1 %}
       {% if p.image_path != null %}
 
       <div class="col s6 m4">
@@ -38,10 +38,10 @@ layout: default
     </div>
 
     <!-- data.materials.[page.collection] -->
-    {% if site.data.materials.[a] %}
+    {% if site.data.materials[a] %}
     <div class="collection with-header">
 
-      {% for data in site.data.materials.[a] %}
+      {% for data in site.data.materials[a] %}
       <div class="collection-header {{ page.color }} white-text">
         {{ data.title | upcase }}
       </div>

@@ -4,9 +4,9 @@ layout: page_alt
 {% assign a = page.collection %}
 
 <!-- data.[page.collection] -->
-{% if site.data.[a] %}
+{% if site.data[a] %}
 
-{% for d in site.data.[a] %}
+{% for d in site.data[a] %}
 <div class="collection with-header">
   <div class="collection-header {{ page.color }} white-text">{{ d.title | upcase }}</div>
 
@@ -20,9 +20,9 @@ layout: page_alt
 {% endif %}
 
 <!-- data.exams.[page.collection] -->
-{% if site.data.exams.[a] %}
+{% if site.data.exams[a] %}
 <div class="collection with-header">
-  {% for data in site.data.exams.[a] %}
+  {% for data in site.data.exams[a] %}
   <div class="collection-header {{ page.color }} white-text">
     {{ data.title | upcase }}
   </div>

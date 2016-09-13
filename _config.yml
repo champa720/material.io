@@ -7,8 +7,6 @@ description: >
 baseurl: ""
 url: "http://www.jasonsclassroom.com"
 repository: champa720/hse-materialize
-gems:
-  - jekyll-github-metadata
 
 timezone: America/Denver
 
@@ -30,6 +28,7 @@ social:
 # Build settings
 markdown: kramdown
 exclude: [vendor]
+gems: ['jekyll-github-metadata']
 
 collections:
   # xyz
