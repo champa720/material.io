@@ -1,0 +1,59 @@
+<div class="navbar-fixed">
+  <nav class="{{ page.color }} darken-3">
+    <div class="row">
+      <span class="nav-wrapper col s12">
+        <!-- menu button -->
+        {% unless page.url == "/" %}
+        <a href="#!" data-activates="main-menu" class="button-collapse show-on-large">
+          <i class="material-icons">menu</i>
+        </a>
+        {% endunless %}
+        <!-- nav links -->
+        <ul class="right">
+          {% for media in site.social %}
+          <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
+            <a href="{{ media.url }}" target="_blank">
+              <i class="material-icons fa fa-{{ media.name }}-square"></i>
+              <span class="icon-text">{{ media.name }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </span>
+    </div>
+    <!-- side-nav-main -->
+    {% assign x = site.pages | sort: 'path' %}
+    <ul id="main-menu" class="side-nav">
+      <li>
+        <div class="userView">
+          <img class="background" src="{{ "/assets/img/denver.jpg" |  prepend: site.baseurl }}">
+          <a href="#!user">
+            <img class="circle" src="{{ "/assets/img/icon.png" |  prepend: site.baseurl }}">
+          </a>
+          <a href="#!name">
+            <span class="white-text name">{{ site.title | upcase}}</span>
+          </a>
+          <a href="mailto:{{ site.email }}">
+            <span class="white-text email">{{ site.email }}</span>
+          </a>
+        </div>
+      </li>
+      <span class="side-nav-main">
+        {% for p in x %}
+        {% if p.title != null %}
+        <li class="{% if p.url == page.url %}active{% endif %}">
+          <a href="{{ p.url }}">
+            {{ p.title | upcase }}
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </span>
+      <footer class="footer-copyright grey lighten-3 center-align">
+        <span>&copy;</span>
+        <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+        <span>{{ page.author | upcase }}</span>
+      </footer>
+    </ul>
+  </nav>
+</div>

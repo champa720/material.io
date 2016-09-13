@@ -2,24 +2,34 @@
 {% assign x = site.pages | sort: 'path' %}
 
 <ul id="main-menu" class="side-nav">
+  <li>
+    <div class="userView">
+      <img class="background" src="{{ "/assets/img/denver.jpg" |  prepend: site.baseurl }}">
+      <a href="#!user">
+        <img class="circle" src="{{ "/assets/img/icon.png" |  prepend: site.baseurl }}">
+      </a>
+      <a href="#!name">
+        <span class="white-text name">{{ site.title | upcase}}</span>
+      </a>
+      <a href="mailto:{{ site.email }}">
+        <span class="white-text email">{{ site.email }}</span>
+      </a>
+    </div>
+  </li>
   <span class="side-nav-main">
-    <li class="{{ page.color }} white-text center-align">
-      <strong><a href="/">{{ site.title | upcase }}</a></strong>
-    </li>
 
     {% for p in x %}
     {% if p.title != null %}
     <li class="{% if p.url == page.url %}active{% endif %}">
       <a href="{{ p.url }}">
         {{ p.title | upcase }}
-        <i class="material-icons right">chevron_right</i>
       </a>
     </li>
 
     {% endif %}
     {% endfor %}
   </span>
-  <footer class="footer-copyright center-align">
+  <footer class="footer-copyright grey lighten-3 center-align">
     <span>&copy;</span>
     <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
     <span>{{ page.author | upcase }}</span>
@@ -34,10 +44,21 @@
 {% for a_grouped in x %}
 
 <ul id="{{ a_grouped.name }}-menu" class="side-nav">
+  <li>
+    <div class="userView">
+      <img class="background" src="{{ "/assets/img/denver.jpg" |  prepend: site.baseurl }}">
+      <a href="#!user">
+        <img class="circle" src="{{ "/assets/img/icon.png" |  prepend: site.baseurl }}">
+      </a>
+      <a href="#!name">
+        <span class="white-text name">{{ site.title | upcase}}</span>
+      </a>
+      <a href="mailto:{{ site.email }}">
+        <span class="white-text email">{{ site.email }}</span>
+      </a>
+    </div>
+  </li>
   <span class="side-nav-main">
-    <li class="{{ page.color }} white-text center-align">
-      <strong><a href="/">{{ site.title | upcase }}</a></strong>
-    </li>
 
     {% for p in a_grouped.items %}
     {% if p.url contains 'index' %}
@@ -48,14 +69,13 @@
     <li class="{% if p.url == page.url %}active{% endif %}">
       <a href="{{ url }}" class="truncate">
         {{ toc | replace: '-',' ' | upcase }} : {{ p.title | upcase }}
-        <!-- <i class="material-icons right">chevron_right</i> -->
       </a>
     </li>
 
     {% endif %}
     {% endfor %}
   </span>
-  <footer class="footer-copyright center-align">
+  <footer class="footer-copyright {{ page.color }} center-align">
     <span>&copy;</span>
     <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
     <span>{{ page.author | upcase }}</span>
@@ -68,22 +88,32 @@
 {% if page.side-nav == 'curriculum' %}
 
 <ul id="{{ page.side-nav }}-menu" class="side-nav fixed">
+  <li>
+    <div class="userView">
+      <img class="background" src="{{ "/assets/img/denver.jpg" |  prepend: site.baseurl }}">
+      <a href="#!user">
+        <img class="circle" src="{{ "/assets/img/icon.png" |  prepend: site.baseurl }}">
+      </a>
+      <a href="#!name">
+        <span class="white-text name">{{ site.title | upcase}}</span>
+      </a>
+      <a href="mailto:{{ site.email }}">
+        <span class="white-text email">{{ site.email }}</span>
+      </a>
+    </div>
+  </li>
   <span class="side-nav-main">
-    <li class="{{ page.color }} white-text center-align">
-      <strong><a href="/">{{ site.title | upcase }}</a></strong>
-    </li>
-    
+
     {% for doc in page.docs %}
 
     <li class="{% if p.url == page.url %}active{% endif %}">
       <a href="{{ doc.url | prepend: page.repository }}" target="iframe" class="truncate">{{ doc.title }}
-        <i class="material-icons right">chevron_right</i>
       </a>
     </li>
     
     {% endfor %}
   </span>
-  <footer class="footer-copyright center-align">
+  <footer class="footer-copyright {{ page.color }} center-align">
     <span>&copy;</span>
     <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
     <span>{{ page.author | upcase }}</span>
