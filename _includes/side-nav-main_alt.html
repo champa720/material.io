@@ -1,0 +1,32 @@
+<!-- side-nav-main -->
+{% assign x = site.pages | sort: 'path' %}
+<ul id="main-menu" class="side-nav">
+  <li>
+    <div class="userView">
+      <img class="background" src="../assets/img/denver.jpg">
+      <a href="#!user">
+        <img class="circle" src="../assets/img/icon.png">
+      </a>
+      <a href="#!name">
+        <span class="white-text name">{{ site.title | upcase}}</span>
+      </a>
+      <a href="mailto:{{ site.email }}">
+        <span class="white-text email">{{ site.email }}</span>
+      </a>
+    </div>
+  </li>
+  <span class="side-nav-main">
+    {% for p in x %}
+    {% if p.title != null %}
+    <li class="{% if p.url == page.url %}active{% endif %}">
+      <a href="{{ p.url }}">{{ p.title | titleize }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </span>
+  <footer class="footer-copyright center-align">
+    <span>&copy;</span>
+    <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+    <span>{{ page.author | upcase }}</span>
+  </footer>
+</ul>

@@ -49,8 +49,8 @@ layout: default_alt
   <article>   
     <div class="row">
       <section class="col s12 m8 l7 offset-l1" id="page-content">
-        <div class="card page">
-          <div class="card-content page-content">
+        <div class="card">
+          <div class="card-content">
             <!-- table of contents dropdown -->
             <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop" data-constrainwidth="false">
               <i class="material-icons medium">more_vert</i>
@@ -66,12 +66,12 @@ layout: default_alt
               {% for p in site[a] %}
               {% if p.url contains "resources" %}
               <li class="divider"></li>
-              <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
+              <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><i class="material-icons left">exit_to_app</i><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
               {% endif %}
               {% endfor %}
             </ul>
             <span class="card-title">{{ page.title }}</span>
-            {{ content }}
+            <span class="casper">{{ content }}</span>
           </div>
           <div class="card-action grey lighten-3">
             <!-- revised includes footer -->
