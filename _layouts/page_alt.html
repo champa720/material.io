@@ -18,10 +18,12 @@ layout: default_alt
         {% for crumb in crumbs %}
         {% if forloop.first == true %}
         <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}">{{ "Home" | upcase }}</a>
-
+        
+        {% comment %}
         {% elsif forloop.last == true %}
         <a class="breadcrumb">{{ page.title | upcase }}</a>
-
+        {% endcomment %}
+        
         {% else %}
         <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
@@ -35,7 +37,7 @@ layout: default_alt
       <h5 class="white-text">{{ page.collection | upcase }}</h5>
       <ul class="table-of-contents">
         {% for p in site[a] %}
-        {% unless p.url contains "resources" %}
+        {% unless forloop.last == true %}
         <li>
           <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
         </li>
@@ -58,17 +60,14 @@ layout: default_alt
             </a>
             <ul class="dropdown-content" id="toc_drop">
               {% for p in site[a] %}
-              {% unless p.url contains "resources" %}
+              {% unless forloop.last == true %}
               <li>
                 <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
               </li>
-              {% endunless %}
-              {% endfor %}
-              {% for p in site[a] %}
-              {% if p.url contains "resources" %}
+              {% else %}
               <li class="divider"></li>
               <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><i class="material-icons left">exit_to_app</i><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
-              {% endif %}
+              {% endunless %}
               {% endfor %}
             </ul>
             <span class="card-title">{{ page.title }}</span>

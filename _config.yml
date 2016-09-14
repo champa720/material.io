@@ -36,17 +36,19 @@ collections:
     output: true
     categories: "instructor resources"
     image_path: /assets/img/cde-shield-1x.png
-    permalink: /hse/:collection/:path
+    permalink: /resources/:collection/:path
   curriculum:
     output: true
     categories: "instructor resources"
     icon: description
     color: grey
+    permalink: /resources/:collection/:path
   posts:
     output: true
     categories: "instructor resources"
     icon: chrome_reader_mode
     color: grey
+    permalink: /resources/:collection/:path
     
   # hse exams
   ged:
@@ -110,6 +112,8 @@ defaults:
   - scope:
       type: cde
     values:
+      layout: page_alt
+      category: Instructor Resources
       image_path: /assets/img/cde-shield-1x.png
   - scope:
       type: curriculum
@@ -134,21 +138,21 @@ defaults:
       path: "_ged"
     values:
       layout: page_alt
-      category: ged
+      category: HS Equivalency Exams
       tagline: Welcome to the first step towards your dreams
       image_path: /assets/img/ged-logo-1x.png
   - scope:
       path: "_hiset"
     values:
       layout: page_alt
-      category: hiset
+      category: HS Equivalency Exams
       tagline: Now there’s a choice in High School Equivalency Tests
       image_path: /assets/img/hiset-logo-1x.png
   - scope:
       path: "_tasc"
     values:
       layout: page_alt
-      category: tasc
+      category: HS Equivalency Exams
       tagline: The New National High School Equivalency Exam
       image_path: /assets/img/tasc-logo-1x.png
       

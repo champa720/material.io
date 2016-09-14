@@ -5,8 +5,9 @@
         <!-- menu button -->
         {% unless page.url == "/" %}
         <a href="#!" data-activates="main-menu" class="button-collapse show-on-large">
-          <i class="material-icons">menu</i>
+          <i class="material-icons left">menu</i>
         </a>
+        <span class="brand-logo hide-on-small-only">{{ page.categories }}</span>
         {% endunless %}
         <!-- nav links -->
         <ul class="right">
