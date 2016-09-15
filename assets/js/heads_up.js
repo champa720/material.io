@@ -3,9 +3,9 @@
 * @author Kyle Foster (@hkfoster)
 * @license MIT
 */
-;(function( window, document, undefined ) {
+(function( window, document ) {
 
-  'use strict';
+  "use strict";
 
   // Extend function
   function extend( a, b ) {
@@ -40,7 +40,7 @@
 
   // Class management functions
   function classReg( className ) {
-    return new RegExp( '(^|\\s+)' + className + '(\\s+|$)' );
+    return new RegExp( "(^|\\s+)" + className + "(\\s+|$)" );
   }
 
   function hasClass( el, cl ) {
@@ -49,12 +49,12 @@
 
   function addClass( el, cl ) {
     if ( !hasClass( el, cl ) ) {
-      el.className = el.className + ' ' + cl;
+      el.className = el.className + " " + cl;
     }
   }
 
   function removeClass( el, cl ) {
-    el.className = el.className.replace( classReg( cl ), ' ' );
+    el.className = el.className.replace( classReg( cl ), " " );
   }
 
   // Main function definition
@@ -77,7 +77,7 @@
       var self         = this,
           options      = self.options,
           selector     = self.selector,
-          oldScrollY   = 0, 
+          oldScrollY   = 0,
           winHeight;
 
       // Resize handler function
@@ -99,9 +99,9 @@
 
         // Where the magic happens
         if ( pastDelay && goingDown ) {
-          addClass( selector, 'heads-up' );
+          addClass( selector, "heads-up" );
         } else if ( !goingDown && fastEnough && !rockBottom || !pastDelay ) {
-          removeClass( selector, 'heads-up' );
+          removeClass( selector, "heads-up" );
         }
 
         // Keep on keeping on
@@ -110,15 +110,15 @@
 
       // Attach listeners
       if ( selector ) {
-        
+
         // Trigger initial resize
         resizeHandler();
 
         // Resize function listener
-        window.addEventListener( 'resize', throttle( resizeHandler ), false );
+        window.addEventListener( "resize", throttle( resizeHandler ), false );
 
         // Scroll function listener
-        window.addEventListener( 'scroll', throttle( scrollHandler, 100 ), false );
+        window.addEventListener( "scroll", throttle( scrollHandler, 100 ), false );
       }
     }
   };
@@ -128,4 +128,4 @@
 })( window, document );
 
 // Instantiate HeadsUp
-new headsUp( '.navbar-fixed nav' );
+new headsUp( ".navbar-fixed nav" );
