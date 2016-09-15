@@ -128,4 +128,4 @@
 })( window, document );
 
 // Instantiate HeadsUp
-headsUp( ".navbar-fixed nav" );
+new headsUp( ".navbar-fixed nav" );
