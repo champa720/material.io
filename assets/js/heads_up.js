@@ -3,7 +3,7 @@
 * @author Kyle Foster (@hkfoster)
 * @license MIT
 */
-(function( window, document ) {
+(function( window, document, undefined ) {
 
   "use strict";
 
