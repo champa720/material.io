@@ -56,6 +56,14 @@ body.welcome::before {
   z-index: -1;
 }
 
+// headsUp
+.navbar-fixed nav {
+  transition: .25s transform;
+}
+.navbar-fixed nav.heads-up {
+  transform: translate3d(0,-6rem,0);
+}
+
 // highlight selection
 ::-moz-selection {
   background: color("materialize-red", "lighten-2");
