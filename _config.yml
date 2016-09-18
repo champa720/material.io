@@ -28,7 +28,6 @@ social:
 # Build settings
 markdown: kramdown
 exclude: [vendor]
-gems: ['jekyll-github-metadata']
 
 collections:
   # xyz
