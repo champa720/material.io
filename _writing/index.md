@@ -1,3 +1,5 @@
 ---
-title: Writing Index
+layout: collection
+title: Science Collection
+permalink: /materials/:collection/
 ---

@@ -30,21 +30,21 @@ markdown: kramdown
 exclude: [vendor]
 
 collections:
-  # xyz
+  # instructor resources
   cde:
     output: true
-    categories: "instructor resources"
+    category: Instructor Resources
     image_path: /assets/img/cde-shield-1x.png
     permalink: /resources/:collection/:path
   curriculum:
     output: true
-    categories: "instructor resources"
+    category: Instructor Resources
     icon: description
     color: grey
     permalink: /resources/:collection/:path
   posts:
     output: true
-    categories: "instructor resources"
+    category: Instructor Resources
     icon: chrome_reader_mode
     color: grey
     permalink: /resources/:collection/:path
@@ -52,19 +52,19 @@ collections:
   # hse exams
   ged:
     output: true
-    categories: "hse exams"
+    category: HS Equivalency Exams
     image_path: /assets/img/ged-logo-1x.png
     tagline: Welcome to the first step towards your dreams
     permalink: /hse/:collection/:path
   hiset:
     output: true
-    categories: "hse exams"
+    category: HS Equivalency Exams
     image_path: /assets/img/hiset-logo-1x.png
     tagline: Now there’s a choice in High School Equivalency Tests
     permalink: /hse/:collection/:path
   tasc:
     output: true
-    categories: "hse exams"
+    category: HS Equivalency Exams
     image_path: /assets/img/tasc-logo-1x.png
     tagline: The New National High School Equivalency Exam
     permalink: /hse/:collection/:path
@@ -72,31 +72,31 @@ collections:
   # study materials
   mathematics:
     output: true
-    categories: "study materials"
+    category: Study Materials
     icon: widgets
     color: orange
     permalink: /materials/:collection/:path
   reading:
     output: true
-    categories: "study materials"
+    category: Study Materials
     icon: book
     color: blue
     permalink: /materials/:collection/:path
   science:
     output: true
-    categories: "study materials"
+    category: Study Materials
     icon: lightbulb_outline
     color: purple
     permalink: /materials/:collection/:path
   social-studies:
     output: true
-    categories: "study materials"
+    category: Study Materials
     icon: account_balance
     color: green
     permalink: /materials/:collection/:path
   writing:
     output: true
-    categories: "study materials"
+    category: Study Materials
     icon: edit
     color: red
     permalink: /materials/:collection/:path
@@ -105,127 +105,144 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: page
+      layout: page_alt
       author: jason
       color: deep-purple
+  
+  # pages
+  - scope:
+      path: "hse"
+    values:
+      category: HS Equivalency Exams
+  - scope:
+      path: "materials"
+    values:
+      category: Study Materials
+  - scope:
+      path: "resources"
+    values:
+      category: Instructor Resources
+  
+  # instructor resources
   - scope:
       type: cde
     values:
-      layout: page_alt
       category: Instructor Resources
+      tag: CDE
       image_path: /assets/img/cde-shield-1x.png
   - scope:
       type: curriculum
     values:
       layout: iframe
-  # pages
-  - scope:
-      path: "hse"
-    values:
-      categories: hse exams
-  - scope:
-      path: "materials"
-    values:
-      categories: study materials
-  - scope:
-      path: "resources"
-    values:
-      categories: instructor resources
   
   # hse exams  
   - scope:
       path: "_ged"
     values:
-      layout: page_alt
       category: HS Equivalency Exams
+      tag: GED
       tagline: Welcome to the first step towards your dreams
       image_path: /assets/img/ged-logo-1x.png
   - scope:
       path: "_hiset"
     values:
-      layout: page_alt
       category: HS Equivalency Exams
+      tag: HiSET
       tagline: Now there’s a choice in High School Equivalency Tests
       image_path: /assets/img/hiset-logo-1x.png
   - scope:
       path: "_tasc"
     values:
-      layout: page_alt
       category: HS Equivalency Exams
+      tag: TASC
       tagline: The New National High School Equivalency Exam
       image_path: /assets/img/tasc-logo-1x.png
       
-  # materials
+  # materials  
+  # mathematics
   - scope:
       path: "_mathematics"
     values:
+      category: Study Materials
       color: orange
       icon: widgets
   - scope:
       path: "_mathematics/cc-basics"
     values:
-      category: cc-basics
+      tag: Common Core Basics
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-mathematics.jpg
   - scope:
       path: "_mathematics/khan-academy"
     values:
-      category: khan-academy
+      tag: Khan Academy
       tagline: You can learn anything!
       image_path: /assets/img/ka-logo-5x.png
+  
+  #reading
   - scope:
       path: "_reading"
     values:
+      category: Study Materials
       color: blue
       icon: book
   - scope:
       path: "_reading/cc-basics"
     values:
-      category: cc-basics
+      tag: Common Core Basics
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-reading.jpg
+  
+  # science
   - scope:
       path: "_science"
     values:
+      category: Study Materials
       color: purple
       icon: lightbulb_outline
   - scope:
       path: "_science/cc-basics"
     values:
-      category: cc-basics
+      tag: Common Core Basics
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-science.jpg
   - scope:
       path: "_science/cc-achieve"
     values:
-      category: cc-achieve
+      tag: Common Core Achieve
       tagline: Mastering Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/cca-science.jpg
+  
+  # social studies
   - scope:
       path: "_social-studies"
     values:
+      category: Study Materials
       color: green
       icon: account_balance
   - scope:
       path: "_social-studies/cc-basics"
     values:
-      category: cc-basics
+      tag: Common Core Basics
       tagline: Building Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/ccb-social-studies.jpg
   - scope:
       path: "_social-studies/cc-achieve"
     values:
-      category: cc-achieve
+      tag: Common Core Achieve
       tagline: Mastering Essential Test Readiness Skills for High School Equivalency Exams
       image_path: /assets/img/book_covers/cca-social-studies.jpg
+
+# writing
   - scope:
       path: "_writing"
     values:
+      category: Study Materials
       color: red
       icon: edit
   - scope:
       path: "_writing/cc-achieve"
     values:
-      category: cc-achieve
+      tag: Common Core Achieve
       tagline: 
       image_path: 

@@ -11,7 +11,7 @@ layout: default
     </div>
 
     {% assign a = page.collection %}
-    {% assign x = site.[page.collection] | group_by: 'category' | sort: 'name' %}
+    {% assign x = site.[page.collection] | group_by: 'tag' | sort: 'name' %}
 
     <div class="row">
 
@@ -19,12 +19,12 @@ layout: default
 
       {% capture name %}{{ a_grouped.name }}{% endcapture %}
 
-      {% for p in a_grouped.items reversed limit: 1 %}
+      {% for p in a_grouped.items limit: 1 %}
       {% if p.image_path != null %}
 
       <div class="col s6 m4">
         <div class="card hoverable">
-          <a href="#!" data-activates="{{ name }}-menu" class="button-collapse">
+          <a href="{{ p.url }}">
             <div class="card-image">
               <img src="{{ p.image_path }}" />
             </div>

@@ -30,7 +30,7 @@ title: table of contents
 
 {% comment %}
 
-{% assign x = site.collections | group_by: 'categories' | sort: 'name' %}
+{% assign x = site.collections | group_by: 'category' | sort: 'name' %}
 
 {% for a_grouped in x %}
 {% if a_grouped.name != 'null' %}

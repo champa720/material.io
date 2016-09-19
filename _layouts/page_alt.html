@@ -5,26 +5,19 @@ layout: default_alt
   <div class="row">
     {% include header_alt.html %}
     <nav class="transparent z-depth-0">
-    <!-- empty space -->
+      <!-- empty space -->
     </nav>
     <!-- breadcrumbs -->
+    {% assign crumbs = page.url | split: '/' %}
     <nav class="transparent z-depth-0">
       <div class="col s12 m12 l10 offset-l1 truncate">
-        {% if page.url == '/' %}
-        <a class="breadcrumb">{{ page.title | upcase }}</a>
-        {% endif %}
-
-        {% assign crumbs = page.url | split: '/' %}
-        {% for crumb in crumbs %}
-        {% if forloop.first == true %}
-        <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}">{{ "Home" | upcase }}</a>
-        
-        {% elsif forloop.last == true %}
-        <a class="breadcrumb">{{ page.title | upcase }}</a>
-        
+        {% for crumb in crumbs limit: 3 %}
+        {% if forloop.index == 1 %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ "Home" | upcase }}</a>
+        {% elsif forloop.index == 2 %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.category | upcase }}</a>
         {% else %}
-        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
-
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.collection | replace:'-', ' ' | upcase }}</a>
         {% endif %}
         {% endfor %}
       </div>
@@ -32,14 +25,14 @@ layout: default_alt
     <!-- table of contents -->
     {% assign a = page.collection %}
     <aside class="col s12 m4 offset-m8 l3 offset-l8 hide-on-small-only" id="toc">
-      <h5 class="white-text">{{ page.collection | upcase }}</h5>
+      <h5 class="white-text">{{ page.tag | upcase}}</h5>
       <ul class="table-of-contents">
         {% for p in site[a] %}
-        {% unless forloop.last == true %}
+        {% if p.tag == page.tag and forloop.last != true %}
         <li>
-          <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+          <a href="{{ p.url }}" class="waves-effect{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
         </li>
-        {% endunless %}
+        {% endif %}
         {% endfor %}
       </ul>
     </aside>
@@ -58,14 +51,14 @@ layout: default_alt
             </a>
             <ul class="dropdown-content" id="toc_drop">
               {% for p in site[a] %}
-              {% unless forloop.last == true %}
-              <li>
-                <a href="{{ p.url }}" class="waves-effect{% if page.url == p.url %} active{% endif %}">{{ p.title }}</a>
+              {% if p.tag == page.tag and forloop.last != true %}
+              <li class="{% if page.url == p.url %}active{% endif %}">
+                <a href="{{ p.url }}" class="waves-effect">{{ p.title }}</a>
               </li>
-              {% else %}
+              {% elsif p.tag == page.tag and forloop.last == true %}
               <li class="divider"></li>
-              <li><a href="../{{ page.collection }}/resources" class="waves-effect{% if page.url contains 'resources' %} active{% endif %}"><i class="material-icons left">exit_to_app</i><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
-              {% endunless %}
+              <li class="{% if page.url == p.url %}active{% endif %}"><a href="../{{ page.collection }}/resources" class="waves-effect"><i class="material-icons left">exit_to_app</i><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
+              {% endif %}
               {% endfor %}
             </ul>
             <span class="card-title">{{ page.title }}</span>
