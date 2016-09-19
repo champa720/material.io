@@ -28,7 +28,7 @@ layout: default_alt
       <h5 class="white-text">{{ page.tag | upcase}}</h5>
       <ul class="table-of-contents">
         {% for p in site[a] %}
-        {% if p.tag == page.tag and forloop.last != true %}
+        {% if p.tag == page.tag and p.toc == true %}
         <li>
           <a href="{{ p.url }}" class="waves-effect{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
         </li>
@@ -51,13 +51,18 @@ layout: default_alt
             </a>
             <ul class="dropdown-content" id="toc_drop">
               {% for p in site[a] %}
-              {% if p.tag == page.tag and forloop.last != true %}
+              {% if p.tag == page.tag and p.toc == true %}
               <li class="{% if page.url == p.url %}active{% endif %}">
                 <a href="{{ p.url }}" class="waves-effect">{{ p.title }}</a>
               </li>
-              {% elsif p.tag == page.tag and forloop.last == true %}
+              {% elsif p.tag == page.tag and p.slug == 'resources' %}
               <li class="divider"></li>
-              <li class="{% if page.url == p.url %}active{% endif %}"><a href="../{{ page.collection }}/resources" class="waves-effect"><i class="material-icons left">exit_to_app</i><strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong></a></li>
+              <li class="{% if page.url == p.url %}active{% endif %}">
+                <a href="{{ p.url }}" class="waves-effect">
+                  <i class="material-icons left">exit_to_app</i>
+                  <strong class="title">{{ p.title | upcase }}</strong>
+                </a>
+              </li>
               {% endif %}
               {% endfor %}
             </ul>
@@ -87,11 +92,15 @@ layout: default_alt
       <!-- more information -->
       <aside class="col s12 m4 l3">
         <div class="collection">
-          <a href="../{{ page.collection }}/resources" class="collection-item avatar waves-effect{% if page.url contains 'resources' %} active{% endif %}">
+          {% for p in site[a] %}
+          {% if p.tag == page.tag and p.slug == 'resources' %}
+          <a href="{{ p.url }}" class="collection-item avatar waves-effect{% if page.url contains 'resources' %} active{% endif %}">
             <i class="material-icons circle {{ page.color }}">exit_to_app</i>
-            <strong class="title">{{ " resources" | prepend: page.collection | upcase }}</strong>
-            <p>{{ "practice, references, and more..." | titleize }}</p>
+            <strong class="title">{{ p.title | upcase }}</strong>
+            <p>{{ p.tagline }}</p>
           </a>
+          {% endif %}
+          {% endfor %}
         </div>
       </aside>
     </div>

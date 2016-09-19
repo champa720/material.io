@@ -1,5 +1,6 @@
 ---
 title: GED Resources for Students and Educators
+toc: true
 source:
   - https://www.cde.state.co.us/postsecondary/hse
 pdf:

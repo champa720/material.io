@@ -1,5 +1,6 @@
 ---
-title: High School Equivalency Testing Program Fact Sheet
+title: HSE Fact Sheet
+toc: true
 source:
   - https://www.cde.state.co.us/postsecondary/hse
 pdf:
