@@ -8,28 +8,23 @@ Living things are found in all corners of Earth-from the deepest oceans, to the 
 
 In this chapter, you will study the variety of living things, from single-celled microbes to multicellular organisms. In this chapter you will learn about:
 
-## [Lesson 4.1: The Cell](lesson-4.1)
-
+**[Lesson 4.1: The Cell](lesson-4.1)**\\
 Cells are the building blocks of life. Plants are made of cells. So are animals and all other life forms. Some scientists estimate that the adult human body has from 75 to 100 trillion cells. Cells contain internal structures that carry out specific jobs.
 
 Learn how plant cells and animal cells are alike and how they are different. Also find out how cells work.
 
-## [Lesson 4.2: Simple Organisms](lesson-4.2)
-
+**[Lesson 4.2: Simple Organisms](lesson-4.2)**\\
 A microbe is a simple organism made from a single cell. Bacteria are microbes. Some scientists say that the majority of cells in the human body are bacterial cells, most of which live in the digestive system.
 
 Learn about the earliest and simplest organisms that lived on Earth-the prokaryotes. Then read about eukaryotes and more complex microbes and multicellular organisms, such as mold, mushrooms, and ferns.
 
-## [Lesson 4.3: Invertebrates](lesson-4.3)
-
+**[Lesson 4.3: Invertebrates](lesson-4.3)**\\
 What distinguishes invertebrates from vertebrates? Learn about the basic characteristics of invertebrate animals, including sponges, worms, mollusks, and insects. Also read about the process of metamorphosis.
 
-## [Lesson 4.4: Vertebrates](lesson-4.4)
-
+**[Lesson 4.4: Vertebrates](lesson-4.4)**\\
 You, a dog, and a whale are all vertebrates. Discover what characteristics are common to all vertebrates and investigate the differences between cold-blooded and warm-blooded animals.
 
-## Goal Setting
-
+**Goal Setting**\\
 You encounter different species of organisms every day. They live in your home, in your classroom, and outdoors. Which of these organisms interests you most? What would you like to know about this organism?
 
 Choose an organism and draw its picture.
