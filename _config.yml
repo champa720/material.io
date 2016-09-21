@@ -28,6 +28,8 @@ social:
 # Build settings
 markdown: kramdown
 exclude: [vendor]
+sass:
+  style: compressed
 
 collections:
   # instructor resources
@@ -174,7 +176,7 @@ defaults:
       source: "http://www.highschoolequivalency.com/category/products/common-core-basics/"
       image_path: /assets/img/book_covers/ccb-mathematics.jpg
   - scope:
-      path: "_social-studies/cc-achieve"
+      path: "_mathematics/cc-achieve"
     values:
       tag: Common Core Achieve
       tagline: Mastering Essential Test Readiness Skills for High School Equivalency Exams

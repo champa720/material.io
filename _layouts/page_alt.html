@@ -42,7 +42,7 @@ layout: default_alt
 <main>
   <article>   
     <div class="row">
-      <section class="col s12 m8 l7 offset-l1" id="page-content">
+      <section class="col s12 m8 l7 offset-l1" id="page-content" style="transition: margin-top 500ms cubic-bezier(0.470, 0.000, 0.745, 0.715);">
         <div class="card">
           <div class="card-content">
             <!-- table of contents dropdown -->
@@ -165,8 +165,7 @@ layout: default_alt
     var toc = $('#toc');
     if (document.documentElement.clientWidth > 601) {
       $('#page-content').css({
-        marginTop: -toc.outerHeight()+-20}).css({
-        position: relative});
+        marginTop: -toc.outerHeight()+-20});
     }
     else {
       $('#page-content').css({

@@ -31,7 +31,7 @@ key_concept:
 
 ## Simple Organisms
 
-Before it is possible to discuss a living thing, ,it is necessary to name it. In other words, every organism needs an identity. Thousands of years ago, for example, a Chinese emperor studied, tasted, and named hundreds of herbs used to make medicine. These names made communication about the medicinal plants possible.
+Before it is possible to discuss a living thing, it is necessary to name it. In other words, every organism needs an identity. Thousands of years ago, for example, a Chinese emperor studied, tasted, and named hundreds of herbs used to make medicine. These names made communication about the medicinal plants possible.
 
 Later, a Greek philosopher organized animals into two large groups, those with and without red blood. Today, those groups represent the vertebrates and invertebrates.
 
@@ -63,9 +63,7 @@ Slime molds are also protists. When food is scarce, the cells of one kind of sli
 
 ![A VIRUS](){: .materialboxed .responsive-img }
 
-Viruses are microbes, but not cells. Many scientists hesitate to call them living things because they do not grow or reproduce. They have no cytoplasm, no nucleus, and no cell membrane. They do, however, have a core of genetic material surrounded by a protein shell. Viruses depend on living cells for their survival. Once they invade a living cell, they control the cell and use it to produce more viruses. They are responsible for a host of diseases including flu, the common cold, chicken pox, mumps, measles, and AIDS. AIDS is believed to be caused by the HIV
-
-(human immunodeficiency virus). This virus harms the body's natural defenses so that other viruses or bacteria can strike. Unable to fend off disease-causing organisms that take advantage of an already weakened system, the body weakens further, and the victim dies.
+Viruses are microbes, but not cells. Many scientists hesitate to call them living things because they do not grow or reproduce. They have no cytoplasm, no nucleus, and no cell membrane. They do, however, have a core of genetic material surrounded by a protein shell. Viruses depend on living cells for their survival. Once they invade a living cell, they control the cell and use it to produce more viruses. They are responsible for a host of diseases including flu, the common cold, chicken pox, mumps, measles, and AIDS. AIDS is believed to be caused by the HIV (human immunodeficiency virus). This virus harms the body's natural defenses so that other viruses or bacteria can strike. Unable to fend off disease-causing organisms that take advantage of an already weakened system, the body weakens further, and the victim dies.
 
 #### Multicellular Organisms
 
