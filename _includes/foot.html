@@ -1,4 +1,4 @@
-{% if page.layout == "chapter" %}
+{% if page.javascript == true or layout.javascript == true %}
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
 <!-- include required scripts here -->
@@ -10,6 +10,6 @@
 
 
 
-{% if page.mathjax == 'true' %}
+{% if page.mathjax == true %}
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 {% endif %}

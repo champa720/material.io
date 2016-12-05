@@ -1,5 +1,11 @@
 ---
+javascript: true
 layout: null
+
+main_menu:
+  about-hse: /hse/
+  study-materials: /materials/
+  resources: /resources/
 ---
 <!DOCTYPE html>
 <html>
@@ -47,8 +53,24 @@ layout: null
       </span>
     </main>
 
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large">
+        <i class="large material-icons">apps</i>
+      </a>
+      <ul>
+        
+        {% for menu in page.main_menu %}
+        <li class="waves-effect waves-light">
+          <a href="{{ menu[1] | relative_url }}">{{ menu[0] | captialize }}</a>
+        </li>
+        {% endfor %}
+        
+      </ul>
+    </div>
+
     <footer class="page-footer">
-      <div class="footer-copyright pink darken-2">
+      <div class="footer-copyright">
+        <div class="footer-wrapper">&copy; {{ site.time | date: "%Y" }}, Jason Kilpatrick, All Rights Reserved</div>
       </div>
     </footer>
 

@@ -1,4 +1,5 @@
 ---
+javascript: true
 layout: default
 ---
 <section id="{{ page.subject | slugify }}" class="row deep-purple">
@@ -13,7 +14,7 @@ layout: default
       <div class="absolute">
         <div class="card accent">
           <div class="card-content flow-text">
-            <span class="card-title">{{ page.slug | capitalize | replace: "-", " " }}</span>
+            <span class="card-title">{{ page.slug | upcase | replace: "-", " " }}</span>
             <h2>{{ page.title }}</h2>
             {{ content }}           
           </div>
@@ -32,7 +33,7 @@ layout: default
       <!-- creates loop for chapter_contents by subject > category -->
       {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
       {% assign subject_chapters = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-      {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == page.category" | sort: "section"%}
+      {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
 
 
       {% for chapter_contents in subject_category %}

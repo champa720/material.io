@@ -37,7 +37,7 @@ $primary-color: color("deep-purple", "darken-3") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("pink", "darken-2") !default;
+$secondary-color: color("pink", "darken-1") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
@@ -258,7 +258,7 @@ $tabs-bg-color: transparent !default;
 // ==========================================================================
 
 $table-border-color: #d0d0d0 !default;
-$table-striped-color: #f2f2ff !default;
+$table-striped-color: color("grey", "lighten-4") !default;
 
 
 // 19. Toasts
@@ -285,7 +285,7 @@ $h6-fontsize: 1.333rem !default;
 // 21. Footer
 // ==========================================================================
 
-$footer-bg-color: $primary-color !default;
+$footer-bg-color: color("grey", "darken-3") !default;
 
 
 // 22. Flow Text

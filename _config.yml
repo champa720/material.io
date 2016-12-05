@@ -37,31 +37,16 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  hse:
-    output: true
   chapters:
     output: true
-    permalink: /study/:path/
+    permalink: /:path/
   sections:
     output: true
-    permalink: /study/:path/
+    permalink: /:path/
 
 defaults:
-  # HSE Defaults
-  -
-    scope:
-      path: "_hse/ged"
-      type: "hse"
-    values:
-      category: GED
-  -
-    scope:
-      path: "_hse/hiset"
-      type: "hse"
-    values:
-      category: HiSET
       
-  # Study Materials
+  # Global
   -
     scope:
       path: "_chapters"
@@ -74,6 +59,26 @@ defaults:
       type: "sections"
     values:
       layout: section
+      
+  # HSE Defaults
+  -
+    scope:
+      path: "/ged"
+      type: "hse"
+    values:
+      category: GED
+  -
+    scope:
+      path: "/hiset"
+      type: "hse"
+    values:
+      category: HiSET
+  -
+    scope:
+      path: "/tasc"
+      type: "tasc"
+    values:
+      category: TASC
       
   # Subject Defaults
   -
@@ -91,21 +96,21 @@ defaults:
   # Volume Defaults
   -
     scope:
-      path: "/reading/achieve"
+      path: "_sections/materials/science/cc-achieve"
     values:
-      category: Common Core Achieve
+      author: McGraw Hill Education
   -
     scope:
-      path: "/reading/basics"
+      path: "_sections/materials/science/cc-basics"
     values:
-      category: Common Core Basics
+      author: McGraw Hill Education
   -
     scope:
-      path: "/writing/achieve"
+      path: "_sections/materials/social-studies/cc-achieve"
     values:
-      category: Common Core Achieve
+      author: McGraw Hill Education
   -
     scope:
-      path: "/writing/basics"
+      path: "_sections/materials/social-studies/cc-basics"
     values:
-      category: Common Core Basics
+      author: McGraw Hill Education

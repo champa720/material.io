@@ -45,6 +45,10 @@ i.material-icons.rotate {
 
 .footer-copyright {
   color: ghostwhite;
+  
+  & .footer-wrapper {
+    padding: 0 .75rem;
+  }
 }
 
 // SVG Icons
@@ -65,7 +69,7 @@ svg {
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
 
   & p, ul, ol, dl, table {
-    margin: .6665rem 0 .5332rem 0 !important; // breathing space
+    margin: 0 0 1.1997rem 0 !important; // breathing space
   }
   &.casper {
   & ul {
@@ -184,6 +188,10 @@ body.welcome {
 
 section h1 {
   color: ghostwhite;
+}
+
+.table-of-contents li {
+  padding: 5px 0;
 }
 
 a.breadcrumb,
