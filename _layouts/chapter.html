@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<section id="{{ page.subject | slugify }}" class="row deep-purple">
+  <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
+  <nav class="col s12 l10 offset-l1 transparent z-depth-0">
+    <a href="#" class="breadcrumb">One</a>
+    <a href="#" class="breadcrumb">Two</a>
+    <a class="breadcrumb active" href="#">Title</a>
+  </nav>
+  <article class="col s12 m8 l7 offset-l1">
+    <div class="relative">
+      <div class="absolute">
+        <div class="card accent">
+          <div class="card-content flow-text">
+            <span class="card-title">{{ page.slug | capitalize | replace: "-", " " }}</span>
+            <h2>{{ page.title }}</h2>
+            {{ content }}           
+          </div>
+          <footer class="card-action grey lighten-2">
+            <a href="#!" class="grey-text text-darken-3">Card footer link</a>
+          </footer>            
+        </div>
+      </div>
+    </div>
+  </article>    
+
+  <aside class="col s12 m4 l3 offset-m8 offset-l8">
+    <h5 class="white-text">Contents</h5>
+    <ul class="table-of-contents truncate">
+
+      <!-- creates loop for chapter_contents by subject > category -->
+      {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
+      {% assign subject_chapters = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+      {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == page.category" | sort: "section"%}
+
+
+      {% for chapter_contents in subject_category %}
+      <li><a href="{{ chapter_contents.url }}" class="waves-effect waves-dark truncate{% if chapter_contents.url == page.url %} active{% endif %}">{{ chapter_contents.title }}</a></li>
+      {% endfor %}
+
+    </ul>
+  </aside>
+</section>
+
+<aside class="section">
+  <div class="row">
+    <div class="col s12 m4 l3 offset-m8 offset-l8">
+      <h5 class="grey-text text-darken-3">Related Content</h5>
+      <div class="collection">
+        <a href="#test7" class="collection-item">Alvin</a>
+        <a href="#test8" class="collection-item active">Alvin</a>
+        <a href="#test9" class="collection-item">Alvin</a>
+        <a href="#test10" class="collection-item">Alvin</a>
+      </div>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,32 @@
+---
+title: Recuerdo
+
+subject: Reading
+category: 2002
+chapter: 1
+section: 1.1
+tag: Literary
+
+author: "Edna St. Vincent Millay, Collected Poems."
+form: "https://docs.google.com/forms/d/e/1FAIpQLSejOJc6vxADrMzqtk-pySZBb4ir7WvDDQy9VBRmIaieT6-c_g/viewform"
+---
+We were very tired, we were very merry - \\
+We had gone back and forth all night on the ferry. \\
+It was bare and bright, and smelled like a stable - \\
+But we looked into a fire, we leaned across a table, \\
+We lay on a hill-top underneath the moon; \\
+And the whistles kept blowing, and the dawn came soon.
+
+We were very tired, we were very merry, \\
+We had gone back and forth all night on the ferry; \\
+And you ate an apple, and I ate a pear, \\
+From a dozen of each we had bought somewhere; \\
+And the sky went wan, and the wind came cold, \\
+And the sun rose dripping, a bucketful of gold.
+
+We were very tired, we were very merry, \\
+We had gone back and forth all night on the ferry. \\
+We hailed, "Good-morrow, mother!" to a shawl-covered head, \\
+And bought a morning paper, which neither of us read; \\
+And she wept, "God bless you!" for the apples and pears, \\
+And we gave her all our money but our subway fares.

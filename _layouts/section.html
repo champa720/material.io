@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<!-- creates loop for related_sections by category > tag -->
+{% assign related_category = site.sections | where_exp: "study", "study.category == page.category" %}
+{% assign related_chapter = related_category | where_exp: "study", "study.chapter == page.chapter" %}
+{% assign related_sections = related_chapter | where_exp: "study", "study.tag == page.tag" %}
+
+<!-- creates loop for related_chapters by tag -->
+{% assign related_chapters = site.chapters | where_exp: "study", "study.tag == page.tag" %}
+
+{% comment %}
+<dl>
+  <dt>Collection: {{ page.collection }}</dt>
+  <dt>Subject: {{ page.subject }}</dt>
+  <dt>Category: {{ page.category }}</dt>
+  <dt>{{ page.tag }}</dt>
+  <dt>Slug: {{ page.slug }}</dt>
+  <dt>URL: {{ page.url }}</dt>
+</dl>
+{% endcomment %}
+
+<article>
+  <header class="deep-purple">
+    <div class="container">
+      <div class="">
+        <!--tag-->
+        <span class="">{{ page.slug | capitalize | replace: "-", " " }}</span>
+        <!--date-->
+        <span class="right">{{ page.tag }}</span>
+        <hr>
+      </div>
+      <div class="">
+        <h1 class="title">{{ page.title }}</h1>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <hr>
+          <div class="section">
+            <i class="material-icons circle white deep-purple-text left" style="line-height:42px; width:42px; height:42px; margin-left:15px; text-align:center;">book</i>
+            <address class="">
+              <span>Author: {{ page.author }}</span>
+              <div>
+                <span class="truncate">{{ page.category }}</span>
+              </div>
+            </address>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container flow-text casper">
+    {{ content }}
+  </div>
+
+
+  <footer class="page-footer grey lighten-3">
+    <div class="container">
+
+      <section class="section">
+        <h5 class="grey-text text-darken-2">Up Next</h5>
+        <div class="collection">
+          <a rel="next" href="{{ page.next.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
+            <i class="material-icons circle">folder</i>
+            <span class="title">{{ page.next.title }}</span>
+            <p>{{ page.next.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h5 class="grey-text text-darken-2">Related Sections</h5>
+        <div class="collection">
+
+          {% for a in related_sections limit:5 %}
+          <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
+            <i class="material-icons circle">folder</i>
+            <span class="title">{{ a.title }}</span>
+            <p>{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+          </a>
+          {% endfor %}
+
+        </div>
+      </section>
+
+      <section class="section">
+        <h5 class="grey-text text-darken-2">Related Chapters</h5>
+        <div class="collection">
+
+          {% for a in related_chapters limit:5 %}
+          <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
+            <i class="material-icons circle">folder</i>
+            <span class="title">{{ a.title }}</span>
+            <p>{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+          </a>
+          {% endfor %}
+
+        </div>
+      </section>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container grey-text text-darken-3">
+        © 2014 Copyright Text
+        <a class="grey-text text-darken-3 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+</article>

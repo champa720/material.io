@@ -1,0 +1,19 @@
+<ul class="collapsible popout" data-collapsible="accordion">
+
+  <!-- creates loop for related_sections by subject > category > chapter -->
+  {% assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" %}
+  {% assign category = subject | where_exp: "sections", "sections.category == page.category" %}
+  {% assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" %}
+
+
+  {% for related_sections in chapter %}
+  <li>
+    <div class="collapsible-header"><i class="material-icons rotate">arrow_drop_down</i>{{ related_sections.title }}</div>
+    <div class="collapsible-body">
+      <p>{{ related_sections.excerpt }}</p>
+      <a href="{{ related_sections.url }}" class="btn"><i class="material-icons left">exit_to_app</i>Read more</a>
+    </div>
+  </li>
+  {% endfor %}
+
+</ul>

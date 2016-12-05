@@ -2,73 +2,59 @@
   docs:
 
     - title: GED® Test Tutorial
-      url: http://www.gedtestingservice.com/2014cbttutorialview/
-
+      url: "http://www.gedtestingservice.com/2014cbttutorialview/"
     - title: Mathematical Reasoning Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html"
     - title: Reasoning through Language Arts Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html"
     - title: Science Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Science/GEDSciencePracticeTest.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Science/GEDSciencePracticeTest.html"
     - title: Social Studies Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html"
+    - title: GED® Test Question Preview
+      url: "https://ged.com/preLogin#/content/demo:begin.html"
+      badge: true
 
 - title: CBT Pra&#769;ctica Gratuito, Espan&#771;ol
   docs:
 
     - title: Tutorial para el examen de GED®
-      url: http://www.gedtestingservice.com/2014EScbttutorialview/
-
+      url: "http://www.gedtestingservice.com/2014EScbttutorialview/"
     - title: Examen de práctica de Razonamiento Matemático
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html"
     - title: Examen de práctica de Razonamiento a traves do las Artes del Lenguaje
-      url: http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html"
     - title: Examen de práctica de Ciencias
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Science/ESP/GEDSciencePracticeTestESP.html
-
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Science/ESP/GEDSciencePracticeTestESP.html"
     - title: Examen de práctica de Estudies Sociales
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html"
 
 - title: References, English
   docs:
 
     - title: In Session
-      url: http://gedtestingservice.com/in-session/
-
+      url: "http://gedtestingservice.com/in-session/"
     - title: Sample Extended Response Passages and Prompts for Classroom Practice - RLA
-      url: http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf"
     - title: Sample Extended Response Passages and Prompts for Classroom Practice – Social Studies
-      url: http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf"
     - title: Mathematics Formula Sheet & Explanation
-      url: https://www.gedtestingservice.com/uploads/files/0756c16704434ff71e43c8117a5fa738.pdf
-
+      url: "https://www.gedtestingservice.com/uploads/files/0756c16704434ff71e43c8117a5fa738.pdf"
     - title: The GED Ready® Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts
-      url: http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf"
     - title: GED Ready™ The Official Practice Test - Science Short Answer Prompts and Source Texts
-      url: http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf
+      url: "http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf"
 
 - title: Referencias, Espan&#771;ol
   docs:
 
     - title: Muestra de pasajes y temas para redactar de las preguntas de respuesta extendida para práctica en el salón de clases – RLA
-      url: http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf"
     - title: Muestra de pasajes y temas para redactar de las preguntas de respuesta de extendida para práctica en el salón de clases – Estudios sociales
-      url: http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf"
     - title: Hoja y explicación de fórmulas matemáticas
-      url: http://www.gedtestingservice.com/uploads/files/49a6c9819901bff4a1570c776e1f4ad7.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/49a6c9819901bff4a1570c776e1f4ad7.pdf"
     - title: GED Ready® el examen de práctica oficial – Razonamiento a través de las artes del lenguaje (RLA, por sus siglas en inglés) Temas para redactar y textos fuente para la respuesta extensa
-      url: http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf
-
+      url: "http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf"
     - title: GED Ready™ el examen de práctica oficial - Ciencias Temas para redactar y textos fuente para la respuesta corta
-      url: http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf
+      url: "http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf"

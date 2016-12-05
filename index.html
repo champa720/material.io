@@ -8,22 +8,21 @@ layout: null
 
   <body class="welcome">
 
-    <span id="splash-overlay" class="splash"></span>
-    <span id="dot" class="z-depth-4"></span>
-
     <header>
       <div class="navbar-fixed">
-        <nav class="{{ page.color }} darken-3">
+        <nav>
           <div class="row">
             <span class="nav-wrapper col s12">
 
               <!-- social media -->
               <ul class="right">
-                {% for media in site.social %}
-                <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
-                  <a href="{{ media.url }}" target="_blank">
-                    <i class="material-icons fa fa-{{ media.name }}-square"></i>
-                    <span class="icon-text">{{ media.name }}</span>
+                {% for media in site.social_media %}
+                <li class="waves-effect waves-light">
+                  <a href="{{ media[1] }}" target="_blank">
+                    <svg>
+                      <use xlink:href="/assets/img/icons.svg#{{ media[0] }}" />
+                    </svg>
+                    <span class="hide">{{ media[0] }}</span>
                   </a>
                 </li>
                 {% endfor %}
@@ -39,21 +38,19 @@ layout: null
       <span class="container">
 
         <!-- title wrapper -->
-        <div class="section grey-text text-lighten-2">
+        <div class="section">
           <p class="flow-text">Welcome to</p>
           <h1 class="page-title">{{ site.title | upcase }}</h1>
           <blockquote class="flow-text">{{ site.description }}</blockquote>
         </div>
 
-        <!-- button wrapper -->
-        <div class="section center-align">
-          <a href="home.html" class="btn waves-effect waves-light">{{ "enter" | upcase }}<i class="material-icons right">exit_to_app</i></a>
-        </div>
-
       </span>
     </main>
 
-    {% include footer.html %}
+    <footer class="page-footer">
+      <div class="footer-copyright pink darken-2">
+      </div>
+    </footer>
 
     {% include foot.html %}
 

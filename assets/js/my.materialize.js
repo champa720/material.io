@@ -26,9 +26,9 @@
     // Dropdown
     // Media
     // Models
-    $('.modal-trigger').leanModal();
+    // $('.modal-trigger').modal();
     // Parallax
-    $('.parallax').parallax();
+    // $('.parallax').parallax();
     // Pushpin
     //var wrap = $(".page aside").offset().top;
     //var hdr = $('.page header').height();
@@ -43,11 +43,16 @@
     // Scrollfire
     // Scrollspy
     // Sidenav
-    $('.button-collapse').sideNav({
-      menuWidth: 300,
-      edge: 'left',
-      closeOnClick: false
-    });
+    // $('.button-collapse').sideNav({
+    //   menuWidth: 300,
+    //   edge: 'left',
+    //   closeOnClick: false
+    // });
+    // $('.questions').sideNav({
+    //   menuWidth: 450,
+    //   edge: 'right',
+    //   closeOnClick: false
+    // });
     // Tabs
     // Transitions
     // Waves

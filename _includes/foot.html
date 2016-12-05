@@ -1,27 +1,14 @@
-{% comment %}
-<!-- remove until contact form in place
-<div class="fixed-action-btn">
-  <a href="#message" class="modal-trigger btn btn-large btn-floating amber waves-effect waves-light">
-    <i class="large material-icons">message</i>
-  </a>
-</div>
-
-<div id="message" class="modal modal-fixed-footer">
-  <div class="modal-content">
-    <h4>Contact</h4>
-    <p>coming soon...</p>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="btn-flat modal-action modal-close waves-effect waves-dark">close</a>
-  </div>
-</div>
--->
-{% endcomment %}
-
+{% if page.layout == "chapter" %}
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<script type="text/javascript" src="{{ "/assets/js/my.materialize.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/assets/js/heads_up.js" | prepend: site.baseurl }}"></script>
+
+<!-- include required scripts here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+<!-- Initialization -->
+<script type="text/javascript" src="{{ "/assets/js/my.materialize.js" | relative_url }}"></script>
+{% endif %}
+
+
 
 {% if page.mathjax == 'true' %}
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
