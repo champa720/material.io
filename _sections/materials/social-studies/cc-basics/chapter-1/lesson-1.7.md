@@ -1,5 +1,6 @@
 ---
 title: The US Role in Global Society
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

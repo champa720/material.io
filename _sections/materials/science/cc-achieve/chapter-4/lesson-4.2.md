@@ -1,5 +1,6 @@
 ---
 title: Probability of Traits
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -43,7 +44,7 @@ Every person has a set of characteristics, or physical traits, that allows you t
 
 The genetic makeup of an organism is called its genotype. This genetic makeup involves combinations of alleles, or different forms of a gene, that influence an organism's phenotype. Pairs of alleles make up the genotype that controls the expression of a trait. For example, a pea plant that has a tall phenotype could have the genotype TT. However, because the allele for tallness is dominant, the tall pea plant could also have one allele that codes for tallness (T) and another masked, or recessive, allele that codes for shortness (t) . In this case, the genotype of the pea plant would be Tt. A pea plant that has a short phenotype must have two recessive alleles, so it would have the genotype tt. An organism with the same two alleles for a trait (for example, TT or tt) is homozygous for that trait. An organism with two different alleles for a trait (for example, Tt) is heterozygous for that trait. Some human traits, such as the type of earwax a person has, are determined by just two alleles, one dominant and one recessive. However, most human traits are controlled by multiple alleles or by multiple genes. The color of hair you have, for example, is such a trait. Traits are also influenced by environmental conditions.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -79,7 +80,7 @@ The same is true for the tt genotype. Half of the boxes, or two out of four, hav
 
 Now think about the phenotypes of the offspring. A plant will be tall if it inherits one dominant allele. Three of the four boxes, written as a fraction as 3/4 or 75 percent, include a dominant allele. Therefore, there is a 75 percent probability that an offspring will be tall and a 25 percent probability that an offspring will be short.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -115,7 +116,7 @@ One sex-linked trait is color blindness. People who are color blind cannot see t
 
 Punnett squares can be used to predict the genotypes of offspring for traits that have multiple alleles. For example, the ABO blood group gene has three alleles - I<sup>A</sup>, I<sup>B</sup>, and i - that combine in pairs to form the different blood types A, AB, B, and 0. Instead of three possible genotypes (as in dominant recessive inheritance), the ABO blood-group inheritance has six possible genotypes: *I<sup>A</sup>I<sup>A</sup>, I<sup>A</sup>I<sup>B</sup>, I<sup>B</sup>I<sup>B</sup>, I<sup>A</sup>i, I<sup>B</sup>i, and ii*.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following question.
 

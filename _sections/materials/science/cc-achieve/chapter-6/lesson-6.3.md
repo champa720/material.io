@@ -1,5 +1,6 @@
 ---
 title: Heat
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -47,7 +48,7 @@ Heat is the flow of thermal energy between substances at different temperatures.
 
 Early scientists and philosophers thought heat was a substance that flowed from one substance to another. Later observations and experiments showed that heat results from the movement of particles. Scientists observed that the source of heat does not determine the effect heat has on its surroundings. Whether from chemical reactions, friction, nuclear reactions, or electricity, heat has the same effect.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -87,7 +88,7 @@ Particles with more thermal energy move faster and tend to spread apart. When th
 
 Thermal energy is transferred through the air to your hand when you put your hand near a radiator or fireplace. This energy is transferred by radiation, which is thermal energy transferred as waves. Unlike conduction and convection, radiation does not need matter to travel through, so it can travel through empty space. The Sun's energy radiates through space to Earth 150 million kilometers away.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Fill in the blank.
 
@@ -103,7 +104,7 @@ If you continue to rub the cloth or sandpaper against the piece of wood, your ha
 
 ![Heat]()
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

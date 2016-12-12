@@ -1,13 +1,12 @@
 ---
 title: Daybreak
+author: "Gary Soto, 1977"
 
 subject: Reading
 category: 2002
 chapter: 2
 section: 2.6
 tag: Literary
-
-author: "Gary Soto, 1977"
 ---
 In this moment when the light starts up \\
 In the east and rubs \\

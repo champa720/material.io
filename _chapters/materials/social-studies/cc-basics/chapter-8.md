@@ -1,11 +1,14 @@
 ---
 title: Geography and People
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 8
 section: 8.0
 tag: Geography
+
+excerpt: "Geography and People explores how geographic features and humans interact on Earth."
 
 pages: 284 - 324
 ---

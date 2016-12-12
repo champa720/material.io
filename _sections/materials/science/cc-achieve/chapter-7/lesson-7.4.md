@@ -1,5 +1,6 @@
 ---
 title: Solutions
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -53,7 +54,7 @@ Solutions form as a result of the interactions between the particles of a solven
 
 When the solvent in a solution is water, the solution is called an aqueous solution. The word aqueous means "related to water." Fruit punch, tea, contact lens solution, liquid soap, and vinegar are examples of aqueous solutions. Water is the solvent in many solutions. Because many different kinds of substances can dissolve in water, it is known as the "universal solvent."
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions
 
@@ -107,17 +108,17 @@ Solubility is the maximum amount of a solute that can dissolve in a given amount
 #### Solubility of Substances in Water at 20° C
 
 | Solid Substances | Solubility in g/100 g of Water |
-|:-:|:-:|
+|:-|:-|
 | salt ( sodium chloride ) | 35.9 |
 | baking soda ( sodium bicarbonate ) | 9.6 |
 | sugar ( sucrose ) | 203.9 |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 | Gaseous Substances * | Solubility in g/100 g of Water |
-|:-:|:-:|
+|:-|:-|
 | oxygen | 0.0005 |
 | carbon dioxide | 0.16 |
-{: .bordered .striped }
+{: .striped .responsive-table }
 \* *at normal atmospheric pressure*
 
 ### Rules of Solubility
@@ -140,7 +141,7 @@ Scientists use solubility to describe how much solute is in a solution. Saturati
 
 When a solution contains less than the maximum amount of solute it can hold at a given temperature, the solution is unsaturated. More solute will dissolve if it is added to the solution under the existing conditions. When a solution contains more dissolved solute than a saturated solution under the same conditions it is supersaturated, or is "more than saturated."
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Fill in the blank.
 
@@ -179,7 +180,7 @@ $$ \text { HCL (aq) + NaOH \to NaCL (aq) + H_2O } $$
 
 This example shows the formation of table salt. Although people often think only of table salt when they hear the term salt, there are hundreds of different salts that can form when an acid reacts with a base.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

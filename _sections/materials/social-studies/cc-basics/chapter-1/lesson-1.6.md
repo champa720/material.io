@@ -1,5 +1,6 @@
 ---
 title: Civil Liberties and Civil Rights
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -75,14 +76,13 @@ Despite the new constitutions, efforts were made to disenfranchise African Ameri
 Another device used to disenfranchise African Americans was a literacy test. When people came to vote, they were given a section of the Constitution to read and explain. African Americans were given very difficult passages, while whites were given simple passages.
 
 **Causes and Effects of Legislation After the Civil War**
-{: .center-align }
 
 | Cause | Effect |
 |:-|:-|
 | Fourteenth and Fifteenth Amendments were passed. | Formerly enslaved persons were given the right to vote. |
 | Formerly enslaved persons were given the right to vote. | Southern states begin to disfranchise these voters. |
 | Poll taxes and literacy tests were set up. | Poor and uneducated people could not vote. |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ### Women Gain the Right to Vote
 

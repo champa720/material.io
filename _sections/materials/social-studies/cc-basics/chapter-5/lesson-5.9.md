@@ -1,5 +1,6 @@
 ---
 title: Credit, Savings, and Banking
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

@@ -1,13 +1,12 @@
 ---
 title: I Wandered Lonely as a Cloud
+author: "William Wordsworth"
 
 subject: Reading
 category: 2002
 chapter: 2
 section: 2.3
 tag: Literary
-
-author: "William Wordsworth"
 ---
 I wandered lonely as a cloud \\
 That floats on high o'er vales and hills, \\

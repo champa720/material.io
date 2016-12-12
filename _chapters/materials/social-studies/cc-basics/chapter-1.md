@@ -1,11 +1,14 @@
 ---
 title: "US Government and Civics"
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 1
 section: 1.0
 tag: Civics & Government
+
+excerpt: "US Government and Civics describes government at the local, state, and national levels and the responsibilities of citizenship."
 
 pages: 16 - 71
 ---

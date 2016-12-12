@@ -1,5 +1,6 @@
 ---
 title: Movement of Energy and Matter
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

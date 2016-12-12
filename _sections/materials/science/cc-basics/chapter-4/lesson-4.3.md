@@ -1,5 +1,6 @@
 ---
 title: Invertebrates
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

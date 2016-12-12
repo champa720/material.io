@@ -1,5 +1,6 @@
 ---
 title: "Cells: Basic Units of Life"
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

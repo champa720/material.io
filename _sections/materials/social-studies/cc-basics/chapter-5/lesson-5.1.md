@@ -1,5 +1,6 @@
 ---
 title: Basic Economic Concepts
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -54,7 +55,7 @@ People have tried to overcome scarcity by improving the ways goods and services 
 | Natural Resources, land |natural features or materials | oceans, wild animals, forests, minerals |
 | Human Resources, labor | the time and effort of workers | factory workers, doctors, teachers, farmers |
 | Capital Goods, capitol | items designed to produce other goods | tractors, computers, office and factory buildings |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 Unfortunately, changes that occurred during the Industrial Revolution did not mean workers and their families had easier lives. In fact, large factories often became sweatshops. Laborers were forced to work long hours under unpleasant and dangerous conditions for little pay. Technology had made production more efficient (productive without being wasteful) and had increased output, but scarcity was not eliminated.
 
@@ -85,14 +86,13 @@ Graphs organize data to show trends and relationships. The production possibilit
 Clara's Clothing Outlet can produce 1,000 T-shirts or 500 sweatshirts per day, but not 1,000 T-shirts and 500 sweatshirts. The business can also choose to produce some T-shirts and some sweatshirts. The following table shows some of the combinations of T-shirts and sweatshirts the business can make.
 
 **Production Possibilities (Daily}**
-{: .center-align }
 
 | Product | Points | Points | Points | Points |
 |:-|:-:|:-:|:-:|:-:|
 | | A | B | C | D |
 | T-Shirts | 1,000 | 800 | 500 | 0 |
 | Sweatshirts | 0 | 200 | 400 | 500 |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ![Production Possibilities Curve](img/ppc.png){: .responsive-img .materialboxed }
 

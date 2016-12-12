@@ -1,13 +1,12 @@
 ---
 title: The Death of the Hired Man
+author: "Robert Frost"
 
 subject: Reading
 category: 2002
 chapter: 2
 section: 2.7
 tag: Literary
-
-author: "Robert Frost"
 ---
 Mary sat musing on the lamp-flame at the table \\
 Waiting for Warren. When she heard his step, \\

@@ -1,5 +1,6 @@
 ---
 title: Alone
+author: "Edgar Allen Poe"
 
 subject: Reading
 category: 2002
@@ -7,7 +8,6 @@ chapter: 1
 section: 1.1
 tag: Literary
 
-author: "Edgar Allen Poe"
 form: "https://docs.google.com/forms/d/e/1FAIpQLSchE2-bctG9DRXRlcpKUnBiCgRQomnJvakYoRJCQTCoVdGtXw/viewform"
 ---
 From childhood's hour I have not been \\

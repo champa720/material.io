@@ -1,5 +1,6 @@
 ---
 title: Global Markets
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -71,7 +72,7 @@ Globalization is supported by many international organizations. These institutio
 | International Monetary Fund (IMF) | Gives loans, advice, and supervision to poorer countries to stabilize (hold steady) currencies, financial institutions, and trading relations with other countries |
 | World Trade Organization (WTO) | Establishes and enforces rules to guide and encourage free trade |
 | United Nations (UN) | Establishes a forum to discuss and promote global security, economic development, and social progress |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ![Free Trade Political Cartoon](img/free_trade.png){: .responsive-img .materialboxed }
 

@@ -1,5 +1,15 @@
 ---
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Writing
+category: Common Core Basics
+chapter: 0
+section: 0.0
+
+cover_image: ccb-writing.jpg
 ---
 *Common Core Basics: Building Essential Test Readiness Skills, Writing* will help you learn or strengthen the skills you need when you take any Common Core State Standards-aligned writing test. To answer some questions, you will need to focus on sentence structure, grammar, and mechanics. To answer other questions, you will need to concentrate on the organization of sentences within a paragraph. These skills are also important when you are asked to write short or extended response essays.
 

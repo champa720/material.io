@@ -1,5 +1,6 @@
 ---
 title: Flowering Plants
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics
@@ -84,10 +85,10 @@ Flowers vary tremendously from plant to plant. Each type of flower may have a un
 Photosynthesis is the process that plants use to make food. The equation below will help you to understand it. It involves both sunlight and chlorophyll, the pigment that gives leaves their color.
 
 | Photosynthesis  Formula |
-|:-:|
+|:-|
 | carbon dioxide + water + sunlight &rarr; sugar + oxygen |
 | 6CO<sub>2</sub> + 6H<sub>2</sub>O + sunlight &rarr; C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 As the Sun shines on a leaf, chlorophyll absorbs the Sun's light energy. At the same time, water moves into the leaf from the stem and roots. Carbon dioxide, a gas from the air, enters the leaf through tiny holes.
 

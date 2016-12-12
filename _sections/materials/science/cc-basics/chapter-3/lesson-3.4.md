@@ -1,5 +1,6 @@
 ---
 title: Disruption
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

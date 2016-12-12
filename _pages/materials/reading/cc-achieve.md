@@ -1,6 +1,15 @@
 ---
-layout: default
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Reading
+category: Common Core Achieve
+chapter: 0
+section: 0.0
+
+cover_image: cca-reading.jpg
 ---
 **Congratulations!** If you are using this book, it means that you are taking a key step toward achieving an important new goal for yourself. You are preparing to take your high school equivalency test in order to earn your high school diploma, one of the most important steps in the pathway toward career, educational, and lifelong well-being and success.
 

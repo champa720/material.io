@@ -1,5 +1,6 @@
 ---
 title: Structure and Function of Life
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

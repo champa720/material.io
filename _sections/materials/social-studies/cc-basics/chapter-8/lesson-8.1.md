@@ -1,5 +1,6 @@
 ---
 title: Physical and Cultural Landscapes
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

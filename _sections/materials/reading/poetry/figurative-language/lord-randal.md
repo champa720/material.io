@@ -1,13 +1,12 @@
 ---
 title: Lord Randal
+author: "Author unknown"
 
 subject: Reading
 category: 2002
 chapter: 3
 section: 3.3
 tag: Literary
-
-author: "Author unknown"
 ---
 "O where have you been, Lord Randal, my son? \\
 O where have you been , my handsome young man?" - \\

@@ -1,5 +1,6 @@
 ---
 title: Contemporary Public Policy
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

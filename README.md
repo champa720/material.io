@@ -5,13 +5,13 @@
 ## Organization
 
 Collections
-  * Subject Area (Mathematics, Reading, Science, Social Studies...)
+  * Subject Area (HSE, Mathematics, Reading, Science, Social-Studies...)
 
 Categories
-  * Content (CCA, CCB, GED, HiSET...)
+  * Content (Common Core Achieve, Common Core Basics, High School Equivalency...)
 
 Tags
-  * Sub-Content (Number Sense, Algebra, Literary Text, Informational Text...)
+  * Sub-Content (Number Sense, Algebra, Literary Text, Informational Text, GED, HiSET...)
 
 ## Structure
 
@@ -48,13 +48,14 @@ tag: Earth & Space
 ---
 ```
 
-# Tags
+## Tags
 
 ```
 Mathematics: [Algebra, Data Analysis, Number Sense, Probability]
 Reading: [Literary, Informational]
-Science: [Life, Physical, Earth & Space]
-Social Studies: [Civics & Government, History, Economics, Geography]
+Science: [Life Science, Physical Physical, Earth & Space Science]
+Social Studies: [Civics & Government, US History, Economics, Geography]
 Writing: []
 
+HSE: [CDE, GED, HiSET, TASC]
 ```

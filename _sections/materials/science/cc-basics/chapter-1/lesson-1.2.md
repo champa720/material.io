@@ -1,5 +1,6 @@
 ---
 title: Digestive, Respiratory, Excretory, and Circulatory System
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

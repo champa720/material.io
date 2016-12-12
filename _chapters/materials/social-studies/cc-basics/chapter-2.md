@@ -1,11 +1,14 @@
 ---
 title: "US History: Revolutionary War through the Depression"
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 2
 section: 2.0
 tag: US History
+
+excerpt: "US History: Revolutionary War through the Depression explores events from time of the early settlers through the 1930s."
 
 pages: 72 - 108
 ---

@@ -1,13 +1,12 @@
 ---
 title: The Bus
+author: "Leonard Cohen"
 
 subject: Reading
 category: 2002
 chapter: 2
 section: 2.5
 tag: Literary
-
-author: "Leonard Cohen"
 ---
 I was the last passenger of the day, \\
 I was alone on the bus, \\

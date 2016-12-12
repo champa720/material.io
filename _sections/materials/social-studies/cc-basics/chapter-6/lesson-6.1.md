@@ -1,5 +1,6 @@
 ---
 title: Major Economic Events
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

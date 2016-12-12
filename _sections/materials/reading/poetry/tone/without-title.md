@@ -1,5 +1,6 @@
 ---
 title: Without Title
+author: "Diane Glancy"
 
 subject: Reading
 category: 2002
@@ -7,7 +8,6 @@ chapter: 1
 section: 1.1
 tag: Literary
 
-author: "Diane Glancy"
 form: "https://docs.google.com/forms/d/e/1FAIpQLSdre7vKr4mEiULr6Ord18KGUcendMezWOZrpHwbjMXoA1I5uw/viewform"
 ---
 -- for my Father who lived without ceremony

@@ -1,5 +1,6 @@
 ---
 title: Scientific and Industrial Revolutions
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

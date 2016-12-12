@@ -1,13 +1,12 @@
 ---
 title: Even as I Hold You
+author: "Alice Walker"
 
 subject: Reading
 category: 2002
 chapter: 3
 section: 3.6
 tag: Literary
-
-author: "Alice Walker"
 ---
 Even as I hold you \\
 I think of you as_someone gone \\

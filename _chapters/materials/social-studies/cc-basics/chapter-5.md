@@ -1,11 +1,14 @@
 ---
 title: Economic Foundations
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 5
 section: 5.0
 tag: Economics
+
+excerpt: "Economic Foundations explains economic concepts and discusses the roles of individuals, businesses, and governments in economics."
 
 pages: 182 - 241
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Heredity: Genetic Variations and Expression"
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -78,7 +79,7 @@ Mutations may occur in a single allele-one form of a gene. Recall that an allele
 
 Mutations can also occur at the chromosome level. These types of mutations can change a large number of genes at once. Large amounts of genetic information can be lost, switched around, or duplicated, causing abnormalities. Sometimes entire chromosomes are lost or extra chromosomes are added. Down syndrome, for example, is the result of an extra copy of chromosome 21.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -100,7 +101,7 @@ Genetic testing is a group of procedures performed on blood or other biological 
 
 As genetic testing becomes more common, people are faced with some difficult choices. Some couples may be faced with the decision of whether they should have children if there is a chance they could pass on a specific disease to them. Genetic counselors are medical professionals who help people understand their risks of heritable disease and help them consider their options when faced with these decisions.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

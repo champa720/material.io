@@ -1,5 +1,6 @@
 ---
 title: Natural and Cultural Diversity
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

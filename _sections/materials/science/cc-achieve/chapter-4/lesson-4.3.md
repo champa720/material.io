@@ -1,5 +1,6 @@
 ---
 title: Common Ancestry
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -49,7 +50,7 @@ Other fossils formed when insects or small animals were trapped in tree sap or i
 
 Fossils provide a snapshot of life on Earth over time, and they reveal that life on Earth has changed over time. Fossil evidence showed scientists that new species appeared at different points in time, which strongly supported Darwin's theory of evolution.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -64,7 +65,7 @@ In Darwin's publication On the Origin of Species, he also proposed that all orga
 
 It is easy to see how people in the same family are related or even how two different dog breeds might be related, but it is very difficult to see evidence that a human is related to bacteria. Long after Darwin's UCA theory was proposed, scientists developed a quantitative large-scale test for the relatedness of species. With this test, they have found that evidence in the natural world overwhelmingly supports UCA. Scientific evidence links all three domains of life: Eukarya (humans, animals, plants, yeast), Bacteria, and Archaea. Scientists can now link every known organism back to a single common ancestor. However, what this universal ancestor looks like and where it lived are still questions unanswered by scientists. The most current hypothesis is that the first form of life on Earth was a simple, single-celled organism that lived in water.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

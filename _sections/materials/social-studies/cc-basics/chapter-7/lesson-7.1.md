@@ -1,5 +1,6 @@
 ---
 title: National Economic Performance
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

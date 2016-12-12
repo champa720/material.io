@@ -1,5 +1,6 @@
 ---
 title: The United States in the Twenty-First Century
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

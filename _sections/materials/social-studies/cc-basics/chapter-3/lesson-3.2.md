@@ -1,5 +1,6 @@
 ---
 title: Protest and Politics
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -55,7 +56,6 @@ Kennedy Assassinated On November 22, 1963, President Kennedy and his wife were r
 After President Kennedy's death, Vice President Lyndon Johnson was sworn in as president. Johnson announced an "unconditional [unlimited] war on poverty" and spoke about creating a "Great Society" that would "end poverty and racial injustice." Major reforms were passed both before and after Johnson's reelection in 1964.
 
 **Great Society Legislation**
-{: .center-align }
 
 | Program Title | Explanation of Program |
 |:-|:-|
@@ -65,7 +65,7 @@ After President Kennedy's death, Vice President Lyndon Johnson was sworn in as p
 | Head Start | Preschool for children of low-income families |
 | Clean Air and Water Quality Acts | Set standards and guidelines for air and water quality |
 | Housing and Urban Development Act | Created a government department that oversees federal government involvement in community development and housing |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 Important Supreme Court cases were decided during this time. In a series of decisions, the Court ruled that the Bill of Rights applied to states as well as to the federal government. Specifically, the Supreme Court made these rulings:
 

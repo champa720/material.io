@@ -1,5 +1,6 @@
 ---
 title: Skeletal, Muscular, and Nervous Systems
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

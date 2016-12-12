@@ -1,6 +1,15 @@
 ---
-layout: default
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Social Studies
+category: Common Core Basics
+chapter: 0
+section: 0.0
+
+cover_image: ccb-social-studies.jpg
 ---
 *Common Core Basics: Building Essential Test Readiness Skills, Social Studies* will help you learn or strengthen the skills you need when you take any Common Core State Standards-aligned social studies test. To answer some questions, you will need to read passages, graphs, charts, and maps. Questions will focus on the content areas of US history, civics, political systems, economics, and geography.
 

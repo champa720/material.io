@@ -1,5 +1,6 @@
 ---
 title: US Foreign Policy in the Modern Era
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -126,7 +127,6 @@ Conservative Republican Ronald Reagan felt the way to deter communist threats wa
 In 1985, Mikhail Gorbachev came to power in the Soviet Union. He encouraged reforms to the Soviet system. Reagan and Gorbachev agreed to new arms-control treaties. Relations between the two superpowers improved.
 
 **Total Economic Assistance ( in millions of dollars )**
-{: .center-align }
 
 | | 1960 | 1970 | 1980 | 1990 |
 |:-|:-|:-|:-|:-|
@@ -135,7 +135,7 @@ In 1985, Mikhail Gorbachev came to power in the Soviet Union. He encouraged refo
 | Israel | 314.2 | 181.8 | 1,769.5 | 1,758.1 |
 | South Korea | 1,229.1 | 622.3 | 69.3 | 0.1 |
 | Vietnam | 1.035.0 | 2,108.4 | ( < 550,000 ) | 0.1 |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ### George H. W. Bush, 1989-1993
 

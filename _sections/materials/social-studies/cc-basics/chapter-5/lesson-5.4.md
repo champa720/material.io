@@ -1,5 +1,6 @@
 ---
 title: Money and Financial Institutions
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -71,7 +72,6 @@ The money supply is the amount of money available for use at any one time. Econo
 The most common measure of our money supply is called the Ml. The Ml consists of currency (bills and coins), traveler's checks, and check-able deposits (money held in people's checking and savings accounts). A summary table of Ml is shown here.
 
 **The US Money Supply (Ml)**
-{: .align-center }
 
 | Components of Ml | Dollar Amount ($ billions) |
 |:-|:-|
@@ -79,7 +79,7 @@ The most common measure of our money supply is called the Ml. The Ml consists of
 | Traveler's checks | $4 |
 | Check-able deposits | $451 |
 | Total Ml | $2,460 |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ### Financial Institutions
 

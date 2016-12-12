@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Chemical Reactions
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -57,7 +58,7 @@ The illustration of the formation of water shows that two molecules of hydrogen 
 
 In this situation, hydrogen is called the limiting reactant, which is the reactant that is completely consumed when the reaction goes to completion and limits the amount of product formed. The final mixture will contain 50 molecules of water and 25 molecules of unreacted oxygen. The actual numbers of molecules involved in a reaction would be many orders of magnitude higher. These numbers are used only for demonstration.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -70,18 +71,18 @@ Directions: Answer the following questions.
 Hydrogen and oxygen molecules react to form water. That is one way to describe the chemical reaction that occurs between hydrogen and oxygen. Chemists do not explain chemical processes in sentences. They use a form of notation that represents the reactants and the products and shows the reaction process, similar to the way that a mathematical equation represents an operation in mathematics. This notation uses specific symbols that can be recognized by all chemists.
 
 | Symbol | Meaning |
-|:-:|:-:|
-| \\( \rightarrow \\) | produce or forms |
-| \\( + \\) | plus |
-| \\( (\mathrm s) \\) | solid |
-| \\( (\mathrm l) \\) | liquid |
-| \\( (\mathrm g) \\) | gas |
-| \\( (\mathrm {aq}) \\) | aqueous, a substance is dissolved in water |
-| \\( \xrightarrow { \mathrm { heat } } \\) | the reactants are heated |
-| \\( \xrightarrow { \mathrm { light } } \\) |  the reactants are exposed to light |
-| \\( \xrightarrow { \mathrm { elec } } \\) | an electric current is passed through the reactants |
-| \\( \xrightarrow { \mathrm { 0°C } } \\) | the reaction is carried out at 0° C|
-{: .bordered .striped }
+|:-|:-|
+| $$ \rightarrow $$ | produce or forms |
+| $$ + $$ | plus |
+| $$ (\mathrm s) $$ | solid |
+| $$ (\mathrm l) $$ | liquid |
+| $$ (\mathrm g) $$ | gas |
+| $$ (\mathrm {aq}) $$ | aqueous, a substance is dissolved in water |
+| $$ {\begin{matrix} { \longrightarrow } \\ ^{ \mathrm {heat} } \end{matrix}} $$ | the reactants are heated |
+| $$ {\begin{matrix} { \longrightarrow } \\ ^{ \mathrm {light} } \end{matrix}} $$ |  the reactants are exposed to light |
+| $$ {\begin{matrix} { \longrightarrow } \\ ^{ \mathrm {elec} } \end{matrix}} $$ | an electric current is passed through the reactants |
+| $$ {\begin{matrix} { \longrightarrow } \\ ^{ \mathrm {0^{\circ} C} } \end{matrix}} $$ | the reaction is carried out at 0° C |
+{: .striped .responsive-table }
 
 ### Chemical Equations
 
@@ -111,20 +112,20 @@ $$ \mathrm { 2H_2 \;(g) + O_2 \;(g) \to 2H_2O \;(l) } $$
 
 The number of atoms of each element on the left is now equal to the number of atoms of that element on the right. The equation is balanced.
 
-|| How To Balance a Chemical Equation |
-|:-:|:-:|
+| | How To Balance a Chemical Equation |
+|:-:|:-|
 | Step 1 |Identify the reactants and products and write their chemical formulas on the appropriate sides of the equation. |
 | Step 2 | Count the number of atoms of each element on each side of the equation. If you need to, use a table to keep track of the numbers. |
 | Step 3 | Try coefficients that will balance the equation. Start with  elements that appear in only one molecule on each side of the equation, if possible. Never change the subscripts in a chemical formula to balance an equation. That changes the identity of the substances. |
 | Step 4 | Check to be sure that you have the same number of atoms of each element on both sides of the equation. |
-{: .bordered .striped }
+{: .striped .bordered }
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Write a balanced equation for the chemical reactions.
 
-  1. \\( \mathrm { CH_4 + 0_2 \to CO_2 + H_2O } \\)
-  2. \\( \mathrm { KOH + H_2SO_4 \to K_2SO_4 + H_2O } \\)
+  1. \$$ \mathrm { CH_4 + 0_2 \to CO_2 + H_2O } $$
+  2. \$$ \mathrm { KOH + H_2SO_4 \to K_2SO_4 + H_2O } $$
 </div>
 
 ## Energy Changes in Chemical Reactions
@@ -147,7 +148,7 @@ The energy changes that occur during a chemical reaction can be modeled on a gra
 
 ![Exothermic Reaction]()
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Fill in the blank.
 

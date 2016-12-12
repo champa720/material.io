@@ -1,5 +1,6 @@
 ---
 title: Health and Disease
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics
@@ -77,7 +78,7 @@ High blood pressure can lead to a sudden failure of the heart, called a heart at
 Cancer is the uncontrolled growth and spread of abnormal cells in the body. Cancer may appear in the breasts, lungs, brain, bones, skin, or other organs. The seven warning signs of cancer, shown in the chart below, have saved many lives. Some doctors add rapid weight loss and extreme fatigue to those warning signs.
 
 | Early Warning Signs of Cancer |
-|:-:|
+|:-|
 | Unusual bleeding or discharge |
 | A lump or thickening in the breast or elsewhere |
 | A sore that does not heal |
@@ -85,7 +86,7 @@ Cancer is the uncontrolled growth and spread of abnormal cells in the body. Canc
 | Hoarseness or cough that continues |
 | Indigestion or difficulty in swallowing |
 | A change in size or color of wart or mole |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 
 Researchers are learning more and more about cancer. Many cancers can now be treated successfully if they are found and treated in the early stages. Surgery to remove tumors is now routine. Radiation and a variety of chemicals are used to destroy cancerous cells that cannot be removed surgically.

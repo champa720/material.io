@@ -1,5 +1,6 @@
 ---
 title: Work, Motion, and Forces
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

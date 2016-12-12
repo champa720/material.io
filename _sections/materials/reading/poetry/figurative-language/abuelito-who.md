@@ -1,13 +1,12 @@
 ---
 title: Abuelito Who
+author: "Sandra Cisneros"
 
 subject: Reading
 category: 2002
 chapter: 3
 section: 3.1
 tag: Literary
-
-author: "Sandra Cisneros"
 ---
 Abuelito [^1] who throws coins like rain
 

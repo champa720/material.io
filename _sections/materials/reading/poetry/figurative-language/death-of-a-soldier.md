@@ -1,13 +1,12 @@
 ---
 title: Death of a Soldier
+author: "Wallace Stevens"
 
 subject: Reading
 category: 2002
 chapter: 3
 section: 3.4
 tag: Literary
-
-author: "Wallace Stevens"
 ---
 Life contracts and death is expected, \\
 As in a season of autumn. \\

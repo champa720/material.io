@@ -1,5 +1,6 @@
 ---
 title: Fermentation
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics
@@ -68,11 +69,11 @@ Here is a simplified description of the process of alcohol fermentation:
 **1 molecule of glucose &rarr; 2 molecules of ethanol + 2 molecules of carbon dioxide + 2 molecules of ATP**
 
 | Conduct Your Own Investigation |
-|:-:|
+|:-|
 | Blow Up a Balloon You need only a few materials to conduct this investigation. Begin by getting safety glasses and an apron. Then collect a small clear, plastic soda bottle, a balloon, water, sugar, and a packet of ' baker's yeast. |
 | Fill the bottle with warm water. The water must be warm, not hot, because yeast are living organisms and hot water will kill them. Next, pour the baker's yeast into the warm water. Swirl the bottle gently. |
 | Add a teaspoon of sugar to the water. Swirl the bottle again. Stretch th~ balloon and then attach it to the bottle's opening. Put the bottle ma warm place and let it sit for twenty minutes. Observe what happens. |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ## Ethanol: An Alternative Energy Source
 

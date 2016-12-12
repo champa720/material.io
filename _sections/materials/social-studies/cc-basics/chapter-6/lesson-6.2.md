@@ -1,5 +1,6 @@
 ---
 title: Industrialization and Imperialism
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

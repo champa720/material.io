@@ -1,5 +1,6 @@
 ---
 title: Physical and Chemical Properties of Matter
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -56,7 +57,7 @@ Have you ever seen a rusty old car, tractor, or set of tools? All these objects 
 Another chemical property is flammability, which is the ability to burn. Paper and wood are examples of matter that have the ability to bum. Matter that is described as flammable, such as paper, wood, gasoline, and many cleaning products, can burn easily and quickly. As with physical properties, every substance has a certain set of chemical properties. Silver can tarnish, but it does not rust or burn. Iron can rust, but it is less flammable and does not tarnish.
 
 |Physical Properties That Depend on Amount | Physical Properties That Do Not Depend on Amount | Chemical Properties |
-|:-:|:-:|:-:|
+|:-|:-|:-|
 | mass | boiling point | ability to tarnish |
 | volume | color | ability to rust |
 | size | density | ability to burn |
@@ -65,9 +66,9 @@ Another chemical property is flammability, which is the ability to burn. Paper a
 |  | temperature |  |
 |  | texture |  |
 |  | shape |  |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -117,7 +118,7 @@ Droplets of water form on glass when water vapor cools and condenses. The change
 
 Under certain conditions, matter can change from a solid directly to a gas. The change of state in which a solid changes directly to a gas is called sublimation. During sublimation, the particles of a solid absorb enough energy so that they change from being held very close together to being very far apart. You may have seen fog for special effects made by the sublimation of dry ice, which is solid carbon dioxide.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -159,7 +160,7 @@ The metals in group 1 are slightly more reactive than those in group 2. However,
 
 Very few of the materials around you are made of a single element. Some materials are compounds, but most are complex mixtures. The chemical composition of a compound can help you predict the properties of a compound because the properties are the result of interactions between the atoms, ions, or molecules that make up the compound. By understanding these interactions, scientists and engineers can design materials that have specific properties. For example, they can make steel that is stronger than pure iron or polymers that are rigid or flexible.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions
 

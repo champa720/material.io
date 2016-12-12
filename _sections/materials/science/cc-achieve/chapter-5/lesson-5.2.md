@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Forces and Newton's Laws of Motion
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -81,7 +82,7 @@ The magnitude of the force on the first object equals the magnitude of the force
 
 If equal and opposite forces on an object cancel out, why don't action and reaction forces cancel out? Forces can cancel out only if they act on the same object. Action and reaction forces do not act on the same object. When a person takes a step, the person's foot exerts an action force on the ground. The ground, which is Earth, exerts a reaction force on the person's foot that pushes the person forward.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -99,13 +100,13 @@ Directions: Answer the following questions.
 
 ### The Law of Universal Gravitation
 
-Newton also developed the law of universal gravitation, which describes the force of gravity between any two objects that have mass._ Gravity is a force of attraction between two objects because of their mass. Earth exerts gravitational force on everything on its surface. Everything on Earth's surface exerts gravitational force on Earth. The planets, their moons, and stars exert gravitational force on one another.
+Newton also developed the law of universal gravitation, which describes the force of gravity between any two objects that have mass. Gravity is a force of attraction between two objects because of their mass. Earth exerts gravitational force on everything on its surface. Everything on Earth's surface exerts gravitational force on Earth. The planets, their moons, and stars exert gravitational force on one another.
 
 Newton determined that the force of gravity depends on the masses of the objects and the distance between them. He developed an equation to identify this relationship.
 
 $$ \mathrm { F = \frac{Gm_1 m_2}{r^2} } $$
 
-In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is \\( G = 6.67 \times 10^{-11} N \times m^2 / kg^2 \\). The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
+In this equation, F represents the gravitational force, m<sub>1</sub> is the mass of one object, m<sub>2</sub> is the mass of the other object, and r is the distance between their centers. The letter G is the universal gravitational constant. Its accepted value is $$ G = 6.67 \times 10^{-11} N \times m^2 / kg^2 $$. The equation shows that the attraction between two objects gets stronger as mass increases and gets weaker as mass decreases. It also shows that gravity decreases rapidly as the distance between the objects increases.
 
 ![Gravity](){: .materialboxed .responsive-img }
 
@@ -115,10 +116,10 @@ When you step on a bathroom scale, the scale measures your weight. Weight is a m
 
 Near Earth's surface, the acceleration due to gravity is 9.8 m/s<sup>2</sup> for all objects. However, the acceleration due to gravity is different on other planets because the planets have different masses. For example, the acceleration due to gravity on Jupiter is 2.6 times more than it is on Earth. So, the same object on Jupiter would weigh 2.6 times more than it would on Earth, even though the object's mass remains the same.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
-  1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ blank ].
-  2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ blank ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
+  1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ *blank* ].
+  2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ *blank* ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
 </div> 

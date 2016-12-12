@@ -1,5 +1,6 @@
 ---
 title: Political Theories and Systems in World History
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

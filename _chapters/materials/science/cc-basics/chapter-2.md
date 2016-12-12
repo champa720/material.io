@@ -1,11 +1,14 @@
 ---
 title: Life Functions and Energy Intake
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics
 chapter: 2
 section: 2.0
 tag: Life Science
+
+excerpt: "Life Functions and Energy Intake describes flowering plants and the energy-producing processes of cellular respiration and fermentation."
 ---
 All living things require energy to do work. Plants get the energy they need by producing their own food. Other organisms get the food they need by eating other organisms, including plants.
 

@@ -1,5 +1,6 @@
 ---
 title: Nervous, Endocrine, and Reproductive Systems
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

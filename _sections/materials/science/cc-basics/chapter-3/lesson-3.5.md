@@ -1,5 +1,6 @@
 ---
 title: Environmental Issues
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

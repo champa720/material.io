@@ -1,11 +1,14 @@
 ---
 title: Economic Events in History
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 6
 section: 6.0
 tag: US History
+
+excerpt: "Economic Events in History explores major economic events of the past and relates them to today's economy."
 
 pages: 242 - 267
 ---

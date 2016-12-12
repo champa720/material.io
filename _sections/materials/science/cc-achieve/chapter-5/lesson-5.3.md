@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Work and Simple Machines
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -82,7 +83,7 @@ If the time decreased to 10 s, the power would double.
 
 $$ \mathrm { P = \frac{140J}{10s} = 14W } $$
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -116,7 +117,7 @@ Walking or driving straight up a steep incline is much more difficult than trave
 
 ![Inclined Plane](){: .materialboxed .responsive-img }
 
-The same amount of work is done to lift a box as is done to push that box up an inclined plane. To lift the box, the amount of work done is equal to the force of 1,500 N times the distance of 1 m, or \\( W = 1,500 N \times 1 m = 1,500 J \\). To push the box along the ramp, the amount of work done is equal to the force of 300 N times the distance of 5 m, or \\( W = 300 N \times 5 m = 1,500 J \\). The same amount of work is done to lift the box as is done to push that box up the ramp. The advantage of the inclined plane is that the plane enables the mover to use a smaller force. The trade-off is that the force must be exerted over a longer distance.
+The same amount of work is done to lift a box as is done to push that box up an inclined plane. To lift the box, the amount of work done is equal to the force of 1,500 N times the distance of 1 m, or $$ W = 1,500 N \times 1 m = 1,500 J $$. To push the box along the ramp, the amount of work done is equal to the force of 300 N times the distance of 5 m, or $$ W = 300 N \times 5 m = 1,500 J $$. The same amount of work is done to lift the box as is done to push that box up the ramp. The advantage of the inclined plane is that the plane enables the mover to use a smaller force. The trade-off is that the force must be exerted over a longer distance.
 
 #### Screw
 
@@ -154,7 +155,7 @@ A wheel and axle is a simple machine consisting of two circular objects of diffe
 
 Compound machines, like cars, are made up of more than one simple machine. Burning fuel in the cylinders of a car engine causes the pistons to move up and down. This makes the crankshaft rotate. The force exerted by the rotating crankshaft is transmitted to other parts of the car, such as the transmission and the differential. Both of these parts contain gears, which are wheel and axles. Cars also contain levers and pulleys.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following question.
 
@@ -173,7 +174,7 @@ $$ \mathrm { MA = \frac{F_{out}}{F_{in}} } $$
 
 Both the input force and the output force are measured in newtons. As a result, the units cancel, and mechanical advantage does not have any units associated with it.
 
-For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, \\( F_{out} < F_{in} \\) so the mechanical advantage is always out in less than 1.
+For a first-class lever, the closer the output force is to the fulcrum, the greater the mechanical advantage of the lever. Because a second-class lever multiplies force, its mechanical advantage is always greater than 1. For a third-class lever, however, $$ F_{out} < F_{in} $$ so the mechanical advantage is always out in less than 1.
 
 The mechanical advantage of a fixed pulley is 1. As shown below, a person needs to exert a force of 4 N to lift the 4-N weight. However, the person is able to pull downward instead of upward, which is easier.
 
@@ -181,7 +182,7 @@ The mechanical advantage of a movable pulley is greater than 1. It is equal to t
 
 ![Pulley](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following question.
 

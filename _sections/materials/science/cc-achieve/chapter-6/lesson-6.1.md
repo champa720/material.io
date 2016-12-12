@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Types of Energy and Energy Transformations
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -43,7 +44,7 @@ Scientists measure energy in joules (J). It takes about one joule for a person t
 
 ### Kinetic Energy
 
-Kinetic energy is the energy of an object's or particle's motion. The amount of kinetic energy depends on two things: the object's mass and how fast the object is moving. The amount of kinetic energy (KE) in joules that an object has is determined by the equation \\( KE = \frac{1}{2}m v^2 w \\), here m equals the mass of the object in kilograms and v equals its velocity in meters per second. Energy can be expressed in units of joules, where 1 joule is 1 (kg•m<sup>2</sup>)/<sup>2</sup>.
+Kinetic energy is the energy of an object's or particle's motion. The amount of kinetic energy depends on two things: the object's mass and how fast the object is moving. The amount of kinetic energy (KE) in joules that an object has is determined by the equation $$ KE = \frac{1}{2}m v^2 w $$, here m equals the mass of the object in kilograms and v equals its velocity in meters per second. Energy can be expressed in units of joules, where 1 joule is 1 (kg•m<sup>2</sup>)/<sup>2</sup>.
 
 If two objects have equal mass, the object that is moving faster has more kinetic energy. The diagram at the top of the next page shows calculations for the kinetic energy for three vehicles. Notice that Car Band Car C have equal mass, but Car C has more kinetic energy than Car B because it is moving faster. If two objects are moving at the same speed, the object with more mass has more kinetic energy than the object with less mass. As shown in the diagram, Truck A and Car B are traveling at the same speed. However, Truck A has more kinetic energy than Car B because Truck A has more mass. Notice that a change in speed affects energy more than a change in mass. If a car doubles its speed, its kinetic energy increases by a factor of four. A truck with four times the mass of a car has four times as much energy as the car when they travel at the same speed.
 
@@ -69,7 +70,7 @@ The gravitational potential energy will increase by 23.5 J.
 
 Potential energy can also be affected by other field forces between objects. For example, a magnetic field exerts a force on a paper clip that pulls the paper clip toward a magnet. The field forces around charged particles are called electrical fields. When a charged particle or object is moved a distance against the force of this field, its electric potential increases.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -112,14 +113,14 @@ The nuclei of atoms contain a tremendous amount of potential energy. Energy stor
 
 Radiant energy is emitted from a source as waves. These waves carry energy from the Sun through the vacuum of space to Earth. Radiant energy is a form of kinetic energy. In addition to the light we can see, radiant energy includes radio waves, microwaves, infrared radiation, ultraviolet radiation, gamma rays, and X-rays.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Fill in the blank.
 
-  1. Turning on a flashlight releases [ blank ] energy.
-  2. Thermal energy is the sum of the [ blank ] and potential energy of the particles in an object.
-  3. Energy stored in the nucleus of an atom is [ blank ]energy.
-  4. Chemical energy is a type of potential energy stored in [ blank ].
+  1. Turning on a flashlight releases [ *blank* ] energy.
+  2. Thermal energy is the sum of the [ *blank* ] and potential energy of the particles in an object.
+  3. Energy stored in the nucleus of an atom is [ *blank* ] energy.
+  4. Chemical energy is a type of potential energy stored in [ *blank* ].
 </div>
 
 ## Electrical Energy and Magnetic Energy
@@ -138,7 +139,7 @@ A magnet produces a force that can attract or repel other magnets and can attrac
 
 When two magnets are brought close together, their magnetic fields interact with each other. As shown here, the north pole of one magnet will repel the north pole of another magnet. South poles also repel each other. The north pole of one magnet and the south pole of another magnet, however, attract each other and stick together.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following question.
 
@@ -160,7 +161,7 @@ Energy can change forms in many different ways. Energy conversions occur continu
 Plants transform radiant energy into chemical energy. Electric eels transform chemical energy into electrical energy. Running deer transform chemical energy into kinetic energy. The table includes more examples of energy transformations.
 
 | Initial Energy Type | Final Energy Type | Example |
-|:-:|:-:|:-:|
+|:-|:-|:-|
 | Chemical | Electrical | Battery discharge |
 | Chemical | Kinetic | Muscle movement |
 | Chemical | Radiant and thermal | Combustion |
@@ -169,9 +170,9 @@ Plants transform radiant energy into chemical energy. Electric eels transform ch
 | Radiant | Electrical | Solar cell |
 | Radiant | Thermal | Absorption of sunlight |
 | Thermal energy | Kinetic energy | Steam turbine |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following question.
 

@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Waves
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -53,7 +54,7 @@ A wave's movement continues as long as the wave has energy to carry. This energy
 
 Waves transmit energy in various ways and through all phases of matter. An example of a solid transmitting wave energy is the seismic wave produced by an earthquake that takes place when rocks are under pressure and snap or slide into new positions. Waves that are felt and seen in water are examples of a liquid medium transmitting wave energy. Gases also transmit wave energy, as in an explosion, when heat and sound waves are generated.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -95,7 +96,7 @@ Wavelength is the distance between a point on a wave and the next identical poin
 
 #### Frequency
 
-The frequency of a wave is the number of wavelengths that pass a given point in one second (1 s) and is measured in units of hertz (Hz). One hertz is equal to one complete cycle, or wavelength, per second. Thus, if 5 wavelengths pass each second, the wave has a frequency of 5 cycles/s, which is expressed as 5 Hz. The frequency of waves can vary widely. For example, the frequency of ocean waves is less than 1 Hz, while the frequency of visible light is about l,000,000,000,000,000 Hz (10<sup>15</sup> Hz).
+The frequency of a wave is the number of wavelengths that pass a given point in one second (1 s) and is measured in units of hertz (Hz). One hertz is equal to one complete cycle, or wavelength, per second. Thus, if 5 wavelengths pass each second, the wave has a frequency of 5 cycles/s, which is expressed as 5 Hz. The frequency of waves can vary widely. For example, the frequency of ocean waves is less than 1 Hz, while the frequency of visible light is about 1,000,000,000,000,000 Hz (10<sup>15</sup> Hz).
 
 #### Speed
 
@@ -103,7 +104,7 @@ If a wave's frequency and wavelength are known, the wave's speed can be calculat
 
 $$ \mathrm { speed = frequency \times wavelength } $$
 
-This equation can also be written using the symbol \\( \mathrm { v } \\) for speed, the symbol \\( \mathrm { f } \\) for frequency, and the Greek letter lambda \\( \mathrm { \lambda } \\) for wavelength, or:
+This equation can also be written using the symbol $$ \mathrm { v } $$ for speed, the symbol $$ \mathrm { f } $$ for frequency, and the Greek letter lambda $$ \mathrm { \lambda } $$ for wavelength, or:
 
 $$ \mathrm { v = f \times \lambda } $$
 
@@ -113,11 +114,11 @@ The speed of a wave is dependent upon the medium through which it travels. Sound
 
 The amplitude of a wave is related to the amount of energy it carries. The greater the energy a wave has, the greater its amplitude. The amplitude of any transverse wave is the distance from the rest position to either a crest or a trough. In longitudinal waves, the amplitude depends on how tightly the medium is squeezed together in its regions of compression. Using a coil as a model, imagine areas of a wave that are squeezed together. When compressions are more tightly squeezed, the wave has a higher amplitude.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
-  1. Based on the formula \\( \mathrm { v= f \times \lambda } \\), which of the following is true for a sound wave whose velocity is 340 m/s?
+  1. Based on the formula $$ \mathrm { v= f \times \lambda } $$, which of the following is true for a sound wave whose velocity is 340 m/s?
     A. As the frequency of a wave increases, its wavelength decreases.
     B. As the frequency of a wave increases, its wavelength increases.
     C. As the frequency of a wave increases, its wavelength stays the same.
@@ -154,7 +155,7 @@ Short exposures to ultraviolet waves have several beneficial effects. The human 
 
 X-rays are high-energy electromagnetic waves with wavelengths shorter than those of ultraviolet waves. Gamma rays have the shortest wavelength and highest energy of the electromagnetic waves. Whereas ultraviolet waves can penetrate the top layer of a person's skin, X-rays have enough energy to pass through skin and muscle. X-rays and gamma rays have important uses in medicine. Images are formed when X-rays are beamed through a person's body. The rays strike a film plate or an electronic sensor, creating an image of internal structures such as bones. Gamma rays are used to treat some cancers. Exposing a cancerous tumor to a highly focused beam of gamma rays can kill the cancerous cells.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Select the correct answer to the following questions.
 

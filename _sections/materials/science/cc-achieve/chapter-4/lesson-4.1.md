@@ -1,5 +1,6 @@
 ---
 title: Basic Principles of Genetics
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -52,7 +53,7 @@ Mendel then allowed the plants of the F1 generation to self-pollinate. Again, he
 
 ![Medalls Peas](){: .materialboxed .responsive-img }
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Fill in the blank.
 
@@ -104,7 +105,7 @@ Mendel's observations can be explained by the cellular process of meiosis. Recal
 
 The diagram shows two peas and their color alleles. Each parent plant has two alleles, one on each chromosome within a homologous pair. Each chromosome replicates before meiosis. Meiosis separates each homologous pair and separates the sister chromatids. Only one of the original pair of homologous chromosomes ends up in a single gamete. The parent plant with yellow peas (YY) has Y alleles on both chromosomes; therefore, it only forms gametes with the Y allele. The parent plant with green peas (yy) has y alleles on both chromosomes; therefore, it only forms gametes with the y allele. The Y and y gametes join through fertilization, forming offspring with Yy alleles. All offspring plants have the dominant Y allele, so they will produce yellow peas. In this way, traits are passed from parent to offspring through chromosome movement.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

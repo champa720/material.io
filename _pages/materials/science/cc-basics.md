@@ -1,10 +1,19 @@
 ---
-layout: default
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Science
+category: Common Core Basics
+chapter: 0
+section: 0.0
+
+cover_image: ccb-science.jpg
 ---
 *Common Core Basics: Building Essential Test Readiness Skills, Science* will help you learn or strengthen the skills and concepts you need when you take any Common Core State Standards-aligned science test. The book's instructional content is based on the National Science Education Standards of the National Academy of Sciences.
 
-In this book, you will focus on important concepts in three broad areas of science-Life Science, Physical Science, and Earth and Space Science.
+In this book, you will focus on important concepts in three broad areas of science - Life Science, Physical Science, and Earth and Space Science.
 
 Before beginning the lessons in this book, take the **Pretest**. This test will help you identify which skill areas you need to concentrate on most. Use the chart at the end of the Pretest to identify the types of questions you have answered incorrectly and to determine which concepts or skills you need to study further. You may decide to concentrate on specific areas of study or to work through the entire book. The latter decision is recommended, as it will help you to build a strong foundation in the core areas in which you will be tested.
 

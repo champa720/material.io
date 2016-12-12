@@ -1,5 +1,6 @@
 ---
 title: Nutrition
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

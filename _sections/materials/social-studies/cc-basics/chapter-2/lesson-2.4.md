@@ -1,5 +1,6 @@
 ---
 title: The Progressive Era, World War I, and the Depression
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -68,7 +69,7 @@ In 1914, Archduke Francis Ferdinand, the heir to the Austro-Hungarian throne, wa
 | Italy | (Turkey) |
 | United States | - |
 | Japan | - |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 By the time the United States entered the war, the warring countries were tired of fighting and neither side seemed able to win. US soldiers helped break this stalemate. On November 11, 1918, the Germans signed an armistice, or truce. Today we celebrate that date as Veterans Day.
 

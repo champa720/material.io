@@ -81,7 +81,7 @@
 }
 
 // Fixed sideNav hide on smaller
-@media #{$medium-and-down} {
+@media #{$small-and-down} {
   .tabs {
     display: flex;
 

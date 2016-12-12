@@ -1,5 +1,6 @@
 ---
 title: International Organizations
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

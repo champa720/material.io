@@ -1,5 +1,6 @@
 ---
 title: The US Constitution
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -66,7 +67,7 @@ The framers of the Constitution relied on eleven key ideas when writing the Cons
 | Majority Rule and Minority Rights | The majority rules, but it must respect and protect the rights of individuals. |
 | Rule of Law | Laws are clear and fair, and no one is above the law, not even the government. |
 | Individual Rights | All people naturally have certain individual rights, such as life, liberty, and property. |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 ### Amendments to the Constitution
 

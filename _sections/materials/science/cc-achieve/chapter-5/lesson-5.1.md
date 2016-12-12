@@ -2,6 +2,7 @@
 mathjax: true
 
 title: Motion
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve
@@ -67,7 +68,7 @@ If the direction of motion does not change, the change in velocity is the same a
 
 If the direction of motion does not change, the change in velocity is the same as the change in speed. The change in velocity is then the final speed minus the initial speed. The change in velocity is a unit of speed, such as m/s. Therefore the unit of acceleration is a unit of speed divided by a unit of time. Time is commonly measured in seconds, so acceleration is usually measured in meters per second per second, or -3 m/s<sup>2</sup>.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 
@@ -119,7 +120,7 @@ Some of the kinetic energy is changed to another form of energy in an inelastic 
 
 For example, a bicycle helmet protects the rider in an accident by transmitting the energy of a collision with the ground into the padding of the helmet. As the protective foam collapses, it absorbs energy. Without the helmet, much more of the energy of the collision is transferred to the rider's head. Although energy is not conserved, momentum is conserved in an inelastic collision.
 
-<div class="card-panel {{ page.color }} white-text" markdown="1">
+<div class="card-panel" markdown="1">
 ##### Think about Science
 Directions: Answer the following questions.
 

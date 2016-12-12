@@ -1,5 +1,6 @@
 ---
 title: World War II, the Cold War, and the 1950's
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -55,7 +56,7 @@ At the same time, the Japanese military conquered Manchuria in 1931 and invaded 
 | Italy | Great Britain |
 | Japan | United States |
 | USSR first allied with Germany | USSR joined Allies before war's end |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 Germany quickly conquered most of Europe with its blitzkrieg ("lightning war," or a war done with great speed and force). In 1941, Hitler turned his armies toward the Soviet Union, despite the pact he had signed with Stalin.
 

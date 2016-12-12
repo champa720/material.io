@@ -1,5 +1,6 @@
 ---
 title: Cell Structure and Function
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Achieve

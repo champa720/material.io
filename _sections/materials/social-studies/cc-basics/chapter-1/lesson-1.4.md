@@ -1,5 +1,6 @@
 ---
 title: State and Local Government
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
@@ -51,7 +52,6 @@ The Constitution established a general framework; however, the actual relations 
 State governments are organized much like the federal government. Each state has a written constitution and a governor, the chief executive officer. All states have a bicameral (two-house) legislature, except Nebraska, which has a unicameral (one-house) legislature. All states also have court systems. However, there are wide variations in how state governments operate. One common trend is toward increased power in the executive branch, headed by the governor.
 
 **Duties and Powers of the Government**
-{: .center-align }
 
 | Role | Responsibilities |
 |:-|:-|
@@ -61,7 +61,7 @@ State governments are organized much like the federal government. Each state has
 | Commander in Chief | Is commander of the National Guard (the state militia) |
 | Party Leader | Heads the political party in the state |
 | Ceremonial Leader | Represents the state; greets key visitors |
-{: .bordered .striped }
+{: .striped .responsive-table }
 
 Some functions of government overlap. Both the national and state governments have the power to tax, for example. Both make and enforce laws and establish courts. However, the Constitution denies some powers to the states. A state cannot coin its own money or enter into a treaty with a foreign country. States cannot tax their exports or imports. State laws cannot contradict, or conflict with, the Constitution.
 

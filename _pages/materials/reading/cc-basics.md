@@ -1,6 +1,15 @@
 ---
-layout: default
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Reading
+category: Common Core Basics
+chapter: 0
+section: 0.0
+
+cover_image: ccb-reading.jpg
 ---
 *Common Core Basics: Building Essential Test Readiness Skills, Reading* will help you learn or strengthen the skills you need when you take any Common Core State Standards-aligned reading test. To answer some questions, you will need to focus on nonfiction documents such as instructions, memos, ads, editorials, magazines, and blogs. To answer other questions, you will need to concentrate on elements of fiction and of nonfiction prose such as biography.
 

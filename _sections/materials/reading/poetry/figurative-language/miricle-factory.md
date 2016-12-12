@@ -1,13 +1,12 @@
 ---
 title: Miricle Factory
+author: "Constance Urdang"
 
 subject: Reading
 category: 2002
 chapter: 3
 section: 3.5
 tag: Literary
-
-author: "Constance Urdang"
 ---
 Papa's got a job in a miracle-factory \\
 downtown someplace, one of those streets \\

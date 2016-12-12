@@ -1,11 +1,14 @@
 ---
 title: "US History: World War II through Modern Times"
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 3
 section: 3.0
 tag: US History
+
+excerpt: "US History: World War II through Modern Times continues the story from the 1940s through the current day."
 
 pages: 108 - 149
 ---

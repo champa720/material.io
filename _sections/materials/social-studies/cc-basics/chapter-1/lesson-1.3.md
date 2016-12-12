@@ -1,5 +1,6 @@
 ---
 title: The Executuve, Legislative, and Judicial Branches of Government
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics

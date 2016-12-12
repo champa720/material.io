@@ -21,8 +21,8 @@ layout: default
 </dl>
 {% endcomment %}
 
-<article>
-  <header class="deep-purple">
+<article id="{{ page.subject | slugify }}" >
+  <header>
     <div class="container">
       <div class="">
         <!--tag-->
@@ -38,7 +38,7 @@ layout: default
         <div class="col s12 m6">
           <hr>
           <div class="section">
-            <i class="material-icons circle white deep-purple-text left" style="line-height:42px; width:42px; height:42px; margin-left:15px; text-align:center;">book</i>
+            <i class="material-icons circle left" style="line-height:42px; width:42px; height:42px; margin-left:15px; text-align:center;">book</i>
             <address class="">
               <span>{{ page.author }}</span>
               <div>
@@ -67,7 +67,7 @@ layout: default
           <a rel="next" href="{{ page.next.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
             <span class="title">{{ page.next.title }}</span>
-            <p>{{ page.next.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="light">{{ page.next.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
         </div>
       </section>
@@ -80,7 +80,7 @@ layout: default
           <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
             <span class="title">{{ a.title }}</span>
-            <p>{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="light">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
           {% endfor %}
 
@@ -95,7 +95,7 @@ layout: default
           <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
             <span class="title">{{ a.title }}</span>
-            <p>{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="light">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
           {% endfor %}
 

@@ -1,11 +1,14 @@
 ---
 title: World History and Political Systems
+author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
 chapter: 4
 section: 4.0
 tag: Civics & Government
+
+excerpt: "World History and Political Systems discusses various government systems and international organizations. It gives an overview of relations among the nations of the world."
 
 pages: 150 - 181
 ---

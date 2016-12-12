@@ -1,5 +1,15 @@
 ---
+layout: chapter
+
 title: To the Student
+author: McGraw-Hill Education
+
+subject: Mathematics
+category: Common Core Basics
+chapter: 0
+section: 0.0
+
+cover_image: ccb-mathematics.jpg
 ---
 *Common Core Basics: Building Essential Test Readiness Skills, Mathematics* will help you learn or strengthen the skills you need when you take any Common Core State Standards-aligned mathematics test. Regardless of your background, you can use this book to learn and practice the mathematical and problem-solving skills that are most important.
 

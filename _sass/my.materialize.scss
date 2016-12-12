@@ -35,7 +35,13 @@ i.material-icons.rotate {
   border-top: 5px solid $secondary-color;
 }
 
-.bt,.collapsible-header,.collection a.collection-item {  
+.collection a.collection-item .title,
+.collection a.collection-item.avatar .title {
+  font-size: 1.333rem;
+  line-height: 2rem;
+}
+
+.btn,.collapsible-header,.collection a.collection-item {  
   font-size: 1.333rem;
 }
 
@@ -45,7 +51,7 @@ i.material-icons.rotate {
 
 .footer-copyright {
   color: ghostwhite;
-  
+
   & .footer-wrapper {
     padding: 0 .75rem;
   }
@@ -72,52 +78,52 @@ svg {
     margin: 0 0 1.1997rem 0 !important; // breathing space
   }
   &.casper {
-  & ul {
-    list-style-type: disc;
-    & li {
-      list-style-type: inherit;
-    }
     & ul {
-      list-style-type: circle;
+      list-style-type: disc;
       & li {
         list-style-type: inherit;
       }
+      & ul {
+        list-style-type: circle;
+        & li {
+          list-style-type: inherit;
+        }
+      }
     }
-  }
 
-  & ol, ul {
-    padding-left: 2rem;
-  }
+    & ol, ul {
+      padding-left: 2rem;
+    }
 
-  & ol ol, ul ul, ul ol, ol ul {
-    margin: 0 0 0.7rem 0;
-    padding-left: 1rem;
-  }
+    & ol ol, ul ul, ul ol, ol ul {
+      margin: 0 0 0.7rem 0;
+      padding-left: 1rem;
+    }
 
-  & dl dt {
-    float: left;
-    width: 180px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: 700;
-    margin-bottom: 1em;
-  }
-
-  & dl dd {
-    margin-left: 200px;
-    margin-bottom: 1em
-  }
-
-  & li {
-    margin: 0.7rem 0;
     & li {
-      margin: 0;
+      margin: 0.7rem 0;
+      & li {
+        margin: 0;
+      }
+    }
+
+    & dl dt {
+      float: left;
+      width: 180px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 700;
+      margin-bottom: 1em;
+    }
+
+    & dl dd {
+      margin-left: 200px;
+      margin-bottom: 1em
     }
   }
-}
 }
 
 h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-item {
@@ -129,12 +135,12 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
 
 // index
 
-body.welcome {
+#home {
   background: 
     /* top, transparent red */
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     /* bottom, image */
-    color('deep-purple', 'base') url("/assets/img/denver-min.jpg") center / cover;
+    color('grey', 'darken-4') url("/assets/img/denver-min.jpg") center / cover;
   text-transform: uppercase;
   color: ghostwhite;
 
@@ -146,44 +152,162 @@ body.welcome {
 
 //Chapter Layout
 
+#hse {
+  > header {
+    background-color: $primary-color;
+  }
+  & section.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      $primary-color;
+  }
+}
+
 #mathematics {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-mathematics.jpg) center / cover fixed;
+  > header {
+    background-color: color('orange', 'darken-4');
+  }
+  &.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      color('orange', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-mathematics.jpg) center / cover fixed;
+  }
 }
 
 #reading {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-reading.jpg) center / cover fixed;
+  > header {
+    background-color: color('blue', 'darken-4');
+  }
+  &.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      color('blue', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-reading.jpg) center / cover fixed;
+  }
 }
 
 #science {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-science.jpg) center / cover fixed;
+  > header {
+    background-color: color('purple', 'darken-4');
+    & .material-icons {
+      color: color('purple', 'darken-4');
+      background-color: ghostwhite;        
+    }
+  }
+  & section.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      color('purple', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-science.jpg) center / cover fixed;
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('purple', 'accent-4');
+  }
+
+  & .collection a.collection-item {    
+    color: color('grey', 'darken-1');
+
+    & .material-icons {
+      color: ghostwhite;
+      background-color: color('purple', 'darken-4');        
+    }
+
+    & .title {
+      color: color('purple', 'darken-4');
+    }
+  }
+
+  & .collection .collection-item.active,
+  .btn {
+    color: color('grey', 'lighten-1');
+    background-color: color('purple', 'darken-4');
+
+    & .material-icons {
+      color: color('purple', 'darken-4');
+      background-color: ghostwhite;        
+    }
+
+    & .title {
+      color: ghostwhite;
+    }
+  }
 }
 
 #social-studies {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-social-studies.jpg) center / cover fixed;
+
+  > header {
+    background-color: color('green', 'darken-4');
+    & .material-icons {
+      color: color('green', 'darken-4');
+      background-color: ghostwhite;        
+    }
+  }
+
+  & section.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      color('green', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-social-studies.jpg) center / cover fixed;
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('green', 'accent-4');
+  }
+
+  & .collection a.collection-item {    
+    color: color('grey', 'darken-1');
+
+    & .material-icons {
+      color: ghostwhite;
+      background-color: color('green', 'darken-4');        
+    }
+
+    & .title {
+      color: color('green', 'darken-4');
+    }
+  }
+
+  & .collection .collection-item.active,
+  .btn {
+    color: color('grey', 'lighten-1');
+    background-color: color('green', 'darken-4');
+
+    & .material-icons {
+      color: color('green', 'darken-4');
+      background-color: ghostwhite;        
+    }
+
+    & .title {
+      color: ghostwhite;
+    }
+  }
 }
 
 #writing {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-writing.jpg) center / cover fixed;
+  > header {
+    background-color: color('red', 'darken-4');
+  }
+  &.row {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      color('red', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-writing.jpg) center / cover fixed;
+  }
 }
 
 section h1 {
@@ -209,7 +333,7 @@ a.breadcrumb,
   }
 }
 
-// Article Layout
+// Section Layout
 
 article header {
   padding-top: 48px;
@@ -218,12 +342,24 @@ article header {
   color: ghostwhite;
 }
 
-// Media Query
+// Index Layout
+.nav-extended .nav-wrapper h1 {
+  position: relative;
+  display: inline-block;
+  left: 24px;
+}
 
-@media only screen and (min-width: 601px) {
+@media #{$medium-and-up} {
+  .nav-extended .nav-wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 85%;
+  }
+
   .relative {
     position: relative;
   }
+  
   .absolute {
     position: absolute;
     width: 100%;

@@ -1,5 +1,6 @@
 ---
 title: Genotypes and Phenotypes
+author: McGraw-Hill Education
 
 subject: Science
 category: Common Core Basics

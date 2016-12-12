@@ -1,13 +1,12 @@
 ---
 title: Ballad of Birmingham
+author: "Dudley Randell"
 
 subject: Reading
 category: 2002
 chapter: 2
 section: 2.1
 tag: Literary
-
-author: "Dudley Randell"
 ---
 *(On the bombing of a church in Birmingham, Alabama, 1963)*
 
