@@ -2,7 +2,7 @@
 javascript: true
 layout: default
 ---
-<section class="row">
+<section id="header-chapter" class="row">
   <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
     <a href="#" class="breadcrumb">One</a>
@@ -44,15 +44,21 @@ layout: default
   </aside>
 </section>
 
+
+<!-- creates loop for related_chapters by tag -->
+{% assign related_chapters = site.chapters | where_exp: "item", "item.tag == page.tag" %}
+{% assign chapters = related_chapters | where_exp: "item", "item.category != page.category" %}
+
 <aside class="section">
   <div class="row">
     <div class="col s12 m4 l3 offset-m8 offset-l8">
       <h5 class="grey-text text-darken-3">Related Content</h5>
       <div class="collection">
-        <a href="#test7" class="collection-item">Alvin</a>
-        <a href="#test8" class="collection-item active">Alvin</a>
-        <a href="#test9" class="collection-item">Alvin</a>
-        <a href="#test10" class="collection-item">Alvin</a>
+
+        {% for a in chapters %}
+        <a href="{{ a.url }}" class="collection-item {% if a.url == page.url %} active{% endif %}">{{ a.title }}</a>
+        {% endfor %}
+
       </div>
     </div>
   </div>

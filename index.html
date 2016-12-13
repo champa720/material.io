@@ -3,9 +3,9 @@ javascript: true
 layout: null
 
 main_menu:
-  about-hse: /hse/
-  study-materials: /materials/
-  resources: /resources/
+about-hse: /hse/
+study-materials: /materials/
+resources: /resources/
 ---
 <!DOCTYPE html>
 <html>
@@ -50,6 +50,17 @@ main_menu:
           <blockquote class="flow-text">{{ site.description }}</blockquote>
         </div>
 
+        <ul class="section">
+
+          <!-- creates loop for subject_menu by subject > category -->
+          {% assign subject_menu = site.pages | where_exp: "page", "page.category == 'index'" %}
+
+          {% for page_index in subject_menu %}
+          <li><a href="{{ page_index.url }}"><i class="material-icons">{{ page_index.icon }}</i></a></li>
+          {% endfor %}
+
+        </ul>
+
       </span>
     </main>
 
@@ -58,13 +69,13 @@ main_menu:
         <i class="large material-icons">apps</i>
       </a>
       <ul>
-        
+
         {% for menu in page.main_menu %}
         <li class="waves-effect waves-light">
           <a href="{{ menu[1] | relative_url }}">{{ menu[0] | captialize }}</a>
         </li>
         {% endfor %}
-        
+
       </ul>
     </div>
 

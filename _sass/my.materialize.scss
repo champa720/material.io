@@ -244,21 +244,22 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
 }
 
 #social-studies {
-
-  > header {
+  & #header-index, #header-chapter, #header-section {
     background-color: color('green', 'darken-4');
-    & .material-icons {
-      color: color('green', 'darken-4');
-      background-color: ghostwhite;        
-    }
   }
 
-  & section.row {
+  & #header-chapter {
     background:
       /* top, transparent red */
       linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      /* bottom, image */
-      color('green', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-social-studies.jpg) center / cover fixed;
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-social-studies.jpg) center / cover fixed;
+  }
+
+  & #header-section {
+    & .material-icons {
+      color: color('green', 'darken-4');
+      background-color: ghostwhite;
+    }
   }
 
   & blockquote,
@@ -359,7 +360,7 @@ article header {
   .relative {
     position: relative;
   }
-  
+
   .absolute {
     position: absolute;
     width: 100%;

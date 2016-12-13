@@ -3,23 +3,18 @@ javascript: true
 layout: default
 ---
 
-<!-- creates loop for subject_index by subject > category -->
-{% capture subject %}{{ page.subject | downcase }}{% endcapture %}
-{% assign subject_pages = site.pages | where_exp: "index", "index.subject == page.subject" %}
-{% assign subject_index = subject_pages | where_exp: "index", "index.category != page.category" %}
-
 <!-- creates loop for subject_menu by subject > category -->
-{% assign subject_menu = site.pages | where_exp: "index", "index.category == page.category" %}
+{% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
 
-<nav class="nav-extended">
+<nav id="header-index" class="nav-extended">
   <div class="nav-wrapper">
     <h1>{{ page.title }}</h1>
-    <ul id="nav-mobile" class="right hide-on-small-only">
-      
-    {% for page_index in subject_menu %}
+    <ul class="right hide-on-small-only">
+
+      {% for page_index in subject_menu %}
       <li><a href="{{ page_index.url }}"><i class="material-icons">{{ page_index.icon }}</i></a></li>
-    {% endfor %}
-      
+      {% endfor %}
+
     </ul>
     <ul class="tabs tabs-transparent">
       <li class="tab"><a href="#classroom">Classroom</a></li>
@@ -30,11 +25,18 @@ layout: default
   </div>
 </nav>
 
-<div id="classroom" class="container">
-  <div class="section">
+
+<!-- creates loop for subject_index by subject > category -->
+{% capture subject %}{{ page.subject | downcase }}{% endcapture %}
+{% assign subject_pages = site.pages | where_exp: "item", "item.subject == page.subject" %}
+{% assign subject_index = subject_pages | where_exp: "item", "item.category != 'index'" %}
+
+<section id="classroom" class="container">
+  <article class="section">
+    <h5 class="grey-text text-darken-3">Library</h5>
 
     {% for page_index in subject_index %}
-    <div class="card horizontal">
+    <div class="card horizontal small">
       <div class="card-image">
         <img src="/assets/img/book_covers/{{ page_index.cover_image }}">
       </div>
@@ -43,43 +45,24 @@ layout: default
           <span class="card-title">{{ page_index.category }}</span>
           <p class="flow-text">{{ page_index.excerpt | strip_html | normalize_whitespace }}</p>
         </div>
-        <div class="card-action">
+        <div class="card-action grey lighten-3">
           <a href="{{ page_index.url }}">{{ page_index.url }}</a>
         </div>
       </div>
     </div>
-
     {% endfor %}
 
-  </div>
-</div>
+  </article>
+</section>
 
-<div id="ged" class="container">
-  <dl class="section">
+<section id="ged" class="container">
+  {% include index_data.html data="ged" title="GED" %}  
+</section>
 
-    <dt>{{ page_index.category }}</dt>
-    <dd>{{ page_index.excerpt }}</dd>
-    <dd><a href="{{ page_index.url }}">{{ page_index.url }}</a></dd>
+<section id="hiset" class="container">
+  {% include index_data.html data="hiset" title="HiSET" %} 
+</section>
 
-  </dl>
-</div>
-
-<div id="hiset" class="container">
-  <dl class="section">
-
-    <dt>{{ page_index.category }}</dt>
-    <dd>{{ page_index.excerpt }}</dd>
-    <dd><a href="{{ page_index.url }}">{{ page_index.url }}</a></dd>
-
-  </dl>
-</div>
-
-<div id="tasc" class="container">
-  <dl class="section">
-
-    <dt>{{ page_index.category }}</dt>
-    <dd>{{ page_index.excerpt }}</dd>
-    <dd><a href="{{ page_index.url }}">{{ page_index.url }}</a></dd>
-
-  </dl>
-</div>
+<section id="tasc" class="container">
+  {% include index_data.html data="tasc" title="TASC" %} 
+</section>

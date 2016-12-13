@@ -1,0 +1,140 @@
+- subject: Test Documents
+  docs:
+    - category: Are You Ready to Take the HiSET® Exam?
+      url: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+    - category: Practice Test Answer Sheet Mathematics
+      url: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math.pdf"
+    - category: Practice Test Answer Sheet Reading, Science, and Social Studies
+      url: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
+    - category: Practice Test Answer Sheet Writing
+      url: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing.pdf"
+    - category: Formula Sheet
+      url_english: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet_es.pdf"
+
+- subject: Mathematics
+  time: 90 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  cbt:
+    - category: Interactive Practice Tests
+      url: "http://www.ets-cls.org/hiset/"
+    - category: CBAL™ Quick Math Practice
+      url: "http://www.ets-cls.org/hiset/"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: /hiset/math_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: /hiset/math_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: /hiset/math_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp2_es.pdf"
+      
+- subject: Reading
+  time: 65 minutes
+  format: 40 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  cbt:
+    - category: Interactive Practice Tests
+      url: "http://www.ets-cls.org/hiset/"
+    - category: CBAL™ Quick Math Practice
+      url: "http://www.ets-cls.org/hiset/"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: /hiset/reading_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: /hiset/reading_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: /hiset/reading_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp2_es.pdf"
+
+- subject: Science
+  time: 80 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  cbt:
+    - category: Interactive Practice Tests
+      url: "http://www.ets-cls.org/hiset/"
+    - category: CBAL™ Quick Math Practice
+      url: "http://www.ets-cls.org/hiset/"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: /hiset/science_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/science_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fpt6a_es.pdf"
+      badge: true
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: /hiset/science_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/science_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fp2_es.pdf"
+
+- subject: Social Studies
+  time: 70 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  cbt:
+    - category: Interactive Practice Tests
+      url: "http://www.ets-cls.org/hiset/"
+    - category: CBAL™ Quick Math Practice
+      url: "http://www.ets-cls.org/hiset/"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: /hiset/social_studies_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a_es.pdf"
+      badge: true
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: /hiset/social_studies_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2_es.pdf"
+
+- subject: Writing
+  time: 120 minutes
+  format:
+    - "Part 1: 50 questions, multiple-choice"
+    - "Part 2: 1 essay prompt"
+  testing_url: "https://hiset.ets.org/myhiset"
+  cbt:
+    - category: Interactive Practice Tests
+      url: "http://www.ets-cls.org/hiset/"
+    - category: CBAL™ Quick Math Practice
+      url: "http://www.ets-cls.org/hiset/"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: /hiset/writing_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: /hiset/writing_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: /hiset/writing_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp2_es.pdf"

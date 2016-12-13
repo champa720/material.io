@@ -1,0 +1,50 @@
+<!-- creates loop for subject -->
+{% assign subject = site.data[include.data] | where_exp: "item", "item.subject == page.subject" %}
+
+{% for data in subject %}
+<article class="section">
+  <h5 class="grey-text text-darken-3">{{ include.title }} Subtest Overview</h5>
+  <div class="card">
+    <div class="card-content">
+      <p class="flow-text">{{ data.time }}<br />{{ data.format }}</p>
+    </div>
+    <div class="card-action grey lighten-3">
+      <a href="{{ data.testing_url }}">{{ data.testing_url }}</a>
+    </div>
+  </div>
+</article>
+
+<article class="section">
+  <h5 class="grey-text text-darken-3">{{ include.title }} Online Practice</h5>
+  <div class="collection">
+    {% for cbt in data.cbt %}
+    <a href="{{ cbt.url }}" class="collection-item" target="_blank">{{ cbt.category }}</a>
+    {% endfor %}
+  </div>
+</article>
+
+<article class="section">
+  <h5 class="grey-text text-darken-3">{{ include.title }} Printable Practice</h5>
+
+  {% for index in data.docs %}
+  <div class="card horizontal small">
+    <div class="card-image">
+      <img src="/assets/img/thumbnails{{ index.cover_image }}">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        {% if index.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
+        <span class="card-title">{{ index.category }}</span>
+        <p class="flow-text">{{ index.excerpt }}</p>
+      </div>
+      <div class="card-action grey lighten-3">
+        <a href="{{ index.url_english }}" target="_blank">English</a>
+        <a href="{{ index.url_spanish }}" target="_blank">EspaÑol</a>
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</article>
+{% endfor %}
