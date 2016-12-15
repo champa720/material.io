@@ -10,8 +10,10 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/sciencelink
 ---
-  * Time: 90 minutes
-  * Format: 34 questions
+  * Time: 90 minutes long and is one single section
+  * Format:
+    - 34 questions
+    - There are two Short Answer questions included on the test, but they are not timed separately 
 
 ## Overview
 

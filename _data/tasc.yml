@@ -1,0 +1,143 @@
+- subject: Mathematics
+  time: 105 minutes
+  format:
+    - "Part 1: 55 minutes, 40 questions, multiple-choice"
+    - "Break: 15 minutes"
+    - "Part 2: 50 minutes, 12 questions, gridded-response"
+  testing_url: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Math"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205841-study-mathematics"
+    - category: "Recap Quiz: Algebra"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/algebra-recap-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Mathematics Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/mathematics-practice/tasc-mathematics-practice-questions"
+  docs:
+    - category: Mathematics Reference Sheet
+      excerpt:
+      cover_image: /tasc/formula_sheet_tasc.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
+    - category: Practice Items
+      excerpt: TASC Test Math Practice Items
+      cover_image: /tasc/TASC_Test_Practice_Items_Math.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Math.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Math_Practice_Test.pdf"
+
+- subject: Reading
+  time: 75 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Reading"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205853-study-reading"
+    - category: "Recap Quiz: Language and Word Reading"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/languageandword-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Reading Literacy Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/language-arts-practice/tasc-language-arts-reading-practice-questions"
+  docs:
+    - category: Practice Items
+      excerpt: TASC Test Reading Practice Items
+      cover_image: /tasc/TASC_Test_Practice_Items_Reading.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Reading.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Reading_Practice_Test.pdf"
+
+- subject: Science
+  time: 85 minutes
+  format:
+    - 47 questions, multiple-choice
+    - 8 questions, stimuli
+  testing_url: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Science"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205847-study-science"
+    - category: "Recap Quiz: Earth and Space Science"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/earthandspacequiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Science Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/science-practice/tasc-science-practice-questions"
+  docs:
+    - category: Practice Items
+      excerpt: TASC Test Science Practice Items
+      cover_image: /tasc/TASC_Test_Practice_Items_Science.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Science.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Science_Practice_Test.pdf"
+
+- subject: Social Studies
+  time: 75 minutes
+  format:
+    - 47 questions, multiple-choice
+    - 8 questions, stimuli
+  testing_url: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Social Studies"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies"
+    - category: "Recap Quiz: US History: Post-War United States"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "url: http://discover.tasctest.com/us-history-post-war-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Social Studies Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/social-studies-practice/tasc-social-studies-practice-questions"
+  docs:
+    - category: Practice Items
+      excerpt: TASC Test Social Studies Practice Items
+      cover_image: /tasc/TASC_Test_Practice_Items_Social_Studies.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Social_Studies.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_SocialStudies_Practice_Test.pdf"
+
+- subject: writing
+  time: 105 minutes
+  format:
+    - "Part 1: 55 minutes, 50 questions, multiple-choice"
+    - "Part 2: 50 minutes, 1 essay prompt"
+  testing_url: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Writing"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205856-study-writing"
+    - category: "Recap Quiz: Grammar Writing"
+      excerpt: 
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/grammar-recap-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Writing Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/language-arts-practice/tasc-language-arts-writing-practice-questions"
+  docs:
+    - category: Practice Items
+      excerpt: TASC Test Writing Practice Items
+      cover_image: /tasc/TASC_Test_Practice_Items_Writing.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Writing.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Writing_Practice_Test.pdf"
+    - category: Argumentative Essay
+      excerpt: Argumentative Essay Writing Prompt Sample
+      cover_image: /tasc/sample_argumentative_essay.jpg
+      url_english: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
+      url_spanish:
+    - category: Informational Essay
+      excerpt: Informational Essay Writing Prompt Sample Item
+      cover_image: /tasc/sample_informational_essay.jpg
+      url_english: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"
+      url_spanish:

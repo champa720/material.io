@@ -10,7 +10,7 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/socialstudieslink
 ---
-  * Time: 70 minutes
+  * Time: 70 minutes long and is one single section
   * Format: 35 questions
 
 ## Overview

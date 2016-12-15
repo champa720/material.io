@@ -62,25 +62,25 @@ layout: default
     <div class="container">
 
       <section class="section">
-        <h5 class="grey-text text-darken-2">Up Next</h5>
+        <h5 class="grey-text text-darken-1">Up Next</h5>
         <div class="collection">
           <a rel="next" href="{{ page.next.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
-            <span class="title">{{ page.next.title }}</span>
-            <p class="light">{{ page.next.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="title">{{ page.next.title }}</p>
+            <p class="flow-text truncate">{{ page.next.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
         </div>
       </section>
 
       <section class="section">
-        <h5 class="grey-text text-darken-2">Related Sections</h5>
+        <h5 class="grey-text text-darken-1">Related Sections</h5>
         <div class="collection">
 
           {% for a in related_sections limit:5 %}
           <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
-            <span class="title">{{ a.title }}</span>
-            <p class="light">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="title">{{ a.title }}</p>
+            <p class="flow-text truncate">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
           {% endfor %}
 
@@ -88,14 +88,14 @@ layout: default
       </section>
 
       <section class="section">
-        <h5 class="grey-text text-darken-2">Related Chapters</h5>
+        <h5 class="grey-text text-darken-1">Related Chapters</h5>
         <div class="collection">
 
           {% for a in related_chapters limit:5 %}
           <a href="{{ a.url }}" class="collection-item avatar{% if a.url == page.url %} active{% endif %}">
             <i class="material-icons circle">folder</i>
-            <span class="title">{{ a.title }}</span>
-            <p class="light">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+            <p class="title">{{ a.title }}</p>
+            <p class="flow-text truncate">{{ a.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
           </a>
           {% endfor %}
 

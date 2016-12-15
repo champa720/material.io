@@ -11,12 +11,10 @@ source: http://www.tasctest.com/mathematics-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 ---
   * Time: 105 minutes
-    * Part 1: 55 minutes
-    * Break: 15 minutes
-    * Part 2: 50 minutes
   * Format:
-    * 40 questions, multiple-choice
-    * 12 questions, gridded-response
+    - Part 1: 55 minutes, 40 questions, multiple-choice
+    - Break: 15 minutes
+    - Part 2: 50 minutes, 12 questions, gridded-response
 
 ## About TASC Test Mathematics
 

@@ -10,14 +10,12 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/rlalinkt
 ---
-  * Time: 150 minutes
-    * Section 1: 27 minutes
-    * Section 2: 45 minutes, extended response
-    * Break: 10 minutes
-    * Section 3: 60 minutes
+  * Time: 150 minutes long and testing is broken down into three sections
   * Format:
-    * 46 questions
-    * 1 extended response
+    - Section 1: 35 minutes, tests all content
+    - Section 2: 45 minutes, Extended Response
+    - Break: 10 minutes
+    - Section 3: 60 minutes, tests all content
 
 *The time allotted for sections 1 and 3 may vary slightly, but the total test time will always be 150 minutes.*
 

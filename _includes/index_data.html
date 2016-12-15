@@ -3,28 +3,45 @@
 
 {% for data in subject %}
 <article class="section">
-  <h5 class="grey-text text-darken-3">{{ include.title }} Subtest Overview</h5>
+  <h5 class="grey-text text-darken-1">{{ include.title }} Subtest Overview</h5>
   <div class="card">
     <div class="card-content">
-      <p class="flow-text">{{ data.time }}<br />{{ data.format }}</p>
+      <dl class="flow-text">
+        <dt><i class="material-icons left">alarm</i></dt>
+        <dd>{{ data.time }}</dd>
+      </dl>
+      <dl class="flow-text">
+        <dt><i class="material-icons left">assignment</i></dt>
+
+        {% for format in data.format %}
+        <dd>{{ format }}</dd>
+        {% endfor %}
+
+      </dl>
     </div>
     <div class="card-action grey lighten-3">
-      <a href="{{ data.testing_url }}">{{ data.testing_url }}</a>
+      <a href="{{ data.testing_url }}" target="_blank">{{ data.testing_url }}</a>
     </div>
   </div>
 </article>
 
 <article class="section">
-  <h5 class="grey-text text-darken-3">{{ include.title }} Online Practice</h5>
-  <div class="collection">
+  <h5 class="grey-text text-darken-1">{{ include.title }} Online Practice</h5>
+  <div class="collection z-depth-1">
+    
     {% for cbt in data.cbt %}
-    <a href="{{ cbt.url }}" class="collection-item" target="_blank">{{ cbt.category }}</a>
+    <a href="{{ cbt.url }}" class="collection-item avatar" target="_blank">
+      <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="" class="circle">
+      <p class="title">{{ cbt.category }}</p>
+      <p class="flow-text truncate">{{ cbt.excerpt }}</p>
+    </a>
     {% endfor %}
+    
   </div>
 </article>
 
 <article class="section">
-  <h5 class="grey-text text-darken-3">{{ include.title }} Printable Practice</h5>
+  <h5 class="grey-text text-darken-1">{{ include.title }} Printable Practice</h5>
 
   {% for index in data.docs %}
   <div class="card horizontal small">

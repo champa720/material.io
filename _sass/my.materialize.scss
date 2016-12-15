@@ -37,8 +37,9 @@ i.material-icons.rotate {
 
 .collection a.collection-item .title,
 .collection a.collection-item.avatar .title {
-  font-size: 1.333rem;
-  line-height: 2rem;
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 12px;
 }
 
 .btn,.collapsible-header,.collection a.collection-item {  
@@ -192,26 +193,29 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
 }
 
 #science {
-  > header {
+  & #header-index, #header-chapter, #header-section {
     background-color: color('purple', 'darken-4');
+  }
+  
+  & #header-chapter {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-science.jpg) center / cover fixed;
+  }
+  
+  & #header-section {
     & .material-icons {
       color: color('purple', 'darken-4');
       background-color: ghostwhite;        
     }
-  }
-  & section.row {
-    background:
-      /* top, transparent red */
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      /* bottom, image */
-      color('purple', 'darken-4') url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-science.jpg) center / cover fixed;
   }
 
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('purple', 'accent-4');
+    border-color: color('purple', 'darken-2');
   }
 
   & .collection a.collection-item {    
@@ -219,21 +223,17 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
 
     & .material-icons {
       color: ghostwhite;
-      background-color: color('purple', 'darken-4');        
-    }
-
-    & .title {
-      color: color('purple', 'darken-4');
+      background-color: color('purple', 'darken-2');        
     }
   }
 
   & .collection .collection-item.active,
   .btn {
     color: color('grey', 'lighten-1');
-    background-color: color('purple', 'darken-4');
+    background-color: color('purple', 'darken-2');
 
     & .material-icons {
-      color: color('purple', 'darken-4');
+      color: color('purple', 'darken-2');
       background-color: ghostwhite;        
     }
 

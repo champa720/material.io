@@ -12,8 +12,8 @@ source: http://www.tasctest.com/item-types-for-educators.html
 ---
   * Time: 75 minutes
   * Format:
-    * 47 questions, multiple-choice
-    * 8 questions, stimuli
+    - 47 questions, multiple-choice
+    - 8 questions, stimuli
 
 ## About TASC Test Social Studies
 

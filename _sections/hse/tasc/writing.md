@@ -12,8 +12,8 @@ source: http://www.tasctest.com/item-types-for-educators.html
 ---
   * Time: 105 minutes
   * Format:
-    * Part 1: 50 questions, multiple-choice, 55 minutes
-    * Part 2: 1 essay prompt, 50 minutes
+    - Part 1: 55 minutes, 50 questions, multiple-choice
+    - Part 2: 50 minutes, 1 essay prompt
 
 ## About TASC Test Writing
 

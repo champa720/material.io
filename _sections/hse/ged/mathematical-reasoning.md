@@ -10,7 +10,7 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/mathlink
 ---
-  * Time: 115 minutes
+  * Time: 115 minutes long and is one single section
   * Format: 46 questions
     * Part 1: First 5 test questions, calculator not allowed
     * Part 2: Remaining 41 test questions, calculator allowed
