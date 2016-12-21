@@ -24,6 +24,9 @@
     });
     // Dialogs
     // Dropdown
+    // $('.dropdown-button').dropdown({
+    //   constrain_width: false
+    // });
     // Media
     // Models
     // $('.modal-trigger').modal();

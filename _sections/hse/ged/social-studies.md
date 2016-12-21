@@ -1,5 +1,6 @@
 ---
 title: Social Studies
+author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency

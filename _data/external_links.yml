@@ -1,0 +1,74 @@
+- subject: Mathematics
+  cbt:
+  - category: "Khan Academy: Arithmetic Essentials"
+    excerpt: "Learning arithmetic means learning how to add, subtract, multiply, and divide. But we don't stop there. We'll get into negative numbers, decimals, and fractions, too."
+    avatar: ka_avatar.jpg
+    url: "https://www.khanacademy.org/math/arithmetic"
+  - category: "Khan Academy: Algebra Basics"
+    excerpt: "Algebra is a beautiful and important area of study with unlimited applications. One can spend a lifetime studying and exploring it (and some people do). If you're not one of them, and are looking to learn, review or practice the most core ideas in Algebra, you've found your home. This subject is ideal for anyone looking to prepare for a high school or college placement exam. It covers all of the foundational ideas in algebra and related topics in pre-algebra and geometry. If you're looking for more exhaustive coverage, then the Algebra I & II subjects may be better for you."
+    avatar: ka_avatar.jpg
+    url: "https://www.khanacademy.org/math/algebra-home/algebra-basics"
+    badge: true
+
+- subject: Reading
+  cbt:
+  - category: Learning Express Library
+    excerpt: Reading Informational Texts
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-practice-sets/reading-informational-texts"
+    badge: true
+  - category: Learning Express Library
+    excerpt: Reading Persuasive Texts
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-practice-sets/reading-persuasive-tests"
+  - category: Learning Express Library
+    excerpt: Reading Literary Texts
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-practice-sets/reading-literary-texts"
+  - category: Learning Express Library
+    excerpt: Reading General Texts
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-practice-sets/reading-general-texts"
+    badge: true
+  - category: Learning Express Library
+    excerpt: Vocabulary and Spelling
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-better-reader/reading-skills-practice-sets/vocabulary-and-spelling"
+    badge: true
+
+- subject: Science
+  cbt:  
+  - category: Learning Express Library
+    excerpt: Chemistry Practice
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center-ccss/resources/high-school/science-skills-improvement/chemistry-practice"
+    badge: true
+
+- subject: Social Studies
+  cbt:  
+  - category: Learning Express Library
+    excerpt: Become a U.S. Citizen
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/become-a-u-s--citizen/prepare-for-your-citizenship-exam/citizenship-test-practice"
+    badge: true
+  - category: Learning Express Library
+    excerpt: American History Practice
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/school-center-ccss/resources/high-school/social-studies-skills-improvement/american-history-practice"
+
+- subject: Writing
+  cbt:
+  - category: "Khan Academy: Grammar"
+    excerpt: "Grammar is the collection of rules and conventions that makes languages go. This section is about Standard American English, but there's something here for everyone."
+    avatar: ka_avatar.jpg
+    url: "https://www.khanacademy.org/humanities/grammar"
+  - category: Learning Express Library
+    excerpt: Writing Skills
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/improve-your-writing-speaking-and-grammar/writing-and-grammar-skills-practice-sets/writing-skills"
+    badge: true
+  - category: Learning Express Library
+    excerpt: Grammar
+    avatar: learning_library_avatar.jpg
+    url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/improve-your-writing-speaking-and-grammar/writing-and-grammar-skills-practice-sets/grammar"
+    badge: true

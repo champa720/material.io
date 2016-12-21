@@ -1,5 +1,6 @@
 ---
 title: Reasoning through Language Arts (RLA)
+author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency

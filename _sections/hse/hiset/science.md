@@ -1,5 +1,6 @@
 ---
 title: Science
+author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency

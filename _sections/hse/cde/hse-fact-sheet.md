@@ -1,5 +1,6 @@
 ---
 title: HSE Fact Sheet
+author: Adult Education Initiatives
 
 subject: HSE
 category: High School Equivalency

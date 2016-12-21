@@ -11,6 +11,27 @@
 
     </main>
 
+    <!-- creates loop for subject_menu by subject > category -->
+    {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
+
+    {% unless page.layout == "chapter" %}
+    <footer class="page-footer">
+      <div class="container">
+        <h5>Something</h5>
+        <ul>
+
+          {% for page_index in subject_menu %}
+          <li>
+            <a href="{{ page_index.url }}">{{ page_index.title }}</a>
+          </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+      <div class="footer-copyright"></div>
+    </footer>
+    {% endunless %}
+
     {% include foot.html %}
 
   </body>

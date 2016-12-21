@@ -1,5 +1,6 @@
 ---
 title: The Reading Section
+author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency

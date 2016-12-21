@@ -1,5 +1,6 @@
 ---
 title: GED Resources for Students and Educators
+author: Adult Education Initiatives
 
 subject: HSE
 category: High School Equivalency

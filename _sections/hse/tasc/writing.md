@@ -1,5 +1,6 @@
 ---
 title: The Writing Section
+author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency

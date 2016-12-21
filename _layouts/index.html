@@ -15,7 +15,7 @@ layout: default
       <li><a href="{{ page_index.url }}"><i class="material-icons">{{ page_index.icon }}</i></a></li>
       {% endfor %}
 
-    </ul>
+    </ul>    
     <ul class="tabs tabs-transparent">
       <li class="tab"><a href="#classroom">Classroom</a></li>
       <li class="tab"><a href="#ged">GED</a></li>
@@ -31,14 +31,36 @@ layout: default
 {% assign subject_pages = site.pages | where_exp: "item", "item.subject == page.subject" %}
 {% assign subject_index = subject_pages | where_exp: "item", "item.category != 'index'" %}
 
+<!-- creates loop for subject_index by subject > category -->
+{% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == page.subject" %}
+
 <section id="classroom" class="container">
+  
+  {% for data in subject_data %}
+  <article class="section">
+    <h5 class="grey-text text-darken-1">Online Practice</h5>
+    <div class="collection z-depth-1">
+
+      {% for cbt in data.cbt %}
+      <a href="{{ cbt.url }}" class="collection-item avatar" target="_blank">
+        <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="" class="circle">
+        <p class="title">{{ cbt.category }}</p>
+        <p class="flow-text truncate">{{ cbt.excerpt }}</p>
+        {% if cbt.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
+      </a>
+      {% endfor %}
+
+    </div>
+  </article>
+  {% endfor %}
+  
   <article class="section">
     <h5 class="grey-text text-darken-1">Library</h5>
 
     {% for page_index in subject_index %}
     <div class="card horizontal small">
       <div class="card-image">
-        <img src="/assets/img/book_covers/{{ page_index.cover_image }}">
+        <img src="/assets/img/thumbnails/{{ page_index.cover_image }}">
       </div>
       <div class="card-stacked">
         <div class="card-content">
@@ -56,13 +78,13 @@ layout: default
 </section>
 
 <section id="ged" class="container">
-  {% include index_data.html data="ged" title="GED" %}  
+  {% include ged_hiset_tasc_data.html data="ged" title="GED" %}  
 </section>
 
 <section id="hiset" class="container">
-  {% include index_data.html data="hiset" title="HiSET" %} 
+  {% include ged_hiset_tasc_data.html data="hiset" title="HiSET" %} 
 </section>
 
 <section id="tasc" class="container">
-  {% include index_data.html data="tasc" title="TASC" %} 
+  {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %} 
 </section>

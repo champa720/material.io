@@ -1,5 +1,6 @@
 ---
 title: About TASC Test
+author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency

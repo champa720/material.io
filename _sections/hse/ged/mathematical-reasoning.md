@@ -1,5 +1,6 @@
 ---
 title: Mathematical Reasoning
+author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency

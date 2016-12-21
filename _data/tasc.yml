@@ -1,4 +1,5 @@
 - subject: Mathematics
+  title: Mathematics
   time: 105 minutes
   format:
     - "Part 1: 55 minutes, 40 questions, multiple-choice"
@@ -7,11 +8,11 @@
   testing_url: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Math"
-      excerpt: 
+      excerpt: Visit regularly to study new math topics as we build the library.
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205841-study-mathematics"
-    - category: "Recap Quiz: Algebra"
-      excerpt: 
+    - category: Recap Quiz
+      excerpt: Algebra
       avatar: tasc_avatar.jpg
       url: "http://discover.tasctest.com/algebra-recap-quiz"
     - category: Learning Express Library
@@ -21,16 +22,17 @@
   docs:
     - category: Mathematics Reference Sheet
       excerpt:
-      cover_image: /tasc/formula_sheet_tasc.jpg
+      cover_image: tasc/formula_sheet_tasc.jpg
       url_english: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
     - category: Practice Items
       excerpt: TASC Test Math Practice Items
-      cover_image: /tasc/TASC_Test_Practice_Items_Math.jpg
+      cover_image: tasc/TASC_Test_Practice_Items_Math.jpg
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Math.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Math_Practice_Test.pdf"
 
 - subject: Reading
+  title: "Language Arts: Reading"
   time: 75 minutes
   format: 50 questions, multiple-choice
   testing_url: "https://colorado.tasctest.com/"
@@ -50,11 +52,12 @@
   docs:
     - category: Practice Items
       excerpt: TASC Test Reading Practice Items
-      cover_image: /tasc/TASC_Test_Practice_Items_Reading.jpg
+      cover_image: tasc/TASC_Test_Practice_Items_Reading.jpg
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Reading.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Reading_Practice_Test.pdf"
 
 - subject: Science
+  title: Science
   time: 85 minutes
   format:
     - 47 questions, multiple-choice
@@ -62,11 +65,11 @@
   testing_url: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Science"
-      excerpt: 
+      excerpt: Find science topics to study and quizzes to test your knowledge.
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205847-study-science"
-    - category: "Recap Quiz: Earth and Space Science"
-      excerpt: 
+    - category: Recap Quiz
+      excerpt: Earth and Space Science
       avatar: tasc_avatar.jpg
       url: "http://discover.tasctest.com/earthandspacequiz"
     - category: Learning Express Library
@@ -76,11 +79,12 @@
   docs:
     - category: Practice Items
       excerpt: TASC Test Science Practice Items
-      cover_image: /tasc/TASC_Test_Practice_Items_Science.jpg
+      cover_image: tasc/TASC_Test_Practice_Items_Science.jpg
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Science.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Science_Practice_Test.pdf"
 
 - subject: Social Studies
+  title: Social Studies
   time: 75 minutes
   format:
     - 47 questions, multiple-choice
@@ -91,10 +95,10 @@
       excerpt: 
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies"
-    - category: "Recap Quiz: US History: Post-War United States"
-      excerpt: 
+    - category: Recap Quiz
+      excerpt: "US History: Post-War United States"
       avatar: tasc_avatar.jpg
-      url: "url: http://discover.tasctest.com/us-history-post-war-quiz"
+      url: "http://discover.tasctest.com/us-history-post-war-quiz"
     - category: Learning Express Library
       excerpt: TASC Test Social Studies Practice Questions
       avatar: learning_library_avatar.jpg
@@ -102,11 +106,12 @@
   docs:
     - category: Practice Items
       excerpt: TASC Test Social Studies Practice Items
-      cover_image: /tasc/TASC_Test_Practice_Items_Social_Studies.jpg
+      cover_image: tasc/TASC_Test_Practice_Items_Social_Studies.jpg
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Social_Studies.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_SocialStudies_Practice_Test.pdf"
 
-- subject: writing
+- subject: Writing
+  title: "Language Arts: Writing"
   time: 105 minutes
   format:
     - "Part 1: 55 minutes, 50 questions, multiple-choice"
@@ -117,8 +122,8 @@
       excerpt: 
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205856-study-writing"
-    - category: "Recap Quiz: Grammar Writing"
-      excerpt: 
+    - category: Recap Quiz
+      excerpt: Grammar Writing
       avatar: tasc_avatar.jpg
       url: "http://discover.tasctest.com/grammar-recap-quiz"
     - category: Learning Express Library
@@ -128,16 +133,16 @@
   docs:
     - category: Practice Items
       excerpt: TASC Test Writing Practice Items
-      cover_image: /tasc/TASC_Test_Practice_Items_Writing.jpg
+      cover_image: tasc/TASC_Test_Practice_Items_Writing.jpg
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Writing.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Writing_Practice_Test.pdf"
     - category: Argumentative Essay
       excerpt: Argumentative Essay Writing Prompt Sample
-      cover_image: /tasc/sample_argumentative_essay.jpg
+      cover_image: tasc/sample_argumentative_essay.jpg
       url_english: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
-      url_spanish:
+      url_spanish: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
     - category: Informational Essay
       excerpt: Informational Essay Writing Prompt Sample Item
-      cover_image: /tasc/sample_informational_essay.jpg
+      cover_image: tasc/sample_informational_essay.jpg
       url_english: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"
-      url_spanish:
+      url_spanish: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"

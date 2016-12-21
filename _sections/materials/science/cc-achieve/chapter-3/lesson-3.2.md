@@ -83,7 +83,9 @@ Plant cells have many of the same parts animal cells have, including the nucleus
 
 #### Chloroplasts
 
-In addition to mitochondria, plant cells contain chloroplasts, which are organelles in which light energy is used to produce food for the cell through a process called photosynthesis. This food is then broken down to release chemical energy that is used to perform the functions of the cell. #### Cell Wall
+In addition to mitochondria, plant cells contain chloroplasts, which are organelles in which light energy is used to produce food for the cell through a process called photosynthesis. This food is then broken down to release chemical energy that is used to perform the functions of the cell.
+
+#### Cell Wall
 
 Another structure associated with plant cells is the cell wall, which is a rigid outer layer that supports the cell and protects it from harm. Plant cell walls are made of a carbohydrate called cellulose. Pores in the cell wall allow materials to pass into and out of the cell.
 

@@ -1,5 +1,6 @@
 ---
 title: Language Arts – Writing
+author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency

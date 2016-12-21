@@ -1,5 +1,6 @@
 ---
 title: Language Arts – Reading
+author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency

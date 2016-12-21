@@ -18,8 +18,8 @@ layout: default
             <h2>{{ page.title }}</h2>
             {{ content }}           
           </div>
-          <footer class="card-action grey lighten-2">
-            <a href="#!" class="grey-text text-darken-3">Card footer link</a>
+          <footer class="card-action grey lighten-3">
+            <a href="#!">Card footer link</a>
           </footer>            
         </div>
       </div>
@@ -45,9 +45,8 @@ layout: default
 </section>
 
 
-<!-- creates loop for related_chapters by tag -->
-{% assign related_chapters = site.chapters | where_exp: "item", "item.tag == page.tag" %}
-{% assign chapters = related_chapters | where_exp: "item", "item.category != page.category" %}
+<!-- creates loop for subject_menu by subject > category -->
+{% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
 
 <aside class="section">
   <div class="row">
@@ -55,8 +54,8 @@ layout: default
       <h5 class="grey-text text-darken-3">Related Content</h5>
       <div class="collection">
 
-        {% for a in chapters %}
-        <a href="{{ a.url }}" class="collection-item {% if a.url == page.url %} active{% endif %}">{{ a.title }}</a>
+        {% for a in subject_menu %}
+        <a href="{{ a.url }}" class="collection-item{% if a.url == page.url %} active{% endif %}"><i class="material-icons left">{{ a.icon }}</i>{{ a.title }}</a>
         {% endfor %}
 
       </div>

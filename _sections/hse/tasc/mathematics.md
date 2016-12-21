@@ -1,5 +1,6 @@
 ---
 title: The Mathematics Section
+author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency

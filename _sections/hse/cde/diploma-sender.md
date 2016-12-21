@@ -1,5 +1,6 @@
 ---
 title: Ordering Diplomas & Transcripts
+author: Adult Education Initiatives
 
 subject: HSE
 category: High School Equivalency
