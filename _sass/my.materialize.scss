@@ -50,8 +50,12 @@ i.material-icons.rotate {
   background-color: color('grey', 'lighten-5');
 }
 
-.footer-copyright {
-  color: color('grey', 'lighten-5');
+.page-footer {
+  text-transform: uppercase;
+
+  & .footer-copyright {
+    color: color('grey', 'lighten-5');
+  }
 
   & .footer-wrapper {
     padding: 0 .75rem;
@@ -142,7 +146,6 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     /* bottom, image */
     color('grey', 'darken-4') url("/assets/img/denver-min.jpg") center / cover;
-  text-transform: uppercase;
   color: color('grey', 'lighten-5');
 
   & h1.page-title {

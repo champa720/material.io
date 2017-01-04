@@ -1,6 +1,9 @@
 ---
 layout: default
 title: HS Equivalency Exams
+
+subject: home
+
 source:
   - https://www.cde.state.co.us/postsecondary/hse
 ---

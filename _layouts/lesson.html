@@ -1,0 +1,105 @@
+---
+layout: default
+---
+<article>
+  <header id="header-section" class="z-depth-1">
+    <div class="row">
+      <div class="col s12 l10 offset-l1">
+        <div class="">
+          <!--tag-->
+          <span class="">{{ page.slug | capitalize | replace: "-", " " }}</span>
+          <!--date-->
+          <span class="right">{{ page.tag }}</span>
+          <hr>
+        </div>
+        <div class="">
+          <h1 class="title">{{ page.title }}</h1>
+        </div>
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#!" class="breadcrumb">First</a><a href="#!" class="breadcrumb">Second</a><span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="dropdown1">Drop Me!</a></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m5 l4 offset-l1">
+        <div class="card accent">
+          <div class="card-content flow-text casper">
+            <h4>Materials</h4>
+            <ul>
+              {% for material in page.materials %}
+              <li>{{ material | markdownify }}</li>
+              {% endfor %}
+            </ul>
+            <h4>Standards</h4>            
+            <ul>
+              {% for standard in page.standards %}
+              <li>{{ standard | markdownify }}</li>
+              {% endfor %}
+            </ul>
+            <h4>Objectives</h4>
+            <ul>
+              {% for objective in page.objectives %}
+              <li>{{ objective }}</li>
+              {% endfor %}
+            </ul>
+            <h4>Key Concept</h4>
+            <ul>
+              <li>{{ page.key_concept }}</li>
+            </ul>
+            <h4>Vocabulary</h4>
+            <table class="striped responsive-table">
+              <tr>
+                <th>Tier 2</th>
+                <th>Tier 3</th>
+                <th>Test Words</th>
+              </tr>
+              <tr>
+                <td>{{ page.vocabulary.tier_2 | join: ', ' }}</td>
+                <td>{{ page.vocabulary.tier_3 | join: ', ' }}</td>
+                <td>{{ page.vocabulary.test_words | join: ', ' }}</td>
+              </tr>
+            </table>
+            <h4>Evidence Based Reading</h4>
+            <ul>
+              <li>{{ page.evidence_based_reading | markdownify }}</li>
+            </ul>
+            <h4>21st Century Skill</h4>
+            <ul>
+              <li>{{ page.century_skill | markdownify }}</li>
+            </ul>
+            <h4>Interactive Strategy</h4>
+            <ul>
+              {% for interactive_strategy in page.interactive_strategy %}
+              <li>{{ page.interactive_strategy | markdownify }}</li>
+              {% endfor %}
+            </ul>
+            <h4>Writing Topics</h4>
+            <ul>
+              {% for writing_topic in page.writing_topics %}
+              <li>{{ writing_topic }}</li>
+              {% endfor %}
+            </ul>
+            <h4>Writing Practice</h4>
+            <ul>
+              {% for writing_topic in page.writing_practice %}
+              <li>{{ page.writing_practice }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="card-action">
+            <a href="#!">{{ page.url | replace: "/lessons","/materials"}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m7 l6 flow-text casper ">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>

@@ -34,16 +34,17 @@ sass:
 
 # Collections & Defaults
 collections:
-  pages:
+  chapters:
     output: true
     permalink: /:path/
-  chapters:
+  lessons:
+    output: true
+  pages:
     output: true
     permalink: /:path/
   sections:
     output: true
     permalink: /:path/
-
 defaults:
       
   # Global
@@ -53,6 +54,12 @@ defaults:
       type: "chapters"
     values:
       layout: chapter
+  -
+    scope:
+      path: "_lessons"
+      type: "lessons"
+    values:
+      layout: lesson
   -
     scope:
       path: "_sections"

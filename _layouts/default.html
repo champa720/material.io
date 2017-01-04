@@ -3,9 +3,9 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="{{ page.subject | slugify }}">
 
-    <main id="{{ page.subject | slugify }}" class="page-content" aria-label="Content">
+    <main class="page-content" aria-label="Content">
 
       {{ content }}
 
@@ -28,7 +28,22 @@
 
         </ul>
       </div>
-      <div class="footer-copyright"></div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="right">
+
+            {% for media in site.social_media %}
+            <a href="{{ media[1] }}" target="_blank">
+              <svg>
+                <use xlink:href="/assets/img/icons.svg#{{ media[0] }}" />
+              </svg>
+              <span class="hide">{{ media[0] }}</span>
+            </a>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
     </footer>
     {% endunless %}
 
