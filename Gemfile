@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby RUBY_VERSION
 
 
-gem 'github-pages', 105, group: :jekyll_plugins
+gem 'github-pages', 112, group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
