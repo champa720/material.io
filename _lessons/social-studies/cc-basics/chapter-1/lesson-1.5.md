@@ -10,62 +10,65 @@ tag: Civics & Government
 
 excerpt: "Through political parties are not in the Constitution, they have dominated politics since the 1800s. Interest groups try to influence political decisions, working to promote their ideas at all levels of government."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.5
-  pages: 44 - 47
+section_overview:
+-
+  title: Materials
+  content:
+    - CCB Social Studies pages 44 - 47
+-
+  title: Standards
+  content:
+    - CCR Anchor 9
+-
+  title: Objectives
+  content:
+    - Explain the role of political parties in US politics
+    - Discuss the importance of interest groups
+-
+  title: Key Concept
+  content: "Political parties and interest groups play important roles in government at all levels."
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - influence
+      - platform
+    Tier 3:
+      - interest group
+    Test Words:
+      - synthesize
+-
+  title: Evidence-Based Reading
+  content: "**Word Analysis:** In this section, students will see the abbreviation PAC, which stands for political action committee. Tell students that people often pronounce this abbreviation so that it sounds the same as the word pack. Point out that other abbreviations, like USA, are not pronounced like a word; instead, each letter is read separately: U-S-A. Have students think of other abbreviations they know. Make a list with students of abbreviations that are read like words (NATO) and ones that are spelled out (RSVP)."
+-
+  title: Writing Practice
+  content: "Remind students to include details from the cartoon to support their interpretation of its meaning. These details will include a description of the characters, the situation, other visual clues (such as the bathmat), and the caption."
 
-objectives:
-- Explain the role of political parties in US politics
-- Discuss the importance of interest groups
-
-skills:
-- core: Recognize the Cartoonist's Point of View
-- reading: Synthesize Ideas from Multiple Sources
-
-vocabulary:
-- influence
-- interest group
-- platform
-- synthesize
-
-key_concept:
-- concept: >
-    Political parties and interest groups play important roles in government at all levels.
-- example: >
-    When you watch a sports event, generally you are rooting for one of the teams. You have a point of view, and it influences the way you evaluate the referee, the other team, and even the band and the cheerleaders.<br /><br />Political parties and interest groups also have points of view in favor of ideas and policies or against them. Politicians generally identify themselves with one party. Interest groups can advocate, or promote, one particular issue, or they can support an industry or a specific group of people.
 ---
-## Ideas and Influence in Politics
+## Before Lesson
 
-When representatives take office, many people try to influence, or have an effect on, their decisions. Individuals, groups, and organizations try to get support for their interests.
+Ask students what they know about the role of political parties in elections. (Students may know that in primary elections, voters vote only for candidates that are part of the political party in which they are registered. Students may also say that some local elections, unlike national and state elections, are nonpartisan.) Have students name the political parties they have heard of. (Sample answers: Democratic, Republican, Peace and Freedom, Libertarian, Green. Constitution, Socialist Party USA) Tell students that in this lesson, they will learn more about US political parties and the role of interest groups in US politics.
 
-### Political Parties
+## Background
 
-The US Constitution did not provide for political parties. However, leaders of the young nation soon found themselves grouping together to gain support for their ideas.
+Ask students if they have recently heard any news about a political party or issue. Provide newspaper articles about a recent political issue if students are not aware of any. Then have students pick a news item to write about in their notebooks. They should write what they know about the issue and what they think about it. Invite volunteers to share their thoughts with the class. Point out the roles played by political parties and interest groups (such as drug companies, the National Rifle Association, or animal rights groups) in the issues they selected.
 
-Some nations have a one-party system. Dictatorships, where differing opinions are not allowed, often have one-party systems. Countries such as Cuba, China, and North Korea have one-party systems. Some other countries, such as Germany, have multiple parties. These parties may work together in coalitions ( teams made up of several parties that join together for a common purpose).
+## Guided Practice
 
-In the United States, however, two major parties have dominated the political system since the 1800s. The Democratic Party officially began in  1848. It is the oldest continuously active political organization in the world. The Republican Party began in the 1850s as a third party- that is, a party other than one of the two major parties.
+- Ideas and Influence in Politics
+  - Political Parties
+  - Interest Group
 
-Each party has an animal as its symbol. Thomas Nast, a famous cartoonist of the late 1800s, was first to use the donkey to represent the Democratic Party and the elephant represent the Republican Party. Today the donkey and elephant are well-known symbols.
+## Core Skill
 
-Political parties  select presidential candidates at national conventions. Since the 1850s, there have been 18 Republican presidents and 14 Democratic presidents.
+**Recognize the Cartoonist's Point of View:** Refer to the cartoon on the page. Point out that the donkey represents the Democratic Party and the elephant represents the Republican Party. With both animals in it, the bathtub is full. A man (representing the third party) wants to get in the tub with them. Students should recognize that the donkey and the elephant are probably not telling the truth about the water and the soap; instead, they simply don't want to allow a third party to join them. Invite volunteers to suggest the cartoonist's opinion of this situation.
 
-Presidential elections are held every four years. In the summer before the November election, each party meets for a convention. The candidates for president and vice president are officially introduced. Before these meetings, key party members develop a statement of issues that the party supports. This document is called a platform. Each individual issue, such as health care reform, is called a plank.
+**Synthesize Ideas from Multiple Sources:** Ask students to interview three or four other students to learn their opinion on the role of political parties in the United States today. They might ask about the power of political parties in Congress or the parties' influence on the media. Tell students to ask each person the same question or questions. Then have students write a short paragraph synthesizing the opinions their classmates expressed and drawing their own conclusion. As students begin their research on a third party, remind them not to copy wording from the sources they find. Instead, they should think about the ideas in those sources and write about them in their own words.
 
-Many people vote for the same political party at each election. Others consider themselves independents. They switch parties depending on the issues or candidates. Sometimes they support third parties, such as the Libertarian or Populist parties. Third parties tend to have narrower interests compared to the broader platforms of the two major parties.
+## Extension
 
-![Political Cartoon](img/cagle.com.jpg){: .responsive-img .materialboxed }
+**Getting the Joke:** Explain to students that humor can be difficult to recognize and interpret in a foreign language. One reason for this is that culture often plays a large role in humor. Culture includes shared knowledge of history, current events, and even parts of language such as word play and irony. For instance, before reading this lesson, students may not have realized that the donkey symbolizes the Democratic Party and the elephant symbolizes the Republican Party. Have students look at the cartoon on page 45 and encourage them to ask questions about anything they do not understand. Ask which parts of the cartoon are familiar
 
-[http://www.cagle.com/](http://www.cagle.com/){: target="_blank" }
+**Investigate and Develop a Logical Argument:** Select several topics that have been in the news recently and ask students what they know about these issues. Ask students to identify interest groups that might be involved with these issues. An example is global warming; interest groups concerned with global warming include oil companies and Greenpeace. Divide students into an even number of groups. Assign one group the role of an interest group and a topic, such as oil companies and global warming. Assign the next group the same topic but a different interest group, such as Greenpeace and global warming. Continue until you have assigned each of the groups a topic and interest group. Then have each group of students investigate its topic from the perspective of its assigned interest group and develop a logical argument. Finally, have the groups that share a topic debate those issues from opposing viewpoints.
 
-### Interest Groups
-
-An interest group is a group that tries to influence political decisions. They may represent the interest of the public (clean water), the economy (the pharmaceutical industry), institutions (colleges), or groups (the American Cancer Society). Interest groups may act on the local, state, and national levels. Some interest groups, such as the World Wildlife Fund, are global in their efforts.
-
-Many groups have lobbyists, people who work to influence legislation. When issues of interest to the lobby are scheduled for debate in Congress, lobbyists try to persuade members of Congress to vote in a way that will benefit their group. They may also try to get government funding for their causes or organize protests against measures they do not support.
-
-Following World War II, political action committees (PACs) formed to help raise money for candidates running for office. The first PAC was formed to support union interests. Soon a PAC supporting business interests was formed. Today some PACs, such as the National Organization for Women, support an idea. Other PACs are formed by members of Congress to support their ideas and to help them get re-elected. People connected to these PACs may campaign for their candidate.
+## Lesson Review
