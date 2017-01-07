@@ -10,34 +10,7 @@ tag: Life Science
 
 excerpt: "Both nature and human activity can lead to environmental disturbances and major disruptions. Fires and floods can alter ecosystems in a short time. So can the introduction of exotic or non-native species to an ecosystem, where the species competes for the same resources as native species. In some cases, humans remove ecosystems entirely to create city structures. This lesson introduces you to natural and unnatural ecological disruptions."
 
-objectives:
-- Identify laws of ecology
-- Give examples of environmental disruptions
-- Explain the consequences of disruptions
-
-skills:
-- Determine Meaning of Terms
-- Cite Textual Evidence
-
-vocabulary:
-- abiotic
-- biodiversity
-- biotic
-- degradation
-- destruction
-- endangered
-- fragmentation
-- invasive species
-- threatened
-
-key_concept:
-- concept: >
-    A disruption is a change that greatly alters an environment. Disruptions transform environments. In some cases, one ecosystem can temporarily or permanently replace another. In other cases, an ecosystem can become degraded, making it unfit for living things. Still other ecosystems are destroyed altogether.
-    
-- example: >
-    Take a walk outside and look around. No matter where you live, no matter where you are, the organisms that surround you make up an ecosystem. You may see plants, animals, rocks, soil, and water. An ecosystem also includes microorganisms that you don't see. Within an ecosystem, organisms interact with one another and with their physical and chemical environment. Although no ecosystem remains static, or unchanging, a healthy ecosystem maintains equilibrium, meaning it keeps balance among its species. These species depend on the stable functions of each other and the water, gases, and essential chemicals that cycle through every ecosystem.
 ---
-
 ## The Laws of Ecology
 
 An ecosystem is composed of biotic and abiotic factors. Biotic factors include all living organisms, from single-celled microbes to huge land and water mammals. Abiotic factors are the nonliving components of an ecosystem, including water, gases in the air, and minerals in rocks and soil. Ecologists are scientists who study the interactions between the biotic and abiotic factors within an ecosystem.
@@ -45,18 +18,18 @@ An ecosystem is composed of biotic and abiotic factors. Biotic factors include a
 Decades ago, ecologist Barry Commoner described four basic laws of ecology that apply to all ecosystems.
 
   1. Everything is connected to everything else. What happens to one organism within an ecosystem affects all organisms in some way.
-  
+
   1. Everything goes somewhere. Nature doesn't create waste, and it doesn't throw things away. What exists remains in existence in one form or another.
-  
+
   1. Nature knows more than humankind. Things are always changing within nature. When humans cause those changes, however, the changes are likely to be harmful to the system.
-  
+
   1. Everything has limits. That is, there is only so much nature that humans can exploit, or take advantage of. When humans use natural resources, those resources eventually change from useful to useless forms.
 
 ## Responding to Change
 
 As Commoner's third law of ecology tells us, nature is always changing. And as his first law says, all living and nonliving elements within an ecosystem are connected. What happens to one affects all.
 
-Within an ecosystem, organisms live in equilibrium, or balance, responding to the natural changes that are constantly occurring within any system. Some changes,_. however, are larger than others. All ecosystems respond to disruptions, which are breaks or interruptions in normal events. Nature causes some of these disruptions. Humans cause others.
+Within an ecosystem, organisms live in equilibrium, or balance, responding to the natural changes that are constantly occurring within any system. Some changes, however, are larger than others. All ecosystems respond to disruptions, which are breaks or interruptions in normal events. Nature causes some of these disruptions. Humans cause others.
 
 ### Fire and Floods as Disruptions
 

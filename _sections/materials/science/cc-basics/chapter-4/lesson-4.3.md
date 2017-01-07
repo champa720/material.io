@@ -10,34 +10,7 @@ tag: Life Science
 
 excerpt: "What distinguishes invertebrates from vertebrates? Learn about the basic characteristics of invertebrate animals, including sponges, worms, mollusks, and insects. Also read about the process of metamorphosis."
 
-objectives:
-- Distinguish between invertebrates and vertebrates
-- Recognize the basic characteristics of invertebrates
-- Organize the steps in four-stage and three stage metamorphosis
-
-Skills:
-- Cite Textual Evidence
-- Follow a Multi-step Procedure
-
-vocabulary:
-- adapt
-- invertebrate
-- metamorphosis
-- parasite
-- vertebrate
-
-key_concept:
-
-- concept: >
-    Animals are made of many cells and can be classified as invertebrates or vertebrates.
-
-- example: |
-    You may have twisted and squeezed a kitchen sponge. Sponges like these are usually human-made. But you may have also used the skeleton of a real sponge for bathing. You can twist and squeeze these sponges, too.
-    |
-    Sponges are invertebrates, meaning they have no backbone. If they did, you would not be able to bend, twist, and squeeze them.
-
 ---
-
 ## Invertebrates
 
 ![HYDRA](){: .materialboxed .responsive-img }
@@ -118,5 +91,4 @@ Insects that go through only three stages of metamorphosis skip both the larva a
 
 #### Role of Insects in the Environment
 
-Many farm crops depend on insects to pollinate them. Insects are also an important part of the food chain, providing food for many animals, and even humans in some cultures. Yet insects are also pests, and much worse. Locusts, beetles, and termites destroy crops and lumber. The bites of mosquitoes, ticks, and lice spread many serious diseases. 
-
+Many farm crops depend on insects to pollinate them. Insects are also an important part of the food chain, providing food for many animals, and even humans in some cultures. Yet insects are also pests, and much worse. Locusts, beetles, and termites destroy crops and lumber. The bites of mosquitoes, ticks, and lice spread many serious diseases.

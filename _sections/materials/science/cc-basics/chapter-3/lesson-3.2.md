@@ -10,37 +10,7 @@ tag: Life Science
 
 excerpt: "Imagine inviting friends to lunch. You prepare enough food and set the table for eight people. Your planned lunch will satisfy the needs of eight people in all. But then each of your friends invites another friend. You don't have enough resources to feed or seat them all. You might say that your lunch community has exceeded its carrying capacity. This lesson talks about carrying capacity, or the environmental limitations that determine how many organisms an ecosystem can support."
 
-objectives:
-- Identify limiting factors that affect carrying capacity
-- Identify different kinds of relationships within a habitat
-- Explain the relationship between equilibrium and carrying capacity
-
-skills:
-- Cite Textual Evidence
-- Understand Text
-
-vocabulary:
-- carrying capacity
-- exceeded
-- concept
-- equilibrium
-- habitat
-- jargon
-- limiting factor
-- population
-
-key_concept:
-
-- concept: >
-    A habitat's limited ability to support the living things within it is called its carrying capacity. Carrying capacity is shaped by limiting factors in the environment.
-
-
-- example: |
-    You live in and ploy a role in on ecosystem. An ecosystem is a community. or collection of populations of different plants and animals that share a physical environment. In an ecosystem. species live together and interact. Terrestrial ecosystems occur on land. Aquatic ecosystems exist in freshwater and salt water. The largest terrestrial ecosystems are called biomes, and they include different kinds of grasslands, deserts. forests. and alpine or mountain biomes.
-    Biomes and aquatic ecosystems have different chemical and physical characteristics. They also have different species of organisms. Think about the plants and animals you see every day in your surroundings. You and they are part of the some ecosystem.
-
 ---
-
 ## Carrying Capacity
 
 Every organism and population, or group of organisms of the same kind, has a habitat-a place where they live naturally. A habitat, however, can support only a limited number of organisms.

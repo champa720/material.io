@@ -10,37 +10,7 @@ tag: Life Science
 
 excerpt: "Good health is a top priority for everyone. Learn about common diseases, nutrients needed by the body, and how certain drugs can help maintain good health."
 
-objectives:
-- Identify common diseases and their causes
-- Discuss the types of nutrients used by the body
-- Relate different types of drugs to their effects on the body
-
-skills:
-- Evaluate Conclusions
-- Compare and Contrast Multimedia Sources
-
-vocabulary:
-- acquire
-- antibiotic
-- calorie
-- drug
-- immunity
-- over-the-counter
-- prescription
-- symptom
-- well-balanced diet
-
-key_concept:
-
-- concept: >
-    To promote wellness and avoid common diseases, it is important to maintain a well-balanced diet and avoid any substances that change the normal functioning of the body.
-
-- example: |
-    Given regular oil changes, the right gasoline, and proper maintenance, on automobile con keep running for well over 700,000 miles. However, if a harmful substance were put into the car, it might stop running altogether and end up in a junkyard!
-    Cars and your body hove some things in common. They are both machines, and with proper core and maintenance, and by avoiding harmful substances, your body con remain healthy and functional for many years.
-
 ---
-
 ## Health and Disease
 
 Good health habits include a balanced diet, adequate amounts of sleep and exercise, cleanliness, and a positive mental attitude. Maintaining these habits can help people avoid many health problems. However, very few people go through life without getting some type of disease. Many of these diseases, such as measles, mumps, polio, and the flu, are easily avoided by having proper vaccinations.
@@ -63,7 +33,7 @@ Sexually transmitted diseases (STDs) are caused by germs that travel through sex
 | Chlamydia | Pain; itching; discharge; inflammation; scarring; infertility | Antibiotics |
 | Gonorrhea | Discharge; itching; pain; swelling; abnormal bleeding | Antibiotics |
 | Syphilis | Organ damage; mental problems; blindness; deafness; heart failure; death | Antibiotics |
-| Herpes | Sores that ooze and scab; fever; swollen glands; body aches to treat symptoms | No cure; antiviral medications makes people susceptible to infectious diseases and cancers | 
+| Herpes | Sores that ooze and scab; fever; swollen glands; body aches to treat symptoms | No cure; antiviral medications makes people susceptible to infectious diseases and cancers |
 | AIDS | Flu symptoms; swollen glands; skin rash; | No cure; anti-retroviral drugs slow virus growth and organ damage |
 {: .bordered .striped }
 

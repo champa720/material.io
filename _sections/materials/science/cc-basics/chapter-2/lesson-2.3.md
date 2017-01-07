@@ -10,34 +10,7 @@ tag: Life Science
 
 excerpt: "Fermentation has the same purpose as respiration, but it is conducted in the absence of oxygen. It yields fewer molecules of ATP, making it less efficient than respiration."
 
-objectives:
-- Relate fermentation to energy
-- Relate the absence of oxygen to fermentation
-- Explain the process of fermentation
-
-skills:
-- Apply Scientific Processes
-- Compare and Contrast Information
-
-vocabulary:
-- accountability
-- anaerobic
-- compare
-- contrast
-- fermentation
-- productivity
-- research
-
-key_concept:
-
-- concept: >
-    Fermentation is a process that produces energy within a cell in the absence of oxygen.
-
-- example: >
-    Have you ever played on intense round of basketball or run full-speed for a long distance? Activities like these o~en leave you with burning muscles. You may also experience shortness of breath. What causes the burn, and how is it related to breathing? Both are good questions. In order to answer them, we need to examine the process of fermentation.
-
 ---
-
 ## Fermentation
 
 Cellular respiration is an aerobic process that depends on oxygen to break apart sugar molecules for the purpose of producing ATP. Fermentation also breaks apart sugar molecules for the purpose of producing ATP. However, it does so without the presence of oxygen, meaning it is an anaerobic process. Plus, it generates only two molecules of ATP for each molecule of glucose, making it a less efficient means of energy production.
@@ -52,7 +25,7 @@ Two common kinds of fermentation are lactic acid fermentation and alcohol fermen
 
 When you exercise, your muscles work harder than normal, and you breathe more heavily to take in the additional oxygen your muscle cells need for cellular respiration. However, after prolonged exercise, you may "run out of breath;" you may not be able to take in as much oxygen. In the absence of oxygen, the process of lactic acid fermentation replaces cellular respiration in your body's muscle cells.
 
-As in cellular respiration, g;iycolysis occurs in lactic acid fermentation, too. The process generates two molecules of pyruvate, which then change to lactic acid. Lactic acid then becomes lactate, a waste product. The buildup of lactate in your muscles causes a burning sensation and muscle fatigue. When you slow down, your muscle cells begin to recover. More oxygen enters the cells, allowing cellular respiration to resume. The muscle cells release lactate into the bloodstream, where it travels to the liver. The liver changes the lactate back into glucose that is stored in the body or enters the bloodstream for cells to pick up.
+As in cellular respiration, glycolysis occurs in lactic acid fermentation, too. The process generates two molecules of pyruvate, which then change to lactic acid. Lactic acid then becomes lactate, a waste product. The buildup of lactate in your muscles causes a burning sensation and muscle fatigue. When you slow down, your muscle cells begin to recover. More oxygen enters the cells, allowing cellular respiration to resume. The muscle cells release lactate into the bloodstream, where it travels to the liver. The liver changes the lactate back into glucose that is stored in the body or enters the bloodstream for cells to pick up.
 
 Here is a simplified description of the process of lactic acid fermentation:
 
@@ -72,7 +45,7 @@ Here is a simplified description of the process of alcohol fermentation:
 |:-|
 | Blow Up a Balloon You need only a few materials to conduct this investigation. Begin by getting safety glasses and an apron. Then collect a small clear, plastic soda bottle, a balloon, water, sugar, and a packet of ' baker's yeast. |
 | Fill the bottle with warm water. The water must be warm, not hot, because yeast are living organisms and hot water will kill them. Next, pour the baker's yeast into the warm water. Swirl the bottle gently. |
-| Add a teaspoon of sugar to the water. Swirl the bottle again. Stretch th~ balloon and then attach it to the bottle's opening. Put the bottle ma warm place and let it sit for twenty minutes. Observe what happens. |
+| Add a teaspoon of sugar to the water. Swirl the bottle again. Stretch the balloon and then attach it to the bottle's opening. Put the bottle ma warm place and let it sit for twenty minutes. Observe what happens. |
 {: .striped .responsive-table }
 
 ## Ethanol: An Alternative Energy Source

@@ -12,33 +12,7 @@ excerpt: "Cells are the building blocks of life. Plants are made of cells. So ar
 |
 Learn how plant cells and animal cells are alike and how they are different. Also find out how cells work."
 
-objectives:
-- Identify the basic structure of cells
-- Identify similarities and differences in plant and animal cells
-- Understand how cells work
-
-skills:
-- Support Conclusions
-- Determine Conclusions
-
-vocabulary:
-- cell
-- diffusion
-- function
-- nucleus
-
-key_concept:
-
-- concept: >
-    Cells are the basic units of structure and function in living things.
-
-- example: |
-    Have you ever watched or played in a musical group? If so, you know that even though members of a group play together, each person has a special role. One person may sing, while others ploy instruments. When each individual musician performs well, the group ploys successfully, and the audience enjoys the music.
-    |
-    Every cell in a living thing works the some way. It has individual ports that must work together in order to function successfully.
-
 ---
-
 ## The Structure of Cells
 
 ![Hooke saw hundreds of cells when he looked at a piece of cork under a microscope.](){: .materialboxed .responsive-img }
@@ -78,7 +52,7 @@ Cells may differ in small ways, but all cells contain a membrane, cytoplasm, and
 
 Most cells contain mitochondria, which are shown near the top of both diagrams on the previous page. These sausage-shaped structures trap the energy from food and release it to the cell.
 
-Throughout the cell is a network of canal-like structures known as the endoplasmic reticulum (ER). The ER leads from the cell membrane to the nucleus. It transports ~nd stores substances needed by the cell. Ribosomes are the tiny dots seen on the ER. They combine amino acids into proteins. The vacuoles have a variety of functions. Some digest food. Others store or dispose of waste. In plant cells, the vacuole may be filled with water, which helps to support the stem and leaves.
+Throughout the cell is a network of canal-like structures known as the endoplasmic reticulum (ER). The ER leads from the cell membrane to the nucleus. It transports and stores substances needed by the cell. Ribosomes are the tiny dots seen on the ER. They combine amino acids into proteins. The vacuoles have a variety of functions. Some digest food. Others store or dispose of waste. In plant cells, the vacuole may be filled with water, which helps to support the stem and leaves.
 
 ### Specialized Cell Structures in Plants
 

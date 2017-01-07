@@ -12,34 +12,7 @@ excerpt: "A microbe is a simple organism made from a single cell. Bacteria are m
 |
 Learn about the earliest and simplest organisms that lived on Earth-the prokaryotes. Then read about eukaryotes and more complex microbes and multicellular organisms, such as mold, mushrooms, and ferns."
 
-objectives:
-- Identify basic characteristics of microbes
-- Recognize different types of microbes
-- Understand the role of microbes in the environment
-
-skills:
-- Compare and Contrast Information
-- Cite Textual Evidence
-
-vocabulary:
-- compare
-- decomposer
-- microbe
-- organs
-- thrive
-
-key_concept:
-
-- concept: >
-    Single-celled organisms, including bacteria and protists, are the simplest of all organisms. Along with viruses, they are both helpful and harmful to other living things.
-
-- example: |
-    Recall a time you used building blocks to build a structure like a castle or a skyscraper. Each block had a purpose and contributed to the larger structure.
-    |
-    You can think of living cells as building blocks. Some organisms consist of only a single cell. All of the activities within the cell contribute to the cell's survival and reproduction.
-
 ---
-
 ## Simple Organisms
 
 Before it is possible to discuss a living thing, it is necessary to name it. In other words, every organism needs an identity. Thousands of years ago, for example, a Chinese emperor studied, tasted, and named hundreds of herbs used to make medicine. These names made communication about the medicinal plants possible.

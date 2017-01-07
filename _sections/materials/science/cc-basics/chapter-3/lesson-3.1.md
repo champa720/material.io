@@ -10,36 +10,7 @@ tag: Life Science
 
 excerpt: "An ecosystem is a community of living things adapted to a specific environment. There are a variety of ecosystems on land and in water. Biomes are major ecological communities, identified by where they exist geographically. This lesson discusses the organization of ecosystems and describes the biomes of the world."
 
-objectives:
-- Understand the organization of ecosystems
-- Describe interactions between organisms
-- Identify biomes of the world
-
-skills:
-- Core Skill: Analyze Author's Purpose
-- Reading Skill: Understand Text
-
-vocabulary:
-- biome
-- biosphere
-- ecosystem
-- environment
-- food chain
-- interact
-- prediction
-
-key_concept:
-
-- concept: >
-    Within an ecosystem, organisms interact with one another and with nonliving things in their environment.
-
-
-- example: |
-    Your school is not just a building. It is a community mode up of populations such as teachers, students, and custodians, oil of whom interact with each other. When you interact with someone, you act in close personal relationship with that person. You hove on effect on each other. A population also interacts with nonliving things. Each population at your school hos a role in making the school successful.
-    In nature, oil living things interact with other living and nonliving things in their environment.
-
 ---
-
 ## Communities of Living Things
 
 The part of Earth in which life exists is called the biosphere. The biosphere covers the entire surface of Earth and includes the atmosphere. An ecosystem is a smaller part of the biosphere. It is made up of all the living organisms in one area (of any size), as well as the nonliving parts of the environment, such as water and rocks.
@@ -110,4 +81,4 @@ Ecology is the study of how organisms interact with one another and with the wor
 
 One community role is more important than all the others. Plants and green algae are producers, meaning they make their own food. Directly or indirectly, producers provide food for all the other organisms in an ecosystem. Animals eat either producers or other animals. They are called consumers.
 
-Decomposers and scavengers also play an important role. They feed on dead organisms. Without them, the decaying remains of dead organisms would litter the Earth. 
+Decomposers and scavengers also play an important role. They feed on dead organisms. Without them, the decaying remains of dead organisms would litter the Earth.

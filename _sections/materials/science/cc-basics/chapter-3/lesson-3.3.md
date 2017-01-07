@@ -10,33 +10,7 @@ tag: Life Science
 
 excerpt: "The prefix 'sym' means 'together,' and the prefix 'bio' means 'life.' As organisms on Earth, we live together with other organisms. But some organisms have special ways of living together. This lesson introduces you to different kinds of symbiotic relationships."
 
-objectives:
-- Define symbiosis
-- Describe mutualism, commensalism, and parasitism
-- Give real-world examples of each type of symbiotic relationship
-
-skills:
-- Identify Hypotheses
-- Summarize Text
-
-vocabulary:
-- antibodies
-- host
-- mutualism
-- parasite
-- summarize
-- symbiosis
-
-key_concept:
-
-- concept: >
-    The term symbiosis describes specific kinds of relationships between organisms in the same environment.
-
-- example: >
-    Have you ever hod on allergic reaction to something, such as pet fur or dust? That was your body reacting to something in your environment. In every ecosystem, there are biotic and abiotic factors in constant states of interaction. Biotic factors are the living organisms that interact with each other and with the abiotic, or nonliving, ports of their environments. Abiotic factors include temperature, sunlight, water, and available nutrients. Each organism within on ecosystem affects the organisms around it. The organism may compete for resources or even prey upon others. It con alter the physical and chemical environment, too, changing the resources that other organisms also depend on.
-
 ---
-
 ## Interactions Among Living Things
 
 Because all living things within an ecosystem interact with each other and with nonliving things in their environment, ecosystems are complex and always changing. Some scientists who study ecosystems focus on specific relationships between organisms. A well-studied example is the relationship between the Canadian lynx (a species of wildcat) and the snowshoe hare. Two hundred years ago, Canadian trappers observed changes in population between the two animals. As the population of lynx rose, the population of hares fell. The lynx population then fell and hare populations rose. For a long time, scientists believed that the number of lynx determined the fluctuating numbers of hares. But today, scientists know that the density of hares changes regardless of the lynx population. The question is why.

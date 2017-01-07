@@ -10,41 +10,12 @@ tag: Life Science
 
 excerpt: "How do your bones and muscles work together to help support your body and allow you to move? Find out about the bones, joints, and muscles in the human body."
 
-objectives:
-- Identify main parts of the human skeletal system
-- Classify different types of joints
-- Explain how the skeletal and muscular systems work together for movement
-
-skills:
-- Understand Text Organization
-- Determine Meaning
-
-vocabulary:
-- cardiac muscle
-- cartilage
-- ligaments
-- marrow
-- organization
-- skeletal muscle
-- smooth muscle
-- voluntary 
-
-key_concept:
-
-- concept: >
-    The human skeletal and muscular systems work together for support, protection, and movement.
-
-- example: |
-    When it is supported by poles, a tent provides easy, portable shelter for campers. However, hove you ever forgotten to bring tent poles? Without a framework, the tent collapses to the ground.
-    You also need a supporting framework. It's called a skeletal system. Together, your skeletal and muscular systems support and protect you. They also do what a tent can't. They let you move.
-
 ---
-
 ## The Skeletal System
 
 Human bones are not solid. They are more like hollow tubes that have been filled with jelly. This jelly like substance is a combination of nerves and blood vessels called marrow. New blood cells are produced in the marrow.
 
-How many bones make up the human skeleton? A typical adult has 206 bones, although some people have an extra rib or extra bones in their fingers. The largest bones are the thigh bones, and the smallest bones are located in the ear. Thigh bones contribute about one-fourth of a skeleton's entire weight. 
+How many bones make up the human skeleton? A typical adult has 206 bones, although some people have an extra rib or extra bones in their fingers. The largest bones are the thigh bones, and the smallest bones are located in the ear. Thigh bones contribute about one-fourth of a skeleton's entire weight.
 
 Bones are made of living, growing tissue that has a unique set of needs. This is why a proper diet is important to maintain healthy bones. Bone-building nutrients include calcium and vitamin D.
 

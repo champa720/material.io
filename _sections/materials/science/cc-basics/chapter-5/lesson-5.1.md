@@ -10,33 +10,7 @@ tag: Life Science
 
 excerpt: "DNA is hereditary material that occurs in almost every cell in a living thing's body, including yours. Most of this DNA is found in a cell's nucleus. The information in DNA is stored in units called genes, and each gene is made of a sequence, or order, of base pairs. Those sequences of pairs are a kind of code that guides an organism's development, growth, and functioning."
 
-objectives:
-- Relate genes to chromosomes
-- Identify how traits are passed from parents to offspring
-- Explain the structure and processes of DNA
-
-skills:
-- Make Predictions
-- Summarize Text
-
-vocabulary:
-- chromosome
-- dominant
-- genes
-- genetics
-- prediction
-- recessive
-- trait
-
-key_concept:
-- concept: >
-    Genes carry the codes for human traits. They are located on chromosomes within the nucleus of every living cell. When Leonardo do Vinci pointed his famous portrait of Mono Lisa, he dipped his brush into pots of different colored points to create the colors of her eyes, hair, and skin. His brushstrokes formed the waves of her hair, the shape of her hands, and her famous smile.
-
-- example: >
-    The points and brushstrokes of biology are the genes that determine each individual's hair and eye color, hair texture, or face shape. The differences among genes from person to person make each individual "portrait" unique.
-
 ---
-
 ## Genetics
 
 Genetics is the study of how traits, or characteristics, are inherited, or passed from parents to offspring. The Greek word genesis means "born of' or "produced by." Genes are units of heredity, located on chromosomes inside a cell's nucleus. For species that reproduce sexually, offspring receive half of their genetic information from each parent.
@@ -101,7 +75,7 @@ In most human cells, DNA and genes are divided among 46 chromosomes. DNA replica
 
 Two of the 46 chromosomes are different from the others. These are the sex chromosomes, also called the X and Y chromosomes. The sex chromosomes determine gender. Cells in men have one X and one Y chromosome. Cells in women have two X chromosomes.
 
-All 46 chromosomes are present in the first cell of a developing human baby. Half of the chromosomes, including either an X or a Y, come from the father. These 23 chromosomes were carried by a sperm cell. Sperm are male reproductive cells. The other 23 chromosomes, including one X chromosome, come from the mother. They are carried by an egg cell, the female reproductive cell. A sperm and egg cell combine to form a new individual. 
+All 46 chromosomes are present in the first cell of a developing human baby. Half of the chromosomes, including either an X or a Y, come from the father. These 23 chromosomes were carried by a sperm cell. Sperm are male reproductive cells. The other 23 chromosomes, including one X chromosome, come from the mother. They are carried by an egg cell, the female reproductive cell. A sperm and egg cell combine to form a new individual.
 
 ### Genetic Errors
 

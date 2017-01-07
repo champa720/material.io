@@ -10,33 +10,7 @@ tag: Life Science
 
 excerpt: "You, a dog, and a whale are all vertebrates. Discover what characteristics are common to all vertebrates and investigate the differences between cold-blooded and warm-blooded animals."
 
-objectives:
-- Give characteristics of vertebrates
-- Explain the difference between warm- and cold-blooded animals
-
-skills:
-- Follow a Multi-step Procedure
-- Analyze Author's Purpose
-
-vocabulary:
-- amphibians
-- instinct
-- mammals
-- reflex
-- respond
-
-key_concept:
-
-- concept: >
-    Vertebrates are animals with backbones. They have more developed systems than invertebrates.
-
-- example: |
-    A bird and a dinosaur may seem to be very unlikely relatives. Yet, a bird skeleton that is millions of years old closely resembles the skeleton of a small dinosaur. Like oil vertebrates, this "early bird" hod two pairs of limbs and a backbone. If not for its feathers, it might hove been grouped with the dinosaurs.
-    |
-    Vertebrates are animals with backbones. Although there is huge variety among vertebrates, they have many characteristics in common.
-
 ---
-
 ## Vertebrates
 
 Vertebrates have an internal skeleton mad~ of bone, a type of tissue. Bones grow as an animal grows. Backbones, also called vertebral columns or spines, can support large and heavy bodies, such as those of elephants, giraffes, and whales. Yet they can also bend to allow motion. Skeletal joints, like hinge joints and ball-and-socket joints, allow bone movement.

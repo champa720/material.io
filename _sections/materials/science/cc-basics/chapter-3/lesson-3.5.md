@@ -10,34 +10,7 @@ tag: Life Science
 
 excerpt: "Controlling pollution and keeping Earth's environment habitable are important issues for everyone. In this lesson, you will learn how human activities affect the environment and investigate the difference between renewable and nonrenewable resources."
 
-objective:
-- Distinguish between nonrenewable and renewable resources
-- Identify types of pollution
-- Understand the effects of human activities on the environment
-
-skills:
-- Distinguish Between Facts and Speculation
-- Cite Textual Evidence
-
-vocabulary:
-- climate
-- conservation
-- fact
-- natural resources
-- pollution
-- speculation
-
-key_concept:
-
-- concept: >
-    Increased human population makes increased demands on Earth's resources and adds to pollution in the environment.
-    
-- example: |
-    In a system, different parts interact to make something work as a whole. You have first-hand knowledge of a system-you! The human body is a system made up of parts working together. When one part is harmed or diseased, it can make the whole person ill.
-    Ecosystems are also made up of parts working together. When one part of an ecosystem is harmed by pollution or overuse, the effects can be widespread. Today, the demands of an increasing human population are adding stress and causing damage to ecosystems around the world.
-
 ---
-
 ## Environmental Problems
 
 At the end of the Roman Empire in the year 550, there were only about 250 million people living on Earth. Now there are more people than that just in the United States. As of 2009, the world population was more than 6.7 billion.
