@@ -1,6 +1,17 @@
 ---
+javascript: true
 layout: default
 ---
+
+<!-- creates loop for related_lessons by subject > category > chapter -->
+{% capture subject %}{{ page.subject | downcase }}{% endcapture %}
+{% assign subject_chapters = site.lessons | where_exp: "lessons", "lessons.subject == page.subject" %}
+{% assign subject_category = subject_chapters | where_exp: "lessons", "lessons.category == page.category" %}
+{% assign related_lessons = subject_category | where_exp: "lessons", "lessons.chapter == page.chapter" %}
+
+<!-- breadcrumbs -->
+{% assign crumbs = page.url | split: '/' %}
+
 <article>
   <header id="header-section" class="z-depth-1">
     <div class="row">
@@ -17,80 +28,64 @@ layout: default
         </div>
         <nav class="transparent z-depth-0">
           <div class="nav-wrapper">
-            <a href="#!" class="breadcrumb">First</a><a href="#!" class="breadcrumb">Second</a><span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="dropdown1">Drop Me!</a></span>
+
+            {% for crumb in crumbs limit: 3 %}
+            {% if forloop.index == 1 %}
+            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ "Home" }}</a>
+            {% elsif forloop.index == 2 %}
+            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.subject }}</a>
+            {% else %}
+            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.category }}</a>
+            {% endif %}
+            {% endfor %}
+
+            <span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="related-lessons" data-constrainwidth="false">Chapter {{ page.chapter }}</a></span>
+            <ul id="related-lessons" class="dropdown-content">
+
+              {% for lesson in related_lessons %}
+              <li class="{% if lesson.url == page.url %}active{% endif %}"><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+              {% endfor %}
+
+            </ul>
           </div>
         </nav>
       </div>
     </div>
   </header>
-
-
   <div class="section">
     <div class="row">
       <div class="col s12 m5 l4 offset-l1">
         <div class="card accent">
           <div class="card-content flow-text casper">
-            <h4>Materials</h4>
-            <ul>
-              {% for material in page.materials %}
-              <li>{{ material | markdownify }}</li>
-              {% endfor %}
-            </ul>
-            <h4>Standards</h4>            
-            <ul>
-              {% for standard in page.standards %}
-              <li>{{ standard | markdownify }}</li>
-              {% endfor %}
-            </ul>
-            <h4>Objectives</h4>
-            <ul>
-              {% for objective in page.objectives %}
-              <li>{{ objective }}</li>
-              {% endfor %}
-            </ul>
-            <h4>Key Concept</h4>
-            <ul>
-              <li>{{ page.key_concept }}</li>
-            </ul>
-            <h4>Vocabulary</h4>
-            <table class="striped responsive-table">
+
+            {% for overview in page.section_overview %}
+            <h4>{{ overview.title }}</h4>
+
+            {% if overview.title == "Vocabulary" %}
+            <table class="striped">
+              {% for content in overview.content %}
               <tr>
-                <th>Tier 2</th>
-                <th>Tier 3</th>
-                <th>Test Words</th>
+                <th>{{ content[0] }}</th>
+                <td>{{ content[1] | join: '<br />' }}</td>
               </tr>
-              <tr>
-                <td>{{ page.vocabulary.tier_2 | join: ', ' }}</td>
-                <td>{{ page.vocabulary.tier_3 | join: ', ' }}</td>
-                <td>{{ page.vocabulary.test_words | join: ', ' }}</td>
-              </tr>
+              {% endfor %}
             </table>
-            <h4>Evidence Based Reading</h4>
+
+            {% elsif overview.title == "Standards" %}
             <ul>
-              <li>{{ page.evidence_based_reading | markdownify }}</li>
-            </ul>
-            <h4>21st Century Skill</h4>
-            <ul>
-              <li>{{ page.century_skill | markdownify }}</li>
-            </ul>
-            <h4>Interactive Strategy</h4>
-            <ul>
-              {% for interactive_strategy in page.interactive_strategy %}
-              <li>{{ page.interactive_strategy | markdownify }}</li>
+              {% for content in overview.content %}
+              <li><a href="#{{ content | slugify }}">{{ content | markdownify }}</a></li>
               {% endfor %}
             </ul>
-            <h4>Writing Topics</h4>
+
+            {% else %}
             <ul>
-              {% for writing_topic in page.writing_topics %}
-              <li>{{ writing_topic }}</li>
+              {% for content in overview.content %}
+              <li>{{ content | markdownify }}</li>
               {% endfor %}
             </ul>
-            <h4>Writing Practice</h4>
-            <ul>
-              {% for writing_topic in page.writing_practice %}
-              <li>{{ page.writing_practice }}</li>
-              {% endfor %}
-            </ul>
+            {% endif %} {% endfor %}
+
           </div>
           <div class="card-action">
             <a href="#!">{{ page.url | replace: "/lessons","/materials"}}</a>
