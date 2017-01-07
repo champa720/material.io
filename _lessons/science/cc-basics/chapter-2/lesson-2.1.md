@@ -11,33 +11,36 @@ tag: Life Science
 excerpt: "Flowering plants vary greatly in appearance. This lesson discusses their basic parts and describes plant reproduction and photosynthesis."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 54 - 61
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 7
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify the basic parts of a flowering plant
     - Understand the food-making process in a plant
     - Describe how flowering plants reproduce
-- title: Key Concept
+-
+  title: Key Concept
   content: "Flowers contain male and female reproductive structures and attract pollinators that transfer reproductive materials."
-
-vocabulary:
-  tier_2:
-    - precise
-    - reproduction
-    - visual
-  tier_3:
-    - chlorophyll
-    - photosynthesis
-    - pistil
-    - pollination
-    - stamen
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - precise
+      - reproduction
+      - visual
+    Tier 3:
+      - chlorophyll
+      - photosynthesis
+      - pistil
+      - pollination
+      - stamen
 -
   title: Evidence-Based Reading
   content: "**Collaborative Reading:** - Read aloud the section titled Reproduction in Flowering Plants. Read the first sentence, and then select a student to read next. The student reads a sentence and selects the next reader. Repeat until every student has had a chance to read aloud. Assist students as needed."
@@ -47,6 +50,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to think through every part of their journey before attempting to write. Encourage students to use the best possible type of diagram to show their journey, such as a map or a flow chart. Afterward, ask students to compare their visuals with the visuals in the lesson. Explain that the visuals in the lesson provide levels of detail and accuracy sufficient to help readers understand important concepts. Ask: Does your visual have sufficient detail and accuracy to make it useful to someone unfamiliar with your neighborhood? What could you do to make it more useful?"
+
 ---
 ## Before Lesson
 

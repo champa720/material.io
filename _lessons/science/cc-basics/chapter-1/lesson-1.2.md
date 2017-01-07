@@ -11,29 +11,30 @@ tag: Life Science
 excerpt: "The human body is a dynamic system continuously processing nutrients, wastes, and gases. This lesson identifies the organs and processes involved in digestion, respiration, excretion, and circulation."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 24 - 29
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 7
-- title: Objectives
+-
+  title: Objectives
   content:
-    - Recognize the organs and processes of the digestive, excretory,
-    - circulatory, and respiratory systems
-    - Explain how these systems work together to provide the
-    - body's cells with energy and remove cellular wastes
-- title: Key Concept
+    - Recognize the organs and processes of the digestive, excretory, circulatory, and respiratory systems
+    - Explain how these systems work together to provide the body's cells with energy and remove cellular wastes
+-
+  title: Key Concept
   content: "To carry out life activities, cells require food and oxygen. They also produce wastes. Each system plays a role in delivering the materials that cells need and carrying away wastes they make."
-
-vocabulary:
-  tier_3:
-    - excretory system
-    - plasma
-    - platelet
-    - respiratory system
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 3:
+      - excretory system
+      - plasma
+      - platelet
+      - respiratory system
 -
   title: Evidence-Based Reading
   content: "**Words as Context Clues:** Invite students to work with a partner to reread the text on this page. Model questions that students can ask themselves while reading, such as: What is this paragraph about? How is this paragraph organized? What are the important ideas? Do they form a pattern? After reading, have students underline words that serve as context clues. Point out that the words in, down, into, there, across carries, passes, and leave indicate location and movement from place to place. Students will notice that the text follows the sequence of food as it moves through the body. Help students recognize that the writer has placed ideas in the order that events happen. The text therefore follows a time-order pattern of organization."
@@ -43,10 +44,12 @@ section_skills:
 -
   title: Writing Practice
   content: "Answers will vary, depending on which diagram the student selects. Remind students to use information from both the text and the diagram when writing their paragraphs."
+
 ---
 ## Before Lesson
 
-Determine students' readiness for learning about the digestive, respiratory, excretory, and circulatory systems by asking volunteers to name one organ from each system. Provide assistance, if necessary Ask students to brainstorm aloud about what they think the function of each organ is. Guide students to recognize that every organ plays a role in two vital tasks: providing cells with energy and removing cellular waste.
+Determine students' readiness for learning about the digestive, respiratory, excretory, and circulatory systems by asking volunteers to name one organ from each system. Provide assistance, if necessary. Ask students to brainstorm aloud about what they think the function of each organ is. Guide students to recognize that every organ plays a role in two vital tasks: providing cells with energy and removing cellular waste.
+
 ## Background
 
 Tell students that the levels of organization in the body include cells, tissues, organs, and body systems. Just as every cell in the body is interdependent, so are the body systems. Communication and teamwork among these systems make it possible for the body to do jobs such as pumping blood and getting rid of wastes. Stress interdependence as students read.

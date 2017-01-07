@@ -11,40 +11,44 @@ tag: Life Science
 excerpt: "What distinguishes invertebrates from vertebrates? Learn about the basic characteristics of invertebrate animals, including sponges, worms, mollusks, and insects. Also read about the process of metamorphosis."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 148 - 155
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 3
-- title: Objectives
+-
+  title: Objectives
   content:
     - Distinguish between invertebrates and vertebrates
     - Recognize the basic characteristics of invertebrates
     - Organize the steps in four-stage and three-stage metamorphosis
-- title: Key Concept
+-
+  title: Key Concept
   content: "Animals are made of many cells and can be classified as invertebrates or vertebrates."
-
-vocabulary:
-  tier_2:
-    - adapt
-  tier_3:
-    - invertebrate
-    - metamorphosis
-    - parasite
-    - vertebrate
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - adapt
+    Tier 3:
+      - invertebrate
+      - metamorphosis
+      - parasite
+      - vertebrate
 -
   title: Evidence-Based Reading
-  content: "**Reread/Read More Slowly:** Read the first two paragraphs of "Invertebrates" with students. Then have students reread on their own, taking notes as they read. Afterward, ask a volunteer to compare invertebrates with vertebrates, using humans as an example of a vertebrate. Invite students to make a two-column chart listing the ways in which humans and invertebrates are similar and the ways in which they are different."
+  content: "**Reread/Read More Slowly:** Read the first two paragraphs of 'Invertebrates' with students. Then have students reread on their own, taking notes as they read. Afterward, ask a volunteer to compare invertebrates with vertebrates, using humans as an example of a vertebrate. Invite students to make a two-column chart listing the ways in which humans and invertebrates are similar and the ways in which they are different."
 -
   title: 21st Century Skill
   content: "**Communication and Collaboration:** Have students read the text and then explain communication and collaboration in their own words. Invite students to give specific examples of collaboration and the effect or result of that collaboration. Ask students to offer opinions on why collaboration might be particularly helpful in the workplace."
 -
   title: Writing Practice
   content: "After students have finished writing invite them to exchange their instructions with one another. Have each student read their partner's instructions and then retell them in their own words."
+
 ---
 ## Before Lesson
 

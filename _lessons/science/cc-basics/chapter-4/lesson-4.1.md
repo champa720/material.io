@@ -13,31 +13,34 @@ excerpt: "Cells are the building blocks of life. Plants are made of cells. So ar
 Learn how plant cells and animal cells are alike and how they are different. Also find out how cells work."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 132 - 175
     - "[PowerPoint: Cell Structures](https://drive.google.com/file/d/0B3qyIxugPt-kNHZNNTR4SlloQ28/view?usp=sharing)"
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 2
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify the basic structure of cells
     - Identify similarities and differences in plant and animal cells
     - Understand how cells work
-- title: Key Concept
+-
+  title: Key Concept
   content: "Cells are the basic units of structure and function in living things"
-
-vocabulary:
-  tier_2:
-    - Function
-  tier_3:
-    - Cell
-    - Diffusion
-    - Nucleus
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - Function
+    Tier 3:
+      - Cell
+      - Diffusion
+      - Nucleus
 -
   title: Evidence-Based Reading
   content: "**Set a Purpose for Reading:** Before students read the lesson, have them make a KWL chart to determine what they know and what they want to know. Later, they can fill in the column about what they learned. Tell students they can also preview the lesson headings and subheadings to get an idea of what topics will be covered. Skim the text to find out how the author presents the material and get an idea of what kinds of diagrams and charts are provided."
@@ -55,6 +58,7 @@ section_skills:
   content:
     - Determine Conclusions
     - Use Reasoning, Planning, and Evidence
+
 ---
 ## Before Lesson
 

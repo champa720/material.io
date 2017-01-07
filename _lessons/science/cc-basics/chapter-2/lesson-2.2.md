@@ -11,34 +11,37 @@ tag: Life Science
 excerpt: "Respiration, which occurs in the presence of oxygen, breaks apart sugar molecules to capture the energy trapped in the molecule's chemical bonds. The process occurs in the presence of oxygen and yields high-energy molecules called ATP."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 62 - 69
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 3
     - CCR Anchor 4
-- title: Objectives
+-
+  title: Objectives
   content:
     - Relate respiration to energy
     - Identify step-by-step scientific procedures
     - Describe the role of oxygen in the process of respiration
     - Explain the process of cellular respiration
-- title: Key Concept
+-
+  title: Key Concept
   content: "When you breathe, you respire, or bring oxygen into your body. This process is called respiration. There's another kind of respiration, too. Within your cells, microscopic structures use the oxygen that you respire to release the energy locked in food molecules."
-
-vocabulary:
-  tier_2:
-    - aerobic
-    - initiative
-    - procedure
-    - process
-  tier_3:
-    - cellular respiration
-    - glycolysis
-    - mitochondria
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - aerobic
+      - initiative
+      - procedure
+      - process
+    Tier 3:
+      - cellular respiration
+      - glycolysis
+      - mitochondria
 -
   title: Evidence-Based Reading
   content: "**Word Parts:** Write the word carbohydrate on the board. Explain that the word comes from two word parts: carbo + hydrate. Also explain that the word part carbo comes from the chemical element carbon, and the word part hydro comes from the Greek word hydor, meaning 'water'. Remind students that the chemical structure of water is H_2O, or two hydrogen atoms bonded to one oxygen atom. Explain that all carbohydrates, from simple sugars to starches, are a combination of carbon, hydrogen, and oxygen atoms. Show or project models of the chemical structures of a variety of carbohydrates and invite students to identify the carbon, hydrogen, and oxygen atoms in each structure."
@@ -48,6 +51,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to think through the process of the experiment before attempting to write. Then have them order and number the steps. If possible, have students compare their steps with a partner to determine if all necessary steps are included and ordered properly."
+
 ---
 ## Before Lesson
 

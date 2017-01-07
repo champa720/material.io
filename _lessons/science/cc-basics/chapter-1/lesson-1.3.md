@@ -11,33 +11,36 @@ tag: Life Science
 excerpt: "Your body reacts to many different stimuli on a daily basis. You will learn about the body systems responsible for communication and reproduction in this lesson."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 30 - 35
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 2
-- title: Objectives
+-
+  title: Objectives
   content:
     - Recognize the organs and processes of the nervous and endocrine systems
     - Differentiate between male and female reproductive organs
     - Sequence the events in the development of a fetus from a fertilized egg
     - Identify conclusions and supporting details
-- title: Key Concept
+-
+  title: Key Concept
   content: "The nervous system and the endocrine system are responsible for communications within the body. They control many processes in the body, including those of the reproductive system."
-
-vocabulary:
-  tier_2:
-    - labor
-  tier_3:
-    - fetus
-    - hormones
-    - menstrual cycle
-  test_words:
-    - sequence
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - labor
+    Tier 3:
+      - fetus
+      - hormones
+      - menstrual cycle
+    Test Words:
+      - sequence
 -
   title: Evidence-Based Reading
   content: "**Word Parts:** Write the words cerebrum and cerebellum on the board. Invite students to point out the portion of each word that is shared by both words, and then circle the word part 'cere'. Explain to students that the word cerebrum comes from the Latin word for brain. The word cerebellum is the Latin diminutive for cerebrum, meaning 'little brain'. Explain to students that a diminutive is a word form that indicates smallness. Explain to students that it is possible to understand the meaning of many words if they know the meanings of the word parts. Ask students to look up the meaning of the word cerebral in a dictionary."
@@ -53,6 +56,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students that a claim is a statement or conclusion that is based on evidence and knowledge. Help students identify supporting details in the text."
+
 ---
 ## Before Lesson
 

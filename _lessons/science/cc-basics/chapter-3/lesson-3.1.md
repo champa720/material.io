@@ -11,36 +11,39 @@ tag: Life Science
 excerpt: "An ecosystem is a community of living things adapted to a specific environment. There are a variety of ecosystems on land and in water. Biomes are major ecological communities, identified by where they exist geographically. This lesson discusses the organization of ecosystems and describes the biomes of the world."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 88-95
     - "[PowerPoint: Biomes and Ecosystems](https://drive.google.com/file/d/0B3qyIxugPt-kZEhWNkx1Y19pVkk/view?usp=sharing)"
     - "[PowerPoint: Cycles on Ecosystems](https://drive.google.com/file/d/0B3qyIxugPt-kdW5kRmFHYUx3anc/view?usp=sharing)"
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 4
     - CCR Anchor 6
-- title: Objectives
+-
+  title: Objectives
   content:
     - Understand the organization of ecosystems
     - Describe interactions between organisms
     - Identify biomes of the world
-- title: Key Concept
+-
+  title: Key Concept
   content: "Within an ecosystem, organisms interact with one another and with nonliving things in their environment."
-
-vocabulary:
-  tier_2:
-    - environment
-    - interact
-  tier_3:
-    - biome
-    - biosphere
-    - ecosystem
-    - food chain
-  test_words:
-    - prediction
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - environment
+      - interact
+    Tier 3:
+      - biome
+      - biosphere
+      - ecosystem
+      - food chain
+    Test Words:
+      - prediction
 -
   title: 21st Century Skill
   content: "**Social and Cross-Cultural Skills:** Write the words independently and collaboratively on the board. Ask students to explain what these words mean when they are applied to how people work. Invite students to give examples of times they have worked collaboratively to complete a project. Then read the text in the sidebar as a class. Ask students to consider the text and the examples they shared to answer the following questions: How do sharing your ideas and considering people's responses to those ideas challenge you to be more creative? How does sharing responsibility for completing a task increase a group's productivity?"
@@ -53,6 +56,7 @@ section_skills:
     - "Using Reference Sources to Understand Meaning"
     - "Identify Stages of a Food Chain"
     - "Have partners exchange their predictions about biomes and tell why the predictions did or did not match the text."
+
 ---
 ## Before Lesson
 

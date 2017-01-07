@@ -11,34 +11,37 @@ tag: Life Science
 excerpt: "How do your bones and muscles work together to help support your body and allow you to move? Find out about the bones, joints, and muscles in the human body."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 16 - 23
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 4
     - CCR Anchor 5
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify main parts of the human skeletal system
     - Classify different types of joints
     - Explain how the skeletal and muscular systems work together for movement
-- title: Key Concept
+-
+  title: Key Concept
   content: "The human skeletal and muscular systems work together for support, protection, and movement."
-
-vocabulary:
-  tier_2:
-    - organization
-    - voluntary
-  tier_3:
-    - cardiac muscle
-    - cartilage
-    - ligaments
-    - marrow
-    - skeletal muscle
-    - smooth muscle
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - organization
+      - voluntary
+    Tier 3:
+      - cardiac muscle
+      - cartilage
+      - ligaments
+      - marrow
+      - skeletal muscle
+      - smooth muscle
 -
   title: Evidence-Based Reading
   content: "**Set a Purpose for Reading:** Draw a KWL chart on the board. Title the chart: The Skeletal System. Label the columns: What I Know; What I Want to Know; and What I Learned. Explain to students that a KWL chart is one of many effective tools they can use to make meaning of a text. Tell students that you're going to complete this chart together. Begin by inviting students to share what they know about the skeletal system. Record their responses in the chart. Then ask them to tell you what they want to know about the skeletal system. Again, record their answers in the chart. After reading the text, revisit the chart to complete the last column. If students don't find the answers to all of their questions, discuss what they could do to find the answers they seek."
@@ -48,6 +51,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to think through the physical activity or exercise that they have selected before attempting to write. Help students decide which pattern of organization- order of importance, time order, or cause-and-effect order- is best suited for describing their chosen subject."
+
 ---
 ## Before Lesson
 
@@ -71,7 +75,7 @@ Explain to students that bones and muscles work together to provide support and 
 
 **Determine Meaning:** Read the text with students. Then ask volunteers to explain the relationship between voluntary and involuntary muscles and voluntary and involuntary nervous system responses. Ask students to explain the connection between involuntary responses and survival.
 
-##Extension
+## Extension
 
 **Explain a Diagram:** Gather students into small groups. Encourage them to examine the diagram of the arm on page 20 and use their own words to explain the role of muscle pairs in the raising and lowering of the forearm. Students may want to number the steps they describe, either orally or on paper, as they explain.
 Construct a Model to Show How a Knee Flexes

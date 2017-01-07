@@ -11,32 +11,35 @@ tag: Life Science
 excerpt: "Controlling pollution and keeping Earth's environment habitable are important issues for everyone. In this lesson, you will learn how human activities affect the environment and investigate the difference between renewable and nonrenewable resources."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 118 - 125
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 8
-- title: Objectives
+-
+  title: Objectives
   content:
     - Distinguish between nonrenewable and renewable resources
     - Identify types of pollution
     - Understand the effects of human activities on the environment
-- title: Key Concept
+-
+  title: Key Concept
   content: "Increased human population makes increased demands on Earth's resources and adds to pollution in the environment."
-
-vocabulary:
-  tier_2:
-    - climate
-    - fact
-    - speculation
-  tier_3:
-    - conservation
-    - natural resources
-    - pollution
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - climate
+      - fact
+      - speculation
+    Tier 3:
+      - conservation
+      - natural resources
+      - pollution
 -
   title: Evidence-Based Reading
   content: "**Preview the Lesson:** Write the word preview on the board. Underline the base word view, and ask students to provide a synonym, or word with a similar meaning. Then circle the prefix pre-, and explain that when these letters appear before a base word, they mean before. Ask students to explain what people do when they preview a text, such as a lesson in this book. Then organize students into pairs. Give students time to work with their partners to preview the lesson. Tell them that they are going to read titles, subtitles, boldfaced words, and visuals to find clues as to what the text is about. Afterward, give students time to share the clues they found. Explain that previewing a text before reading is an effective comprehension strategy they can apply with any text."
@@ -46,6 +49,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Review with students that cause and effect relationships do not begin and end with one event but continue on, with the effect becoming the cause of another effect, and so on. Have students treat the effect from their original paragraph as the cause of the next event and write another paragraph following the same rules as before."
+
 ---
 ## Before Lesson
 

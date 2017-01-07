@@ -11,37 +11,41 @@ tag: Life Science
 excerpt: "DNA is hereditary material that occurs in almost every cell in a living thing's body, including yours. Most of this DNA is found in a cell's nucleus. The information in DNA is stored in units called genes, and each gene is made of a sequence, or order, of base pairs. Those sequences of pairs are a kind of code that guides an organism's development, growth, and functioning."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 176 - 183
     - "[Website Activity: An Inventory of My Traits](http://teach.genetics.utah.edu/content/heredity/#item2)"
     - "[Website Activity: Generations of Traits](http://teach.genetics.utah.edu/content/heredity/#item5)"
     - "[Website Activity: A Recipe For Traits](http://teach.genetics.utah.edu/content/heredity/#item8)"
     - "[Website Activity: Create a DNA Fingerprint](http://www.pbslearningmedia.org/asset/tdc02_int_creatednafp2/)"
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 2
-- title: Objectives
+-
+  title: Objectives
   content:
     - Relate genes to chromosomes
     - Identify how traits are passed from parents to offspring
     - Explain the structure and processes of DNA
-- title: Key Concept
+-
+  title: Key Concept
   content: "Genes carry the codes for human traits. They are located on chromosomes within the nucleus of every living cell."
-vocabulary:
-  tier_2:
+-
+  title: Vocabulary
+  content:
+  Tier 2:
     - dominant
     - trait
-  tier_2:
+  Tier 3:
     - chromosome
     - genes
     - genetics
     - recessive
-  test_words:
+  Test Words:
     - prediction
-
-section_skills:
 -
   title: 21st Century Skill
   content: "**Initiative and Self-Direction:** Have students discuss the phrase take the initiative before reading the text. After reading, have students share examples of when they took the initiative or used self-direction to complete a goal. Allow students time to complete the activity."
@@ -51,6 +55,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Before students begin to write, ask them to recall your discussion of using summarization as a comprehension strategy. Then explain that pausing occasionally to make predictions about what they are reading is another effective strategy. Help students understand that predictions are based on existing knowledge, so they must understand a text before they can make predictions related to the text. After students have completed the writing task, encourage them to share their predictions."
+
 ---
 ## Before Lesson
 

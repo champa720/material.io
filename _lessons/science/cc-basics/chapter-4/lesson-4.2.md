@@ -13,31 +13,34 @@ excerpt: "A microbe is a simple organism made from a single cell. Bacteria are m
 Learn about the earliest and simplest organisms that lived on Earth-the prokaryotes. Then read about eukaryotes and more complex microbes and multicellular organisms, such as mold, mushrooms, and ferns."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 140 - 147
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 9
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify basic characteristics of microbes
     - Recognize different types of microbes
     - Understand the role of microbes in the environment
-- title: Key Concept
+-
+  title: Key Concept
   content: "Single-celled organisms, including bacteria and protists, are the simplest of all organisms. Along with viruses, they are both helpful and harmful to other living things."
-
-vocabulary:
-  tier_2:
-    - compare
-    - thrive
-  tier_3:
-    - decomposer
-    - microbe
-    - organs
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - compare
+      - thrive
+    Tier 3:
+      - decomposer
+      - microbe
+      - organs
 -
   title: Evidence-Based Reading
   content: "**Echo Reading:** Provide a model of expressive, fluent reading by conducting an echo read of the text on this page. Begin by reading the heading and first sentence aloud, and then ask the class to repeat after you. Take care to pronounce unfamiliar words clearly and repeat sentences as needed. Gradually increase your reading speed to encourage students to identify words more quickly."
@@ -47,6 +50,7 @@ section_skills:
 -
   title: Writing Practice
   content: "As students plan their compare-and-contrast paragraphs, discuss alternate organizational structures for their writing. They could list all the relevant characteristics of the first item and then write about how the characteristics of the other item are the same or different, or they could compare and contrast each aspect of the items, one after the other."
+
 ---
 ## Before Lesson
 

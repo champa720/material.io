@@ -11,32 +11,35 @@ tag: Life Science
 excerpt: "The prefix 'sym' means 'together,' and the prefix 'bio' means 'life.' As organisms on Earth, we live together with other organisms. But some organisms have special ways of living together. This lesson introduces you to different kinds of symbiotic relationships."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 102 - 109
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 2
-- title: Objectives
+-
+  title: Objectives
   content:
     - Define symbiosis
     - Describe mutualism, commensalism, and parasitism
     - Give real-world examples of each type of symbiotic relation ship
-- title: Key Concept
+-
+  title: Key Concept
   content: "The term symbiosis describes specific kinds of relationships between organisms in the same environment."
-
-vocabulary:
-  tier_2:
-    - host
-    - mutualism
-    - parasite
-  tier_3:
-    - antibodies
-    - symbiosis
-  test_words:
-    - summarize
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - host
+      - mutualism
+      - parasite
+    Tier 3:
+      - antibodies
+      - symbiosis
+    Test Words:
+      - summarize
 -
   title: Evidence-Based Reading
   content: "**Word Parts:** Write the word symbiosis on the board. Underline the base word bios. Explain that its history is Greek, and means one's life, or way of living. Next, explain that letters attached to the beginning and end of a base word, or affixes, change the meaning of the word. Letters attached to the beginning are called prefixes. Circle the prefix 'symand' explain that it means together. Explain that letters attached to the end of a word form a suffix. Circle the suffix -is. Explain that it most closely means having the character of. Ask students to use their understanding of the word parts to define the term symbiosis."
@@ -46,6 +49,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to think through the different kinds of symbiosis before writing. Students should describe the interaction of the mother and the puppy before identifying the kind of symbiotic relationship the two share. Mothers and offspring have a parasitic relationship, as developing fetuses and newborns depend on the mother for resources, leaving fewer resources for the mother."
+
 ---
 ## Before Lesson
 

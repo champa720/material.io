@@ -11,35 +11,38 @@ tag: Life Science
 excerpt: "Imagine inviting friends to lunch. You prepare enough food and set the table for eight people. Your planned lunch will satisfy the needs of eight people in all. But then each of your friends invites another friend. You don't have enough resources to feed or seat them all. You might say that your lunch community has exceeded its carrying capacity. This lesson talks about carrying capacity, or the environmental limitations that determine how many organisms an ecosystem can support."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 96 - 101
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 4
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify limiting factors that affect carrying capacity
     - Identify different kinds of relationships within a habitat
     - Explain the relationship between equilibrium and carrying capacity
-- title: Key Concept
+-
+  title: Key Concept
   content: "A habitat's limited ability to support the living things within it is called its carrying capacity. Carrying capacity is shaped by limiting factors in the environment."
-
-vocabulary:
-  tier_2:
+-
+  title: Vocabulary
+  content:
+  Tier 2:
     - exceeded
     - equilibrium
     - habitat
     - jargon
     - population
-  tier_3:
+  Tier 3:
     - carrying capacity
     - limiting factor
-  test_words:
+  Test Words:
     - concept
-
-section_skills:
 -
   title: Evidence-Based Reading
   content: "**Forms of a Word:** Write the word habitat on the board. Next to the word, write: from the Latin word 'habitare', meaning it dwells or lives. Ask a volunteer to define the term as it is used in the lesson. Next, write the following words on the board: habit, habitable, habitual, habitation, inhabitant, and habilitate. Read the words aloud. Remind students of the origins of the word habitat, and then ask them to use that meaning to define the terms you listed. Offer examples of sentences using the related words to guide student understanding. Ask students to explain how knowing a word's history can help them define related words."
@@ -49,6 +52,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Work with students to identify possible areas in the community where humans are putting pressure on environmental resources or species. Then select one of the areas and ask students to apply the concepts of limiting factors and carrying capacity to describe what might be happening there."
+
 ---
 ## Before Lesson
 

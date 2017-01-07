@@ -11,34 +11,37 @@ tag: Life Science
 excerpt: "Fermentation has the same purpose as respiration, but it is conducted in the absence of oxygen. It yields fewer molecules of ATP, making it less efficient than respiration."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 70 - 77
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 3
     - CCR Anchor 9
-- title: Objectives
+-
+  title: Objectives
   content:
     - Relate fermentation to energy
     - Relate the absence of oxygen to fermentation
     - Explain the process of fermentation
-- title: Key Concept
+-
+  title: Key Concept
   content: "Fermentation is a process that produces energy within a cell in the absence of oxygen."
-
-vocabulary:
-  tier_2:
-    - accountability
-    - productivity
-    - research
-  tier_3:
-    - anaerobic
-    - fermentation
-  test_words:
-    - compare
-    - contrast
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - accountability
+      - productivity
+      - research
+    Tier 3:
+      - anaerobic
+      - fermentation
+    Test Words:
+      - compare
+      - contrast
 -
   title: Evidence-Based Reading
   content: "**Model Fluent Reading:** Remind students that each punctuation mark in a text serves a purpose. Review the first paragraph on page 70 as a class, asking students to identify the places where commas appear. Ask students what those commas tell a reader to do. Then ask students to listen as you read the paragraph aloud, first reading while ignoring the commas and then reading while acknowledging the commas. Afterward, ask students to describe the differences in what they heard. Invite volunteers to read the paragraph again, modeling fluent reading."
@@ -48,6 +51,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to read carefully before beginning to write. Encourage them to think in terms of their own experiences as they write."
+
 ---
 ## Before Lesson
 

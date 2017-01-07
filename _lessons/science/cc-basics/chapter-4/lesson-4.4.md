@@ -11,30 +11,33 @@ tag: Life Science
 excerpt: "You, a dog, and a whale are all vertebrates. Discover what characteristics are common to all vertebrates and investigate the differences between cold-blooded and warm-blooded animals."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 156 - 165
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 3
     - CCR Anchor 6
-- title: Objectives
+-
+  title: Objectives
   content:
     - Give characteristics of vertebrates
     - Explain the difference between warm- and cold-blooded animals
-- title: Key Concept
+-
+  title: Key Concept
   content: "Vertebrates are animals with backbones. They have more developed systems than invertebrates."
-
-vocabulary:
-  tier_2:
-    - reflex
-    - respond
-  tier_3:
-    - amphibians
-    - insects
-    - mammals
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - reflex
+      - respond
+    Tier 3:
+      - amphibians
+      - insects
+      - mammals
 -
   title: Evidence-Based Reading
   content: "**Multiple-Meaning Words:** Point out that the word amphibious is used in contexts other than life science and biology. Tell students that the Greek prefix amphi- means both. Challenge students to guess the meaning of the word amphibious in the following sentence: Hunters use amphibious vehicles to travel through shallow streams and over rough ground."
@@ -44,6 +47,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to make sure they understand the diagram before attempting to write. Have students share their final paragraphs with the class. Ask students to describe some advantages of using a diagram to show how to use an electronic device. Point out that many products are sold internationally and purchasers may speak many different languages."
+
 ---
 ## Before Lesson
 

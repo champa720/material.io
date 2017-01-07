@@ -11,36 +11,39 @@ tag: Life Science
 excerpt: "Good health is a top priority for everyone. Learn about common diseases, nutrients needed by the body, and how certain drugs can help maintain good health."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 36 - 45
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 9
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify common diseases and their causes
     - Discuss the types of nutrients used by the body
     - Relate different types of drugs to their effects on the body
-- title: Key Concept
+-
+  title: Key Concept
   content: "To promote wellness and avoid common diseases, it is important to maintain a well-balanced diet and avoid any substances that change the normal functioning of the body."
-
-vocabulary:
-  tier_2:
-    - drug
-    - well-balanced diet
-    - calorie
-    - immunity
-    - prescription
-    - symptom
-  tier_3:
-    - antibiotic
-    - over-the-counter
-  test_words:
-    - acquire
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - drug
+      - well-balanced diet
+      - calorie
+      - immunity
+      - prescription
+      - symptom
+    Tier 3:
+      - antibiotic
+      - over-the-counter
+    Test Words:
+      - acquire
 -
   title: Evidence-Based Reading
   content: "**Clarify Meaning:** Tell students that charts and tables hold information in an organized way and help to clarify the meaning of the text. Have students look at the chart at the top of page 37. Tell students to look at the heading of each row and column to determine the content of the chart, and explain how to locate information on the chart using the headings."
@@ -53,6 +56,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Remind students to write down their notes about the main idea and the supporting details before attempting to write their summary."
+
 ---
 ## Before Lesson
 

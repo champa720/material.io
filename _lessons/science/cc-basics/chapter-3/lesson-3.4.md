@@ -11,35 +11,38 @@ tag: Life Science
 excerpt: "Both nature and human activity can lead to environmental disturbances and major disruptions. Fires and floods can alter ecosystems in a short time. So can the introduction of exotic or non-native species to an ecosystem, where the species competes for the same resources as native species. In some cases, humans remove ecosystems entirely to create city structures. This lesson introduces you to natural and unnatural ecological disruptions."
 
 section_overview:
-- title: Materials
+-
+  title: Materials
   content:
     - CCB Science pages 110 - 117
-- title: Standards
+-
+  title: Standards
   content:
     - CCR Anchor 1
     - CCR Anchor 4
-- title: Objectives
+-
+  title: Objectives
   content:
     - Identify laws of ecology
     - Give examples of environmental disruptions
     - Explain the consequences of disruptions
-- title: Key Concept
+-
+  title: Key Concept
   content: "A disruption is a change that greatly alters an environment. Disruptions transform environments. In some cases, one ecosystem can temporarily or permanently replace another. In other cases, an ecosystem can become degraded, making it unfit for living things. Still other ecosystems are destroyed altogether."
-
-vocabulary:
-  tier_2:
-    - degradation
-    - destruction
-    - destruction
-    - fragmentation
-    - threatened
-  tier_3:
-    - abiotic
-    - biodiversity
-    - biotic
-    - invasive species
-
-section_skills:
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      - degradation
+      - destruction
+      - destruction
+      - fragmentation
+      - threatened
+    Tier 3:
+      - abiotic
+      - biodiversity
+      - biotic
+      - invasive species
 -
   title: Evidence-Based Reading
   content: "**Repeated Reading:** Ask students to read aloud with you as you read 'Introduced Species as a Disruption' (beginning on page 112) several times. Tell students to pay special attention to how the punctuation marks, introductory terms such as sometimes and however, and introductory phrases that signify time-order sequence all affect the way you read. Emphasize accuracy and phrasing until the group reading sounds smooth and consistent."
@@ -49,6 +52,7 @@ section_skills:
 -
   title: Writing Practice
   content: "Invite students to share their explanations for ways governments can use biodiversity measures to make decisions. Encourage students to discuss how the measures may or may not influence decision making."
+
 ---
 ## Before Lesson
 
