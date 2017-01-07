@@ -9,41 +9,6 @@ section: 6.3
 tag: US History
 
 excerpt: "Economic cycles are often fueled by advances in science. For instance, in the sixteenth and seventeenth centuries, discoveries and ideas in astronomy, chemistry, physics, and other fields provided new knowledge about our world. People used this knowledge to invent new machines and processes. This progress drove the Industrial Revolution and the Transportation Revolution of the eighteenth and nineteenth centuries. Scientific discoveries have continued to affect the economy. A good example is today's Digital Revolution."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 6
-  toc_type: Lesson
-  toc_number: 6.3
-  pages: 256 - 261
-
-objectives:
-- Describe the Scientific and Industrial Revolutions
-- Describe the Digital and Transportation Revolutions
-- Identify the current impact of these revolutions
-
-skills:
-- core: Analyze Events and Ideas
-- reading: Sequence Events
-
-vocabulary:
-- analyze
-- Digital Revolution
-- era
-- fundamental
-- Industrial Revolution
-- revolution
-- Scientific Revolution
-- theory
-- Transportation Revolution
-
-key_concept:
-- concept: >
-    Today's world has been shaped by the technological advances of the Scientific Revolution, the Industrial Revolution, the Transportation Revolution, and the Digital Revolution.
-
-- example: >
-    Which technology product do you rely on the most? Perhaps it is a computer if you enjoy keeping up with social media. Or it might be your music player if you enjoy listening to songs. Maybe it is your phone if you make a lot of calls. Or it could be your smart phone for all of those reasons.
 ---
 ## A Revolution in Your Hand
 
@@ -59,13 +24,13 @@ As you read about the revolutions that are changing your life, keep a smart phon
 
 Most people understand that science has a lot to do with the many technologies available to us today. Without science, we would not have computers, telephones, music players-or all three of these pieces of equipment wrapped up in a smart phone.
 
-Science is a method of learnip.g about the natural world. Scientists 1) make careful observations, 2) use experiments to identify facts, and 3) organize facts into theories. A theory is a general statement that explains the facts observed by scientists. Theories are tested, often by many scientists in a variety of places. Scientists continue to observe, to analyze (or examine carefully), and to experiment-a process leading to new theories · that better explain the facts.
+Science is a method of learning about the natural world. Scientists 1) make careful observations, 2) use experiments to identify facts, and 3) organize facts into theories. A theory is a general statement that explains the facts observed by scientists. Theories are tested, often by many scientists in a variety of places. Scientists continue to observe, to analyze (or examine carefully), and to experiment-a process leading to new theories · that better explain the facts.
 
 The Scientific Revolution is the name given to an era that lasted from the late 1500s to the early 1600s. During that time, scientists developed many new theories about how the world worked.
 
-A good way to understand the Scientific Revolution is to think about the solar system:. For centuries, people had a fundamental, or basic, belief about the solar system: they thought the Sun and the other planets revolved around Earth. In 1543, however, the Polish astronomer Nicolaus Copernicus (1473-1543) proposed the theory that Earth and the other planets revolved in circ~lar orbits around the Sun.
+A good way to understand the Scientific Revolution is to think about the solar system:. For centuries, people had a fundamental, or basic, belief about the solar system: they thought the Sun and the other planets revolved around Earth. In 1543, however, the Polish astronomer Nicolaus Copernicus (1473-1543) proposed the theory that Earth and the other planets revolved in circular orbits around the Sun.
 
-Later, other astronome;s actually observed the orbit of planets. Danish astronomer Tycho Brahe (1546-1601) carefully measured the movements of objects in the night sky. Galileo Galilei (1564-1642), an Italian, observed the orbit of moons around Jupiter. Then the German astronomer Johannes Kepler (1571-1630) analyzed Brahe's measurements to calculate that the pl~nets' orbits were not circular but oval in shape. The observations and experiments of these astronomers later led Englishman Isaac Newton (1642-1727) to propose the theory that the Sun and planets exert gravity on objects that orbit them.
+Later, other astronomers actually observed the orbit of planets. Danish astronomer Tycho Brahe (1546-1601) carefully measured the movements of objects in the night sky. Galileo Galilei (1564-1642), an Italian, observed the orbit of moons around Jupiter. Then the German astronomer Johannes Kepler (1571-1630) analyzed Brahe's measurements to calculate that the planets' orbits were not circular but oval in shape. The observations and experiments of these astronomers later led Englishman Isaac Newton (1642-1727) to propose the theory that the Sun and planets exert gravity on objects that orbit them.
 
 Over the centuries, scientists have used scientific theory, observation, experimentation, measurement, and calculation to advance human knowledge. Through these scientific methods, scientists have achieved a long sequence, or series, of advances-not only in astronomy, but also in chemistry, geology, physics, meteorology, and biology. Such scientific advances eventually enabled inventors to create the smart phone and other modern marvels.
 

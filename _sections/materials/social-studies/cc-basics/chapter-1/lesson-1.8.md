@@ -9,39 +9,6 @@ section: 1.8
 tag: Civics & Government
 
 excerpt: "Public Policy is made at all levels of government-local, state, and national. Public policies address concerns such as health, the environment, and the economy. voting is one way citizens can participate in making public policy."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.8
-  pages: 60 - 65
-
-objectives:
-- Define contemporary public policy
-- Identify examples of public policy
-- Describe how public policy is made
-
-skills:
-- core: Draw Conclusions
-- reading: Evaluate Reasoning
-
-vocabulary:
-- accountable
-- bias
-- contemporary
-- domestic
-- implement
-- issues
-- log
-- public policy
-
-key_concept:
-- concept: >
-    Public policy refers to the actions taken by government to address public issues.
-- example: >
-    Do you think the speed limit on a certain road should be changed? Do you wish that you paid less taxes? Do you think the government should do more to help people? Most people have opinions on these issues. If you do, then you have opinions about contemporary public policy.
 ---
 ## Contemporary Public Policy
 

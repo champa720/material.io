@@ -9,40 +9,6 @@ section: 2.2
 tag: US History
 
 excerpt: "Increased taxation without representation in government led colonists to rebel against English rule. Once the colonists won their independence, they developed a new form of government. As the country grew, settlers moved west. This expansion led to conflict in territories that belonged to other nations."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 2
-  toc_type: Lesson
-  toc_number: 2.2
-  pages: 78 - 85
-
-objectives:
-- Understand the causes and effects of the American Revolution
-- Understand how and why the Constitution was developed
-- Recognize how the new nation grew geographically and economically
-
-skills:
-- core: Identify Cause-and-Effect Relationships
-- reading: Understand Cause and Effect
-
-vocabulary:
-- annex
-- cause
-- Constitution
-- effect
-- expansion
-- federal
-- independence
-- revolution
-- sectional
-
-key_concept:
-- concept: >
-    After defeating the British, the new United States established a democratic government. As the nation grew, conflict between regions increased.
-- example: >
-    Think about a disagreement that you have had with a friend or family member. How did you resolve the disagreement? Was the other person satisfied with the resolution?<br /><br />Compromise is important in resolving disagreements. A compromise is reached when both sides find a solution that is agreeable to them. To reach a fair compromise, both sides must be flexible. When creating the new federal government, the founders compromised on several issues.
 ---
 ## The American Revolution
 
@@ -89,7 +55,8 @@ The Mexican government gave grants of land in its province of Texas to American 
 In 1845, the United States annexed, or added on, Texas as a state. This angered many Mexicans. When US troops occupied a border region claimed by Mexico, the Mexican War began. The United States won the war. It took control of an area that now makes up the states of California, Nevada, Utah, Arizona, New Mexico, Texas, and parts of Oklahoma, Kansas, Colorado, and Wyoming. The United States also acquired the Oregon Territory from England.
 
 ![The United States 1783-1853](img/1783-1853.jpg){: .responsive-img .materialboxed }
-[http://www.learner.org/](http://www.learner.org/){: target="blank" }
+
+[http://www.learner.org/](http://www.learner.org/)
 
 ### Economic Development
 

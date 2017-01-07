@@ -9,46 +9,10 @@ section: 6.1
 tag: US History
 
 excerpt: "Economies experience ups and downs. This pattern of boom and bust is called the business cycle. At the low point in the cycle, the economy may enter a recession or even a depression. During the Great Depression of the 1930s, the US government drew on the ideas of economist John Maynard Keynes to develop policies that would help the country."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 6
-  toc_type: Lesson
-  toc_number: 6.1
-  pages: 244 - 249
-
-objectives:
-- Identify the parts of the business cycle
-- Describe the Great Depression
-- Explain Keynesian economics
-
-skills:
-- core: Integrate Content Presented in Different Ways
-- reading: Infer
-
-vocabulary:
-- business cycle
-- contraction
-- depression
-- expansion
-- Great Depression
-- gross domestic product (GDP)
-- peak
-- recession
-- trough
-
-
-key_concept:
-- concept: >
-    Understanding the business cycle and government spending will help you understand your own finances.
-
-- example: >
-    Hove you had times when you were doing well financially? Hove you gone through some tough financial times? Everyone hos ups and downs. Like individuals, the US economy hos its ups and downs. Whether individuals are doing well o~en depends on whether the US economy as a whole is doing well.
 ---
 ## Gross Domestic Product
 
-The term gross domestic product (GDP) is an important part of all discussions about the economy. Gross means "total." Domestic in this context means "within the country." Pro,duct means "goods and services." Therefore, the gross domestic product is the total value of goods and services produced in a country in one year. You can think of GDP as the total output of an economy. The GDP of the United States is about $15 trillion. China, the next largest economy in the world, has a GDP that is half the size of the US GDP.
+The term gross domestic product (GDP) is an important part of all discussions about the economy. Gross means "total." Domestic in this context means "within the country." Product means "goods and services." Therefore, the gross domestic product is the total value of goods and services produced in a country in one year. You can think of GDP as the total output of an economy. The GDP of the United States is about $15 trillion. China, the next largest economy in the world, has a GDP that is half the size of the US GDP.
 
 GDP is one way that economists measure the health of an economy. Another useful measurement is GDP per capita. Per capita means "for each person." GDP per capita is simply the GDP divided by the number of people in a country. In the United States, GDP per capita is about $50,000. This means that the United States is one of the ten richest countries in the world. In very poor counties, like the African countries of Zimbabwe and Congo, the GDP per capita is less than $1,000.
 

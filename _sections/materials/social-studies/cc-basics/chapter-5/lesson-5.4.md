@@ -9,43 +9,6 @@ section: 5.4
 tag: Economics
 
 excerpt: "Money is used as a medium of exchange, as a standard of value, and as a way to store value. Today US banks insure the money deposited in their accounts. The country's central bank is the Federal Reserve."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.4
-  pages: 202 - 207
-
-objectives:
-- Identify the functions of money and types of money
-- Recognize the components of the US money supply
-- Describe the role of banks and other financial institutions in the US economy
-- Explain how the US government regulates the banking system
-
-skills:
-- core: Evaluate Evidence
-- reading: Distinguish Fact from Opinion
-
-vocabulary:
-- adequate
-- commercial bank
-- credit union
-- Federal Reserve System
-- fiat money
-- money supply
-- savings institution
-
-
-key_concept:
-- concept: >
-    Banks and other financial institutions connect people who want to save money with people who want to borrow money in a regulated US financial system.
-
-- example: >
-    At some point. you have probably borrowed money from a family member or a close friend. You likely promised to repay the money in the near future. The core of this agreement is that the lender, in this case your relative or friend, trusted you to repay the debt.
-    <br /><br />
-    Banks and other fi.rms that lend money operate in a similar way. Banks accept deposits from savers and grant loans to borrowers-usually individuals or businesses. A bank makes a loan only if it believes the borrower will repay the loan with interest.
 ---
 ## Money and Its Uses
 
@@ -58,7 +21,7 @@ Money has three main functions.
   * Money is a medium of exchange. People use and accept "money" to buy goods or repay debts.
   * Money is a standard of value. Each item offered for sale has a monetary value, or price. The price of an item tells its value compared to other items.
   * Money is a store of value. Money holds its value over time. If a society's form of money quickly lost its value, people would not accept money in payment for goods or services.
-  
+
 ##### Types of Money
 
 Today the US currency is fiat money. Fiat money is money that has value because the government says it has value. Note the words that are printed on US paper currency: "This note is legal tender for all debts public and private." This means that businesses in the United States must accept the currency in payment for goods or services.

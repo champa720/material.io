@@ -9,38 +9,6 @@ section: 1.7
 tag: Civics & Government
 
 excerpt: "At a time when nations are more interconnected, the United States has a greater role in the global society because it is the world's only superpower. This role includes expanding businesses, spreading American culture, and providing aid to foreign countries."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.7
-  pages: 54 - 59
-
-objectives:
-- Understand the opportunities and challenges facing the United States in the global society
-- Consider the impact of US culture around the world
-- Recognize that US businesses, as well as non-profit organizations, reach beyond US borders
-
-skills:
-- core: Interpret Graphics
-- reading: Make Predictions
-
-vocabulary:
-- dialogue
-- fair trade
-- foreign aid
-- global society
-- nonprofit organization
-- prediction
-- transact
-
-key_concept:
-- concept: >
-    The world is becoming more interconnected. In this new global society, the United States bears heavy responsibilities but also looks forward to important opportunities.
-- example: >
-    The Internet allows events from all over the world to be tracked and ideas to be exchanged. Satellites enable news and cell-phone conversations to be broadcast over vast distances. Trade between countries is easier than ever before due to improved storage and transportation methods and new trade agreements. This global exchange of news. goods, ideas, and services has tightened the connections between the United States and other countries. The United States is a leader in this international community.
 ---
 ## Opportunities and Challenges Global Society
 
@@ -64,7 +32,7 @@ The major federal agency involved in managing US aid programs is known as the Un
 
 ![Foreign Aid](img/usaid.jpg){: .responsive-img .materialboxed }
 
-[https://www.usaid.gov/](https://www.usaid.gov/){: target="_blank" }
+[https://www.usaid.gov/](https://www.usaid.gov/)
 
 #### Trade Agreements
 

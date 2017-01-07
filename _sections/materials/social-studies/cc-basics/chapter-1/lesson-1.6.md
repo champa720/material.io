@@ -9,37 +9,6 @@ section: 1.6
 tag: Civics & Government
 
 excerpt: "The Bill of Rights protects the rights of individuals. Originally some of these rights applied only to white males, but today they apply to all citizens, regardless of race or gender."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.6
-  pages: 48 - 53
-
-objectives:
-- Identify the general provisions of the Bill of Rights
-- Explain how civil rights expanded been to include more people
-- Understand how African Americans and women gained the right to vote
-
-skills:
-- core: Identify Cause-and-Effect Relationships
-- reading: Identify Point of View
-
-vocabulary:
-- civil liberty
-- civil right
-- disenfranchise
-- provision
-- seize
-- suffrage
-
-key_concept:
-- concept: >
-    Through Constitutional amendments, civil rights in the United States have been extended to more people.
-- example: >
-    Think about a belief you have that has changed over time. Perhaps you hod on experience that changed your point of view. Perhaps you learned something new that influenced how you felt. Events con change people's perspectives on important issues. For example, the civil rights movement changed some people's interpretations of the civil rights and civil liberties that ore guaranteed in the Constitution.
 ---
 ## The Expansion of Civil Liberties
 
@@ -47,7 +16,7 @@ Civil liberties are the freedoms that protect individuals from the government. B
 
 The Bill of Rights exists to protect citizens against abuses by the federal government. The first amendment guarantees four freedoms: freedom of religion, freedom of speech, freedom of the press, and freedom to assemble, or gather, peacefully.
 
-The first part of the amendment states that there will be" .. . no law respecting an establishment of religion." This is known as the establishment clause. A clause is a section in a legal document. This clause means that the United States does not have an official religion. The next clause is known as the free exercise clause. It says that the government cannot make laws that keep people from worshiping as they choose.
+The first part of the amendment states that there will be" ...  no law respecting an establishment of religion." This is known as the establishment clause. A clause is a section in a legal document. This clause means that the United States does not have an official religion. The next clause is known as the free exercise clause. It says that the government cannot make laws that keep people from worshiping as they choose.
 
 Freedom of speech refers not only to the spoken word but also to symbolic acts such as burning a flag or wearing a T-shirt with a slogan on it. The writers of the Constitution wanted to assure that people could criticize the government without fear of being imprisoned.
 

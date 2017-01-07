@@ -9,39 +9,6 @@ section: 6.2
 tag: US History
 
 excerpt: "After the Civil War, the United States became more industrialized. Cities grew rapidly, and the economy boomed. In addition, the country tried to expand its foreign trade and increase its influence by taking over territories outside the continental United States."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 6
-  toc_type: Lesson
-  toc_number: 6.3
-  pages: 250 - 256
-
-objectives:
-- Understand why the United States became industrialized
-- Learn about the positive and negative aspects of industrialism and imperialism
-- Understand the motives behind imperialism Skills
-
-skills:
-- core: Analyze Events and Ideas
-- reading: Understand the Main Idea
-
-vocabulary:
-- corollary
-- imperialism
-- industrialization
-- main idea
-- monopoly
-
-key_concept:
-- concept: >
-    After the Civil War, the United States rapidly became an urban, industrial society. Then it wanted to expand its power by building a colonial empire.
-
-- example: >
-    Most jobs require workers to hove certain skills. Within a company, a worker who acquires new skills may be promoted to a job with a higher salary. Once a worker hos a higher job level, that worker might hove more power within the company.
-    <br /><br />
-    Industrialization is the development of large-scale industries and moss-production techniques. After the Civil War, industrialization allowed the United States to gain economic power in the world. The United States also increased its power by acquiring more land that could be used to develop the country's economy.
 ---
 ## Changes in Society
 
@@ -79,7 +46,7 @@ By 1890, when the West was largely settled, European countries were building up 
 
 Beginning in 1895, Cuba fought a violent war against Spanish rule. The US press published newspaper articles describing the horrors of the war. Some of the articles were exaggerated, showing only the Cuban point of view. This style of one-sided reporting is called yellow journalism. It encouraged Americans to support the fight against Spain. The Cuban struggle for independence from Spain gave US imperialists the opportunity they wanted. In 1898, the United States decided to help Cuba in its fight against Spain. US troops fought a three-month war in Cuba. However, the first battle between US and Spanish forces occurred in the Philippines, another Spanish colony ·that wanted its independence. At the end of the war, Cuba became independent, but it was under US control for a number of years. The Philippines were surrendered to the United States. The Spanish colonies of Puerto Rico and Guam both became US territories.
 
-#### Hawaiian Is lands, Latin America, China, and the Caribbean
+#### Hawaiian Islands, Latin America, China, and the Caribbean
 
 In 1898, the United States took over the Hawaiian Islands. After 1900, the United States helped Panama become independent from Colombia in exchange for the right to build and control a canal across Panama. During the next few years, US troops were sent to Mexico, Nicaragua, the Dominican Republic, and Haiti. Americans believed these actions were necessary to protect US interests.
 

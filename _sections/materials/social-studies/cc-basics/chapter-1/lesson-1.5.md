@@ -9,34 +9,6 @@ section: 1.5
 tag: Civics & Government
 
 excerpt: "Through political parties are not in the Constitution, they have dominated politics since the 1800s. Interest groups try to influence political decisions, working to promote their ideas at all levels of government."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.5
-  pages: 44 - 47
-
-objectives:
-- Explain the role of political parties in US politics
-- Discuss the importance of interest groups
-
-skills:
-- core: Recognize the Cartoonist's Point of View
-- reading: Synthesize Ideas from Multiple Sources
-
-vocabulary:
-- influence
-- interest group
-- platform
-- synthesize
-
-key_concept:
-- concept: >
-    Political parties and interest groups play important roles in government at all levels.
-- example: >
-    When you watch a sports event, generally you are rooting for one of the teams. You have a point of view, and it influences the way you evaluate the referee, the other team, and even the band and the cheerleaders.<br /><br />Political parties and interest groups also have points of view in favor of ideas and policies or against them. Politicians generally identify themselves with one party. Interest groups can advocate, or promote, one particular issue, or they can support an industry or a specific group of people.
 ---
 ## Ideas and Influence in Politics
 
@@ -60,7 +32,7 @@ Many people vote for the same political party at each election. Others consider 
 
 ![Political Cartoon](img/cagle.com.jpg){: .responsive-img .materialboxed }
 
-[http://www.cagle.com/](http://www.cagle.com/){: target="_blank" }
+[http://www.cagle.com/](http://www.cagle.com/)
 
 ### Interest Groups
 

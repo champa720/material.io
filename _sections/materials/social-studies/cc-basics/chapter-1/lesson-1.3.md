@@ -8,39 +8,7 @@ chapter: 1
 section: 1.3
 tag: Civics & Government
 
-excerpt: "The US Constitution establishes three branches of government. The executive branch, led by the president, is in charge of the daily activities of government. The legislative branch which includes the House of Represenatives and the Senate, passes laws. The judicial branch, made up of the Supreme Court and other courts, interprets the laws."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.3
-  pages: 32 - 37
-
-objectives:
-- Identify the role and duties of the president
-- Compare and contrast the two houses of Congress
-- Explain how the federal judicial system functions
-
-skills:
-- core: Identify Comparisons and Contrasts
-- reading: Compare and Contrast
-
-vocabulary:
-- compare
-- contrast
-- delegate
-- function
-- imbalance
-- judicial review
-- veto
-
-key_concept:
-- concept: >
-    Each of the three branches of government has unique roles and responsibilities.
-- example: >
-    If you have ever worked on a group project. you know that each member has a role to play. Running for an office at school or in an organization requires teamwork. Someone may provide artwork for a campaign poster, while another person creates a memorable slogan. A third team member may write a campaign speech.<br /><br />In the same way, the three branches of the federal government work together toward the goal of good government. Each branch has its own work to do.
+excerpt: "The US Constitution establishes three branches of government. The executive branch, led by the president, is in charge of the daily activities of government. The legislative branch which includes the House of Representatives and the Senate, passes laws. The judicial branch, made up of the Supreme Court and other courts, interprets the laws."
 ---
 ## The Federal Government
 
@@ -50,7 +18,7 @@ This graphic shows the branches of US government.
 
 ![Three Branches of Government](img/usa_government_branches_infographic.png){: .responsive-img .materialboxed }
 
-[https://www.usa.gov/branches-of-government](https://www.usa.gov/branches-of-government){: target="_blank" }
+[https://www.usa.gov/branches-of-government](https://www.usa.gov/branches-of-government)
 
 ### The Executive Branch
 

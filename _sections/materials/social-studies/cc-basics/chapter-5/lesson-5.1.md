@@ -9,40 +9,6 @@ section: 5.1
 tag: Economics
 
 excerpt: "In any economic system, limited resources force people to make choices. People cannot have everything they want. The study of economics helps us analyze the best way to use our limited resources."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.1
-  pages: 184 - 189
-
-objectives:
-- Explain how scarcity requires people to make economic choices
-- Recognize that economic choices have costs
-- Analyze a production possibilities curve
-
-skills:
-- core: Interpret Graphics
-- reading: Recognize Supporting Details
-
-vocabulary:
-- factor of production
-- opportunity cost
-- production possibilities
-- curve
-- scarcity
-- table
-
-key_concept:
-- concept: >
-    Scarcity, which is a universal economic problem, requires individuals and societies to make choices about how to use their limited resources.
-
-- example: >
-    Suppose your best friend coiled you, hoping to meet you at the mall on Saturday afternoon. You may have already planned to run errands during that time, however. You can't do both activities at the same time. Because your time is limited, you have to choose to do one activity and not the other.
-    <br /><br />
-    The economic choices people make operate in a similar way. Resources, such as time, are limited-but there are many ways these resources con be used. Individuals, businesses, the government, and others must choose which resources will best meet their wants and needs.
 ---
 ## Scarcity and Choice
 

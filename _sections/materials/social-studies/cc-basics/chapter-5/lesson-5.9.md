@@ -9,38 +9,6 @@ section: 5.9
 tag: Economics
 
 excerpt: "Various economic tools allow individuals to manage their money. These include checking accounts, savings accounts, and credit cards."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.9
-  pages: 230 - 235
-
-objectives:
-- Describe how to use a bank
-- Recognize the importance of saving
-- Explain the concept of credit and credit scores
-
-skills:
-- core: Interpret Meaning
-- reading: Integrate Visual Information
-
-vocabulary:
-- checking account
-- credit score
-- deposit
-- financial planning
-- savings account
-- withdraw
-
-key_concept:
-- concept: >
-    Personal financial management is a vital life skill.
-
-- example: >
-    Would you like to have more money than you do? Do you worry about your financial future? These are probably the easiest questions you will ever be asked! Of course, everyone could use more money, and no one wants to worry about the future. One key to a brighter financial future is furthering your education. Another is learning about personal finance.
 ---
 ## Personal Finance
 

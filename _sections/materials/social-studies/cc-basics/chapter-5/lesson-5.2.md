@@ -9,40 +9,6 @@ section: 5.2
 tag: Economics
 
 excerpt: "A market is anywhere a buyer and a seller freely choose to exchange one thing for another. The laws of supply and demand help companies figure out how many goods to make and how much to charge for them."
-  
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.2
-  pages: 190 - 195
-
-objectives:
-- Explain demand and understand a demand curve
-- Explain supply and understand a supply curve
-- Analyze a market equilibrium graph for a product
-
-skills:
-- core: Make Inferences
-- reading: Understand the Implied Main Idea
-
-vocabulary:
-- demand
-- implied main idea
-- market
-- market equilibrium
-- money
-- supply
-
-key_concept:
-- concept: >
-    The forces of demand and supply create market prices for most products and resources in the US economy.
-
-- example: >
-    Have you ever used a store coupon or manufacturer's coupon to buy groceries, clothing, or a pizza? Coupons might offer you "$5 off" the price of on item or the chance to "buy 7 and get 7 free." Because coupons make items less expensive, they send buyers on invisible signal to purchase more of the item.
-    <br /><br />
-    The functioning of markets in the US economy is based on invisible signals, many of which offer people incentives to buy or to produce certain goods. Price is perhaps the most important signal that influences people's economic behaviors.
 ---
 ## Markets
 
@@ -58,7 +24,7 @@ Demand is the amount of a product people are willing and able to buy at a specif
 
 #### Demand Schedule and Demand Curve
 
-Economists illustrate the law of demand in two ways: a demand schedule and a demand curve. A demand schedule is a table that shows how price impacts the quantity of a product that is demanded. The demand schedule for pizza slices is shown on page 192. As the price of a pizza slice increases, the quantity dem~nded falls.
+Economists illustrate the law of demand in two ways: a demand schedule and a demand curve. A demand schedule is a table that shows how price impacts the quantity of a product that is demanded. The demand schedule for pizza slices is shown on page 192. As the price of a pizza slice increases, the quantity demanded falls.
 
 A demand curve plots the numbers from the demand schedule onto a graph. The graph consists of two axes: the price axis (vertical) and the quantity-demanded axis (horizontal). The points show the number of slices people will buy at each price. For example, point E shows that people will buy 100 slices of pizza at $1 per slice. On the other hand, at point A (where pizza costs $5 per slice), people will only buy 20 slices.
 

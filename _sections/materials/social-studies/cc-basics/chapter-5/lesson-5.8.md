@@ -9,40 +9,6 @@ section: 5.8
 tag: Economics
 
 excerpt: "The federal government plays two important roles in the US economy. First, it makes decisions about collecting and spending money (fiscal policy). Second, through the Federal Reserve System, it controls the money supply and interest rates (monetary policy)."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.8
-  pages: 224 - 229
-
-objectives:
-- Define fiscal policy
-- Define monetary policy
-- Explain how fiscal and monetary policies help manage the economy
-
-skills:
-- core: Conduct Research Projects
-- reading: Interpret Graphics
-
-vocabulary:
-- circulation
-- expenditures
-- fiscal policy
-- inflation
-- interest rate
-- monetary policy
-- national debt
-- revenue
-
-key_concept:
-- concept: >
-    The federal government uses fiscal policies and monetary policies to manage the economy.
-
-- example: >
-    Whether you watch the news on television or read the news online, you hove heard about government spending, taxes, and the economy. How the federal government responds to the US economy directly affects your job and your paycheck. It pays for you to understand economic policy.
 ---
 ## Federal Revenue and Expenditures
 
@@ -78,7 +44,7 @@ Having too little money in circulation can slow economic activity. However, too 
 
 Just as the federal government controls the money supply to manage the economy, it also adjusts interest rates for the same purpose. The interest rate is the payment that a lender charges when someone borrows money. Interest rates are calculated as a percentage. For example, if you borrow $100 at a 5 percent interest rate, you would have to pay back $105 after one year.
 
-To manage the economy, the federal government sometimes varies interest rates. If the economy is weak, the government may lower interest rates. This makes it easier for individuals and businesses to get-l:o-c1ns to start or expand businesses and purchase goods. If the economy is growing too rapidly, the government may increase interest rates in order to slow economic activity and fight inflation.
+To manage the economy, the federal government sometimes varies interest rates. If the economy is weak, the government may lower interest rates. This makes it easier for individuals and businesses to get locations to start or expand businesses and purchase goods. If the economy is growing too rapidly, the government may increase interest rates in order to slow economic activity and fight inflation.
 
 ## The Federal Reserve System
 

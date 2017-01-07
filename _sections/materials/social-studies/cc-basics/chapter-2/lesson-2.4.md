@@ -9,37 +9,6 @@ section: 2.4
 tag: US History
 
 excerpt: "Progressive politics challenged the influence of large monopolies in the late 1800s and early 1900s. The United States became a major world power after it joined the Allies in World War I and helped them to victory. The Great Depression in the 1930s began with the stock market crash of 1929. Many workers lost their jobs. As a result, people lost their homes, farms, and other property."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 2
-  toc_type: Lesson
-  toc_number: 2.4
-  pages: 94 - 101
-
-objectives:
-- Understand the economic and social issues of the Progressive Era
-- Evaluate the impact of World War I on the United States
-- Identify the results of FDR's New Deal
-
-skills:
-- core: Interpret Political Cartoons
-- reading: Interpret Graphics
-
-vocabulary:
-- identify
-- irony
-- muckrakers
-- progressive
-- reforms
-- social
-
-key_concept:
-- concept: >
-    Industrialization, a world war, and a bust-andboom economy led to major social and economic changes in the first half of the twentieth century.
-- example: >
-    In the first decade of the twenty-first century, major advances in technology changed the work place. The United States was involved in foreign wars, and a real estate boom fueled social and economic changes. In the first four decades of the twentieth century, the notion dealt with similar issues.
 ---
 ## The Progressive Era 1900-1917
 
@@ -85,7 +54,7 @@ Chain stores and department stores replaced small shops. Industrial production r
 
 ![Women out in force](img/1920_election_day.jpg){: .responsive-img .materialboxed}
 
-[http://www.loc.gov/pictures/item/2002695608/](http://www.loc.gov/pictures/item/2002695608/){: target="_blank"}
+[http://www.loc.gov/pictures/item/2002695608/](http://www.loc.gov/pictures/item/2002695608/)
 
 African-American workers continued to migrate from the South to work in factories in the North. They could earn higher wages in the North. The neighborhood of Harlem in New York City became home to thousands of African-Americans. This new community gave rise to the Harlem Renaissance, a period of great artistic and cultural achievement. Harlem Renaissance poets, writers, and jazz and swing musicians and singers became world-famous.
 

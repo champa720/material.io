@@ -9,39 +9,6 @@ section: 2.3
 tag: US History
 
 excerpt: "Tension between slave states and free states led seven states to break away from the Union and form the Confederate States of America. The Civil War was fought to keep the United States whole. Eventually the war resulted in the end of slavery. After the war, the Reconstruction effort tried to rebuild what had been destroyed."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 2
-  toc_type: Lesson
-  toc_number: 2.3
-  pages: 86 - 93
-
-objectives:
-- Identify the events and issues that led to the Civil War
-- Understand the advantages and disadvantages of the North and the South during the Civil War
-- Recognize how Reconstruction affected the South and the lives of newly freed African Americans
-
-skills:
-- core: Recognize Persuasive Language
-- reading: Analyze Point of View
-
-vocabulary:
-- abolitionist
-- context
-- point of view
-- poll tax
-- Reconstruction
-- secede
-- surrender
-- territory
-
-key_concept:
-- concept: >
-    The Civil War began as an attempt to preserve the Union, but it ended with the abolition of slavery in the United States.
-- example: >
-    Hove you ever felt that you hove been discriminated against or treated unfairly? Despite many lows that have been passed since the nation was founded, many minority groups continue to fight for equal rights and to protest unfair treatment. The Civil War ended slavery, but it did not end discrimination or sectional differences.
 ---
 ## The Problem of Slavery
 

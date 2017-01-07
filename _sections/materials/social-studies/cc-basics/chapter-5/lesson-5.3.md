@@ -9,41 +9,6 @@ section: 5.3
 tag: Economics
 
 excerpt: "Until the 1930s, government had little role in the economy. This changed during the Great Depression when the government provided jobs for millions of unemployed workers and developed the Social Security system. Taxation pays for government programs."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.3
-  pages: 196 - 201
-
-objectives:
-- Describe how the role of government in the economy has expanded over time
-- Explain the roles of government in the economy
-- Understand how tax revenues pay for government programs
-
-skills:
-- core: Evaluate Reasoning
-- reading: Analyze Information
-
-vocabulary:
-- analyze
-- faulty logic
-- limited government
-- public goods
-- recession
-- tax
-- transfer payment
-
-key_concept:
-- concept: >
-    The role of government in the US economy has increased dramatically during the past century.
-
-- example: >
-    The family is the most basic social unit. In families, parents or guardians use household income to provide for the family's needs. These heads of household also create household rules to protect the health and safety of the family.
-    <br /><br />
-    Similarly, the government at all levels-local, state, and federal provides for society's needs. Government programs are financed by taxing the people. Government also creates rules and regulations to guide the economic behavior of individuals and firms and to protect the overall health of the economy.
 ---
 ## Government's Role in the Economy
 
@@ -84,7 +49,7 @@ One of the most important features of the US economic system is limited governme
 
 The government creates laws that govern businesses. For instance, laws prohibit monopolies from forming. This is to promote competition, which should provide consumers with more options and better prices.
 
-In addition, over time the government has created numerous federal agencies to guide business behavior. The Federal Trade Commission (FTC) protects people from dishonest or misleading advertising. The Consumer Product Safety Commission (CPSC) protects consumers from dangerous products. The Securities and Exchange Commission (SEC) protects investors from investment fraud. The Occupational Safety and Health Administration (OSHA) protects workers from uns,a fe working conditions.
+In addition, over time the government has created numerous federal agencies to guide business behavior. The Federal Trade Commission (FTC) protects people from dishonest or misleading advertising. The Consumer Product Safety Commission (CPSC) protects consumers from dangerous products. The Securities and Exchange Commission (SEC) protects investors from investment fraud. The Occupational Safety and Health Administration (OSHA) protects workers from unsafe working conditions.
 
 #### Providing Public Goods
 
@@ -106,7 +71,7 @@ The government stabilizes the economy by trying to ease economic. downturns and 
 
 Fiscal policy is the use of taxation and government spending to deal with economic problems. During times of recession, when business activity is slow, Congress and the president might decrease taxes and increase government spending. More money circulating in the economy creates more demand for goods, more production, and more jobs. To fight inflation (a general rise in prices), the government might increase taxes and decrease government spending.
 
-Monetary policy is under the control of the Federal Reserve System (the Fed), the central bank of the United States. The Fed's most imp.ortant monetary tool is open-market operations. Open-market operations occur when the Fed buys or sells government securities, such as bonds. To fight recession, the Fed buys back its securities from investors. This adds cash to the economy so business activity will increase. To fight inflation, the Fed sells additional securities to investors. This removes excess cash from the system and slows the rise of prices.
+Monetary policy is under the control of the Federal Reserve System (the Fed), the central bank of the United States. The Fed's most important monetary tool is open-market operations. Open-market operations occur when the Fed buys or sells government securities, such as bonds. To fight recession, the Fed buys back its securities from investors. This adds cash to the economy so business activity will increase. To fight inflation, the Fed sells additional securities to investors. This removes excess cash from the system and slows the rise of prices.
 
 ### Taxation: Paying for Government Programs
 

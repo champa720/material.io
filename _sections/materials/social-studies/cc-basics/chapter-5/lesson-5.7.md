@@ -9,40 +9,6 @@ section: 5.7
 tag: Economics
 
 excerpt: "For a company to be productive, it must operate efficiently. Its profits are influenced by the cost of its supplies and by the price customers are willing to pay. This interdependence has increased due to technologies like computers and the Internet."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.7
-  pages: 218 - 223
-
-objectives:
-- Define productivity as an economic concept
-- Explain economic interdependence
-- Describe the relationship between productivity and interdependence
-
-skills:
-- core: Interpret Meaning
-- reading: Interpret Words and Phrases in Text
-
-vocabulary:
-- division of labor
-- efficiently
-- input
-- interdependence
-- interpret
-- output
-- productivity
-- specialization
-
-key_concept:
-- concept: >
-    Productivity and interdependence are fundamental economic concepts. Both productivity and interdependence have a direct effect on the US economy and on the economies of countries around the world.
-
-- example: >
-    Have you ever hod a day when you felt good because you got so much done? Perhaps you mailed a package to your brother, got your lawnmower repaired, bought groceries, and cleaned up the garage. To get some of these tasks done, you were dependent on the help of others.
 ---
 ## Production and Products
 

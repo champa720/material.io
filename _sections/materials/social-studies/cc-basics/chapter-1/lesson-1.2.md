@@ -9,36 +9,6 @@ section: 1.2
 tag: Civics & Government
 
 excerpt: "The Constitution outlines the responsibilities and structure of the government. It also describes the rights of citizens. The Constitution can be changed, but changes have been made only a few times in more than two hundred years."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.2
-  pages: 26 - 31
-
-objectives:
-- Identify the factors that led to the Constitutional Convention
-- Describe some of the compromises in theConstitution
-- Summarize the process of amending the Constitution
-
-skills:
-- core: Read a Bar Graph
-- reading: Paraphrase Information
-
-vocabulary:
-- category
-- checks and balances
-- guarantee
-- paraphrase
-- separation of powers
-
-key_concept:
-- concept: >
-    Changes and compromises were needed to create and pass the US Constitution.
-- example: >
-    Computers have operating systems that tell them how to work. Programmers update the operating systems as they make improvements and see features that need to be changed. In a similar way, governments rely on operating systems. The United States tried one system that had several bugs in it. Then legislators made changes to the documents that defined the government. In this way, the system became more effective.
 ---
 ## The US Constitution
 
@@ -83,7 +53,7 @@ At the first session of Congress in 1789, popular pressure forced the Constituti
   * the right to have an attorney
   * protection against excessive bail or cruel or unusual punishment
   * separation of church and state
-  
+
 Congress submitted this guarantee, or assurance, of rights to the states. All ten amendments were approved by 1791. Since the Bill of Rights, seventeen more amendments have been added. Each amendment has been passed to solve a problem. Only one amendment has been repealed, or withdrawn. The Eighteenth Amendment (1919) prohibited the drinking and sale of alcohol. It was repealed by the Twenty-First Amendment (1933).
 
 The procedure for changing the Constitution is complicated. Amendments must be proposed by a two-thirds majority vote of both houses of Congress or by two-thirds of the state legislatures. Amendments must be approved by three-fourths of the states. Because of this complex procedure, many proposed amendments have never been ratified. For instance, the Equal Rights Amendment passed Congress in 1972. However, it was not adopted because it fell short of the 38 states required for ratification.

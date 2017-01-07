@@ -9,38 +9,6 @@ section: 5.5
 tag: Economics
 
 excerpt: "In a monopoly, one seller controls the market for a particular good or service. When there are many sellers providing similar goods or services, there is competition. Competition often leads to innovation."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.5
-  pages: 208 - 213
-
-objectives:
-- Compare the features of monopoly and competition
-- Understand how demand affects the price of goods and services
-
-skills:
-- core: Interpret the Meaning of Words and Phrases
-- reading: Determine Central Idea
-
-vocabulary:
-- barrier to entry
-- competition
-- demand
-- innovation
-- market structure
-- monopoly
-- multiple-meaning word
-
-key_concept:
-- concept: >
-    When only one seller offers a product, the seller determines the price and the level of service. When two or more sellers provide the same product to the same group of customers, the sellers must take customers' wants and needs into account.
-
-- example: >
-    Suppose there's one laundromat in your neighborhood. Although its machines don't always work, it is the only place nearby to do your wash. A second laundromat with brand-new machines opens. The first laundromat soon offers free soap. What's behind this "laundry war"? To attract the some group of customers, each laundromat must show why it is the better choice. Customers benefit from the improved service.
 ---
 ## Monopolies and Competition
 

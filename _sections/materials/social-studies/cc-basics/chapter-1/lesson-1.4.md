@@ -9,37 +9,6 @@ section: 1.4
 tag: Civics & Government
 
 excerpt: "The Constitution names the powers given to the federal government. Other responsibilities belong to the state or local governments. Some powers, such as taxation, belong to all levels of government."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 1
-  toc_type: Lesson
-  toc_number: 1.4
-  pages: 38 - 43
-
-objectives:
-- Explain the ways in which national and state governments are alike and different
-- Identify the different levels and forms of local government
-- Distinguish between the various forms of city government
-
-skills:
-- core: Judge the Relevance of Information
-- reading: Identify Facts and Details
-
-vocabulary:
-- contradict
-- direct initiative
-- recall
-- referendum
-- relevant information
-- reserved
-
-key_concept:
-- concept: >
-    State and local governments have powers and duties not granted to the federal government.
-- example: >
-    At work, each employee has specific duties. One person may run the cash register. while another stocks shelves. Sometimes duties overlap, so people are cross-trained to work in more than one department.<br /><br />In the same way, national. state, or local governments have different duties, and sometimes their responsibilities overlap.
 ---
 ## Who Has Power?
 

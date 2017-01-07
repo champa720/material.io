@@ -9,38 +9,6 @@ section: 5.6
 tag: Economics
 
 excerpt: "To make a profit, a company must consider the factors of production (land, labor, and capital). It must also be concerned about incentive and morale."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 5
-  toc_type: Lesson
-  toc_number: 5.6
-  pages: 214 - 217
-
-objectives:
-- Understand the factors influencing profit
-- Explain the role of incentive in profit
-
-skills:
-- core: Interpret Meaning
-- reading: Determine the Central Idea
-
-vocabulary:
-- capital
-- incentive
-- interpret
-- morale
-- productivity
-- profit
-- text structure
-
-key_concept:
-- concept: >
-    The possibility of increased profits encourages business owners to take risks, to expand, and to try various strategies that will increase productivity.
-
-- example: >
-    In the last two months, Mike's cab business has not turned a profit. He had a costly car repair. Road construction has created detours around the business district where he picks up most of his fares. Even with the risks, Mike enjoys being in business for himself To increase profits, Mike decides to broaden his operations. He begins to advertise that he will deliver packages and do small moving jobs.
 ---
 ## Making a Profit
 

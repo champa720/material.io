@@ -9,38 +9,6 @@ section: 2.1
 tag: US History
 
 excerpt: "Two documents written long ago in England-the Magna Carta (1215) and the English Bill of Rights (1689)- protected the people from the abuse of the king. These documents and others, such as the Mayflower Compact, provided models for the Declaration of Independence and the Articles of Confederation."
-
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 2
-  toc_type: Lesson
-  toc_number: 2.1
-  pages: 74 - 77
-
-objectives:
-- Identify the documents that shaped US democratic traditions
-- Explain the idea of social contract 
-- Summarize the provisions of the Articles of Confederation
-
-skills:
-- core: Analyze Events and Ideas
-- reading: Summarize Ideas
-
-vocabulary:
-- assembly
-- charter
-- declaration
-- legislature
-- peer
-- representative government
-- summarize
-
-key_concept:
-- concept: >
-    The government of the United States is built on a foundation of English laws and government. 
-- example: >
-    You may have heard the expression "Let's not re-invent the wheel." The idea behind this saying is that we should not waste time duplicating what others have done. The wheel was invented long ago; today the question is how can we improve the wheel. For example, tires continue to be made with stronger materials and safer designs. In the some way, when people form the government of a new notion, they often look to previous examples to see what hos worked well.
 ---
 ## Influential Documents
 
