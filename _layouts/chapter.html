@@ -2,7 +2,7 @@
 javascript: true
 layout: default
 ---
-<section id="header-chapter" class="row">
+<section id="{{ page.layout }}" class="row {{ page.category | slugify }}">
   <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
     <a href="#" class="breadcrumb">One</a>
@@ -16,18 +16,18 @@ layout: default
           <div class="card-content flow-text">
             <span class="card-title">{{ page.slug | upcase | replace: "-", " " }}</span>
             <h2>{{ page.title }}</h2>
-            {{ content }}           
+            {{ content }}
           </div>
           <footer class="card-action grey lighten-3">
             <a href="#!">Card footer link</a>
-          </footer>            
+          </footer>
         </div>
       </div>
     </div>
-  </article>    
+  </article>
 
   <aside class="col s12 m4 l3 offset-m8 offset-l8">
-    <h5 class="white-text">Contents</h5>
+    <h4 class="white-text">Contents</h4>
     <ul class="table-of-contents truncate">
 
       <!-- creates loop for chapter_contents by subject > category -->
@@ -47,15 +47,26 @@ layout: default
 
 <!-- creates loop for subject_menu by subject > category -->
 {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
+<!-- creates loop for hse_menu by subject > category -->
+{% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" %}
+
 
 <aside class="section">
   <div class="row">
     <div class="col s12 m4 l3 offset-m8 offset-l8">
-      <h5 class="grey-text text-darken-3">Related Content</h5>
+      <h4 class="grey-text text-darken-1">About HSE</h4>
+        <div class="collection">
+
+          {% for hse in hse_menu %}
+          <a href="{{ hse.url }}" class="collection-item{% if page.url contains hse.url %} active{% endif %}"><i class="material-icons left">{{ hse.icon }}</i>{{ hse.title }}</a>
+          {% endfor %}
+
+      </div>
+      <h4 class="grey-text text-darken-1">Subject Resources</h4>
       <div class="collection">
 
-        {% for a in subject_menu %}
-        <a href="{{ a.url }}" class="collection-item{% if a.url == page.url %} active{% endif %}"><i class="material-icons left">{{ a.icon }}</i>{{ a.title }}</a>
+        {% for subject in subject_menu %}
+        <a href="{{ subject.url }}" class="collection-item{% if page.url contains subject.url %} active{% endif %}"><i class="material-icons left">{{ subject.icon }}</i>{{ subject.title }}</a>
         {% endfor %}
 
       </div>

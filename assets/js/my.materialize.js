@@ -29,7 +29,7 @@
     // });
     // Media
     // Models
-    // $('.modal-trigger').modal();
+    $('.modal').modal();
     // Parallax
     // $('.parallax').parallax();
     // Pushpin

@@ -6,16 +6,16 @@ layout: default
 <!-- creates loop for subject_menu by subject > category -->
 {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
 
-<nav id="header-index" class="nav-extended">
+<nav id="{{ page.layout }}" class="nav-extended">
   <div class="nav-wrapper">
     <h1>{{ page.title }}</h1>
     <ul class="right hide-on-small-only">
 
-      {% for page_index in subject_menu %}
-      <li><a href="{{ page_index.url }}"><i class="material-icons">{{ page_index.icon }}</i></a></li>
+      {% for subject in subject_menu %}
+      <li class="{% if subject.url == page.url %}active{% endif %}"><a href="{{ subject.url }}"><i class="material-icons">{{ subject.icon }}</i></a></li>
       {% endfor %}
 
-    </ul>    
+    </ul>
     <ul class="tabs tabs-transparent">
       <li class="tab"><a href="#classroom">Classroom</a></li>
       <li class="tab"><a href="#ged">GED</a></li>
@@ -31,21 +31,21 @@ layout: default
 {% assign subject_pages = site.pages | where_exp: "item", "item.subject == page.subject" %}
 {% assign subject_index = subject_pages | where_exp: "item", "item.category != 'index'" %}
 
-<!-- creates loop for subject_index by subject > category -->
+<!-- creates loop for subject_data by subject -->
 {% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == page.subject" %}
 
 <section id="classroom" class="container">
-  
+
   {% for data in subject_data %}
   <article class="section">
-    <h5 class="grey-text text-darken-1">Online Practice</h5>
+    <h4 class="grey-text text-darken-1">Online Practice</h4>
     <div class="collection z-depth-1">
 
       {% for cbt in data.cbt %}
       <a href="{{ cbt.url }}" class="collection-item avatar" target="_blank">
         <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="" class="circle">
         <p class="title">{{ cbt.category }}</p>
-        <p class="flow-text truncate">{{ cbt.excerpt }}</p>
+        <p class="truncate">{{ cbt.excerpt }}</p>
         {% if cbt.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
       </a>
       {% endfor %}
@@ -53,38 +53,70 @@ layout: default
     </div>
   </article>
   {% endfor %}
-  
-  <article class="section">
-    <h5 class="grey-text text-darken-1">Library</h5>
 
-    {% for page_index in subject_index %}
+  {% if page.library %}
+  <article class="section">
+    <h4 class="grey-text text-darken-1">Library</h4>
+
+    {% for content in page.library %}
     <div class="card horizontal small">
       <div class="card-image">
-        <img src="/assets/img/thumbnails/{{ page_index.cover_image }}">
+        <img src="/assets/img/thumbnails/{{ content.cover_image }}">
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <span class="card-title">{{ page_index.category }}</span>
-          <p class="flow-text">{{ page_index.excerpt | strip_html | normalize_whitespace }}</p>
+          <span class="card-title">{{ content.category }}</span>
+          {{ content.excerpt | markdownify }}
         </div>
         <div class="card-action grey lighten-3">
-          <a href="{{ page_index.url }}">{{ page_index.url }}</a>
+          <a href="#{{ content.category | slugify }}" class="modal-trigger">Available Readings</a>
         </div>
+      </div>
+    </div>
+
+    <!-- creates loop for chapter_contents by subject > category > group_by tag -->
+    {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
+    {% assign subject_chapters = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+    {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == content.category" | group_by: "tag" | sort: "section" %}
+
+
+    <div id="{{ content.category | slugify }}" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h5>{{ content.category }}</h5>
+
+          {% for tag in subject_category %}
+          <div class="section">
+          <h6>{{ tag.name }}</h6>
+            <div class="collection">
+
+              {% for chapter_contents in tag.items %}
+              <a href="{{ chapter_contents.url }}" class="collection-item waves-effect waves-dark truncate">{{ chapter_contents.title }}</a>
+              {% endfor %}
+
+            </div>
+          </div>
+          {% endfor %}
+
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
       </div>
     </div>
     {% endfor %}
 
   </article>
+  {% endif %}
+
 </section>
 
 <section id="ged" class="container">
-  {% include ged_hiset_tasc_data.html data="ged" title="GED" %}  
+  {% include ged_hiset_tasc_data.html data="ged" title="GED" %}
 </section>
 
 <section id="hiset" class="container">
-  {% include ged_hiset_tasc_data.html data="hiset" title="HiSET" %} 
+  {% include ged_hiset_tasc_data.html data="hiset" title="HiSET" %}
 </section>
 
 <section id="tasc" class="container">
-  {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %} 
+  {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %}
 </section>
