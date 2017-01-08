@@ -2,7 +2,7 @@
 title: Imagery
 
 subject: Reading
-category: 2002
+category:  Multiple Sources
 chapter: 2
 section: 2.0
 tag: Literary

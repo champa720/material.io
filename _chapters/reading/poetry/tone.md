@@ -2,14 +2,14 @@
 title: Tone
 
 subject: Reading
-category: 2002
+category: Multiple Sources
 chapter: 1
 section: 1.0
 tag: Literary
 ---
 Activities and Procedures:
 
- 1. **Anticipatory Set:** You have probably heard the expression Tone of Voice. lf you tell a friend "I don't like your tone of voice," you are annoyed by the person's manner of speaking. You are reacting to the sound of the spoken word.
+ 1. **Anticipatory Set:** You have probably heard the expression Tone of Voice. If you tell a friend "I don't like your tone of voice," you are annoyed by the person's manner of speaking. You are reacting to the sound of the spoken word.
 
     In your daily conversations, you make inferences about people's attitudes based on their speech - what they say and how they say it.
 
@@ -28,7 +28,7 @@ Activities and Procedures:
     * What subject is the author discussing?
     * What is my overall reaction after reading the passage?
     * How does the author feel about the subject?
-    * What language or descripti ve details reveal the author's att itude?
+    * What language or descriptive details reveal the author's attitude?
 
     **Discussion:**
 
