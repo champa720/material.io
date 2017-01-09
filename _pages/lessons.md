@@ -2,7 +2,7 @@
 layout: index
 title: Lessons
 
-subject: Lessons
+subject: HSE
 category: Lessons
 chapter: 0
 section: 0.0
