@@ -14,7 +14,7 @@
     <!-- creates loop for subject_menu by subject > category -->
     {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
     <!-- creates loop for hse_menu by subject -->
-    {% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" %}
+    {% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" | sort: "chapter" %}
 
     {% unless page.layout == "chapter" %}
     <footer class="page-footer">
@@ -25,7 +25,7 @@
               <div class="collection">
 
                 {% for hse in hse_menu %}
-                <a href="{{ hse.url }}" class="collection-item truncate waves-effect{% if hse.url == page.url %} active{% endif %}"><i class="material-icons left">{{ hse.icon }}</i>{{ hse.title }}</a>
+                <a href="{{ hse.url }}" class="collection-item truncate waves-effect{% if hse.url == page.url %} active{% endif %}"><i class="material-icons left">subject</i>{{ hse.title }}</a>
                 {% endfor %}
 
             </div>
