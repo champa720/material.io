@@ -1,3 +1,5 @@
+{% comment %}
+
 <ol itemscope itemtype="http://schema.org/BreadcrumbList">
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
@@ -26,3 +28,59 @@
     <meta itemprop="position" content="3" />
   </li>
 </ol>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "https://example.com/books",
+      "name": "Books",
+      "image": "http://example.com/images/icon-book.png"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "https://example.com/books/authors",
+      "name": "Authors",
+      "image": "http://example.com/images/icon-author.png"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+      "@id": "https://example.com/books/authors/annleckie",
+      "name": "Ann Leckie",
+      "image": "http://example.com/images/author-leckie-ann.png"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+      "@id": "https://example.com/books/authors/ancillaryjustice",
+      "name": "Ancillary Justice",
+      "image": "http://example.com/images/cover-ancillary-justice.png"
+    }
+  }]
+}
+
+</script>
+
+<!-- breadcrumbs based on url -->
+{% assign crumbs = page.url | split: '/' %}
+
+{% for crumb in crumbs limit: 3 %}
+{% if forloop.index == 1 %}
+<a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ "Home" }}</a>
+{% elsif forloop.index == 2 %}
+<a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.subject }}</a>
+{% else %}
+<a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.category }}</a>
+{% endif %}
+{% endfor %}
+
+{% endcomment %}
