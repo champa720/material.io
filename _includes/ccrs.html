@@ -1,21 +1,5 @@
-{% for standard in site.data.ccrs[include.subject] %} {% if include.subject == "mathematics" %}
-<div id="{{ standard.title | slugify }}" class="modal modal-fixed-footer">
-  <div class="modal-content flow-text casper">
-    <h4>{{ standard.title }}</h4>
-    <ul>
+{% for standard in site.data.ccrs[include.subject] %}
 
-      {% for description in standard.description %}
-      <li>{{ description }}</li>
-      {% endfor %}
-
-    </ul>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-  </div>
-</div>
-
-{% else %}
 <div id="{{ standard.title | slugify }}" class="modal modal-fixed-footer">
   <div class="modal-content">
     <h4>{{ standard.title }}</h4>
@@ -44,4 +28,4 @@
   </div>
 </div>
 
-{% endif %} {% endfor %}
+{% endfor %}
