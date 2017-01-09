@@ -3,8 +3,8 @@ title: GED® Test Overview
 
 subject: HSE
 category: High School Equivalency
-chapter: 2
-section: 2.0
+chapter: 3
+section: 3.0
 tag: GED
 
 source: https://www.cde.state.co.us/postsecondary/hse
@@ -24,16 +24,16 @@ The GED is administered only on a computer, at approved testing centers. It cons
 ###  Minimum Passing Score:
 
   * 145 (out of 200) in each content area
-  
+
 ### Cost:
 
   * $37.50 per content area test
   * total of $150 for the complete exam
-  
+
 ### Test Outcomes:
 
 **2014 - 2015 Colorado Pass Rate:** 88 percent
-  
+
 **National Pass Rate:** 77 percent
 
 **Individual Content Area Colorado Pass Rates:**

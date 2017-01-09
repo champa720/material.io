@@ -4,8 +4,8 @@ author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency
-chapter: 4
-section: 4.1
+chapter: 5
+section: 5.1
 tag: TASC
 
 source: http://www.tasctest.com/about-tasc-test-for-test-takers.html
@@ -27,7 +27,7 @@ TASC test covers five subject areas:
   * [Mathematics](mathematics.html)
   * [Science](science.html)
   * [Social Studies](social-studies.html)
- 
+
 Each area is a subtest and they all need to be passed in order to pass TASC test. Passing TASC test means you will need to show a level of knowledge and skill that meets or surpasses approximately 60 percent of graduating high school seniors. That means passing TASC test puts you in the same league as 40 percent of the graduating high school seniors, and that is something to be proud of.
 
 TASC test also measures your readiness for college and the 21st century workforce, in which new skills such as computer literacy, science, and mathematics are more important than ever.

@@ -1,11 +1,11 @@
----
+4---
 title: Mathematics
 author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 3
-section: 3.4
+chapter: 4
+section: 4.4
 tag: HiSET
 
 source: http://hiset.ets.org/about/content/

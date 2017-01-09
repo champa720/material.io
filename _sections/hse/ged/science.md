@@ -4,8 +4,8 @@ author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 2
-section: 2.4
+chapter: 3
+section: 3.4
 tag: GED
 
 source: http://www.gedtestingservice.com/educators/2014test
@@ -14,13 +14,13 @@ source: http://www.gedtestingservice.com/testers/sciencelink
   * Time: 90 minutes long and is one single section
   * Format:
     - 34 questions
-    - There are two Short Answer questions included on the test, but they are not timed separately 
+    - There are two Short Answer questions included on the test, but they are not timed separately
 
 ## Overview
 
 The GED® Science Test focuses on the fundamentals of science reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Science Test is aligned to one science practice and one content topic.
 
-The science practices can be described as skills that are key to scientific reasoning in both textual and quantitative contexts. The science practices are derived from important skills enumerated in the Career and College Ready Standards as well as in The National Research Council’s Framework for K-12 Science Education. 
+The science practices can be described as skills that are key to scientific reasoning in both textual and quantitative contexts. The science practices are derived from important skills enumerated in the Career and College Ready Standards as well as in The National Research Council’s Framework for K-12 Science Education.
 
 The Science Test also focuses on three major content domains:
 
@@ -28,7 +28,7 @@ The Science Test also focuses on three major content domains:
   1.  Physical science
   1.  Earth and space science
 
-The science content topics, which are drawn from these three domains, provide context for measuring a test-taker’s abilities to apply the reasoning skills described in the practices. The content topics focus on science that reflects both that which is taught in many high school-level science courses and that which is most relevant and useful for an adult population. To measure this content at a range of levels of complexity, several different item types are used in the test, including multiple choice, short answer, drag-and-drop, hot spot, and fill-in-the-blank. 
+The science content topics, which are drawn from these three domains, provide context for measuring a test-taker’s abilities to apply the reasoning skills described in the practices. The content topics focus on science that reflects both that which is taught in many high school-level science courses and that which is most relevant and useful for an adult population. To measure this content at a range of levels of complexity, several different item types are used in the test, including multiple choice, short answer, drag-and-drop, hot spot, and fill-in-the-blank.
 
 Given these priorities, the GED® Science Test adheres to the following parameters:
 

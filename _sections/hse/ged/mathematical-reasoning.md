@@ -4,8 +4,8 @@ author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 2
-section: 2.2
+chapter: 3
+section: 3.2
 tag: GED
 
 source: http://www.gedtestingservice.com/educators/2014test
@@ -35,7 +35,7 @@ Given these priorities, the GED® Mathematical Reasoning Test adheres to the fol
   * Approximately 30 percent of the items are aligned to a Mathematical Practice standard in addition to a content indicator.
   * The statistics and data interpretation standards are also measured in the GED® Social Studies and Science Tests.
   * Candidates are provided with an on-screen calculator, the Texas Instruments TI-30XS Multiview scientific calculator, for use on most of the items on the 2014 GED® Mathematics Test. [They are also given a calculator and reference sheet](http://www.gedtestingservice.com/uploads/files/e4ef18cbb577b185107bb4847c193573.pdf).
-  
+
 **As of Friday, February 21, 2014, the standard time allowance on the GED® test - Mathematical Reasoning was increased by 25 minutes.**
 
   * The time allowance for GED Ready&trade; - Mathematical Reasoning was also increased by 13 minutes.

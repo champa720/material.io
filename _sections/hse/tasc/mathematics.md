@@ -4,8 +4,8 @@ author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency
-chapter: 4
-section: 4.2
+chapter: 5
+section: 5.2
 tag: TASC
 
 source: http://www.tasctest.com/mathematics-for-test-takers.html
@@ -28,12 +28,12 @@ At Data Recognition Corporation | CTB, we have organized the TASC Test Assessing
 Start studying for your high school equivalency by familiarizing yourself with these high emphasis areas. Once you’ve mastered these areas, you can move onto the medium and low emphases.
 
 ### Mathematical Reasoning
- 
+
 Mathematical reasoning is a critical skill that enables individuals to recognize and understand many levels of mathematics. You’ll need to be able to understand the following:
 
   * Basic math
   * Word problems
   * [Algebra](http://www.tasctest.com/blog.html#ufh-i-46796494-solving-simple-equations-tasc-math)
   * [Geometry](http://www.tasctest.com/blog.html#ufh-i-46796368-geometric-measurement-tasc-math)
-  
+
 Using these levels, guide yourself through simple skills like addition and subtraction, and develop more advanced skills like [solving polynomial operations](http://www.tasctest.com/blog.html#ufh-i-46796782-polynomials-operations-and-graphs-tasc-math) and [graphing solutions](http://www.tasctest.com/blog.html#ufh-i-46796278-graphing-solutions-to-linear-inequalities-tasc-test-math). Ultimately, you need to be comfortable with equation and applying formulas to mathematical problems at all levels.

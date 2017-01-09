@@ -4,8 +4,8 @@ author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 3
-section: 3.3
+chapter: 4
+section: 4.3
 tag: HiSET
 
 source: http://hiset.ets.org/about/content/
@@ -20,7 +20,7 @@ If you are taking the HiSET exam in English, the Writing subtest measures your s
 
   * Part 1 measures your ability to edit and revise written text.
   * Part 2 measures your ability to generate and organize ideas in writing.
-  
+
 **Part 1**
 
 In Part 1, you are asked to make revision choices concerning organization, diction and clarity, sentence structure, usage, and mechanics.

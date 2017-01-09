@@ -4,8 +4,8 @@ author: Educational Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 3
-section: 3.1
+chapter: 4
+section: 4.1
 tag: HiSET
 
 source: http://hiset.ets.org/about/overview

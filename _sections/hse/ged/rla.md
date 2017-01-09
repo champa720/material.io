@@ -4,8 +4,8 @@ author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 2
-section: 2.3
+chapter: 3
+section: 3.3
 tag: GED
 
 source: http://www.gedtestingservice.com/educators/2014test
@@ -27,11 +27,11 @@ In alignment with career and college readiness standards, the GED® RLA assessme
   1.  The ability to read closely
   1.  The ability to write clearly
   1.  The ability to edit and understand the use of standard written English in context
-  
+
 Because the strongest predictor of career and college readiness is the ability to read and comprehend complex texts, especially nonfiction, the RLA Test includes texts from both academic and workplace contexts. These texts reflect a range of complexity levels, in terms of ideas, syntax and style. The writing tasks, or Extended Response (ER) items, require test-takers to analyze given source texts and use evidence drawn from the text(s) to support their answers.
 
 Given these priorities, the GED® RLA Test adheres to the following parameters:
-  
+
   * Seventy-five percent of the texts in the exam are informational texts (including nonfiction drawn from the science and the social studies as well as a range of texts from workplace contexts); 25 percent are literature.
   * The texts included in the test cover a range of text complexity, including texts at the career and college readiness level.
   * For texts in which comprehension hinges on vocabulary, the focus is on understanding words that appear frequently in texts from a wide variety of disciplines and, by their definition, are not unique to a particular discipline.
@@ -55,13 +55,13 @@ The writing component integrates reading and writing into meaningful tasks that 
 
   1.  Draw relevant and sufficient evidence from a literary or information text to support analysis and reflection.
   1.  Use technology to produce writing, demonstrating sufficient command of keyboarding skills.
-  
+
 Candidate responses are scored by a multi-trait rubric that focuses on three elements:
-  
+
   * Trait 1: Analysis of Arguments and Use of Evidence
   * Trait 2: Development of Ideas and Structure
   * Trait 3: Clarity and Command of Standard English
- 
+
 
 ### Language Conventions and Usage on the GED® RLA Test
 

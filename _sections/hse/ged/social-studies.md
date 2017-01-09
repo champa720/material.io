@@ -4,8 +4,8 @@ author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 2
-section: 2.5
+chapter: 3
+section: 3.5
 tag: GED
 
 source: http://www.gedtestingservice.com/educators/2014test
@@ -16,7 +16,7 @@ source: http://www.gedtestingservice.com/testers/socialstudieslink
 
 ## Overview
 
-The GED® Social Studies Test focuses on the fundamentals of social studies reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Social Studies Test is aligned to one social studies practice and one content topic. 
+The GED® Social Studies Test focuses on the fundamentals of social studies reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Social Studies Test is aligned to one social studies practice and one content topic.
 
 The social studies practices can be described as skills that are key to scientific reasoning in both textual and quantitative contexts. The practices come from important skills specified in the Career and College Ready Standards and other career- and college-readiness standards, as well as in National Standards for History.
 
@@ -29,7 +29,7 @@ The Social Studies Test will also focus on four major content domains:
 
 The social studies content topics, which are drawn from these four domains, provide context for measuring a test-taker’s ability to apply the reasoning skills described in the practices. The content topics focus on key concepts that reflect both that which is taught in many high-school-level social sciences courses and that which is most relevant and useful for an adult population.
 
-To measure this content at a range of levels of complexity, several different item types are used in the test, including multiple choice, drag-and-drop, hot spot, and fill-in-the-blank. 
+To measure this content at a range of levels of complexity, several different item types are used in the test, including multiple choice, drag-and-drop, hot spot, and fill-in-the-blank.
 
 Given these priorities, the GED® Social Studies Test follows these specifications:
 
@@ -43,7 +43,7 @@ Given these priorities, the GED® Social Studies Test follows these specificatio
 
 ### Social Studies Content Topics
 
-The social studies content topics describe key concepts that are widely taught in a variety of high-school level social studies courses and are relevant to the lives of GED® test-takers. They focus, in particular, on American civics and government. They are designed to provide context for measuring the skills defined in the social studies practices section of this document. 
+The social studies content topics describe key concepts that are widely taught in a variety of high-school level social studies courses and are relevant to the lives of GED® test-takers. They focus, in particular, on American civics and government. They are designed to provide context for measuring the skills defined in the social studies practices section of this document.
 
 The content topics for the Social Studies Test focus on two main themes, each applied across the four domains in the social studies arena (i.e. civics and government, U.S. history, economics, and geography and the world). These themes have been selected to ensure that the test covers a wide range of important concepts and ideas in social studies, but they are also intended to function like a lens to draw focus to a distinct subset of ideas within each content topic. Content that falls outside the parameters of these themes are not included in the GED® Social Studies Test.
 
