@@ -63,7 +63,7 @@ layout: default
             {% elsif overview.title == "Standards" %}
             <ul>
               {% for content in overview.content %}
-              <li><a href="#{{ content | slugify }}">{{ content | markdownify }}</a></li>
+              <li><a href="#{{ content | slugify }}" class="modal-trigger">{{ content | markdownify }}</a></li>
               {% endfor %}
             </ul>
 
@@ -87,3 +87,14 @@ layout: default
     </div>
   </div>
 </article>
+
+{% if page.subject == "Mathematics" %}
+{% include ccrs.html subject="mathematics" %}
+
+{% elsif page.subject == "Reading" or page.subject == "Science" or page.subject == "Social Studies" %}
+{% include ccrs.html subject="reading" %}
+
+{% elsif page.subject == "Writing" %}
+{% include crs.html subject="writing" %}
+
+{% endif %}

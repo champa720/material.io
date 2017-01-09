@@ -1,0 +1,412 @@
+## Source: https://lincs.ed.gov/publications/pdf/CCRStandardsAdultEd.pdf
+
+## Begin Mathematics Standards
+mathematics:
+-
+  title: MP.1
+  description:
+    - "Make sense of problems and persevere in solving them."
+    - "Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution. They analyze givens, constraints, relationships, and goals. They make conjectures about the form and meaning of the solution and plan a solution pathway rather than simply jumping into a solution attempt. They consider analogous problems, and try special cases and simpler forms of the original problem in order to gain insight into its solution. They monitor and evaluate their progress and change course if necessary. Students might, depending on the context of the problem, transform algebraic expressions or change the viewing window on their graphing calculator to get the information they need. Mathematically proficient students can explain correspondences between equations, verbal descriptions, tables, and graphs or draw diagrams of important features and relationships, graph data, and search for regularity or trends. Less experienced students might rely on using concrete objects or pictures to help conceptualize and solve a problem. Mathematically proficient students check their answers to problems using a different method, and they continually ask themselves, “Does this make sense?” They can understand the approaches of others to solving complex problems and identify correspondences between different approaches."
+-
+  title: MP.2
+  description:
+    - "Reason abstractly and quantitatively."
+    - "Mathematically proficient students make sense of quantities and their relationships in problem situations. They bring two complementary abilities to bear on problems involving quantitative relationships: the ability to decontextualize—to abstract a given situation and represent it symbolically and manipulate the representing symbols as if they have a life of their own, without necessarily attending to their referents—and the ability to contextualize, to pause as needed during the manipulation process in order to probe into the referents for the symbols involved. Quantitative reasoning entails habits of creating a coherent representation of the problem at hand; considering the units involved; attending to the meaning of quantities, not just how to compute them; and knowing and flexibly using different properties of operations and objects."
+-
+  title: MP.3
+  description:
+    - "Construct viable arguments and critique the reasoning of others."
+    - "Mathematically proficient students understand and use stated assumptions, definitions, and previously established results in constructing arguments. They make conjectures and build a logical progression of statements to explore the truth of their conjectures. They are able to analyze situations by breaking them into cases, and can recognize and use counterexamples. They justify their conclusions, communicate them to others, and respond to the arguments of others. They reason inductively about data, making plausible arguments that take into account the context from which the data arose. Mathematically proficient students are also able to compare the effectiveness of two plausible arguments, distinguish correct logic or reasoning from that which is flawed, and—if there is a flaw in an argument—explain what it is. Less experienced students can construct arguments using concrete referents such as objects, drawings, diagrams, and actions. Such arguments can make sense and be correct, even though they are not generalized or made formal until later. Later, students learn to determine domains to which an argument applies. Students at all levels can listen or read the arguments of others, decide whether they make sense, and ask useful questions to clarify or improve the arguments."
+-
+  title: MP.4
+  description:
+    - "Model with mathematics."
+    - "Mathematically proficient students can apply the mathematics they know to solve problems arising in everyday life, society, and the workplace. This might be as simple as writing an addition equation to describe a situation. A student might apply proportional reasoning to plan a school event or analyze a problem in the community. A student might use geometry to solve a design problem or use a function to describe how one quantity of interest depends on another. Mathematically proficient students who can apply what they know are comfortable making assumptions and approximations to simplify a complicated situation, realizing that these may need revision later. They are able to identify important quantities in a practical situation and map their relationships using such tools as diagrams, two-way tables, graphs, flowcharts and formulas. They can analyze those relationships mathematically to draw conclusions. They routinely interpret their mathematical results in the context of the situation and reflect on whether the results make sense, possibly improving the model if it has not served its purpose."
+-
+  title: MP.5
+  description:
+    - "Use appropriate tools strategically."
+    - "Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software. Proficient students are sufficiently familiar with tools appropriate for their course to make sound decisions about when each of these tools might be helpful, recognizing both the insight to be gained and their limitations. For example, mathematically proficient students analyze graphs of functions and solutions generated using a graphing calculator. They detect possible errors by strategically using estimation and other mathematical knowledge. When making mathematical models, they know that technology can enable them to visualize the results of varying assumptions, explore consequences, and compare predictions with data. Mathematically proficient students at various levels are able to identify relevant external mathematical resources, such as digital content located on a website, and use them to pose or solve problems. They are able to use technological tools to explore and deepen their understanding of concepts."
+-
+  title: MP.6
+  description:
+    - "Attend to precision."
+    - "Mathematically proficient students try to communicate precisely to others. They try to use clear definitions in discussion with others and in their own reasoning. They state the meaning of the symbols they choose, including using the equal sign consistently and appropriately. They are careful about specifying units of measure, and labeling axes to clarify the correspondence with quantities in a problem. They calculate accurately and efficiently, express numerical answers with a degree of precision appropriate for the problem context. Less experienced students give carefully formulated explanations to each other. By the time they reach high school they have learned to examine claims and make explicit use of definitions."
+-
+  title: MP.7
+  description:
+    - "Look for and make use of structure."
+    - "Mathematically proficient students look closely to discern a pattern or structure. Students, for example, might notice that three and seven more is the same amount as seven and three more, or they may sort a collection of shapes according to how many sides the shapes have. Later, students will see 7 × 8 equals the well-remembered 7 × 5 + 7 × 3, in preparation for learning about the distributive property. In the expression x^2+ 9x + 14, students  an see the 14 as 2 × 7 and the 9 as 2 + 7. They recognize the significance of an existing line in a geometric figure and can use the strategy of drawing an auxiliary line for solving problems. They also can step back for an overview and shift perspective. They can see complicated things, such as some algebraic expressions, as single objects or as being composed of several objects. For example, they can see 5 – 3(x – y)^2 as 5 minus a positive  umber times a square and use that to realize that its value cannot be more than 5 for any real numbers x and y."
+-
+  title: MP.8
+  description:
+    - "Look for and express regularity in repeated reasoning."
+    - "Mathematically proficient students notice if calculations are repeated, and look both for general methods and for shortcuts. Early on, students might notice when dividing 25 by 11 that they are repeating the same calculations over and over again, and conclude they have a repeating decimal. By paying attention to the calculation of slope as they repeatedly check whether points are on the line through (1, 2) with slope 3, students might abstract the equation (y – 2)/(x – 1) = 3. Noticing the regularity in the way terms cancel when expanding (x–1)(x+1), (x–1)(x^2 +x+1), and (x–1)(x^3 +x^2 +x+1) might lead them to the general formula for the sum of a geometric series. As they work to solve a problem, mathematically proficient students maintain oversight of the process, while attending to the details. They continually evaluate the reasonableness of their intermediate results."
+
+## Begin Reading Standards
+reading:
+-
+  title: CCR Anchor 1
+  description: "Read closely to determine what the text says explicitly and to make logical inferences from it; cite specific textual evidence when writing or speaking to support conclusions drawn from the text."
+  level-specific:
+    Level A:
+    - "Ask and answer such questions as, who, what, where, when, why, and how to demonstrate understanding of key details in a text. (RI/RL.2.1)"
+    Level B:
+    - "Refer to details and examples in a text when explaining what the text says explicitly and when drawing inferences from the text.(RI/RL.4.1)"
+    Level C:
+    - "Quote accurately from a text when explaining what the text says explicitly and when drawing inferences from the text. (RI/RL.5.1)"
+    Level D:
+    - "Cite several pieces of textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text. (RI/RL.7.1)"
+    - "Application: cite specific textual evidence to support analysis of primary and secondary sources. (RH.6- 8.1)"
+    - "Application: cite specific textual evidence to support analysis of science and technical texts. (RST.6-8.1)"
+    - "Cite strong and thorough textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text. (RI/RL.9-10.1)"
+    Level E:
+    - "Application: cite specific textual evidence to support analysis of primary and secondary sources, attending to such features as the date and origin of the information. (RH.9-10.1)"
+    - "Application: cite specific textual evidence to support analysis of science and technical texts, attending to the precise details of explanations or descriptions. (RST.9-10.1)"
+-
+  title: CCR Anchor 2
+  description: "Determine central ideas or themes of a text and analyze their development; summarize the key supporting details and ideas."
+  level-specific:
+    Level A:
+    - "Identify the main topic and retell key details of a text. (RI.1.2)"
+    Level B:
+    - "Determine the main idea of a text; recount the key details and explain how they support the main idea. (RI.3.2)"
+    Level C:
+    - "Determine the main idea of a text and explain how it is supported by key details; summarize the text. (RI.4.2)"
+    - "Determine a theme of a story, drama, or poem from details in the text; summarize the text. (RL.4.2)"
+    Level D:
+    - "Determine a theme or central idea of a text and how it is conveyed through particular details; provide a summary of the text distinct from personal opinions or judgments. (RI/RL.6.2)"
+    - "Application: determine the central ideas or conclusions of a text; provide an accurate summary of the text distinct from prior knowledge or opinions. (RST.6-8.2)"
+    Level E:
+    - "Determine a theme or central idea of a text and analyze in detail its development over the course of the text, including how it emerges and is shaped and refined by specific details; provide an objective summary of the text. (RI/RL.9-10.2)"
+    - "Determine the central ideas or conclusions of a text; summarize complex concepts, processes, or information presented in a text by paraphrasing them in simpler but still accurate terms. (RST.11- 12.2)"
+-
+  title: CCR Anchor 3
+  description: "Analyze how and why individuals, events, and ideas develop and interact over the course of a text. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    - "Describe the connection between two individuals, events, ideas, or pieces of information in a text. (RI.1.3)"
+    Level B:
+    - "Describe the relationship between a series of historical events, scientific ideas or concepts, or steps in technical procedures in a text, using language that pertains to time, sequence, and cause/effect. (RI.3.3)"
+    Level C:
+    - "Explain events, procedures, ideas, or concepts in a historical, scientific, or technical text, including what happened and why, based on specific information in the text. (RI.4.3)"
+    Level D:
+    - "Analyze how a text makes connections among and distinctions between individuals, ideas, or events (e.g., through comparisons, analogies, or categories). (RI.8.3)"
+    - "Application: identify key steps in a text's description of a process related to history/social studies (e.g., how a bill becomes law, how interest rates are raised or lowered). (RH.6-8.3)"
+    - "Follow precisely a multistep procedure when carrying out experiments, taking measurements, or performing technical tasks. (RST.6-8.3)"
+    Level E:
+    - "Analyze a complex set of ideas or sequence of events and explain how specific individuals, ideas, or events interact and develop over the course of the text. (RI.11-12.3)"
+    - "Analyze in detail a series of events described in a text; determine whether earlier events caused later ones or simply preceded them. (RH.9-10.3)"
+    - "Follow precisely a complex multistep procedure when carrying out experiments, taking measurements, or performing technical tasks, attending to special cases or exceptions defined in the text. (RST.9-10.3)"
+-
+  title: CCR Anchor 4
+  description: "Interpret words and phrases as they are used in a text, including determining technical, connotative, and figurative meanings, and analyze how specific word choices shape meaning or tone. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    - "Ask and answer questions to help determine or clarify the meaning of words and phrases in a text. (RI.1.4)"
+    Level B:
+    - "Determine the meaning of general academic and domain specific words and phrases in a text relevant to a topic or subject area. (RI.3.4)"
+    Level C:
+    - "Determine the meaning of general academic and domain specific words and phrases in a text relevant to a topic or subject area. (RI.5.4)"
+    - "Determine the meaning of words and phrases as they are used in a text, including figurative language such as metaphors and similes. (RL.5.4)"
+    Level D:
+    - "Determine the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings; analyze the impact of a specific word choice on meaning and tone. (RI/RL.6.4)"
+    Level E:
+    - "Determine the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings; analyze the cumulative impact of specific word choices on meaning and tone (e.g., how the language of a court opinion differs from that of a newspaper). (RI/RL.9-10.4)"
+    - "Application: determine the meaning of symbols, key terms, and other domain- specific words and phrases as they are used in a specific scientific or technical context. (RST.9-10.4)"
+-
+  title: CCR Anchor 5
+  description: "Analyze the structure of texts, including how specific sentences, paragraphs, and larger portions of the text (e.g., a section, chapter, scene, or stanza) relate to each other and the whole."
+  level-specific:
+    Level A:
+    - "Know and use various text features (e.g., headings, tables of contents, glossaries, electronic menus, icons) to locate key facts or information in a text. (RI.1.5)"
+    Level B:
+    - "Know and use various text features (e.g., captions, bold print, subheadings, glossaries, indexes, electronic menus, icons) to locate key facts or information in a text efficiently. (RI.2.5) Use text features and search tools (e.g., key words, sidebars, hyperlinks) to locate information relevant to a given topic efficiently. (RI.3.5)"
+    Level C:
+    - "Describe the overall structure (e.g., chronology, comparison, cause/effect, problem/solution) of events, ideas, concepts, or information in a text or part of a text. (RI.4.5) Compare and contrast the overall structure (e.g., chronology, comparison, cause/effect, problem/solution) of events, ideas, concepts, or information in two or more texts. (RI.5.5)"
+    - "Compare and contrast the overall structure (e.g., chronology, comparison, cause/effect, problem/solution) of events, ideas, concepts, or information in two or more texts. (RI.5.5)"
+    Level D:
+    - "Analyze how a particular sentence, paragraph, chapter, or section fits into the overall structure of a text and contributes to the development of the ideas. (RI.6.5)"
+    - "Analyze the structure an author uses to organize a text, including how the major sections contribute to the whole and to the development of the ideas. (RI.7.5)"
+    Level E:
+    - "Analyze in detail how an author's ideas or claims are developed and refined by particular sentences, paragraphs, or larger portions of a text (e.g., a section or chapter). (RI.9-10.5)"
+    - "Analyze and evaluate the effectiveness of the structure an author uses in his or her exposition or argument, including whether the structure makes points clear, convincing, and engaging. (RI.11-12.5)"
+-
+  title: CCR Anchor 6
+  description: "Assess how point of view or purpose shapes the content and style of a text. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    -
+    Level B:
+    - "Identify the main purpose of a text, including what the author wants to answer, explain, or describe. (RI.2.6)"
+    - "Distinguish their own point of view from that of the author of a text. (RI.3.6)"
+    Level C:
+    - "Analyze multiple accounts of the same event or topic, noting important similarities and differences in the point of view they represent. (RI.5.6)"
+    - "Describe how a narrator's or speaker's point of view influences how events are described. (RL.5.6)"
+    Level D:
+    - "Determine an author's point of view or purpose in a text and analyze how the author acknowledges and responds to conflicting evidence or viewpoints. (RI.8.6)"
+    - "Identify aspects of a text that reveal an author's point of view or purpose (e.g., loaded language, inclusion or avoidance of particular facts). (RH.6-8.6)"
+    Level E:
+    - "Determine an author's point of view or purpose in a text and analyze how an author uses rhetoric to advance that point of view or purpose. (RI.9-10.6)"
+    - "Application: analyze a particular point of view or cultural experience reflected in a work of literature from outside the United States, drawing on a wide reading of world literature. (RL.9-10.6)"
+    - "Analyze a case in which grasping point of view requires distinguishing what is directly stated in a text from what is really meant (e.g., satire, sarcasm, irony, or understatement). (RL.11-12.6)"
+    - "Compare the point of view of two or more authors for how they treat the same or similar topics, including which details they include and emphasize in their respective accounts. (RH.9-10.6)"
+-
+  title: CCR Anchor 7
+  description: "Integrate and evaluate content presented in diverse media and formats, including visually and quantitatively, as well as in words. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    - "Use the illustrations and details in a text to describe its key ideas (e.g., maps, charts, photographs, political cartoons, etc.). (RI.1.7)"
+    Level B:
+    - "Use information gained from illustrations (e.g., maps, photographs) and the words in a text to demonstrate understanding of the text (e.g., where, when, why, and how key events occur). (RI.3.7)"
+    - "Explain how specific aspects of a text's illustrations contribute to what is conveyed by the words in a story (e.g., create mood, emphasize aspects of a character or setting). (RL.3.7)"
+    Level C:
+    - "Interpret information presented visually, orally, or quantitatively (e.g., in charts, graphs, diagrams, time lines, animations, or interactive elements on Web pages) and explain how the information contributes to an understanding of the text in which it appears. (RI.4.7)"
+    - "Draw on information from multiple print or digital sources, demonstrating the ability to locate an answer to a question quickly or to solve a problem efficiently. (RI.5.7)"
+    Level D:
+    - "Integrate information presented in different media or formats (e.g., in charts, graphs, photographs, videos, or maps) as well as in words to develop a coherent understanding of a topic or issue. (RI.6.7)"
+    - "Integrate quantitative or technical information expressed in words in a text with a version of that information expressed visually (e.g., in a flowchart, diagram, model, graph, or table). (RST.6-8.7)"
+    Level E:
+    - "Integrate quantitative or technical analysis (e.g., charts, research data) with qualitative analysis in print or digital text. (RH.9-10.7)"
+    - "Translate quantitative or technical information expressed in words in a text into visual form (e.g., a table or chart) and translate information expressed visually or mathematically (e.g., in an equation) into words. (RST.9-10.7)"
+    - "Integrate and evaluate multiple sources of information presented in different media or formats (e.g., visually, quantitatively) as well as in words in order to address a question or solve a problem. (RI.11-12.7)"
+-
+  title: CCR Anchor 8
+  description: "Delineate and evaluate the argument and specific claims in a text, including the validity of the reasoning as well as the relevance and sufficiency of the evidence. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    - "Identify the reasons an author gives to support points in a text. (RI.1.8)"
+    Level B:
+    - "Describe how reasons support specific points the author makes in a text. (RI.2.8)"
+    Level C:
+    - "Explain how an author uses reasons and evidence to support particular points in a text, identifying which reasons and evidence support which point(s). (RI.5.8)"
+    Level D:
+    - "Delineate and evaluate the argument and specific claims in a text, assessing whether the reasoning is sound and the evidence is relevant and sufficient; recognize when irrelevant evidence is introduced. (RI.8.8)"
+    Level E:
+    - "Delineate and evaluate the argument and specific claims in a text, assessing whether the reasoning is valid and the evidence is relevant and sufficient; identify false statements and fallacious reasoning. (RI.9-10.8)"
+-
+  title: CCR Anchor 9
+  description: "Analyze how two or more texts address similar themes or topics in order to build knowledge or to compare the approaches the authors take. (Apply this level-specific to texts of appropriate complexity as outlined by Standard 10.)"
+  level-specific:
+    Level A:
+    - "Identify basic similarities in and differences between two texts on the same topic (e.g., in illustrations, descriptions, or procedures). (RI.1.9)"
+    Level B:
+    - "Compare and contrast the most important points and key details presented in two texts on the same topic. (RI.3.9)"
+    Level C:
+    - "Integrate information from several texts on the same topic in order to write or speak about the subject knowledgeably. (RI.5.9)"
+    Level D:
+    - "Analyze a case in which two or more texts provide conflicting information on the same topic and identify where the texts disagree on matters of fact or interpretation. (RI.8.9)"
+    Level E:
+    - "Analyze seminal U.S. documents of historical and literary significance (e.g., Washington's Farewell Address, the Gettysburg Address, Roosevelt's Four Freedoms speech, King's 'Letter from Birmingham Jail'), including how they address related themes and concepts. (RI.9-10.9)"
+    - "Analyze seventeenth-, eighteenth-, and nineteenth- century foundational U.S. documents of historical and literary significance (including The Declaration of Independence, the Preamble to the Constitution, the Bill of Rights, and Lincoln's Second Inaugural Address) for their themes, purposes, and rhetorical features. (RI.11-12.9)"
+    - "Compare and contrast findings presented in a text to those from other sources (including their own experiments), noting when the findings support or contradict previous explanations or accounts. (RST.9-10.9)"
+    - "Application: compare and contrast treatments of the same topic in several primary and secondary sources. (RH.9-10.9)"
+
+## Begin Writing Standards
+writing:
+-
+  title: CCR Anchor 1
+  description: "Write arguments to support claims in an analysis of substantive topics or texts, using valid reasoning and relevant and sufficient evidence."
+  level-specific:
+    Level A:
+    -
+    Level B:
+    - "Write opinion pieces on topics or texts, supporting a point of view with reasons."
+    - "a. Introduce the topic or text they are writing about, state an opinion, and create an organizational structure that lists reasons."
+    - "b. Provide reasons that support the opinion."
+    - "c. Use linking words and phrases (e.g., because, therefore, since, for example) to connect opinion and reasons."
+    - "d. Provide a concluding statement or section."
+    - "(W.3.1)"
+    Level C:
+    - "Write opinion pieces on topics or texts, supporting a point of view with reasons and information."
+    - "a. Introduce a topic or text clearly, state an opinion, and create an organizational structure in which ideas are logically grouped to support the writer's purpose"
+    - "b. Provide logically ordered reasons that are supported by facts and details."
+    - "c. Link opinion and reasons using words, phrases, and clauses (e.g., consequently, specifically)."
+    - "d. Provide a concluding statement or section related to the opinion presented."
+    - "(W.5.1)"
+    Level D:
+    - "Write arguments to support claims with clear reasons and relevant evidence."
+    - "a. Introduce claim(s), acknowledge alternate or opposing claims, and organize the reasons and evidence logically."
+    - "b. Support claim(s) with logical reasoning and relevant evidence, using accurate, credible sources and demonstrating an understanding of the topic or text."
+    - "c. Use words, phrases, and clauses to create cohesion and clarify the relationships among claim(s), reasons, and evidence."
+    - "d. Establish and maintain a formal style."
+    - "e. Provide a concluding statement or section that follows from and supports the argument presented."
+    - "(W.7.1)"
+    Level E:
+    - "Write arguments to support claims in an analysis of substantive topics or texts, using valid reasoning and relevant and sufficient evidence."
+    - "a. Introduce precise claim(s), distinguish the claim(s) from alternate or opposing claims, and create an organization that establishes clear relationships among the claim(s), counterclaims, reasons, and evidence."
+    - "b. Develop claim(s) and counterclaims fairly, supplying evidence for each while pointing out the strengths and limitations of both in a manner that anticipates the audience's knowledge level and concerns."
+    - "c. Use words, phrases, and clauses to link the major sections of the text, create cohesion, and clarify the relationships between claim(s) and reasons, between reasons and evidence, and between claim(s) and counterclaims."
+    - "d. Establish and maintain a formal style and objective tone while attending to the norms and conventions of the discipline in which they are writing."
+    - "e. Provide a concluding statement or section that follows from and supports the argument presented."
+    - "(W/WHST.9-10.1)"
+-
+  title: CCR Anchor 2
+  description: "Write informative/explanatory texts to examine and convey complex ideas and information clearly and accurately through the effective selection, organization, and analysis of content."
+  level-specific:
+    Level A:
+    - "Write informative/explanatory texts in which they name a topic, supply some facts about the topic, and provide some sense of closure."
+    - "(W.1.2)"
+    Level B:
+    - "Write informative/explanatory texts to examine a topic and convey ideas and information clearly."
+    - "a. Introduce a topic and group related information together; include illustrations when useful to aiding comprehension."
+    - "b. Develop the topic with facts, definitions, and details."
+    - "c. Use linking words and phrases (e.g., also, another, and, more, but) to connect ideas within categories of information."
+    - "d. Provide a concluding statement or section."
+    - "(W.3.2)"
+    Level C:
+    - "Write informative/explanatory texts to examine a topic and convey ideas and information clearly."
+    - "a. Introduce a topic clearly and group related information in paragraphs and sections; include formatting (e.g., headings), illustrations, and multimedia when useful to aiding comprehension."
+    - "b. Develop the topic with facts, definitions, concrete details, quotations, or other information and examples related to the topic."
+    - "c. Link ideas within categories of information using words and phrases (e.g., another, for example, also, because)."
+    - "d. Use precise language and domain-specific vocabulary to inform about or explain the topic."
+    - "e. Provide a concluding statement or section related to the information or explanation presented."
+    - "(W.4.2)"
+    Level D:
+    - "Write informative/explanatory texts to examine a topic and convey ideas, concepts, and information through the selection, organization, and analysis of relevant content. [This includes the narration of historical events, scientific procedures/experiments, or technical processes.]"
+    - "a. Introduce a topic clearly, previewing what is to follow; organize ideas, concepts, and information, using strategies such as definition, classification, comparison/contrast, and cause/effect; include formatting (e.g., headings), graphics (e.g., charts, tables), and multimedia when useful to aiding comprehension."
+    - "b. Develop the topic with relevant facts, definitions, concrete details, quotations, or other information and examples."
+    - "c. Use appropriate transitions to create cohesion and clarify the relationships among ideas and concepts."
+    - "d. Use precise language and domain-specific vocabulary to inform about or explain the topic."
+    - "e. Establish and maintain a formal style."
+    - "f. Provide a concluding statement or section that follows from and supports the information or explanation presented."
+    - "(W/WHST.6-8.2)"
+    Level E:
+    - "Write informative/explanatory texts to examine and convey complex ideas, concepts, and information clearly and accurately through the effective selection, organization, and analysis of content. [This includes the narration of historical events,scientific procedures/experiments, or technical processes.]"
+    - "a. Introduce a topic and organize complex ideas, concepts, and information to make important connections and distinctions; include formatting (e.g., headings), graphics (e.g., figures, tables), and multimedia when useful to aiding comprehension."
+    - "b. Develop the topic with well-chosen, relevant, and sufficient facts, extended definitions, concrete details, quotations, or other information and examples appropriate to the audience's knowledge of the topic."
+    - "c. Use appropriate and varied transitions to link the major sections of the text, create cohesion, and clarify the relationships among complex ideas and concepts."
+    - "d. Use precise language and domain-specific vocabulary to manage the complexity of the topic."
+    - "e. Establish and maintain a formal style and objective tone while attending to the norms and conventions of the discipline in which they are writing."
+    - "f. Provide a concluding statement or section that follows from and supports the information or explanation presented (e.g., articulating implications or the significance of the topic)."
+    - "(W/WHST.9-10.2)"
+-
+  title: CCR Anchor 3
+  description: "Write narratives to develop real or imagined experiences or events using effective technique, well-chosen details and well-structured event sequences."
+  level-specific:
+    Level A:
+    - "Write narratives in which they recount two or more appropriately sequenced events, include some details regarding what happened, use temporal words to signal event order, and provide some sense of closure."
+    - "(W.1.3)"
+    Level B:
+    - "Write narratives in which they recount a well-elaborated event or short sequence of events, include details to describe actions, thoughts, and feelings, use temporal words to signal event order, and provide a sense of closure."
+    - "(W.2.3)"
+    Level C:
+    - "Students' narrative skills continue to grow in these levels as students work to incorporate narrative elements effectively into their arguments and informative/explanatory texts."
+    Level D:
+    - "Students' narrative skills continue to grow in these levels as students work to incorporate narrative elements effectively into their arguments and informative/explanatory texts."
+    Level E:
+    - "Students' narrative skills continue to grow in these levels as students work to incorporate narrative elements effectively into their arguments and informative/explanatory texts."
+-
+  title: CCR Anchor 4
+  description: "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience."
+  level-specific:
+    Level A:
+    -
+    Level B:
+    - "Produce writing in which the development and organization are appropriate to task and purpose."
+    - "(W.3.4)"
+    Level C:
+    - "Produce clear and coherent writing in which the development and organization are appropriate to task, purpose, and audience."
+    - "(W.5.4)"
+    Level D:
+    - "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience."
+    - "(W/WHST.6-8.4)"
+    Level E:
+    - "Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience."
+    - "(W/WHST.11-12.4)"
+-
+  title: CCR Anchor 5
+  description: "Develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach."
+  level-specific:
+    Level A:
+    - "With guidance and support focus on a topic, respond to questions and suggestions from peers, and add details to strengthen writing as needed."
+    - "(W.1.5)"
+    Level B:
+    - "With guidance and support from peers and others, develop and strengthen writing as needed by planning, revising, and editing. (Editing for conventions should demonstrate command of Language standards 1–3 at this level.)"
+    - "(W.3.5)"
+    Level C:
+    - "With guidance and support from peers and others, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach. (Editing for conventions should demonstrate command of Language standards 1–3 at this level.)"
+    - "(W.5.5)"
+    Level D:
+    - "With some guidance and support from peers and others, develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on how well purpose and audience have been addressed. (Editing for conventions should demonstrate command of Language standards 1–3 at this level.)"
+    - "(W/WHST.6- 8.5)"
+    Level E:
+    - "Develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on addressing what is most significant for a specific purpose and audience. (Editing for conventions should demonstrate command of Language standards 1–3 at this level.)"
+    - "(W.11-12.5)"
+-
+  title: CCR Anchor 6
+  description: "Use technology, including the Internet, to produce and publish writing and to interact and collaborate with others."
+  level-specific:
+    Level A:
+    - "With guidance and support, use a variety of digital tools to produce and publish writing, including in collaboration with peers."
+    - "(W.1.6)"
+    Level B:
+    - "With guidance and support, use technology to produce and publish writing (using keyboarding skills) as well as to interact and collaborate with others."
+    - "(W.3.6)"
+    Level C:
+    - "With some guidance and support, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of one page in a single sitting."
+    - "(W.4.6)"
+    Level D:
+    - "Use technology, including the Internet, to produce and publish writing and link to and cite sources as well as to interact and collaborate with others, including linking to and citing sources."
+    - "(W.7.6)"
+    Level E:
+    - "Use technology, including the Internet, to produce, publish, and update individual or shared writing products, taking advantage of technology's capacity to link to other information and to display information flexibly and dynamically."
+    - "(W.9-10.6)"
+-
+  title: CCR Anchor 7
+  description: "Conduct short as well as more sustained research projects based on focused questions, demonstrating understanding of the subject under investigation."
+  level-specific:
+    Level A:
+    - "Participate in shared research and writing projects (e.g., explore a number of 'how-to' books on a given topic and use them to write a sequence of instructions)."
+    - "(W.1.7)"
+    Level B:
+    - "Conduct short research projects that build knowledge about a topic."
+    - "(W.3.7)"
+    Level C:
+    - "Conduct short research projects that use several sources to build knowledge through investigation of different aspects of a topic."
+    - "(W.5.7)"
+    Level D:
+    - "Conduct short research projects to answer a question, drawing on several sources and generating additional related, focused questions for further research and investigation."
+    - "(W.7.7)"
+    Level E:
+    - "Conduct short as well as more sustained research projects to answer a question (including a self-generated question) or solve a problem; narrow or broaden the inquiry when appropriate; synthesize multiple sources on the subject, demonstrating understanding of the subject under investigation."
+    - "(W/WHST.11-12.7)"
+-
+  title: CCR Anchor 8
+  description: "Gather relevant information from multiple print and digital sources, assess the credibility and accuracy of each source, and integrate the information while avoiding plagiarism."
+  level-specific:
+    Level A:
+    - "With guidance and support, recall information from experiences or gather information from provided sources to answer a question."
+    - "(W.1.8)"
+    Level B:
+    - "Recall information from experiences or gather information from print and digital sources; take brief notes on sources and sort evidence into provided categories."
+    - "(W.3.8)"
+    Level C:
+    - "Recall relevant information from experiences or gather relevant information from print and digital sources; summarize or paraphrase information in notes and finished work, and provide a list of sources."
+    - "(W.5.8)"
+    Level D:
+    - "Gather relevant information from multiple print and digital sources, using search terms effectively; assess the credibility and accuracy of each source; and quote or paraphrase the data and conclusions of others while avoiding plagiarism and following a standard format for citation."
+    - "(W/WHST.6-8.8)"
+    Level E:
+    - "Gather relevant information from multiple authoritative print and digital sources, using advanced searches effectively; assess the usefulness of each source in answering the research question; integrate information into the text selectively to maintain the flow of ideas, avoiding plagiarism and following a standard format for citation."
+    - "(W/WHST.9-10.8)"
+-
+  title: CCR Anchor 9
+  description: "Draw evidence from literary or informational texts to support analysis, reflection, and research."
+  level-specific:
+    Note: "This standard does not begin until grade 4 in the Common Core State Standards."
+    Level C:
+    - "Draw evidence from literary or informational texts to support analysis, reflection, and research."
+    - "a. Apply Reading standards from this level to literature (e.g., 'Refer to details and examples in a text when explaining what the text says explicitly and when drawing inferences from the text')."
+    - "b. Apply Reading standards from this level to informational text (e.g., 'Explain how an author uses reasons and evidence to support particular points in a text, identifying which reasons and evidence support which point(s)')."
+    - "(W.5.9)"
+    Level D:
+    - "Draw evidence from literary or informational texts to support analysis, reflection, and research."
+    - "a. Apply Reading standards from this level to literature (e.g., 'Determine a theme or central idea of a text and how it is conveyed through particular details; provide a summary of the text distinct from personal opinions or judgments')."
+    - "b. Apply Reading standards from this level to literary nonfiction (e.g., 'Analyze how a text makes connections among and distinctions between individuals' ideas or events')."
+    - "(W/WHST.6-8.9)"
+    Level E:
+    - "Draw evidence from literary or informational texts to support analysis, reflection, and research."
+    - "a. Apply Reading standards from this level to literature (e.g., 'Determine the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings; analyze the cumulative impact of specific word choices on meaning and tone')."
+    - "b. Apply Reading standards from this level to literary nonfiction (e.g., 'Integrate quantitative or technical analysis with qualitative analysis in print or digital text')."
+    - "(W/WHST.11-12.9)"
