@@ -1,13 +1,6 @@
-{% if page.javascript == true or layout.javascript == true %}
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-  <!-- include required scripts here -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
-  <!-- Initialization -->
-  <script type="text/javascript" src="{{ "/assets/js/my.materialize.js" | relative_url }}"></script>
-{% endif %}
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/my.materialize.js" | relative_url }}"></script>
 
 {% if page.mathjax == true %}
   {% include katex.html %}
