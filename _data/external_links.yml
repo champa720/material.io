@@ -1,13 +1,37 @@
 - subject: Mathematics
   cbt:
-  - category: "Khan Academy: Arithmetic Essentials"
+  -
+    category: "Khan Academy: Arithmetic Essentials"
     excerpt: "Learning arithmetic means learning how to add, subtract, multiply, and divide. But we don't stop there. We'll get into negative numbers, decimals, and fractions, too."
     avatar: ka_avatar.jpg
     url: "https://www.khanacademy.org/math/arithmetic"
-  - category: "Khan Academy: Algebra Basics"
+  -
+    category: "Khan Academy: Algebra Basics"
     excerpt: "Algebra is a beautiful and important area of study with unlimited applications. One can spend a lifetime studying and exploring it (and some people do). If you're not one of them, and are looking to learn, review or practice the most core ideas in Algebra, you've found your home. This subject is ideal for anyone looking to prepare for a high school or college placement exam. It covers all of the foundational ideas in algebra and related topics in pre-algebra and geometry. If you're looking for more exhaustive coverage, then the Algebra I & II subjects may be better for you."
     avatar: ka_avatar.jpg
     url: "https://www.khanacademy.org/math/algebra-home/algebra-basics"
+    badge: true
+  docs:
+  -
+    category: "Sixth-Grade Math Minutes"
+    excerpt: "*One Hundred Minutes to Better Basic Skills:* The focus of Sixth-Grade Math Minutes is math fluency—teaching students to solve problems effortlessly and rapidly. The problems in this book provide students with practice in every key area of sixth-grade math instruction, including: computation, number sense, reading graphs, problem solving, patterns and sequences, data analysis and probability, spatial reasoning, fractions, algebra and functions, geometry."
+    cover_image: "mm-6th-grade.jpg"
+    url: "http://teachers.d11.org/teachers/taylodr/jsaamathplc/Shared%20Documents/Math%20Minutes%20-%206th%20Grade.pdf"
+  -
+    category: "Seventh-Grade Math Minutes"
+    excerpt: "*One Hundred Minutes to Better Basic Skills:* The focus of Seventh-Grade Math Minutes is math fluency—teaching students to solve problems effortlessly and rapidly. The problems in this book provide students with practice in every key area of seventh-grade math instruction, including: computation, number sense, graphing, problem solving, measurement, data analysis and probability, spatial connections, reasoning and proof, algebra and functions, communication, geometry."
+    cover_image: "mm-7th-grade.jpg"
+    url: "http://teachers.d11.org/teachers/taylodr/jsaamathplc/Shared%20Documents/Math%20Minutes%20-%207th%20Grade.pdf"
+  -
+    category: "Eighth-Grade Math Minutes"
+    excerpt: "*One Hundred Minutes to Better Basic Skills:* The focus of Eighth-Grade Math Minutes is math fluency—teaching students to solve problems effortlessly and rapidly. The problems in this book provide students with practice in every key area of eighth-grade math instruction, including: computation, number sense, graphing,problem solving, measurement, data analysis and probability, spatial connections, critical reasoning, algebra and functions, geometry."
+    cover_image: "mm-8th-grade.jpg"
+    url: "http://teachers.d11.org/teachers/taylodr/jsaamathplc/Shared%20Documents/Math%20Minutes%20-%208th%20Grade.pdf"
+  -
+    category: "Middle-Grade Math Minutes"
+    excerpt: "*One Hundred Minutes to Better Basic Skills:* The focus of Middle-Grade Math Minutes is math fluency—teaching students to solve problems effortlessly and rapidly. The problems in this book provide students with practice in every key area of middle-grade math instruction, including: basic multiplication and division facts, money, graphing, problem solving, measurement, fractions, place value, time, pre-algebra, the vocabulary of mathematics, geometry."
+    cover_image: "mm-middle-grade.jpg"
+    url: "http://carianimath6.pbworks.com/f/Math+Minutes.pdf"
     badge: true
 
 - subject: Reading
@@ -37,7 +61,7 @@
     badge: true
 
 - subject: Science
-  cbt:  
+  cbt:
   - category: Learning Express Library
     excerpt: Chemistry Practice
     avatar: learning_library_avatar.jpg
@@ -45,7 +69,7 @@
     badge: true
 
 - subject: Social Studies
-  cbt:  
+  cbt:
   - category: Learning Express Library
     excerpt: Become a U.S. Citizen
     avatar: learning_library_avatar.jpg
@@ -72,3 +96,9 @@
     avatar: learning_library_avatar.jpg
     url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/adult-learning-center/resources/improve-your-writing-speaking-and-grammar/writing-and-grammar-skills-practice-sets/grammar"
     badge: true
+  docs:
+  -
+    category: "Daily Grams"
+    excerpt: "The purpose of Daily Grams: Guided Review Aiding Mastery Skills - Junior High/Senior High is to provide students with daily review of their language. Review of concepts helps to promote mastery learning."
+    cover_image: "daily-grams.jpg"
+    url: "https://drive.google.com/file/d/0B3qyIxugPt-kWXJfV1BPLW12alU/view?usp=sharing"

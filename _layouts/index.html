@@ -46,7 +46,31 @@ layout: default
 
     </div>
   </article>
-  {% endfor %}
+
+  {% if data.docs %}
+  <article class="section">
+    <h4 class="grey-text text-darken-1">PDF Sources</h4>
+
+    {% for doc in data.docs %}
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="/assets/img/thumbnails/{{ doc.cover_image }}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          {% if doc.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
+          <span class="card-title">{{ doc.category }}</span>
+          {{ doc.excerpt | markdownify }}
+        </div>
+        <div class="card-action">
+          <a href="{{ doc.url }}" target="_blank">View Source</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </article>
+  {% endif %} {% endfor %}
 
   {% if page.library %}
   <article class="section">
