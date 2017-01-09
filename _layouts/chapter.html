@@ -1,13 +1,12 @@
 ---
-javascript: true
 layout: default
 ---
+
 <section id="{{ page.layout }}" class="row {{ page.category | slugify }}">
   <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
-    <a href="#" class="breadcrumb">One</a>
-    <a href="#" class="breadcrumb">Two</a>
-    <a class="breadcrumb active" href="#">Title</a>
+    <a href="/{{ page.subject | slugify }}" class="breadcrumb">{{ page.subject }}</a>
+    <span href="#" class="breadcrumb active">{{ page.category }}</span>
   </nav>
   <article class="col s12 m8 l7 offset-l1">
     <div class="relative">
@@ -18,7 +17,7 @@ layout: default
             <h2>{{ page.title }}</h2>
             {{ content }}
           </div>
-          <footer class="card-action grey lighten-3">
+          <footer class="card-action">
             <a href="#!">Card footer link</a>
           </footer>
         </div>
@@ -26,47 +25,43 @@ layout: default
     </div>
   </article>
 
+  <!-- creates loop for site.chapters by subject > category -->
+  {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+  {% assign category = subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
+
   <aside class="col s12 m4 l3 offset-m8 offset-l8">
     <h4 class="white-text">Contents</h4>
     <ul class="table-of-contents truncate">
 
-      <!-- creates loop for chapter_contents by subject > category -->
-      {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
-      {% assign subject_chapters = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-      {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
-
-
-      {% for chapter_contents in subject_category %}
-      <li><a href="{{ chapter_contents.url }}" class="waves-effect waves-dark truncate{% if chapter_contents.url == page.url %} active{% endif %}">{{ chapter_contents.title }}</a></li>
+      {% for chapter in category %}
+      <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
       {% endfor %}
 
     </ul>
   </aside>
 </section>
 
-
 <!-- creates loop for subject_menu by subject > category -->
 {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
-<!-- creates loop for hse_menu by subject > category -->
+<!-- creates loop for hse_menu by subject  -->
 {% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" %}
-
 
 <aside class="section">
   <div class="row">
     <div class="col s12 m4 l3 offset-m8 offset-l8">
-      <h4 class="grey-text text-darken-1">About HSE</h4>
-        <div class="collection">
+      <h4 class="truncate grey-text text-darken-1">About HSE</h4>
+      <div class="collection">
 
-          {% for hse in hse_menu %}
-          <a href="{{ hse.url }}" class="collection-item{% if page.url contains hse.url %} active{% endif %}"><i class="material-icons left">{{ hse.icon }}</i>{{ hse.title }}</a>
-          {% endfor %}
+        {% for hse in hse_menu %}
+        <a href="{{ hse.url }}" class="collection-item truncate waves-effect{% if page.url == hse.url %} active{% endif %}"><i class="material-icons left">{{ hse.icon }}</i>{{ hse.title }}</a>
+        {% endfor %}
 
       </div>
-      <h4 class="grey-text text-darken-1">Subject Resources</h4>
+      <h4 class="truncate grey-text text-darken-1">Subject Resources</h4>
       <div class="collection">
 
         {% for subject in subject_menu %}
-        <a href="{{ subject.url }}" class="collection-item{% if page.url contains subject.url %} active{% endif %}"><i class="material-icons left">{{ subject.icon }}</i>{{ subject.title }}</a>
+        <a href="{{ subject.url }}" class="collection-item truncate waves-effect{% if page.url == subject.url %} active{% endif %}"><i class="material-icons left">{{ subject.icon }}</i>{{ subject.title }}</a>
         {% endfor %}
 
       </div>

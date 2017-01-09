@@ -1,5 +1,4 @@
 ---
-javascript: true
 layout: default
 ---
 
@@ -8,7 +7,6 @@ layout: default
 
 <nav id="{{ page.layout }}" class="nav-extended">
   <div class="nav-wrapper">
-    <h1>{{ page.title }}</h1>
     <ul class="right hide-on-small-only">
 
       {% for subject in subject_menu %}
@@ -16,20 +14,16 @@ layout: default
       {% endfor %}
 
     </ul>
+    <h1>{{ page.title }}</h1>
     <ul class="tabs tabs-transparent">
       <li class="tab"><a href="#classroom">Classroom</a></li>
       <li class="tab"><a href="#ged">GED</a></li>
       <li class="tab"><a href="#hiset">HiSET</a></li>
       <li class="tab"><a href="#tasc">TASC</a></li>
+      <li class="tab"><a href="#lessons">Lessons</a></li>
     </ul>
   </div>
 </nav>
-
-
-<!-- creates loop for subject_index by subject > category -->
-{% capture subject %}{{ page.subject | downcase }}{% endcapture %}
-{% assign subject_pages = site.pages | where_exp: "item", "item.subject == page.subject" %}
-{% assign subject_index = subject_pages | where_exp: "item", "item.category != 'index'" %}
 
 <!-- creates loop for subject_data by subject -->
 {% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == page.subject" %}
@@ -42,8 +36,8 @@ layout: default
     <div class="collection z-depth-1">
 
       {% for cbt in data.cbt %}
-      <a href="{{ cbt.url }}" class="collection-item avatar" target="_blank">
-        <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="" class="circle">
+      <a href="{{ cbt.url }}" class="collection-item avatar waves-effect" target="_blank">
+        <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="logo" class="circle">
         <p class="title">{{ cbt.category }}</p>
         <p class="truncate">{{ cbt.excerpt }}</p>
         {% if cbt.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
@@ -68,29 +62,27 @@ layout: default
           <span class="card-title">{{ content.category }}</span>
           {{ content.excerpt | markdownify }}
         </div>
-        <div class="card-action grey lighten-3">
+        <div class="card-action">
           <a href="#{{ content.category | slugify }}" class="modal-trigger">Available Readings</a>
         </div>
       </div>
     </div>
 
-    <!-- creates loop for chapter_contents by subject > category > group_by tag -->
-    {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
-    {% assign subject_chapters = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-    {% assign subject_category = subject_chapters | where_exp: "chapters", "chapters.category == content.category" | group_by: "tag" | sort: "section" %}
-
+    <!-- creates loop for site.chapters by subject > category > group_by tag -->
+    {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+    {% assign category = subject | where_exp: "chapters", "chapters.category == content.category" | group_by: "tag" | sort: "section" %}
 
     <div id="{{ content.category | slugify }}" class="modal modal-fixed-footer">
       <div class="modal-content">
         <h5>{{ content.category }}</h5>
 
-          {% for tag in subject_category %}
+          {% for tag in category %}
           <div class="section">
           <h6>{{ tag.name }}</h6>
             <div class="collection">
 
-              {% for chapter_contents in tag.items %}
-              <a href="{{ chapter_contents.url }}" class="collection-item waves-effect waves-dark truncate">{{ chapter_contents.title }}</a>
+              {% for chapter in tag.items %}
+              <a href="{{ chapter.url }}" class="collection-item waves-effect waves-dark truncate">{{ chapter.slug | capitalize }}: {{ chapter.title }}</a>
               {% endfor %}
 
             </div>
@@ -119,4 +111,8 @@ layout: default
 
 <section id="tasc" class="container">
   {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %}
+</section>
+
+<section id="lessons" class="container">
+  {% include lessons.html data="tasc" title="TASC" %}
 </section>

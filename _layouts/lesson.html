@@ -1,19 +1,15 @@
 ---
-javascript: true
 layout: default
 ---
 
-<!-- creates loop for related_lessons by subject > category > chapter -->
+<!-- creates loop for site.lessons by subject > category > tag -->
 {% capture subject %}{{ page.subject | downcase }}{% endcapture %}
 {% assign subject_chapters = site.lessons | where_exp: "lessons", "lessons.subject == page.subject" %}
 {% assign subject_category = subject_chapters | where_exp: "lessons", "lessons.category == page.category" %}
-{% assign related_lessons = subject_category | where_exp: "lessons", "lessons.chapter == page.chapter" %}
-
-<!-- breadcrumbs -->
-{% assign crumbs = page.url | split: '/' %}
+{% assign related_lessons = subject_category | where_exp: "lessons", "lessons.tag == page.tag" %}
 
 <article>
-  <header id="header-section" class="z-depth-1">
+  <header id="{{ page.layout }}" class="z-depth-1">
     <div class="row">
       <div class="col s12 l10 offset-l1">
         <div class="">
@@ -28,22 +24,15 @@ layout: default
         </div>
         <nav class="transparent z-depth-0">
           <div class="nav-wrapper">
-
-            {% for crumb in crumbs limit: 3 %}
-            {% if forloop.index == 1 %}
-            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ "Home" }}</a>
-            {% elsif forloop.index == 2 %}
-            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.subject }}</a>
-            {% else %}
-            <a class="breadcrumb" href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.category }}</a>
-            {% endif %}
-            {% endfor %}
-
-            <span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="related-lessons" data-constrainwidth="false">Chapter {{ page.chapter }}</a></span>
+            <a class="breadcrumb" href="/{{ page.collection }}">{{ page.collection | capitalize }}</a>
+            <a class="breadcrumb" href="/{{ page.collection | append: "#"}}{{ page.subject | slugify }}">{{ page.subject }}</a>
+            <span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="related-lessons" data-constrainwidth="false">{{ page.tag }}</a></span>
             <ul id="related-lessons" class="dropdown-content">
 
               {% for lesson in related_lessons %}
-              <li class="{% if lesson.url == page.url %}active{% endif %}"><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+              <li class="{% if lesson.url == page.url %}active{% endif %}">
+                <a href="{{ lesson.url }}">{{ lesson.slug | capitalize }}: {{ lesson.title }}</a>
+              </li>
               {% endfor %}
 
             </ul>
@@ -88,7 +77,7 @@ layout: default
 
           </div>
           <div class="card-action">
-            <a href="#!">{{ page.url | replace: "/lessons","/materials"}}</a>
+            <a href="{{ page.url | remove: "/lessons"}}">{{ page.url | remove: "/lessons"}}</a>
           </div>
         </div>
       </div>

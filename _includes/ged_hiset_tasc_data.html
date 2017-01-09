@@ -1,4 +1,4 @@
-<!-- creates loop for subject -->
+<!-- creates loop for site.data by subject -->
 {% assign subject = site.data[include.data] | where_exp: "item", "item.subject == page.subject" %}
 
 {% for data in subject %}
@@ -20,7 +20,7 @@
 
       </dl>
     </div>
-    <div class="card-action grey lighten-3">
+    <div class="card-action">
       <a href="{{ data.testing_url }}" target="_blank">{{ data.testing_url }}</a>
     </div>
   </div>
@@ -31,8 +31,8 @@
   <div class="collection z-depth-1">
 
     {% for cbt in data.cbt %}
-    <a href="{{ cbt.url }}" class="collection-item avatar" target="_blank">
-      <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="" class="circle">
+    <a href="{{ cbt.url }}" class="collection-item avatar waves-effect" target="_blank">
+      <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="logo" class="circle">
       <p class="title">{{ cbt.category }}</p>
       <p class="truncate">{{ cbt.excerpt }}</p>
     </a>
@@ -55,7 +55,7 @@
         <span class="card-title">{{ doc.category }}</span>
         {{ doc.excerpt | markdownify }}
       </div>
-      <div class="card-action grey lighten-3">
+      <div class="card-action">
         <a href="{{ doc.url_english }}" target="_blank">English</a>
         <a href="{{ doc.url_spanish }}" target="_blank">EspaÑol</a>
       </div>

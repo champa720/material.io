@@ -35,6 +35,11 @@ i.material-icons.rotate {
   border-top: 5px solid $secondary-color;
 }
 
+.card .card-action,
+.modal .modal-footer {
+  background-color: color('grey', 'lighten-3');
+}
+
 .collection a.collection-item .title,
 .collection a.collection-item.avatar .title {
   font-size: 24px;
@@ -180,11 +185,11 @@ a.breadcrumb,
 }
 
 #hse {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: $primary-color;
   }
 
-  & #section /*#header-chapter*/ {
+  & #chapter /*#header-chapter*/ {
     background:
       /* top, transparent red */
       linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -201,7 +206,7 @@ a.breadcrumb,
 }
 
 #mathematics {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: color('deep-orange', 'darken-4');
   }
 
@@ -226,16 +231,25 @@ a.breadcrumb,
     }
   }
 
+  // Subject Varibles
+  & .secondary-content {
+      color: color('deep-orange', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('deep-orange', 'accent-2');
+  }
+
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('deep-orange', 'darken-2');
+    border-color: color('deep-orange', 'accent-2');
   }
 }
 
 #reading {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: color('blue', 'darken-4');
   }
 
@@ -260,16 +274,25 @@ a.breadcrumb,
     }
   }
 
+  // Subject Varibles
+  & .secondary-content {
+      color: color('blue', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('blue', 'accent-2');
+  }
+
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('blue', 'darken-2');
+    border-color: color('blue', 'accent-2');
   }
 }
 
 #science {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: color('purple', 'darken-4');
   }
 
@@ -294,16 +317,25 @@ a.breadcrumb,
     }
   }
 
+  // Subject Varibles
+  & .secondary-content {
+      color: color('purple', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('purple', 'accent-2');
+  }
+
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('purple', 'darken-2');
+    border-color: color('purple', 'accent-2');
   }
 }
 
 #social-studies {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: color('green', 'darken-4');
   }
 
@@ -328,16 +360,25 @@ a.breadcrumb,
     }
   }
 
+  // Subject Varibles
+  & .secondary-content {
+      color: color('green', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('green', 'accent-2');
+  }
+
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('green', 'darken-2');
+    border-color: color('green', 'accent-2');
   }
 }
 
 #writing {
-  & #index, #chapter, #section {
+  & #index, #chapter, #lesson, #section {
     background-color: color('red', 'darken-4');
   }
 
@@ -355,11 +396,20 @@ a.breadcrumb,
     }
   }
 
+  // Subject Varibles
+  & .secondary-content {
+      color: color('red', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('red', 'accent-2');
+  }
+
   & blockquote,
   .card.accent,
   .table-of-contents a,
   .table-of-contents a.active {
-    border-color: color('red', 'darken-2');
+    border-color: color('red', 'accent-2');
   }
 }
 
