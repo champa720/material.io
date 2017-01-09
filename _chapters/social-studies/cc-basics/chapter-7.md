@@ -4,8 +4,8 @@ author: McGraw-Hill Education
 
 subject: Social Studies
 category: Common Core Basics
-chapter: 6
-section: 6.0
+chapter: 7
+section: 7.0
 tag: Economics
 
 excerpt: "Economics in the Twenty-First Century reviews modern economics from national and global perspectives."
