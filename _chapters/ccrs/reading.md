@@ -1,11 +1,10 @@
 ---
 title: Reading Standards
-author: Adult Education Initiatives
 
-subject: HSE
-category: High School Equivalency
+subject: Lessons
+category: College and Career Readiness Standards
 chapter: 2
-section: 2.2
+section: 2.0
 tag: CCRS
 
 excerpt: "To become college and career ready, students need to grapple with works of exceptional craft and thought whose range extends across genres, cultures, and centuries. By engaging with increasingly complex readings, students gain the ability to evaluate intricate arguments and the capacity to surmount the challenges posed by complex texts."
@@ -33,10 +32,22 @@ strand, grade, and number (or standard number and letter, where applicable).
 
 {{ standard.description }}
 
-{% for level in standard.level-specific %}
-##### {{ level[0] }}
+<ul class="collapsible popout" data-collapsible="accordion">
 
-{% for description in level[1] %}
-- {{ description }}
+  {% for level in standard.level-specific %}
+  <li>
+    <div class="collapsible-header waves-effect"><i class="material-icons rotate">expand_more</i>{{ level[0] }}</div>
+    <div class="collapsible-body flow-text casper">
+      <ul>
 
-{% endfor %} {% endfor %} {% endfor %}
+        {% for description in level[1] %}
+        <li>{{ description }}</li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </li>
+  {% endfor %}
+
+</ul>
+{% endfor %}

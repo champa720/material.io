@@ -4,8 +4,8 @@ author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency
-chapter: 5
-section: 5.2
+chapter: 4
+section: 4.2
 tag: TASC
 
 source: http://www.tasctest.com/mathematics-for-test-takers.html

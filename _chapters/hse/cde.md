@@ -1,5 +1,5 @@
 ---
-title: High School Equivalency Testing Program
+title: HSE Testing Program
 
 subject: HSE
 category: High School Equivalency

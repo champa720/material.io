@@ -1,11 +1,10 @@
 ---
 title: Writing Standards
-author: Adult Education Initiatives
 
-subject: HSE
-category: High School Equivalency
-chapter: 2
-section: 2.3
+subject: Lessons
+category: College and Career Readiness Standards
+chapter: 3
+section: 3.0
 tag: CCRS
 
 excerpt: "To be college and career ready writers, students must take task, purpose, and audience into careful consideration, choosing words, information, structures, and formats deliberately. The Writing Standards cultivate the development of three mutually reinforcing writing capacities: crafting arguments, writing to inform and explain, and fashioning narratives about real or imagined experiences."
@@ -31,10 +30,22 @@ strand, grade, and number (or standard number and letter, where applicable).
 
 {{ standard.description }}
 
-{% for level in standard.level-specific %}
-##### {{ level[0] }}
+<ul class="collapsible popout" data-collapsible="accordion">
 
-{% for description in level[1] %}
-- {{ description }}
+  {% for level in standard.level-specific %}
+  <li>
+    <div class="collapsible-header waves-effect"><i class="material-icons rotate">expand_more</i>{{ level[0] }}</div>
+    <div class="collapsible-body flow-text casper">
+      <ul>
 
-{% endfor %} {% endfor %} {% endfor %}
+        {% for description in level[1] %}
+        <li>{{ description }}</li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </li>
+  {% endfor %}
+
+</ul>
+{% endfor %}

@@ -1,12 +1,12 @@
 ---
-layout: index
+layout: chapter
 title: High School Equivalency
 
 subject: HSE
 category: High School Equivalency
 chapter: 0
 section: 0.0
-tag: empty
+tag: HSE
 
 source:
   - https://www.cde.state.co.us/postsecondary/hse

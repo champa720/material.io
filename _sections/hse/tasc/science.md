@@ -4,8 +4,8 @@ author: Data Recognition Corporation
 
 subject: HSE
 category: High School Equivalency
-chapter: 5
-section: 5.4
+chapter: 4
+section: 4.4
 tag: TASC
 
 source: http://www.tasctest.com/science-for-test-takers.html

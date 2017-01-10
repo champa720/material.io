@@ -3,8 +3,8 @@ title: GED® Test Overview
 
 subject: HSE
 category: High School Equivalency
-chapter: 3
-section: 3.0
+chapter: 2
+section: 2.0
 tag: GED
 
 source: https://www.cde.state.co.us/postsecondary/hse

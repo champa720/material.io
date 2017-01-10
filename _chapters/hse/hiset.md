@@ -3,8 +3,8 @@ title: HiSET® Exam Overview
 
 subject: HSE
 category: High School Equivalency
-chapter: 4
-section: 4.0
+chapter: 3
+section: 3.0
 tag: HiSET
 
 source: https://www.cde.state.co.us/postsecondary/hse

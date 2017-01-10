@@ -3,8 +3,8 @@ title: TASC Test Overview
 
 subject: HSE
 category: High School Equivalency
-chapter: 5
-section: 5.0
+chapter: 4
+section: 4.0
 tag: GED
 
 source: https://www.cde.state.co.us/postsecondary/hse

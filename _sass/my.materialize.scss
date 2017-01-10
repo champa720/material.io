@@ -146,14 +146,13 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-
 // index
 
 #home {
-  background:
-    /* top, transparent red */
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    /* bottom, image */
-    color('grey', 'darken-4') url("/assets/img/denver-min.jpg") center / cover;
+  /* top, transparent red */
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  /* bottom, image */
+  color('grey', 'darken-4') url(  "/assets/img/denver-min.jpg") center / cover;
   color: color('grey', 'lighten-5');
 
-  & h1.page-title {
+  & #introduction, h1 {
     font-family: 'Architects Daughter', sans-serif;
     font-weight: 900;
   }
@@ -184,7 +183,7 @@ a.breadcrumb,
   }
 }
 
-#hse {
+#hse, #lessons {
   & #index, #chapter, #lesson, #section {
     background-color: $primary-color;
   }

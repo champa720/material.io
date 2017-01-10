@@ -4,8 +4,8 @@ author: GED Testing Service
 
 subject: HSE
 category: High School Equivalency
-chapter: 3
-section: 3.1
+chapter: 2
+section: 2.1
 tag: GED
 
 source: http://www.gedtestingservice.com/testers/about-ged-testing-service-test-taker
