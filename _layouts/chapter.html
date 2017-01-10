@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section id="{{ page.layout }}" class="row {{ page.category | slugify }}">
-  <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
+  <h1 class="col s12 l10 offset-l1">{{ page.title }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
     <a href="/{{ page.subject | slugify }}" class="breadcrumb">{{ page.subject }}</a>
     <span href="#" class="breadcrumb active">{{ page.category }}</span>
@@ -13,27 +13,34 @@ layout: default
       <div class="absolute">
         <div class="card accent">
           <div class="card-content flow-text">
-            <span class="card-title">{{ page.slug | upcase | replace: "-", " " }}</span>
-            <h2>{{ page.title }}</h2>
+            <h2 class="card-title">{{ page.slug | upcase | replace: "-", " " }}</h2>
             {{ content }}
           </div>
           <footer class="card-action">
-            <a href="#!">Card footer link</a>
+            {% if page.source %}<a href="{{ page.source }}">{{ page.source }}</a>{% else %}Source bot available{% endif %}
           </footer>
         </div>
       </div>
     </div>
   </article>
 
+  <!-- creates loop for site.pages by subject > category -->
+  {% assign page_subject = site.pages | where_exp: "pages", "pages.subject == page.subject" %}
+  {% assign page_category = page_subject | where_exp: "pages", "pages.category == page.category" | sort: "section" %}
+
   <!-- creates loop for site.chapters by subject > category -->
-  {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-  {% assign category = subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
+  {% assign chapter_subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+  {% assign chapter_category = chapter_subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
 
   <aside class="col s12 m4 l3 offset-m8 offset-l8">
     <h4 class="white-text">Contents</h4>
     <ul class="table-of-contents truncate">
 
-      {% for chapter in category %}
+      {% for chapter in page_category %}
+      <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
+      {% endfor %}
+
+      {% for chapter in chapter_category %}
       <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
       {% endfor %}
 
