@@ -11,16 +11,10 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/rlalinkt
 ---
-  * Time: 150 minutes long and testing is broken down into three sections
-  * Format:
-    - Section 1: 35 minutes, tests all content
-    - Section 2: 45 minutes, Extended Response
-    - Break: 10 minutes
-    - Section 3: 60 minutes, tests all content
+
+{% include ged_hiset_tasc_data.html data="ged" subject="Reading" title="GED" %}
 
 *The time allotted for sections 1 and 3 may vary slightly, but the total test time will always be 150 minutes.*
-
-## Overview
 
 In alignment with career and college readiness standards, the GED® RLA assessment focuses on three essential groupings of skills:
 
@@ -40,7 +34,7 @@ Given these priorities, the GED® RLA Test adheres to the following parameters:
   * Roughly 80 percent of the items are written to a Depth of Knowledge cognitive complexity level 2 or higher.
   * Reading and writing standards, such as those found in the Career and College Ready Standards, will also be measured in the GED® Science Test.
 
-### Reading Comprehensin on the GED® RLA Test
+#### Reading Comprehensin on the GED® RLA Test
 
 The reading comprehension component of the GED® RLA Test is intended to measure two overarching reading standards that appear in the Career and College Ready Standards as Anchor Reading Standards 1 and 10, respectively:
 
@@ -49,7 +43,7 @@ The reading comprehension component of the GED® RLA Test is intended to measure
 
 These two high-level standards broadly govern all aspects of passage selection and item development in the reading comprehension component of the GED® RLA Test. As candidates are asked to determine the main idea, the point of view, the meaning of words and phrases, and other inferences and claims, they are asked to do so based on texts that span a range of complexity, including texts at the career and college-readiness level.
 
-### Writing on the GED® RLA Test
+#### Writing on the GED® RLA Test
 
 The writing component integrates reading and writing into meaningful tasks that require candidates to support their written analysis with evidence drawn from a given source text(s) of appropriate complexity provided in the test. Also, given the growing demand and use of technology in all levels of postsecondary education and careers, the GED® test is administered by computer. Therefore, as in the reading component of the RLA Test, the following two high-level standards, which correspond with Career and College Ready Standards 9 and 6 respectively, broadly govern all aspects of the writing tasks.
 
@@ -63,7 +57,7 @@ Candidate responses are scored by a multi-trait rubric that focuses on three ele
   * Trait 3: Clarity and Command of Standard English
 
 
-### Language Conventions and Usage on the GED® RLA Test
+#### Language Conventions and Usage on the GED® RLA Test
 
 The language component of the GED® RLA Test measures a candidate’s ability to demonstrate command of a foundational set of conventions of standard English that have been identified as most important for career and college readiness by higher education instructors of post-secondary entry-level, credit-bearing composition courses. This core set of skills includes essential components of grammar, usage, capitalization and punctuation.
 

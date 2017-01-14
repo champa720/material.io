@@ -3,8 +3,8 @@ title: Mathematics Standards
 
 subject: Lessons
 category: College and Career Readiness Standards
-chapter: 1
-section: 1.0
+chapter: 2
+section: 2.0
 tag: CCRS
 
 excerpt: "Standards for Mathematical Practice, MP.1 - MP.8"

@@ -1,9 +1,12 @@
-<!-- creates loop for site.data by subject -->
+{% if page.layout == "section" %}<!-- creates loop for site.data by include.subject -->
+{% assign subject = site.data[include.data] | where_exp: "item", "item.subject == include.subject" %}
+{% else %}<!-- creates loop for site.data by page.subject -->
 {% assign subject = site.data[include.data] | where_exp: "item", "item.subject == page.subject" %}
+{% endif %}
 
 {% for data in subject %}
 <article class="section">
-  <h4 class="grey-text text-darken-1">{{ include.title }} Subtest Overview</h4>
+  <h4>{{ include.title }} Subtest Overview</h4>
   <div class="card">
     <div class="card-content">
       <span class="card-title">{{ data.title }}</span>
@@ -22,12 +25,15 @@
     </div>
     <div class="card-action">
       <a href="{{ data.testing_url }}" target="_blank">{{ data.testing_url }}</a>
+      <a href="{{ data.test_center }}" target="_blank">Locate a Testing Center</a>
     </div>
   </div>
 </article>
 
+{% if page.layout == "section" %}{% break %}{% endif %}
+
 <article class="section">
-  <h4 class="grey-text text-darken-1">{{ include.title }} Online Practice</h4>
+  <h4>{{ include.title }} Online Practice</h4>
   <div class="collection z-depth-1">
 
     {% for cbt in data.cbt %}
@@ -42,7 +48,7 @@
 </article>
 
 <article class="section">
-  <h4 class="grey-text text-darken-1">{{ include.title }} Printable Practice</h4>
+  <h4>{{ include.title }} Printable Practice</h4>
 
   {% for doc in data.docs %}
   <div class="card horizontal small">

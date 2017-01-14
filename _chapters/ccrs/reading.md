@@ -3,8 +3,8 @@ title: Reading Standards
 
 subject: Lessons
 category: College and Career Readiness Standards
-chapter: 2
-section: 2.0
+chapter: 3
+section: 3.0
 tag: CCRS
 
 excerpt: "To become college and career ready, students need to grapple with works of exceptional craft and thought whose range extends across genres, cultures, and centuries. By engaging with increasingly complex readings, students gain the ability to evaluate intricate arguments and the capacity to surmount the challenges posed by complex texts."

@@ -1,17 +1,20 @@
 ---
+permalink: ccrs/
 layout: chapter
-title: College and Career Readiness Standards for Adult Education
+title: Standards for Adult Education
 
 subject: Lessons
 category: College and Career Readiness Standards
-chapter: 0
-section: 0.0
+chapter: 1
+section: 1.0
 tag: CCRS
+
+icon: subject
 
 source: https://lincs.ed.gov/publications/pdf/CCRStandardsAdultEd.pdf
 
 ---
-#### Rationale for the Project
+### Rationale for the Project
 
 The importance of college and career readiness for adult students cannot be overstated. Increasingly, students entering the workforce are discovering that they need critical knowledge and skills that are used on a regular basis. They recognize that pursuing a career pathway that pays enough to support a family and provides genuine potential for advancement hinges on being able to perform the complex tasks identified by the CCSS as critical for postsecondary success. Leading economists who have examined labor market projections note that key college and career ready knowledge and skills are closely linked to being able to get the training necessary to earn a living wage in high-growth industries (Carnevale and Desrochers 2002, 2003). It is crucial, then, that adult education programs provide students the opportunity to acquire these skills to pursue their long-term career aspirations and goals.
 

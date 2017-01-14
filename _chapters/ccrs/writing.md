@@ -3,8 +3,8 @@ title: Writing Standards
 
 subject: Lessons
 category: College and Career Readiness Standards
-chapter: 3
-section: 3.0
+chapter: 4
+section: 4.0
 tag: CCRS
 
 excerpt: "To be college and career ready writers, students must take task, purpose, and audience into careful consideration, choosing words, information, structures, and formats deliberately. The Writing Standards cultivate the development of three mutually reinforcing writing capacities: crafting arguments, writing to inform and explain, and fashioning narratives about real or imagined experiences."

@@ -11,10 +11,7 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/socialstudieslink
 ---
-  * Time: 70 minutes long and is one single section
-  * Format: 35 questions
-
-## Overview
+{% include ged_hiset_tasc_data.html data="ged" subject="Social Studies" title="GED" %}
 
 The GED® Social Studies Test focuses on the fundamentals of social studies reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Social Studies Test is aligned to one social studies practice and one content topic.
 
@@ -41,7 +38,7 @@ Given these priorities, the GED® Social Studies Test follows these specificatio
   * Problem-solving skills are measured in both academic and workplace contexts.
   * Approximately 50 percent of the test items are based on scenarios in which a single stimulus (textual, graphic or a combination of both) serves to inform two or three items; the remaining approximately 50 percent of the items are discrete stand-alone items.
 
-### Social Studies Content Topics
+#### Social Studies Content Topics
 
 The social studies content topics describe key concepts that are widely taught in a variety of high-school level social studies courses and are relevant to the lives of GED® test-takers. They focus, in particular, on American civics and government. They are designed to provide context for measuring the skills defined in the social studies practices section of this document.
 

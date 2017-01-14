@@ -11,10 +11,7 @@ tag: HiSET
 source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
 ---
-  * Time: 120 minutes
-  * Format:
-    * Part 1: 50 questions, multiple-choice
-    * Part 2: 1 essay prompt
+{% include ged_hiset_tasc_data.html data="hiset" subject="Writing" title="HiSET" %}
 
 If you are taking the HiSET exam in English, the Writing subtest measures your skill in recognizing and producing effective, standard, American-written English and is in two parts. Spanish test takers may write their essay in Spanish.
 
@@ -31,7 +28,7 @@ The subtest questions are embedded in complete texts in the form of letters, ess
 
 In Part 2, you are asked to generate and organize ideas in writing. Your writing is assessed on development, organization, language facility and writing conventions.
 
-### Knowledge and Skills Tested
+#### Knowledge and Skills Tested
 
 Proficiency in persuasive and informative writing; analysis, synthesis and evaluation of:
 
@@ -40,10 +37,10 @@ Proficiency in persuasive and informative writing; analysis, synthesis and evalu
   * Language Facility
   * Conventions
 
-### Test Features
+#### Test Features
 
 Essay prompts and writing samples with accompanying questions
 
-### Evidence of Proficiency
+#### Evidence of Proficiency
 
 Test takers recognize correct and effective use of standard English in the context of a variety of written materials and are asked to make revisions. Test takers create written responses that are evaluated for development of ideas, organization of ideas, language facility and conventions.

@@ -11,14 +11,7 @@ tag: GED
 source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/mathlink
 ---
-  * Time: 115 minutes long and is one single section
-  * Format: 46 questions
-    * Part 1: First 5 test questions, calculator not allowed
-    * Part 2: Remaining 41 test questions, calculator allowed
-
-*As of Friday, February 21, 2014, the standard time allowance on the GED® test - Mathematical Reasoning was increased by 25 minutes. The time allowance for GED Ready® - Mathematical Reasoning was also increased by 13 minutes.*
-
-## Overview
+{% include ged_hiset_tasc_data.html data="ged" subject="Mathematics" title="GED" %}
 
 The GED® Mathematical Reasoning Test focuses on two major content areas: quantitative problem solving and algebraic problem solving.
 
@@ -41,7 +34,7 @@ Given these priorities, the GED® Mathematical Reasoning Test adheres to the fol
   * The time allowance for GED Ready&trade; - Mathematical Reasoning was also increased by 13 minutes.
   * Students who took either of these tests before February 21 received an email from GED Testing Service with instructions for receiving a free retake.
 
-### Mathematical Practices
+#### Mathematical Practices
 
 In addition to the content-based indicators, the GED® mathematics test also focuses on reasoning skills, as embodied by the GED® Mathematical Practices. The mathematical practices framework is based upon two sets of standards: the Standards for Mathematical Practice found in the Career and College Ready Standards for Mathematics; and the Process Standards found in the Principles and Standards for School Mathematics, published by the National Council of Teachers of Mathematics.
 
