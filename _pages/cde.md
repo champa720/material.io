@@ -9,7 +9,7 @@ chapter: 1
 section: 1.0
 tag: CDE
 
-icon: subject
+icon: info
 
 source: https://www.cde.state.co.us/postsecondary/hse
 
