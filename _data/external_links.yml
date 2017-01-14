@@ -4,12 +4,12 @@
     category: "Khan Academy: Arithmetic Essentials"
     excerpt: "Learning arithmetic means learning how to add, subtract, multiply, and divide. But we don't stop there. We'll get into negative numbers, decimals, and fractions, too."
     avatar: ka_avatar.jpg
-    url: "https://www.khanacademy.org/math/arithmetic"
+    url: "https://www.khanacademy.org/mission/arithmetic"
   -
     category: "Khan Academy: Algebra Basics"
     excerpt: "Algebra is a beautiful and important area of study with unlimited applications. One can spend a lifetime studying and exploring it (and some people do). If you're not one of them, and are looking to learn, review or practice the most core ideas in Algebra, you've found your home. This subject is ideal for anyone looking to prepare for a high school or college placement exam. It covers all of the foundational ideas in algebra and related topics in pre-algebra and geometry. If you're looking for more exhaustive coverage, then the Algebra I & II subjects may be better for you."
     avatar: ka_avatar.jpg
-    url: "https://www.khanacademy.org/math/algebra-home/algebra-basics"
+    url: "https://www.khanacademy.org/mission/algebra-basics"
     badge: true
   docs:
   -
