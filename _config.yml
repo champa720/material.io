@@ -1,9 +1,9 @@
 # Site settings
 title: "Jason's classroom"
 email: support@jasonsclassroom.com
-description: > 
+description: >
   A place to study for your High School Equivalency Diploma
-  
+
 baseurl: ""
 url: http://www.jasonsclassroom.com
 repository: champa720/hse-materialize
@@ -39,6 +39,7 @@ collections:
     permalink: /:path/
   lessons:
     output: true
+    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
@@ -46,7 +47,7 @@ collections:
     output: true
     permalink: /:path/
 defaults:
-      
+
   # Global
   -
     scope:
