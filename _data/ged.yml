@@ -5,14 +5,15 @@
     - "Part 1: First 5 test questions, calculator not allowed"
     - "Part 2: Remaining 41 test questions, calculator allowed"
   testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
     - category: GED Testing Services
-      excerpt: Mathematical Reasoning Practice Test 
+      excerpt: Mathematical Reasoning Practice Test
       avatar: gedts_avatar.jpg
       url: "http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html"
       url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html"
     - category: Learning Express Library
-      excerpt: Mathematical Reasoning Practice Test 
+      excerpt: Mathematical Reasoning Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/mathematical-reasoning/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-matem-tico/razonamiento-matem-tico"
@@ -33,6 +34,7 @@
     - "Break: 10 minutes"
     - "Section 3: 60 minutes, tests all content"
   testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
     - category: GED Testing Services
       excerpt: Reasoning through Language Arts Practice Test
@@ -84,8 +86,9 @@
   time: 90 minutes long and is one single section
   format:
     - 34 questions
-    - There are two Short Answer questions included on the test, but they are not timed separately 
+    - There are two Short Answer questions included on the test, but they are not timed separately
   testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
     - category: GED Testing Services
       excerpt: Science Practice Test
@@ -110,14 +113,15 @@
   time: 70 minutes long and is one single section
   format: 35 questions
   testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
     - category: GED Testing Services
-      excerpt: Social Studies Practice Test 
+      excerpt: Social Studies Practice Test
       avatar: gedts_avatar.jpg
       url:  "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html"
       url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html"
     - category: Learning Express Library
-      excerpt: Social Studies Practice Test 
+      excerpt: Social Studies Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/social-studies/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/estudios-sociales/examenes-de-practica"
@@ -137,6 +141,7 @@
     - "Break: 10 minutes"
     - "Section 3: 60 minutes, tests all content"
   testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
     - category: GED Testing Services
       excerpt: Reasoning through Language Arts Practice Test

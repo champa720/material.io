@@ -3,13 +3,14 @@
   time: 90 minutes
   format: 50 questions, multiple-choice
   testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
     - category: ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
       avatar: hiset_avatar.jpg
       url: "http://www.ets-cls.org/hiset/"
     - category: Learning Express Library
-      excerpt: Mathematics Practice Tests 
+      excerpt: Mathematics Practice Tests
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/mathematics-practice/hiset-mathematics-practice-questions"
   docs:
@@ -46,12 +47,13 @@
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
-      
+
 - subject: Reading
   title: "Language Arts: Reading"
   time: 65 minutes
   format: 40 questions, multiple-choice
   testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
     - category: ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
@@ -95,6 +97,7 @@
   time: 80 minutes
   format: 50 questions, multiple-choice
   testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
     - category: ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
@@ -133,6 +136,7 @@
   time: 70 minutes
   format: 50 questions, multiple-choice
   testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
     - category:  ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
@@ -173,6 +177,7 @@
     - "Part 1: 50 questions, multiple-choice"
     - "Part 2: 1 essay prompt"
   testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
     - category:  ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests

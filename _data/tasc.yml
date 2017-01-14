@@ -6,6 +6,7 @@
     - "Break: 15 minutes"
     - "Part 2: 50 minutes, 12 questions, gridded-response"
   testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Math"
       excerpt: Visit regularly to study new math topics as we build the library.
@@ -36,13 +37,14 @@
   time: 75 minutes
   format: 50 questions, multiple-choice
   testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Reading"
-      excerpt: 
+      excerpt:
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205853-study-reading"
     - category: "Recap Quiz: Language and Word Reading"
-      excerpt: 
+      excerpt:
       avatar: tasc_avatar.jpg
       url: "http://discover.tasctest.com/languageandword-quiz"
     - category: Learning Express Library
@@ -63,6 +65,7 @@
     - 47 questions, multiple-choice
     - 8 questions, stimuli
   testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Science"
       excerpt: Find science topics to study and quizzes to test your knowledge.
@@ -90,9 +93,10 @@
     - 47 questions, multiple-choice
     - 8 questions, stimuli
   testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Social Studies"
-      excerpt: 
+      excerpt:
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies"
     - category: Recap Quiz
@@ -117,9 +121,10 @@
     - "Part 1: 55 minutes, 50 questions, multiple-choice"
     - "Part 2: 50 minutes, 1 essay prompt"
   testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
   cbt:
     - category: "TASC Blog: Study Writing"
-      excerpt: 
+      excerpt:
       avatar: tasc_avatar.jpg
       url: "http://www.tasctest.com/blog.html#ufh-c-205856-study-writing"
     - category: Recap Quiz
