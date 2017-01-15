@@ -10,7 +10,7 @@ tag: Physical Science
 ---
 Mix flour, eggs butter and sugar in a bowl. Would you eat this mixture of food? Probably not! But, if you mix all of these ingredients together and then bake the mixture in the oven you would have a delicious cake! This is an example of chemistry taking place in your kitchen. Chemistry is simply the study of matter and how it can change forms. Changes in matter are illustrated by following a simple recipe, or by studying complex reactions that take place in a laboratory.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

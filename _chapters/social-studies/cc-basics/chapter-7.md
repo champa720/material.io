@@ -18,4 +18,4 @@ In this chapter, you will learn about how economies work on a national and inter
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

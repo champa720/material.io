@@ -10,7 +10,7 @@ tag: Physical Science
 ---
 Just about everything around us uses energy. We use energy to light up our homes, make our motor vehicles run, and cook our food. Both you and your car need energy to move, but the energy required to move your body is in a different form and comes from different sources than the energy required to move your car. Humans take in fuel in the form of food, and this food provides energy for the maintenance of our body and for everyday activities. Cars take in fuel in the form of gasoline, and this fuel gives the car the power to operate properly. All sources of energy on Earth come from the Sun.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

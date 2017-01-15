@@ -10,7 +10,7 @@ tag: Life Science
 ---
 The systems within the body work together to keep the body functioning. Eating healthful foods, staying active, and drinking plenty of water help to maintain the body systems. Good hygiene and regular hand washing can prevent diseases and help keep the body healthy. A healthy body is better able to regulate itself and to return to a normal state during times of stress or illness.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

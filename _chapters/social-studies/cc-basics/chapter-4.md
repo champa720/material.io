@@ -18,4 +18,4 @@ In this chapter, you will learn how urbanization changed the way people live. Yo
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

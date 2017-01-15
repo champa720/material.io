@@ -16,4 +16,4 @@ Throughout your life, you have had to adapt to numerous changes. As the United S
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

@@ -16,7 +16,7 @@ The GED is administered only on a computer, at approved testing centers. It cons
 
 ### Content Area Tests
 
-{% include section_links.html %}
+{% include section_collection.html %}
 
 ###  Minimum Passing Score
 

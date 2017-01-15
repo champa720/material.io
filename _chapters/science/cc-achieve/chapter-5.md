@@ -10,7 +10,7 @@ tag: Physical Science
 ---
 Pushing a car that is stuck or is broken down may look like hard work. But, in the physical world, no work occurs unless the car moves. Work occurs when a force is applied to move an object over a distance. Understanding the physics behind motion, force, and work can help you to better understand how people and machines do work.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

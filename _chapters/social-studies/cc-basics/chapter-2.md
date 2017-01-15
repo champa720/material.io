@@ -18,4 +18,4 @@ In this chapter, you will learn what shaped the United States from its earliest 
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

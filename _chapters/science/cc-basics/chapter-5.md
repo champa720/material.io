@@ -18,7 +18,7 @@ A genotype also includes information that is not expressed. It is the complete s
 
 In this chapter you will learn about:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

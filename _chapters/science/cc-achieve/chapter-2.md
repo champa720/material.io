@@ -10,7 +10,7 @@ tag: Life Science
 ---
 In every environment you will find many organisms that depend on each other and their surroundings. Diversity in populations is a key element to maintaining a healthy environment. However, when you study an ecosystem, you will notice that some populations are much larger than others even though food, water, and energy sources seem plentiful. You might also notice that changes or disruptions in an ecosystem can change the sizes and types of populations either very quickly or over time.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

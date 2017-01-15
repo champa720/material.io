@@ -20,7 +20,7 @@ Some organisms live in environments where oxygen is unavailable, making respirat
 
 In this chapter you will learn about:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

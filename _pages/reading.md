@@ -9,4 +9,10 @@ section: 0.0
 tag: empty
 
 icon: book
+
+library:
+-
+  category: "Poetry"
+  cover_image: "default.jpg"
+  excerpt: ""
 ---

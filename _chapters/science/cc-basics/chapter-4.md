@@ -18,7 +18,7 @@ In this chapter, you will study the variety of living things, from single-celled
 
 In this chapter you will learn about:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

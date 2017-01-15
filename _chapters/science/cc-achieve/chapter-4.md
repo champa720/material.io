@@ -10,7 +10,7 @@ tag: Life Science
 ---
 Humans all have the same basic physical features but, with the exception of identical twins, everyone looks different. Every living organism has physical characteristics that set it apart from other individuals. All of these observable traits are passed down, or inherited, from a parent to its offspring. Although each species has unique characteristics, scientists have discovered that all living things share common ancestors. In fact, all life on Earth can be traced back to a single organism.
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

@@ -17,7 +17,7 @@ The HiSET is administered on computer and paper, at approved testing centers. It
 
 ### Content Area Tests
 
-{% include section_links.html %}
+{% include section_collection.html %}
 
 ### Minimum Passing Score
 

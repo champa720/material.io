@@ -18,4 +18,4 @@ In this chapter, you will learn how the US government is structured. As you read
 
 In the chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

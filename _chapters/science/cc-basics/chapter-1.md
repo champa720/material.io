@@ -15,13 +15,13 @@ excerpt: "Human Body and Health teaches you about human body systems and how tho
 > "Get enough sleep."\\
 > "Wash your hands often."
 
-We certainly hear a lot of advice about how to keep our bodies working well! 
+We certainly hear a lot of advice about how to keep our bodies working well!
 
 The human body is a complex and unique set of structures and systems. Although humans are the most advanced of organisms, the study of human biology sheds light on the similarities among all life forms.
 
 In this chapter you will learn about:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
 
 ### Goal Setting
 

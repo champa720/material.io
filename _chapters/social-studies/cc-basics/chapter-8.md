@@ -18,4 +18,4 @@ Geography is the study of Earth and its features. Geographers study natural feat
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}

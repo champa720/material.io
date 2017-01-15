@@ -18,4 +18,4 @@ There are also patterns in economic history. Some are cyclical like the seasons.
 
 In this chapter you will study these topics:
 
-{% include section_links.html %}
+{% include section_collapsible.html %}
