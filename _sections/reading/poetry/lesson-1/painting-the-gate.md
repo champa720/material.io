@@ -3,12 +3,13 @@ title: Painting the Gate
 author: "May Swenson"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSf5CYpRzeLqLbT4uKKeYsI0tGh0EBiYbLu7cgjRTMMbx4UmDQ/viewform"
+
 ---
 I painted the mailbox. That was fun. \\
 I painted it postal blue. \\

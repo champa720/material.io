@@ -3,47 +3,48 @@ title: Ballad of Birmingham
 author: "Dudley Randell"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 2
 section: 2.1
-tag: Literary
+tag: Imagery
+
 ---
 *(On the bombing of a church in Birmingham, Alabama, 1963)*
 
 “Mother dear, may I go downtown \\
 Instead of out to play, \\
 And march the streets of Birmingham \\
-In a Freedom March today?” 
+In a Freedom March today?”
 
 “No, baby, no, you may not go, \\
-For the dogs are fierce and wild, 
+For the dogs are fierce and wild,
 And clubs and hoses, guns and jails \\
-Aren’t good for a little child.” 
+Aren’t good for a little child.”
 
 “But, mother, I won’t be alone. \\
 Other children will go with me, \\
 And march the streets of Birmingham \\
-To make our country free.” 
+To make our country free.”
 
 “No, baby, no, you may not go, \\
 For I fear those guns will fire. \\
 But you may go to church instead \\
-And sing in the children’s choir.” 
+And sing in the children’s choir.”
 
 She has combed and brushed her night-dark hair, \\
 And bathed rose petal sweet, \\
 And drawn white gloves on her small brown hands, \\
-And white shoes on her feet. 
+And white shoes on her feet.
 
 The mother smiled to know her child \\
 Was in the sacred place, \\
 But that smile was the last smile \\
-To come upon her face. 
+To come upon her face.
 
 For when she heard the explosion, \\
 Her eyes grew wet and wild. \\
 She raced through the streets of Birmingham \\
-Calling for her child. 
+Calling for her child.
 
 She clawed through bits of glass and brick, \\
 Then lifted out a shoe. \\

@@ -3,12 +3,13 @@ title: Changing Autumn Weather
 author: "D. George Higgins, International Library of Poetry."
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSfKjHWf4NoipUBC1EV9WxSddiEkpIt8dIAH-dvWuiLYmpUfvw/viewform"
+
 ---
 SEPTEMBER \\
 Rain sweeps across the roof \\

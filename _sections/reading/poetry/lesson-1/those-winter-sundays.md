@@ -3,12 +3,13 @@ title: Those Winter Sundays
 author: "Robert Hayden"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSdwPRlOdZ27CjHOImPMq9qdvg_S88e39A9EY0G9jyR3V5_NDQ/viewform"
+
 ---
 Sundays too my father got up early \\
 and put his clothes on in the blueblack cold, \\

@@ -3,10 +3,11 @@ title: Tribal Cementery
 author: "Janet Campbell-Hale"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 2
 section: 2.2
-tag: Literary
+tag: Imagery
+
 ---
 I lay my hand \\
 Upon \\

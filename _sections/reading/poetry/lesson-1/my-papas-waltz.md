@@ -3,12 +3,13 @@ title: My Papas Waltz
 author: "Theodore Roethke, The Collected Poems of Theodore Raethke."
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSdJyFlQ6LDMxHlhOp2ivdeC8BymT-2tYM-XoF71oHIRdwAfHA/viewform"
+
 ---
 The whiskey on your breath \\
 Could make a small boy dizzy; \\

@@ -3,10 +3,11 @@ title: The Death of the Hired Man
 author: "Robert Frost"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 2
 section: 2.7
-tag: Literary
+tag: Imagery
+
 ---
 Mary sat musing on the lamp-flame at the table \\
 Waiting for Warren. When she heard his step, \\
@@ -17,7 +18,7 @@ She pushed him outward with her through the door \\
 And shut it after her. "Be kind," she said. \\
 She took the market things from Warren’s arms \\
 And set them on the porch, then drew him down \\
-To sit beside her on the wooden steps. 
+To sit beside her on the wooden steps.
 
 "When was I ever anything but kind to him? \\
 But I’ll not have the fellow back," he said. \\

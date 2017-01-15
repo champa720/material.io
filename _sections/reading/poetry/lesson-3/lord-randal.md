@@ -3,10 +3,11 @@ title: Lord Randal
 author: "Author unknown"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.3
-tag: Literary
+tag: Figurative Language
+
 ---
 "O where have you been, Lord Randal, my son? \\
 O where have you been , my handsome young man?" - \\

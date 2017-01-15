@@ -3,10 +3,11 @@ title: Abuelito Who
 author: "Sandra Cisneros"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.1
-tag: Literary
+tag: Figurative Language
+
 ---
 Abuelito [^1] who throws coins like rain
 

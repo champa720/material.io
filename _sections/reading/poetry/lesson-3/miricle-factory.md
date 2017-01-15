@@ -3,10 +3,11 @@ title: Miricle Factory
 author: "Constance Urdang"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.5
-tag: Literary
+tag: Figurative Language
+
 ---
 Papa's got a job in a miracle-factory \\
 downtown someplace, one of those streets \\

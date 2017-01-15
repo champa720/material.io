@@ -3,10 +3,11 @@ title: maggie and milly and molly and may
 author: "e. e. cummings"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.2
-tag: Literary
+tag: Figurative Language
+
 ---
 maggie and milly and molly and may \\
 went down to the beach (to play one day)

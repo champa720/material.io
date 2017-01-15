@@ -3,12 +3,13 @@ title: Alone
 author: "Edgar Allen Poe"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSchE2-bctG9DRXRlcpKUnBiCgRQomnJvakYoRJCQTCoVdGtXw/viewform"
+
 ---
 From childhood's hour I have not been \\
 As others were - I have not seen \\

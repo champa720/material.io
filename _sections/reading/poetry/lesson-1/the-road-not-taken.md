@@ -3,12 +3,13 @@ title: The Road Not Taken
 author: "Robert Frost, The Poetry of Robert Frost."
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSe61Iuyf_6aFUzNy-bqrsJ-YIqk0t5E5CvuiUNyk6QYAG607A/viewform"
+
 ---
 Two roads diverged in a yellow wood, \\
 And sorry I could not travel both \\

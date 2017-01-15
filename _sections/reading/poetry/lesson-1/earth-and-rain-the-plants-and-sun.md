@@ -3,12 +3,13 @@ title: Earth and Rain, The Plants and Sun
 author: "Simon J. Ortiz, Woven Stone."
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSf0ODcDveHyMIzYVPOswX1A7rpRT7MAneJCxDy99P8lmJgpcA/viewform"
+
 ---
 Once near San Ysidro \\
 on the way to Colorado, \\

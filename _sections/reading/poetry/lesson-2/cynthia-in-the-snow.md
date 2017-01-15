@@ -3,10 +3,11 @@ title: Cynthia in the Snow
 author: "Gwendolyn Brooks"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 2
 section: 2.4
-tag: Literary
+tag: Imagery
+
 ---
 It SHUSHES \\
 It hushes \\

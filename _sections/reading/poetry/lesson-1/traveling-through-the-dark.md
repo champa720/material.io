@@ -3,12 +3,13 @@ title: Traveling Through the Dark
 author: "William Stafford"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSdt0lOuY1uKy9nMzficEH97q_aza-uxNRtB-a1P7f8JgojoXg/viewform"
+
 ---
 Traveling througH the dark I found a deer \\
 dead on the edge of Wilson River road. \\

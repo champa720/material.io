@@ -3,12 +3,13 @@ title: Recuerdo
 author: "Edna St. Vincent Millay, Collected Poems."
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 1
 section: 1.1
-tag: Literary
+tag: Tone
 
 form: "https://docs.google.com/forms/d/e/1FAIpQLSejOJc6vxADrMzqtk-pySZBb4ir7WvDDQy9VBRmIaieT6-c_g/viewform"
+
 ---
 We were very tired, we were very merry - \\
 We had gone back and forth all night on the ferry. \\

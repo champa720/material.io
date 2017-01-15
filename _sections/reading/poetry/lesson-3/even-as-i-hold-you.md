@@ -3,10 +3,11 @@ title: Even as I Hold You
 author: "Alice Walker"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.6
-tag: Literary
+tag: Figurative Language
+
 ---
 Even as I hold you \\
 I think of you as_someone gone \\

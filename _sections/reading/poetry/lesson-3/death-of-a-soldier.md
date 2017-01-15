@@ -3,10 +3,11 @@ title: Death of a Soldier
 author: "Wallace Stevens"
 
 subject: Reading
-category: 2002
+category: Poetry
 chapter: 3
 section: 3.4
-tag: Literary
+tag: Figurative Language
+
 ---
 Life contracts and death is expected, \\
 As in a season of autumn. \\
