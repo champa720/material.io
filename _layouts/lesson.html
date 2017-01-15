@@ -24,6 +24,7 @@ layout: default
         </div>
         <nav class="transparent z-depth-0">
           <div class="nav-wrapper">
+            <a href="{{ site.url }}" class="breadcrumb">Home</a>
             <a class="breadcrumb" href="/{{ page.collection }}">{{ page.collection | capitalize }}</a>
             <a class="breadcrumb" href="/{{ page.collection | append: "#"}}{{ page.subject | slugify }}">{{ page.subject }}</a>
             <span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="related-lessons" data-constrainwidth="false">{{ page.tag }}</a></span>
