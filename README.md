@@ -59,3 +59,53 @@ Writing: []
 
 HSE: [CDE, GED, HiSET, TASC]
 ```
+
+## Lesson front-matter
+
+```
+title:
+author:
+
+subject:
+category:
+chapter:
+section:
+tag:
+
+excerpt:
+
+section_overview:
+-
+  title: Materials
+  content:
+  -
+-
+  title: Standards
+  content:
+    - CCR Anchor 4
+    - CCR Anchor 5
+-
+  title: Objectives
+  content:
+    -
+-
+  title: Key Concept
+  content: ""
+-
+  title: Vocabulary
+  content:
+    Tier 2:
+      -
+    Tier 3:
+      -
+-
+  title: Evidence-Based Reading
+  content:
+-
+  title: 21st Century Skill
+  content:
+-
+  title: Writing Practice
+  content:
+
+```
