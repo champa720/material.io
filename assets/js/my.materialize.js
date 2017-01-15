@@ -51,11 +51,11 @@
     //   edge: 'left',
     //   closeOnClick: false
     // });
-    // $('.questions').sideNav({
-    //   menuWidth: 450,
-    //   edge: 'right',
-    //   closeOnClick: false
-    // });
+    $('#sidenav_questions').sideNav({
+       menuWidth: 450,
+       edge: 'right',
+       closeOnClick: false
+    });
     // Tabs
     // Transitions
     // Waves

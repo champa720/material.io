@@ -3,10 +3,9 @@ layout: default
 ---
 
 <!-- creates loop for site.lessons by subject > category > tag -->
-{% capture subject %}{{ page.subject | downcase }}{% endcapture %}
-{% assign subject_chapters = site.lessons | where_exp: "lessons", "lessons.subject == page.subject" %}
-{% assign subject_category = subject_chapters | where_exp: "lessons", "lessons.category == page.category" %}
-{% assign related_lessons = subject_category | where_exp: "lessons", "lessons.tag == page.tag" %}
+{% assign subject = site.lessons | where_exp: "lessons", "lessons.subject == page.subject" %}
+{% assign category = subject | where_exp: "lessons", "lessons.category == page.category" %}
+{% assign related_lessons = category | where_exp: "lessons", "lessons.tag == page.tag" %}
 
 <article>
   <header id="{{ page.layout }}" class="z-depth-1">
@@ -78,7 +77,7 @@ layout: default
 
           </div>
           <div class="card-action">
-            <a href="{{ page.url | remove: "/lessons"}}">{{ page.url | remove: "/lessons"}}</a>
+            <a href="{{ page.url | remove: "/lessons"}}" target="_blank">{{ page.url | remove: "/lessons"}}</a>
           </div>
         </div>
       </div>

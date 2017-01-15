@@ -1,4 +1,4 @@
-body {
+body, #questions.side-nav {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -7,7 +7,7 @@ body {
   text-rendering: geometricPrecision;
 }
 
-main {
+main, #questions.side-nav iframe {
   flex: 1 0 auto;
 }
 
@@ -33,11 +33,15 @@ i.material-icons.rotate {
 
 .card.accent {
   border-top: 5px solid $secondary-color;
+  & h2.card-title {
+    margin: 0px;
+  }
 }
 
 .card .card-action,
 .modal .modal-footer {
   background-color: color('grey', 'lighten-3');
+  font-size: 14px;
 }
 
 .collection a.collection-item .title,
@@ -47,7 +51,7 @@ i.material-icons.rotate {
   padding-bottom: 12px;
 }
 
-.btn, .card p, .card dl, .collapsible-header, .collection a.collection-item {
+.btn, .card p, .card ul, .card dl, .collapsible-header, .collection a.collection-item {
   font-size: 1.333rem;
 }
 
@@ -78,8 +82,25 @@ svg {
 
 // Typography
 
+h1 {
+  color: color('grey', 'lighten-5');
+}
+
+h2,h3,h4,h5,h6 {
+  color: color('grey', 'darken-1');
+}
+
+h1,h2,h3,h4,h5,h6,.btn,.card-title,.card-action,.collapsible-header,.collection a.collection-item {
+  font-family: Roboto, sans-serif;
+  -webkit-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -o-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+}
+
+// Typography flow-text
+
 .flow-text {
-  font-family: Merriweather,Roboto Slab,serif;
+  font-family: 'Roboto Mono', monospace;
   -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
@@ -116,53 +137,28 @@ svg {
         margin: 0;
       }
     }
-
-    & dl dt {
-      float: left;
-      width: 180px;
-      overflow: hidden;
-      clear: left;
-      text-align: right;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      font-weight: 700;
-      margin-bottom: 1em;
-    }
-
-    & dl dd {
-      margin-left: 200px;
-      margin-bottom: 1em
-    }
   }
-}
-
-h1,h2,h3,h4,h5,h6,.btn,.card-title,.collapsible-header,.collection a.collection-item {
-  font-family: Roboto, sans-serif;
-  -webkit-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
-  -moz-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
-  -o-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
 }
 
 // index
 
-#home {
+#home, #home nav, #home footer {
+  background: color('grey', 'darken-4');
+
+  & main {
   /* top, transparent red */
   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
   /* bottom, image */
-  color('grey', 'darken-4') url(  "/assets/img/denver-min.jpg") center / cover;
-  color: color('grey', 'lighten-5');
+  url(  "/assets/img/denver-min.jpg") center / cover;
+  }
 
-  & #introduction, h1 {
-    font-family: 'Architects Daughter', sans-serif;
+  & h1, h2, h3, h4, h5, h6, p {
+    color: color('grey', 'lighten-5');
     font-weight: 900;
   }
 }
 
 // Chapter Layout
-
-section h1 {
-  color: color('grey', 'lighten-5');
-}
 
 .table-of-contents li {
   padding: 5px 0;
@@ -419,6 +415,12 @@ article header {
   padding-bottom: 32px;
   text-transform: uppercase;
   color: color('grey', 'lighten-5');
+  & img {
+    line-height:42px;
+    width:42px;
+    height:42px;
+    margin:0px 15px;
+  }
 }
 
 // Index Layout

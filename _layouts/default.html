@@ -11,33 +11,42 @@
 
     </main>
 
+    <!-- creates loop for hse_menu by subject  -->
+    {% assign hse_menu = site.pages | where_exp: "item", "item.subject == 'HSE'" %}
+    <!-- creates loop for hse_menu by subject  -->
+    {% assign instructor_menu = site.pages | where_exp: "item", "item.subject == 'Lessons'" | sort: "chapter" %}
     <!-- creates loop for subject_menu by subject > category -->
     {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
-    <!-- creates loop for hse_menu by subject -->
-    {% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" | sort: "chapter" %}
 
     {% unless page.layout == "chapter" %}
     <footer class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col s12 m5">
-            <h4 class="truncate">About HSE</h4>
-              <div class="collection">
+            <h6 class="truncate">About HSE</h6>
+            <div class="collection">
 
-                {% for hse in hse_menu %}
-                <a href="{{ hse.url }}" class="collection-item truncate waves-effect{% if hse.url == page.url %} active{% endif %}"><i class="material-icons left">subject</i>{{ hse.title }}</a>
-                {% endfor %}
+              {% for menu in hse_menu %}
+              <a href="{{ menu.url }}" class="collection-item truncate waves-effect{% if page.url == menu.url %} active{% endif %}"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
+              {% endfor %}
+
+            </div>
+            <h6 class="truncate">Instructor Resources</h6>
+            <div class="collection">
+
+              {% for menu in instructor_menu %}
+              <a href="{{ menu.url }}" class="collection-item truncate waves-effect{% if page.url == menu.url %} active{% endif %}"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
+              {% endfor %}
 
             </div>
           </div>
           <div class="col s12 m5 offset-m1">
-            <h4 class="truncate">Subject Resources</h4>
+            <h6 class="truncate">Subject Resources</h6>
             <div class="collection">
 
-              {% for subject in subject_menu %}
-              <a href="{{ subject.url }}" class="collection-item truncate waves-effect{% if subject.url == page.url %} active{% endif %}"><i class="material-icons left">{{ subject.icon }}</i>{{ subject.title }}</a>
+              {% for menu in subject_menu %}
+              <a href="{{ menu.url }}" class="collection-item truncate waves-effect{% if page.url == menu.url %} active{% endif %}"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
               {% endfor %}
-
 
             </div>
           </div>

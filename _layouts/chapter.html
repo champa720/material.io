@@ -3,10 +3,11 @@ layout: default
 ---
 
 <section id="{{ page.layout }}" class="row {{ page.category | slugify }}">
-  <h1 class="col s12 l10 offset-l1">{{ page.title }}</h1>
+  <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
+    <a href="{{ site.url }}" class="breadcrumb">Home</a>
     <a href="/{{ page.subject | slugify }}" class="breadcrumb">{{ page.subject }}</a>
-    <span href="#" class="breadcrumb active">{{ page.category }}</span>
+    <span href="#" class="breadcrumb active">{{ page.title }}</span>
   </nav>
   <article class="col s12 m8 l7 offset-l1">
     <div class="relative">
@@ -17,7 +18,7 @@ layout: default
             {{ content }}
           </div>
           <footer class="card-action">
-            {% if page.source %}<a href="{{ page.source }}">{{ page.source }}</a>{% else %}Source bot available{% endif %}
+            {% if page.source %}<a href="{{ page.source }}" target="_blank">Source: {{ page.source }}</a>{% else %}Source not available{% endif %}
           </footer>
         </div>
       </div>
@@ -25,22 +26,22 @@ layout: default
   </article>
 
   <!-- creates loop for site.pages by subject > category -->
-  {% assign page_subject = site.pages | where_exp: "pages", "pages.subject == page.subject" %}
-  {% assign page_category = page_subject | where_exp: "pages", "pages.category == page.category" | sort: "section" %}
+  {% assign subject = site.pages | where_exp: "pages", "pages.subject == page.subject" %}
+  {% assign pages_category = subject | where_exp: "pages", "pages.category == page.category" | sort: "section" %}
 
   <!-- creates loop for site.chapters by subject > category -->
-  {% assign chapter_subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-  {% assign chapter_category = chapter_subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
+  {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+  {% assign category = subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
 
   <aside class="col s12 m4 l3 offset-m8 offset-l8">
     <h4 class="white-text">Contents</h4>
     <ul class="table-of-contents truncate">
 
-      {% for chapter in page_category %}
+      {% for chapter in pages_category %}
       <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
       {% endfor %}
 
-      {% for chapter in chapter_category %}
+      {% for chapter in category %}
       <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
       {% endfor %}
 
@@ -48,27 +49,37 @@ layout: default
   </aside>
 </section>
 
+<!-- creates loop for hse_menu by subject  -->
+{% assign hse_menu = site.pages | where_exp: "item", "item.subject == 'HSE'" %}
+<!-- creates loop for hse_menu by subject  -->
+{% assign instructor_menu = site.pages | where_exp: "item", "item.subject == 'Lessons'" | sort: "chapter" %}
 <!-- creates loop for subject_menu by subject > category -->
 {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
-<!-- creates loop for hse_menu by subject  -->
-{% assign hse_menu = site.chapters | where_exp: "item", "item.subject == 'HSE'" | sort: "chapter" %}
 
 <aside class="section">
   <div class="row">
     <div class="col s12 m4 l3 offset-m8 offset-l8">
-      <h4 class="truncate grey-text text-darken-1">About HSE</h4>
+      <h6 class="truncate grey-text text-darken-1">About HSE</h6>
       <div class="collection">
 
-        {% for hse in hse_menu %}
-        <a href="{{ hse.url }}" class="collection-item truncate waves-effect{% if page.url == hse.url %} active{% endif %}"><i class="material-icons left">subject</i>{{ hse.title }}</a>
+        {% for menu in hse_menu %}
+        <a href="{{ menu.url }}" class="collection-item truncate waves-effect"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
         {% endfor %}
 
       </div>
-      <h4 class="truncate grey-text text-darken-1">Subject Resources</h4>
+      <h6 class="truncate grey-text text-darken-1">Instructor Resources</h6>
       <div class="collection">
 
-        {% for subject in subject_menu %}
-        <a href="{{ subject.url }}" class="collection-item truncate waves-effect{% if page.url == subject.url %} active{% endif %}"><i class="material-icons left">{{ subject.icon }}</i>{{ subject.title }}</a>
+        {% for menu in instructor_menu %}
+        <a href="{{ menu.url }}" class="collection-item truncate waves-effect"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
+        {% endfor %}
+
+      </div>
+      <h6 class="truncate grey-text text-darken-1">Subject Resources</h6>
+      <div class="collection">
+
+        {% for menu in subject_menu %}
+        <a href="{{ menu.url }}" class="collection-item truncate waves-effect"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
         {% endfor %}
 
       </div>
