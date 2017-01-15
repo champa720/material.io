@@ -7,6 +7,9 @@ category: Common Core Achieve
 chapter: 5
 section: 5.0
 tag: Physical Science
+
+cover_image: cca-science.jpg
+
 ---
 Pushing a car that is stuck or is broken down may look like hard work. But, in the physical world, no work occurs unless the car moves. Work occurs when a force is applied to move an object over a distance. Understanding the physics behind motion, force, and work can help you to better understand how people and machines do work.
 

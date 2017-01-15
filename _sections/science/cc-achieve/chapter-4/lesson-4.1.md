@@ -8,33 +8,11 @@ chapter: 4
 section: 4.1
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Genes are sub-units of DNA, which is found in nearly every cell type in every living organism. Each gene or combination of genes contains a specific code that specifies the characteristics of a particular trait. Learn how genes are passed from parents to offspring, and how the combination of genes in each offspring is what makes it different from its parents."
 
-objectives:
-- Describe how Mendel's research contributed to modern genetics
-- Explain the link between chromosomes, genes, and alleles
-- Relate meiosis to the inheritance of traits
-
-skills:
-- Describe a Data Set Statistically
-- Apply Scientific Processes
-
-key_terms:
-- allele
-- gene
-- genetics
-- heredity
-- trait
-
-vocabulary:
-- statistics
-
-key_concept:
-- concept: >
-    Some characteristics of organisms are passed from parents to offspring. How this occurs and characteristics of offspring can be studied on the molecular level.
-
 ---
-
 ## Traits, Heredity, and Genetics
 
 People tend to look like other members of their family because they share similar traits. A person's-or any other organism's-traits are their heritable characteristics. The color of your eyes, the shape of your nose, and the texture of your hair are just some of your many traits. Some traits are not visible. For example, your blood type is a trait, but not one you can see just by looking. Traits are different from learned characteristics. Learned characteristics, such as the ability to play an instrument or drive a car, are things you learn and are not heritable.

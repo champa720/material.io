@@ -8,6 +8,8 @@ chapter: 1
 section: 1.1
 tag: Tone
 
+cover_image: "poetry.jpg"
+
 form: "https://docs.google.com/forms/d/e/1FAIpQLSfKjHWf4NoipUBC1EV9WxSddiEkpIt8dIAH-dvWuiLYmpUfvw/viewform"
 
 ---

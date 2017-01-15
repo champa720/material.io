@@ -8,6 +8,8 @@ chapter: 1
 section: 1.2
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "The human body is a dynamic system continuously processing nutrients, wastes, and gases. This lesson identifies the organs and processes involved in digestion, respiration, excretion, and circulation."
 
 ---

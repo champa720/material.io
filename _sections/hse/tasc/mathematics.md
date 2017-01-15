@@ -8,8 +8,11 @@ chapter: 4
 section: 4.2
 tag: TASC
 
+cover_image: tasc_avatar.jpg
+
 source: http://www.tasctest.com/mathematics-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
+
 ---
 {% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
 

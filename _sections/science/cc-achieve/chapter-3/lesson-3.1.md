@@ -8,30 +8,11 @@ chapter: 3
 section: 3.1
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Once the microscope was invented, scientists were able to see that each living organism was made up of very tiny units called cells. Learn how cells are grouped into several levels, including tissues, organs and body systems in multi-cellular organisms."
 
-objectives:
-- Explain the principles of the cell theory
-- Describe the levels of cellular organization in animals
-
-skills:
-- Understand and Apply Scientific Models, Theories, and Processes
-- Analyze Author's Purpose
-
-key_terms:
-- cells
-- cell theory
-- spontaneous generation
-
-vocabulary:
-- subdivide
-
-key_concept:
-- concept: >
-    Your tissues, organs, and body systems all have one thing in common-they are composed of cells. Cells are the basic units of structure and organization of all living organisms.
-
 ---
-
 ## Cell Discovery and Cell Theory
 
 The invention of the microscope in the seventeenth century was a great help in the study of living organisms. For the first time, biologists could see beyond the limits of the human eye. The discovery of cells, the smallest living unit that carries on the activities of an organism, would not have been possible without the work of many scientists and the development of the right scientific tools, such as the microscope.
@@ -90,6 +71,4 @@ You may be wondering why many small cells group together in an organism instead 
 
 As a cell grows, the volume increases at a faster rate than the surface area. If the cell grows too large, it will require more materials than can pass through its surface area. Therefore there is a limit to how large a cell can grow. Instead of continuing to grow larger, cells form new cells that enable an organism to grow and develop tissues, organs, and body systems. The ratio of a cell's surface area to its volume is a factor that limits cell size. For example, when the sides of a cube double in length from 1 mm to 2 mm, the surface-area-to-volume ratio decreases from 6:1 to 3:1.
 
-![]() 
-
- 
+![]()

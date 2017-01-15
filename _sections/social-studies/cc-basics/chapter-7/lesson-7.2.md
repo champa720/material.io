@@ -8,39 +8,10 @@ chapter: 7
 section: 7.2
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Greater economic globalization has meant more companies and workers are involved in the exchange of goods and services between countries. The pace of globalization has increased with new technologies. Global institutions such as the World Bank, the International Monetary Fund, the World Trade Organization, and the United Nations help maintain the global economy."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 7
-  toc_type: Lesson
-  toc_number: 7.2
-  pages: 274 - 277
-
-objectives:
-- Explain the main components of economic globalization
-- Identify institutions that support globalization
-- Recognize the potential benefits and costs of globalization
-
-skills:
-- core: Interpret Graphics
-- reading: Recognize Unstated Assumptions
-
-vocabulary:
-- assumption
-- foreign direct investment
-- globalization
-- stabilize
-
-key_concept:
-- concept: >
-    Globalization creates more integrated and interdependent global markets. However, it can have negative effects on workers and on the environment
-
-- example: >
-    A school relies on many people to provide the best possible learning experience for its students. Teachers, administrators, librarians, custodians, and cafeteria workers all contribute to the process of educating children.
-    <br /><br />
-    Similarly, many people, businesses, and institutions around the world help one another. They combine their efforts to support businesses, health core, and education. Globalization benefits billions of people around the world, but it does not always lead to prosperity.
 ---
 ## Economic Globalization
 

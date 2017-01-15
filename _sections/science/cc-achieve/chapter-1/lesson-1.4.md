@@ -8,29 +8,10 @@ chapter: 1
 section: 1.4
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Homeostasis is responsible for keeping balance between all body systems and the environment. Learn how different body systems maintain body temperature, oxygen levels, and other values that are essential for our survival."
 
-objectives:
-- Explain why homeostasis is vital for living organism survival
-- Understand how organisms adjust to changes 
-
-skills:
-- Evaluate Evidence
-- Express Scientific Information or Findings Visually
-
-key_terms:
-- homeostasis
-- negative-feedback mechanism
-- positive-feedback mechanism
-
-vocabulary:
-- infer
-- response
-- stimulus
-
-key_concept:
-- concept: >
-    Human body systems work to maintain a balanced state of internal physiological conditions even when there are changes in the external or internal environment.
 ---
 ## Homeostasis
 

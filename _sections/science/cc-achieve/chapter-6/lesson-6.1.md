@@ -10,32 +10,11 @@ chapter: 6
 section: 6.1
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "There are many different types of potential and kinetic energy. Every action is connected to energy in one form or another. Learn that energy in the physical world can never be created or destroyed, but it can change from one type of energy to another."
 
-objectives:
-- List how kinetic and potential energy act with matter
-- Identify and compare various types of energy
-
-skills:
-- Identify the Strengths and Weaknesses of a Scientific Investigation
-- Interpret Meaning of Mathematical Symbols
-
-key_terms:
-- law of conservation of energy
-- energy transformation
-- kinetic energy
-- mechanical energy
-- potential energy
-
-vocabulary:
-- anticipate
-
-key_concept:
-- concept: >
-    There are many types of energy that cause changes in the world around us. Energy of one type can be transformed into energy of another type, but the total amount of energy cannot be changed.
-
 ---
-
 ## What Is Energy?
 
 A car races by. A light is switched on. Sound filters out from speakers. These are all forms of energy-motion, light, and sound. Energy is the ability to make things happen. Every action is connected to energy in one form or another. Objects can have energy due to their movement or their position.
@@ -52,7 +31,7 @@ If two objects have equal mass, the object that is moving faster has more kineti
 
 ### Potential Energy
 
-Potential energy is energy an object has due to its position. Potential energy does not involve motion, it is dependent on the interaction between two objects and the forces involved. This is considered stored energy. 
+Potential energy is energy an object has due to its position. Potential energy does not involve motion, it is dependent on the interaction between two objects and the forces involved. This is considered stored energy.
 
 Consider a book on a table. Together, the book and Earth have potential energy. Gravitational potential energy is the energy resulting from the gravitational forces between two objects. Raising an object above the ground increases the gravitational potential energy because work has been done on the object against the force of gravity. Gravity is a force that is described as a field, meaning there is a region in space that has this force at every point.
 
@@ -154,7 +133,7 @@ It can take some detective work to follow the path of energy as it changes forms
 
 ### Energy Transformation
 
-We observe changes in energy all the time. For example, when an object moves against gravity, some of its kinetic energy is transformed to potential energy. An electric circuit that includes a light bulb transforms electrical energy into radiant energy and thermal energy. The change of one form of energy to another form of energy is called energy transformation. 
+We observe changes in energy all the time. For example, when an object moves against gravity, some of its kinetic energy is transformed to potential energy. An electric circuit that includes a light bulb transforms electrical energy into radiant energy and thermal energy. The change of one form of energy to another form of energy is called energy transformation.
 
 Energy can change forms in many different ways. Energy conversions occur continually in living things. The human body provides many examples of energy transformations. The body takes in chemical potential energy in the form of food. The food is transformed into other chemicals in the digestive system. Sugars provide chemical energy for bodily functions, and fats store potential energy for future use. The heart and other muscles convert chemical energy to kinetic energy as blood circulates and the body moves. Some of the body's energy is transformed to sound. The body releases thermal energy in the form of heat. Nerves use electrical energy to communicate within the body.
 

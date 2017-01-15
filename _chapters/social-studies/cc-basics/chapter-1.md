@@ -8,9 +8,10 @@ chapter: 1
 section: 1.0
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "US Government and Civics describes government at the local, state, and national levels and the responsibilities of citizenship."
 
-pages: 16 - 71
 ---
 Think about a time you worked with a group of people to get something done. Maybe you worked on a project at school, for your job, or with your family members. Did everyone work together and share ideas, or did one person make all the decisions and tell everyone else what to do? Usually people think it is unfair for one person to take control of a group. In a similar way, the US government divides its responsibilities and powers so one branch or one group does not have too much power.
 

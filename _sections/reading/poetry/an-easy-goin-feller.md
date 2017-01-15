@@ -1,5 +1,7 @@
 ---
 author: "Paul Lawrence Dunbar"
+cover_image: "poetry.jpg"
+
 ---
 THER' ain't no use in all this strife,
 

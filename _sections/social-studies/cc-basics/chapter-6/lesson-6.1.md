@@ -8,7 +8,10 @@ chapter: 6
 section: 6.1
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Economies experience ups and downs. This pattern of boom and bust is called the business cycle. At the low point in the cycle, the economy may enter a recession or even a depression. During the Great Depression of the 1930s, the US government drew on the ideas of economist John Maynard Keynes to develop policies that would help the country."
+
 ---
 ## Gross Domestic Product
 

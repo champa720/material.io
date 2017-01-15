@@ -8,40 +8,10 @@ chapter: 7
 section: 7.1
 tag: Economics
 
-excerpt: "A number of indicators can show a country's economic health. These include the unemployment rate, the gro~s domestic product, and the rate of inflation or deflation. Economic growth is based on efficient use of natural resources, labor, and capital goods."
+cover_image: ccb-social-studies.jpg
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 7
-  toc_type: Lesson
-  toc_number: 7.1
-  pages: 270 - 273
+excerpt: "A number of indicators can show a country's economic health. These include the unemployment rate, the grows domestic product, and the rate of inflation or deflation. Economic growth is based on efficient use of natural resources, labor, and capital goods."
 
-objectives:
-- Compare and contrast the main types of unemployment
-- Describe how inflation and deflation affect the economy
-- Explain how an economy grows Skills
-
-skills:
-- core: Analyze Events and Ideas
-- reading: Use Context Clues to Understand Meaning
-
-vocabulary:
-- business cycle
-- deflation
-- full employment
-- inflation
-- meaning
-
-key_concept:
-- concept: >
-    The US economy is considered healthy when it achieves full employment, price stability, and economic growth.
-
-- example: >
-    A healthy person hos certain characteristics, such as a normal body temperature and the absence of symptoms like coughing, sneezing, and fatigue. When you catch a cold, you may develop a fever and you might start experiencing uncomfortable symptoms.
-    <br /><br />
-    Similarly, when economists determine the overall health of the economy, they look at certain characteristics, for instance, positive or negative changes in the unemployment rate, price levels, and economic growth rate. These factors help economists evaluate how well our economy is performing.
 ---
 ## A Healthy Economy
 

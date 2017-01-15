@@ -8,7 +8,10 @@ chapter: 3
 section: 3.1
 tag: HiSET
 
+cover_image: hiset_avatar.jpg
+
 source: http://hiset.ets.org/about/overview
+
 ---
 ## Why Take the HiSET Exam?
 

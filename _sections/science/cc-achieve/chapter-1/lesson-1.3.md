@@ -8,33 +8,11 @@ chapter: 1
 section: 1.3
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "The endocrine system controls hormones that carry messages throughout the body. Learn how hormones regulate growth and development."
 
-objectives:
-- Identify components and functions of the endocrine and reproductive systems
-- Describe how each system works with other body systems
-
-skills:
-- Reconcile Multiple Findings
-- Compare and Contrast Information
-
-vocabulary:
-- gamete
-- sex cell
-- glands
-- hormones
-- placenta
-
-key_terms:
-- fetus
-- reconcile
-
-key_concept:
-- concept: >
-    The endocrine and reproductive systems are examples of body systems. Hormones in the endocrine system influence functions throughout the body, including the functions of the reproductive systems.
-    
 ---
-
 ## The Endocrine System
 
 The endocrine system is similar to the nervous system, in that both systems send messages around the body. The endocrine system releases chemicals called hormones into the bloodstream. When these hormones reach target cells within the body, receptors on the target cells react, triggering a particular body response. For example, when you are feeling nervous, the hormone epinephrine is released into the bloodstream. When epinephrine reaches receptors on target cells, your heart rate increases, and your skeletal muscles become tense as part of the fight-or-flight response.

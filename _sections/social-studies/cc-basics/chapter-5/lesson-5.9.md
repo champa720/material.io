@@ -8,7 +8,10 @@ chapter: 5
 section: 5.9
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Various economic tools allow individuals to manage their money. These include checking accounts, savings accounts, and credit cards."
+
 ---
 ## Personal Finance
 

@@ -8,6 +8,8 @@ chapter: 3
 section: 3.1
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "An ecosystem is a community of living things adapted to a specific environment. There are a variety of ecosystems on land and in water. Biomes are major ecological communities, identified by where they exist geographically. This lesson discusses the organization of ecosystems and describes the biomes of the world."
 
 ---

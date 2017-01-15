@@ -8,41 +8,10 @@ chapter: 4
 section: 4.3
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The US government forms relationships with other nations around the world. The president generally takes the lead in setting foreign policy goals. The president appoints ambassadors to other countries and is the commander in chief of the armed forces."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 4
-  toc_type: Lesson
-  toc_number: 4.3
-  pages: 164 - 169
-
-objectives:
-- Identify the role of the president in foreign affairs
-- Understand the responsibilities of the State Department
-- Describe the role of Congress in foreign affairs
-
-skills:
-- core: Analyze Events and Ideas
-- reading: Make Comparisons
-
-vocabulary:
-- alike
-- authorization
-- different
-- executive agreement
-- implement
-- negotiate
-- quota
-- treaty
-
-key_concept:
-- concept: >
-    In a global society, the relationships between nations are extremely important. The US government uses many tools and policies to direct these international relations.
-
-- example: >
-    You hove many relationships in your life. At times, balancing oil these relationships con be tricky. For example, your mother may expect you to help her on the some day that your boss wants you to work extra hours. If everyone involved is reasonable, a compromise may be worked out. At times, however, someone may make compromise difficult.<br /><br />In international relations, governments must o~en compromise to find on acceptable solution to the many challenges that arise. When compromise is not possible, the consequences con be serious. Failure to find compromise con lead to war.
 ---
 ## US Roles in International Relations
 

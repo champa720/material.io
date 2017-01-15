@@ -8,34 +8,11 @@ chapter: 4
 section: 4.2
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Scientists can look at two parent organisms and predict the characteristics of their offspring. Learn how to use a Punnett square to determine the probability that the offspring of two parents will inherit certain traits."
 
-objectives:
-- Identify traits and describe their relationship to alleles
-- Analyze the probability of traits using Punnett squares
-- Predict the traits of offspring based on the parents
-- Analyze multiple traits and other patterns of heredity
-
-skills:
-- Use Percents
-- Determine the Probability of Events
-
-key_terms:
-- genotype
-- mono-hybrid cross
-- phenotype
-- Punnett square
-
-vocabulary:
-- percent
-- probability
-
-key_concept:
-- concept: >
-    Some traits are inherited. The probability of inheriting a trait can be calculated.
-
 ---
-
 ## Inheriting Traits
 
 Every person has a set of characteristics, or physical traits, that allows you to identify that person. Height and hair color are two of these traits. Specific examples of these physical traits, such as blond hair or short height, are called the phenotype of the person.
@@ -122,7 +99,7 @@ Directions: Answer the following question.
 
   1. If two people with no freckles and dry earwax have a child, what is the probability that the child would have the same phenotype as the parents?  
     A. 0 percent
-    B. 25 percent 
+    B. 25 percent
     C. 56 percent
     D. 100 percent
 </div>

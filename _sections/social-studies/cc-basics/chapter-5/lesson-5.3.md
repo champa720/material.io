@@ -8,7 +8,10 @@ chapter: 5
 section: 5.3
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Until the 1930s, government had little role in the economy. This changed during the Great Depression when the government provided jobs for millions of unemployed workers and developed the Social Security system. Taxation pays for government programs."
+
 ---
 ## Government's Role in the Economy
 

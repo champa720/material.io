@@ -8,6 +8,8 @@ chapter: 2
 section: 2.3
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 I wandered lonely as a cloud \\
 That floats on high o'er vales and hills, \\

@@ -8,9 +8,10 @@ chapter: 6
 section: 6.0
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Economic Events in History explores major economic events of the past and relates them to today's economy."
 
-pages: 242 - 267
 ---
 Looking back at your life, you may see patterns. For example, the cycle of seasons affects your life in many ways. In the long nights and cold days of winter, you choose different clothing and entertainment than in the long, hot days of summer. Another pattern relates to experience. You learn a new skill, and soon you find yourself moving on to more complicated skills. Children learn to walk, soon they run, and before long they can balance themselves on bicycles. Experience increases what we can do.
 

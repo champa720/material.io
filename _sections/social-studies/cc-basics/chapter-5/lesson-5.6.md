@@ -8,7 +8,10 @@ chapter: 5
 section: 5.6
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "To make a profit, a company must consider the factors of production (land, labor, and capital). It must also be concerned about incentive and morale."
+
 ---
 ## Making a Profit
 

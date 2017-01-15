@@ -8,7 +8,10 @@ chapter: 1
 section: 1.2
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The Constitution outlines the responsibilities and structure of the government. It also describes the rights of citizens. The Constitution can be changed, but changes have been made only a few times in more than two hundred years."
+
 ---
 ## The US Constitution
 

@@ -8,40 +8,10 @@ chapter: 4
 section: 4.2
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The United Nations, the world's largest diplomatic organization, was set up to keep peace between nations. Other international organizations have been formed for economic or military reasons."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 4
-  toc_type: Lesson
-  toc_number: 4.2
-  pages: 158 - 161
-
-objectives:
-- Identify types of international organizations
-- Understand the history and role of the United Nations
-- Recognize the importance of economic and military organizations
-
-skills:
-- core: Determine Central Ideas
-- reading: Understand the Main Idea
-
-vocabulary:
-- alliance
-- diplomatic
-- establish
-- foreign policy
-- obtain
-- ratify
-- supporting details
-
-key_concept:
-- concept: >
-    International organizations are made up of members from two or more nations. They are formed for diplomatic, economic, or military reasons.
-
-- example: >
-    Have you ever heard the expression "there's safety in numbers" or "there's strength in numbers"? These expressions mean that when people join together. they can help to keep one another safe. A group of people facing danger stands a better chance of survival than one lone person does.<br /><br />The United States and many other countries agree with this idea. They have formed international organizations, organizations whose members come from a variety of nations, to improve the well-being of people around the world.
 ---
 ## International Organizations
 
@@ -67,12 +37,12 @@ International economic organizations encourage world trade, find loans for econo
 
 The European Union (EU) is an organization of 27 nations from both Western and Eastern Europe. These countries have joined together to formulate common economic, social, and security policies. The organization has taken many steps to unify Europe. For example, the EU has its own currency: the euro. Major decisions for the union are made by the Council of Ministers. This group is composed of an ever-changing membership, depending on the issue under discussion.
 
-##### Military Alliances 
+##### Military Alliances
 
-Military alliances are formed to provide countries with defense and security. An alliance is a formal agreement that establishes an association between nations. The North Atlantic Treaty Organization (NATO) is a military alliance mad: up o: the United Sta:es, Canada, and 26 European nations. It was established m ~949. The United States entered into several international alliances following World War II with the goal of preventing future aggression from the Soviet Union.
+Military alliances are formed to provide countries with defense and security. An alliance is a formal agreement that establishes an association between nations. The North Atlantic Treaty Organization (NATO) is a military alliance mad: up o: the United States, Canada, and 26 European nations. It was established m ~949. The United States entered into several international alliances following World War II with the goal of preventing future aggression from the Soviet Union.
 
 ![Military Alliances after WWII](img/military-alliances.png){: .responsive-img .materialboxed }
 
 Members of NATO have agreed to settle disputes peacefully and to support each other in the event of attack from another country. This idea is set out in the North Atlantic Treaty, which states that "an armed attack against one or more of them in Europe or in North America shall be considered an attack against them all."
 
-Other international security alliances begun after World War II include the ANZUS Pact (which includes Australia, New Zealand, and the United States) and the Inter-American Treaty of Reciprocal Assistanc: (the Rio-Pact), which joins the United States, Canada, and much of Latin America.
+Other international security alliances begun after World War II include the ANZUS Pact (which includes Australia, New Zealand, and the United States) and the Inter-American Treaty of Reciprocal Assistance (the Rio-Pact), which joins the United States, Canada, and much of Latin America.

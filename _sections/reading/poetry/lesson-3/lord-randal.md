@@ -8,6 +8,8 @@ chapter: 3
 section: 3.3
 tag: Figurative Language
 
+cover_image: "poetry.jpg"
+
 ---
 "O where have you been, Lord Randal, my son? \\
 O where have you been , my handsome young man?" - \\

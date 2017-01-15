@@ -8,38 +8,10 @@ chapter: 3
 section: 3.5
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The terrorist attacks of September 11, 2001, led to US military action overseas, most notably in Afghanistan and Iraq. During the first decade of the new millennium, the United States and other nations experienced economic problems, which led to the Great Recession of 2009. In 2009, Barack Obama became the nation's first African American president."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 3
-  toc_type: Lesson
-  toc_number: 3.5
-  pages: 138 - 143
-
-objectives:
-- Understand the impact of the economic decline in the first decade of the twenty-first century
-- Summarize the effects of terrorism on US foreign policy 
-- Recognize the economic and environmental challenges facing the nation
-
-skills:
-- core: Analyze Point of View
-- reading: Identify Author's Bias
-
-vocabulary:
-- accountability
-- bias
-- economic stimulus
-- impact
-- insurgent
-- surge
-
-key_concept:
-- concept: > 
-    In the first decade of the twenty-first century, the United States experienced a terrorist attack, elected its first African American president, and suffered its largest economic decline since the Great Depression. 
-- example: >
-    Think about an issue that has affected you recently. How did it change your daily life? Did the government do anything to respond to the issue? Did that have any effect on you?<br /><br />The first decade of the twenty-first century was a turbulent time in the United States. Many important historical events occurred, events that affected people's priorities and way of life. These events also affected what people expected from their government.
 ---
 ## The Election of 2000
 
@@ -93,7 +65,7 @@ Americans were becoming increasingly aware of environmental issues. Drastic clim
 
 ![Wind Turbines](img/wind_turbines.jpg){: .responsive-img .materialboxed }
 
-[http://www.loc.gov/pictures/item/2010630507/](http://www.loc.gov/pictures/item/2010630507/){: target="_blank" }
+[http://www.loc.gov/pictures/item/2010630507/](http://www.loc.gov/pictures/item/2010630507/)
 
 #### Foreign Policy
 

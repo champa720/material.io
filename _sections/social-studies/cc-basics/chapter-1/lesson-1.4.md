@@ -8,7 +8,10 @@ chapter: 1
 section: 1.4
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The Constitution names the powers given to the federal government. Other responsibilities belong to the state or local governments. Some powers, such as taxation, belong to all levels of government."
+
 ---
 ## Who Has Power?
 

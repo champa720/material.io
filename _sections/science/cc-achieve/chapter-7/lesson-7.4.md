@@ -8,32 +8,11 @@ chapter: 7
 section: 7.4
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Solutions can consist of any state of matter. When you mix a glass of instant ice tea you are making a solution of water and powdered tea mix. In this lesson you will learn about different types of solutions and their properties."
 
-objectives:
-- Describe solutions and how they form
-- Compare acids and bases
-
-skills:
-- Identify and Interpret Independent and Dependent Variables in Scientific Investigations
-- Determine Hypotheses
-
-key_terms:
-- acid
-- base
-- concentration
-- solubility
-- solution
-
-vocabulary:
-- saturation
-
-key_concept:
-- concept: >
-    A solution forms when one or more pure substances dissolve tn another pure substance. A solution can be a gas, a liquid, or a solid.
-
 ---
-
 ## Nature of Solutions
 
 What happens when sugar is poured into a cup of hot water? Gradually, the sugar seems to disappear. The sugar dissolves, or breaks apart, in the water. The molecules of sugar separate and mix with the water molecules. In time, they become uniformly mixed into a solution of water and sugar.

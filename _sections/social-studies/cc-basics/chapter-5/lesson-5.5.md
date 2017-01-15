@@ -8,7 +8,10 @@ chapter: 5
 section: 5.5
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "In a monopoly, one seller controls the market for a particular good or service. When there are many sellers providing similar goods or services, there is competition. Competition often leads to innovation."
+
 ---
 ## Monopolies and Competition
 

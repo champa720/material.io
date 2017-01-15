@@ -8,39 +8,10 @@ chapter: 3
 section: 3.4
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "During the 1970s, the United States dealt with inflation and an energy crisis brought on by rising oil prices. President Nixon resigned because of the Watergate scandal. In the 1980s, the United States became more conservative under Presidents Reagan and Bush. In the 1990s, the economy, helped by new technologies, grew and the nation prospered."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 3
-  toc_type: Lesson
-  toc_number: 3.4
-  pages: 132 - 137
-
-objectives:
-- Identify US domestic issues from the 1970s through the 2000s
-- Understand the issues and events important to the early environmental movement
-- Learn about the technological revolution
-
-skills:
-- core: Interpret Graphics
-- reading: Get Meaning from Context
-
-vocabulary:
-- conservative
-- conserve
-- definition
-- emissions
-- example
-- liberal
-- technology
-
-key_concept:
-- concept: >
-    From the 1970s through the 2000s, the United States faced difficult economic and environmental issues. Many of these issues continue to challenge the United States today. 
-- example: >
-    Many people ore not aware of a problem in their lives until there are obvious signs of it. However, the problem may hove been developing for some time. For example, individuals o~en hove to deal with difficult health problems or personal budget issues that began before they realized it. Once a person is aware of the problem, steps con be token to fix it.<br /><br />A country's economic or environmental problems often come about in the some way. Existing conditions build until they become noticeable. Then the country must work to fix the problem.
 ---
 ## Domestic Issues in the 1970s
 
@@ -50,9 +21,9 @@ The turmoil of the 1960s continued into the 1970s. Despite the progress made by 
 
 Before the 1972 election, Nixon and his staff were worried about Nixon's chances of winning. In June, five men broke into the Democratic Party's national headquarters in Washington, DC. They were caught and arrested. It soon was revealed that one of the men worked for the Committee to Re-elect the President. Nixon denied knowing anything about the break-in.
 
-After his re-election, a Senate committee continued to investigate the break-in. Information came out proving that Nixon had ordered a cover up. He had also told the Central Intelligence Agency (CIA) to stop their investigation of the break-in. Facing impeachmen t, Nixon resigned on  August 9, 1974.
+After his re-election, a Senate committee continued to investigate the break-in. Information came out proving that Nixon had ordered a cover up. He had also told the Central Intelligence Agency (CIA) to stop their investigation of the break-in. Facing impeachment, Nixon resigned on  August 9, 1974.
 
-Inflation and the Energy Crisis New federal government programs of the 1960s put large amounts of money into the economy. This led to inflation, which is a rise in the cost of goods and services. Energy costs were also rising. The United States depended on cheap oil imports, goods brought from a foreign count ry. A war in the Middle East caused oil prices to rise quickly. At one point, the Organization of Petroleum Exporting Countries (OPEC) stopped shipping fuel to the United States. When shipping resumed, prices contin ued to rise.
+Inflation and the Energy Crisis New federal government programs of the 1960s put large amounts of money into the economy. This led to inflation, which is a rise in the cost of goods and services. Energy costs were also rising. The United States depended on cheap oil imports, goods brought from a foreign count ry. A war in the Middle East caused oil prices to rise quickly. At one point, the Organization of Petroleum Exporting Countries (OPEC) stopped shipping fuel to the United States. When shipping resumed, prices continued to rise.
 
 ### Conservation and Alternative Energy
 
@@ -66,7 +37,7 @@ To help the economy, Reagan and Congress passed a 25 percent tax cut. Major cuts
 
 ![Political Cartoon](img/cagle.com_reagan.jpg){: .responsive-img .materialboxed }
 
-[http://www.cagle.com/news/ronaldreagan/](http://www.cagle.com/news/ronaldreagan/){: target="_blank" }
+[http://www.cagle.com/news/ronaldreagan/](http://www.cagle.com/news/ronaldreagan/)
 
 ### Urbanization
 

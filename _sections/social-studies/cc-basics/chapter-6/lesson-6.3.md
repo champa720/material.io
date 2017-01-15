@@ -8,7 +8,10 @@ chapter: 6
 section: 6.3
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Economic cycles are often fueled by advances in science. For instance, in the sixteenth and seventeenth centuries, discoveries and ideas in astronomy, chemistry, physics, and other fields provided new knowledge about our world. People used this knowledge to invent new machines and processes. This progress drove the Industrial Revolution and the Transportation Revolution of the eighteenth and nineteenth centuries. Scientific discoveries have continued to affect the economy. A good example is today's Digital Revolution."
+
 ---
 ## A Revolution in Your Hand
 

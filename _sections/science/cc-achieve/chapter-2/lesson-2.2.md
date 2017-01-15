@@ -8,31 +8,11 @@ chapter: 2
 section: 2.2
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Energy passes through an ecosystem in a complex network of organisms called a food web. Learn how energy and matter flow through an ecosystem, and how living and nonliving elements are affected by changes to the ecosystem."
 
-objectives:
-- Describe how energy and matter flow through an ecosystem
-- Explain how energy is lost at each step in a food web
-- Analyze how cycles of matter affect ecosystems
-
-skills:
-- Identify and Refine Hypotheses for Scientific Investigations
-- Analyze Relationships Among Terms
-
-key_terms:
-- autotrophs
-- biogeochemical cycles
-- biomass
-- eutrophication
-- heterotrophs
-- trophic level
-
-key_concept:
-- concept: >
-    Organisms move energy and matter through ecosystems. Energy is converted to heat as it passes through a community of organisms, but matter is recycled and used over and over again.
-
 ---
-
 ## Energy Flow in an Ecosystem
 
 Energy in an ecosystem is conserved. In other words, energy is neither created nor destroyed but changed from one form into another. As energy moves through organisms, some energy is absorbed by organisms, and some energy is released by those organisms as heat.

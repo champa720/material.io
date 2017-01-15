@@ -8,7 +8,10 @@ chapter: 2
 section: 2.4
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Progressive politics challenged the influence of large monopolies in the late 1800s and early 1900s. The United States became a major world power after it joined the Allies in World War I and helped them to victory. The Great Depression in the 1930s began with the stock market crash of 1929. Many workers lost their jobs. As a result, people lost their homes, farms, and other property."
+
 ---
 ## The Progressive Era 1900-1917
 

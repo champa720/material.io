@@ -8,43 +8,10 @@ chapter: 4
 section: 4.1
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Governments make and enforce their country's laws. In a monarchy or a dictatorship, a single ruler controls the government. In an oligarchy, a small group controls the government. In a democracy, the citizens control the government. No matter how governments are structured, they must interact with one another."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 4
-  toc_type: Lesson
-  toc_number: 4.1
-  pages: 152 - 157
-
-objectives:
-- Understand the functions of government
-- Identify the types of governments
-- Describe the US political process
-
-
-skills:
-- core: Determine Central Ideas
-- reading: Understand the Author's Purpose
-
-vocabulary:
-- administer
-- democracy
-- dictatorship
-- escalate
-- government
-- institution
-- monarchy
-- oligarchy
-- purpose
-
-key_concept:
-- concept: >
-    Governments are classified by who leads the government and how citizens participate in the government. The United States is a representative democracy.
-
-- example: >
-    Think of a situation where you were told what to do. How willingly did you perform the duty assigned to you? In contrast, think of a situation where you were asked for suggestions about how to handle a particular task. In this case, you probably had more enthusiasm for doing your duty.<br /><br />In some countries, people do not have a say in the decisions made by the government. Resentment and unrest can grow under this type of government. In democracies, however, the people run the government. They may do so directly or through elected representatives.
 ---
 ## What Is Government?
 
@@ -54,7 +21,7 @@ Political science is the study of governments and how they work. Political scien
 
 ### Functions of Government
 
-All governments perform these three necessary functions: 
+All governments perform these three necessary functions:
 
   * executive (administer the government and carry out the laws)
   * legislative (make the laws)

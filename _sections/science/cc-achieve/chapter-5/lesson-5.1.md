@@ -10,32 +10,11 @@ chapter: 5
 section: 5.1
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "We might think of motion as the movement of an object, such as a race car speeding toward the finish line. In this lesson you will learn how scientists define motion in the physical world. Learn that in science, motion is described not only by how fast an object is moving, but also by which direction it is traveling, and by any change in direction or speed that may occur during movement."
 
-objectives:
-- Analyze motion in terms of speed, velocity, and acceleration
-- Apply the concept of the law of conservation of momentum
-
-skills:
-- Express Scientific Information or Findings Numerically
-- Interpret Graphs and Functions
-
-key_terms:
-- acceleration
-- conservation of momentum
-- momentum
-- speed
-- velocity
-
-vocabulary:
-- graph
-
-key_concept:
-- concept: >
-    Objects are in motion all around us. Motion can be described by speed, velocity, and acceleration. A moving object has momentum, which can be transferred between objects.
-
 ---
-
 ## Describing Motion
 
 An object is in motion when it changes position. When an object moves from one location to another, it is changing position in relation to a stationary point known as a reference point. Earth's surface, or something attached to it, are common reference points. The Sun, other stars, and the planets can be used as reference points to describe motion in the solar system and the universe. Earth is in constant motion relative to the Sun.

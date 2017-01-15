@@ -10,6 +10,7 @@ section: 1.0
 tag: CDE
 
 icon: info
+cover_image: cde_avatar.jpg
 
 source: https://www.cde.state.co.us/postsecondary/hse
 

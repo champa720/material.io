@@ -8,6 +8,8 @@ chapter: 5
 section: 5.1
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "DNA is hereditary material that occurs in almost every cell in a living thing's body, including yours. Most of this DNA is found in a cell's nucleus. The information in DNA is stored in units called genes, and each gene is made of a sequence, or order, of base pairs. Those sequences of pairs are a kind of code that guides an organism's development, growth, and functioning."
 
 ---

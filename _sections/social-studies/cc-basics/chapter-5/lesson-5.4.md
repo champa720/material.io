@@ -8,7 +8,10 @@ chapter: 5
 section: 5.4
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Money is used as a medium of exchange, as a standard of value, and as a way to store value. Today US banks insure the money deposited in their accounts. The country's central bank is the Federal Reserve."
+
 ---
 ## Money and Its Uses
 

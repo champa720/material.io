@@ -8,6 +8,8 @@ chapter: 2
 section: 2.1
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 *(On the bombing of a church in Birmingham, Alabama, 1963)*
 

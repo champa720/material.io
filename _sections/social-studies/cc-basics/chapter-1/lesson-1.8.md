@@ -8,7 +8,10 @@ chapter: 1
 section: 1.8
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Public Policy is made at all levels of government-local, state, and national. Public policies address concerns such as health, the environment, and the economy. voting is one way citizens can participate in making public policy."
+
 ---
 ## Contemporary Public Policy
 

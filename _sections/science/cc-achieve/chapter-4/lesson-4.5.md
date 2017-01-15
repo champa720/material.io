@@ -8,32 +8,11 @@ chapter: 4
 section: 4.5
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Scientists group together, or classify, organisms according to how many traits they have in common. Learn how scientists have traced the evolution of species to see where they branched apart and developed unique traits."
 
-objectives:
-- Explain the process of natural selection and describe artificial selection
-- Describe different types of adaptations
-
-skills:
-- Reconcile Multiple Findings, Conclusions, or Theories
-- Draw Conclusions
-
-key_terms:
-- adaptation
-- artificial selection
-- natural selection
-- speciation
-
-vocabulary:
-- example
-- variations
-
-key_concept:
-- concept: >
-    Through natural selection, adaptations evolve. Natural selection explains how species change over time and new species arise.
-
 ---
-
 ## Natural Selection
 
 Charles Darwin was a naturalist who, from 1831 to 1836, traveled around the world on the sailing ship the HMS Beagle. Throughout the trip he collected fossils and made detailed observations about the types of plants and animals he saw, as well as the habitats in which they lived.

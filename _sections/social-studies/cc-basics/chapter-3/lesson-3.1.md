@@ -8,39 +8,10 @@ chapter: 3
 section: 3.1
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "In the 1930s, under Adolf Hitler's leadership, Germany conquered other European nations. This, along with the military actions of Italy and Japan, led to World War II. After World War II, the United States developed a policy that tried to stop the spread of communism."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 3
-  toc_type: Lesson
-  toc_number: 3.1
-  pages: 110 - 117
-
-objectives:
-- Recognize the causes and consequences of World War II 
-- Understand US strategies in the Cold War
-- Analyze the effects of World War II on the cultural and social changes of the 1950s
-
-skills:
-- core: Interpret Graphics
-- reading: Identify Implications
-
-vocabulary:
-- containment
-- denounce
-- implication
-- isolationist
-- persuade
-- rationing
-- suburbs
-
-key_concept:
-- concept: >
-    The entry of the United States into World War II led to an Allied victory, a post-war Cold War, and the cultural and social changes of the 1950s.
-- example: >
-    A competition is a contest: Two or more sides come together to contest one another. Whoever wins the competition gets something, such as a prize or reword.<br /><br />During the Cold War; the United States and the Soviet Union were competing for world power. This overarching competition led to smaller but significant competitions in areas such as weapons development, international alliances, and space exploration.
 ---
 ## The Road to World War II
 
@@ -74,7 +45,7 @@ At home, major industries quickly mobilized to produce war goods after the Lend-
 
 ![War Ration Book](img/war_rations.jpg){: .responsive-img .materialboxed }
 
-[http://www.loc.gov/pictures/item/oem2002007228/PP/](http://www.loc.gov/pictures/item/oem2002007228/PP/){: target="_blank" }
+[http://www.loc.gov/pictures/item/oem2002007228/PP/](http://www.loc.gov/pictures/item/oem2002007228/PP/)
 
 ### Internment Camps
 

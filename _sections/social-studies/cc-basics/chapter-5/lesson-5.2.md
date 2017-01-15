@@ -8,7 +8,10 @@ chapter: 5
 section: 5.2
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "A market is anywhere a buyer and a seller freely choose to exchange one thing for another. The laws of supply and demand help companies figure out how many goods to make and how much to charge for them."
+
 ---
 ## Markets
 

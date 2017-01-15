@@ -8,6 +8,8 @@ chapter: 2
 section: 2.3
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Fermentation has the same purpose as respiration, but it is conducted in the absence of oxygen. It yields fewer molecules of ATP, making it less efficient than respiration."
 
 ---

@@ -8,6 +8,8 @@ chapter: 1
 section: 1.0
 tag: Literary
 
+cover_image: "default.jpg"
+
 ---
 You have probably heard the expression Tone of Voice. If you tell a friend "I don't like your tone of voice," you are annoyed by the person's manner of speaking. You are reacting to the sound of the spoken word.
 

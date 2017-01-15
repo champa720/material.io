@@ -8,7 +8,10 @@ chapter: 2
 section: 2.3
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Tension between slave states and free states led seven states to break away from the Union and form the Confederate States of America. The Civil War was fought to keep the United States whole. Eventually the war resulted in the end of slavery. After the war, the Reconstruction effort tried to rebuild what had been destroyed."
+
 ---
 ## The Problem of Slavery
 

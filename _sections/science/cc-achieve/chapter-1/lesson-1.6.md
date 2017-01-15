@@ -8,33 +8,11 @@ chapter: 1
 section: 1.6
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Harmful substances such as bacteria, viruses, and parasites can cause diseases in the body and disrupt the function of a body system. Learn how the body fights against disease and learn strategies for preventing disease."
 
-objectives:
-- Explain the causes of disease and how diseases are spread
-- Describe how the immune system fights disease
-- Explain the effects diseases can have on populations
-
-skills:
-- Explain a Non-textual Scientific Presentation
-- Distinguish Between Cause and Effect
-
-key_terms:
-- disease
-- immunity
-- vaccine
-
-vocabulary:
-- analyze
-- epidemic
-- pathogen
-
-key_concept:
-- concept: >
-    Disease can be caused by something introduced into the body, like a virus, or by improper care of the body. Many diseases can be prevented by taking advantage of advances in medical science and by practicing healthy behaviors.
-    
 ---
-
 ## Disease
 
 Automobiles require the right fuel and proper maintenance to work properly. Similarly, our bodies need proper care and nutrition to function. If the wrong substances enter the body, they can cause problems with the way the body works. A disease is any condition that disrupts the normal functioning of the body. Disease-causing agents, including certain types of bacteria, viruses, and parasites, are called pathogens. Each type of pathogen invades the body in a different way and causes specific diseases. Once pathogens get inside the body, they produce an infection. Diseases that are caused by pathogens, such as influenza and the common cold, are called infectious diseases.

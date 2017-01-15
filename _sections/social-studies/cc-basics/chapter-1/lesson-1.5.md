@@ -8,7 +8,10 @@ chapter: 1
 section: 1.5
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Through political parties are not in the Constitution, they have dominated politics since the 1800s. Interest groups try to influence political decisions, working to promote their ideas at all levels of government."
+
 ---
 ## Ideas and Influence in Politics
 

@@ -7,6 +7,8 @@ chapter: 3
 section: 3.0
 tag: HiSET
 
+cover_image: hiset_avatar.jpg
+
 source: https://www.cde.state.co.us/postsecondary/hse
 pdf: https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
 

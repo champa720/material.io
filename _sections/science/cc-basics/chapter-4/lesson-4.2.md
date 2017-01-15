@@ -8,6 +8,8 @@ chapter: 4
 section: 4.2
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "A microbe is a simple organism made from a single cell. Bacteria are microbes. Some scientists say that the majority of cells in the human body are bacterial cells, most of which live in the digestive system.
 |
 Learn about the earliest and simplest organisms that lived on Earth-the prokaryotes. Then read about eukaryotes and more complex microbes and multicellular organisms, such as mold, mushrooms, and ferns."

@@ -8,6 +8,8 @@ chapter: 3
 section: 3.3
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "The prefix 'sym' means 'together,' and the prefix 'bio' means 'life.' As organisms on Earth, we live together with other organisms. But some organisms have special ways of living together. This lesson introduces you to different kinds of symbiotic relationships."
 
 ---

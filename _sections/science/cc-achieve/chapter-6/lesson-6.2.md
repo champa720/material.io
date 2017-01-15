@@ -8,33 +8,11 @@ chapter: 6
 section: 6.2
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Different types of energy on Earth come from a variety of sources. Learn how some sources are replaced as quickly as they are consumed while other energy sources take millions of years to replace."
 
-objectives:
-- Identify various sources of energy
-- Describe non-renewable and renewable resources
-- Explain the factors that influence why people choose one energy source over another
-
-skills:
-- Distinguish between Cause and Effect
-- Understand and Explain Textual Scientific Presentations
-
-key_terms:
-- fossil fuel
-- non-renewable resource
-- nuclear fission
-- renewable resource
-
-vocabulary:
-- classify
-- energy resource
-
-key_concept:
-- concept: >
-    There are many sources of energy. Which type of energy source people choose to use depends on each source's advantages and disadvantages.
-
 ---
-
 ## Sources of Energy
 
 You use energy in many different ways. A car engine transforms the energy stored in gasoline to kinetic energy as you drive. The buildings in which you live and work use electricity for lighting, heating, and operating equipment. The electricity and fuels you use are produced from different energy sources, each having advantages and disadvantages.
@@ -157,4 +135,4 @@ Directions: Answer the following questions.
     B. improvements in technology
     C. out-of-date technology
     D. increase in supply
-</div> 
+</div>

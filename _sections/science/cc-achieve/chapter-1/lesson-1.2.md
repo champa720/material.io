@@ -8,32 +8,11 @@ chapter: 1
 section: 1.2
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "The respiratory, circulatory, digestive, and excretory systems deliver oxygen and nutrients and remove wastes. Learn how oxygen and nutrients are taken in and processed."
 
-objective:
-- Identify the components and functions of the digestive, excretory, respiratory, and circulatory systems
-- Describe how each system works with other body systems to perform different functions
-
-skills:
-- Evaluate Validity of Conclusions
-- Interpret Text or Graphics
-
-vocabulary:
-- alveoli
-- capillaries
-- esophagus
-
-key_terms:
-- arteries
-- summarize
-- veins
-
-key_concept:
-- concept: >
-    The digestive, excretory, respiratory, and circulatory systems work together to move oxygen and nutrients through and out of your body.
-
 ---
-
 ## The Digestive System
 
 No matter what you eat, everything that goes into your mouth is processed by your body's digestive system. Three main processes occur within the digestive system: digestion, absorption, and elimination.

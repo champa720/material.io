@@ -8,6 +8,8 @@ chapter: 2
 section: 2.2
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 I lay my hand \\
 Upon \\

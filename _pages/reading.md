@@ -13,6 +13,6 @@ icon: book
 library:
 -
   category: "Poetry"
-  cover_image: "default.jpg"
+  cover_image: "poetry.jpg"
   excerpt: ""
 ---

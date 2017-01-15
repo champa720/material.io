@@ -8,6 +8,8 @@ chapter: 1
 section: 1.0
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Human Body and Health teaches you about human body systems and how those systems interact. It also teaches about health and disease."
 ---
 > "Eat the right foods."\\

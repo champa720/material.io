@@ -8,6 +8,8 @@ chapter: 2
 section: 2.5
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 I was the last passenger of the day, \\
 I was alone on the bus, \\

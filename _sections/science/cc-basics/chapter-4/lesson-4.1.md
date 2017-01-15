@@ -8,6 +8,8 @@ chapter: 4
 section: 4.1
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Cells are the building blocks of life. Plants are made of cells. So are animals and all other life forms. Some scientists estimate that the adult human body has from 75 to 100 trillion cells. Cells contain internal structures that carry out specific jobs.
 |
 Learn how plant cells and animal cells are alike and how they are different. Also find out how cells work."

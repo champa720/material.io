@@ -8,6 +8,8 @@ chapter: 3
 section: 3.4
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Both nature and human activity can lead to environmental disturbances and major disruptions. Fires and floods can alter ecosystems in a short time. So can the introduction of exotic or non-native species to an ecosystem, where the species competes for the same resources as native species. In some cases, humans remove ecosystems entirely to create city structures. This lesson introduces you to natural and unnatural ecological disruptions."
 
 ---

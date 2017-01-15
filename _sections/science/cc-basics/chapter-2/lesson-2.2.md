@@ -8,6 +8,8 @@ chapter: 2
 section: 2.2
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Respiration, which occurs in the presence of oxygen, breaks apart sugar molecules to capture the energy trapped in the molecule's chemical bonds. The process occurs in the presence of oxygen and yields high-energy molecules called ATP."
 
 ---

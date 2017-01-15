@@ -8,9 +8,10 @@ chapter: 4
 section: 4.0
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "World History and Political Systems discusses various government systems and international organizations. It gives an overview of relations among the nations of the world."
 
-pages: 150 - 181
 ---
 Have you ever met people from another state or another country? Perhaps you had an interesting discussion with those people, comparing and contrasting where you live with where they live. You may have noticed that despite some differences, there were things you had in common. In a similar way, the study of the history and culture of other nations shows the scope of human activity. It can give you a clearer idea of how civilizations have formed and changed throughout time.
 

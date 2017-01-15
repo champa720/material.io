@@ -8,6 +8,8 @@ chapter: 4
 section: 4.0
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Foundations of Life teaches you about plant and animal cells, simple organisms, invertebrates, and vertebrates."
 ---
 How many different kinds of living things do you think exist on Earth? Estimates have varied from about three million to nearly 100 million. In a recent study, a team of scientists put forth the number 8.7 million, a total that does not include the many species of bacteria that inhabit the planet. Of the 8.7 million species, almost 6.5 million live on land. The remaining species live in water.

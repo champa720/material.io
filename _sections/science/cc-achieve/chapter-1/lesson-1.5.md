@@ -8,29 +8,10 @@ chapter: 1
 section: 1.5
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Nutrients provide hydration, energy, and structural elements that help our cells to function properly. Learn about six different nutrients the body needs for optimal health."
 
-objectives:
-- Identify the six key nutrients: carbohydrates, proteins, fats, vitamins, minerals, and water
-- Identify key nutrient sources
-- Explain the role calories play in a healthful eating plan
-
-skills:
-- Reconcile Multiple Findings, Conclusions, or Theories
-- Represent Real-World Arithmetic Problems
-
-key_terms:
-- calories
-- nutrients
-- nutrition
-
-vocabulary:
-- minerals
-- vitamins
-
-key_concept:
-- concept: >
-    Your body depends on six key nutrients. Because nutrients come from food, eating a balanced diet contributes to your health.
 ---
 ## Nutrients
 
@@ -87,4 +68,3 @@ When you eat meals that provide a variety of the nutrients your body needs, you 
 Calories measure the energy stored in food. People get all the calories they need from the foods they eat. Foods that are high in calories include foods high in fats, starches, simple carbohydrates, and many processed foods. Foods that are low in calories include lean meats, fruits, and vegetables. All metabolic functions, including respiration and maintaining body temperature, burn calories to maintain homeostasis in the body. However, most of these processes do not require a large amount of calories.
 
 The number of calories a person needs depends on gender, age, and activity level. To maintain a healthy weight is to balance the calories consumed with the calories expended through physical activity. If a person eats more calories than his or her metabolism burns, the body will store the extra calories as fat.
-

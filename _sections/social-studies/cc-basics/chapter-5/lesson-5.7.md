@@ -8,7 +8,10 @@ chapter: 5
 section: 5.7
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "For a company to be productive, it must operate efficiently. Its profits are influenced by the cost of its supplies and by the price customers are willing to pay. This interdependence has increased due to technologies like computers and the Internet."
+
 ---
 ## Production and Products
 

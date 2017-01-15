@@ -8,6 +8,8 @@ chapter: 1
 section: 1.4
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Good health is a top priority for everyone. Learn about common diseases, nutrients needed by the body, and how certain drugs can help maintain good health."
 
 ---

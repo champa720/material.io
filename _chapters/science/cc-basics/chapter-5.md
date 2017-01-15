@@ -8,6 +8,8 @@ chapter: 5
 section: 5.0
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Heredity explains the genetic code and teaches you about inherited traits."
 ---
 Smell the scent of a flower. Watch a pet at play. Listen to actors in a movie. The things you smell, see, and hear are observable traits. Those traits were inherited from the parents of the plants, pets, and people you observed.

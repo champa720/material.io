@@ -8,7 +8,10 @@ chapter: 4
 section: 4.1
 tag: TASC
 
+cover_image: tasc_avatar.jpg
+
 source: http://www.tasctest.com/about-tasc-test-for-test-takers.html
+
 ---
 ##  TASC Test Assessing Secondary Completion™
 

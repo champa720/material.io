@@ -8,6 +8,8 @@ chapter: 1
 section: 1.1
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "How do your bones and muscles work together to help support your body and allow you to move? Find out about the bones, joints, and muscles in the human body."
 
 ---

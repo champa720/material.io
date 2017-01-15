@@ -8,39 +8,10 @@ chapter: 4
 section: 4.4
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Technology has led to globalization, which has been beneficial in many ways to the world's economies. However, the world is challenged by increased population, the overuse of non renewable energy resources, and terrorism."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 4
-  toc_type: Lesson
-  toc_number: 4.4
-  pages: 170 - 175
-
-objectives:
-- Explain the new global culture and economy
-- Determine the effects of recent wars on the world
-- Evaluate the results of terrorist attacks
-
-skills:
-- core: Evaluate Evidence
-- reading: Predict Outcomes
-
-vocabulary:
-- ethnic cleansing
-- fossil fuels
-- global culture
-- judge
-- outcome
-- terrorism
-
-key_concept:
-- concept: >
-    Major changes in the world's culture, economy, and political scene are shaping the twenty-first century.
-
-- example: >
-    Hove you ever moved to a new town or a new state? If so, you may hove felt disoriented as you tried to find your way around.<br /><br />Life in the twenty-first century hos changed so drastically that some people feel they are living in new place. The effects of a more global culture and economy as well as the results of terrorism hove changed the world.
 ---
 ## Global Culture, Global Economy
 

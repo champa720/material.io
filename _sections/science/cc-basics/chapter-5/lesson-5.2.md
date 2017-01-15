@@ -8,6 +8,8 @@ chapter: 5
 section: 5.2
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "All of the genetic information carried in an organism's cells represents its genotype. All of the observable characteristics in a living thing, such as the shape of a leaf and the scent of a flower, are the organism's phenotype. Being familiar with the genotypes of two parent organisms makes it possible to predict the possible combinations of alleles, or variations of genes, that will occur in the offspring."
 
 ---

@@ -8,34 +8,11 @@ chapter: 6
 section: 6.3
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "The random motion of particles in a substance is a type of energy. This energy is transferred from one object to another in the form of heat. Learn how heat can transfer from one substance to another by three different methods: conduction, convection, and radiation."
 
-objectives:
-- Describe the difference between temperature and heat
-- Explain how energy is uniformly distributed between substances
-- Describe the methods of heat transfer
-- Recognize that friction converts kinetic energy to heat
-
-skills:
-- Express Scientific Information or Findings Verbally
-- Evaluate Evidence
-
-key_terms:
-- heat
-- radiation
-- temperature
-
-vocabulary:
-- compare
-- conduction
-- convection
-
-key_concept:
-- concept: >
-    When thermal energy is added to a substance, there is an increased movement of the particles that make up the substance. More movement of the particles means an increased kinetic energy. This increased kinetic energy can be transferred to other parts of the substance and to other substances.
-
 ---
-
 ## Principles of Heat
 
 People refer to temperature when they describe the weather or food. Scientists, however, would define temperature as a measure of the average kinetic energy of the particles in a substance.
@@ -66,7 +43,7 @@ Directions: Answer the following questions.
     B. ice
     C. ice water
     D. steam
-</div> 
+</div>
 
 ## Kinetic Energy Transfer
 
@@ -94,7 +71,7 @@ Directions: Fill in the blank.
 
   1. An ice-cube in a cup of water is another example of [ blank ]. Cold  water melting from the ice-cube [ blank ]. As the cooler, denser water sinks, it pushes the warm water to the [ blank ] where it cools and continues the cycle.
   2. You walk across the sand on the beach. The heat from the sand is transferred to your feet by [ blank ]. Your skin feels warm as the Sun heats it by [ blank ].
-</div> 
+</div>
 
 ## Energy Conversions Involving Heat
 

@@ -8,8 +8,11 @@ chapter: 3
 section: 3.5
 tag: HiSET
 
+cover_image: hiset_avatar.jpg
+
 source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
+
 ---
 {% include ged_hiset_tasc_data.html data="hiset" subject="Science" title="HiSET" %}
 

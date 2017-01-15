@@ -8,6 +8,8 @@ chapter: 4
 section: 4.3
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "What distinguishes invertebrates from vertebrates? Learn about the basic characteristics of invertebrate animals, including sponges, worms, mollusks, and insects. Also read about the process of metamorphosis."
 
 ---

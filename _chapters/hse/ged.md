@@ -7,6 +7,8 @@ chapter: 2
 section: 2.0
 tag: GED
 
+cover_image: gedts_avatar.jpg
+
 source: https://www.cde.state.co.us/postsecondary/hse
 pdf: https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram
 

@@ -8,6 +8,8 @@ chapter: 2
 section: 2.6
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 In this moment when the light starts up \\
 In the east and rubs \\

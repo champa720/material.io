@@ -5,7 +5,9 @@ subject: HSE
 category: High School Equivalency
 chapter: 4
 section: 4.0
-tag: GED
+tag: TASC
+
+cover_image: tasc_avatar.jpg
 
 source: https://www.cde.state.co.us/postsecondary/hse
 pdf: https://www.cde.state.co.us/communications/highschoolequivalencytestingprogram

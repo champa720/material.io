@@ -8,6 +8,8 @@ chapter: 4
 section: 4.4
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "You, a dog, and a whale are all vertebrates. Discover what characteristics are common to all vertebrates and investigate the differences between cold-blooded and warm-blooded animals."
 
 ---

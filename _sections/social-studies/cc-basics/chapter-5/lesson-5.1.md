@@ -8,7 +8,10 @@ chapter: 5
 section: 5.1
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "In any economic system, limited resources force people to make choices. People cannot have everything they want. The study of economics helps us analyze the best way to use our limited resources."
+
 ---
 ## Scarcity and Choice
 

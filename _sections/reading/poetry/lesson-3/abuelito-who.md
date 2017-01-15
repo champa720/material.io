@@ -8,6 +8,8 @@ chapter: 3
 section: 3.1
 tag: Figurative Language
 
+cover_image: "poetry.jpg"
+
 ---
 Abuelito [^1] who throws coins like rain
 

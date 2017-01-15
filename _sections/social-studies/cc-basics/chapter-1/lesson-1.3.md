@@ -8,7 +8,10 @@ chapter: 1
 section: 1.3
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The US Constitution establishes three branches of government. The executive branch, led by the president, is in charge of the daily activities of government. The legislative branch which includes the House of Representatives and the Senate, passes laws. The judicial branch, made up of the Supreme Court and other courts, interprets the laws."
+
 ---
 ## The Federal Government
 

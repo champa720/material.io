@@ -8,33 +8,11 @@ chapter: 2
 section: 2.1
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Every living thing on Earth interacts with both living and nonliving elements that surround it. Learn how organisms adapt to the climate in their environment in order to increase their chances of survival."
 
-objectives: 
-- List the biotic and abiotic components in an environment
-- Explain the levels of organization in an environment
-- Explain how climate decides the global distribution of biomes and organisms
-
-skills:
-- Analyze Relationships Between Sources
-- Make a Prediction Based On Data or Evidence
-
-key_terms:
-- abiotic
-- biome
-- biotic
-- ecosystem
-- niche
-
-vocabulary:
-- organize
-
-key_concept:
-- concept: >
-    Organisms interact with the living and nonliving parts of their environments. Climate and other environmental factors influence how  populations and communities develop around the world.
-
 ---
-
 ## The Living Environment
 
 Look around. Everything you see and feel is a part of your environment. An environment includes living things such as plants, animals, people, and even the tiniest of microbes. The living portions of the environment are called the biotic parts. The nonliving portions, such as rocks, sunlight, and air, are called the abiotic parts.

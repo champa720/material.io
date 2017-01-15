@@ -8,8 +8,11 @@ chapter: 2
 section: 2.3
 tag: GED
 
+cover_image: gedts_avatar.jpg
+
 source: http://www.gedtestingservice.com/educators/2014test
-source: http://www.gedtestingservice.com/testers/rlalinkt
+source: http://www.gedtestingservice.com/testers/rlalink
+
 ---
 
 {% include ged_hiset_tasc_data.html data="ged" subject="Reading" title="GED" %}

@@ -8,6 +8,8 @@ chapter: 3
 section: 3.2
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Imagine inviting friends to lunch. You prepare enough food and set the table for eight people. Your planned lunch will satisfy the needs of eight people in all. But then each of your friends invites another friend. You don't have enough resources to feed or seat them all. You might say that your lunch community has exceeded its carrying capacity. This lesson talks about carrying capacity, or the environmental limitations that determine how many organisms an ecosystem can support."
 
 ---

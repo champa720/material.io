@@ -8,7 +8,10 @@ chapter: 2
 section: 2.2
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Increased taxation without representation in government led colonists to rebel against English rule. Once the colonists won their independence, they developed a new form of government. As the country grew, settlers moved west. This expansion led to conflict in territories that belonged to other nations."
+
 ---
 ## The American Revolution
 

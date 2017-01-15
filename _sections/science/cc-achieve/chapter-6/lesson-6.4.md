@@ -10,32 +10,11 @@ chapter: 6
 section: 6.4
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Some forms of energy such as sound and light, can travel in waves. In this lesson you will learn about the wave theory, the different types of waves, and their properties."
 
-objectives:
-- Explain the nature of waves and its relationship with matter and energy
-- Identify mechanical, electromagnetic, transverse, and mechanical waves
-- Analyze the waves in the electromagnetic spectrum
-
-skills:
-- Use Data or Evidence to Form a Conclusion
-- Determine Details
-
-key_terms:
-- electromagnetic waves
-- radiation
-- wave
-
-vocabulary:
-- discriminate
-- medium
-
-key_concept:
-- concept: >
-    Waves carry energy that spreads out as the wave travels. There are different types of waves that all exhibit properties of wavelength, frequency, and amplitude.
-
 ---
-
 ## The Nature of Waves
 
 A wave is a repeating disturbance that transfers energy as it travels through matter or space. The world around you is full of many different types of waves. Sound waves, ocean waves, light waves, and radio waves are all types of waves.
@@ -100,7 +79,7 @@ The frequency of a wave is the number of wavelengths that pass a given point in 
 
 #### Speed
 
-If a wave's frequency and wavelength are known, the wave's speed can be calculated by using the following equation: 
+If a wave's frequency and wavelength are known, the wave's speed can be calculated by using the following equation:
 
 $$ \mathrm { speed = frequency \times wavelength } $$
 

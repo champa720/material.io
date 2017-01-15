@@ -10,32 +10,11 @@ chapter: 7
 section: 7.3
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Chemical reactions take place all around us every day-in the kitchen, and even in our gardens. In this lesson you will learn that when two or more types of matter interact with each other in a chemical reaction, atoms from each element combine to form a different substance."
 
-objectives:
-- Explain how matter is conserved during a chemical reaction
-- Use balanced chemical equations to represent chemical reactions
-
-skills:
-- Classify chemical reactions based on energy changes
-- Identify and Reduce Sources of Error
-- Determine Central Ideas
-
-key_terms:
-- chemical reaction
-- endothermic reactions
-- exothermic reactions
-- law of conservation of mass
-
-vocabulary:
-- develop
-
-key_concept:
-- concept: >
-    Changes in matter and energy occur during a chemical reaction, although matter is neither created nor destroyed. A balanced chemical equation shows the rearrangement of atoms and describes a chemical reaction.
-
 ---
-
 ## What Happens During a Chemical Reaction?
 
 Recall that during a physical change, such as melting or freezing of a substance, the physical properties of the substance change, but its chemical properties do not. In contrast, a chemical change occurs when the chemical properties of matter change as new substances form. Rusting is an example of a chemical change. When iron rusts, metallic iron reacts with oxygen and a substance made up of iron and oxygen atoms forms. That substance is rust. The chemical properties of rust are different from those of the pure iron. The physical properties of rust, such as its color and hardness, are also different from those of iron. When matter changes chemically, both its physical properties and its chemical properties change.

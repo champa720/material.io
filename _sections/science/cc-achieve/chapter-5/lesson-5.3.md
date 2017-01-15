@@ -10,33 +10,11 @@ chapter: 5
 section: 5.3
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Did you know that the knife you use to cut your food is a simple machine? When you use that knife to cut your food, you are doing work. In this lesson you will learn how scientists define work. You will also learn about six different types of simple machines and how these simple machines can be used together to create compound machines."
 
-objectives:
-- Calculate work and power
-- Define and identify the need for machines
-- Analyze the use of simple and complex machines
-
-skills:
-- Identify and Refine Hypotheses for Scientific Investigations
-- Follow a Multistep Procedure and Analyze the Results
-
-key_terms:
-- compound machines
-- mechanical machine
-- power
-- simple machines
-- work
-
-vocabulary:
-- revise
-
-key_concept:
-- concept: >
-    When forces move an object over a distance. work has been done. Simple machines are used to make work easier by reducing either the force or the distance. Compound machines are made of more than one simple machine.
-
 ---
-
 ## Work and Power
 
 In science, force and distance determine the amount of work done. Machines and technology help reduce the amount of work people have to do. For example, luggage movers deliver luggage to and from airplanes. They reduce the amount of work employees and passengers have to do.
@@ -187,4 +165,4 @@ The mechanical advantage of a movable pulley is greater than 1. It is equal to t
 Directions: Answer the following question.
 
   1. How can you increase the mechanical advantage of a movable pulley?
-</div> 
+</div>

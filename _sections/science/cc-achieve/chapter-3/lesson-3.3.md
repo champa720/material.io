@@ -8,32 +8,11 @@ chapter: 3
 section: 3.3
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Plants have many different parts that function to ensure their survival and reproduction. Learn how plants can be grouped into different categories according to their structure and that each type of plant can better understood by examining the various parts that make up the whole plant."
 
-objectives:
-- Describe different types of plants
-- Explain the structures and functions of the parts of plants
-
-skills:
-- Design a Scientific Investigation
-- Analyze Relationships Between Sources
-
-key_terms:
-- phloem
-- pollination
-- transpiration
-- vascular plants
-- xylem
-
-vocabulary:
-- outline
-
-key_cencept:
-- concept: >
-    The parts of a plant work together to promote and sustain the life of the plant. The functions of the plant structures provide mechanisms for the plant's life processes.
-
 ---
-
 ## Types of Plants
 
 Plants provide people with many essential materials for shelter, food, and clothing. Plants also provide beauty in our lives, from vast gardens to flower boxes in our windows. The variety of uses we have for plants belies the great variety of plants that exist. Plants can be simple or complex, small or gigantic, flowering or non-flowering.

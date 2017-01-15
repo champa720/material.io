@@ -8,6 +8,8 @@ chapter: 2
 section: 2.1
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Flowering plants vary greatly in appearance. This lesson discusses their basic parts and describes plant reproduction and photosynthesis."
 
 ---

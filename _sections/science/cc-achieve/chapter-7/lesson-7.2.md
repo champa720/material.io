@@ -8,32 +8,11 @@ chapter: 7
 section: 7.2
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Matter can be described by texture, color, and hardness. Matter also has physical properties that can be measured such as mass, volume or density. Learn how matter can be described by its chemical properties, such as how it reacts to oxygen or water, or by its ability to burn."
 
-objectives:
-- Compare the physical and chemical properties of matter
-- Relate the properties of elements to their position in the periodic table
-
-skills:
-- Cite Textual Evidence
-- Evaluate Conclusions
-
-key_terms:
-- chemical property
-- physical property
-- states of matter
-- sublimation
-
-vocabulary:
-- evaluate
-- melting point
-
-key_concept:
-- concept: >
-    Matter can be described by its physical  properties and chemical properties. The properties of elements are similar within groups on the periodic table.
-
 ---
-
 ## Properties of Matter
 
 You use characteristics to identify and classify everything around you. When you are grocery shopping, you can tell the difference between a carrot and potato simply by looking at them. You could even tell the difference between an orange and apple without seeing them simply by the way their skin feels. Properties can be used to identify any type of matter.

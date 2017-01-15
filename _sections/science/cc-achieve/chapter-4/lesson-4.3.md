@@ -8,32 +8,11 @@ chapter: 4
 section: 4.3
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Scientists group together, or classify, organisms according to how many traits they have in common. Learn how scientists have traced the evolution of species to see where they branched apart and developed unique traits."
 
-objectives:
-- Describe Darwin's theory of evolution
-- Discuss how cladograms help analyze specie relationships
-
-skills:
-- Make Inferences
-- Evaluate Whether a Conclusion or Theory is Supported or Challenged by Particular Data or Evidence
-
-key_terms:
-- ancestry
-- cladograms
-- evolution
-
-vocabulary:
-- arrange
-- fossil
-- species
-
-key_concept:
-- concept: >
-    The Theory of Universal Common Ancestry suggests that all organisms on Earth evolved from a single common ancestor. Scientists construct diagrams and charts to show how seemingly diverse species share common traits.
-
 ---
-
 ## Darwin and Evolution
 
 For centuries, scientists have been posing questions about the origin of life on Earth. In 1859, the English naturalist Charles Darwin published On the Origin of Species, which provided sound logic and evidence about how organisms change over time. Darwin proposed a theory that all forms of life developed gradually from different, and often much simpler, parent organisms. He proposed that weaker, or less adaptable, members of a population died without reproducing and that the strongest members of the population passed on traits to the next generation.

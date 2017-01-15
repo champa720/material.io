@@ -8,7 +8,10 @@ chapter: 5
 section: 5.8
 tag: Economics
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The federal government plays two important roles in the US economy. First, it makes decisions about collecting and spending money (fiscal policy). Second, through the Federal Reserve System, it controls the money supply and interest rates (monetary policy)."
+
 ---
 ## Federal Revenue and Expenditures
 

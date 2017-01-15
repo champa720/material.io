@@ -8,33 +8,11 @@ chapter: 3
 section: 3.2
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Each cell is composed of smaller units called organelles that carry out a specific function in the cell. Learn about the two basic types of cells, and how they are similar and different in their structure and function."
 
-objectives:
-- Identify the parts of animal and plant cells
-- Differentiate between prokaryotic and eukaryotic cells
-- Explain how materials move across cell membranes
-
-skills:
-- Determine the Meaning of Symbols, Terms and Phrases
-- Make Inferences
-
-key_terms:
-- eukaryotic cell
-- nucleus
-- organelles
-- osmosis
-- prokaryotic cell
-
-vocabulary:
-- differentiate
-
-key_concept:
-- concept: >
-    Animal and plant cells have many of the same cell parts. The parts of a cell help the cell carry out the functions of life.  
-
 ---
-
 ## The Parts of a Cell
 
 In many ways, living cells are like factories that produce goods. They take in raw materials, use them to build products such as proteins, package the products, and transport them to different parts of the cell or to other cells. They also eliminate waste and reproduce. The different jobs are performed by structures within the cell called organelles. The cells of animals and plants share most of the same kinds of organelles and other cell parts.

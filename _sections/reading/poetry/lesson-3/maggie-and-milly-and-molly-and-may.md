@@ -8,6 +8,8 @@ chapter: 3
 section: 3.2
 tag: Figurative Language
 
+cover_image: "poetry.jpg"
+
 ---
 maggie and milly and molly and may \\
 went down to the beach (to play one day)

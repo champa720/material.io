@@ -8,7 +8,10 @@ chapter: 1
 section: 1.7
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "At a time when nations are more interconnected, the United States has a greater role in the global society because it is the world's only superpower. This role includes expanding businesses, spreading American culture, and providing aid to foreign countries."
+
 ---
 ## Opportunities and Challenges Global Society
 

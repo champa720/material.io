@@ -8,32 +8,11 @@ chapter: 1
 section: 1.1
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "The skeletal, muscular, and nervous systems work together to help the body move. Learn about the structure and function of each of these body systems."
 
-objectives:
-- Identify the components and functions of the skeletal, muscular, and nervous systems
-- Describe how each system works with other body systems to perform different functions
-
-skills:
-- Integrate Content Presented in Different Ways
-- Determine Central Ideas
-
-vocabulary:
-- cartilage
-- joint
-- neuron
-- tendon
-
-key_terms:
-- integrate
-- muscle
-
-key_concept:
-- concept: >
-    The skeletal, muscular, and nervous systems work together to allow your body to react to the sights, sounds, tastes, odors, and physical contact that you encounter daily.
-
 ---
-
 ## The Skeletal System
 
 Marathon runners travel more than 26 miles from start to finish. Running that far challenges the body both physically and mentally. Those who finish can take pride in achieving such a difficult goal. Running a marathon requires muscle strength and endurance. It also requires a sturdy skeletal system to support those muscles.

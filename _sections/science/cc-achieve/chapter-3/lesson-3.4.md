@@ -8,32 +8,11 @@ chapter: 3
 section: 3.4
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Both plant and animal cells need energy in order to function properly. Learn how plant and animal cells convert the energy molecules into sugar that is used in chemical reactions that produce energy-storing molecules called ATP. ATP is the energy source for all cellular functions."
 
-objectives:
-- Discuss photosynthesis
-- Explain cellular respiration
-
-skills:
-- Express Scientific Information Symbolically
-- Distinguish Between Facts and Speculation
-
-key_terms:
-- cellular respiration
-- fermentation
-- photosynthesis
-
-vocabulary:
-- apply
-- chlorophyll
-- enzymes
-
-key_concept:
-- concept: >
-    Plant cells use energy from the Sun to make sugars. Plant and animal cells break down sugars and other food molecules to release energy cells can use.
-
 ---
-
 ## Photosynthesis
 
 Living things are made of cells, which use energy to perform all the functions needed for life. All organisms need energy to grow, to make repairs, and to move. Where does that energy come from? Almost all the energy used by living things comes from the Sun. Energy takes many forms, such as light and chemical energy. Chemical energy is stored in organic substances such as foods and fuels. Each form of energy can be changed into another form.

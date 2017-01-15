@@ -8,33 +8,11 @@ chapter: 3
 section: 3.4
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "In order for an organism to grow or maintain proper health, new cells must be continuously produced. Learn about the reproduction of cells through the processes of mitosis and meiosis."
 
-objectives:
-- List the cell cycle stages
-- Explain the processes involved during the different types of cell division
-- Compare and contrast mitosis and meiosis
-
-skills:
-- Analyze Events and Ideas
-- Understand and Explain Nontextual Scientific Presentations
-
-key_terms:
-- cell cycle
-- chromatid
-- chromosomes
-- meiosis
-- mitosis
-
-vocabulary:
-- contrast
-
-key_concept:
-- concept: >
-    Cells divide through the process of mitosis or meiosis. Mitosis produces daughter cells that are identical to the parent cell. Meiosis produces sex cells that combine to produce offspring that are genetically different from parent cells.
-
 ---
-
 ## Cell Growth and Division
 
 Every organism is composed of one or more cells, which are units of life. A cell can grow larger to a certain extent. But at some point, instead of continuing to grow, the cell divides. The process by which one parent cell divides into two daughter cells is known as cell division, or cell reproduction.

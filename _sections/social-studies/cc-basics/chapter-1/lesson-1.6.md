@@ -8,7 +8,10 @@ chapter: 1
 section: 1.6
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The Bill of Rights protects the rights of individuals. Originally some of these rights applied only to white males, but today they apply to all citizens, regardless of race or gender."
+
 ---
 ## The Expansion of Civil Liberties
 

@@ -8,32 +8,11 @@ chapter: 2
 section: 2.4
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Disruptions in an ecosystem can be caused by human activity and by environmental disturbances including flood, fire, and the introduction of a new species. Sometimes these disruptions are catastrophic and upset the balance of an ecosystem. In this lesson, learn about both natural and unnatural causes of ecological disruption."
 
-objectives:
-- Identify and analyze ways ecosystems are disrupted
-- Describe the interdependence of organisms in an ecosystem
-
-skills:
-- Reason from Data or Evidence to a Conclusion
-- Distinguish Among Reasoned Judgments
-
-key_terms:
-- biodiversity
-- extinction
-- habitat destruction
-- invasive species
-
-vocabulary:
-- pollution
-- valid
-
-key_concept:
-- concept: >
-    Ecosystems can be disrupted by both natural events and human activities. Disruptions can have a significant impact on organisms and the entire ecosystem.
-
 ---
-
 ## Natural Disruptions to Ecosystems
 
 You have learned that an ecosystem is a community of organisms that interact with each other and their environment. Ecosystems change over time. Sudden disruptions such as volcanoes, floods, or fires can affect which species will thrive in an environment. Other disruptions are caused by human activities. Some disruptions can be devastating for an individual species and may even cause an entire species to permanently disappear in a process called extinction. As species become extinct, the variety of species in the biosphere decreases, which decreases biodiversity, or the variety of life. Every organism plays an important role in the ecosystem to which it belongs. Whenever one species is removed, other species in the food chain are affected. These changes influence a community's biodiversity and can disrupt an entire ecosystem.

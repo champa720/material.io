@@ -8,6 +8,8 @@ chapter: 1
 section: 1.3
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Your body reacts to many different stimuli on a daily basis. You will learn about the body systems responsible for communication and reproduction in this lesson."
 
 ---

@@ -8,39 +8,10 @@ chapter: 3
 section: 3.3
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "From 1950 until the collapse of the Soviet Union, US foreign policy focused on stopping the spread of communism. Doing this meant that the United States became involved in conflicts around the world, in places such as Korea, Vietnam, Cuba, and Berlin. One result of the Cold War was the space race, a competition between the United States and the Soviet Union to develop space technology."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 3
-  toc_type: Lesson
-  toc_number: 3.3
-  pages: 124 - 131
-
-objectives:
-- Understand how communism affected foreign policy for the second half of the twentieth century
-- Analyze the different strategies used toward the Soviet Union 
-- Evaluate the impact of the Vietnam War on US foreign policy
-
-skills:
-- core: Interpret Graphics
-- reading: Read Charts
-
-vocabulary:
-- administration
-- brinksmanship
-- chart
-- détente
-- repression
-- succeed
-- trend
-
-key_concept:
-- concept: >
-    The Cold War and the spread of communism dominated the focus of US foreign policy from the end of World War II until the fall of the Soviet Union in the 1990s.
-- example: >
-    Every day we interact with many people. Depending on the situation, we may act differently toward different people.<br /><br />A president's foreign policy is shaped by the president's political viewpoint, but the issues and events happening in the world also make a difference. Different policies may be more or less successful depending on what is happening around the world.
 ---
 ## Foreign Policy from 1950-1993
 
@@ -64,7 +35,7 @@ The United States continued its policy of containment. When the French left Viet
 
 #### Space Race
 
-The Soviet Union launched its first space satellite in 1957, during Eisenhower's second term in office. This began a "space race" between the Soviet Union and the United States that lasted for the next 40 years. Each nation wanted to be the most advanced in space exploration. The first US venture into space was the launching of the Explorer in 1958. Then, in 1961, the Soviet Union put the first human into space. The space race would continue until the fall of the Soviet Union almost 20 years later. 
+The Soviet Union launched its first space satellite in 1957, during Eisenhower's second term in office. This began a "space race" between the Soviet Union and the United States that lasted for the next 40 years. Each nation wanted to be the most advanced in space exploration. The first US venture into space was the launching of the Explorer in 1958. Then, in 1961, the Soviet Union put the first human into space. The space race would continue until the fall of the Soviet Union almost 20 years later.
 
 ### John F. Kennedy, 1961-1963
 

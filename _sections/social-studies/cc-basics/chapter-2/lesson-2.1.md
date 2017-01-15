@@ -8,7 +8,10 @@ chapter: 2
 section: 2.1
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Two documents written long ago in England-the Magna Carta (1215) and the English Bill of Rights (1689)- protected the people from the abuse of the king. These documents and others, such as the Mayflower Compact, provided models for the Declaration of Independence and the Articles of Confederation."
+
 ---
 ## Influential Documents
 

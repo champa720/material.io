@@ -8,31 +8,11 @@ chapter: 7
 section: 7.1
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Matter is made up of very tiny particles called atoms. An element is a pure chemical substance consisting of one type of atom. In this lesson you will learn about atoms and elements, and how elements are organized into the Periodic Table of Elements."
 
-objectives:
-- Describe the structure of matter
-- Understand how elements are organized in the periodic table
-- Describe how atoms form molecules
-- Apply Scientific Models
-- Understand and Explain Textual Scientific Presentations
-
-key_terms:
-- atom
-- element
-- matter
-
-vocabulary:
-- chemical bond
-- label
-- periodic table
-
-key_concept:
-- concept: >
-    All matter is made of atoms. Atoms of different elements have unique properties that determine the properties of the substance they make up.
-
 ---
-
 ## The Structure of Matter
 
 Think about icebergs floating in an arctic ocean under a sky of puffy white clouds, and you see a variety of shapes and textures. The chunks of icebergs are icy blue and made of frozen water. The ocean is liquid water. The clouds in the sky are puffs of water vapor. The ice, the ocean, and the clouds are all examples of matter, which is anything that has mass and takes up space. It is important to understand that not all matter is visible. For example, air is matter, even though it cannot be seen.

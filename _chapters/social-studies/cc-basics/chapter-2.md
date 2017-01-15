@@ -8,9 +8,10 @@ chapter: 2
 section: 2.0
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "US History: Revolutionary War through the Depression explores events from time of the early settlers through the 1930s."
 
-pages: 72 - 108
 ---
 History is the study of people, places, and events in the past. Certain people, events, places, and decisions probably stand out when you think of your own past. These are all important parts of who you are today. Similarly, the United States has been shaped by people, events, and decisions throughout its history.
 

@@ -8,7 +8,10 @@ chapter: 6
 section: 6.2
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "After the Civil War, the United States became more industrialized. Cities grew rapidly, and the economy boomed. In addition, the country tried to expand its foreign trade and increase its influence by taking over territories outside the continental United States."
+
 ---
 ## Changes in Society
 

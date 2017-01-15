@@ -8,32 +8,11 @@ chapter: 2
 section: 2.3
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Many factors influence the size of a population, including the interaction between organisms and the amount of resources in the ecosystem. Learn about the different ways in which organisms can interact with each other and how these interactions can affect the size of a population."
 
-objectives:
-- Analyze the factors that affect a population's carrying capacity
-- List three kinds of symbiosis
-- Explain how predators and prey affect population size
-
-skills:
-- Evaluate Reasoning
-- Describe a Data Set Statistically
-
-key_terms:
-- commensalism
-- parasitism
-- symbiosis
-
-vocabulary:
-- carrying capacity
-- predation
-
-key_concept:
-- concept: >
-    Many factors control the growth of a population in an area. The maximum size of a population a specific environment can sustain can be influenced by interactions among populations.
-
 ---
-
 ## Factors That Affect Population Size
 
 Populations of organisms must obtain food and other resources, or materials for living, within their ecosystem to survive. Factors that affect survival also affect population size.

@@ -10,32 +10,11 @@ chapter: 5
 section: 5.2
 tag: Physical Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Motion is related to the force that is present between two objects. Newton's three laws of motion explain the relationship between the motion of an object and the forces acting on it. Learn how Newton's law of universal gravitation explains how our feet stay on the ground and how the planets in our solar system stay in orbit."
 
-objectives:
-- Describe Newton's laws of motion
-- Explain how the law of universal gravitation describes the force of gravity between two objects with mass
-
-skills:
-- Apply Formulas from Scientific Theories
-- Solve Linear Equations
-
-key_terms:
-- force
-- gravity
-- inertia
-- weight
-
-vocabulary:
-- law
-- state
-
-key_concept:
-- concept: >
-    Newton's laws describe the motion of objects. Newton's law of universal gravitation relates the mass and distance between two objects to the force of gravity between two objects. These laws can be used to predict the motion of everyday objects.
-
 ---
-
 ## Newton's Laws of Motion
 
 The best pool players can predict how all the balls on the table will move once the cue ball is set into motion. They carefully control where and how hard they hit the cue ball so it moves where they want it to go. Pool balls move in predictable ways because, like all objects, they respond to forces in a certain ways.
@@ -122,4 +101,4 @@ Directions: Answer the following questions.
 
   1. Doubling the mass of one object the force of gravity, while doubling the distance between the two objects [ *blank* ] the force of gravity by [ *blank* ].
   2. The weight of a person who has a mass of 50 kg is [ *blank* ] N on Earth and would be on [ *blank* ] Mars, where the acceleration due to gravity is smaller than it is on Earth.
-</div> 
+</div>

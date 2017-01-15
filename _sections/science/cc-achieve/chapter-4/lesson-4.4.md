@@ -8,32 +8,11 @@ chapter: 4
 section: 4.4
 tag: Life Science
 
+cover_image: cca-science.jpg
+
 excerpt: "Scientists group together, or classify, organisms according to how many traits they have in common. Learn how scientists have traced the evolution of species to see where they branched apart and developed unique traits."
 
-objectives:
-- Identify sources of heritable genetic variation
-- Explain how the environment affects genetic expression
-
-skills:
-- Make Predictions Based upon Data or Evidence
-- Cite Textual Evidence
-
-key_terms:
-- crossing over
-- DNA replication
-- epigenetics
-- genetic recombination
-- mutation
-
-vocabulary:
-- assess
-
-key_concept:
-- concept: >
-    Offspring from sexual reproduction have a  unique set of traits. There are various causes of changes in traits from one generation to the next.
-
 ---
-
 ## Genetic Variation
 
 Think for a moment about the variation of human and animal species on Earth. Millions of different species as well as individuals within one species can show a variety of traits. Humans have different eye colors hair colors heights, and shapes. Animals also have a large variety of traits'. Dogs, for ' example, can be very small like a Chihuahua or very large like a Great Dane. They have different fur colors, patterns, and shapes. This tremendous variation can be traced back to genes, the expression of genes, and the interaction of genes and the environment.

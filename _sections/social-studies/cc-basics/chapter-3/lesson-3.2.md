@@ -8,40 +8,10 @@ chapter: 3
 section: 3.2
 tag: US History
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "The 1960s were a time of great social and political change in the United States. African Americans used nonviolent protests to gain civil rights. The civil rights movement inspired women and other minorities to fight for their rights."
 
-source:
-- title: Common Core Basics
-  subject: Social Studies
-  chapter: 3
-  toc_type: Lesson
-  toc_number: 3.2
-  pages: 118 - 123
-
-objectives:
-- Understand the domestic policies of Presidents Kennedy and Johnson
-- Identify key events and leaders of the civil rights movement
-- Recognize the changes in society that resulted from the civil rights movement
-- Understand the effects of the civil rights movement on other minority groups
-
-skills:
-- core: Interpret Meaning
-- reading: Relate Ideas within a Text
-
-vocabulary:
-- boycott
-- civil rights movement
-- demonstration
-- discrimination
-- relationship
-- segregation
-- unanimous
-
-key_concept:
-- concept: >
-    The 1960s and 1970s were a time of great turmoil in the United States.
-- example: >
-    Think about a time in your life when you encountered a situation that you believed was unfair. How did you react to it? What, if anything, did you do about it?<br /><br />From the time that slavery was abolished, laws and other practices were put in place that continued to treat African Americans unfairly. The civil rights movement encouraged all people to take a stand against discrimination.
 ---
 ## The Election of 1960
 
@@ -72,10 +42,10 @@ Important Supreme Court cases were decided during this time. In a series of deci
   * Evidence illegally collected is inadmissible, or not allowed, in court.
   * All suspects have a right to a lawyer during police questioning and at trial.
   * Police must inform people of their rights when they are arrested (the Miranda warning).
-  
+
 ### Brown v. Board of Education
 
-One of the most important Supreme Court rulings was in the case of Brown v. Board of Education of Topeka, Kansas. The National Association for the Advancement of Colored People (NAACP) had been challenging segregation laws for decades. Segregation is the practice of separating people or groups on the basis of race. In 1954, the NAACP sued the Topeka school board on behalf of Linda Brown. Brown was forced to attend a school across town rather than the school near her house because of her race. The Supreme Court's decision was unanimous; that is, there was no dissent or disagreement. Racial segregation in schools was illegal. The court did not consider segregated schools to be equal under the law. 
+One of the most important Supreme Court rulings was in the case of Brown v. Board of Education of Topeka, Kansas. The National Association for the Advancement of Colored People (NAACP) had been challenging segregation laws for decades. Segregation is the practice of separating people or groups on the basis of race. In 1954, the NAACP sued the Topeka school board on behalf of Linda Brown. Brown was forced to attend a school across town rather than the school near her house because of her race. The Supreme Court's decision was unanimous; that is, there was no dissent or disagreement. Racial segregation in schools was illegal. The court did not consider segregated schools to be equal under the law.
 
 Despite the Supreme Court's ruling, segregation was a fact of life for African-Americans in the South. Restaurants and movie theaters had separate sections for African-Americans. They were forced to ride in the backs of buses and trains. In 1955, an African American woman named Rosa Parks sat at the front of a bus in Montgomery, Alabama. When she refused to give up her seat to a white man, she was arrested. Her actions sparked a bus boycott. African-Americans refused to use the bus system. For over a year, they walked to work or carpool rather than ride the bus.
 
@@ -89,7 +59,7 @@ In 1963, President Kennedy announced a civil rights bill. The bill would ban seg
 
 ![Martin Luther King Jr. Memorial](img/mlk_memorial.jpg){: .responsive-img .materialboxed }
 
-[http://www.loc.gov/pictures/item/2013650718/](http://www.loc.gov/pictures/item/2013650718/){: target="_blank" }
+[http://www.loc.gov/pictures/item/2013650718/](http://www.loc.gov/pictures/item/2013650718/)
 
 Congress finally passed the civil rights bill in 1964. The Voting Rights Act was passed in 1965. It put an end to practices that denied African-Americans their right to vote. As a result, hundreds of African-Americans and other minorities were elected to public office. Hundreds of thousands more registered to vote for the first time.
 

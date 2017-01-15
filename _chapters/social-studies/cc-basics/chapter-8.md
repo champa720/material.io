@@ -8,9 +8,10 @@ chapter: 8
 section: 8.0
 tag: Geography
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Geography and People explores how geographic features and humans interact on Earth."
 
-pages: 284 - 324
 ---
 Most of us have ancestors who came to the United States from somewhere else. One reason people move to different countries or regions is to get away from poor physical conditions such as drought, lack of farmland, or weather that is too hot or too cold.
 

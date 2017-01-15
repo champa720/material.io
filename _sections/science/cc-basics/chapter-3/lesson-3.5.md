@@ -8,6 +8,8 @@ chapter: 3
 section: 3.5
 tag: Life Science
 
+cover_image: ccb-science.jpg
+
 excerpt: "Controlling pollution and keeping Earth's environment habitable are important issues for everyone. In this lesson, you will learn how human activities affect the environment and investigate the difference between renewable and nonrenewable resources."
 
 ---

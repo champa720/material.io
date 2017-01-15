@@ -8,7 +8,10 @@ chapter: 1
 section: 1.1
 tag: Civics & Government
 
+cover_image: ccb-social-studies.jpg
+
 excerpt: "Throughout history, people have formed governments. Three types of government are common today: democracy, monarchy, and dictatorship. None of these types are new. For example, more than two thousand years ago, some of the Greek city-states had democratic governments, but this was not the same type of democracy that we have in the united States today."
+
 ---
 ## Identify Types of Government
 

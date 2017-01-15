@@ -8,6 +8,8 @@ chapter: 2
 section: 2.4
 tag: Imagery
 
+cover_image: "poetry.jpg"
+
 ---
 It SHUSHES \\
 It hushes \\

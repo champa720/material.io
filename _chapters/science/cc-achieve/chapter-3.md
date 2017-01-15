@@ -7,6 +7,9 @@ category: Common Core Achieve
 chapter: 3
 section: 3.0
 tag: Life Science
+
+cover_image: cca-science.jpg
+
 ---
 Every living organism on Earth is composed of one or more cells. Cells contain smaller parts called organelles that must work together in order for the cell to live and reproduce. Simple cells are found in organisms such as bacteria, and more complex cells are found in plants and animals. The cells of animals and plants contain similar cell parts; however, plants cells have additional parts that make them unique. Both plant and animal cells take in and convert energy from their environment to support cellular function.
 

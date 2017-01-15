@@ -8,6 +8,8 @@ chapter: 3
 section: 3.6
 tag: Figurative Language
 
+cover_image: "poetry.jpg"
+
 ---
 Even as I hold you \\
 I think of you as_someone gone \\
