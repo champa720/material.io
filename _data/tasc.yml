@@ -1,83 +1,153 @@
-- title: CBT Free Practice, English
+- subject: Mathematics
+  title: Mathematics
+  time: 105 minutes
+  format:
+    - "Part 1: 55 minutes, 40 questions, multiple-choice"
+    - "Break: 15 minutes"
+    - "Part 2: 50 minutes, 12 questions, gridded-response"
+  testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Math"
+      excerpt: Visit regularly to study new math topics as we build the library.
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205841-study-mathematics"
+    - category: Recap Quiz
+      excerpt: Algebra
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/algebra-recap-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Mathematics Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/mathematics-practice/tasc-mathematics-practice-questions"
   docs:
+    - category: Mathematics Reference Sheet
+      excerpt:
+      cover_image: tasc/formula_sheet_tasc.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
+    - category: Practice Items
+      excerpt: TASC Test Math Practice Items
+      cover_image: tasc/TASC_Test_Practice_Items_Math.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Math.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Math_Practice_Test.pdf"
 
-    - title: TASC Test Item Sampler
-      url: https://www.engradepro.com/preview/?qk=f0da0dab1eb0a99790fe7de50058636b&section=1
-
-    - title: Study Reading
-      url: http://www.tasctest.com/blog.html#ufh-c-205853-study-reading
-
-    - title: Study Writing
-      url: http://www.tasctest.com/blog.html#ufh-c-205856-study-writing
-
-    - title: Study Mathematics
-      url: http://www.tasctest.com/blog.html#ufh-c-205841-study-mathematics
-
-    - title: Study Science
-      url: http://www.tasctest.com/blog.html#ufh-c-205847-study-science
-
-    - title: Study Social Studies
-      url: http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies
-
-- title: PBT Free Practice, English
+- subject: Reading
+  title: "Language Arts: Reading"
+  time: 75 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Reading"
+      excerpt:
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205853-study-reading"
+    - category: "Recap Quiz: Language and Word Reading"
+      excerpt:
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/languageandword-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Reading Literacy Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/language-arts-practice/tasc-language-arts-reading-practice-questions"
   docs:
+    - category: Practice Items
+      excerpt: TASC Test Reading Practice Items
+      cover_image: tasc/TASC_Test_Practice_Items_Reading.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Reading.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Reading_Practice_Test.pdf"
 
-    - title: TASC Test Reading Practice Items
-      url: http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Reading.pdf
-
-    - title: TASC Test Writing Practice Items
-      url: http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Writing.pdf
-
-    - title: TASC Test Math Practice Items
-      url: http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Math.pdf
-
-    - title: TASC Test Science Practice Items
-      url: http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Science.pdf
-
-    - title: TASC Test Social Studies Practice Items
-      url: http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Social_Studies.pdf
-
-- title: PBT Pra&#769;ctica Gratuito, Espan&#771;ol
+- subject: Science
+  title: Science
+  time: 85 minutes
+  format:
+    - 47 questions, multiple-choice
+    - 8 questions, stimuli
+  testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Science"
+      excerpt: Find science topics to study and quizzes to test your knowledge.
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205847-study-science"
+    - category: Recap Quiz
+      excerpt: Earth and Space Science
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/earthandspacequiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Science Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/science-practice/tasc-science-practice-questions"
   docs:
+    - category: Practice Items
+      excerpt: TASC Test Science Practice Items
+      cover_image: tasc/TASC_Test_Practice_Items_Science.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Science.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Science_Practice_Test.pdf"
 
-    - title: Ejercicios de práctica para el examen TASC de Lectura
-      url: http://ctbassessments.com/pdfs/Spanish_Reading_Practice_Test.pdf
-
-    - title: Ejercicios de práctica para el examen TASC de Matemáticas
-      url: http://ctbassessments.com/pdfs/Spanish_Math_Practice_Test.pdf
-
-    - title: Ejercicios de práctica para el examen TASC de Ciencias
-      url: http://ctbassessments.com/pdfs/Spanish_Science_Practice_Test.pdf
-
-    - title: Ejercicios de práctica para el examen TASC de Estudios sociales
-      url: http://ctbassessments.com/pdfs/Spanish_SocialStudies_Practice_Test.pdf
-
-    - title: Ejercicios de práctica para el examen TASC de Escritura
-      url: http://ctbassessments.com/pdfs/Spanish_Writing_Practice_Test.pdf
-
-- title: References, English
+- subject: Social Studies
+  title: Social Studies
+  time: 75 minutes
+  format:
+    - 47 questions, multiple-choice
+    - 8 questions, stimuli
+  testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Social Studies"
+      excerpt:
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies"
+    - category: Recap Quiz
+      excerpt: "US History: Post-War United States"
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/us-history-post-war-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Social Studies Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/social-studies-practice/tasc-social-studies-practice-questions"
   docs:
+    - category: Practice Items
+      excerpt: TASC Test Social Studies Practice Items
+      cover_image: tasc/TASC_Test_Practice_Items_Social_Studies.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Social_Studies.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_SocialStudies_Practice_Test.pdf"
 
-    - title: Mathematics Reference Sheet
-      url: http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf
-
-    - title: TI-30XS MultiView™ Calculator Reference Sheet for TASC Test
-      url: http://www.ctbassessments.com/pdfs/2707033_calcRef_15TASC_Eng_rev040915.pdf
-
-    - title: Argumentative Essay Writing Prompt Sample
-      url: http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf
-
-    - title: Informational Essay Writing Prompt Sample Item
-      url: http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf
-
-    - title: Scoring Guidance for the Informational Essay
-      url: http://www.tasctest.com/assets/scoring-guidance-for-the-informational-essay.pdf
-
-    - title: Scoring Guidance for the Argumentative Essay
-      url: http://www.tasctest.com/assets/scoring-guidance-for-the-argumentative-essay.pdf
-
-- title: Referencias, Espan&#771;ol
+- subject: Writing
+  title: "Language Arts: Writing"
+  time: 105 minutes
+  format:
+    - "Part 1: 55 minutes, 50 questions, multiple-choice"
+    - "Part 2: 50 minutes, 1 essay prompt"
+  testing_url: "https://colorado.tasctest.com/"
+  test_center: "https://colorado.tasctest.com/"
+  cbt:
+    - category: "TASC Blog: Study Writing"
+      excerpt:
+      avatar: tasc_avatar.jpg
+      url: "http://www.tasctest.com/blog.html#ufh-c-205856-study-writing"
+    - category: Recap Quiz
+      excerpt: Grammar Writing
+      avatar: tasc_avatar.jpg
+      url: "http://discover.tasctest.com/grammar-recap-quiz"
+    - category: Learning Express Library
+      excerpt: TASC Test Writing Practice Questions
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-tasc-exam/language-arts-practice/tasc-language-arts-writing-practice-questions"
   docs:
-
-    - title: Hoja de referencia para la calculadora TI-30XS MultiView™ para TASC Test
-      url: http://www.ctbassessments.com/pdfs/2707034_calcRef_15TASC_SP_rev040915.pdf
+    - category: Practice Items
+      excerpt: TASC Test Writing Practice Items
+      cover_image: tasc/TASC_Test_Practice_Items_Writing.jpg
+      url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Writing.pdf"
+      url_spanish: "http://ctbassessments.com/pdfs/Spanish_Writing_Practice_Test.pdf"
+    - category: Argumentative Essay
+      excerpt: Argumentative Essay Writing Prompt Sample
+      cover_image: tasc/sample_argumentative_essay.jpg
+      url_english: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
+      url_spanish: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
+    - category: Informational Essay
+      excerpt: Informational Essay Writing Prompt Sample Item
+      cover_image: tasc/sample_informational_essay.jpg
+      url_english: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"
+      url_spanish: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"

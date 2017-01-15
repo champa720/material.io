@@ -1,0 +1,56 @@
+---
+layout: default
+title: Lessons
+
+subject: Lessons
+category: Lessons
+chapter: 0
+section: 0.0
+tag: empty
+
+icon: assignment
+
+---
+
+<!-- creates loop for subject_menu by subject > category -->
+{% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
+
+<nav id="{{ page.layout }}" class="nav-extended">
+  <div class="nav-wrapper">
+    <ul class="right hide-on-small-only">
+
+      {% for subject in subject_menu %}
+      <li class="{% if subject.url == page.url %}active{% endif %}"><a href="{{ subject.url }}"><i class="material-icons">{{ subject.icon }}</i></a></li>
+      {% endfor %}
+
+    </ul>
+    <h1>{{ page.title }}</h1>
+    <ul class="tabs tabs-transparent">
+      <li class="tab"><a href="#mathematics">Mathematics</a></li>
+      <li class="tab"><a href="#reading">Reading</a></li>
+      <li class="tab"><a href="#science">Science</a></li>
+      <li class="tab"><a href="#social-studies">Social Studies</a></li>
+      <li class="tab"><a href="#writing">Writing</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="mathematics" class="container">
+  {% include lessons.html subject="Mathematics" %}
+</section>
+
+<section id="reading" class="container">
+  {% include lessons.html subject="Reading" %}
+</section>
+
+<section id="science" class="container">
+  {% include lessons.html subject="Science" %}
+</section>
+
+<section id="social-studies" class="container">
+  {% include lessons.html subject="Social Studies" %}
+</section>
+
+<section id="writing" class="container">
+  {% include lessons.html subject="Writing" %}
+</section>

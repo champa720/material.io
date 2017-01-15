@@ -1,0 +1,448 @@
+body, #questions.side-nav {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: color('grey', 'lighten-5');
+  color: rgba(0, 0, 0, 0.7);
+  text-rendering: geometricPrecision;
+}
+
+main, #questions.side-nav iframe {
+  flex: 1 0 auto;
+}
+
+// Global
+
+::-moz-selection {
+  background: $secondary-color;
+  color: color('grey', 'lighten-5');
+}
+
+::selection {
+  background: $secondary-color;
+  color: color('grey', 'lighten-5');
+}
+
+i.material-icons.rotate {
+  transition: transform .35s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.active i.material-icons.rotate {
+  transform: rotate(-540deg);
+}
+
+.card.accent {
+  border-top: 5px solid $secondary-color;
+  & h2.card-title {
+    margin: 0px;
+  }
+}
+
+.card .card-action,
+.modal .modal-footer {
+  background-color: color('grey', 'lighten-3');
+  font-size: 14px;
+}
+
+.collection a.collection-item .title,
+.collection a.collection-item.avatar .title {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+
+.btn, .card p, .card ul, .card dl, .collapsible-header, .collection a.collection-item {
+  font-size: 1.333rem;
+}
+
+.collapsible li.active {
+  background-color: color('grey', 'lighten-5');
+}
+
+.page-footer {
+  color: color('grey', 'lighten-5');
+
+  & .footer-copyright {
+    text-transform: uppercase;
+  }
+
+  & .footer-wrapper {
+    padding: 0 .75rem;
+  }
+}
+
+// SVG Icons
+
+svg {
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+  fill: color('grey', 'lighten-5');
+}
+
+// Typography
+
+h1 {
+  color: color('grey', 'lighten-5');
+}
+
+h2,h3,h4,h5,h6 {
+  color: color('grey', 'darken-1');
+}
+
+h1,h2,h3,h4,h5,h6,.btn,.card-title,.card-action,.collapsible-header,.collection a.collection-item {
+  font-family: Roboto, sans-serif;
+  -webkit-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+  -o-font-feature-settings: 'dlig' 0, 'liga' 1, 'lnum' 1, 'kern' 1;
+}
+
+// Typography flow-text
+
+.flow-text {
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+
+  & p, ul, ol, dl, table {
+    margin: 0 0 1.1997rem 0 !important; // breathing space
+  }
+  &.casper {
+    & ul {
+      list-style-type: disc;
+      & li {
+        list-style-type: inherit;
+      }
+      & ul {
+        list-style-type: circle;
+        & li {
+          list-style-type: inherit;
+        }
+      }
+    }
+
+    & ol, ul {
+      padding-left: 2rem;
+    }
+
+    & ol ol, ul ul, ul ol, ol ul {
+      margin: 0 0 0.7rem 0;
+      padding-left: 1rem;
+    }
+
+    & li {
+      margin: 0.7rem 0;
+      & li {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// index
+
+#home, #home nav, #home footer {
+  background: color('grey', 'darken-4');
+
+  & main {
+  /* top, transparent red */
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  /* bottom, image */
+  url(  "/assets/img/denver-min.jpg") center / cover;
+  }
+
+  & h1, h2, h3, h4, h5, h6, p {
+    color: color('grey', 'lighten-5');
+    font-weight: 900;
+  }
+}
+
+// Chapter Layout
+
+.table-of-contents li {
+  padding: 5px 0;
+}
+
+a.breadcrumb,
+.table-of-contents a {
+  font-size: 1.333rem;
+  color: rgba(250,250,250,0.7);
+
+  &.hover {
+    color: color('grey', 'lighten-5');
+  }
+
+  &.active {
+    font-weight: 500;
+    color: color('grey', 'lighten-5');
+  }
+}
+
+#hse, #lessons {
+  & #index, #chapter, #lesson, #section {
+    background-color: $primary-color;
+  }
+
+  & #chapter /*#header-chapter*/ {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */
+      $primary-color;
+  }
+
+  & #section {
+    & .material-icons {
+      color: $primary-color;
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+}
+
+#mathematics {
+  & #index, #chapter, #lesson, #section {
+    background-color: color('deep-orange', 'darken-4');
+  }
+
+  & #chapter.common-core-achieve {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/cca-mathematics.jpg) top / cover fixed;
+  }
+
+  & #chapter.common-core-basics {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-mathematics.jpg) center / cover fixed;
+  }
+
+  & #section {
+    & .material-icons {
+      color: color('deep-orange', 'darken-4');
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+
+  // Subject Varibles
+  & .secondary-content {
+      color: color('deep-orange', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('deep-orange', 'accent-2');
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('deep-orange', 'accent-2');
+  }
+}
+
+#reading {
+  & #index, #chapter, #lesson, #section {
+    background-color: color('blue', 'darken-4');
+  }
+
+  & #chapter.common-core-achieve {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/cca-reading.jpg) top / cover fixed;
+  }
+
+  & #chapter.common-core-basics {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-reading.jpg) center / cover fixed;
+  }
+
+  & #section {
+    & .material-icons {
+      color: color('blue', 'darken-4');
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+
+  // Subject Varibles
+  & .secondary-content {
+      color: color('blue', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('blue', 'accent-2');
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('blue', 'accent-2');
+  }
+}
+
+#science {
+  & #index, #chapter, #lesson, #section {
+    background-color: color('purple', 'darken-4');
+  }
+
+  & #chapter.common-core-achieve {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/cca-science.jpg) top / cover fixed;
+  }
+
+  & #chapter.common-core-basics {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-science.jpg) center / cover fixed;
+  }
+
+  & #section {
+    & .material-icons {
+      color: color('purple', 'darken-4');
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+
+  // Subject Varibles
+  & .secondary-content {
+      color: color('purple', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('purple', 'accent-2');
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('purple', 'accent-2');
+  }
+}
+
+#social-studies {
+  & #index, #chapter, #lesson, #section {
+    background-color: color('green', 'darken-4');
+  }
+
+  & #chapter.common-core-achieve {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/cca-social-studies.jpg) top / cover fixed;
+  }
+
+  & #chapter.common-core-basics {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-social-studies.jpg) center / cover fixed;
+  }
+
+  & #section {
+    & .material-icons {
+      color: color('green', 'darken-4');
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+
+  // Subject Varibles
+  & .secondary-content {
+      color: color('green', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('green', 'accent-2');
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('green', 'accent-2');
+  }
+}
+
+#writing {
+  & #index, #chapter, #lesson, #section {
+    background-color: color('red', 'darken-4');
+  }
+
+  & #chapter.common-core-basics {
+    background:
+      /* top, transparent red */
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      /* bottom, image */ url(http://www.jasonsclassroom.com/assets/img/book_covers/ccb-writing.jpg) center / cover fixed;
+  }
+
+  & #section {
+    & .material-icons {
+      color: color('red', 'darken-4');
+      background-color: color('grey', 'lighten-5');
+    }
+  }
+
+  // Subject Varibles
+  & .secondary-content {
+      color: color('red', 'accent-2')
+  }
+
+  & .btn, .collection-item.active {
+    background-color: color('red', 'accent-2');
+  }
+
+  & blockquote,
+  .card.accent,
+  .table-of-contents a,
+  .table-of-contents a.active {
+    border-color: color('red', 'accent-2');
+  }
+}
+
+// Section Layout
+
+article header {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  text-transform: uppercase;
+  color: color('grey', 'lighten-5');
+  & img {
+    line-height:42px;
+    width:42px;
+    height:42px;
+    margin:0px 15px;
+  }
+}
+
+// Index Layout
+.nav-extended .nav-wrapper h1 {
+  position: relative;
+  display: inline-block;
+  left: 24px;
+}
+
+@media #{$medium-and-up} {
+  .nav-extended .nav-wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 85%;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .absolute {
+    position: absolute;
+    width: 100%;
+  }
+}

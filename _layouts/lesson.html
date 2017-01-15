@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<!-- creates loop for site.lessons by subject > category > tag -->
+{% assign subject = site.lessons | where_exp: "lessons", "lessons.subject == page.subject" %}
+{% assign category = subject | where_exp: "lessons", "lessons.category == page.category" %}
+{% assign related_lessons = category | where_exp: "lessons", "lessons.tag == page.tag" %}
+
+<article>
+  <header id="{{ page.layout }}" class="z-depth-1">
+    <div class="row">
+      <div class="col s12 l10 offset-l1">
+        <div class="">
+          <!--tag-->
+          <span class="">{{ page.slug | capitalize | replace: "-", " " }}</span>
+          <!--date-->
+          <span class="right">{{ page.tag }}</span>
+          <hr>
+        </div>
+        <div class="">
+          <h1 class="title">{{ page.title }}</h1>
+        </div>
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="{{ site.url }}" class="breadcrumb">Home</a>
+            <a class="breadcrumb" href="/{{ page.collection }}">{{ page.collection | capitalize }}</a>
+            <a class="breadcrumb" href="/{{ page.collection | append: "#"}}{{ page.subject | slugify }}">{{ page.subject }}</a>
+            <span class="breadcrumb"><a class="dropdown-button btn" href="#" data-activates="related-lessons" data-constrainwidth="false">{{ page.tag }}</a></span>
+            <ul id="related-lessons" class="dropdown-content">
+
+              {% for lesson in related_lessons %}
+              <li class="{% if lesson.url == page.url %}active{% endif %}">
+                <a href="{{ lesson.url }}">{{ lesson.slug | capitalize }}: {{ lesson.title }}</a>
+              </li>
+              {% endfor %}
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m5 l4 offset-l1">
+        <div class="card accent">
+          <div class="card-content flow-text casper">
+
+            {% for overview in page.section_overview %}
+            <h4>{{ overview.title }}</h4>
+
+            {% if overview.title == "Vocabulary" %}
+            <table class="striped">
+              {% for content in overview.content %}
+              <tr>
+                <th>{{ content[0] }}</th>
+                <td>{{ content[1] | join: '<br />' }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+
+            {% elsif overview.title == "Standards" %}
+            <ul>
+              {% for content in overview.content %}
+              <li><a href="#{{ content | slugify }}" class="modal-trigger">{{ content | markdownify }}</a></li>
+              {% endfor %}
+            </ul>
+
+            {% else %}
+            <ul>
+              {% for content in overview.content %}
+              <li>{{ content | markdownify }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %} {% endfor %}
+
+          </div>
+          <div class="card-action">
+            <a href="{{ page.url | remove: "/lessons"}}" target="_blank">{{ page.url | remove: "/lessons"}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m7 l6 flow-text casper ">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>
+
+{% if page.subject == "Mathematics" %}
+{% include ccrs.html subject="mathematics" %}
+
+{% elsif page.subject == "Reading" or page.subject == "Science" or page.subject == "Social Studies" %}
+{% include ccrs.html subject="reading" %}
+
+{% elsif page.subject == "Writing" %}
+{% include crs.html subject="writing" %}
+
+{% endif %}

@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<article>
+  <header id="{{ page.layout }}">
+    <div class="container">
+      <div class="">
+        <!--tag-->
+        <span class="">{{ page.slug | capitalize | replace: "-", " " }}</span>
+        <!--date-->
+        <span class="right">{{ page.tag }}</span>
+        <hr>
+      </div>
+      <div class="">
+        <h1 class="title">{{ page.title }}</h1>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <hr>
+          <div class="section">
+            <img src="/assets/img/avatars/{{ page.cover_image }}" class="circle left" />
+            <address class="">
+              <span>{{ page.author }}</span>
+              <div>
+                <span class="truncate">{{ page.category }}</span>
+              </div>
+            </address>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="section">
+    <div class="container flow-text casper">
+      {{ content }}
+    </div>
+  </div>
+
+  {% if page.form %}{% include sidenav_questions.html %}{% endif %}
+
+  <!-- creates loop for site.sections by category -->
+  {% assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" %}
+  {% assign category = subject | where_exp: "sections", "sections.category == page.category" %}
+  {% assign related_sections = category | where_exp: "sections", "sections.chapter == page.chapter" %}
+
+  <!-- creates loop for related_chapters by tag -->
+  {% assign related_chapters = site.chapters | where_exp: "chapters", "chapters.tag == page.tag" %}
+
+  <footer class="page-footer grey lighten-3">
+    <div class="container">
+
+      <section class="section">
+        <h4 class="grey-text text-darken-1">Up Next</h4>
+        <div class="collection">
+          <a rel="next" href="{{ page.next.url }}" class="collection-item avatar waves-effect{% if a.url == page.url %} active{% endif %}">
+            <img src="/assets/img/avatars/{{ page.next.cover_image }}" class="circle" />
+            <p class="title">{{ page.next.title }}</p>
+            <p class="truncate">{{ page.next.excerpt | strip_html | normalize_whitespace }}</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h4 class="grey-text text-darken-1">Related Sections</h4>
+        <div class="collection">
+
+          {% for a in related_sections %}
+          <a href="{{ a.url }}" class="collection-item avatar waves-effect{% if a.url == page.url %} active{% endif %}">
+            <img src="/assets/img/avatars/{{ a.cover_image }}" class="circle" />
+            <p class="title">{{ a.title }}</p>
+            <p class="truncate">{{ a.excerpt | strip_html | normalize_whitespace }}</p>
+          </a>
+          {% endfor %}
+
+        </div>
+      </section>
+
+      <section class="section">
+        <h4 class="grey-text text-darken-1">Related Chapters</h4>
+        <div class="collection">
+
+          {% for a in related_chapters %}
+          <a href="{{ a.url }}" class="collection-item avatar waves-effect{% if a.url == page.url %} active{% endif %}">
+            <img src="/assets/img/avatars/{{ a.cover_image }}" class="circle" />
+            <p class="title">{{ a.title }}</p>
+            <p class="truncate">{{ a.category | truncate }}</p>
+          </a>
+          {% endfor %}
+
+        </div>
+      </section>
+    </div>
+  </footer>
+</article>

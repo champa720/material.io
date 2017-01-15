@@ -1,0 +1,176 @@
+---
+layout: default_alt
+---
+<header class="{{ page.color }}">
+  <div class="row">
+    {% include header_alt.html %}
+    <nav class="transparent z-depth-0">
+      <!-- empty space -->
+    </nav>
+    <!-- breadcrumbs -->
+    {% assign crumbs = page.url | split: '/' %}
+    <nav class="transparent z-depth-0">
+      <div class="col s12 m12 l10 offset-l1 truncate">
+        {% for crumb in crumbs limit: 3 %}
+        {% if forloop.index == 1 %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ "Home" | upcase }}</a>
+        {% elsif forloop.index == 2 %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.category | upcase }}</a>
+        {% else %}
+        <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ page.collection | replace:'-', ' ' | upcase }}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+    <!-- table of contents -->
+    {% assign a = page.collection %}
+    {% assign a_sorted = site[a] | sort: 'level', 'last' %}
+    <aside class="col s12 m4 offset-m8 l3 offset-l8 hide-on-small-only" id="toc">
+      <h5 class="white-text">{{ page.tag | upcase}}</h5>
+      <ul class="table-of-contents">
+        {% for p in a_sorted %}
+        {% if p.tag == page.tag and p.toc == true %}
+        <li>
+          <a href="{{ p.url }}" class="waves-effect{% if p.url == page.url %} active{% endif %}">{{ p.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <article>   
+    <div class="row">
+      <section class="col s12 m8 l7 offset-l1" id="page-content" style="transition: margin-top 500ms cubic-bezier(0.470, 0.000, 0.745, 0.715);">
+        <div class="card">
+          <div class="card-content">
+            <!-- table of contents dropdown -->
+            <a class="dropdown-button right hide-on-med-and-up" href="#" data-activates="toc_drop" data-constrainwidth="false">
+              <i class="material-icons medium">more_vert</i>
+            </a>
+            <ul class="dropdown-content" id="toc_drop">
+              {% for p in site[a] %}
+              {% if p.tag == page.tag and p.toc == true %}
+              <li class="{% if page.url == p.url %}active{% endif %}">
+                <a href="{{ p.url }}" class="waves-effect">{{ p.title }}</a>
+              </li>
+              {% elsif p.tag == page.tag and p.slug == 'resources' %}
+              <li class="divider"></li>
+              <li class="{% if page.url == p.url %}active{% endif %}">
+                <a href="{{ p.url }}" class="waves-effect">
+                  <i class="material-icons left">exit_to_app</i>
+                  <strong class="title">{{ p.title | upcase }}</strong>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+            <span class="card-title">{{ page.title }}</span>
+            <span class="casper">{{ content }}</span>
+          </div>
+          <div class="card-action grey lighten-3">
+            <!-- revised includes footer -->
+            {% for source in page.source %}
+            <a href="{{ source }}" class="truncate">
+              <i class="material-icons left">link</i>
+              <span>{{ source | prepend: "source: " | downcase }}</span>
+            </a>
+            {% endfor %}
+            {% for source_pdf in page.pdf %}
+            <a href="{{ source_pdf }}" class="truncate">
+              <i class="material-icons left">link</i>
+              <span>{{ source_pdf | prepend: "source pdf: " | downcase }}</span>
+            </a>
+            {% endfor %}
+            {% if page.date != null %}
+            <small>{{"last updated: " | upcase }}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></small>
+            {% endif %}
+          </div>          
+        </div>
+      </section>
+      <!-- more information -->
+      <aside class="col s12 m4 l3">
+        <div class="collection">
+          {% for p in site[a] %}
+          {% if p.tag == page.tag and p.slug == 'resources' %}
+          <a href="{{ p.url }}" class="collection-item avatar waves-effect{% if page.url contains 'resources' %} active{% endif %}">
+            <i class="material-icons circle {{ page.color }}">exit_to_app</i>
+            <strong class="title">{{ p.title | upcase }}</strong>
+            <p>{{ p.tagline }}</p>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </aside>
+    </div>
+  </article>  
+</main>
+
+{% comment %}
+<!-- next previous within category tag or toc -->
+<section class="section">
+  <span class="row">
+    <div class="col s12 m12 l10 offset-l1" role="button">
+      {% if page.previous.url %}
+      <a rel="prev" href="{{ page.previous.url | remove: 'index.html' | prepend: site.baseurl }}" class="col s4 btn btn-large {{ page.color }} waves-effect left tooltipped" data-tooltip="{{ page.previous.title }}" data-position="top">
+        <i class="material-icons left">chevron_left</i>Previous</a>
+      {% endif %}      
+      {% if page.next.url %}
+      <a rel="next" href="{{ page.next.url | remove: 'index.html' | prepend: site.baseurl }}" class="col s8 btn btn-large waves-effect right tooltipped" data-tooltip="{{ page.next.title }}" data-position="top">
+        <i class="material-icons right">chevron_right</i>Next</a>
+      {% endif %}
+    </div>
+  </span>
+</section>
+{% endcomment %}
+
+<!-- layout footer -->
+<footer class="page-footer {{ page.color }} darken-3">
+  <div class="row">
+    <span class="col s12">
+      <span class="col s12 m8 l7 offset-l1">
+        <h5 class="white-text">{{ site.title | titleize }}</h5>
+        <blockquote class="grey-text text-lighten-2">{{ site.description | capitalize }}</blockquote>
+      </span>
+      <div class="col s12 m3 offset-m1">
+        <h5 class="white-text">{{ 'stay connected' | titleize }}</h5>
+        <ul class="social_media">          
+          {% for media in site.social %}
+          <li class="left">
+            <a href="{{ media.url }}" class="social-btn icon-{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}" target="_blank">
+              <span class="icon-text">{{ media.name }}</span>
+            </a>
+          </li>
+          {% endfor %}          
+        </ul>
+      </div>
+    </span>
+  </div>
+  <div class="footer-copyright {{ page.color }} darken-4">
+    <div class="row">
+      <span class="col s12">
+        <span>&copy;</span>
+        <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+        <span>{{ page.author | upcase }}</span>
+      </span>
+    </div>
+  </div>
+</footer>
+
+{% include foot.html %}
+
+<script>
+  $(window).on("load resize", function () {
+    var toc = $('#toc');
+    if (document.documentElement.clientWidth > 601) {
+      $('#page-content').css({
+        marginTop: -toc.outerHeight()+-20});
+    }
+    else {
+      $('#page-content').css({
+        marginTop: 0});
+    }
+  });
+</script>

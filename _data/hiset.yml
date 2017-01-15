@@ -1,119 +1,217 @@
-- title: Computer Based Free Practice, English
+- subject: Mathematics
+  title: Mathematics
+  time: 90 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
+  cbt:
+    - category: ETS HiSET Test Preparation
+      excerpt: Interactive Practice Tests
+      avatar: hiset_avatar.jpg
+      url: "http://www.ets-cls.org/hiset/"
+    - category: Learning Express Library
+      excerpt: Mathematics Practice Tests
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/mathematics-practice/hiset-mathematics-practice-questions"
   docs:
-    - title: Online Practice Tests
-      url: http://www.ets-cls.org/hiset/practice/hiset.htm
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: hiset/math_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: hiset/math_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: hiset/math_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp2_es.pdf"
+    - category: Formula Sheet
+      excerpt:
+      cover_image: hiset/formula_sheet_hiset.jpg
+      url_english: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet_es.pdf"
+      badge: true
+    - category: Answer Sheet
+      excerpt: Practice Test Answer Sheet Mathematics
+      cover_image: hiset/answer_sheet_mathematics.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math_es.pdf"
+    - category: Are You Ready to Take the HiSET® Exam?
+      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: hiset/practice_test_results.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
+      badge: true
 
-    - title: Speed and Accuracy in Math Tasks
-      url: http://www.ets-cls.org/hiset/QuickMath/AdaptiveHiSET.htm
-      
-- title: Paper Based Practice Test Documents
-  docs:    
-    - title: HiSET Practice Test Blank Answer Sheet for Mathematics (PDF)
-      url: https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math.pdf
-    
-    - title: HiSET Practice Test Blank Answer Sheet for Science, Social Studies and Reading (PDF)
-      url: https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf
-    
-    - title: HiSET Practice Test Blank Answer Sheet for Writing (PDF)
-      url: https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing.pdf
-    
-    - title: Mathematics Formula Sheet (PDF)
-      url: https://hiset.ets.org/s/pdf/mathematics_formula_sheet.pdf
-    
-    - title: Mathematics Formula Sheet (Document in Spanish) (PDF)
-      url: https://hiset.ets.org/s/pdf/mathematics_formula_sheet_es.pdf
-    
-    - title: "Practice Test Results: Are You Ready to Take the Exam? (PDF)"
-      url: https://hiset.ets.org/s/pdf/practice_test_results.pdf
-
-- title: Paper Based Free Practice, English
+- subject: Reading
+  title: "Language Arts: Reading"
+  time: 65 minutes
+  format: 40 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
+  cbt:
+    - category: ETS HiSET Test Preparation
+      excerpt: Interactive Practice Tests
+      avatar: hiset_avatar.jpg
+      url: "http://www.ets-cls.org/hiset/"
+    - category: Learning Express Library
+      excerpt: Language Arts, Reading Practice Tests
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-reading-practice-questions"
   docs:
-    # Reading
-    - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT6A
-      url: https://hiset.ets.org/s/pdf/practice/reading_fpt6a.pdf
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: hiset/reading_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: hiset/reading_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: hiset/reading_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp2_es.pdf"
+    - category: Answer Sheet
+      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
+      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
+    - category: Are You Ready to Take the HiSET® Exam?
+      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: hiset/practice_test_results.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
+      badge: true
 
-    - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT3
-      url: https://hiset.ets.org/s/pdf/practice/reading_fp3.pdf
-
-    - title: Language Arts–Reading, HiSET® Exam Free Practice Test FPT2
-      url: https://hiset.ets.org/s/pdf/practice/reading_fp2.pdf
-      
-    # Writing
-    - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT6A
-      url: https://hiset.ets.org/s/pdf/practice/writing_fpt6a.pdf
-
-    - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT3
-      url: https://hiset.ets.org/s/pdf/practice/writing_fp3.pdf
-
-    - title: Language Arts–Writing, HiSET® Exam Free Practice Test FPT2
-      url: https://hiset.ets.org/s/pdf/practice/writing_fp2.pdf
-      
-    # Mathematics
-    - title: Mathematics, HiSET® Exam Free Practice Test FPT6A
-      url: https://hiset.ets.org/s/pdf/practice/math_fpt6a.pdf
-
-    - title: Mathematics, HiSET® Exam Free Practice Test FPT3
-      url: https://hiset.ets.org/s/pdf/practice/math_fp3.pdf
-
-    - title: Mathematics, HiSET® Exam Free Practice Test FPT2
-      url: https://hiset.ets.org/s/pdf/practice/math_fp2.pdf
-      
-    # Science
-    - title: Science, HiSET® Exam Free Practice Test FPT6A
-      url: https://hiset.ets.org/s/pdf/practice/science_fpt6a.pdf
-      
-    - title: Science, HiSET® Exam Free Practice Test FPT2
-      url: https://hiset.ets.org/s/pdf/practice/science_fp2.pdf
-      
-    # Social Studies
-    - title: Social Studies, HiSET® Exam Free Practice Test FPT6A
-      url: https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a.pdf
-
-    - title: Social Studies, HiSET® Exam Free Practice Test FPT2
-      url: https://hiset.ets.org/s/pdf/practice/social_studies_fp2.pdf
-
-- title: Pra&#769;ctica Gratuito, Espan&#771;ol
+- subject: Science
+  title: Science
+  time: 80 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
+  cbt:
+    - category: ETS HiSET Test Preparation
+      excerpt: Interactive Practice Tests
+      avatar: hiset_avatar.jpg
+      url: "http://www.ets-cls.org/hiset/"
+    - category: Learning Express Library
+      excerpt: Science Practice Tests
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/science-practice/hiset-science-practice-questions"
   docs:
-    # Reading
-    - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT6A de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/reading_fpt6a_es.pdf
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: hiset/science_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/science_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fpt6a_es.pdf"
+      badge: true
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: hiset/science_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/science_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fp2_es.pdf"
+    - category: Answer Sheet
+      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
+      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
+    - category: Are You Ready to Take the HiSET® Exam?
+      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: hiset/practice_test_results.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
+      badge: true
 
-    - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT3 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/reading_fp3_es.pdf
+- subject: Social Studies
+  title: Social Studies
+  time: 70 minutes
+  format: 50 questions, multiple-choice
+  testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
+  cbt:
+    - category:  ETS HiSET Test Preparation
+      excerpt: Interactive Practice Tests
+      avatar: hiset_avatar.jpg
+      url: "http://www.ets-cls.org/hiset/"
+    - category: Learning Express Library
+      excerpt: Social Studies Practice Tests
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/social-studies-practice/hiset-social-studies-practice-questions"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: hiset/social_studies_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a_es.pdf"
+      badge: true
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: hiset/social_studies_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2_es.pdf"
+    - category: Answer Sheet
+      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
+      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
+    - category: Are You Ready to Take the HiSET® Exam?
+      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: hiset/practice_test_results.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
+      badge: true
 
-    - title: Artes del Lenguaje, Lectura, Examen de práctica gratuito FPT2 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/reading_fp2_es.pdf
-      
-    # Writing
-    - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT6A de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/writing_fpt6a_es.pdf
-      
-    - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT3 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/writing_fp3_es.pdf
-
-    - title: Artes del Lenguaje, Escritura, Examen de práctica gratuito FPT2 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/writing_fp2_es.pdf
-      
-    # Mathematics
-    - title: Matemáticas, Examen de práctica gratuito FPT6A de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/math_fpt6a_es.pdf
-
-    - title: Matemáticas, Examen de práctica gratuito FPT3 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/math_fp3_es.pdf
-
-    - title: Matemáticas, Examen de práctica gratuito FPT2 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/mathematics_fp2_es.pdf
-      
-    # Science
-    - title: Ciencia, Examen de práctica gratuito FPT6A de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/science_fpt6a_es.pdf
-      
-    - title: Ciencia, Examen de práctica gratuito FPT2 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/science_fp2_es.pdf
-      
-    # Social Studies
-    - title: Estudios Sociales, Examen de práctica gratuito FPT6A de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a_es.pdf
-      
-    - title: Estudios Sociales, Examen de práctica gratuito FPT2 de HiSET® 
-      url: https://hiset.ets.org/s/pdf/practice/social_studies_fp2_es.pdf
+- subject: Writing
+  title: "Language Arts: Writing"
+  time: 120 minutes
+  format:
+    - "Part 1: 50 questions, multiple-choice"
+    - "Part 2: 1 essay prompt"
+  testing_url: "https://hiset.ets.org/myhiset"
+  test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
+  cbt:
+    - category:  ETS HiSET Test Preparation
+      excerpt: Interactive Practice Tests
+      avatar: hiset_avatar.jpg
+      url: "http://www.ets-cls.org/hiset/"
+    - category: Learning Express Library
+      excerpt: Language Arts, Writing Practice Tests
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-writing-practice-questions"
+  docs:
+    - category: FPT6A
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
+      cover_image: hiset/writing_fpt6a.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a_es.pdf"
+      badge: true
+    - category: FPT3
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
+      cover_image: hiset/writing_fp3.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp3.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp3_es.pdf"
+    - category: FPT2
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
+      cover_image: hiset/writing_fp2.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp2.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp2_es.pdf"
+    - category: Answer Sheet
+      excerpt: Practice Test Answer Sheet Writing
+      cover_image: hiset/answer_sheet_writing.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing_es.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing.pdf"
+    - category: Are You Ready to Take the HiSET® Exam?
+      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: hiset/practice_test_results.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
+      badge: true

@@ -1,74 +1,189 @@
-- title: CBT Free Practice, English
+- subject: Mathematics
+  title: Reasoning through Mathematics
+  time: 115 minutes long and is one single section
+  format:
+    - "Part 1: First 5 test questions, calculator not allowed"
+    - "Part 2: Remaining 41 test questions, calculator allowed"
+  testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
+  cbt:
+    - category: GED Testing Services
+      excerpt: Mathematical Reasoning Practice Test
+      avatar: gedts_avatar.jpg
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html"
+      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html"
+    - category: Learning Express Library
+      excerpt: Mathematical Reasoning Practice Test
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/mathematical-reasoning/practice-tests"
+      url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-matem-tico/razonamiento-matem-tico"
   docs:
+    - category: Mathematics Formula Sheet & Explanation
+      excerpt: "The 2014 GED® Mathematical Reasoning test contains a formula sheet, which displays formulas relating to geometric measurement and certain algebra concepts. Formulas are provided to testtakers so that they may focus on application, rather than the memorization, of formulas."
+      cover_image: ged/formula_sheet_ged.jpg
+      url_english: "https://www.gedtestingservice.com/uploads/files/0756c16704434ff71e43c8117a5fa738.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/49a6c9819901bff4a1570c776e1f4ad7.pdf"
+      badge: true
 
-    - title: GED® Test Tutorial
-      url: http://www.gedtestingservice.com/2014cbttutorialview/
-
-    - title: Mathematical Reasoning Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html
-
-    - title: Reasoning through Language Arts Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html
-
-    - title: Science Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Science/GEDSciencePracticeTest.html
-
-    - title: Social Studies Practice Test
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html
-
-- title: CBT Pra&#769;ctica Gratuito, Espan&#771;ol
+- subject: Reading
+  title: Reasoning through Language Arts
+  time: 150 minutes long and testing is broken down into three sections
+  format:
+    - "Section 1: 35 minutes, tests all content"
+    - "Section 2: 45 minutes, Extended Response"
+    - "Break: 10 minutes"
+    - "Section 3: 60 minutes, tests all content"
+  testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
+  cbt:
+    - category: GED Testing Services
+      excerpt: Reasoning through Language Arts Practice Test
+      avatar: gedts_avatar.jpg
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html"
+      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html"
+    - category: Learning Express Library
+      excerpt: Reasoning through Language Arts Practice Test
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/reasoning-through-language-arts/practice-tests"
+      url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-a-traves-de-las-artes-del-lenguaje/examenes-de-practica"
   docs:
+    - category: GED Ready™
+      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
+      cover_image: ged/ged_ready_extended_response.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf"
+      badge: true
+    - category: Prompts for Classroom Practice - RLA
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_rla.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf"
+    - category: Extended Response Answer Guidelines
+      excerpt: "Please use the guidelines below as you answer the Extended Response question on the Reasoning Through Language Arts test. Following these guidelines as closely as possible will ensure that you provide the best response."
+      cover_image: ged/extended_response_guidelines.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/47dcb82a2fe452a90d8c812997813bf9.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/e33c07a1e7c59992271ad3cdf92524b3.pdf"
+      badge: true
+    - category: Extended Response Quick Tips
+      excerpt: "Simply attempting a written response on the Extended Response items doesn’t always mean you will receive points for your work. Your responses are scored against specific criteria shown in the Extended Response Scoring Rubrics. To see a full breakdown of these criteria for RLA and Social Studies, please see the complete RLA and Social Studies Rubrics. You can also refer to the 'Extended Response Answer Guidelines.'"
+      cover_image: ged/extended_response_quick_tips.jpg
+      url_english: "https://www.gedtestingservice.com/uploads/files/36fd9b0ab39e33ae368034079d28b594.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/b1d48a679b61a19ecb3352470a549617.pdf"
+    - category: Steps for Drafting a Constructed Response
+      excerpt: "Unpacking Prompts, Close Reading of Excerpt, Create a Thesis Statement, Explain the Evidence, Constructed Response Organizer, Draft Your Response"
+      cover_image: ged/extended_response_steps.jpg
+      url_english: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+      url_spanish: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+    - category: Graphic Organizers for Argumentative Writing
+      excerpt: "Unpacking Prompts, Close Reading Questions, Both Sides Now, Prewriting Organizer, Constructed Response Organizer, Sample Thesis/Claim Frames, Frames for Incorporating Evidence, Explain the Evidence, Sentence Structures, Connecting Ideas, Assessing the Claim, Revising and Editing Checklist"
+      cover_image: ged/extended_response_graphic_organizers.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      badge: true
 
-    - title: Tutorial para el examen de GED®
-      url: http://www.gedtestingservice.com/2014EScbttutorialview/
-
-    - title: Examen de práctica de Razonamiento Matemático
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html
-
-    - title: Examen de práctica de Razonamiento a traves do las Artes del Lenguaje
-      url: http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html
-
-    - title: Examen de práctica de Ciencias
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Science/ESP/GEDSciencePracticeTestESP.html
-
-    - title: Examen de práctica de Estudies Sociales
-      url: http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html
-
-- title: References, English
+- subject: Science
+  title: Science
+  time: 90 minutes long and is one single section
+  format:
+    - 34 questions
+    - There are two Short Answer questions included on the test, but they are not timed separately
+  testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
+  cbt:
+    - category: GED Testing Services
+      excerpt: Science Practice Test
+      avatar: gedts_avatar.jpg
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_Science/GEDSciencePracticeTest.html"
+      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Science/ESP/GEDSciencePracticeTestESP.html"
+    - category: Learning Express Library
+      excerpt: Science Practice Test
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/science/practice-tests"
+      url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/ciencia/examenes-de-practica"
   docs:
+    - category: GED Ready™
+      excerpt: "The Official Practice Test - Science Short Answer Prompts and Source Texts"
+      cover_image: ged/ged_ready_short_answer_prompts.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf"
+      badge: true
 
-    - title: In Session
-      url: http://gedtestingservice.com/in-session/
-
-    - title: Sample Extended Response Passages and Prompts for Classroom Practice - RLA
-      url: http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf
-
-    - title: Sample Extended Response Passages and Prompts for Classroom Practice – Social Studies
-      url: http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf
-
-    - title: Mathematics Formula Sheet & Explanation
-      url: https://www.gedtestingservice.com/uploads/files/0756c16704434ff71e43c8117a5fa738.pdf
-
-    - title: The GED Ready® Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts
-      url: http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf
-
-    - title: GED Ready™ The Official Practice Test - Science Short Answer Prompts and Source Texts
-      url: http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf
-
-- title: Referencias, Espan&#771;ol
+- subject: Social Studies
+  title: Social Studies
+  time: 70 minutes long and is one single section
+  format: 35 questions
+  testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
+  cbt:
+    - category: GED Testing Services
+      excerpt: Social Studies Practice Test
+      avatar: gedts_avatar.jpg
+      url:  "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html"
+      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html"
+    - category: Learning Express Library
+      excerpt: Social Studies Practice Test
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/social-studies/practice-tests"
+      url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/estudios-sociales/examenes-de-practica"
   docs:
+    - category: Prompts for Classroom Practice – Social Studies
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_social_studies.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf"
 
-    - title: Muestra de pasajes y temas para redactar de las preguntas de respuesta extendida para práctica en el salón de clases – RLA
-      url: http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf
-
-    - title: Muestra de pasajes y temas para redactar de las preguntas de respuesta de extendida para práctica en el salón de clases – Estudios sociales
-      url: http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf
-
-    - title: Hoja y explicación de fórmulas matemáticas
-      url: http://www.gedtestingservice.com/uploads/files/49a6c9819901bff4a1570c776e1f4ad7.pdf
-
-    - title: GED Ready® el examen de práctica oficial – Razonamiento a través de las artes del lenguaje (RLA, por sus siglas en inglés) Temas para redactar y textos fuente para la respuesta extensa
-      url: http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf
-
-    - title: GED Ready™ el examen de práctica oficial - Ciencias Temas para redactar y textos fuente para la respuesta corta
-      url: http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf
+- subject: Writing
+  title: Reasoning through Language Arts
+  time: 150 minutes long and testing is broken down into three sections
+  format:
+    - "Section 1: 35 minutes, tests all content"
+    - "Section 2: 45 minutes, Extended Response"
+    - "Break: 10 minutes"
+    - "Section 3: 60 minutes, tests all content"
+  testing_url: "https://ged.com/"
+  test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
+  cbt:
+    - category: GED Testing Services
+      excerpt: Reasoning through Language Arts Practice Test
+      avatar: gedts_avatar.jpg
+      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html"
+      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html"
+    - category: Learning Express Library
+      excerpt: Reasoning through Language Arts Practice Test
+      avatar: learning_library_avatar.jpg
+      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/reasoning-through-language-arts/practice-tests"
+      url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-a-traves-de-las-artes-del-lenguaje/examenes-de-practica"
+  docs:
+    - category: GED Ready™
+      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
+      cover_image: ged/ged_ready_extended_response.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf"
+      badge: true
+    - category: Prompts for Classroom Practice - RLA
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_rla.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf"
+    - category: Extended Response Answer Guidelines
+      excerpt: "Please use the guidelines below as you answer the Extended Response question on the Reasoning Through Language Arts test. Following these guidelines as closely as possible will ensure that you provide the best response."
+      cover_image: ged/extended_response_guidelines.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/47dcb82a2fe452a90d8c812997813bf9.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/e33c07a1e7c59992271ad3cdf92524b3.pdf"
+      badge: true
+    - category: Extended Response Quick Tips
+      excerpt: "Simply attempting a written response on the Extended Response items doesn’t always mean you will receive points for your work. Your responses are scored against specific criteria shown in the Extended Response Scoring Rubrics. To see a full breakdown of these criteria for RLA and Social Studies, please see the complete RLA and Social Studies Rubrics. You can also refer to the 'Extended Response Answer Guidelines.'"
+      cover_image: ged/extended_response_quick_tips.jpg
+      url_english: "https://www.gedtestingservice.com/uploads/files/36fd9b0ab39e33ae368034079d28b594.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/b1d48a679b61a19ecb3352470a549617.pdf"
+    - category: Steps for Drafting a Constructed Response
+      excerpt: "Unpacking Prompts, Close Reading of Excerpt, Create a Thesis Statement, Explain the Evidence, Constructed Response Organizer, Draft Your Response"
+      cover_image: ged/extended_response_steps.jpg
+      url_english: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+      url_spanish: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+    - category: Graphic Organizers for Argumentative Writing
+      excerpt: "Unpacking Prompts, Close Reading Questions, Both Sides Now, Prewriting Organizer, Constructed Response Organizer, Sample Thesis/Claim Frames, Frames for Incorporating Evidence, Explain the Evidence, Sentence Structures, Connecting Ideas, Assessing the Claim, Revising and Editing Checklist"
+      cover_image: ged/extended_response_graphic_organizers.jpg
+      url_english: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      url_spanish: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      badge: true

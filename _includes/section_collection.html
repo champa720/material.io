@@ -1,0 +1,12 @@
+<div class="collection">
+
+  <!-- creates loop for related_sections by subject > category > chapter -->
+  {% assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" %}
+  {% assign category = subject | where_exp: "sections", "sections.category == page.category" %}
+  {% assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" | sort: "section" %}
+
+  {% for related_sections in chapter %}
+  <a href="{{ related_sections.url }}" class="collection-item">{{ related_sections.title }}</a>
+  {% endfor %}
+
+</div>

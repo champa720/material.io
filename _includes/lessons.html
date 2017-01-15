@@ -1,0 +1,57 @@
+<!-- creates loop for site.lessons by subject group_by category -->
+{% assign subject = site.lessons | where_exp: "lesson", "lesson.subject == include.subject" | group_by: "category" %}
+
+
+{% for category in subject %}
+<article class="section">
+
+  <h4 class="grey-text text-darken-1">{{ category.name }}</h4>
+
+  <!-- extends loop for site.lessons by subject regroup_by tag -->
+  {% assign chapters = category.items | group_by: "tag" | sort: "section" %}
+  <ul class="collapsible popout" data-collapsible="accordion">
+
+    {% for tag in chapters %}
+    <li>
+      <div class="collapsible-header truncate waves-effect"><i class="material-icons rotate">arrow_drop_down</i>{{ tag.name }}</div>
+      <div class="collapsible-body collection no-padding">
+
+        {% for lesson in tag.items %}
+        <a href="{{ lesson.url }}" class="collection-item waves-effect truncate">{{ lesson.slug | capitalize }}: {{ lesson.title }}</a>
+        {% endfor %}
+
+      </div>
+    </li>
+    {% endfor %}
+
+  </ul>
+</article>
+{% endfor %}
+
+<!-- creates loop for subject_data by subject -->
+{% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == include.subject" %}
+
+{% for data in subject_data %} {% if data.docs %}
+<article class="section">
+  <h4 class="grey-text text-darken-1">PDF Sources</h4>
+
+  {% for doc in data.docs %}
+  <div class="card horizontal small">
+    <div class="card-image">
+      <img src="/assets/img/thumbnails/{{ doc.cover_image }}">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        {% if doc.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
+        <span class="card-title">{{ doc.category }}</span>
+        {{ doc.excerpt | markdownify }}
+      </div>
+      <div class="card-action">
+        <a href="{{ doc.url }}" target="_blank">View Source</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</article>
+{% endif %} {% endfor %}

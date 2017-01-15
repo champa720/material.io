@@ -1,0 +1,73 @@
+---
+layout: default_alt
+---
+{% if page.header_image %}
+{% endif %}
+
+{% if page.header_video %}
+{% endif %}
+
+<article class="casper">
+  <header class="{{ page.color }}">
+    <div class="container">
+      <div class="">
+        <!--tag-->
+        <span class="">{{ page.collection }}</span>
+        <!--date-->
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="right">{{ page.date | date_to_long_string }}</time>
+        <hr>
+      </div>
+      <div class="">
+        <h1 class="title">{{ page.title }}</h1>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <hr>
+          <i class="material-icons circle white {{ page.color }}-text left" style="line-height: 42px; width:42px; height:42px;text-align:center;">{{ page.icon }}</i>
+          <div class="">
+            <address class="">
+              <span>{{ page.author }}</span>
+              <div>
+                <span class="uni-byline-job">http://www.lipsum.com/</span>
+              </div>
+            </address>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container flow-text">
+    {{ content }}
+  </div>
+
+</article>
+
+
+<footer class="page-footer grey lighten-3">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h5 class="grey-text text-darken-2">Footer Content</h5>
+        <div class="collection">
+          {% for article in site[page.collection] %}
+          {% if article.tag == page.tag and article.chapter == page.chapter %}
+          <a href="{{ article.url }}" class="collection-item avatar{% if article.url == page.url %} active{% endif %}">
+            <i class="material-icons circle {{ article.color }}">{{ article.icon }}</i>
+            <span class="title">{{ article.title }}</span>
+            <p>{{ article.excerpt }}</p>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container grey-text text-darken-3">
+      © 2014 Copyright Text
+      <a class="grey-text text-darken-3 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>

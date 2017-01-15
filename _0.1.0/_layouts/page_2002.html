@@ -1,0 +1,95 @@
+---
+layout: default_alt
+---
+<!-- questions -->
+<ul id="slide-out" class="side-nav fixed">
+  <iframe src="{{ page.form }}?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:100%">
+    <!-- preloader -->
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+        <div class="circle"></div>
+        </div><div class="circle-clipper right">
+        <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </iframe>
+</ul>
+
+<span style="padding-right:450px">
+<header class="{{ page.color }}">
+  <div class="row">
+    <div class="navbar-fixed">
+      <nav class="{{ page.color }} darken-3">
+        <div class="row">
+          <span class="nav-wrapper col s12">
+            <!-- menu button -->
+            <a href="#!" data-activates="main-menu" class="button-collapse show-on-large">
+              <i class="material-icons left">menu</i>
+            </a>
+            {% include side-nav-main.html %}
+            <!-- questions button -->
+            <a href="#" data-activates="slide-out" class="questions btn hide-on-med-and-up">Questions</a>
+
+          </span>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <article class="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <header class="post-header">
+      <h2 class="post-title" itemprop="name">{{ page.title }}</h2>
+      <p class="post-meta">
+        {% if page.author %}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </span>
+        {% endif %}
+      </p>
+    </header>
+    <div class="post-content flow-text" itemprop="text">
+      {{ content }}
+    </div>
+  </article>
+</main>
+
+<!-- layout footer -->
+<footer class="page-footer {{ page.color }} darken-3">
+  <div class="row">
+    <span class="col s12">
+      <span class="col s12 m8 l7 offset-l1">
+        <h5 class="white-text">{{ site.title | titleize }}</h5>
+        <blockquote class="grey-text text-lighten-2">{{ site.description | capitalize }}</blockquote>
+      </span>
+      <div class="col s12 m3 offset-m1">
+        <h5 class="white-text">{{ 'stay connected' | titleize }}</h5>
+        <ul class="social_media">          
+          {% for media in site.social %}
+          <li class="left">
+            <a href="{{ media.url }}" class="social-btn icon-{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}" target="_blank">
+              <span class="icon-text">{{ media.name }}</span>
+            </a>
+          </li>
+          {% endfor %}          
+        </ul>
+      </div>
+    </span>
+  </div>
+  <div class="footer-copyright {{ page.color }} darken-4">
+    <div class="row">
+      <span class="col s12">
+        <span>&copy;</span>
+        <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+        <span>{{ page.author | upcase }}</span>
+      </span>
+    </div>
+  </div>
+</footer>
+</span>
+{% include foot.html %}
