@@ -90,7 +90,7 @@ section_overview:
     -
 -
   title: Key Concept
-  content: ""
+  content:
 -
   title: Vocabulary
   content:
