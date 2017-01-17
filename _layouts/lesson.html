@@ -62,8 +62,9 @@ layout: default
 
             {% elsif overview.title == "Standards" %}
             <ul>
-              {% for content in overview.content %}
+              {% for content in overview.content %} {% if content contains "CCR Anchor" or content contains "MP" %}
               <li><a href="#{{ content | slugify }}" class="modal-trigger">{{ content | markdownify }}</a></li>
+              {% else %}<li>{{ content | markdownify }}</li>{% endif %}
               {% endfor %}
             </ul>
 
