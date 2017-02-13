@@ -47,14 +47,14 @@ section_overview:
   content: "**Fluency: Collaborative Reading:** Divide the class into ten small groups. Assign each group an amendment from the Bill of Rights. Ask each group to silently read their assigned amendment and discuss its meaning. Then have the group practice reading it aloud together until they can read it smoothly. Have a leader from each group read their amendment aloud to the class and explain its meaning."
 -
   title: 21st Century Skill
-  content: "**Critical Thinking and Problem Solving:** Ask students to identify the problem that supporters of the Constitution faced in trying to get it passed. (Sample answer: pressure from the people to add measures protecting the people's rights and freedoms) Ask students whether they believe the framers of the Constitution came up with an effective solution. If there is dissent, divide the class into two groups-one that approves of the framers' solution and one that does not. Ask each group to discuss and list members' arguments. Then moderate a debate between the two groups."
+  content: "**Critical Thinking and Problem Solving:** Ask students to identify the problem that supporters of the Constitution faced in trying to get it passed. (Sample answer: pressure from the people to add measures protecting the people's rights and freedoms) Ask students whether they believe the framers of the Constitution came up with an effective solution. If there is dissent, divide the class into two groups - one that approves of the framers' solution and one that does not. Ask each group to discuss and list members' arguments. Then moderate a debate between the two groups."
 -
   title: Research It
-  content: "**Compare Government:** Documents Have students work in pairs to identify similarities and differences in format and language between historical documents, such as the Declaration of Independence, the Constitution, and the Bill of Rights, as compared to a recent bill or resolution. Students can find bills using the Library of Congress's THOMAS website, thomas.loc.gov. Tell students to provide examples of the differences they identify. Have pairs share their findings with the class."
+  content: "**Compare Government Documents:** Have students work in pairs to identify similarities and differences in format and language between historical documents, such as the Declaration of Independence, the Constitution, and the Bill of Rights, as compared to a recent bill or resolution. Students can find bills using the Library of Congress's THOMAS website, <https://thomas.loc.gov>. Tell students to provide examples of the differences they identify. Have pairs share their findings with the class."
 -
   title: Writing Topic
   content:
-    - Summarize Article V. of the US Constitution
+    - Summarize Article V of the US Constitution
     - Describe the use of each amendment in the US Bill of Rights.
 -
   title: Writing Practice

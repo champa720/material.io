@@ -1,14 +1,14 @@
 ---
-title: Civil Liberties and Civil Rights
+title: Bill of Rights
 author: Multiple Sources
 
 subject: Social Studies
 category: Project Based
 chapter: 1
-section: 1.0
-tag: Close Reading
+section: 1.2
+tag: Civil Liberties and Civil Rights
 
-excerpt: ""
+excerpt: "The Bill of Rights protects the rights of individuals. Originally some of these rights applied only to white males, but today they apply to all citizens, regardless of race or gender."
 
 section_overview:
 -
@@ -29,9 +29,8 @@ section_overview:
 -
   title: Objectives
   content:
+  - Summarize the process of amending the Constitution
   - Identify the general provisions of the Bill of Rights
-  - Explain how civil rights expanded to include more people
-  - Understand how African Americans and women gained the right to vote
 -
   title: Vocabulary
   content:
@@ -47,36 +46,14 @@ section_overview:
     - Seize
     Test Words:
     - Point of View
+-
+  title: Evidence-Based Reading
+  content: "**Fluency: Collaborative Reading:** Divide the class into ten small groups. Assign each group an amendment from the Bill of Rights. Ask each group to silently read their assigned amendment and discuss its meaning. Then have the group practice reading it aloud together until they can read it smoothly. Have a leader from each group read their amendment aloud to the class and explain its meaning."
+-
+  title: Workplace Skills
+  content: "**Understand the Purpose of Workplace Documents (flow-charts):** Tell students that the purpose of a flow-chart is to show the steps of a process in order. This is helpful in the workplace because people are able to  see how steps are related. Suggest students work in pairs to gather information for how a bill becomes a law and to create a flow-chart showing the correct order."
 
 ---
-## The US Constitution
-
-*Week 1*
-
-### Before Lesson
-
-Explain that countries usually describe and create rules for their governments in written documents. Write the Preamble to the US Constitution on the board:
-
-> We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
-
-Ask students to identify the goals of the Constitution’s authors as stated in the Preamble. List those goals on the board. (Sample answers: unify the country, maintain order, set up and maintain a military force, help people in need, safeguard citizens freedoms)
-
-### Background
-
-Explain to students that prior to the American Revolution, each American colony had a unique relationship with Britain. After the Revolution, the new states had to learn to work together. Each state had its own form of government, economy, and laws. Have students discuss in groups how this is different from today. Invite groups to share their answers. Point out that differences among the states led to disagreements which required compromises in order to create a unified country with a strong central government.
-
-### Guided Practice
-
-### Extension
-
-### Lesson Review
-
----
-
-## Bill of Rights
-
-*Week 2*
-
 ### Before the Lesson
 
 ### Background
