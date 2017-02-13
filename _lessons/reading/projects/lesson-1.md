@@ -14,7 +14,7 @@ section_overview:
 -
   title: Materials
   content:
-  - Remarks by the First Lady on a Visit to thank USDA Employees ("[Full Text](https://www.whitehouse.gov/the-press-office/2013/05/03/remarks-first-lady-visit-thank-usda-employees)", "[Excerpt](../reading/projects/remarks-by-the-first-lady)")
+  - Remarks by the First Lady on a Visit to thank USDA Employees ("[Full Text](https://www.whitehouse.gov/the-press-office/2013/05/03/remarks-first-lady-visit-thank-usda-employees)", "[Excerpt](/reading/projects/remarks-by-the-first-lady)")
 -
   title: Standards
   content:
