@@ -1,8 +1,8 @@
 ---
 title: Remarks by the First Lady at a Visit to thank USDA Employees
-author: McGraw-Hill Education
+author: Office of the First Lady
 
-subject: Science
+subject: Reading
 category: Project Based
 chapter: 1
 section: 1.1
