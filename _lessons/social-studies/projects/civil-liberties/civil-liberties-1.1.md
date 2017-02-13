@@ -19,40 +19,40 @@ section_overview:
   - "[The US Constitution](https://www.archives.gov/founding-docs/constitution-transcript)"
   - "[Flocabulary: 3 Branches of Government](https://static.flocabulary.com/media/streaming/20e0a352aaca4b45b019458b35ac759b/360/SOC-3-branches-of-government.mp4)"
 -
-title: Standards
-content:
+  title: Standards
+  content:
   - CCR Anchor 2
   - CCR Anchor 3
   - CCR Anchor 7
 -
-title: Objectives
-content:
+  title: Objectives
+  content:
   - Identify the factors that led to the Constitutional Convention
   - Describe some of the compromises in the Constitution
   - Identify the role and duties of the president
   - Compare and contrast the two houses of Congress
   - Explain how the federal judicial system functions
 -
-title: Key Concept
-content: "Changes and compromises were needed to create and pass the US Constitution."
+  title: Key Concept
+  content: "Changes and compromises were needed to create and pass the US Constitution."
 -
-title: Vocabulary
-content:
-  Tier 2:
-    - category
-    - delegate
-    - function
-    - guarantee
-    - imbalance
-  Tier 3:
-    - checks and balances
-    - judicial review
-    - separation of powers
-    - veto
-  Test Words:
-    - compare
-    - contrast
-    - paraphrase
+  title: Vocabulary
+  content:
+    Tier 2:
+      - category
+      - delegate
+      - function
+      - guarantee
+      - imbalance
+    Tier 3:
+      - checks and balances
+      - judicial review
+      - separation of powers
+      - veto
+    Test Words:
+      - compare
+      - contrast
+      - paraphrase
 -
   title: 21st Century Skill
   content: "**Critical Thinking and Problem Solving:** Ask students to identify the problem that supporters of the Constitution faced in trying to get it passed. (Sample answer: pressure from the people to add measures protecting the people's rights and freedoms) Ask students whether they believe the framers of the Constitution came up with an effective solution. If there is dissent, divide the class into two groups - one that approves of the framers' solution and one that does not. Ask each group to discuss and list members' arguments. Then moderate a debate between the two groups."

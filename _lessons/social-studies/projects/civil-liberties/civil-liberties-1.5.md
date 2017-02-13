@@ -49,10 +49,6 @@ section_overview:
     - Point of View
 
 ---
-##
-
-*Week  3*
-
 ### Before the Lesson
 
 Students have read how the Bill of Rights was written to reassure states that the Constitution would protect the basic rights of individuals. Ask student s which of these basic rights and freedoms they recall, and list their answers on the board. (Sample answers: freedom of speech, freedom of the press, the right to bear arms, freedom of religion, and freedom from unreasonable search and seizure) Tell students that in this lesson, they will learn more about the Bill of Rights and other amendments to the Constitution.
