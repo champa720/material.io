@@ -29,4 +29,4 @@ And none of this would have been possible without you all here at the USDA who w
 
 ---
 
- "Remarks by the First Lady at a Visit to thank USDA Employees ...." 3 May. 2013, https://www.whitehouse.gov/the-press-office/2013/05/03/remarks-first-lady-visit-thank-usda-employees. Accessed 7 Feb. 2017.
+ "Remarks by the First Lady at a Visit to thank USDA Employees ...." 3 May. 2013, <https://www.whitehouse.gov/the-press-office/2013/05/03/remarks-first-lady-visit-thank-usda-employees>. Accessed 7 Feb. 2017.
