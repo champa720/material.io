@@ -83,6 +83,6 @@ Explain that the government was divided into three branches in order to separate
 
 **Multiple-Meaning Words:** To help students understand the term pocket veto, explain that in this context pocket has nothing to do with clothes. Here, it means to put away. Ask students if they know of other words with more than one meaning. (Possible answers: lead, pass, ruler)
 
-**Investigate Structure and Function:** Divide students into small groups. Assign each group a specific branch of government. Have each group investigate its assigned branch and create a flow chart displaying the structure and functions of that branch of government. Remind students to use visual cues such as pos1t10n, lines, and colors to illustrate patterns and relationships. Display the completed charts in the classroom.
+**Investigate Structure and Function:** Divide students into small groups. Assign each group a specific branch of government. Have each group investigate its assigned branch and create a flow chart displaying the structure and functions of that branch of government. Remind students to use visual cues such as position, lines, and colors to illustrate patterns and relationships. Display the completed charts in the classroom.
 
 ## Lesson Review
