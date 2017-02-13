@@ -15,7 +15,7 @@ section_overview:
   title: Materials
   content:
   - The Rise and Fall of Jim Crow
-  - "Poetry: Ballad of Birmingham" (Text, Video)
+  - Ballad of Birmingham (Text, Video)
 -
   title: Standards
   content:
