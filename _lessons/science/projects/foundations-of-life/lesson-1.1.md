@@ -40,26 +40,37 @@ section_overview:
     - Subdivide
 
 ---
-## Truths in Science
+## Before of Lesson
+
+**Truths in Science:**
 
 - **Fact:** Observations about the world around us. Example: “It’s bright outside.”
 - **Hypothesis:** A proposed explanation for a phenomenon made as a starting point for further investigation. Example: “It’s bright outside because the sun is probably out.”
 - **Theory:** A well-substantiated explanation acquired through the scientific method and repeatedly tested and confirmed through observation and experimentation. Example: “When the sun is out, it tends to make it bright outside.”
 - **Law:** A statement based on repeated experimental observations that describes some phenomenon of nature. Proof that something happens and how it happens, but not why it happens. Example: Newton’s Law of Universal Gravitation.
 
-## Living things have a life cycle, 5 stages
+**Living things have a life cycle, 5 stages:**
 
-- Birth, Growth, Maturity, Decline, Death
+  1. Birth
+  1. Growth
+  1. Maturity
+  1. Decline
+  1. Death
 
-## Living things are classified, take humans for example
+**Living things are classified:**
 
-| Kingdom|  Animalia |
-| Phylum | Chordata |
-| Class | Mammalia |
-| Order | Primates |
-| Family | Hominidae |
-| Genus | Homo |
-| Species | sapien |
+The four Kingdoms include: Bacteria (prokaryote), Protista, Fungi, Plantae, Animalia
+
+| Taxonomy | Human | Chimpanzee |
+|:- |:- |
+| Domain | Eukarya | Eukarya |
+| Kingdom | Animalia | Animalia |
+| Phylum | Chordata | Chordata |
+| Class | Mammalia | Mammalia |
+| Order | Primate | Primate |
+| Family | Hominidae | Pongidae |
+| Genus | Homo | Pan |
+| Species | sapien | troglodytes |
 
 ## Background
 
