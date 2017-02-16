@@ -51,11 +51,7 @@ section_overview:
 
 **Living things have a life cycle, 5 stages:**
 
-  1. Birth
-  1. Growth
-  1. Maturity
-  1. Decline
-  1. Death
+- Birth, Growth, Maturity, Decline, Death
 
 **Living things are classified:**
 
@@ -71,6 +67,7 @@ The four Kingdoms include: Bacteria (prokaryote), Protista, Fungi, Plantae, Anim
 | Family | Hominidae | Pongidae |
 | Genus | Homo | Pan |
 | Species | sapien | troglodytes |
+{: .striped }
 
 ## Background
 
