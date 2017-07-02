@@ -1,26 +1,29 @@
 ---
-layout: null
+ # Materialize v0.99.0 (http://materializecss.com)
+ # Copyright 2014-2017 Materialize
+ # MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
 ---
 @charset "UTF-8";
 
 // Mixins
-// @import "components/prefixer";
 @import "components/mixins";
 @import "components/color";
 
 // Variables;
-@import "components/variables";
+@import "variables";
 
 // Reset
 @import "components/normalize";
 
 // components
 @import "components/global";
+// @import "components/badges";
 @import "components/icons-material-design";
 @import "components/grid";
 @import "components/navbar";
 // @import "components/roboto";
 @import "components/typography";
+@import "components/transitions";
 @import "components/cards";
 // @import "components/toast";
 @import "components/tabs";
@@ -38,6 +41,8 @@ layout: null
 // @import "components/preloader";
 // @import "components/slider";
 // @import "components/carousel";
+// @import "components/tapTarget";
+@import "components/pulse";
 // @import "components/date_picker/default";
 // @import "components/date_picker/default.date";
 // @import "components/date_picker/default.time";
