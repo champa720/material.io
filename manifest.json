@@ -2,14 +2,32 @@
   "name": "Jason's Classroom",
   "description": "A place to study for your High School Equivalency Diploma",
   "start_url": "index.html",
-  "theme_color": "#4527a0",
-  "background_color": "#673ab7",
+  "theme_color": "#212121",
+  "background_color": "#fafafa",
   "display": "standalone",
-  "icons": [
-    {
-    "src": "/assets/img/icon.png",
-    "sizes": "192x192",
+  "icons": [{
+    "src": "/assets/img/icon/feather-0.75x.png",
+    "sizes": "75x75",
     "type": "image/png"
-    }
-  ]
+  }, {
+    "src": "/assets/img/icon/feather-1x.png",
+    "sizes": "100x100",
+    "type": "image/png"
+  }, {
+    "src": "/assets/img/icon/feather-1.5x.png",
+    "sizes": "150x150",
+    "type": "image/png"
+  }, {
+    "src": "/assets/img/icon/feather-2x.png",
+    "sizes": "200x200",
+    "type": "image/png"
+  }, {
+    "src": "/assets/img/icon/feather-3x.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }, {
+    "src": "/assets/img/icon/feather-4x.png",
+    "sizes": "400x400",
+    "type": "image/png"
+  }]
 }
