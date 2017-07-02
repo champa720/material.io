@@ -11,54 +11,51 @@ subject: Home
 
 <body id="{{ page.subject | slugify }}">
 
-{% comment %}
 <header>
-  <nav class="transparent z-depth-0 hide-on-small-only">
-    <div class="row">
-      <span class="nav-wrapper col s12">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="row">
+        <span class="nav-wrapper col s12">
 
-        <!-- social media -->
-        <ul class="right">
-          {% for media in site.social_media %}
-          <li class="waves-effect waves-light">
-            <a href="{{ media[1] }}" target="_blank">
-              <svg>
-                <use xlink:href="/assets/img/icons.svg#{{ media[0] }}" />
-              </svg>
-              <span class="hide">{{ media[0] }}</span>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </span>
+          <!-- social media -->
+          <ul class="right">
+            {% for media in site.social_media %}
+            <li class="waves-effect waves-light">
+              <a href="{{ media[1] }}" target="_blank">
+                <svg>
+                  <use xlink:href="/assets/img/icons.svg#{{ media[0] }}" />
+                </svg>
+                <span class="hide">{{ media[0] }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </span>
 
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </header>
-{% endcomment %}
 
 <main class="valign-wrapper">
-  <div class="container">
+  <span class="container">
+
     <!-- title wrapper -->
-    <div id="landing" class="scale-transition scale-out">
-      <div class="card-panel deep-purple darken-4">
-        <h1>Welcome</h1>
-      </div>
-      <!-- creates loop for subject_menu by subject > category -->
-      {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
-      <div class="collection with-header">
-        <h6 class="collection-header deep-purple darken-4">Choose your subject:</h6> {% for menu in subject_menu %}
-        <a href="{{ menu.url }}" class="collection-item truncate waves-effect{% if page.url == menu.url %} active{% endif %}"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a> {% endfor %}
-      </div>
+    <div id="introduction" class="section flow-text">
+      <p>Welcome to</p>
+      <h1>{{ site.title | upcase }}</h1>
+      <blockquote><p>{{ site.description }}</p></blockquote>
     </div>
-  </div>
+
+  </span>
 </main>
 
-{% comment %}
 <!-- creates loop for hse_menu by subject  -->
 {% assign hse_menu = site.pages | where_exp: "item", "item.subject == 'HSE'" %}
 <!-- creates loop for hse_menu by subject  -->
 {% assign instructor_menu = site.pages | where_exp: "item", "item.subject == 'Lessons'" | sort: "chapter" %}
+<!-- creates loop for subject_menu by subject > category -->
+{% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
 
 <footer class="page-footer">
   <div class="container">
@@ -81,7 +78,16 @@ subject: Home
 
         </div>
       </div>
+      <div class="col s12 m5 offset-m1">
+        <h6 class="truncate">Subject Resources</h6>
+        <div class="collection">
 
+          {% for menu in subject_menu %}
+          <a href="{{ menu.url }}" class="collection-item truncate waves-effect{% if page.url == menu.url %} active{% endif %}"><i class="material-icons left">{{ menu.icon }}</i>{{ menu.title }}</a>
+          {% endfor %}
+
+        </div>
+      </div>
     </div>
   </div>
   <div class="footer-copyright">
@@ -90,6 +96,5 @@ subject: Home
     </div>
   </div>
 </footer>
-{% endcomment %}
 
 {% include foot.html %}

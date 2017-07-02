@@ -3,6 +3,11 @@
   'use strict';
   $(function () {
 
+  /* CSS */
+    // Pulse
+    $("#landing").toggleClass("scale-out").toggleClass("scale-in");
+    // Transitions
+
   /*  Components */
     // Badges
     // Buttons
@@ -18,6 +23,7 @@
     // Preloader
 
   /* JavaScript */
+    // Carousel
     // Collapsible
     $('.collapsible').collapsible({
       accordion: true
@@ -27,6 +33,7 @@
     // $('.dropdown-button').dropdown({
     //   constrain_width: false
     // });
+    // Feature Discovery
     // Media
     // Models
     $('.modal').modal();

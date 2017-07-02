@@ -27,7 +27,7 @@ i.material-icons.rotate {
   transition: transform .35s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
-.active i.material-icons.rotate {
+.active>i.material-icons.rotate {
   transform: rotate(-540deg);
 }
 
@@ -140,21 +140,45 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.card-action,.collapsible-header,.collection 
   }
 }
 
-// index
+// Landing
 
-#home, #home nav, #home footer {
-  background: color('grey', 'darken-4');
+#home {
+  background:
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 25.3%, rgba(0,0,0,0.163) 25.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 25.3%, rgba(0,0,0,0.0) 25.3%),
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 33.3%, rgba(0,0,0,0.163) 33.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 33.3%, rgba(0,0,0,0.0) 33.3%),
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 41.3%, rgba(0,0,0,0.163) 41.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 41.3%, rgba(0,0,0,0.0) 41.3%),
+    /* bottom, image */
+    url(  "/assets/img/denver.jpg") left / cover;
 
-  & main {
-  /* top, transparent red */
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-  /* bottom, image */
-  url(  "/assets/img/denver-min.jpg") center / cover;
+  & .deep-purple { color: color('grey', 'lighten-5'); }
+  & .card-panel { position: relative; }
+  & .collection {
+    border: none;
+    & .collection-header {
+      margin: 0;
+    }
   }
 
-  & h1, h2, h3, h4, h5, h6, p {
-    color: color('grey', 'lighten-5');
-    font-weight: 900;
+  & footer {
+    background-color: color('deep-purple', 'darken-4');
+    & .footer-copyright {
+      background-color: color('grey', 'darken-4');
+      & a {
+        padding: 0 15px;
+      }
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+  #landing {
+    display: table;
   }
 }
 
