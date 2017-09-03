@@ -14,6 +14,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/mathematics-practice/hiset-mathematics-practice-questions"
   docs:
+    - category: FPT7
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
+      cover_image: hiset/math_fpt7.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/math_fpt7.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fpt7_es.pdf"
+      badge: true
     - category: FPT6A
       excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
       cover_image: hiset/math_fpt6a.jpg
@@ -64,6 +70,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-reading-practice-questions"
   docs:
+    - category: FPT7
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
+      cover_image: hiset/reading_fpt7.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/reading_fpt7.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fpt7_es.pdf"
+      badge: true
     - category: FPT6A
       excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
       cover_image: hiset/reading_fpt6a.jpg
@@ -108,6 +120,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/science-practice/hiset-science-practice-questions"
   docs:
+    - category: FPT7
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
+      cover_image: hiset/science_fpt7.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/science_fpt7.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fpt7_es.pdf"
+      badge: true
     - category: FPT6A
       excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
       cover_image: hiset/science_fpt6a.jpg
@@ -147,6 +165,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/social-studies-practice/hiset-social-studies-practice-questions"
   docs:
+    - category: FPT7
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
+      cover_image: hiset/social_studies_fpt7.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt7.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt7_es.pdf"
+      badge: true
     - category: FPT6A
       excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
       cover_image: hiset/social_studies_fpt6a.jpg
@@ -188,6 +212,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-writing-practice-questions"
   docs:
+    - category: FPT7
+      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
+      cover_image: hiset/writing_fpt7.jpg
+      url_english: "https://hiset.ets.org/s/pdf/practice/writing_fpt7.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fpt7_es.pdf"
+      badge: true
     - category: FPT6A
       excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
       cover_image: hiset/writing_fpt6a.jpg
