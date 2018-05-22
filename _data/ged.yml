@@ -10,8 +10,8 @@
     - category: GED Testing Services
       excerpt: Mathematical Reasoning Practice Test
       avatar: gedts_avatar.jpg
-      url: "http://www.gedtestingservice.com/freepractice/download/GED_Math/GEDMathPracticeTest.html"
-      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Math/ESP/GEDMathPracticeTestESP.html"
+      url: "https://ged.com/practice-test/en/math/"
+      url_spanish: "https://ged.com/practice-test/es/math/"
     - category: Learning Express Library
       excerpt: Mathematical Reasoning Practice Test
       avatar: learning_library_avatar.jpg
@@ -21,8 +21,8 @@
     - category: Mathematics Formula Sheet & Explanation
       excerpt: "The 2014 GED® Mathematical Reasoning test contains a formula sheet, which displays formulas relating to geometric measurement and certain algebra concepts. Formulas are provided to testtakers so that they may focus on application, rather than the memorization, of formulas."
       cover_image: ged/formula_sheet_ged.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/0756c16704434ff71e43c8117a5fa738.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/49a6c9819901bff4a1570c776e1f4ad7.pdf"
+      url_english: "https://ged.com/wp-content/uploads/math_formula_sheet.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/math_formula_sheet_es.pdf"
       badge: true
 
 - subject: Reading
@@ -39,46 +39,41 @@
     - category: GED Testing Services
       excerpt: Reasoning through Language Arts Practice Test
       avatar: gedts_avatar.jpg
-      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html"
-      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html"
+      url: "https://ged.com/practice-test/en/rla/"
+      url_spanish: "https://ged.com/practice-test/es/rla/"
     - category: Learning Express Library
       excerpt: Reasoning through Language Arts Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/reasoning-through-language-arts/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-a-traves-de-las-artes-del-lenguaje/examenes-de-practica"
   docs:
-    - category: GED Ready™
-      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
-      cover_image: ged/ged_ready_extended_response.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf"
-      badge: true
-    - category: Prompts for Classroom Practice - RLA
-      excerpt: "Sample Extended Response Passages and Prompts."
-      cover_image: ged/prompts_for_classroom_practice_rla.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf"
     - category: Extended Response Answer Guidelines
       excerpt: "Please use the guidelines below as you answer the Extended Response question on the Reasoning Through Language Arts test. Following these guidelines as closely as possible will ensure that you provide the best response."
       cover_image: ged/extended_response_guidelines.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/47dcb82a2fe452a90d8c812997813bf9.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/e33c07a1e7c59992271ad3cdf92524b3.pdf"
+      url_english: "https://ged.com/wp-content/uploads/extended_response_guidelines.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_guidelines_es.pdf"
       badge: true
     - category: Extended Response Quick Tips
       excerpt: "Simply attempting a written response on the Extended Response items doesn’t always mean you will receive points for your work. Your responses are scored against specific criteria shown in the Extended Response Scoring Rubrics. To see a full breakdown of these criteria for RLA and Social Studies, please see the complete RLA and Social Studies Rubrics. You can also refer to the 'Extended Response Answer Guidelines.'"
       cover_image: ged/extended_response_quick_tips.jpg
-      url_english: "https://www.gedtestingservice.com/uploads/files/36fd9b0ab39e33ae368034079d28b594.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/b1d48a679b61a19ecb3352470a549617.pdf"
-    - category: Steps for Drafting a Constructed Response
-      excerpt: "Unpacking Prompts, Close Reading of Excerpt, Create a Thesis Statement, Explain the Evidence, Constructed Response Organizer, Draft Your Response"
-      cover_image: ged/extended_response_steps.jpg
-      url_english: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
-      url_spanish: "https://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+      url_english: "https://ged.com/wp-content/uploads/extended_response_quick_tips.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_quick_tips_es.pdf"
     - category: Graphic Organizers for Argumentative Writing
       excerpt: "Unpacking Prompts, Close Reading Questions, Both Sides Now, Prewriting Organizer, Constructed Response Organizer, Sample Thesis/Claim Frames, Frames for Incorporating Evidence, Explain the Evidence, Sentence Structures, Connecting Ideas, Assessing the Claim, Revising and Editing Checklist"
       cover_image: ged/extended_response_graphic_organizers.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      url_english: "http://www.jasonsclassroom.com/assets/docs/graphic_organizers_for_argumentative_writing.pdf"
+      url_spanish: "http://www.jasonsclassroom.com/assets/docs/graphic_organizers_for_argumentative_writing.pdf"
+      badge: true
+    - category: Prompts for Classroom Practice - RLA
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_rla.jpg
+      url_english: "https://ged.com/wp-content/uploads/extended_response_classroom_practice.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_classroom_practice_es.pdf"
+    - category: GED Ready™
+      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
+      cover_image: ged/ged_ready_extended_response.jpg
+      url_english: "https://ged.com/wp-content/uploads/extended_response_ged_ready_source_texts.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_ged_ready_source_texts_es.pdf"
       badge: true
 
 - subject: Science
@@ -93,20 +88,20 @@
     - category: GED Testing Services
       excerpt: Science Practice Test
       avatar: gedts_avatar.jpg
-      url: "http://www.gedtestingservice.com/freepractice/download/GED_Science/GEDSciencePracticeTest.html"
-      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Science/ESP/GEDSciencePracticeTestESP.html"
+      url: "https://ged.com/practice-test/en/science/"
+      url_spanish: "https://ged.com/practice-test/es/science/"
     - category: Learning Express Library
       excerpt: Science Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/science/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/ciencia/examenes-de-practica"
-  docs:
-    - category: GED Ready™
-      excerpt: "The Official Practice Test - Science Short Answer Prompts and Source Texts"
-      cover_image: ged/ged_ready_short_answer_prompts.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf"
-      badge: true
+  # docs:
+  #   - category: GED Ready™
+  #     excerpt: "The Official Practice Test - Science Short Answer Prompts and Source Texts"
+  #     cover_image: ged/ged_ready_short_answer_prompts.jpg
+  #     url_english: "http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf"
+  #     url_spanish: "http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf"
+  #     badge: true
 
 - subject: Social Studies
   title: Social Studies
@@ -118,19 +113,19 @@
     - category: GED Testing Services
       excerpt: Social Studies Practice Test
       avatar: gedts_avatar.jpg
-      url:  "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/GEDSocialStudiesPracticeTest.html"
-      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_Social_Studies/ESP/GEDSocialStudiesPracticeTestESP.html"
+      url:  "https://ged.com/practice-test/en/social-studies/"
+      url_spanish: "https://ged.com/practice-test/es/social-studies/"
     - category: Learning Express Library
       excerpt: Social Studies Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/social-studies/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/estudios-sociales/examenes-de-practica"
-  docs:
-    - category: Prompts for Classroom Practice – Social Studies
-      excerpt: "Sample Extended Response Passages and Prompts."
-      cover_image: ged/prompts_for_classroom_practice_social_studies.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf"
+  # docs:
+  #   - category: Prompts for Classroom Practice – Social Studies
+  #     excerpt: "Sample Extended Response Passages and Prompts."
+  #     cover_image: ged/prompts_for_classroom_practice_social_studies.jpg
+  #     url_english: "http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf"
+  #     url_spanish: "http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf"
 
 - subject: Writing
   title: Reasoning through Language Arts
@@ -146,44 +141,39 @@
     - category: GED Testing Services
       excerpt: Reasoning through Language Arts Practice Test
       avatar: gedts_avatar.jpg
-      url: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/GED_RLA_PracticeTest.html"
-      url_spanish: "http://www.gedtestingservice.com/freepractice/download/GED_RLA/ESP/GED_RLA_PracticeTestESP.html"
+      url: "https://ged.com/practice-test/en/rla/"
+      url_spanish: "https://ged.com/practice-test/es/rla/"
     - category: Learning Express Library
       excerpt: Reasoning through Language Arts Practice Test
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/reasoning-through-language-arts/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/razonamiento-a-traves-de-las-artes-del-lenguaje/examenes-de-practica"
   docs:
-    - category: GED Ready™
-      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
-      cover_image: ged/ged_ready_extended_response.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/95edeb608941a4b0b6a1b79a0e794cd2.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/02ea412f773312eb0b5810ae832dc776.pdf"
-      badge: true
-    - category: Prompts for Classroom Practice - RLA
-      excerpt: "Sample Extended Response Passages and Prompts."
-      cover_image: ged/prompts_for_classroom_practice_rla.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/ddd59448b9f95046eb43f60019cacd9e.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/370aa8a6c1a20246066daf86e2880962.pdf"
     - category: Extended Response Answer Guidelines
       excerpt: "Please use the guidelines below as you answer the Extended Response question on the Reasoning Through Language Arts test. Following these guidelines as closely as possible will ensure that you provide the best response."
       cover_image: ged/extended_response_guidelines.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/47dcb82a2fe452a90d8c812997813bf9.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/e33c07a1e7c59992271ad3cdf92524b3.pdf"
+      url_english: "https://ged.com/wp-content/uploads/extended_response_guidelines.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_guidelines_es.pdf"
       badge: true
     - category: Extended Response Quick Tips
       excerpt: "Simply attempting a written response on the Extended Response items doesn’t always mean you will receive points for your work. Your responses are scored against specific criteria shown in the Extended Response Scoring Rubrics. To see a full breakdown of these criteria for RLA and Social Studies, please see the complete RLA and Social Studies Rubrics. You can also refer to the 'Extended Response Answer Guidelines.'"
       cover_image: ged/extended_response_quick_tips.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/36fd9b0ab39e33ae368034079d28b594.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/b1d48a679b61a19ecb3352470a549617.pdf"
-    - category: Steps for Drafting a Constructed Response
-      excerpt: "Unpacking Prompts, Close Reading of Excerpt, Create a Thesis Statement, Explain the Evidence, Constructed Response Organizer, Draft Your Response"
-      cover_image: ged/extended_response_steps.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/3de9b6f19bd78d7301f27eaeb447d729.pdf"
+      url_english: "https://ged.com/wp-content/uploads/extended_response_quick_tips.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_quick_tips_es.pdf"
     - category: Graphic Organizers for Argumentative Writing
       excerpt: "Unpacking Prompts, Close Reading Questions, Both Sides Now, Prewriting Organizer, Constructed Response Organizer, Sample Thesis/Claim Frames, Frames for Incorporating Evidence, Explain the Evidence, Sentence Structures, Connecting Ideas, Assessing the Claim, Revising and Editing Checklist"
       cover_image: ged/extended_response_graphic_organizers.jpg
-      url_english: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
-      url_spanish: "http://www.gedtestingservice.com/uploads/files/a3a1aca49c1818754d013a144c240cb0.pdf"
+      url_english: "http://www.jasonsclassroom.com/assets/docs/graphic_organizers_for_argumentative_writing.pdf"
+      url_spanish: "http://www.jasonsclassroom.com/assets/docs/graphic_organizers_for_argumentative_writing.pdf"
+      badge: true
+    - category: Prompts for Classroom Practice - RLA
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_rla.jpg
+      url_english: "https://ged.com/wp-content/uploads/extended_response_classroom_practice.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_classroom_practice_es.pdf"
+    - category: GED Ready™
+      excerpt: "The Official Practice Test – Reasoning Through Language Arts (RLA) Extended Response Prompts and Source Texts"
+      cover_image: ged/ged_ready_extended_response.jpg
+      url_english: "https://ged.com/wp-content/uploads/extended_response_ged_ready_source_texts.pdf"
+      url_spanish: "https://ged.com/wp-content/uploads/extended_response_ged_ready_source_texts_es.pdf"
       badge: true
