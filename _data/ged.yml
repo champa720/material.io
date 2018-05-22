@@ -95,13 +95,13 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/science/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/ciencia/examenes-de-practica"
-  # docs:
-  #   - category: GED Ready™
-  #     excerpt: "The Official Practice Test - Science Short Answer Prompts and Source Texts"
-  #     cover_image: ged/ged_ready_short_answer_prompts.jpg
-  #     url_english: "http://www.gedtestingservice.com/uploads/files/99fa46c88a4a34f2d326b36a6e157d44.pdf"
-  #     url_spanish: "http://www.gedtestingservice.com/uploads/files/b06467eedc83b2161310227946f6446a.pdf"
-  #     badge: true
+  docs:
+    - category: GED Ready™
+      excerpt: "The Official Practice Test - Science Short Answer Prompts and Source Texts"
+      cover_image: ged/ged_ready_short_answer_prompts.jpg
+      url_english: "http://www.jasonsclassroom.com/assets/docs/short_answer_science.pdf"
+      url_spanish: "http://www.jasonsclassroom.com/assets/docs/short_answer_science_es.pdf"
+      badge: true
 
 - subject: Social Studies
   title: Social Studies
@@ -120,12 +120,12 @@
       avatar: learning_library_avatar.jpg
       url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-ged-test/social-studies/practice-tests"
       url_spanish: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/ged-en-espanol/estudios-sociales/examenes-de-practica"
-  # docs:
-  #   - category: Prompts for Classroom Practice – Social Studies
-  #     excerpt: "Sample Extended Response Passages and Prompts."
-  #     cover_image: ged/prompts_for_classroom_practice_social_studies.jpg
-  #     url_english: "http://www.gedtestingservice.com/uploads/files/65aad00dade46ae13b91e0ee55dbbb13.pdf"
-  #     url_spanish: "http://www.gedtestingservice.com/uploads/files/2c8c35078a05ce462f418656144e11df.pdf"
+  docs:
+    - category: Prompts for Classroom Practice – Social Studies
+      excerpt: "Sample Extended Response Passages and Prompts."
+      cover_image: ged/prompts_for_classroom_practice_social_studies.jpg
+      url_english: "http://www.jasonsclassroom.com/assets/docs/extended_response_social_studies.pdf"
+      url_spanish: "http://www.jasonsclassroom.com/assets/docs/extended_response_social_studies_es.pdf"
 
 - subject: Writing
   title: Reasoning through Language Arts
