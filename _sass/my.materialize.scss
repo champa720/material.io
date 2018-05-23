@@ -34,7 +34,7 @@ i.material-icons.rotate {
 .card.accent {
   border-top: 5px solid $secondary-color;
   & h2.card-title {
-    margin: 0px;
+    margin: 0 0 0.5em 0;
   }
 }
 
@@ -48,7 +48,6 @@ i.material-icons.rotate {
 .collection a.collection-item.avatar .title {
   font-size: 24px;
   font-weight: 300;
-  padding-bottom: 12px;
 }
 
 .btn, .card p, .card ul, .card dl, .collapsible-header, .collection a.collection-item {
@@ -106,7 +105,7 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.card-action,.collapsible-header,.collection 
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
 
   & p, ul, ol, dl, table {
-    margin: 0 0 1.1997rem 0 !important; // breathing space
+    margin: 0 0 1.5em 0 !important; // breathing space
   }
   &.casper {
     & ul {
@@ -123,19 +122,14 @@ h1,h2,h3,h4,h5,h6,.btn,.card-title,.card-action,.collapsible-header,.collection 
     }
 
     & ol, ul {
-      padding-left: 2rem;
-    }
-
-    & ol ol, ul ul, ul ol, ol ul {
-      margin: 0 0 0.7rem 0;
-      padding-left: 1rem;
-    }
-
-    & li {
-      margin: 0.7rem 0;
-      & li {
-        margin: 0;
+      padding-left: 2em;
+      & ol, ul {
+        margin: 0.5em 0 1.5em 0 !important; // breathing space
       }
+    }
+
+    & ol ol {
+      list-style-type: lower-alpha;
     }
   }
 }
