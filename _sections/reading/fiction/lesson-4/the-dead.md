@@ -15,7 +15,7 @@ WHY DID MICHAEL FUREY DIE?
 
 Her hand was warm and moist: it did not respond to his touch, but he continued to caress it just as he had caressed her first letter to him that spring morning.
 
--It was in the winter, she said, about the beginning of the winter w~n I was going to leave my grandmother's and come up here to the convent. And he was ill at the time in his lodgings in Galway and wouldn't be let out, and his people in Oughterard were written to. He was in decline, they said, or something like that. I never knew rightly.
+-It was in the winter, she said, about the beginning of the winter when I was going to leave my grandmother's and come up here to the convent. And he was ill at the time in his lodgings in Galway and wouldn't be let out, and his people in Oughterard were written to. He was in decline, they said, or something like that. I never knew rightly.
 
 She paused for a moment and sighed.
 
