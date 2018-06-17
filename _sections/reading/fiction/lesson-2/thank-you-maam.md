@@ -10,6 +10,28 @@ tag: Plot
 
 cover_image: "default.jpg"
 
+quiz:
+  - question: "Which of the following best describes the woman in this excerpt?"
+    answer:
+    - mean
+    - fearful
+    - caring
+    - careful
+    - dishonest
+  - question: "Based on the excerpt, which of the following is the woman most likely to do to the boy?"
+    answer:
+    - take him to her house and feed him
+    - escort him home and speak to his parents
+    - turn him over to the police
+    - offer to give him money and send him away
+    - give him a warning and let him go
+  - question: "Based on its title \"Thank You, M'am\" and the way the woman treats the boy in the excerpt, what is the most likely resolution for this story?"
+    answer:
+    - The boy later steals from the woman and ends up in jail.
+    - The woman realizes she made a mistake in being nice to the boy.
+    - The boy tries to be nice and helps the woman with her housework.
+    - The woman hires the boy to help her in her store.
+    - The woman helps the boy make something of himself.
 ---
 WHY IS THIS BOY IN TROUBLE?
 
@@ -31,7 +53,7 @@ By that time two or three people passed, stopped, turned to look, and some stood
 
 "Yes'm," said the boy."
 
-Then I won't turn you loose ," said the woman. She did not release him.
+"Then I won't turn you loose," said the woman. She did not release him.
 
 "Lady, I'm sorry," whispered the boy.
 
@@ -39,28 +61,27 @@ Then I won't turn you loose ," said the woman. She did not release him.
 
 "No'm," said the boy."
 
-'Then it will get washed this evening," said the large woman, starting up the street, dragging the frightened boy behind her.
+"Then it will get washed this evening," said the large woman, starting up the street, dragging the frightened boy behind her.
 
--Langston Hughes, "Thank You, M'am," Short Stories.
 
-  1.  Which of the following best describes the woman in this excerpt?
+*-Langston Hughes, "Thank You, M'am," Short Stories.*
 
+
+1.  Which of the following best describes the woman in this excerpt?
   * mean
   * fearful
   * caring
   * careful
   * dishonest
 
-  2.  Based on the excerpt, which of the following is the woman most likely to do to the boy?
-
+2.  Based on the excerpt, which of the following is the woman most likely to do to the boy?
   * take him to her house and feed him
   * escort him home and speak to his parents
   * turn him over to the police
   * offer to give him money and send him away
   * give him a warning and let him go
 
-  3.  Based on its title ("Thank You, M'am") and the way the woman treats the boy in the excerpt, what is the most likely resolution for this story?
-
+3.  Based on its title "Thank You, M'am" and the way the woman treats the boy in the excerpt, what is the most likely resolution for this story?
   * The boy later steals from the woman and ends up in jail.
   * The woman realizes she made a mistake in being nice to the boy.
   * The boy tries to be nice and helps the woman with her housework.
