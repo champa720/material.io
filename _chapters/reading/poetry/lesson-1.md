@@ -32,6 +32,6 @@ When analyzing a passage for tone, ask yourself these questions:
   * What language or descriptive details reveal the author's attitude?
   {: .browser-default }
 
-#### Practice
+### Practice
 
 {% include section_collection.html %}

@@ -11,6 +11,6 @@ tag: Literary
 cover_image: "default.jpg"
 
 ---
-#### Practice
+### Practice
 
 {% include section_collection.html %}
