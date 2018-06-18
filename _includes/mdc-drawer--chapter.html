@@ -1,0 +1,25 @@
+
+  <!-- creates loop for site.chapters by subject > category -->
+  {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
+  {% assign category = subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
+
+  <aside class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell--span-4">
+        <div class="mdc-list-group">
+          <h2 id="chapters" class="mdc-list-group__subheader">Chapters</h4>
+          <nav class="mdc-list mdc-list--two-line" aria-orientation="vertical">
+
+            {% for item in category %}
+            <a href="{{ item.url }}" class="mdc-list-item {%- if item.url == page.url %} mdc-list-item--selected {%- endif -%}">
+              <span class="mdc-list-item__text">{{ item.title }}
+                <span class="mdc-list-item__secondary-text">{{ item.slug | upcase | replace: "-", " " }}</span>
+              </span>
+            </a>
+            {% endfor %}
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </aside>

@@ -1,6 +1,13 @@
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-<script type="text/javascript" src="{{ "/assets/js/my.materialize.js" | relative_url }}"></script>
+<script src="https://unpkg.com/material-components-web@0.36.0/dist/material-components-web.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+  window.mdc.autoInit();
+  let drawer = new mdc.drawer.MDCPersistentDrawer(document.querySelector('.mdc-drawer--persistent'));
+  document.querySelector('button').addEventListener('click', function() {
+    drawer.open = !drawer.open;
+  });
+</script>
 
 {% if page.mathjax == true %}
   {% include katex.html %}

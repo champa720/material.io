@@ -3,21 +3,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {%- seo -%}
 
-  {% comment %}<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Merriweather:300">{% endcomment %}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="{{ "/assets/css/materialize.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.36.0/dist/material-components-web.min.css" />
+  <link rel="stylesheet" href="{{ "assets/css/material.io.css" | absolute_url }}" />
+  <link rel="stylesheet" href="{{ "assets/css/print.css" | absolute_url }}"  media="print" />
+
   <!-- mobile tag allows page to run like native-app from homescreen -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="{{ "/assets/img/icon.png" | absolute_url }}">
-  <link rel="manifest" href="manifest.json">
-  
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="icon" sizes="192x192" href="{{ "assets/img/icon.png" | absolute_url }}" />
+  <link rel="manifest" href="{{ "manifest.json" | absolute_url }}" />
+
+  {%- feed_meta -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+
 </head>

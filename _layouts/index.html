@@ -1,137 +1,129 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-<!-- creates loop for subject_menu by subject > category -->
-{% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
+{%- include head.html -%}
 
-<nav id="{{ page.layout }}" class="nav-extended">
-  <div class="nav-wrapper">
-    <ul class="right hide-on-small-only">
+<body class="mdc-typography">
 
-      {% for subject in subject_menu %}
-      <li class="{% if subject.url == page.url %}active{% endif %}"><a href="{{ subject.url }}"><i class="material-icons">{{ subject.icon }}</i></a></li>
-      {% endfor %}
-
-    </ul>
-    <h1>{{ page.title }}</h1>
-    <ul class="tabs tabs-transparent">
-      <li class="tab"><a href="#classroom">Classroom</a></li>
-      <li class="tab"><a href="#ged">GED</a></li>
-      <li class="tab"><a href="#hiset">HiSET</a></li>
-      <li class="tab"><a href="#tasc">TASC</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- creates loop for subject_data by subject -->
-{% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == page.subject" %}
-
-<section id="classroom" class="container">
-
-  {% for data in subject_data %}
-  <article class="section">
-    <h4 class="grey-text text-darken-1">Online Practice</h4>
-    <div class="collection z-depth-1">
-
-      {% for cbt in data.cbt %}
-      <a href="{{ cbt.url }}" class="collection-item avatar waves-effect" target="_blank">
-        <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="logo" class="circle">
-        <p class="title">{{ cbt.category }}</p>
-        <p class="truncate">{{ cbt.excerpt }}</p>
-        {% if cbt.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
-      </a>
-      {% endfor %}
-
-    </div>
-  </article>
-
-  {% if data.docs %}
-  <article class="section">
-    <h4 class="grey-text text-darken-1">PDF Sources</h4>
-
-    {% for doc in data.docs %}
-    <div class="card horizontal small">
-      <div class="card-image">
-        <img src="/assets/img/thumbnails/{{ doc.cover_image }}">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          {% if doc.badge == true %}<i class="material-icons secondary-content">new_releases</i>{% endif %}
-          <span class="card-title">{{ doc.category }}</span>
-          {{ doc.excerpt | markdownify }}
-        </div>
-        <div class="card-action">
-          <a href="{{ doc.url }}" target="_blank">View Source</a>
+  <main class="page-content" aria-label="Content">
+    <header>
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-2">
+            <!-- empty -->
+          </div>
+          <div class="mdc-layout-grid__cell--span-6">
+            <h1 class="mdc-typography--headline1">{{ page.title }}</h1>
+          </div>
         </div>
       </div>
-    </div>
-    {% endfor %}
+    </header>
+    <section id="classroom">
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-2">
+            <!-- empty -->
+          </div>
+          <div class="mdc-layout-grid__cell--span-6">
+            <div class="markdown-body">
+              <!-- creates loop for subject_data by subject -->
+              {%- assign subject_data = site.data.external_links | where_exp: "item", "item.subject == page.subject" -%}
+              {%- for data in subject_data -%}
 
-  </article>
-  {% endif %} {% endfor %}
+              <article>
+                <h2 id="online-practice">Online Practice</h2>
+                <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
 
-  {% if page.library %}
-  <article class="section">
-    <h4 class="grey-text text-darken-1">Library</h4>
+                  {%- for cbt in data.cbt -%}
+                  <a href="{{ cbt.url }}" target="_blank" class="mdc-list-item">
+                    <img src="/assets/img/avatars/{{ cbt.avatar }}" alt="logo" class="mdc-list-item__graphic" />
+                    <span class="mdc-list-item__text">{{ cbt.category }}
+                      <span class="mdc-list-item__secondary-text">{{ cbt.excerpt }}
+                      </span>
+                    </span>
+                    {% if cbt.badge == true %}<i class="mdc-list-item__meta material-icons">new_releases</i>{% endif %}
+                  </a>
+                  {%- endfor -%}
 
-    {% for content in page.library %}
-    <div class="card horizontal small">
-      <div class="card-image">
-        <img src="/assets/img/thumbnails/{{ content.cover_image }}">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <span class="card-title">{{ content.category }}</span>
-          {{ content.excerpt | markdownify }}
-        </div>
-        <div class="card-action">
-          <a href="#{{ content.category | slugify }}" class="modal-trigger">Available Readings</a>
-        </div>
-      </div>
-    </div>
+                </nav>
+              </article>
 
-    <!-- creates loop for site.chapters by subject > category > group_by tag -->
-    {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-    {% assign category = subject | where_exp: "chapters", "chapters.category == content.category" | group_by: "tag" | sort: "section" %}
+              {%- if data.docs -%}
+              <article>
+                <h2 id="pdf-sources">PDF Sources</h2>
+                <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
 
-    <div id="{{ content.category | slugify }}" class="modal modal-fixed-footer">
-      <div class="modal-content">
-        <h5>{{ content.category }}</h5>
+                  {%- for doc in data.docs -%}
 
-          {% for tag in category %}
-          <div class="section">
-          <h6>{{ tag.name }}</h6>
-            <div class="collection">
+                  <a href="{{ doc.url }}" target="_blank" class="mdc-list-item">
+                    <img src="/assets/img/thumbnails/{{ doc.cover_image }}" alt="logo" class="mdc-list-item__graphic" />
+                    <span class="mdc-list-item__text">{{ doc.category }}
+                      <span class="mdc-list-item__secondary-text">{{ doc.excerpt }}
+                      </span>
+                    </span>
+                    {% if doc.badge == true %}<i class="mdc-list-item__meta material-icons">new_releases</i>{% endif %}
+                  </a>
 
-              {% for chapter in tag.items %}
-              <a href="{{ chapter.url }}" class="collection-item waves-effect waves-dark truncate">{{ chapter.slug | capitalize }}: {{ chapter.title }}</a>
-              {% endfor %}
+                  {%- endfor -%}
+
+                </nav>
+              </article>
+              {%- endif -%}
+
+              {%- endfor -%}
+
+              {% if page.library %}
+              <article>
+                <h2 id="library">Library</h2>
+                <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
+
+                  {% for content in page.library %}
+
+                  <a id="{{ content.category | slugify }}-dialog-activation" href="#{{ content.category | slugify }}-dialog" class="mdc-list-item">
+                    <img src="/assets/img/thumbnails/{{ content.cover_image }}" alt="logo" class="mdc-list-item__graphic" />
+                    <span class="mdc-list-item__text">{{ content.category }}
+                      <span class="mdc-list-item__secondary-text">{{ content.excerpt }}
+                      </span>
+                    </span>
+                    {% if doc.badge == true %}<i class="mdc-list-item__meta material-icons">new_releases</i>{% endif %}
+                  </a>
+
+                  {% endfor %}
+
+                </nav>
+              </article>
+
+              {% endif %}
 
             </div>
           </div>
-          {% endfor %}
-
+        </div>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-      </div>
-    </div>
-    {% endfor %}
+    </section>
+  </main>
 
-  </article>
-  {% endif %}
 
-</section>
 
-<section id="ged" class="container">
-  {% include ged_hiset_tasc_data.html data="ged" title="GED" %}
-</section>
+  {%- comment -%}
+  <section id="ged" class="container">
+    {% include ged_hiset_tasc_data.html data="ged" title="GED" %}
+  </section>
 
-<section id="hiset" class="container">
-  {% include ged_hiset_tasc_data.html data="hiset" title="HiSET" %}
-</section>
+  <section id="hiset" class="container">
+    {% include ged_hiset_tasc_data.html data="hiset" title="HiSET" %}
+  </section>
 
-<section id="tasc" class="container">
-  {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %}
-</section>
+  <section id="tasc" class="container">
+    {% include ged_hiset_tasc_data.html data="tasc" title="TASC" %}
+  </section>
+  {%- endcomment -%}
+
+
+
+  {%- include foot.html -%}
+
+  {% for content in page.library %} {%- include mdc-dialog--index.html -%} {% endfor %}
+
+</body>
+
+</html>

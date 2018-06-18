@@ -22,6 +22,7 @@
     excerpt: "Algebra: Signed Numbers, Powers and Roots, Algebraic Expressions and Formulas, One-Step Equations, Multi-Step Equations, Special Equations, Graphing Equations, Inequalities, Polynomials, and Factoring"
     cover_image: "np-3.jpeg"
     url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
+    badge: true
   -
     category: "Number Power 4"
     excerpt: "Geometry: Angles, Triangles, Perimeter, Area, and Volume"

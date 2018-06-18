@@ -1,0 +1,31 @@
+<!-- creates loop for site.sections by category -->
+{%- assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" -%}
+{%- assign category = subject | where_exp: "sections", "sections.category == page.category" -%}
+{%- assign related_sections = category | where_exp: "sections", "sections.chapter == page.chapter" -%}
+
+{%- comment -%}
+<!-- rethinking desogn -->
+<header class="mdc-top-app-bar" data-mdc-auto-init="MDCTopAppBar">
+  <div class="mdc-top-app-bar__row">
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <button class="material-icons mdc-top-app-bar__navigation-icon">menu</button>
+      <span class="mdc-top-app-bar__title">{{ page.category }}</span>
+    </section>
+  </div>
+</header>
+<aside class="mdc-drawer mdc-drawer--persistent">
+  <nav class="mdc-drawer__drawer">
+    <header class="mdc-drawer__header">
+      <div class="mdc-drawer__toolbar-spacer">
+        {{ page.category }}
+      </div>
+    </header>
+    <nav id="" class="mdc-drawer__content mdc-list mdc-list--two-line"> {%- for items in related_sections -%}
+      <a class="mdc-list-item mdc-list-item {%- if items.url == page.url -%} --selected {%- endif -%}" href="{{ items.url }}">
+         <span class="mdc-list-item__text">{{ items.title }}
+           <span class="mdc-list-item__secondary-text">{{ items.author }}</span>
+         </span>
+       </a> {%- endfor -%}
+    </nav>
+  </nav>
+</aside> {%- endcomment -%}

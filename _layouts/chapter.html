@@ -1,7 +1,52 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
+{%- include head.html -%}
+
+<body class="mdc-typography">
+
+  <main class="page-content" aria-label="Content">
+    <article class="mdc-typography--body1">
+      <header>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-2">
+              <!-- empty -->
+            </div>
+            <div class="mdc-layout-grid__cell--span-6">
+              <h1 class="mdc-typography--headline1">{{ page.title }}</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-2">
+            <!-- empty -->
+          </div>
+          <div class="mdc-layout-grid__cell--span-6">
+            <div class="markdown-body">
+              <h2 id="{{ page.slug }}">{{ page.slug | capitalize | replace: "-", " " }}</h2>
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  {%- include foot.html -%}
+
+</body>
+
+</html>
+
+
+
+
+
+
+{%- comment -%}
 <section id="{{ page.layout }}" class="row {{ page.category | slugify }}">
   <h1 class="col s12 l10 offset-l1">{{ page.category }}</h1>
   <nav class="col s12 l10 offset-l1 transparent z-depth-0">
@@ -9,7 +54,12 @@ layout: default
     <a href="/{{ page.subject | slugify }}" class="breadcrumb">{{ page.subject }}</a>
     <span href="#" class="breadcrumb active">{{ page.title }}</span>
   </nav>
-  <article class="col s12 m8 l7 offset-l1">
+</section>
+{%- endcomment -%}
+
+{%- comment -%}
+<main class="page-content" aria-label="Content">
+  <article id="markdown-body" class="markdown-body">
     <div class="relative">
       <div class="absolute">
         <div class="card accent">
@@ -24,30 +74,11 @@ layout: default
       </div>
     </div>
   </article>
+</main>
+{%- endcomment -%}
 
-  <!-- creates loop for site.pages by subject > category -->
-  {% assign subject = site.pages | where_exp: "pages", "pages.subject == page.subject" %}
-  {% assign pages_category = subject | where_exp: "pages", "pages.category == page.category" | sort: "section" %}
 
-  <!-- creates loop for site.chapters by subject > category -->
-  {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
-  {% assign category = subject | where_exp: "chapters", "chapters.category == page.category" | sort: "section" %}
-
-  <aside class="col s12 m4 l3 offset-m8 offset-l8">
-    <h4 class="white-text">Contents</h4>
-    <ul class="table-of-contents truncate">
-
-      {% for chapter in pages_category %}
-      <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
-      {% endfor %}
-
-      {% for chapter in category %}
-      <li><a href="{{ chapter.url }}" class="truncate{% if chapter.url == page.url %} active{% endif %}">{{ chapter.chapter }}: {{ chapter.title }}</a></li>
-      {% endfor %}
-
-    </ul>
-  </aside>
-</section>
+{%- comment -%}
 
 <!-- creates loop for hse_menu by subject  -->
 {% assign hse_menu = site.pages | where_exp: "item", "item.subject == 'HSE'" %}
@@ -86,3 +117,5 @@ layout: default
     </div>
   </div>
 </aside>
+
+{%- endcomment -%}

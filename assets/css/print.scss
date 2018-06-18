@@ -1,0 +1,48 @@
+---
+  # print stylesheet
+---
+@page {
+  margin: 1in;
+}
+
+@media print {
+  nav, aside, footer,
+  .mdc-button {
+    display: none;
+  }
+
+  body,
+  main.page-content,
+  main .mdc-layout-grid,
+  main .mdc-layout-grid__inner {
+    background: none;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: rgba(0,0,0,0.87);
+  }
+
+  .mdc-typography--headline1 {
+    font-size: 26pt;
+  }
+
+  .markdown-body {
+    & h1, h2, h3, h4, h5, h6 {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+  }
+
+  .markdown-body {
+    & h1, h2, h3, h4, h5, h6, p {
+      font-size: 12pt;
+    }
+  }
+
+  b, strong {
+    font-weight: 500;
+  }
+
+}

@@ -21,9 +21,10 @@ timezone: America/Denver
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-# theme: minima
+#  theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-github-metadata
 exclude:
   - Gemfile
@@ -67,9 +68,3 @@ defaults:
       type: "sections"
     values:
       layout: section
-  # -
-    # scope:
-    #   path: "_sections/reading"
-    #   type: "sections"
-    # values:
-    #   layout: section-alt
