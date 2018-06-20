@@ -7,24 +7,24 @@
 
   <main>
     <div class="mdc-card">
-      <header>
+      <div class="mdc-card__content">
         <h1 class="mdc-typography--headline1">Welcome</h1>
-      </header>
-      <div class="mdc-list-group">
-        <h2 class="mdc-list-group__subheader">Choose your subject</h2>
-        <nav class="mdc-list mdc-list--avatar-list" aria-orientation="vertical">
+        <div class="mdc-list-group">
+          <h2 class="mdc-list-group__subheader">Where should we begin?</h2>
+          <nav class="mdc-list mdc-list--dense mdc-list--avatar-list" aria-orientation="vertical">
 
-          <!-- creates loop for subject_menu by subject > category -->
-          {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
+            <!-- creates loop for subject_menu by subject > category -->
+            {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
 
-          {% for item in subject_menu %}
-          <a href="{{ item.url }}" class="mdc-list-item {%- if item.url == page.url %} mdc-list-item--activated {%- endif -%}">
-            <span class="mdc-list-item__graphic material-icons" aria-hidden="true">{{ item.icon }}</span>
-            <span class="mdc-list-item__text">{{ item.title }}</span>
-          </a>
-          {% endfor %}
+            {% for item in subject_menu %}
+            <a href="{{ item.url }}" class="mdc-list-item {%- if item.url == page.url %} mdc-list-item--activated {%- endif -%}">
+              <span class="mdc-list-item__graphic material-icons" aria-hidden="true">{{ item.icon }}</span>
+              <span class="mdc-list-item__text">{{ item.title }}</span>
+            </a>
+            {% endfor %}
 
-        </nav>
+          </nav>
+        </div>
       </div>
       <hr class="mdc-list-divider">
       <div class="mdc-card__actions">

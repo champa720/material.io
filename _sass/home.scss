@@ -1,0 +1,89 @@
+// blurred glass
+// http://cssdeck.com/labs/blurred-glass
+
+#home, main .mdc-card:before {
+  background:
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 25.3%, rgba(0,0,0,0.163) 25.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 25.3%, rgba(0,0,0,0.0) 25.3%),
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 33.3%, rgba(0,0,0,0.163) 33.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 33.3%, rgba(0,0,0,0.0) 33.3%),
+    /* top, layered shade */
+    linear-gradient(120deg, rgba(0,0,0,.33) 41.3%, rgba(0,0,0,0.163) 41.3%),
+    linear-gradient(60deg, rgba(0,0,0,.5) 41.3%, rgba(0,0,0,0.0) 41.3%),
+    /* bottom, image */
+    url(  "/assets/img/denver.jpg") no-repeat 0 0 fixed / cover;
+}
+
+#home {
+  & main {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  & main .mdc-card {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    background-color: hsla(0,0%,100%,.125);
+    border-top: 8px solid hsla(0,0%,100%,.12);
+    & .mdc-card__content {
+      display: flex;
+      align-items: center;
+    }
+    & h1, .mdc-list-group {
+      font-size: 6rem;
+      margin: 0.67em;
+    }
+    & .mdc-list-divider {
+      border-bottom-color: hsla(0,0%,100%,.12);
+    }
+    & h1, .mdc-list, .mdc-list-group__subheader {
+      color: var(--mdc-theme-text-primary-on-dark,#fff);
+    }
+    & .mdc-list-item__graphic, .mdc-card__action--icon:not(:disabled) {
+      color: var(--mdc-theme-text-icon-on-dark,hsla(0,0%,100%,.5));
+    }
+  }
+  & main .mdc-card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    top: 0; right: 0; left: 0;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+  }
+}
+
+@media (max-width: 839px) {
+  #home main .mdc-card {
+    min-height: 100vh;
+    min-width: 100vw;
+    & .mdc-card__content {
+      justify-content: center;
+    }
+    & h1, .mdc-list-group {
+      font-size: 4.5rem;
+    }
+  }
+}
+
+// @media (max-width: 479px)
+@media (max-width: 699px) {
+  #home main .mdc-card {
+    // inherited
+    & .mdc-card__content {
+      flex-direction: column;
+    }
+    & h1, .mdc-list-group {
+      font-size: 3rem;
+    }
+  }
+}
