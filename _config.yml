@@ -1,4 +1,4 @@
-# Site settings
+# site settings
 title: "Jason's classroom"
 email: support@jasonsclassroom.com
 description: >
@@ -16,7 +16,8 @@ social_media:
   github: https://github.com/champa720/hse-materialize
 
 
-# Build settings
+# build settings
+collections_dir: collections
 timezone: America/Denver
 markdown: kramdown
 kramdown:
@@ -33,7 +34,7 @@ sass:
   style: compressed
 
 
-# Collections & Defaults
+# collection defaults
 collections:
   chapters:
     output: true
@@ -47,24 +48,24 @@ collections:
   sections:
     output: true
     permalink: /:path/
-defaults:
 
-  # Global
+# global defaults
+defaults:
   -
     scope:
-      path: "_chapters"
+      path: ""
       type: "chapters"
     values:
       layout: chapter
   -
     scope:
-      path: "_lessons"
+      path: ""
       type: "lessons"
     values:
       layout: lesson
   -
     scope:
-      path: "_sections"
+      path: ""
       type: "sections"
     values:
       layout: section
