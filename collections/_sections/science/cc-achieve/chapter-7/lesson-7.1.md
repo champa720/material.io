@@ -31,7 +31,7 @@ Every kind of atom has a different number of protons. But all the atoms of an el
 
 In the early nineteenth century, only a few elements were known to exist. In 1869, the Russian chemist Dmitri Mendeleev compared various properties of individual elements, including color, atomic mass, density, melting point, and boiling point. Mendeleev concluded that the elements should be arranged in order of increasing atomic mass. In 1913, Henry Moseley, a physicist, arranged the elements according to increasing atomic number instead of atomic mass. Immediately some of the inconsistencies associated with Mendeleev's table were eliminated. The patterns identified by Mendeleev, Moseley, and others serve as the foundation of periodic law. The resulting arrangement of elements has become known as the periodic table. Each square has a label that includes the element's name and its properties.
 
-![Periodic Table]()
+![Periodic Table](https://study.com/images/content-images/periodic-table.jpg)
 
 ### Organization of the Periodic Table
 
@@ -61,14 +61,15 @@ All the elements in a group of the periodic table share certain properties becau
 
 Group 1 elements are known as the alkali metals. Alkali metals are soft enough to be cut with a knife. They are usually silver in color, shiny, and have low densities. The elements in Group 2 are the alkaline earth metals. These elements are generally hard, gray-white, and good conductors of electricity. The elements in Groups 3 through 12 are known as transition elements, or transition metals. The behavior of transition elements is less predictable. For example, iron might react with oxygen to form FeO or Fe<sub>2</sub>0<sub>3</sub>, depending on the amount of oxygen available.
 
-<div class="card-panel" markdown="1">
-##### Think about Science
+<div class="mdc-card mdc-card--outlined" markdown="1">
+**Think about Science**
+
 Directions: Fill in the blank.
 
-  1. [ blank ] are good conductors of electricity.
-  2. [ blank ] are solid at room temperature.
-  3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
-  4. The total number of make up an atom's mass [ blank ] number.
+1. [ blank ] are good conductors of electricity.
+2. [ blank ] are solid at room temperature.
+3. An element with the atomic number of 16 [ blank ] protons in its nucleus.
+4. The total number of make up an atom's mass [ blank ] number.
 </div>
 
 ### Compounds
@@ -85,18 +86,19 @@ Just as elements can be represented by chemical symbols, compounds can be repres
 
 The chemical formula for the compound known as carbon dioxide is CO<sub>2</sub>. The formula includes the chemical symbol for carbon, C, and the chemical symbol for oxygen, O - the two elements that make up the compound. The number 2 below the symbol for oxygen is called a subscript. A subscript below an element's symbol indicates the number of atoms of that element present in each molecule of the compound. The subscript below the symbol for oxygen indicates that there are two atoms of oxygen. If there is no subscript, as in the case of the carbon atom, it is understood that there is one atom of that element. So, the ratio of oxygen to carbon in every molecule of carbon dioxide is 2 to 1.
 
-<div class="card-panel" markdown="1">
-##### Think about Science
+<div class="mdc-card mdc-card--outlined" markdown="1">
+**Think about Science**
+
 Directions: Answer the following questions.
 
-  1. What is represented by the number 3 in the chemical formula for rust, Fe<sub>2</sub>O<sub>3</sub>?  
-    A. The number of iron atoms in one molecule
-    B. The total number of atoms in each molecule
-    C. The number of oxygen atoms in one molecule
-    D. The number of electrons shared between iron and oxygen
-  2. Atoms combine to form compounds by sharing
-    A. protons.
-    B. neutrons.
-    C. electrons.
-    D. molecules.
+1. What is represented by the number 3 in the chemical formula for rust, Fe<sub>2</sub>O<sub>3</sub>?
+  * The number of iron atoms in one molecule
+  * The total number of atoms in each molecule
+  * The number of oxygen atoms in one molecule
+  * The number of electrons shared between iron and oxygen
+2. Atoms combine to form compounds by sharing?
+  * protons.
+  * neutrons.
+  * electrons.
+  * molecules.
 </div>

@@ -12,11 +12,19 @@ icon: book
 
 library:
 -
+  category: "Fiction"
+  cover_image: "default.jpg"
+  excerpt: ""
+-
+  category: "Nonfiction"
+  cover_image: "default.jpg"
+  excerpt: ""
+-
   category: "Poetry"
   cover_image: "poetry.jpg"
   excerpt: ""
 -
-  category: "Fiction"
+  category: "Project Based"
   cover_image: "default.jpg"
   excerpt: ""
 ---
