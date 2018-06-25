@@ -1,0 +1,21 @@
+<nav id="{{ page.subject | slugify }}" class="mdc-drawer mdc-drawer--permanent mdc-typography">
+  <div class="mdc-drawer__content mdc-drawer__content--align-start">
+    <nav class="mdc-list">
+      <a class="mdc-list-item" href="{{ site.url }}" title="{{ site.title }}">
+        <img class="mdc-list-item__graphic" src="/assets/img/icon.png" aria-hidden="true"/>
+      </a>
+    </nav>
+  </div>
+  <div class="mdc-drawer__content mdc-drawer__content--align-end">
+    <nav class="mdc-list">
+      {% assign items = site.pages | where_exp: "item", "item.category == 'index'" %}
+
+      {%- for item in items -%}
+      <a class="mdc-list-item" href="{{ item.url }}" title="{{ item.title }}">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">{{ item.icon }}</i>
+      </a>
+      {%- endfor -%}
+
+    </nav>
+  </div>
+</nav>

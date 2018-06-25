@@ -2,10 +2,28 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>
   anchors.add();
+
   window.mdc.autoInit();
-  let drawer = new mdc.drawer.MDCPersistentDrawer(document.querySelector('.mdc-drawer--persistent'));
-  document.querySelector('button').addEventListener('click', function() {
-    drawer.open = !drawer.open;
+
+  //let drawer = new mdc.drawer.MDCPersistentDrawer(document.querySelector('.mdc-drawer--persistent'));
+  //document.querySelector('button').addEventListener('click', function() {
+  //  drawer.open = !drawer.open;
+  //});
+
+  var body = document.querySelector(".markdown-body");
+
+  function changeFontSize(resize) {
+    var computedFontSize = window.getComputedStyle(body).fontSize;
+    var fontSize = parseInt(computedFontSize,10);
+    body.style.fontSize = (fontSize + resize) + 'px';
+  }
+
+  document.querySelector('#zoom_in').addEventListener('click', function() {
+    changeFontSize(+1);
+  });
+
+  document.querySelector('#zoom_out').addEventListener('click', function() {
+    changeFontSize(-1);
   });
 </script>
 

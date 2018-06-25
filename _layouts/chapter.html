@@ -3,16 +3,15 @@
 
 {%- include head.html -%}
 
-<body class="mdc-typography">
+<body id="chapter" class="mdc-typography">
+
+  {%- include mdc-drawer--rail.html -%}
 
   <main class="page-content" aria-label="Content">
     <article class="mdc-typography--body1">
       <header>
         <div class="mdc-layout-grid">
           <div class="mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell--span-2">
-              <!-- empty -->
-            </div>
             <div class="mdc-layout-grid__cell--span-6">
               <h1 class="mdc-typography--headline1">{{ page.title }}</h1>
             </div>
@@ -21,9 +20,6 @@
       </header>
       <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
-          <div class="mdc-layout-grid__cell--span-2">
-            <!-- empty -->
-          </div>
           <div class="mdc-layout-grid__cell--span-6">
             <div class="markdown-body">
               <h2 id="{{ page.slug }}">{{ page.slug | capitalize | replace: "-", " " }}</h2>
@@ -34,6 +30,8 @@
       </div>
     </article>
   </main>
+
+  {%- include zoom.html -%}
 
   {%- include foot.html -%}
 

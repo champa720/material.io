@@ -1,0 +1,47 @@
+// fallback for grid-column-start
+.mdc-layout-grid__inner {
+  justify-content: center;
+}
+
+// large desktop
+@media (min-width: 1440px) {
+
+  .mdc-layout-grid__cell--span-6:first-child {
+    grid-column-start: 3;
+    grid-column-end: span 6; // default
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+
+  .mdc-layout-grid__cell--span-6:first-child {
+    grid-column-start: 3;
+    grid-column-end: span 7; // +1
+  }
+}
+
+// small desktop
+@media (max-width: 1023px) and (min-width: 840px) {
+
+  .mdc-layout-grid__cell--span-6:first-child {
+    grid-column-start: 3;
+    grid-column-end: span 8; // +2
+  }
+}
+
+// tablet
+@media (max-width: 839px) and (min-width: 480px) {
+
+  .mdc-layout-grid__cell--span-6:first-child {
+    grid-column-start: 2;
+  }
+}
+
+// phone
+@media (max-width: 479px) {
+
+  .mdc-layout-grid__cell--span-6:first-child {
+    grid-column-start: 1;
+  }
+}

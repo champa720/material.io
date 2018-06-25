@@ -1,0 +1,41 @@
+nav.mdc-drawer.mdc-drawer--permanent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 56px;
+
+  &#mathematics {
+    background-color: #FF9E80; // Deep Orange A100
+  }
+
+  &#reading {
+    background-color: #82B1FF; // Blue A100
+  }
+
+  &#science {
+    background-color: #B388FF; // Deep Purple A100
+  }
+
+  &#social-studies {
+    background-color: #B9F6CA; // Green A100
+  }
+
+  &#writing {
+    background-color: #FF8A80; // Red A100
+  }
+
+  & .mdc-drawer__content {
+    display: flex;
+    flex: 1 1 auto;
+
+    &--align-start {
+      align-items: flex-start;
+      order: -1;
+    }
+
+    &--align-end {
+      align-items: flex-end;
+      order: 1;
+    }
+  }
+}

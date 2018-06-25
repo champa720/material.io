@@ -6,43 +6,63 @@
 }
 
 @media print {
-  nav, aside, footer,
-  .mdc-button {
+  nav, aside, footer, .mdc-button, .mdc-fab__container {
     display: none;
+    visibility: hidden;
   }
 
-  body,
-  main.page-content,
-  main .mdc-layout-grid,
-  main .mdc-layout-grid__inner {
-    background: none;
-    box-shadow: none;
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    color: rgba(0,0,0,0.87);
+  main, article {
+    display: block !important;
+    overflow: visible !important;
   }
 
-  .mdc-typography--headline1 {
-    font-size: 26pt;
+  main, .page-content, .mdc-layout-grid, .mdc-layout-grid__inner {
+    margin: 0px;
+    padding: 0px;
   }
 
-  .markdown-body {
-    & h1, h2, h3, h4, h5, h6 {
-      page-break-after: avoid;
-      page-break-inside: avoid;
+  article {
+    margin-left: -56px; // for nav
+    padding-left: 2em; // for paragraph count
+    color: var(--mdc-theme-text-primary-on-background,rgba(0,0,0,0.87));
+
+    & .mdc-typography--headline1 {
+      margin-top: 0px;
+      font-size: 18pt;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    & .markdown-body {
+
+      & h2, h3, h4, h5, h6 {
+        font-size: 14pt;
+        font-weight: 500;
+        line-height: 1.3;
+        page-break-after: avoid;
+        break-after: avoid;
+      }
+
+      & p, .mdc-card {
+        font-size: 11.5pt;
+        line-height: 1.3;
+        //text-align: justify;
+        page-break-inside: avoid;
+        break-inside: avoid;
+
+        &:before {
+          color: var(--mdc-theme-text-hint-on-background,rgba(0,0,0,0.38));
+        }
+      }
+
+      & b, strong {
+        font-weight: 500;
+      }
+
+      & img, table {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
     }
   }
-
-  .markdown-body {
-    & h1, h2, h3, h4, h5, h6, p {
-      font-size: 12pt;
-    }
-  }
-
-  b, strong {
-    font-weight: 500;
-  }
-
 }
