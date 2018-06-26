@@ -4,6 +4,12 @@
       <a class="mdc-list-item" href="{{ site.url }}" title="{{ site.title }}">
         <img class="mdc-list-item__graphic" src="/assets/img/icon.png" aria-hidden="true"/>
       </a>
+      <button id="zoom_in" type="button" class="mdc-list-item" aria-label="Enlarge text size" title="Enlarge text size">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">zoom_in</i>
+      </button>
+      <button id="zoom_out" type="button" class="mdc-list-item" aria-label="Reduce text size" title="Reduce text size">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">zoom_out</i>
+      </button>
     </nav>
   </div>
   <div class="mdc-drawer__content mdc-drawer__content--align-end">
@@ -11,7 +17,7 @@
       {% assign items = site.pages | where_exp: "item", "item.category == 'index'" %}
 
       {%- for item in items -%}
-      <a class="mdc-list-item" href="{{ item.url }}" title="{{ item.title }}">
+      <a href="{{ item.url }}" class="mdc-list-item" aria-label="{{ item.title }}" title="{{ item.title }}">
         <i class="material-icons mdc-list-item__graphic" aria-hidden="true">{{ item.icon }}</i>
       </a>
       {%- endfor -%}

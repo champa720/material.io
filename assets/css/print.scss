@@ -22,8 +22,8 @@
   }
 
   article {
-    margin-left: -56px; // for nav
-    padding-left: 2em; // for paragraph count
+    //margin-left: -56px; // for mdc-drawer--rail { position: absolute }
+    padding-left: 2em; // for paragraph counter
     color: var(--mdc-theme-text-primary-on-background,rgba(0,0,0,0.87));
 
     & .mdc-typography--headline1 {
