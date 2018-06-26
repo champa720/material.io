@@ -27,6 +27,10 @@
   });
 </script>
 
-{% if page.mathjax == true %}
-  {% include katex.html %}
-{% endif %}
+{%- if page.category == "index" -%}
+  {%- include javascript/mdc-tabs.js -%}
+{%- endif -%}
+
+{%- if page.mathjax == true -%}
+  {%- include javascript/katex.js -%}
+{%- endif -%}
