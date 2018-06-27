@@ -19,6 +19,7 @@
 #home {
   margin-left: 0; // reset mdc-drawer--rail
   display: table; // fallback
+  width: 100%;
 
   & main {
     // fallback
