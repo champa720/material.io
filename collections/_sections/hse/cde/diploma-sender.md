@@ -62,4 +62,4 @@ These turnaround times depend on having an electronic copy of the record.  Acces
 
 ### See Also:
 
-  * <https://www.cde.state.co.us/postsecondary/hse_dsinfosheet)>
+  * <https://www.cde.state.co.us/postsecondary/hse_dsinfosheet>
