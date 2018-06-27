@@ -16,6 +16,7 @@ html {
 
 body {
   margin: 0px;
+  margin-left: 56px; // mdc-drawer--rail
   padding: 0px;
   height: 100%;
   width: 100%;
@@ -27,7 +28,6 @@ body {
 }
 
 main {
-  margin-left: 56px; // mdc-drawer--rail
   //height: 100%; // for mdc-drawer--rail { position: absolute }
   //overflow: auto; // for mdc-drawer--rail { position: absolute }
 }

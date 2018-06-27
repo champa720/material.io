@@ -17,11 +17,10 @@
 }
 
 #home {
-  // fallback
-  display: table;
+  margin-left: 0; // reset mdc-drawer--rail
+  display: table; // fallback
 
   & main {
-    margin-left: 0; // reset mdc-drawer--rail
     // fallback
     display: table-cell;
     vertical-align: middle;
