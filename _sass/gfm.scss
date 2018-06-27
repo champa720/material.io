@@ -49,7 +49,7 @@
   margin-bottom: 1em
 }
 
-.markdown-body hr {
+.markdown-body hr:not(.mdc-list-divider) {
   height: .25em;
   padding: 0;
   margin: 24px 0;
