@@ -3,12 +3,17 @@
   # https://github.com/material-components/material-components-web/tree/master/packages
 ---
 @charset "UTF-8";
-@import "gfm";
+
+// layout scss
 @import "home";
+@import "index";
+@import "section";
+
+// global scss
+@import "gfm";
 @import "mdc-drawer--rail";
 @import "mdc-layout-grid";
 @import "mdc-tabs";
-@import "section";
 
 html {
   height: 100%;
