@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{%- include head.html -%}
+
+<body id="section" class="mdc-typography">
+
+  {%- include mdc-drawer--rail.html -%}
+
+  <header>
+    <div class="mdc-layout-grid">
+      <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell--span-6">
+          <h1 class="mdc-typography--headline1">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {%- include mdc-tabs.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="panels">
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-6">
+            <div class="markdown-body">
+              <section id="classroom" class="panel" role="tabpanel" aria-hidden="false">
+                {%- include data--classroom.html -%}
+              </section>
+              <section id="ged" class="panel" role="tabpanel" aria-hidden="true">
+                {%- include data--ged-hiset-tasc.html data="ged" title="GED" -%}
+              </section>
+              <section id="hiset" class="panel active" role="tabpanel" aria-hidden="true">
+                {%- include data--ged-hiset-tasc.html data="hiset" title="HiSET" -%}
+              </section>
+              <section id="tasc" class="panel" role="tabpanel" aria-hidden="true">
+                {%- include data--ged-hiset-tasc.html data="tasc" title="TASC" -%}
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="dots">
+    <a class="dot active" data-trigger="panel-1" href="#panel-1"></a>
+    <a class="dot" data-trigger="panel-2" href="#panel-2"></a>
+    <a class="dot" data-trigger="panel-3" href="#panel-3"></a>
+    <a class="dot" data-trigger="panel-4" href="#panel-4"></a>
+  </div>
+
+  {%- include foot.html -%}
+
+  {% for content in page.library %} {%- include mdc-dialog--index.html -%} {% endfor %}
+
+</body>
+
+</html>

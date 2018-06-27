@@ -1,0 +1,47 @@
+#section {
+
+  .mdc-card.mdc-card--resource {
+    display: flex;
+    flex-direction: row;
+
+    & .mdc-card__media--letter {
+      flex-basis: 25%;
+      border-right: 1px solid #e0e0e0;
+
+      & img {
+        width: calc((11 / 8.5) * 100%);
+      }
+    }
+
+    & .mdc-card__content--stacked {
+      flex-basis: 75%;
+      display: flex;
+      flex-direction: column;
+
+      & .mdc-card__content {
+        flex: 1 1 auto;
+        padding: 1em;
+      }
+    }
+  }
+
+  .mdc-card:not(.mdc-card--resource) {
+
+    & .mdc-card__content {
+      padding: 1em;
+    }
+
+    & dl {
+      display: table;
+
+      & dt .material-icons {
+        vertical-align: middle;
+      }
+
+      & dt, dd {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}

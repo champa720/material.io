@@ -1,3 +1,24 @@
 .panel:not(.active) {
   display: none;
 }
+
+.dots {
+  display: table;
+  height: 48px;
+  margin: 0 auto;
+
+  .dot {
+    display: inline-block;
+    margin: 0 24px;
+    height: 14px;
+    width: 14px;
+    background-color: var(--mdc-theme-text-icon-on-background,rgba(0,0,0,.38));
+    border-radius: 50%;
+    vertical-align: middle;
+
+    &.active {
+      height: 16px;
+      width: 16px;
+    }
+  }
+}
