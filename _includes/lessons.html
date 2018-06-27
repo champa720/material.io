@@ -29,7 +29,7 @@
 {% endfor %}
 
 <!-- creates loop for subject_data by subject -->
-{% assign subject_data = site.data.external_links | where_exp: "item", "item.subject == include.subject" %}
+{% assign subject_data = site.data.classroom | where_exp: "item", "item.subject == include.subject" %}
 
 {% for data in subject_data %} {% if data.docs %}
 <article class="section">
