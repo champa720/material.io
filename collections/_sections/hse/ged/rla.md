@@ -15,7 +15,7 @@ source: http://www.gedtestingservice.com/testers/rlalink
 
 ---
 
-{% include ged_hiset_tasc_data.html data="ged" subject="Reading" title="GED" %}
+{% include data--ged-hiset-tasc.html data="ged" subject="Reading" title="GED" %}
 
 *The time allotted for sections 1 and 3 may vary slightly, but the total test time will always be 150 minutes.*
 

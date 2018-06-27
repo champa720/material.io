@@ -14,7 +14,7 @@ source: http://www.tasctest.com/writing-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 
 ---
-{% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
+{% include data--ged-hiset-tasc.html data="tasc" subject="Mathematics" title="TASC" %}
 
 In the Writing test, examinees will answer multiple-choice, constructed-response, and technology-enhanced questions in which they must identify errors and make corrections in sentence structure, usage, mechanics, and organization. Examinees will also write a text based essay.
 

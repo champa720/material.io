@@ -14,7 +14,7 @@ source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/sciencelink
 
 ---
-{% include ged_hiset_tasc_data.html data="ged" subject="Science" title="GED" %}
+{% include data--ged-hiset-tasc.html data="ged" subject="Science" title="GED" %}
 
 The GED® Science Test focuses on the fundamentals of science reasoning, striking a balance of deeper conceptual understanding, procedural skill and fluency, and the ability to apply these fundamentals in realistic situations. In order to stay true to this intention, each item on the Science Test is aligned to one science practice and one content topic.
 

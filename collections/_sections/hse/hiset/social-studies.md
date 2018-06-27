@@ -14,7 +14,7 @@ source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
 
 ---
-{% include ged_hiset_tasc_data.html data="hiset" subject="Social Studies" title="HiSET" %}
+{% include data--ged-hiset-tasc.html data="hiset" subject="Social Studies" title="HiSET" %}
 
 The Social Studies subtest measures your ability to analyze and evaluate various kinds of social studies information. The subtest uses materials from a variety of content areas, including history, political science, psychology, sociology, anthropology, geography and economics. Primary documents, posters, cartoons, timelines, maps, graphs, tables, charts and reading passages may be used to present information. You may be asked to distinguish statements of fact from opinion; recognize the limitations of procedures and methods; and make judgments about the reliability of sources, the validity of inferences and conclusions, and the adequacy of information for drawing conclusions.
 

@@ -14,7 +14,7 @@ source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
 
 ---
-{% include ged_hiset_tasc_data.html data="hiset" subject="Mathematics" title="HiSET" %}
+{% include data--ged-hiset-tasc.html data="hiset" subject="Mathematics" title="HiSET" %}
 
 The Mathematics subtest measures mathematical knowledge and competencies. You are asked to solve quantitative problems using fundamental concepts and reasoning skills. The questions present practical problems that require numerical operations, measurement, estimation, data interpretation and logical thinking. Problems are based on realistic situations and may test abstract concepts such as algebraic patterns, precision in measurement and probability. You may use a calculator for the entire subject test, if you choose to do so.
 

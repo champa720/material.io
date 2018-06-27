@@ -14,7 +14,7 @@ source: http://www.tasctest.com/reading-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 
 ---
-{% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
+{% include data--ged-hiset-tasc.html data="tasc" subject="Mathematics" title="TASC" %}
 
 The Reading test includes multiple-choice, constructed-response, and technology enhanced questions that test an examinee’s ability to understand the information presented in excerpts from newspapers, magazines, novels, short stories, poetry, drama, and business or legal text passages. The Reading test includes both literary and informational texts.
 

@@ -14,7 +14,7 @@ source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
 
 ---
-{% include ged_hiset_tasc_data.html data="hiset" subject="Writing" title="HiSET" %}
+{% include data--ged-hiset-tasc.html data="hiset" subject="Writing" title="HiSET" %}
 
 If you are taking the HiSET exam in English, the Writing subtest measures your skill in recognizing and producing effective, standard, American-written English and is in two parts. Spanish test takers may write their essay in Spanish.
 

@@ -14,7 +14,7 @@ source: http://www.tasctest.com/social-studies-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 
 ---
-{% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
+{% include data--ged-hiset-tasc.html data="tasc" subject="Mathematics" title="TASC" %}
 
 During the Social Studies test, examinees will be assigned with answering multiple-choice, constructed-response, and technology enhanced questions on history, economics, geography, civics, and government. The Social Studies test gauges examinees’ understanding of the basic principles in each of those areas. To do well, examinees must be able to read passages, illustrations, graphs, and charts.
 

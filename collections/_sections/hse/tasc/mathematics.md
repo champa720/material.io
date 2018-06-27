@@ -14,7 +14,7 @@ source: http://www.tasctest.com/mathematics-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 
 ---
-{% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
+{% include data--ged-hiset-tasc.html data="tasc" subject="Mathematics" title="TASC" %}
 
 In the Mathematics test there are number and quantity, algebra, functions, and geometry questions, as well as some that cover statistics and probability. Most are word problems and involve real-life situations or ask examinees to interpret information presented in diagrams, charts, graphs, and tables. Section 1 of the Mathematics test allows examinees to use a calculator. A calculator is not used in Section 2. Examinees will also be given a page of mathematic formulas to use during the test.
 

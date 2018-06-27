@@ -14,7 +14,7 @@ source: http://hiset.ets.org/about/content/
 source: http://hiset.ets.org/states_educators/about/content/
 
 ---
-{% include ged_hiset_tasc_data.html data="hiset" subject="Science" title="HiSET" %}
+{% include data--ged-hiset-tasc.html data="hiset" subject="Science" title="HiSET" %}
 
 The Science subtest measures your ability to use science content knowledge, apply principles of scientific inquiry, and interpret and evaluate scientific information. Most of the questions provide descriptions of scientific investigations and their results. Scientific information is based on reports that might be found in scientific journals. Graphs, tables and charts are used to present information and results.
 

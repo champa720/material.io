@@ -14,7 +14,7 @@ source: http://www.gedtestingservice.com/educators/2014test
 source: http://www.gedtestingservice.com/testers/mathlink
 
 ---
-{% include ged_hiset_tasc_data.html data="ged" subject="Mathematics" title="GED" %}
+{% include data--ged-hiset-tasc.html data="ged" subject="Mathematics" title="GED" %}
 
 The GED® Mathematical Reasoning Test focuses on two major content areas: quantitative problem solving and algebraic problem solving.
 

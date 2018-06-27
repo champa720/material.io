@@ -14,7 +14,7 @@ source: http://www.tasctest.com/science-for-test-takers.html
 source: http://www.tasctest.com/item-types-for-educators.html
 
 ---
-{% include ged_hiset_tasc_data.html data="tasc" subject="Mathematics" title="TASC" %}
+{% include data--ged-hiset-tasc.html data="tasc" subject="Mathematics" title="TASC" %}
 
 For the Science test, multiple-choice questions are pulled from the fields of Physical Science, Life Science, and Earth and Space Science. Each discipline is subdivided into several Core Ideas, which each contain multiple performance expectations. Each test item assesses one performance expectation. Items may require recalling knowledge, applying knowledge and skills, or reasoning. The number of test items per Core Idea is proportional to the number of performance expectations within the Core Idea. As a result, each Core Idea will have about 2–5 items on a given test.
 
