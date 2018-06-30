@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.36.0/dist/material-components-web.min.css" />
-  <link rel="stylesheet" href="{{ "assets/css/material.io.css" | absolute_url }}" />
-  <link rel="stylesheet" href="{{ "assets/css/print.css" | absolute_url }}"  media="print" />
+  <link rel="stylesheet" href="{{ "assets/css/material.io.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "assets/css/print.css" | relative_url }}"  media="print" />
 
   <!-- mobile tag allows page to run like native-app from homescreen -->
   <meta name="mobile-web-app-capable" content="yes" />
-  <link rel="icon" sizes="192x192" href="{{ "assets/img/icon.png" | absolute_url }}" />
-  <link rel="manifest" href="{{ "manifest.json" | absolute_url }}" />
+  <link rel="icon" sizes="192x192" href="{{ "assets/img/icon.png" | relative_url }}" />
+  <link rel="manifest" href="{{ "manifest.json" | relative_url }}" />
 
   {%- feed_meta -%}
 
