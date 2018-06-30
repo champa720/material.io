@@ -73,7 +73,7 @@
 </article>
 
 <article class="section">
-  <h2>{{ include.title }} Printable Practice</h2>
+  <h2>{{ include.title }} Printable Resources</h2>
 
   <nav class="mdc-list mdc-list--two-line mdc-list--thumbnail-list" aria-orientation="vertical">
 
@@ -83,7 +83,7 @@
            src="{{ doc.cover_image | prepend: 'assets/img/thumbnails/' | absolute_url }}" />
       <span class="mdc-list-item__text">
         {{ doc.category }}
-        <span class="mdc-list-item__secondary-text">
+        <span class="mdc-list-item__secondary-text" hidden>
           {{ doc.excerpt }}
         </span>
       </span>
