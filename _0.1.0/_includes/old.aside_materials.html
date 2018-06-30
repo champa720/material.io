@@ -57,7 +57,7 @@
     {% else %}
     <i class="material-icons circle {{ page.color }}">{{ page.icon }}</i>
     {% endif %}
-    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+    <a href="{{ q.url }}"  target="_blank" rel="noopener">{{ q.title }}</a>
     <p>{{ q.description }}</p>
   </div>
 
@@ -79,7 +79,7 @@
     <iframe width="853" height="480" src="{{ v.url }}?rel=0&hl=es;cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="card-action">
-    <a href="{{ v.url }}" target="_blank" class="truncate">{{ v.title }}</a>
+    <a href="{{ v.url }}"  target="_blank" rel="noopener" class="truncate">{{ v.title }}</a>
   </div>
 </div>
 {% endfor%}

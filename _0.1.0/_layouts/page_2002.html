@@ -72,7 +72,7 @@ layout: default_alt
         <ul class="social_media">          
           {% for media in site.social %}
           <li class="left">
-            <a href="{{ media.url }}" class="social-btn icon-{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}" target="_blank">
+            <a href="{{ media.url }}" class="social-btn icon-{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}"  target="_blank" rel="noopener">
               <span class="icon-text">{{ media.name }}</span>
             </a>
           </li>

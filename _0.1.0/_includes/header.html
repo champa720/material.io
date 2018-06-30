@@ -28,7 +28,7 @@
 
             {% for media in site.social %}
             <li class="{{ media.name }} waves-effect waves-light tooltipped" data-position="bottom" data-tooltip="{{ media.tooltip }}">
-              <a href="{{ media.url }}" target="_blank">
+              <a href="{{ media.url }}"  target="_blank" rel="noopener">
                 <i class="material-icons fa fa-{{ media.name }}-square"></i>
                 <span class="icon-text">{{ media.name }}</span>
               </a>

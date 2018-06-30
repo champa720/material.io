@@ -66,4 +66,4 @@ The single most important power of the Supreme Court is its power of judicial re
 <video controls><source src="https://static.flocabulary.com/media/streaming/20e0a352aaca4b45b019458b35ac759b/360/SOC-3-branches-of-government.mp4" type="video/mp4"></video>
 {: .responsive-video }
 
-[https://www.flocabulary.com/3-branches-of-government/](https://www.flocabulary.com/3-branches-of-government/){: target="_blank" }
+[https://www.flocabulary.com/3-branches-of-government/](https://www.flocabulary.com/3-branches-of-government/){:  target="_blank" rel="noopener" }

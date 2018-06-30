@@ -31,7 +31,7 @@
       <div class="collection">
 
         {% for q in d.docs %}
-        <a href="{{ q.url }}" target="_blank" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
+        <a href="{{ q.url }}"  target="_blank" rel="noopener" class="collection-item waves-effect waves-dark">{{ q.title }}</a>
 
         {% endfor %}
       </div>
@@ -53,7 +53,7 @@
   {% for q in data.docs %}
   <div class="collection-item avatar">
     <img src="{{ q.image_path | prepend: "/assets/img" | prepend: site.baseurl | prepend: site.url }}" class="circle" />
-    <a href="{{ q.url }}" target="_blank">{{ q.title }}</a>
+    <a href="{{ q.url }}"  target="_blank" rel="noopener">{{ q.title }}</a>
     <p>{{ q.description }}</p>
   </div>
 
