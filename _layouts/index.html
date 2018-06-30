@@ -25,13 +25,13 @@
         <div class="mdc-layout-grid__inner">
           <div class="mdc-layout-grid__cell--span-6">
             <div class="markdown-body">
-              <section id="classroom" class="panel" role="tabpanel" aria-hidden="false">
+              <section id="classroom" class="panel active" role="tabpanel" aria-hidden="false">
                 {%- include data--classroom.html -%}
               </section>
               <section id="ged" class="panel" role="tabpanel" aria-hidden="true">
                 {%- include data--ged-hiset-tasc.html data="ged" title="GED" -%}
               </section>
-              <section id="hiset" class="panel active" role="tabpanel" aria-hidden="true">
+              <section id="hiset" class="panel" role="tabpanel" aria-hidden="true">
                 {%- include data--ged-hiset-tasc.html data="hiset" title="HiSET" -%}
               </section>
               <section id="tasc" class="panel" role="tabpanel" aria-hidden="true">

@@ -1,46 +1,51 @@
 #section {
 
-  .mdc-card.mdc-card--resource {
+  .mdc-list--thumbnail-list {
+
+    & .mdc-list-item__graphic {
+      margin-left: 0;
+      margin-right: 16px;
+      width: 40px;
+      height: 52px;
+      border-radius: 0%;
+    }
+  }
+
+  .mdc-card > .mdc-card--resource {
     display: flex;
     flex-direction: row;
 
     & .mdc-card__media--letter {
-      flex-basis: 25%;
+      flex-grow: 1;
+      flex-shrink: 10;
+      flex-basis: 10%;
       border-right: 1px solid #e0e0e0;
 
-      & img {
-        width: calc((11 / 8.5) * 100%);
+      &:before {
+        margin-top: calc((11 / 8.5) * 100%); // aspect ratio
       }
     }
 
     & .mdc-card__content--stacked {
-      flex-basis: 75%;
+      flex-grow: 10;
+      flex-shrink: 1;
+      flex-basis: 10%;
       display: flex;
       flex-direction: column;
 
       & .mdc-card__content {
-        flex: 1 1 auto;
-        padding: 1em;
-      }
-    }
-  }
+        position: relative;
+        flex-grow: 1;
+        padding: 1rem;
 
-  .mdc-card:not(.mdc-card--resource) {
+        & i.material-icons {
+          //float: right;
+          //margin-left: 1rem;
+        }
 
-    & .mdc-card__content {
-      padding: 1em;
-    }
-
-    & dl {
-      display: table;
-
-      & dt .material-icons {
-        vertical-align: middle;
-      }
-
-      & dt, dd {
-        display: table-cell;
-        vertical-align: middle;
+        & .mdc-card__content--title {
+          margin-top: 0;
+        }
       }
     }
   }

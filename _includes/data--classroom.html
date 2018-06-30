@@ -23,17 +23,22 @@
 {%- if data.docs -%}
 <article>
   <h2 id="pdf-sources">PDF Sources</h2>
-  <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
+  <nav class="mdc-list mdc-list--two-line mdc-list--thumbnail-list" aria-orientation="vertical">
 
     {%- for doc in data.docs -%}
 
     <a href="{{ doc.url }}" target="_blank" class="mdc-list-item">
-      <img src="/assets/img/thumbnails/{{ doc.cover_image }}" alt="logo" class="mdc-list-item__graphic" />
+      <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
+           src="{{ doc.cover_image | prepend: '/assets/img/thumbnails/' | absolute_url }}" />
       <span class="mdc-list-item__text">{{ doc.category }}
         <span class="mdc-list-item__secondary-text">{{ doc.excerpt }}
         </span>
       </span>
-      {% if doc.badge == true %}<i class="mdc-list-item__meta material-icons">new_releases</i>{% endif %}
+
+      {%- if doc.badge == true -%}
+      <i class="mdc-list-item__meta material-icons">new_releases</i>
+      {%- endif -%}
+
     </a>
 
     {%- endfor -%}
@@ -47,12 +52,13 @@
 {% if page.library %}
 <article>
   <h2 id="library">Library</h2>
-  <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
+  <nav class="mdc-list mdc-list--two-line mdc-list--thumbnail-list" aria-orientation="vertical">
 
     {% for content in page.library %}
 
     <a id="{{ content.category | slugify }}-dialog-activation" href="#{{ content.category | slugify }}-dialog" class="mdc-list-item">
-      <img src="/assets/img/thumbnails/{{ content.cover_image }}" alt="logo" class="mdc-list-item__graphic" />
+      <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
+           src="{{ content.cover_image | prepend: '/assets/img/thumbnails/' | absolute_url }}" />
       <span class="mdc-list-item__text">{{ content.category }}
         <span class="mdc-list-item__secondary-text">{{ content.excerpt }}
         </span>
