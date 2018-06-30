@@ -21,7 +21,7 @@
       - title: "Complete text"
         url: "https://drive.google.com/open?id=0B3qyIxugPt-kd2N0X253Y0hONGc"
     excerpt: ""
-    cover_image: "np-2.jpeg"
+    cover_image: "np-2.jpg"
   -
     category: "Number Power 3"
     chapter: "Algebra"
@@ -29,7 +29,7 @@
       - title: ""
         url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
     excerpt: "Signed Numbers, Powers and Roots, Algebraic Expressions and Formulas, One-Step Equations, Multi-Step Equations, Special Equations, Graphing Equations, Inequalities, Polynomials, and Factoring"
-    cover_image: "np-3.jpeg"
+    cover_image: "np-3.jpg"
     badge: true
   -
     category: "Number Power 4"
@@ -38,7 +38,7 @@
       - title: ""
         url: "https://drive.google.com/open?id=0B3qyIxugPt-ka1NXS1ZSYi1RRlU"
     excerpt: "Angles, Triangles, Perimeter, Area, and Volume"
-    cover_image: "np-4.jpeg"
+    cover_image: "np-4.jpg"
   -
     category: "Sixth-Grade Math Minutes"
     chapter: "One Hundred Minutes to Better Basic Skills"
@@ -165,4 +165,4 @@
       - title: ""
         url: "https://drive.google.com/open?id=0B3qyIxugPt-kOFVCOXN4WHJwYms"
     excerpt: "The purpose of Daily Grams: Guided Review Aiding Mastery Skills - Junior High/Senior High is to provide students with daily review of their language. Review of concepts helps to promote mastery learning."
-    cover_image: "daily-grams-2014.png"
+    cover_image: "daily-grams.jpg"
