@@ -1,9 +1,13 @@
 - subject: Mathematics
   title: Reasoning through Mathematics
-  time: 115 minutes long and is one single section
+  time:
+    - primary: "115 minutes"
+      secondary: "Short break between parts"
   format:
-    - "Part 1: First 5 test questions, calculator not allowed"
-    - "Part 2: Remaining 41 test questions, calculator allowed"
+    - primary: "Part 1: Computation, 5 questions (Calculator not allowed)"
+      secondary: "Multiple choice and other question types"
+    - primary: "Part 2: Applied, 41 questions (Calculator allowed)"
+      secondary: "Multiple choice and other question types"
   testing_url: "https://ged.com/"
   test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
@@ -27,12 +31,16 @@
 
 - subject: Reading
   title: Reasoning through Language Arts
-  time: 150 minutes long and testing is broken down into three sections
+  time:
+    - primary: "150 minutes"
+      secondary: "Short break between part 2 and part 3"
   format:
-    - "Section 1: 35 minutes, tests all content"
-    - "Section 2: 45 minutes, Extended Response"
-    - "Break: 10 minutes"
-    - "Section 3: 60 minutes, tests all content"
+    - primary: "Section 1: Reading, 35 minutes (Apx. 15 questions)"
+      secondary: "Multiple choice and other question types"
+    - primary: "Section 2: Writing, 45 minutes"
+      secondary: "Extended Response"
+    - primary: "Section 3: Reading, 60 minutes (Apx. 30 questions)"
+      secondary: "Multiple choice and other question types"
   testing_url: "https://ged.com/"
   test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
@@ -78,10 +86,12 @@
 
 - subject: Science
   title: Science
-  time: 90 minutes long and is one single section
+  time:
+    - primary: "90 minutes"
+      secondary: "No breaks"
   format:
-    - 34 questions
-    - There are two Short Answer questions included on the test, but they are not timed separately
+    - primary: "34 questions"
+      secondary: "Multiple choice and other question types"
   testing_url: "https://ged.com/"
   test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
@@ -105,8 +115,12 @@
 
 - subject: Social Studies
   title: Social Studies
-  time: 70 minutes long and is one single section
-  format: 35 questions
+  time:
+    - primary: "70 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "35 questions"
+      secondary: "Multiple choice and other question types"
   testing_url: "https://ged.com/"
   test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:
@@ -129,12 +143,16 @@
 
 - subject: Writing
   title: Reasoning through Language Arts
-  time: 150 minutes long and testing is broken down into three sections
+  time:
+    - primary: "150 minutes"
+      secondary: "Short break between part 2 and part 3"
   format:
-    - "Section 1: 35 minutes, tests all content"
-    - "Section 2: 45 minutes, Extended Response"
-    - "Break: 10 minutes"
-    - "Section 3: 60 minutes, tests all content"
+    - primary: "Section 1: Reading, 35 minutes (Apx. 15 questions)"
+      secondary: "Multiple choice and other question types"
+    - primary: "Section 2: Writing, 45 minutes"
+      secondary: "Extended Response"
+    - primary: "Section 3: Reading, 60 minutes (Apx. 30 questions)"
+      secondary: "Multiple choice and other question types"
   testing_url: "https://ged.com/"
   test_center: "https://wsr.pearsonvue.com/testtaker/find/testcenter/GEDTS?locale=en_US"
   cbt:

@@ -1,7 +1,11 @@
 - subject: Mathematics
   title: Mathematics
-  time: 90 minutes
-  format: 50 questions, multiple-choice
+  time:
+    - primary: "90 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "55 questions (Calculator allowed)"
+      secondary: "Multiple choice questions"
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
@@ -56,8 +60,12 @@
 
 - subject: Reading
   title: "Language Arts: Reading"
-  time: 65 minutes
-  format: 40 questions, multiple-choice
+  time:
+    - primary: "65 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "50 questions"
+      secondary: "Multiple choice questions"
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
@@ -106,8 +114,12 @@
 
 - subject: Science
   title: Science
-  time: 80 minutes
-  format: 50 questions, multiple-choice
+  time:
+    - primary: "80 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "60 questions"
+      secondary: "Multiple choice questions"
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
@@ -151,8 +163,12 @@
 
 - subject: Social Studies
   title: Social Studies
-  time: 70 minutes
-  format: 50 questions, multiple-choice
+  time:
+    - primary: "70 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "60 questions"
+      secondary: "Multiple choice questions"
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
@@ -196,10 +212,14 @@
 
 - subject: Writing
   title: "Language Arts: Writing"
-  time: 120 minutes
+  time:
+    - primary: "120 minutes"
+      secondary: "No breaks"
   format:
-    - "Part 1: 50 questions, multiple-choice"
-    - "Part 2: 1 essay prompt"
+    - primary: "Part 1: Grammar, 60 quesitons"
+      secondary: "Multiple choice questions"
+    - primary: "Part 2: Writing"
+      secondary: "1 Essay question"
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:

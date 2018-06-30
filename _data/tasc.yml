@@ -1,10 +1,13 @@
 - subject: Mathematics
   title: Mathematics
-  time: 105 minutes
+  time:
+    - primary: "105 minutes"
+      secondary: "Short break between parts"
   format:
-    - "Part 1: 55 minutes, 40 questions, multiple-choice"
-    - "Break: 15 minutes"
-    - "Part 2: 50 minutes, 12 questions, gridded-response"
+    - primary: "Part 1: 55 minutes, 40 questions (Calculator allowed)"
+      secondary: "Multiple choice questions"
+    - primary: "Part 2: 50 minutes, 12 questions (Calculator not allowed)"
+      secondary: "Gridded response questions"
   testing_url: "https://colorado.tasctest.com/"
   test_center: "https://colorado.tasctest.com/"
   cbt:
@@ -34,8 +37,12 @@
 
 - subject: Reading
   title: "Language Arts: Reading"
-  time: 75 minutes
-  format: 50 questions, multiple-choice
+  time:
+    - primary: "85 minutes"
+      secondary: "No breaks"
+  format:
+    - primary: "50 questions"
+      secondary: "Multiple choice questions"
   testing_url: "https://colorado.tasctest.com/"
   test_center: "https://colorado.tasctest.com/"
   cbt:
@@ -60,10 +67,14 @@
 
 - subject: Science
   title: Science
-  time: 85 minutes
+  time:
+    - primary: "75 minutes"
+      secondary: "No breaks"
   format:
-    - 47 questions, multiple-choice
-    - 8 questions, stimuli
+    - primary: "47 questions"
+      secondary: "Multiple choice quesitons"
+    - primary: "8 questions"
+      secondary: "Stimulus based questions"
   testing_url: "https://colorado.tasctest.com/"
   test_center: "https://colorado.tasctest.com/"
   cbt:
@@ -88,10 +99,13 @@
 
 - subject: Social Studies
   title: Social Studies
-  time: 75 minutes
+  time:
+    - primary: "75 minutes"
   format:
-    - 47 questions, multiple-choice
-    - 8 questions, stimuli
+    - primary: "47 questions"
+      secondary: "Multiple choice quesitons"
+    - primary: "8 questions"
+      secondary: "Stimulus based questions"
   testing_url: "https://colorado.tasctest.com/"
   test_center: "https://colorado.tasctest.com/"
   cbt:
@@ -116,10 +130,14 @@
 
 - subject: Writing
   title: "Language Arts: Writing"
-  time: 105 minutes
+  time:
+    - primary: "110 minutes"
+      secondary: "Short break between parts"
   format:
-    - "Part 1: 55 minutes, 50 questions, multiple-choice"
-    - "Part 2: 50 minutes, 1 essay prompt"
+    - primary: "Part 1: 55 minutes, 50 questions"
+      secondary: "Multiple choice quesitons"
+    - primary: "Part 2: 50 minutes"
+      secondary: "1 essay prompt"
   testing_url: "https://colorado.tasctest.com/"
   test_center: "https://colorado.tasctest.com/"
   cbt:
