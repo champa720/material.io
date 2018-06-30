@@ -28,6 +28,10 @@ nav.mdc-drawer.mdc-drawer--permanent {
     display: flex;
     flex: 1 1 auto;
 
+    & .mdc-list-item__graphic {
+      margin-right: 0; // clears margin for text
+    }
+
     & button {
       background: none;
       border: none;
