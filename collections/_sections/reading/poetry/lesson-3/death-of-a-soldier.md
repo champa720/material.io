@@ -8,7 +8,7 @@ chapter: 3
 section: 3.4
 tag: Figurative Language
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 Life contracts and death is expected, \\

@@ -8,7 +8,7 @@ chapter: 3
 section: 3.6
 tag: Figurative Language
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 Even as I hold you \\

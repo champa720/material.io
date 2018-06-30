@@ -8,7 +8,7 @@ chapter: 3
 section: 3.2
 tag: Figurative Language
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 maggie and milly and molly and may \\

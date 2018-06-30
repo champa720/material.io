@@ -8,7 +8,7 @@ chapter: 2
 section: 2.3
 tag: Imagery
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 I wandered lonely as a cloud \\

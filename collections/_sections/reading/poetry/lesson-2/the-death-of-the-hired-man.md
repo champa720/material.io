@@ -8,7 +8,7 @@ chapter: 2
 section: 2.7
 tag: Imagery
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 Mary sat musing on the lamp-flame at the table \\

@@ -8,7 +8,7 @@ chapter: 3
 section: 3.5
 tag: Figurative Language
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 Papa's got a job in a miracle-factory \\

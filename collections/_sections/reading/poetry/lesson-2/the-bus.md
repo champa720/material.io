@@ -8,7 +8,7 @@ chapter: 2
 section: 2.5
 tag: Imagery
 
-cover_image: "poetry.jpg"
+cover_image: "default.jpg"
 
 ---
 I was the last passenger of the day, \\

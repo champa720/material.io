@@ -21,7 +21,7 @@ library:
   excerpt: ""
 -
   category: "Poetry"
-  cover_image: "poetry.jpg"
+  cover_image: "default.jpg"
   excerpt: ""
 -
   category: "Project Based"
