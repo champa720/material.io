@@ -3,6 +3,7 @@ nav.mdc-drawer.mdc-drawer--permanent {
   top: 0;
   bottom: 0;
   width: 56px;
+  z-index: 2;
 
   &#mathematics {
     background-color: #FF9E80; // Deep Orange A100
