@@ -66,6 +66,11 @@
           {{ cbt.excerpt }}
         </span>
       </span>
+
+      {%- if cbt.badge == true -%}
+      <i class="mdc-list-item__meta material-icons" aria-hidden="true">new_releases</i>
+      {%- endif -%}
+
     </a>
     {%- endfor -%}
 
