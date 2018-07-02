@@ -1,5 +1,5 @@
-- subject: Mathematics
-  title: Mathematics
+- subject: "Mathematics"
+  title: "Mathematics"
   time:
     - primary: "90 minutes"
       secondary: "No breaks"
@@ -9,56 +9,68 @@
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
-    - category: ETS HiSET Test Preparation
-      excerpt: Interactive Practice Tests
-      avatar: hiset_avatar.jpg
+    -
+      category: "ETS HiSET Test Preparation"
+      excerpt: "Interactive Practice Tests"
+      avatar: "@HiSET_ETS.jpg"
       url: "http://www.ets-cls.org/hiset/"
-    - category: Learning Express Library
-      excerpt: Mathematics Practice Tests
-      avatar: learning_library_avatar.jpg
-      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/mathematics-practice/hiset-mathematics-practice-questions"
+      badge: true
+    -
+      category: "Learning Express Library"
+      excerpt: "High School Equivalency Center"
+      avatar: "@EBSCO.jpg"
+      url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      badge: true
   docs:
-    - category: FPT7
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
-      cover_image: hiset/math_fpt7.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT7"
+      excerpt: "Released in September 2017"
+      cover_image: "hiset/math_fpt7.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/math_fpt7.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fpt7_es.pdf"
       badge: true
-    - category: FPT6A
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
-      cover_image: hiset/math_fpt6a.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT6A"
+      excerpt: "Released in September 2016"
+      cover_image: "hiset/math_fpt6a.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/math_fpt6a.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fpt6a_es.pdf"
       badge: true
-    - category: FPT3
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
-      cover_image: hiset/math_fp3.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT3"
+      excerpt: "Released in September 2015"
+      cover_image: "hiset/math_fp3.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/math_fp3.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp3_es.pdf"
-    - category: FPT2
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
-      cover_image: hiset/math_fp2.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT2"
+      excerpt: "Released in 2015"
+      cover_image: "hiset/math_fp2.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/math_fp2.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/math_fp2_es.pdf"
-    - category: Formula Sheet
+    -
+      category: "Formula Sheet"
       excerpt:
-      cover_image: hiset/formula_sheet_hiset.jpg
+      cover_image: "hiset/formula_sheet_hiset.jpg"
       url_english: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/mathematics_formula_sheet_es.pdf"
       badge: true
-    - category: Answer Sheet
-      excerpt: Practice Test Answer Sheet Mathematics
-      cover_image: hiset/answer_sheet_mathematics.jpg
+    -
+      category: "Practice Test Answer Sheet"
+      excerpt: "Mathematics"
+      cover_image: "hiset/answer_sheet_mathematics.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_math_es.pdf"
-    - category: Are You Ready to Take the HiSET® Exam?
-      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
-      cover_image: hiset/practice_test_results.jpg
+    -
+      category: "Are You Ready to Take the HiSET® Exam?"
+      excerpt: "You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: "hiset/practice_test_results.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
 
-- subject: Reading
+- subject: "Reading"
   title: "Language Arts: Reading"
   time:
     - primary: "65 minutes"
@@ -69,51 +81,62 @@
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
-    - category: ETS HiSET Test Preparation
-      excerpt: Interactive Practice Tests
-      avatar: hiset_avatar.jpg
+    -
+      category: "ETS HiSET Test Preparation"
+      excerpt: "Interactive Practice Tests"
+      avatar: "@HiSET_ETS.jpg"
       url: "http://www.ets-cls.org/hiset/"
-    - category: Learning Express Library
-      excerpt: Language Arts, Reading Practice Tests
-      avatar: learning_library_avatar.jpg
-      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-reading-practice-questions"
+      badge: true
+    -
+      category: "Learning Express Library"
+      excerpt: "High School Equivalency Center"
+      avatar: "@EBSCO.jpg"
+      url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      badge: true
   docs:
-    - category: FPT7
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
-      cover_image: hiset/reading_fpt7.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT7"
+      excerpt: "Released in September 2017"
+      cover_image: "hiset/reading_fpt7.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/reading_fpt7.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fpt7_es.pdf"
       badge: true
-    - category: FPT6A
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
-      cover_image: hiset/reading_fpt6a.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT6A"
+      excerpt: "Released in September 2016"
+      cover_image: "hiset/reading_fpt6a.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fpt6a_es.pdf"
       badge: true
-    - category: FPT3
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
-      cover_image: hiset/reading_fp3.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT3"
+      excerpt: "Released in September 2015"
+      cover_image: "hiset/reading_fp3.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp3.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp3_es.pdf"
-    - category: FPT2
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
-      cover_image: hiset/reading_fp2.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT2"
+      excerpt: "Released in 2015"
+      cover_image: "hiset/reading_fp2.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/reading_fp2.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/reading_fp2_es.pdf"
-    - category: Answer Sheet
-      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
-      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+    -
+      category: "Practice Test Answer Sheet"
+      excerpt: "Reading, Science, and Social Studies"
+      cover_image: "hiset/answer_sheet_reading_science_social_studies.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
-    - category: Are You Ready to Take the HiSET® Exam?
-      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
-      cover_image: hiset/practice_test_results.jpg
+    -
+      category: "Are You Ready to Take the HiSET® Exam?"
+      excerpt: "You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: "hiset/practice_test_results.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
 
-- subject: Science
-  title: Science
+- subject: "Science"
+  title: "Science"
   time:
     - primary: "80 minutes"
       secondary: "No breaks"
@@ -123,46 +146,56 @@
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
-    - category: ETS HiSET Test Preparation
+    -
+      category: ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
-      avatar: hiset_avatar.jpg
+      avatar: "@HiSET_ETS.jpg"
       url: "http://www.ets-cls.org/hiset/"
-    - category: Learning Express Library
-      excerpt: Science Practice Tests
-      avatar: learning_library_avatar.jpg
-      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/science-practice/hiset-science-practice-questions"
+      badge: true
+    -
+      category: "Learning Express Library"
+      excerpt: "High School Equivalency Center"
+      avatar: "@EBSCO.jpg"
+      url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      badge: true
   docs:
-    - category: FPT7
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
-      cover_image: hiset/science_fpt7.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT7"
+      excerpt: "Released in September 2017"
+      cover_image: "hiset/science_fpt7.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/science_fpt7.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fpt7_es.pdf"
       badge: true
-    - category: FPT6A
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
-      cover_image: hiset/science_fpt6a.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT6A"
+      excerpt: "Released in September 2016"
+      cover_image: "hiset/science_fpt6a.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/science_fpt6a.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fpt6a_es.pdf"
       badge: true
-    - category: FPT2
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
-      cover_image: hiset/science_fp2.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT2"
+      excerpt: "Released in 2015"
+      cover_image: "hiset/science_fp2.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/science_fp2.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/science_fp2_es.pdf"
-    - category: Answer Sheet
-      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
-      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+    -
+      category: "Practice Test Answer Sheet"
+      excerpt: "Reading, Science, and Social Studies"
+      cover_image: "hiset/answer_sheet_reading_science_social_studies.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
-    - category: Are You Ready to Take the HiSET® Exam?
-      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
-      cover_image: hiset/practice_test_results.jpg
+    -
+      category: "Are You Ready to Take the HiSET® Exam?"
+      excerpt: "You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: "hiset/practice_test_results.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
 
-- subject: Social Studies
-  title: Social Studies
+- subject: "Social Studies"
+  title: "Social Studies"
   time:
     - primary: "70 minutes"
       secondary: "No breaks"
@@ -172,40 +205,50 @@
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
-    - category:  ETS HiSET Test Preparation
+    -
+      category:  ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
-      avatar: hiset_avatar.jpg
+      avatar: "@HiSET_ETS.jpg"
       url: "http://www.ets-cls.org/hiset/"
-    - category: Learning Express Library
-      excerpt: Social Studies Practice Tests
-      avatar: learning_library_avatar.jpg
-      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/social-studies-practice/hiset-social-studies-practice-questions"
+      badge: true
+    -
+      category: "Learning Express Library"
+      excerpt: "High School Equivalency Center"
+      avatar: "@EBSCO.jpg"
+      url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      badge: true
   docs:
-    - category: FPT7
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
-      cover_image: hiset/social_studies_fpt7.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT7"
+      excerpt: "Released in September 2017"
+      cover_image: "hiset/social_studies_fpt7.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt7.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt7_es.pdf"
       badge: true
-    - category: FPT6A
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
-      cover_image: hiset/social_studies_fpt6a.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT6A"
+      excerpt: "Released in September 2016"
+      cover_image: "hiset/social_studies_fpt6a.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fpt6a_es.pdf"
       badge: true
-    - category: FPT2
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
-      cover_image: hiset/social_studies_fp2.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT2"
+      excerpt: "Released in 2015"
+      cover_image: "hiset/social_studies_fp2.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/social_studies_fp2_es.pdf"
-    - category: Answer Sheet
-      excerpt: Practice Test Answer Sheet Reading, Science, and Social Studies
-      cover_image: hiset/answer_sheet_reading_science_social_studies.jpg
+    -
+      category: "Practice Test Answer Sheet"
+      excerpt: "Reading, Science, and Social Studies"
+      cover_image: "hiset/answer_sheet_reading_science_social_studies.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_ss_science_reading_es.pdf"
-    - category: Are You Ready to Take the HiSET® Exam?
-      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
-      cover_image: hiset/practice_test_results.jpg
+    -
+      category: "Are You Ready to Take the HiSET® Exam?"
+      excerpt: "You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: "hiset/practice_test_results.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
@@ -223,45 +266,56 @@
   testing_url: "https://hiset.ets.org/myhiset"
   test_center: "https://ereg.ets.org/ereg/public/testcenter/search?_p=HSE"
   cbt:
-    - category:  ETS HiSET Test Preparation
+    -
+      category:  ETS HiSET Test Preparation
       excerpt: Interactive Practice Tests
-      avatar: hiset_avatar.jpg
+      avatar: "@HiSET_ETS.jpg"
       url: "http://www.ets-cls.org/hiset/"
-    - category: Learning Express Library
-      excerpt: Language Arts, Writing Practice Tests
-      avatar: learning_library_avatar.jpg
-      url: "http://www.learningexpresshub.com/productengine/LELIndex.html#/hsequivalencycenter/resources/prepare-for-the-hiset/language-arts-practice/hiset-language-arts-writing-practice-questions"
+      badge: true
+    -
+      category: "Learning Express Library"
+      excerpt: "High School Equivalency Center"
+      avatar: "@EBSCO.jpg"
+      url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+      badge: true
   docs:
-    - category: FPT7
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2017
-      cover_image: hiset/writing_fpt7.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT7"
+      excerpt: "Released in September 2017"
+      cover_image: "hiset/writing_fpt7.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/writing_fpt7.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fpt7_es.pdf"
       badge: true
-    - category: FPT6A
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2016
-      cover_image: hiset/writing_fpt6a.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT6A"
+      excerpt: "Released in September 2016"
+      cover_image: "hiset/writing_fpt6a.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fpt6a_es.pdf"
       badge: true
-    - category: FPT3
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in September 2015
-      cover_image: hiset/writing_fp3.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT3"
+      excerpt: "Released in September 2015"
+      cover_image: "hiset/writing_fp3.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp3.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp3_es.pdf"
-    - category: FPT2
-      excerpt: HiSET® Exam Free Practice Test <br /> Released in 2015
-      cover_image: hiset/writing_fp2.jpg
+    -
+      category: "HiSET® Exam Free Practice Test - FPT2"
+      excerpt: "Released in 2015"
+      cover_image: "hiset/writing_fp2.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice/writing_fp2.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice/writing_fp2_es.pdf"
-    - category: Answer Sheet
-      excerpt: Practice Test Answer Sheet Writing
-      cover_image: hiset/answer_sheet_writing.jpg
-      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing_es.pdf"
-      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing.pdf"
-    - category: Are You Ready to Take the HiSET® Exam?
-      excerpt: "Preparation is the key to doing your best on the HiSET® exam. You can estimate how well prepared you are for the actual test using the chart below."
-      cover_image: hiset/practice_test_results.jpg
+    -
+      category: "Answer Sheet"
+      excerpt: "Writing"
+      cover_image: "hiset/answer_sheet_writing.jpg"
+      url_english: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing.pdf"
+      url_spanish: "https://hiset.ets.org/s/pdf/practice_exam_answer_sheet_blank_writing_es.pdf"
+    -
+      category: "Are You Ready to Take the HiSET® Exam?"
+      excerpt: "You can estimate how well prepared you are for the actual test using the chart below."
+      cover_image: "hiset/practice_test_results.jpg"
       url_english: "https://hiset.ets.org/s/pdf/practice_test_results.pdf"
       url_spanish: "https://hiset.ets.org/s/pdf/practice_test_results_es.pdf"
       badge: true
