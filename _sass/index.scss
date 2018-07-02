@@ -1,5 +1,5 @@
-#section {
-  
+#index {
+
   [hidden] {
     display: none;
   }
@@ -15,6 +15,15 @@
     }
   }
 
+  // tablet
+  @media (max-width: 839px) and (min-width: 480px) {
+
+    .mdc-card__action-buttons > .mdc-card__action--button:not(:first-child)  {
+      display: none;
+    }
+  }
+
+  // testing custom card
   .mdc-card > .mdc-card--resource {
     display: flex;
     flex-direction: row;

@@ -44,7 +44,7 @@
   outline: none
 }
 
-.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+.markdown-body p, .markdown-body blockquote, .markdown-body ul:not(.mdc-list), .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
   margin-top: 0;
   margin-bottom: 1em
 }
@@ -136,7 +136,7 @@
   color: #6a737d
 }
 
-.markdown-body ul, .markdown-body ol {
+.markdown-body ul:not(.mdc-list), .markdown-body ol:not(.mdc-list) {
   padding-left: 2em
 }
 
@@ -150,7 +150,7 @@
   margin-bottom: 0
 }
 
-.markdown-body li {
+.markdown-body li:not(.mdc-list-item) {
   word-wrap: break-all
 }
 
@@ -180,7 +180,7 @@
 }
 
 .markdown-body table {
-  display: block;
+  table-layout: fixed;
   width: 100%;
   overflow: auto
 }
