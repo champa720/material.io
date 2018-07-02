@@ -1,0 +1,63 @@
+<button id="dialog-activation"
+				class="mdc-button mdc-button--raised">Show Dialog</button>
+
+<aside id="dialog-default"
+  class="mdc-dialog"
+  role="alertdialog"
+  aria-labelledby="my-mdc-dialog-label"
+  aria-describedby="my-mdc-dialog-description" data-mdc-auto-init="MDCDialog">
+  <div class="mdc-dialog__surface">
+    <header class="mdc-dialog__header">
+      <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+        Password protected resource
+      </h2>
+    </header>
+    <div class="mdc-text-field mdc-text-field--outlined" data-mdc-auto-init="MDCTextField">
+			<input type="text" id="textField" class="mdc-text-field__input" onkeyup="myFunction()">
+			<label for="tf-outlined" class="mdc-floating-label">Enter password</label>
+			<div class="mdc-notched-outline">
+				<svg>
+					<path class="mdc-notched-outline__path"/>
+				</svg>
+			</div>
+			<div class="mdc-notched-outline__idle"></div>
+		</div>
+    <footer class="mdc-dialog__footer">
+      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Close</button>
+      <button id="passbtn" type="button" class="mdc-button mdc-button--raised mdc-dialog__footer__button mdc-dialog__footer__button--accept" disabled>Accept</button>
+    </footer>
+  </div>
+  <div class="mdc-dialog__backdrop"></div>
+</aside>
+
+<script>
+  window.mdc.autoInit();
+
+  function myFunction() {
+  	if (document.getElementById("textField").value == "a") {
+  		document.getElementById("passbtn").removeAttribute('disabled');
+  	} else {
+  		// in case it was enabled and the user changed their mind
+  		document.getElementById("passbtn").disabled = true;
+  	}
+  }
+
+  var dialog = new mdc.dialog.MDCDialog(
+  	document.querySelector("#dialog-default")
+  );
+
+  dialog.listen("MDCDialog:accept", function() {
+  	console.log("accepted");
+  });
+
+  dialog.listen("MDCDialog:cancel", function() {
+  	console.log("canceled");
+  });
+
+  document
+  	.querySelector("#dialog-activation")
+  	.addEventListener("click", function(evt) {
+  		dialog.lastFocusedTarget = evt.target;
+  		dialog.show();
+  	});
+</script>
