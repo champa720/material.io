@@ -37,7 +37,7 @@ Given these priorities, the GED® RLA Test adheres to the following parameters:
   * Roughly 80 percent of the items are written to a Depth of Knowledge cognitive complexity level 2 or higher.
   * Reading and writing standards, such as those found in the Career and College Ready Standards, will also be measured in the GED® Science Test.
 
-#### Reading Comprehensin on the GED® RLA Test
+#### Reading Comprehension on the GED® RLA Test
 
 The reading comprehension component of the GED® RLA Test is intended to measure two overarching reading standards that appear in the Career and College Ready Standards as Anchor Reading Standards 1 and 10, respectively:
 

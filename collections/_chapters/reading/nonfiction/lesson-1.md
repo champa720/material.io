@@ -26,7 +26,7 @@ The position, or **central claim**, is the writer's point of view about what rea
 
 To identify claims, look for debatable subjects, or ones that give rise to different points of view. Then, ask yourself, **"What does the writer want me to believe or do about this subject?"**
 
-> A claim is not the same as an opinion. An **opinion** is a personal judgement that cannot be proven true. It is someone's personal preference, or taste. In contrast a **claim**, can be proven true or likely to be true based on available evidence
+> A claim is not the same as an opinion. An **opinion** is a personal judgment that cannot be proven true. It is someone's personal preference, or taste. In contrast a **claim**, can be proven true or likely to be true based on available evidence
 
 | Opinion | Claim |
 |:-|:-|
