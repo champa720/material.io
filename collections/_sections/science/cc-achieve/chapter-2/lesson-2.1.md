@@ -58,7 +58,7 @@ The patterns of temperature and precipitation throughout the year are the most i
 
 Latitude, or distance from the equator, has an influence on the temperature and precipitation of a region. Regions close to the equator or the poles have more extreme conditions than those between the two While warm temperatures and large amounts of precipitation are characteristic near the equator, cold temperatures and low amounts of precipitation are characteristic of climates at the poles. Regions at higher altitudes, or distance above sea level, also have a colder and drier climate than those at lower altitudes.
 
-Large bodies of water, including the ocean and large lakes, also have an effect on climate_ The climate near water is warmer and wetter than mland climates_ Mountain ranges near the coast also affect climate. The climate between the ocean and the mountain will be warmer and wetter, while the climate beyond the mountain will be hotter and drier. These factors influence the communities that develop in a particular region.
+Large bodies of water, including the ocean and large lakes, also have an effect on climate_ The climate near water is warmer and wetter than mainland climates_ Mountain ranges near the coast also affect climate. The climate between the ocean and the mountain will be warmer and wetter, while the climate beyond the mountain will be hotter and drier. These factors influence the communities that develop in a particular region.
 
 ### Land Biomes
 

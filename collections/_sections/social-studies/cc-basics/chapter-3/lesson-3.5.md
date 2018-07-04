@@ -43,7 +43,7 @@ In 2007, costs were continuing to rise and the war was becoming increasingly unp
 
 ## The Election of 2008
 
-In 2008, many Americans were angry about the continuing war in Iraq and discouraged by the decline in the economy. The 2008 election featured two firsts: an African American man (Senator Barack Obama) and a woman (Senator Hillary Clinton) were serious contenders for the Democratic nomination. After a long primary season, Obama won the Democrat ic nomination for presidency. He ran against Republican Senator John McCain.
+In 2008, many Americans were angry about the continuing war in Iraq and discouraged by the decline in the economy. The 2008 election featured two firsts: an African American man (Senator Barack Obama) and a woman (Senator Hillary Clinton) were serious contenders for the Democratic nomination. After a long primary season, Obama won the Democratic nomination for presidency. He ran against Republican Senator John McCain.
 
 ### Barack Obama, 2009-2016
 

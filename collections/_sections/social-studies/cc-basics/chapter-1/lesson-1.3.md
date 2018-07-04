@@ -1,5 +1,5 @@
 ---
-title: The Executuve, Legislative, and Judicial Branches of Government
+title: The Executive, Legislative, and Judicial Branches of Government
 author: McGraw-Hill Education
 
 subject: Social Studies

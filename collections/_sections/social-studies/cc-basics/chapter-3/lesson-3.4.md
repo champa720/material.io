@@ -23,7 +23,7 @@ Before the 1972 election, Nixon and his staff were worried about Nixon's chances
 
 After his re-election, a Senate committee continued to investigate the break-in. Information came out proving that Nixon had ordered a cover up. He had also told the Central Intelligence Agency (CIA) to stop their investigation of the break-in. Facing impeachment, Nixon resigned on  August 9, 1974.
 
-Inflation and the Energy Crisis New federal government programs of the 1960s put large amounts of money into the economy. This led to inflation, which is a rise in the cost of goods and services. Energy costs were also rising. The United States depended on cheap oil imports, goods brought from a foreign count ry. A war in the Middle East caused oil prices to rise quickly. At one point, the Organization of Petroleum Exporting Countries (OPEC) stopped shipping fuel to the United States. When shipping resumed, prices continued to rise.
+Inflation and the Energy Crisis New federal government programs of the 1960s put large amounts of money into the economy. This led to inflation, which is a rise in the cost of goods and services. Energy costs were also rising. The United States depended on cheap oil imports, goods brought from a foreign country. A war in the Middle East caused oil prices to rise quickly. At one point, the Organization of Petroleum Exporting Countries (OPEC) stopped shipping fuel to the United States. When shipping resumed, prices continued to rise.
 
 ### Conservation and Alternative Energy
 
