@@ -146,6 +146,13 @@
     avatar: "@PerspecsNews.jpg"
     url: "http://www.perspecsnews.com/"
     badge: true
+  -
+    category: "ReadTheory"
+    chapter:
+    excerpt: "ReadTheory is a powerful educational tool created to improve reading comprehension for all ages and ability levels."
+    avatar: "@ReadTheory.png"
+    url: "https://readtheory.org/"
+    badge: true
 
 - subject: Science
   cbt:
