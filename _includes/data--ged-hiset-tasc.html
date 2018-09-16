@@ -15,10 +15,8 @@
 
         {%- for data in data.time -%}
         <span class="mdc-list-item__text">
-          {{ data.primary }}
-          <span class="mdc-list-item__secondary-text">
-            {{ data.secondary }}
-          </span>
+          <span class="mdc-list-item__primary-text">{{ data.primary }}</span>
+          <span class="mdc-list-item__secondary-text">{{ data.secondary }}</span>
         </span>
         {%- endfor -%}
 
@@ -30,10 +28,8 @@
           {%- if forloop.first -%} assignment {%- endif -%}
         </i>
         <span class="mdc-list-item__text">
-          {{ data.primary }}
-          <span class="mdc-list-item__secondary-text">
-            {{ data.secondary }}
-          </span>
+          <span class="mdc-list-item__primary-text">{{ data.primary }}</span>
+          <span class="mdc-list-item__secondary-text">{{ data.secondary }}</span>
         </span>
       </li>
       {%- endfor -%}
@@ -41,9 +37,9 @@
     </ul>
     <div class="mdc-card__actions">
       <div class="mdc-card__action-buttons">
-        <a href="{{ data.testing_url }}"  target="_blank" rel="noopener"
+        <a href="{{ data.testing_url }}" target="_blank" rel="noopener"
            class="mdc-button mdc-card__action mdc-card__action--button">{{ data.testing_url }}</a>
-        <a href="{{ data.test_center }}"  target="_blank" rel="noopener"
+        <a href="{{ data.test_center }}" target="_blank" rel="noopener"
            class="mdc-button mdc-card__action mdc-card__action--button">Locate a Testing Center</a>
       </div>
     </div>
@@ -57,14 +53,12 @@
   <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
 
     {%- for cbt in data.cbt -%}
-    <a href="{{ cbt.url }}"  target="_blank" rel="noopener" class="mdc-list-item">
+    <a href="{{ cbt.url }}" target="_blank" rel="noopener" class="mdc-list-item">
       <img class="mdc-list-item__graphic" alt="logo" aria-hidden="true"
            src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
       <span class="mdc-list-item__text">
-        {{ cbt.category }}
-        <span class="mdc-list-item__secondary-text">
-          {{ cbt.excerpt }}
-        </span>
+        <span class="mdc-list-item__primary-text">{{ cbt.category }}</span>
+        <span class="mdc-list-item__secondary-text">{{ cbt.excerpt }}</span>
       </span>
 
       {%- if cbt.badge == true -%}
@@ -83,14 +77,12 @@
   <nav class="mdc-list mdc-list--two-line mdc-list--thumbnail-list" aria-orientation="vertical">
 
     {%- for doc in data.docs -%}
-    <a href="{{ doc.url_english }}"  target="_blank" rel="noopener" class="mdc-list-item">
+    <a href="{{ doc.url_english }}" target="_blank" rel="noopener" class="mdc-list-item">
       <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
            src="{{ doc.cover_image | prepend: 'assets/img/thumbnails/' | relative_url }}" />
       <span class="mdc-list-item__text">
-        {{ doc.category }}
-        <span class="mdc-list-item__secondary-text">
-          {{ doc.excerpt }}
-        </span>
+        <span class="mdc-list-item__primary-text">{{ doc.category }}</span>
+        <span class="mdc-list-item__secondary-text">{{ doc.excerpt }}</span>
       </span>
 
       {%- if doc.badge == true -%}
@@ -104,9 +96,9 @@
     <hr class="mdc-list-divider">
     <div class="mdc-card__actions">
       <div class="mdc-card__action-buttons">
-        <a href="{{ doc.url_english }}"  target="_blank" rel="noopener"
+        <a href="{{ doc.url_english }}" target="_blank" rel="noopener"
            class="mdc-button mdc-card__action mdc-card__action--button">English</a>
-        <a href="{{ doc.url_spanish }}"  target="_blank" rel="noopener"
+        <a href="{{ doc.url_spanish }}" target="_blank" rel="noopener"
            class="mdc-button mdc-card__action mdc-card__action--button">EspaÑol</a>
       </div>
     </div>
