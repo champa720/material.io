@@ -1,5 +1,5 @@
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/anchor-js@latest/anchor.min.js"></script>
 <script>
   anchors.add();
 
@@ -10,26 +10,8 @@
   //  drawer.open = !drawer.open;
   //});
 
-  var body = document.querySelector(".markdown-body");
 
-  function changeFontSize(resize) {
-    var computedFontSize = window.getComputedStyle(body).fontSize;
-    var fontSize = parseInt(computedFontSize,10);
-    body.style.fontSize = (fontSize + resize) + 'px';
-  }
-
-  document.querySelector('#zoom_in').addEventListener('click', function() {
-    changeFontSize(+1);
-  });
-
-  document.querySelector('#zoom_out').addEventListener('click', function() {
-    changeFontSize(-1);
-  });
 </script>
-
-{%- if page.category == "index" -%}
-  {%- include javascript/mdc-tabs.js -%}
-{%- endif -%}
 
 {%- if page.mathjax == true -%}
   {%- include javascript/katex.js -%}
