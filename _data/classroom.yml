@@ -51,6 +51,14 @@
     avatar: "@EBSCO.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
+  -
+    category: "PhotoMath"
+    chapter:
+    excerpt: "Photomath is the world's smartest camera calculator and math assistant! Point your camera toward a math problem and Photomath will show the result with solution."
+    avatar: "@PhotoMath.jpg"
+    url: "https://photomath.net"
+    badge: true
+
   docs:
   -
     category: "Number Power 2"
@@ -145,7 +153,6 @@
     excerpt: "Perspecs News - get a different perspective on major news stories from around the world."
     avatar: "@PerspecsNews.jpg"
     url: "http://www.perspecsnews.com/"
-    badge: true
   -
     category: "ReadTheory"
     chapter:
@@ -185,6 +192,12 @@
     excerpt: "Explore over 6,800 free videos in 13 subject areas."
     avatar: "@OERhippo.png"
     url: "https://www.hippocampus.org/"
+  -
+    category: "iCivics"
+    chapter:
+    excerpt: "iCivics exists to engage students in meaningful civic learning. We provide teachers well-written, inventive, and free resources that enhance their practice and inspire their classrooms."
+    avatar: "@iCivics.png"
+    url: "https://www.icivics.org/"
     badge: true
   -
     category: "Learning Express Library"
@@ -228,6 +241,21 @@
     excerpt: "Achieve your personal education and career goals."
     avatar: "@EBSCO.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+  -
+    category: "ReadTheory"
+    chapter:
+    excerpt: "ReadTheory is a powerful educational tool created to improve reading comprehension for all ages and ability levels."
+    avatar: "@ReadTheory.png"
+    url: "https://readtheory.org/"
+    badge: true
+  -
+    category: "TypingClub"
+    chapter:
+    excerpt: "Learn touch typing online using TypingClub's free typing courses. It includes 650 typing games, typing tests and videos."
+    avatar: "@TypingClub.jpg"
+    url: "https://www.typingclub.com/"
+    badge: true
+
   docs:
   -
     category: "Daily Grams"
