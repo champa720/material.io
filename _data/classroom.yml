@@ -138,6 +138,12 @@
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
+    domain: "notablewomen.withgoogle.com"
+    title: "Notable Women"
+    description: "Swapping out the faces we all know for the faces we all should."
+    avatar: "@NotableWomen.png"
+    url: "https://notablewomen.withgoogle.com/"
+  -
     domain: "Perspecs News"
     title: "Three Sides to Every Story"
     description: "Perspecs News - get a different perspective on major news stories from around the world."
