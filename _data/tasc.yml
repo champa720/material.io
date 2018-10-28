@@ -12,32 +12,36 @@
   test_center: "https://colorado.tasctest.com/"
   cbt:
     -
-      category: "TASC Blog: Study Math"
-      excerpt: "Visit regularly to study new math topics as we build the library."
+      domain: "TASC Test"
+      title: "TASC Blog: Study Math"
+      description: "Visit regularly to study new math topics as we build the library."
       avatar: "@theTASCtest.png"
       url: "http://www.tasctest.com/blog.html#ufh-c-205841-study-mathematics"
     -
-      category: "Recap Quiz"
-      excerpt: "Algebra"
+      domain: "TASC Test"
+      title: "Recap Quiz"
+      description: "Algebra"
       avatar: "@theTASCtest.png"
       url: "http://discover.tasctest.com/algebra-recap-quiz"
     -
-      category: "Learning Express Library"
-      excerpt: "High School Equivalency Center"
+      domain: "Learning Express Library"
+      title: "High School Equivalency Center"
       avatar: "@EBSCO.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
   docs:
     -
-      category: "Mathematics Reference Sheet"
-      excerpt:
+      domain: "TASC Test"
+      title: "Mathematics Reference Sheet"
+      description:
       cover_image: "tasc/formula_sheet_tasc.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/TASCTest_MathRefSheet.pdf"
     -
-      category: "Practice Items"
-      excerpt: "TASC Test Math Practice Items"
+      domain: "TASC Test"
+      title: "Practice Items"
+      description: "TASC Test Math Practice Items"
       cover_image: "tasc/TASC_Test_Practice_Items_Math.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Math.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Math_Practice_Test.pdf"
@@ -54,26 +58,29 @@
   test_center: "https://colorado.tasctest.com/"
   cbt:
     -
-      category: "TASC Blog: Study Reading"
-      excerpt:
+      domain: "TASC Test"
+      title: "TASC Blog: Study Reading"
+      description:
       avatar: "@theTASCtest.png"
       url: "http://www.tasctest.com/blog.html#ufh-c-205853-study-reading"
     -
-      category: "Recap Quiz: Language and Word Reading"
-      excerpt:
+      domain: "TASC Test"
+      title: "Recap Quiz: Language and Word Reading"
+      description:
       avatar: "@theTASCtest.png"
       url: "http://discover.tasctest.com/languageandword-quiz"
     -
-      category: "Learning Express Library"
-      excerpt: "High School Equivalency Center"
+      domain: "Learning Express Library"
+      title: "High School Equivalency Center"
       avatar: "@EBSCO.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
   docs:
     -
-      category: "Practice Items"
-      excerpt: "TASC Test Reading Practice Items"
+      domain: "TASC Test"
+      title: "Practice Items"
+      description: "TASC Test Reading Practice Items"
       cover_image: "tasc/TASC_Test_Practice_Items_Reading.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Reading.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Reading_Practice_Test.pdf"
@@ -92,26 +99,29 @@
   test_center: "https://colorado.tasctest.com/"
   cbt:
     -
-      category: "TASC Blog: Study Science"
-      excerpt: "Find science topics to study and quizzes to test your knowledge."
+      domain: "TASC Test"
+      title: "TASC Blog: Study Science"
+      description: "Find science topics to study and quizzes to test your knowledge."
       avatar: "@theTASCtest.png"
       url: "http://www.tasctest.com/blog.html#ufh-c-205847-study-science"
     -
-      category: "Recap Quiz"
-      excerpt: "Earth and Space Science"
+      domain: "TASC Test"
+      title: "Recap Quiz"
+      description: "Earth and Space Science"
       avatar: "@theTASCtest.png"
       url: "http://discover.tasctest.com/earthandspacequiz"
     -
-      category: "Learning Express Library"
-      excerpt: "High School Equivalency Center"
+      domain: "Learning Express Library"
+      title: "High School Equivalency Center"
       avatar: "@EBSCO.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
   docs:
     -
-      category: "Practice Items"
-      excerpt: "TASC Test Science Practice Items"
+      domain: "TASC Test"
+      title: "Practice Items"
+      description: "TASC Test Science Practice Items"
       cover_image: "tasc/TASC_Test_Practice_Items_Science.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Science.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Science_Practice_Test.pdf"
@@ -129,26 +139,29 @@
   test_center: "https://colorado.tasctest.com/"
   cbt:
     -
-      category: "TASC Blog: Study Social Studies"
-      excerpt:
+      domain: "TASC Test"
+      title: "TASC Blog: Study Social Studies"
+      description:
       avatar: "@theTASCtest.png"
       url: "http://www.tasctest.com/blog.html#ufh-c-205850-study-social-studies"
     -
-      category: "Recap Quiz"
-      excerpt: "US History: Post-War United States"
+      domain: "TASC Test"
+      title: "Recap Quiz"
+      description: "US History: Post-War United States"
       avatar: "@theTASCtest.png"
       url: "http://discover.tasctest.com/us-history-post-war-quiz"
     -
-      category: "Learning Express Library"
-      excerpt: "High School Equivalency Center"
+      domain: "Learning Express Library"
+      title: "High School Equivalency Center"
       avatar: "@EBSCO.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
   docs:
     -
-      category: "Practice Items"
-      excerpt: "TASC Test Social Studies Practice Items"
+      domain: "TASC Test"
+      title: "Practice Items"
+      description: "TASC Test Social Studies Practice Items"
       cover_image: "tasc/TASC_Test_Practice_Items_Social_Studies.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Social_Studies.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_SocialStudies_Practice_Test.pdf"
@@ -167,39 +180,44 @@
   test_center: "https://colorado.tasctest.com/"
   cbt:
     -
-      category: "TASC Blog: Study Writing"
-      excerpt:
+      domain: "TASC Test"
+      title: "TASC Blog: Study Writing"
+      description:
       avatar: "@theTASCtest.png"
       url: "http://www.tasctest.com/blog.html#ufh-c-205856-study-writing"
     -
-      category: "Recap Quiz"
-      excerpt: "Grammar Writing"
+      domain: "TASC Test"
+      title: "Recap Quiz"
+      description: "Grammar Writing"
       avatar: "@theTASCtest.png"
       url: "http://discover.tasctest.com/grammar-recap-quiz"
     -
-      category: "Learning Express Library"
-      excerpt: "High School Equivalency Center"
+      domain: "Learning Express Library"
+      title: "High School Equivalency Center"
       avatar: "@EBSCO.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
   docs:
     -
-      category: "Practice Items"
-      excerpt: "TASC Test Writing Practice Items"
+      domain: "TASC Test"
+      title: "Practice Items"
+      description: "TASC Test Writing Practice Items"
       cover_image: "tasc/TASC_Test_Practice_Items_Writing.jpg"
       url_english: "http://ctbassessments.com/pdfs/TASC_Test_Practice_Items_Writing.pdf"
       url_spanish: "http://ctbassessments.com/pdfs/Spanish_Writing_Practice_Test.pdf"
     -
-      category: "Argumentative Essay"
-      excerpt: "Argumentative Essay Writing Prompt Sample"
+      domain: "TASC Test"
+      title: "Argumentative Essay"
+      description: "Argumentative Essay Writing Prompt Sample"
       cover_image: "tasc/sample_argumentative_essay.jpg"
       url_english: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
       url_spanish: "http://www.tasctest.com/assets/argumentative-essay-writing-prompt-sample-item3.pdf"
       badge: true
     -
-      category: "Informational Essay"
-      excerpt: "Informational Essay Writing Prompt Sample Item"
+      domain: "TASC Test"
+      title: "Informational Essay"
+      description: "Informational Essay Writing Prompt Sample Item"
       cover_image: "tasc/sample_informational_essay.jpg"
       url_english: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"
       url_spanish: "http://www.tasctest.com/assets/informational-essay-writing-prompt-sample-item3.pdf"
