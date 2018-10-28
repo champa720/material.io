@@ -12,6 +12,7 @@
 // global scss
 @import "gfm";
 @import "mdc-drawer--rail";
+@import "mdc-image-list";
 @import "mdc-layout-grid";
 @import "mdc-tab-bar";
 
@@ -36,8 +37,8 @@ main {
 }
 
 :root {
-  --mdc-theme-primary: #311b92;
-  --mdc-theme-secondary: #d81b60;
+  --mdc-theme-primary: #d81b60;
+  --mdc-theme-secondary: #311b92;
 }
 
 b, strong {
@@ -55,8 +56,30 @@ sub {
   top: 0.2em;
 }
 
+// tablet and down
 @media (max-width: 839px) {
   .mdc-typography--headline1 {
     font-size: 4.5rem;
   }
+}
+
+// default subject colors
+#mathematics {
+  background-color: #FF9E80; // Deep Orange A100
+}
+
+#reading {
+  background-color: #82B1FF; // Blue A100
+}
+
+#science {
+  background-color: #B388FF; // Deep Purple A100
+}
+
+#social-studies {
+  background-color: #B9F6CA; // Green A100
+}
+
+#writing {
+  background-color: #FF8A80; // Red A100
 }

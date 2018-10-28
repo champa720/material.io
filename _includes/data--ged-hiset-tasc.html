@@ -5,8 +5,8 @@
 {%- endif -%}
 
 {%- for data in subject -%}
-<article class="section">
-  <h2>{{ include.title }} Subtest Overview</h2>
+<article id="subtest-overview">
+  <h2 class="mdc-typography--headline6">{{ include.title }} Subtest Overview</h2>
   <div class="mdc-list-group">
     <span class="mdc-list-group__subheader">{{ data.title }}</span>
     <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list mdc-list--non-interactive" aria-orientation="vertical">
@@ -48,63 +48,106 @@
 
 {%- if page.layout == "section" -%} {%- break -%} {%- endif -%}
 
-<article class="section">
-  <h2>{{ include.title }} Online Practice</h2>
-  <nav class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical">
+
+<article id="online-practice">
+  <h2 class="mdc-typography--headline6">{{ include.title }} Apps & Websites</h2>
+
+  <!-- desktop list -->
+  <ul class="mdc-image-list mdc-image-list--with-text-protection">
 
     {%- for cbt in data.cbt -%}
-    <a href="{{ cbt.url }}" target="_blank" rel="noopener" class="mdc-list-item">
-      <img class="mdc-list-item__graphic" alt="logo" aria-hidden="true"
-           src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
-      <span class="mdc-list-item__text">
-        <span class="mdc-list-item__primary-text">{{ cbt.category }}</span>
-        <span class="mdc-list-item__secondary-text">{{ cbt.excerpt }}</span>
-      </span>
-
-      {%- if cbt.badge == true -%}
-      <i class="mdc-list-item__meta material-icons" aria-hidden="true">new_releases</i>
-      {%- endif -%}
-
-    </a>
+      <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+        <a href="{{ cbt.url }}" target="_blank" rel="noopener">
+          <div class="mdc-image-list__image-aspect-container">
+            <img class="mdc-image-list__image" alt="logo" aria-hidden="true"
+                 src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
+          </div>
+          <div class="mdc-image-list__supporting">
+            <span class="mdc-image-list__label">{{ cbt.title }}</span>
+          </div>
+        </a>
+      </li>
     {%- endfor -%}
 
-  </nav>
+  </ul>
+
+  <!-- mobile list -->
+  <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical" data-mdc-auto-init="MDCList">
+
+    {%- for cbt in data.cbt -%}
+      <li class="mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+        <a class="mdc-list-item" href="{{ cbt.url }}" target="_blank" rel="noopener" {%- if forloop.first -%}tabindex="0"{%- endif -%}>
+          <img class="mdc-list-item__graphic" alt="logo" aria-hidden="true"
+               src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
+          <span class="mdc-list-item__text">
+            <span class="mdc-list-item__primary-text">{{ cbt.title }}</span>
+            <span class="mdc-list-item__secondary-text">{{ cbt.domain }}</span>
+          </span>
+
+          {%- if cbt.badge == true -%}
+            <i class="mdc-list-item__meta material-icons" aria-hidden="true">star</i>
+          {%- endif -%}
+
+        </a>
+      </li>
+    {%- endfor -%}
+
+  </ul>
 </article>
 
-<article class="section">
-  <h2>{{ include.title }} Printable Resources</h2>
 
-  <nav class="mdc-list mdc-list--two-line mdc-list--thumbnail-list" aria-orientation="vertical">
+<article id="resources">
+  <h2 class="mdc-typography--headline6">{{ include.title }} Resources</h2>
+
+  <!-- desktop list -->
+  <ul class="mdc-image-list mdc-image-list--with-text-protection">
 
     {%- for doc in data.docs -%}
-    <a href="{{ doc.url_english }}" target="_blank" rel="noopener" class="mdc-list-item">
-      <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
-           src="{{ doc.cover_image | prepend: 'assets/img/thumbnails/' | relative_url }}" />
-      <span class="mdc-list-item__text">
-        <span class="mdc-list-item__primary-text">{{ doc.category }}</span>
-        <span class="mdc-list-item__secondary-text">{{ doc.excerpt }}</span>
-      </span>
-
-      {%- if doc.badge == true -%}
-      <i class="mdc-list-item__meta material-icons" aria-hidden="true">new_releases</i>
-      {%- endif -%}
-
-    </a>
+      <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+        <a href="{{ doc.url }}" target="_blank" rel="noopener">
+          <img class="mdc-image-list__image" alt="preview" aria-hidden="true"
+               src="{{ doc.cover_image | prepend: '/assets/img/thumbnails/' | relative_url}}" />
+          <div class="mdc-image-list__supporting">
+            <span class="mdc-image-list__label">{{ doc.title }}</span>
+          </div>
+        </a>
+      </li>
     {%- endfor -%}
 
-    {%- comment -%}
-    <hr class="mdc-list-divider">
-    <div class="mdc-card__actions">
-      <div class="mdc-card__action-buttons">
-        <a href="{{ doc.url_english }}" target="_blank" rel="noopener"
-           class="mdc-button mdc-card__action mdc-card__action--button">English</a>
-        <a href="{{ doc.url_spanish }}" target="_blank" rel="noopener"
-           class="mdc-button mdc-card__action mdc-card__action--button">EspaÑol</a>
-      </div>
-    </div>
-    {%- endcomment -%}
+  </ul>
 
-  </nav>
+  <!-- mobile list -->
+  <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical" data-mdc-auto-init="MDCList">
 
+    {%- for doc in data.docs -%}
+      <li class="mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+        <a class="mdc-list-item" href="{{ doc.url_english }}" target="_blank" rel="noopener" {%- if forloop.first -%}tabindex="0"{%- endif -%}>
+          <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
+               src="{{ doc.cover_image | prepend: 'assets/img/thumbnails/' | relative_url }}" />
+          <span class="mdc-list-item__text">
+            <span class="mdc-list-item__primary-text">{{ doc.title }}</span>
+            <span class="mdc-list-item__secondary-text">{{ doc.domain }}</span>
+          </span>
+
+          {%- if doc.badge == true -%}
+            <i class="mdc-list-item__meta material-icons" aria-hidden="true">star</i>
+          {%- endif -%}
+
+        </a>
+      <li>
+    {%- endfor -%}
+
+  </ul>
 </article>
 {%- endfor -%}
+
+{%- comment -%}
+//
+//
+//
+<a href="{{ doc.url_english }}" target="_blank" rel="noopener">English</a>
+<a href="{{ doc.url_spanish }}" target="_blank" rel="noopener">Español</a>
+//
+//
+//
+{%- endcomment -%}
