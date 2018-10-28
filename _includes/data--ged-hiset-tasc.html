@@ -104,7 +104,7 @@
 
     {%- for doc in data.docs -%}
       <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-        <a href="{{ doc.url }}" target="_blank" rel="noopener">
+        <a href="{{ doc.url_english }}" target="_blank" rel="noopener">
           <img class="mdc-image-list__image" alt="preview" aria-hidden="true"
                src="{{ doc.cover_image | prepend: '/assets/img/thumbnails/' | relative_url}}" />
           <div class="mdc-image-list__supporting">
