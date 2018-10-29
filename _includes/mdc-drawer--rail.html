@@ -1,15 +1,19 @@
-<nav id="{{ page.subject | slugify }}" class="mdc-drawer mdc-drawer--permanent mdc-typography">
+<nav id="{{ page.subject | slugify }}" class="mdc-drawer mdc-drawer--permanent mdc-theme--primary-bg">
   <div class="mdc-drawer__content mdc-drawer__content--align-start">
-    <nav class="mdc-list">
+    <nav class="mdc-list mdc-list--avatar-list">
       <a class="mdc-list-item" href="{{ site.url }}" title="{{ site.title }}">
         <img class="mdc-list-item__graphic" src="/assets/img/icon/feather.svg" aria-hidden="true"/>
       </a>
+
+      {%- unless page.category == 'index' -%}
       <button id="zoom_in" type="button" class="mdc-list-item" aria-label="Enlarge text size" title="Enlarge text size">
         <i class="material-icons mdc-list-item__graphic" aria-hidden="true">zoom_in</i>
       </button>
       <button id="zoom_out" type="button" class="mdc-list-item" aria-label="Reduce text size" title="Reduce text size">
         <i class="material-icons mdc-list-item__graphic" aria-hidden="true">zoom_out</i>
       </button>
+      {%- endunless -%}
+
     </nav>
   </div>
   <div class="mdc-drawer__content mdc-drawer__content--align-end">

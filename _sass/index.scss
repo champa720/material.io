@@ -14,6 +14,8 @@
 
   // small desktop and up
   @media (min-width: 840px) {
+    margin-left: 56px;
+
     main .mdc-list:not(.mdc-list--non-interactive) {
       display: none;
     }
@@ -22,10 +24,8 @@
   // tablet and down
   @media (max-width: 839px) {
 
-    main .mdc-image-list {
-      display: none;
-    }
-
+    nav.mdc-drawer,
+    main .mdc-image-list,
     main .mdc-card__action-buttons > .mdc-card__action--button:not(:first-child) {
       display: none;
     }

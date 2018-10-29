@@ -2,35 +2,17 @@ nav.mdc-drawer.mdc-drawer--permanent {
   position: fixed;
   top: 0;
   bottom: 0;
+  left: 0;
   width: 56px;
   z-index: 2;
-
-  &#mathematics {
-    background-color: #FF9E80; // Deep Orange A100
-  }
-
-  &#reading {
-    background-color: #82B1FF; // Blue A100
-  }
-
-  &#science {
-    background-color: #B388FF; // Deep Purple A100
-  }
-
-  &#social-studies {
-    background-color: #B9F6CA; // Green A100
-  }
-
-  &#writing {
-    background-color: #FF8A80; // Red A100
-  }
 
   & .mdc-drawer__content {
     display: flex;
     flex: 1 1 auto;
 
-    & .mdc-list-item__graphic {
-      margin-right: 0; // clears margin for text
+    & .mdc-list--avatar-list .mdc-list-item,
+      .mdc-list-item__graphic {
+      margin: 0; // clears margin for text
     }
 
     & button {
