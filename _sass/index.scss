@@ -14,7 +14,7 @@
 
   // small desktop and up
   @media (min-width: 840px) {
-    .mdc-list:not(.mdc-list--non-interactive) {
+    main .mdc-list:not(.mdc-list--non-interactive) {
       display: none;
     }
   }
@@ -22,11 +22,11 @@
   // tablet and down
   @media (max-width: 839px) {
 
-    .mdc-image-list {
+    main .mdc-image-list {
       display: none;
     }
 
-    .mdc-card__action-buttons > .mdc-card__action--button:not(:first-child) {
+    main .mdc-card__action-buttons > .mdc-card__action--button:not(:first-child) {
       display: none;
     }
   }
