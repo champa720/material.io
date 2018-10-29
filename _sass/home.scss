@@ -1,7 +1,7 @@
 // blurred glass
 // http://cssdeck.com/labs/blurred-glass
 
-#home, main .mdc-card:before {
+#home, main .mdc-card::before {
   background:
     /* top, layered shade */
     linear-gradient(120deg, rgba(0,0,0,.33) 25.3%, rgba(0,0,0,0.163) 25.3%),
@@ -13,13 +13,19 @@
     linear-gradient(120deg, rgba(0,0,0,.33) 41.3%, rgba(0,0,0,0.163) 41.3%),
     linear-gradient(60deg, rgba(0,0,0,.5) 41.3%, rgba(0,0,0,0.0) 41.3%),
     /* bottom, image */
-    url(  "/assets/img/denver.jpg") no-repeat 0 0 fixed / cover;
+    url(  "/assets/img/denver.jpg") top left no-repeat fixed / cover;
+
+  //  background-position: top left;
+  //  background-repeat: no-repeat;
+  //  background-attachment: fixed;
+  //  background-size: cover;
 }
 
 #home {
   margin-left: 0; // reset mdc-drawer--rail
   display: table; // fallback
   width: 100%;
+  background-color: rgba(0,0,0,0.87); //fallback
 
   & main {
     // fallback
@@ -38,8 +44,8 @@
     position: relative; // required blurred-glass
     display: inline-flex;
     justify-content: center;
-    background-color: hsla(0,0%,100%,.125);
-    border-top: 8px solid hsla(0,0%,100%,.12);
+    background-color: rgba(255,255,255,0.125);
+    border-top: 8px solid rgba(255,255,255,0.12);
 
     & .mdc-card__content {
       display: flex;
@@ -53,19 +59,21 @@
     }
 
     & .mdc-list-divider {
-      border-bottom-color: hsla(0,0%,100%,.12);
+      border-bottom-color: rgba(255,255,255,0.12);
     }
 
     & h1, .mdc-list, .mdc-list-group__subheader {
+      color: #fff;
       color: var(--mdc-theme-text-primary-on-dark,#fff);
     }
 
     & .mdc-list-item__graphic, .mdc-card__action--icon:not(:disabled) {
-      color: var(--mdc-theme-text-icon-on-dark,hsla(0,0%,100%,.5));
+      color: rgba(255,255,255,0.5);
+      color: var(--mdc-theme-text-icon-on-dark,rgba(255,255,255,0.5));
     }
   }
 
-  & main .mdc-card:before {
+  & main .mdc-card::before {
     content: '';
     position: absolute;
     z-index: -1;
