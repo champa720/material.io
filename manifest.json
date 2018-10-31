@@ -2,8 +2,8 @@
   "name": "Jason's Classroom",
   "description": "A place to study for your High School Equivalency Diploma",
   "start_url": "index.html",
-  "theme_color": "#212121",
-  "background_color": "#fafafa",
+  "theme_color": "#311b92",
+  "background_color": "#212121",
   "display": "standalone",
   "icons": [{
     "src": "/assets/img/icon/feather-0.75x.png",
