@@ -10,9 +10,18 @@ nav.mdc-drawer.mdc-drawer--permanent {
     display: flex;
     flex: 1 1 auto;
 
-    & .mdc-list--avatar-list .mdc-list-item,
-      .mdc-list-item__graphic {
+    & .mdc-list--avatar-list .mdc-list-item {
       margin: 0; // clears margin for text
+      padding: 0; // clears margin for text
+
+      & .mdc-list-item__graphic {
+        margin: 8px;
+      }
+    }
+
+    & .mdc-list {
+      width: 56px;
+      overflow: hidden;
     }
 
     & button {

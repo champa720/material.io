@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 /assets/docs/
+node_modules
+style-bundle.js

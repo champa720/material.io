@@ -28,8 +28,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
 exclude:
+  - _sass
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - style-bundle.js
+  - webpack.config.js
 sass:
   style: compressed
 

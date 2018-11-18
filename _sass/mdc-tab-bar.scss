@@ -17,11 +17,11 @@
     margin: 16px 24px;
     height: 14px;
     width: 14px;
-    background-color: var(--mdc-theme-text-hint-on-background, rgba(0,0,0,.38));
     border-radius: 50%;
+    @include mdc-theme-prop(background-color, text-secondary-on-background, true, false);
 
     &.active {
-      background-color: var(--mdc-theme-primary, #d81b60);
+      @include mdc-theme-prop(background-color, primary, true, false);
     }
   }
 }
