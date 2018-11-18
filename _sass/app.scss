@@ -25,9 +25,25 @@ $mdc-typography-styles-body1: (
 // @import "index";
 // @import "section";
 
+html, body {
+  margin: 0; // reset
+  padding: 0; // reset
+  height: 100%; // reset
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   @include mdc-theme-prop(background-color, background, true, false);
   @include mdc-theme-prop(color, text-primary-on-background, true, false);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 .mdc-typography--headline1 {
@@ -45,22 +61,29 @@ body {
 h2, h3 {
   margin-top: 2em;
   margin-bottom: 1em;
-  border: none;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  @include mdc-theme-prop(border-bottom-color, text-secondary-on-background, true, false);
 }
 
 hr {
   height: 0;
   margin: 0;
-  border: none;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  @include mdc-theme-prop(border-bottom-color, text-secondary-on-background, true, false);
 }
 
-a {
+@at-root {
+  $divider-color: if(
+    mdc-theme-tone($mdc-theme-background) == "dark",
+    $mdc-list-divider-color-on-dark-bg,
+    $mdc-list-divider-color-on-light-bg
+  );
+
+  h2, h3, hr {
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    @include mdc-theme-prop(border-bottom-color, $divider-color);
+  }
+}
+
+a:not(.mdc-list-item) {
   @include mdc-theme-prop(color, primary, true, false);
 }
 

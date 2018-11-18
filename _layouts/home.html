@@ -11,7 +11,7 @@
         <h1 class="mdc-typography--headline1">Welcome</h1>
         <div class="mdc-list-group">
           <h2 class="mdc-list-group__subheader">Where should we begin?</h2>
-          <nav class="mdc-list mdc-list--dense mdc-list--avatar-list" aria-orientation="vertical">
+          <nav class="mdc-list mdc-list--avatar-list" aria-orientation="vertical">
 
             <!-- creates loop for subject_menu by subject > category -->
             {% assign subject_menu = site.pages | where_exp: "item", "item.category == 'index'" %}
@@ -31,7 +31,7 @@
         <div class="mdc-card__action-icons">
 
           {%- for media in site.social_media -%}
-          <a href="{{ media[1] }}"  target="_blank" rel="noopener" class="material-icons mdc-icon-button mdc-card__action mdc-card__action--icon" title="{{ media[0] }}">
+          <a href="{{ media[1] }}"  target="_blank" rel="noopener" class="mdc-icon-button mdc-card__action mdc-card__action--icon" title="{{ media[0] }}">
             <svg><use xlink:href="/assets/img/icons.svg#{{ media[0] }}" /></svg>
           </a>
           {%- endfor -%}

@@ -15,19 +15,17 @@
     /* bottom, image */
     url(  "/assets/img/denver.jpg") top left no-repeat fixed / cover;
 
-  //  background-position: top left;
-  //  background-repeat: no-repeat;
-  //  background-attachment: fixed;
-  //  background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #home {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100%;
+  margin: 0; // reset
+  padding: 0; // reset
+  width: 100%; // reset
   display: table; // fallback
-  background-color: rgba(0,0,0,0.87); //fallback
 
   & main {
     // fallback
@@ -47,7 +45,7 @@
     display: inline-flex;
     justify-content: center;
     background-color: rgba(255,255,255,0.125);
-    border-top: 8px solid rgba(255,255,255,0.12);
+    border-top: 8px solid rgba(255,255,255,0.2);
 
     & .mdc-card__content {
       display: flex;
@@ -64,21 +62,10 @@
       display: unset;
     }
 
-    & .mdc-list-divider {
-      border-bottom-color: rgba(255,255,255,0.12) !important;
-    }
-
-    & h1, .mdc-list, .mdc-list-group__subheader, .mdc-list a {
-      @include mdc-theme-prop(color, text-primary-on-background, true, false);
-    }
-
-    & .mdc-list-item__graphic, .mdc-card__action--icon:not(:disabled) {
-      @include mdc-theme-prop(color, text-secondary-on-background, true, false);
-    }
-
     & .mdc-card__action--icon svg {
       height: 24px;
       width: 24px;
+      @include mdc-theme-prop(fill, text-secondary-on-background, true, false);
     }
   }
 
