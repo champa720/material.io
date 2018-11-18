@@ -16,23 +16,21 @@
     <section id="mdc-dialog-with-list-description" class="mdc-dialog__body mdc-dialog__body--scrollable">
       <div class="mdc-list-group">
 
-        {% for tag in category %}
-        <h3 class="mdc-list-group__subheader">{{ tag.name }}</h3>
-        <nav class="mdc-list mdc-list--two-line" aria-orientation="vertical">
+        {%- for tag in category -%}
+          <h3 class="mdc-list-group__subheader">{{ tag.name }}</h3>
+          <nav class="mdc-list mdc-list--two-line" aria-orientation="vertical">
 
-          {% for chapter in tag.items %}
-          <a href="{{ chapter.url }}" class="mdc-list-item">
-            <span class="mdc-list-item__text">
-              {{ chapter.title }}
-              <span class="mdc-list-item__secondary-text">
-                {{ chapter.slug | capitalize | replace: "-", " " }}
-              </span>
-            </span>
-          </a>
-          {% endfor %}
+            {%- for chapter in tag.items -%}
+              <a href="{{ chapter.url }}" class="mdc-list-item">
+                <span class="mdc-list-item__text">
+                 <span class="mdc-list-item__primary-text">{{ chapter.title }}</span>
+                 <span class="mdc-list-item__secondary-text">{{ chapter.slug | capitalize | replace: "-", " " }}</span>
+                </span>
+              </a>
+            {%- endfor -%}
 
-        </nav>
-        {% endfor %}
+          </nav>
+        {%- endfor -%}
 
       </div>
     </section>
