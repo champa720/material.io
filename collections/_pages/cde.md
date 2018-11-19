@@ -1,6 +1,6 @@
 ---
 permalink: hse/
-layout: chapter
+layout: library
 title: HSE Testing Program
 
 subject: HSE

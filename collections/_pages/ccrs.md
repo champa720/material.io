@@ -1,6 +1,6 @@
 ---
 permalink: ccrs/
-layout: chapter
+layout: library
 title: Standards for Adult Education
 
 subject: Lessons

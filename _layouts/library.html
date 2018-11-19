@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {%- include head.html -%}
 
-<body id="chapter" class="mdc-typography">
+<body id="library" class="mdc-typography">
 
   {%- include mdc-drawer--rail.html -%}
 
@@ -12,7 +12,7 @@
       <header>
         <div class="mdc-layout-grid">
           <div class="mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell--span-6">
+            <div class="mdc-layout-grid__cell">
               <h1 class="mdc-typography--headline1">{{ page.title }}</h1>
             </div>
           </div>
@@ -20,10 +20,15 @@
       </header>
       <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
-          <div class="mdc-layout-grid__cell--span-6">
+          <div class="mdc-layout-grid__cell">
             <div class="markdown-body">
-              <h2 id="{{ page.slug }}">{{ page.slug | capitalize | replace: "-", " " }}</h2>
+
+              {%- if page.collection == "chapters" -%}
+                <h2 id="{{ page.slug }}">{{ page.slug | capitalize | replace: "-", " " }}</h2>
+              {%- endif -%}
+
               {{ content }}
+
             </div>
           </div>
         </div>
@@ -34,6 +39,7 @@
   {%- include zoom.html -%}
 
   {%- include foot.html -%}
+  {%- include javascript/zoom.js -%}
 
 </body>
 

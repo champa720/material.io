@@ -22,11 +22,6 @@ $mdc-typography-styles-body1: (
 @charset "UTF-8";
 @import "material-web-components";
 
-// layout scss
-@import "home";
-// @import "index";
-// @import "section";
-
 html, body {
   margin: 0; // reset
   padding: 0; // reset
@@ -104,13 +99,15 @@ sub {
   top: 0.2em;
 }
 
+// layout scss
+@import "home";
+@import "library";
 
 // global scss
 // @import "gfm";
 @import "mdc-dialog";
 @import "mdc-drawer--rail";
 @import "mdc-image-list"; // rename media queries ?
-// @import "mdc-layout-grid";
 @import "mdc-tab-bar";
 
 

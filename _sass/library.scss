@@ -1,22 +1,30 @@
-#chapter, #section {
+#library {
 
   & main {
     counter-reset: paragraph;
 
+    & h2 {
+      @include mdc-typography(headline5);
+    }
+
+    & h3, h4, h5, h6 {
+      @include mdc-typography(headline6);
+    }
+
     & article .markdown-body > p {
       position: relative;
 
-      &.img:before {
+      &.img::before {
         counter-increment: none;
         content: "";
       }
 
-      &:before {
+      &::before {
         counter-increment: paragraph;
         content: counter(paragraph);
         position: absolute;
         margin-left: -2em;
-        color: var(--mdc-theme-text-hint-on-background,rgba(0,0,0,.38));
+        @include mdc-theme-prop(color, text-secondary-on-background, true, false);
       }
     }
 
