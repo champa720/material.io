@@ -32,7 +32,7 @@
 
           {%- for media in site.social_media -%}
           <a href="{{ media[1] }}"  target="_blank" rel="noopener" class="mdc-icon-button mdc-card__action mdc-card__action--icon" title="{{ media[0] }}">
-            <svg><use xlink:href="/assets/img/icons.svg#{{ media[0] }}" /></svg>
+            <img src="/assets/img/icons.svg#{{ media[0] }}" />
           </a>
           {%- endfor -%}
 

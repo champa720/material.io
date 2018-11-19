@@ -3272,7 +3272,7 @@ sub {
   top: 0.2em; }
 
 #home, main .mdc-card::before {
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.33) 25.3%, rgba(0, 0, 0, 0.163) 25.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 25.3%, rgba(0, 0, 0, 0) 25.3%), linear-gradient(120deg, rgba(0, 0, 0, 0.33) 33.3%, rgba(0, 0, 0, 0.163) 33.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 33.3%, rgba(0, 0, 0, 0) 33.3%), linear-gradient(120deg, rgba(0, 0, 0, 0.33) 41.3%, rgba(0, 0, 0, 0.163) 41.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 41.3%, rgba(0, 0, 0, 0) 41.3%), url("/assets/img/denver.jpg") top left no-repeat fixed/cover;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.33) 25.3%, rgba(0, 0, 0, 0.163) 25.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 25.3%, rgba(0, 0, 0, 0) 25.3%), linear-gradient(120deg, rgba(0, 0, 0, 0.33) 33.3%, rgba(0, 0, 0, 0.163) 33.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 33.3%, rgba(0, 0, 0, 0) 33.3%), linear-gradient(120deg, rgba(0, 0, 0, 0.33) 41.3%, rgba(0, 0, 0, 0.163) 41.3%), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 41.3%, rgba(0, 0, 0, 0) 41.3%), url("/assets/img/denver.jpg");
   background-position: top left;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3306,10 +3306,8 @@ sub {
       font-size: 6rem;
       margin: 0.67em; }
     #home main .mdc-card .mdc-list:not(.mdc-list--non-interactive) {
-      display: unset; }
-    #home main .mdc-card .mdc-card__action--icon svg {
-      height: 24px;
-      width: 24px;
+      display: block; }
+    #home main .mdc-card .mdc-icon-button svg, #home main .mdc-card .mdc-icon-button img {
       fill: rgba(255, 255, 255, 0.7) !important;
       /* @alternate */
       fill: var(--mdc-theme-text-secondary-on-background, rgba(255, 255, 255, 0.7)) !important; }
