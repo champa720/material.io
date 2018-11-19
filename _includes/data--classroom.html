@@ -2,20 +2,26 @@
 {%- assign subject_data = site.data.classroom | where_exp: "item", "item.subject == page.subject" -%}
 {%- for data in subject_data -%}
 
+<!--
+  --
+  --
+  content data cbt
+  -->
+
   <article id="online-practice">
     <h2 class="mdc-typography--headline6">Apps & Websites</h2>
     <!-- desktop list -->
     <ul class="mdc-image-list mdc-image-list--with-text-protection">
 
-      {%- for cbt in data.cbt -%}
+      {%- for content in data.cbt -%}
         <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-          <a href="{{ cbt.url }}" target="_blank" rel="noopener">
+          <a href="{{ content.url }}" target="_blank" rel="noopener">
             <div class="mdc-image-list__image-aspect-container">
               <img class="mdc-image-list__image" alt="logo" aria-hidden="true"
-                   src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
+                   src="{{ content.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
             </div>
             <div class="mdc-image-list__supporting">
-              <span class="mdc-image-list__label">{{ cbt.title }}</span>
+              <span class="mdc-image-list__label">{{ content.title }}</span>
             </div>
           </a>
         </li>
@@ -25,17 +31,17 @@
     <!-- mobile list -->
     <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical" data-mdc-auto-init="MDCList">
 
-      {%- for cbt in data.cbt -%}
+      {%- for content in data.cbt -%}
         <li class="mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-          <a class="mdc-list-item" href="{{ cbt.url }}" target="_blank" rel="noopener" {%- if forloop.first -%}tabindex="0"{%- endif -%} >
+          <a class="mdc-list-item" href="{{ content.url }}" target="_blank" rel="noopener" {%- if forloop.first %} tabindex="0"{%- endif -%} >
             <img class="mdc-list-item__graphic" alt="logo" aria-hidden="true"
-                 src="{{ cbt.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
+                 src="{{ content.avatar | prepend: '/assets/img/avatars/' | relative_url}}" />
             <span class="mdc-list-item__text">
-              <span class="mdc-list-item__primary-text">{{ cbt.title }}</span>
-              <span class="mdc-list-item__secondary-text">{{ cbt.domain }}</span>
+              <span class="mdc-list-item__primary-text">{{ content.title }}</span>
+              <span class="mdc-list-item__secondary-text">{{ content.domain }}</span>
             </span>
 
-            {%- if cbt.badge == true -%}
+            {%- if content.badge == true -%}
               <i class="mdc-list-item__meta material-icons">star</i>
             {%- endif -%}
 
@@ -46,19 +52,25 @@
     </ul>
   </article>
 
+  <!--
+    --
+    --
+    content data docs
+    -->
+
   {%- if data.docs -%}
     <article id="resources">
       <h2 class="mdc-typography--headline6">Resources</h2>
       <!-- desktop list -->
       <ul class="mdc-image-list mdc-image-list--with-text-protection">
 
-        {%- for doc in data.docs -%}
+        {%- for content in data.docs -%}
           <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-            <a href="{{ doc.url }}" target="_blank" rel="noopener">
+            <a href="{{ content.url }}" target="_blank" rel="noopener">
               <img class="mdc-image-list__image" alt="preview" aria-hidden="true"
-                   src="{{ doc.cover_image | prepend: '/assets/img/book_covers/' | relative_url}}" />
+                   src="{{ content.cover_image | prepend: '/assets/img/book_covers/' | relative_url}}" />
               <div class="mdc-image-list__supporting">
-                <span class="mdc-image-list__label">{{ doc.title }}</span>
+                <span class="mdc-image-list__label">{{ content.title }}</span>
               </div>
             </a>
           </li>
@@ -68,17 +80,17 @@
       <!-- mobile list -->
       <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical" data-mdc-auto-init="MDCList">
 
-        {%- for doc in data.docs -%}
+        {%- for content in data.docs -%}
           <li class="mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
-            <a class="mdc-list-item" href="{{ doc.sections[url] }}" target="_blank" rel="noopener" {%- if forloop.first -%}tabindex="0"{%- endif -%}>
+            <a class="mdc-list-item" href="{{ content.sections[url] }}" target="_blank" rel="noopener" {%- if forloop.first %} tabindex="0"{%- endif -%}>
               <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
-                   src="{{ doc.cover_image | prepend: '/assets/img/book_covers/' | relative_url }}" />
+                   src="{{ content.cover_image | prepend: '/assets/img/book_covers/' | relative_url }}" />
               <span class="mdc-list-item__text">
-                <span class="mdc-list-item__primary-text">{{ doc.title }}</span>
-                <span class="mdc-list-item__secondary-text">{{ doc.domain }}</span>
+                <span class="mdc-list-item__primary-text">{{ content.title }}</span>
+                <span class="mdc-list-item__secondary-text">{{ content.domain }}</span>
               </span>
 
-              {%- if doc.badge == true -%}
+              {%- if content.badge == true -%}
                 <i class="mdc-list-item__meta material-icons">star</i>
               {%- endif -%}
 
@@ -91,57 +103,47 @@
   {%- endif -%}
 {%- endfor -%}
 
-
-{%- comment -%}
-//
-//
-//
+<!--
+  --
+  --
+  content page Library
+  -->
 
 {%- if page.library -%}
   <article id="library">
     <h2 class="mdc-typography--headline6">Library</h2>
-    <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list mdc-list--non-interactive" aria-orientation="vertical">
+    <!-- desktop list -->
+    <ul class="mdc-image-list mdc-image-list--with-text-protection">
+
+      {%- for content in page.library  -%}
+        <li class="mdc-image-list__item mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+          <a id="{{ content.domain | append: '-' | append: content.title | slugify }}-dialog-activation">
+            <img class="mdc-image-list__image" alt="preview" aria-hidden="true"
+                 src="{{ content.cover_image | prepend: '/assets/img/book_covers/' | relative_url}}" />
+            <div class="mdc-image-list__supporting">
+              <span class="mdc-image-list__label">{{ content.title }}</span>
+            </div>
+          </a>
+        </li>
+      {%- endfor -%}
+
+    </ul>
+    <!-- mobile list -->
+    <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list" aria-orientation="vertical" data-mdc-auto-init="MDCList">
 
       {%- for content in page.library -%}
-      <li id="{{ content.domain | slugify }}-dialog-activation" href="#{{ content.domain | slugify }}-dialog" class="mdc-list-item">
-        <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
-             src="{{ content.cover_image | prepend: '/assets/img/book_covers/' | relative_url }}" />
-        <span class="mdc-list-item__text">
-          <span class="mdc-list-item__primary-text">{{ content.domain }}</span>
-          <span class="mdc-list-item__secondary-text">{%- if content.title -%} {{ content.title }} {%- else -%} {{ content.subject }} {%- endif -%}</span>
-        </span>
-      </li>
-
-      {%- assign contents = site.titles | where_exp: "titles", "titles.subject == page.subject" | where_exp: "titles", "titles.domain == content.domain" -%}
-      <nav class="mdc-list mdc-list--two-line mdc-list--dense" aria-orientation="vertical">
-
-        {%- for content in contents -%}
-        <a href="{{ content.url | relative_url }}" class="mdc-list-item">
-          <span class="mdc-list-item__graphic" alt="preview" aria-hidden="true"></span>
-          <span class="mdc-list-item__text">
-            <span class="mdc-list-item__primary-text">{{ content.slug | capitalize | replace: "-", " " }}</span>
-            <span class="mdc-list-item__secondary-text">{{ content.title }}</span>
-          </span>
-
-          {%- if content.tag -%}
-          <i class="mdc-list-item__meta">{{ content.tag }}</i>
-          {%- endif -%}
-
-        </a>
-        {%- endfor -%}
-
-        {%- if forloop.last != true -%}
-        <hr class="mdc-list-divider mdc-list-divider--inset" />
-        {%- endif -%}
-
-      </nav>
+        <li class="mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+          <a class="mdc-list-item" id="{ content.domain | append: '-' | append: content.title | slugify }}--dialog-activation" {%- if forloop.first %} tabindex="0"{%- endif -%}>
+            <img class="mdc-list-item__graphic" alt="preview" aria-hidden="true"
+                 src="{{ content.cover_image | prepend: '/assets/img/book_covers/' | relative_url }}" />
+            <span class="mdc-list-item__text">
+              <span class="mdc-list-item__primary-text">{{ content.title }}</span>
+              <span class="mdc-list-item__secondary-text">{{ content.domain }}</span>
+            </span>
+          </a>
+        </li>
       {%- endfor -%}
 
     </ul>
   </article>
 {%- endif -%}
-
-//
-//
-//
-{%- endcomment -%}

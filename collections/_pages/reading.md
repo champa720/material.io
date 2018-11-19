@@ -12,19 +12,23 @@ icon: book
 
 library:
 -
-  category: "Fiction"
-  cover_image: "default.jpg"
+  domain: "Multiple Sources"
+  title: "Fiction"
   excerpt: ""
+  cover_image: "default.jpg"
 -
-  category: "Nonfiction"
-  cover_image: "default.jpg"
+  domain: "Multiple Sources"
+  title: "Nonfiction"
   excerpt: ""
+  cover_image: "default.jpg"
 -
-  category: "Poetry"
-  cover_image: "default.jpg"
+  domain: "Multiple Sources"
+  title: "Poetry"
   excerpt: ""
+  cover_image: "default.jpg"
 -
-  category: "Project Based"
-  cover_image: "default.jpg"
+  domain: "Multiple Sources"
+  title: "Project Based"
   excerpt: ""
+  cover_image: "default.jpg"
 ---
