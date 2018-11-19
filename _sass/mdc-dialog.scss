@@ -1,0 +1,10 @@
+.mdc-dialog {
+  @include mdc-dialog-shape-radius(0, false);
+  @include mdc-dialog-min-width(100vw);
+  @include mdc-dialog-max-width(100vw, 0);
+}
+
+.mdc-dialog .mdc-dialog__surface {
+  min-height: 100vh;
+  @include mdc-dialog-max-height(100vh, 0);
+}

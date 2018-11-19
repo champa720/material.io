@@ -7,8 +7,10 @@ $mdc-theme-surface: rgba(0,0,0,0.87);
 // $mdc-theme-on-secondary: ;
 // $mdc-theme-on-surface: ;
 // $mdc-theme-on-error: ;
+
 $mdc-layout-grid-max-width: 1280px;
 $mdc-layout-grid-default-column-span: 9;
+
 $mdc-typography-styles-headline1: ();
 $mdc-typography-styles-headline2: ();
 $mdc-typography-styles-body1: (
@@ -105,10 +107,12 @@ sub {
 
 // global scss
 // @import "gfm";
+@import "mdc-dialog";
 @import "mdc-drawer--rail";
 @import "mdc-image-list"; // rename media queries ?
 // @import "mdc-layout-grid";
 @import "mdc-tab-bar";
+
 
 
 // default subject colors
