@@ -114,21 +114,26 @@ sub {
 
 // default subject colors
 #mathematics {
-  background-color: #FF9E80; // Deep Orange A100
+  --mdc-theme-primary: #ff5722; // baseline deep-orange, 500 tone
+  --mdc-theme-secondary: #4d4d4d;
 }
 
 #reading {
-  background-color: #82B1FF; // Blue A100
+  --mdc-theme-primary: #2196f3; // baseline blue, 500 tone
+  --mdc-theme-secondary: #4d4d4d;
 }
 
 #science {
-  background-color: #B388FF; // Deep Purple A100
+  --mdc-theme-primary: #673ab7; // baseline deep-purple, 500 tone
+  --mdc-theme-secondary: #4d4d4d;
 }
 
 #social-studies {
-  background-color: #B9F6CA; // Green A100
+  --mdc-theme-primary: #4caf50; // baseline green, 500 tone
+  --mdc-theme-secondary: #4d4d4d;
 }
 
 #writing {
-  background-color: #FF8A80; // Red A100
+  --mdc-theme-primary: #f44336; // baseline red, 500 tone
+  --mdc-theme-secondary: #4d4d4d;
 }

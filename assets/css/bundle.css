@@ -3555,16 +3555,21 @@ nav.mdc-drawer.mdc-drawer--permanent {
       background-color: var(--mdc-theme-primary, #e91e63) !important; }
 
 #mathematics {
-  background-color: #FF9E80; }
+  --mdc-theme-primary: #ff5722;
+  --mdc-theme-secondary: #4d4d4d; }
 
 #reading {
-  background-color: #82B1FF; }
+  --mdc-theme-primary: #2196f3;
+  --mdc-theme-secondary: #4d4d4d; }
 
 #science {
-  background-color: #B388FF; }
+  --mdc-theme-primary: #673ab7;
+  --mdc-theme-secondary: #4d4d4d; }
 
 #social-studies {
-  background-color: #B9F6CA; }
+  --mdc-theme-primary: #4caf50;
+  --mdc-theme-secondary: #4d4d4d; }
 
 #writing {
-  background-color: #FF8A80; }
+  --mdc-theme-primary: #f44336;
+  --mdc-theme-secondary: #4d4d4d; }
