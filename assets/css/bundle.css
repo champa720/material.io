@@ -3340,34 +3340,14 @@ sub {
   #home main .mdc-card h1, #home main .mdc-card .mdc-list-group {
     font-size: 3rem; } }
 
-#library main {
+#library {
   counter-reset: paragraph; }
-  #library main h2 {
-    font-family: Roboto, sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: normal;
-    text-decoration: inherit;
-    text-transform: inherit; }
-  #library main h3, #library main h4, #library main h5, #library main h6 {
-    font-family: Roboto, sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-size: 1.25rem;
-    line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: 0.0125em;
-    text-decoration: inherit;
-    text-transform: inherit; }
-  #library main article .markdown-body > p {
+  #library article .markdown-body > p {
     position: relative; }
-    #library main article .markdown-body > p.img::before {
+    #library article .markdown-body > p.img::before {
       counter-increment: none;
       content: ""; }
-    #library main article .markdown-body > p::before {
+    #library article .markdown-body > p::before {
       counter-increment: paragraph;
       content: counter(paragraph);
       position: absolute;
@@ -3375,29 +3355,26 @@ sub {
       color: rgba(255, 255, 255, 0.7) !important;
       /* @alternate */
       color: var(--mdc-theme-text-secondary-on-background, rgba(255, 255, 255, 0.7)) !important; }
-  #library main article .markdown-body > .mdc-card {
+  #library article .markdown-body > .mdc-card {
     padding: 1em;
-    background-color: #f5f5f5; }
-
-#library .mdc-fab__container {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem; }
-
-@media (min-width: 1440px) {
-  #library article .markdown-body {
-    font-size: 30px; } }
-
-@media (min-width: 1024px) {
-  #library article .markdown-body {
-    font-size: 24px; }
-  #library .mdc-fab__container {
-    bottom: 1.5rem;
-    right: 1.5rem; } }
-
-@media (max-width: 1023px) and (min-width: 840px) {
-  #library article .markdown-body {
-    font-size: 20px; } }
+    background-color: transparent;
+    border-color: var(--mdc-theme-primary); }
+  #library ~ .mdc-fab__container {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; }
+  @media (min-width: 1440px) {
+    #library .markdown-body {
+      font-size: 30px; } }
+  @media (max-width: 1439px) and (min-width: 1024px) {
+    #library .markdown-body {
+      font-size: 24px; }
+    #library ~ .mdc-fab__container {
+      bottom: 1.5rem;
+      right: 1.5rem; } }
+  @media (max-width: 1023px) and (min-width: 840px) {
+    #library .markdown-body {
+      font-size: 20px; } }
 
 .mdc-dialog .mdc-dialog__surface {
   border-radius: 0; }

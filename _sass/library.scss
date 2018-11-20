@@ -1,40 +1,40 @@
 #library {
+  counter-reset: paragraph;
 
-  & main {
-    counter-reset: paragraph;
+  & h2 {
+    // @include mdc-typography(headline5);
+  }
 
-    & h2 {
-      @include mdc-typography(headline5);
+  & h3, h4, h5, h6 {
+    // @include mdc-typography(headline6);
+  }
+
+  & article .markdown-body > p {
+    position: relative;
+
+    &.img::before {
+      counter-increment: none;
+      content: "";
     }
 
-    & h3, h4, h5, h6 {
-      @include mdc-typography(headline6);
-    }
-
-    & article .markdown-body > p {
-      position: relative;
-
-      &.img::before {
-        counter-increment: none;
-        content: "";
-      }
-
-      &::before {
-        counter-increment: paragraph;
-        content: counter(paragraph);
-        position: absolute;
-        margin-left: -2em;
-        @include mdc-theme-prop(color, text-secondary-on-background, true, false);
-      }
-    }
-
-    & article .markdown-body > .mdc-card {
-      padding: 1em;
-      background-color: #f5f5f5; // Gray 100
+    &::before {
+      counter-increment: paragraph;
+      content: counter(paragraph);
+      position: absolute;
+      margin-left: -2em;
+      @include mdc-theme-prop(color, text-secondary-on-background, true, false);
     }
   }
 
-  & .mdc-fab__container {
+  & article .markdown-body > .mdc-card {
+    padding: 1em;
+    // @include mdc-card-fill-color($color);
+    background-color: transparent;
+    // @include mdc-card-outline($color, $thickness);
+    border-color: var(--mdc-theme-primary);
+  }
+
+  ~ .mdc-fab__container {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -43,19 +43,19 @@
   // large desktop
   @media (min-width: 1440px) {
 
-    article .markdown-body {
+    .markdown-body {
       font-size: 30px;
     }
   }
 
   // desktop
-  @media (min-width: 1024px) {
+  @media (max-width: 1439px) and (min-width: 1024px) {
 
-    article .markdown-body {
+    .markdown-body {
       font-size: 24px;
     }
 
-    .mdc-fab__container {
+    ~ .mdc-fab__container {
       bottom: 1.5rem;
       right: 1.5rem;
     }
@@ -64,7 +64,7 @@
   // small desktop
   @media (max-width: 1023px) and (min-width: 840px) {
 
-    article .markdown-body {
+    .markdown-body {
       font-size: 20px;
     }
   }
