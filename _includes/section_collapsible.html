@@ -1,16 +1,22 @@
 
 
 <!-- creates loop for related_sections by subject > category > chapter -->
-{% assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" %}
-{% assign category = subject | where_exp: "sections", "sections.category == page.category" %}
-{% assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" | sort: "section" %}
+{%- assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" -%}
+{%- assign category = subject | where_exp: "sections", "sections.category == page.category" -%}
+{%- assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" | sort: "section" -%}
 
 
-{% for related_sections in chapter %}
-<h3 id="{{ related_sections.title | slugify }}">{{ related_sections.title }}</h3>
-<p>{{ related_sections.excerpt | strip_html | normalize_whitespace }}</p>
-<a href="{{ related_sections.url }}" class="mdc-button mdc-button--outlined">Read more</a>
-{% endfor %}
+{%- for related_sections in chapter -%}
+  <div class="mdc-card mdc-card--outlined">
+    <a class="mdc-card__primary-action mdc-ripple-surface--primary" href="{{ related_sections.url | relative_url }}" data-mdc-auto-init="MDCRipple">
+      <div class="mdc-card__primary">
+        <span class="mdc-card__primary-overline">{{ "Lesson " | append: related_sections.section }}</span>
+        <span class="mdc-card__primary-headline">{{ related_sections.title }}</span>
+        <span class="mdc-card__primary-body">{{ related_sections.excerpt | strip_html | normalize_whitespace }}</span>
+      </div>
+    </a>
+  </div>
+{%- endfor -%}
 
 
 

@@ -1,37 +1,60 @@
 #library {
-  counter-reset: paragraph;
 
   & h2 {
-    // @include mdc-typography(headline5);
+    margin-top: 0;
+    @include mdc-typography(headline5);
+    font-size: 1.5rem / 1rem * 100%;
+    line-height: normal;
   }
 
-  & h3, h4, h5, h6 {
-    // @include mdc-typography(headline6);
-  }
+  & .markdown-body.sections {
+    counter-reset: paragraph;
 
-  & article .markdown-body > p {
+    & p {
     position: relative;
 
-    &.img::before {
-      counter-increment: none;
-      content: "";
-    }
-
-    &::before {
-      counter-increment: paragraph;
-      content: counter(paragraph);
-      position: absolute;
-      margin-left: -2em;
-      @include mdc-theme-prop(color, text-secondary-on-background, true, false);
+      &::before {
+        position: absolute;
+        margin-left: -2em;
+        @include mdc-theme-prop(color, text-secondary-on-background, true, false);
+        counter-increment: paragraph;
+        content: counter(paragraph);
+      }
     }
   }
 
-  & article .markdown-body > .mdc-card {
-    padding: 1em;
-    // @include mdc-card-fill-color($color);
-    background-color: transparent;
-    // @include mdc-card-outline($color, $thickness);
+  & .mdc-card {
+    margin: 1em 0;
+    @include mdc-card-fill-color(transparent);
+    @include mdc-card-outline(primary, 1px);
     border-color: var(--mdc-theme-primary);
+  }
+
+  & .mdc-card__primary {
+    padding: 1rem;
+  }
+
+  & .mdc-card__primary-overline {
+    display: block;
+    @include mdc-typography(overline);
+    @include mdc-theme-prop(color, text-secondary-on-background, true, false);
+    font-size: 0.75rem / 1rem * 100%;
+    line-height: normal;
+  }
+
+  & .mdc-card__primary-headline {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 1em;
+    @include mdc-typography(headline6);
+    @include mdc-theme-prop(color, text-primary-on-background, true, false);
+    font-size: 1.25rem / 1rem * 100%;
+    line-height: normal;
+  }
+
+  & .mdc-card__primary-body{
+    @include mdc-theme-prop(color, text-primary-on-background, true, false);
+    margin-bottom: 0;
   }
 
   ~ .mdc-fab__container {

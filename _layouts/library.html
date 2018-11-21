@@ -21,7 +21,7 @@
       <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
           <div class="mdc-layout-grid__cell">
-            <div class="markdown-body">
+            <div class="markdown-body {{ page.collection }}">
 
               {%- if page.collection == "chapters" -%}
                 <h2 id="{{ page.slug }}">{{ page.slug | capitalize | replace: "-", " " }}</h2>
