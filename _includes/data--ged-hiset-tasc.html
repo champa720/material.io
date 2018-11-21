@@ -5,7 +5,7 @@
 {%- endif -%}
 
 {%- for data in subject -%}
-<article id="subtest-overview">
+<article>
   <h2 class="mdc-typography--headline6">{{ include.title }} Subtest Overview</h2>
   <div class="mdc-list-group">
     <span class="mdc-list-group__subheader">{{ data.title }}</span>
@@ -49,7 +49,7 @@
 {%- if page.layout == "section" -%} {%- break -%} {%- endif -%}
 
 
-<article id="online-practice">
+<article>
   <h2 class="mdc-typography--headline6">{{ include.title }} Apps & Websites</h2>
 
   <!-- desktop list -->
@@ -96,7 +96,7 @@
 </article>
 
 
-<article id="resources">
+<article>
   <h2 class="mdc-typography--headline6">{{ include.title }} Resources</h2>
 
   <!-- desktop list -->
