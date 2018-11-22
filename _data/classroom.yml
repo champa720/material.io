@@ -144,6 +144,12 @@
     avatar: "@NotableWomen.png"
     url: "https://notablewomen.withgoogle.com/"
   -
+    domain: "www.womenshistory.org"
+    title: "National Women's History Museum"
+    description: "National Women's History Museum educates & shapes the future by integrating women's distinctive history into the culture & history of the U.S."
+    avatar: "@womenshistory.jpg"
+    url: "https://www.womenshistory.org/"
+  -
     domain: "Perspecs News"
     title: "Three Sides to Every Story"
     description: "Perspecs News - get a different perspective on major news stories from around the world."
