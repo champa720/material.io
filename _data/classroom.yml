@@ -138,6 +138,13 @@
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
+    domain: "Libby"
+    title: "Libby, by OverDrive"
+    description: "Libby, by OverDrive - an app for library ebooks and audiobooks"
+    avatar: "@meetlibby.jpg"
+    url: "https://libbyapp.com/"
+    badge: true
+  -
     domain: "notablewomen.withgoogle.com"
     title: "Notable Women"
     description: "Swapping out the faces we all know for the faces we all should."
