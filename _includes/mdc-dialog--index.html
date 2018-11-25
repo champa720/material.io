@@ -44,7 +44,13 @@
 
 <script>
   var {{ content.domain| append: content.title | remove: ' ' }} = new mdc.dialog.MDCDialog(document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}--dialog'));
-  document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}--dialog-activation').addEventListener('click', function (evt) {
+  // desktop list
+  document.querySelector('.mdc-image-list #{{ content.domain | append: '-' | append: content.title | slugify }}--dialog-activation').addEventListener('click', function (evt) {
+    {{ content.domain| append: content.title | remove: ' '  }}.lastFocusedTarget = evt.target;
+    {{ content.domain| append: content.title | remove: ' '  }}.open();
+  });
+  // mobile list
+  document.querySelector('.mdc-list #{{ content.domain | append: '-' | append: content.title | slugify }}--dialog-activation').addEventListener('click', function (evt) {
     {{ content.domain| append: content.title | remove: ' '  }}.lastFocusedTarget = evt.target;
     {{ content.domain| append: content.title | remove: ' '  }}.open();
   });
