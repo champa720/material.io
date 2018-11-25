@@ -2,14 +2,14 @@
 {% assign subject = site.chapters | where_exp: "chapters", "chapters.subject == page.subject" %}
 {% assign category = subject | where_exp: "chapters", "chapters.category == content.domain" | group_by: "tag" | sort: "section" %}
 
-<aside id="{{ content.domain | append: '-' | append: content.title | slugify }}-dialog"
+<aside id="{{ content.domain | append: '-' | append: content.title | slugify }}--dialog"
   class="mdc-dialog"
   role="dialog"
   aria-labelledby="dialog-domain"
   aria-describedby="dialog-description">
   <div class="mdc-dialog__container">
     <div class="mdc-dialog__surface">
-      <h3 class="mdc-dialog__title" id="{{ content.domain }}dialog-domain">{{ content.domain }}</h3>
+      <h3 class="mdc-dialog__title" id="dialog-domain">{{ content.domain }}</h3>
       <section class="mdc-dialog__content" id="dialog-description">
         <div class="mdc-list-group">
 
@@ -43,8 +43,8 @@
 </aside>
 
 <script>
-  var {{ content.domain| append: content.title | remove: ' ' }} = new mdc.dialog.MDCDialog(document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}-dialog'));
-  document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}-dialog-activation').addEventListener('click', function (evt) {
+  var {{ content.domain| append: content.title | remove: ' ' }} = new mdc.dialog.MDCDialog(document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}--dialog'));
+  document.querySelector('#{{ content.domain | append: '-' | append: content.title | slugify }}--dialog-activation').addEventListener('click', function (evt) {
     {{ content.domain| append: content.title | remove: ' '  }}.lastFocusedTarget = evt.target;
     {{ content.domain| append: content.title | remove: ' '  }}.open();
   });
