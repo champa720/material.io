@@ -3,10 +3,10 @@ title: Character
 author: Multiple Sources
 
 subject: Reading
-category: Fiction
+category: Multiple Sources
 chapter: 4
 section: 4.0
-tag: Literary
+tag: Fiction
 
 cover_image: "default.jpg"
 

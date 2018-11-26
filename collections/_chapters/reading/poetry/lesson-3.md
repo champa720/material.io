@@ -3,10 +3,10 @@ title: Figurative Language
 author: Multiple Sources
 
 subject: Reading
-category: Poetry
+category: Multiple Sources
 chapter: 3
 section: 3.0
-tag: Literary
+tag: Poetry
 
 cover_image: "default.jpg"
 

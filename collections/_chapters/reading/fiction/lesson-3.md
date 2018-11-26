@@ -3,10 +3,10 @@ title: Point of View
 author: Multiple Sources
 
 subject: Reading
-category: Fiction
+category: Multiple Sources
 chapter: 3
 section: 3.0
-tag: Literary
+tag: Fiction
 
 cover_image: "default.jpg"
 

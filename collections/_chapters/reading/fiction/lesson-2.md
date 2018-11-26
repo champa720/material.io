@@ -3,10 +3,10 @@ title: Plot
 author: Multiple Sources
 
 subject: Reading
-category: Fiction
+category: Multiple Sources
 chapter: 2
 section: 2.0
-tag: Literary
+tag: Fiction
 
 cover_image: "default.jpg"
 

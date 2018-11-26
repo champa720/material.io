@@ -1,12 +1,12 @@
 ---
 title: Analyzing Arguments
-author:
+author: Multiple Sources
 
 subject: Reading
-category: Nonfiction
+category: Multiple Sources
 chapter: 1
 section: 1.0
-tag: Argumentative
+tag: Nonfiction
 
 cover_image: "default.jpg"
 

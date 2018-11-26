@@ -1,12 +1,17 @@
-<nav class="mdc-list" aria-orientation="vertical">
+<nav class="mdc-list mdc-list--two-line" aria-orientation="vertical">
 
   <!-- creates loop for related_sections by subject > category > chapter -->
-  {% assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" %}
-  {% assign category = subject | where_exp: "sections", "sections.category == page.category" %}
-  {% assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" | sort: "section" %}
+  {%- assign subject = site.sections | where_exp: "sections", "sections.subject == page.subject" -%}
+  {%- assign category = subject | where_exp: "sections", "sections.category == page.tag" -%}
+  {%- assign chapter = category | where_exp: "sections", "sections.chapter == page.chapter" | sort: "section" -%}
 
-  {% for related_sections in chapter %}
-  <a href="{{ related_sections.url }}" class="mdc-list-item">{{ related_sections.title }}</a>
-  {% endfor %}
+  {%- for content in chapter -%}
+    <a href="{{ content.url }}" class="mdc-list-item">
+      <span class="mdc-list-item__text">
+        <span class="mdc-list-item__primary-text">{{ content.title }}</span>
+        <span class="mdc-list-item__secondary-text">{{ content.author }}</span>
+      </span>
+    </a>
+  {%- endfor -%}
 
 </nav>

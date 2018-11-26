@@ -3561,7 +3561,7 @@ nav.mdc-drawer.mdc-drawer--permanent {
 @media (min-width: 600px) {
   body {
     margin-left: 56px; }
-  main .mdc-list:not(.mdc-list--non-interactive) {
+  main ul.mdc-list:not(.mdc-list--non-interactive) {
     display: none; } }
 
 @media (max-width: 599px) {

@@ -3,10 +3,10 @@ title: Tone
 author: Multiple Sources
 
 subject: Reading
-category: Poetry
+category: Multiple Sources
 chapter: 1
 section: 1.0
-tag: Literary
+tag: Poetry
 
 cover_image: "default.jpg"
 

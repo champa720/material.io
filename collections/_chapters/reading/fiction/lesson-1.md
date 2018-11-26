@@ -3,10 +3,10 @@ title: Setting
 author: Multiple Sources
 
 subject: Reading
-category: Fiction
+category: Multiple Sources
 chapter: 1
 section: 1.0
-tag: Literary
+tag: Fiction
 
 cover_image: "default.jpg"
 
