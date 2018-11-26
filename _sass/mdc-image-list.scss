@@ -2,25 +2,9 @@
 @media (min-width: 1440px) {
   .mdc-layout-grid {
     max-width: 1440px / 1920px * 100%;
-  }
-
-  .mdc-image-list {
-    @include mdc-image-list-standard-columns(5,24px);
-    @include mdc-image-list-shape-radius(8px, false);
-    // @include mdc-image-list-aspect(0.7727);
-    & .mdc-image-list__image {
-      height: 100%
-    }
-  }
-}
-
-// 1024 - 1439 **tablet** medium 12 columns
-@media (min-width: 1024px) and (max-width: 1439px) {
-  .mdc-layout-grid {
-    max-width: 1024px / 1439px * 100%;
 
     & .mdc-layout-grid__cell {
-      grid-column-end: span 12;
+      grid-column-end: span 9;
     }
   }
 
@@ -34,14 +18,10 @@
   }
 }
 
-// 840 - 1023 **tablet** small 12 columns
-@media (min-width: 840px) and (max-width: 1023px) {
+// 1024 - 1439 **tablet** medium 12 columns
+@media (min-width: 1024px) and (max-width: 1439px) {
   .mdc-layout-grid {
-    max-width: 840px / 1023px * 100%;
-
-    & .mdc-layout-grid__cell {
-      grid-column-end: span 12;
-    }
+    max-width: 1024px / 1439px * 100%;
   }
 
   .mdc-image-list {
@@ -54,10 +34,26 @@
   }
 }
 
-// 600 - 839 **tablet** small 8 columns
-@media (min-width: 600px) and (max-width: 839px) {
+// 840 - 1023 **tablet** small 12 columns
+@media (min-width: 840px) and (max-width: 1023px) {
   .mdc-layout-grid {
-    max-width: 600px / 839px * 100%;
+    max-width: 840px / 1023px * 100%;
+  }
+
+  .mdc-image-list {
+    @include mdc-image-list-standard-columns(3,24px);
+    @include mdc-image-list-shape-radius(8px, false);
+    // @include mdc-image-list-aspect(0.7727);
+    & .mdc-image-list__image {
+      height: 100%
+    }
+  }
+}
+
+// 720 - 839 **tablet** small 8 columns
+@media (min-width: 720px) and (max-width: 839px) {
+  .mdc-layout-grid {
+    max-width: 720px / 839px * 100%;
   }
 
   .mdc-image-list {
@@ -70,10 +66,10 @@
   }
 }
 
-// 480 – 599 **handset** xsmall 4 columns
-@media (min-width: 480px) and (max-width: 599px) {
+// 600 – 719 **tablet** small 8 columns
+@media (min-width: 600px) and (max-width: 719px) {
   .mdc-layout-grid {
-    max-width: 480px / 599px * 100%;
+    max-width: 600px / 719px * 100%;
   }
 
   .mdc-image-list {
