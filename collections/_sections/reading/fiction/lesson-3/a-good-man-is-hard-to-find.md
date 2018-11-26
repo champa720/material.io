@@ -4,8 +4,8 @@ author: "Flannery O'Connor"
 
 subject: Reading
 category: Fiction
-chapter: 4
-section: 4.1
+chapter: 3
+section: 3.1
 tag: Character
 
 cover_image: "default.jpg"
