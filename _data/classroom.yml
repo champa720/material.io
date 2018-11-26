@@ -65,25 +65,19 @@
     title: "Fractions, Decimals, and Percents"
     description: ""
     cover_image: "np-2.jpg"
-    children:
-      - title: "Complete text"
-        url: "https://drive.google.com/open?id=0B3qyIxugPt-kd2N0X253Y0hONGc"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-kd2N0X253Y0hONGc"
   -
     domain: "Number Power 3"
     title: "Algebra"
     description: "Signed Numbers, Powers and Roots, Algebraic Expressions and Formulas, One-Step Equations, Multi-Step Equations, Special Equations, Graphing Equations, Inequalities, Polynomials, and Factoring"
     cover_image: "np-3.jpg"
-    children:
-      - title: "Complete text"
-        url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
   -
     domain: "Number Power 4"
     title: "Geometry"
     description: "Angles, Triangles, Perimeter, Area, and Volume"
     cover_image: "np-4.jpg"
-    children:
-      - title: "Complete text"
-        url: "https://drive.google.com/open?id=0B3qyIxugPt-ka1NXS1ZSYi1RRlU"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-ka1NXS1ZSYi1RRlU"
   -
     domain: "Math Minutes"
     title: "Sixth-Grade"
