@@ -52,6 +52,12 @@
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
+    domain: "Math is Visual"
+    title: "Math is Visual"
+    description: "Let's teach it that way."
+    avatar: "@mathisvisual.jpg"
+    url: "http://mathisvisual.com"
+  -
     domain: "PhotoMath"
     title: "Camera Calculator"
     description: "Photomath is the world's smartest camera calculator and math assistant! Point your camera toward a math problem and Photomath will show the result with solution."
