@@ -2,6 +2,17 @@
 
 # Jason's Classroom
 
+How-to update CSS `assets/css/bundle.css`
+Update `package.json` "material-components-web": ["X.X.X"](https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md),
+
+```
+rm -rf node_modules // remove old node_modules
+npm install
+npm audit fix
+npm start
+
+```
+
 ## Organization
 
 Collections

@@ -1,7 +1,7 @@
 cache: bundler
 language: ruby
 rvm:
-  - 2.5.1
+  - 2.5.3
 install: gem install bundler --no-rdoc --no-ri
 script:
   - bundle install
