@@ -3,13 +3,20 @@
 # Jason's Classroom
 
 How-to update CSS `assets/css/bundle.css`
-Update `package.json` "material-components-web": ["X.X.X"](https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md),
+[CHANGELOG: material-components-web](https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md),
 
 ```
+// Check for outdated packages
+npm update
+npm outdated
+
+// Update material-components-web
+npm install material-components-web@latest --save-dev
+npm start
+
+// Reset node_modules
 rm -rf node_modules // remove old node_modules
 npm install
-npm audit fix
-npm start
 
 ```
 
