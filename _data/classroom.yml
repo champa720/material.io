@@ -202,6 +202,12 @@
 - subject: Social Studies
   cbt:
   -
+    domain: "Constitute"
+    title: "Constitute"
+    description: "The World's Constitutions to Read, Search, and Compare"
+    avatar: "@constituteproject.png"
+    url: "https://www.constituteproject.org/"
+  -
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
