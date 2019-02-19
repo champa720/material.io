@@ -1,12 +1,6 @@
 - subject: Mathematics
   cbt:
   -
-    domain: "The NROC Project"
-    title: "EdReady Math"
-    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
-    url: "https://edready.org/home"
-  -
     domain: "Khan Academy"
     title: "Arithmetic Essentials"
     description: "Learn the essentials of arithmetic—all of the core arithmetic skills you'll need for algebra and beyond."
@@ -40,17 +34,17 @@
     url: "https://www.khanacademy.org/math/algebra?t=practice"
   -
     domain: "Learning Express Library"
-    title: "School Center"
-    description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
-    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
-  -
-    domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
     avatar: "@EBSCO.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
+  -
+    domain: "Learning Express Library"
+    title: "School Center"
+    description: "Skill-building resources for classroom and homework success."
+    avatar: "@EBSCO.jpg"
+    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Math is Visual"
     title: "Math is Visual"
@@ -64,26 +58,20 @@
     avatar: "@PhotoMath.jpg"
     url: "https://photomath.net"
     badge: true
+  -
+    domain: "The NROC Project"
+    title: "EdReady Math"
+    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
+    avatar: "@theNROCproject.jpg"
+    url: "https://edready.org/home"
 
   docs:
   -
-    domain: "Number Power 2"
-    title: "Fractions, Decimals, and Percents"
-    description: ""
-    cover_image: "np-2.jpg"
-    url: "https://drive.google.com/open?id=0B3qyIxugPt-kd2N0X253Y0hONGc"
-  -
-    domain: "Number Power 3"
-    title: "Algebra"
-    description: "Signed Numbers, Powers and Roots, Algebraic Expressions and Formulas, One-Step Equations, Multi-Step Equations, Special Equations, Graphing Equations, Inequalities, Polynomials, and Factoring"
-    cover_image: "np-3.jpg"
-    url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
-  -
-    domain: "Number Power 4"
-    title: "Geometry"
-    description: "Angles, Triangles, Perimeter, Area, and Volume"
-    cover_image: "np-4.jpg"
-    url: "https://drive.google.com/open?id=0B3qyIxugPt-ka1NXS1ZSYi1RRlU"
+    domain: "Math Minutes"
+    title: "Middle-Grade"
+    description: "One Hundred Minutes to Better Basic Skills"
+    cover_image: "mm-middle-grade.jpg"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-kckRFUjlLZ1lsQXM"
   -
     domain: "Math Minutes"
     title: "Sixth-Grade"
@@ -103,33 +91,26 @@
     cover_image: "mm-8th-grade.jpg"
     url: "https://drive.google.com/open?id=0B3qyIxugPt-kbFV6WHZSVmV6WUk"
   -
-    domain: "Math Minutes"
-    title: "Middle-Grade"
-    description: "One Hundred Minutes to Better Basic Skills"
-    cover_image: "mm-middle-grade.jpg"
-    url: "https://drive.google.com/open?id=0B3qyIxugPt-kckRFUjlLZ1lsQXM"
+    domain: "Number Power 2"
+    title: "Fractions, Decimals, and Percents"
+    description: ""
+    cover_image: "np-2.jpg"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-kd2N0X253Y0hONGc"
+  -
+    domain: "Number Power 3"
+    title: "Algebra"
+    description: "Signed Numbers, Powers and Roots, Algebraic Expressions and Formulas, One-Step Equations, Multi-Step Equations, Special Equations, Graphing Equations, Inequalities, Polynomials, and Factoring"
+    cover_image: "np-3.jpg"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-kODdtMk5wTWF6Vkk"
+  -
+    domain: "Number Power 4"
+    title: "Geometry"
+    description: "Angles, Triangles, Perimeter, Area, and Volume"
+    cover_image: "np-4.jpg"
+    url: "https://drive.google.com/open?id=0B3qyIxugPt-ka1NXS1ZSYi1RRlU"
 
 - subject: Reading
   cbt:
-  -
-    domain: "The NROC Project"
-    title: "EdReady English"
-    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
-    url: "https://edready.org/home"
-    badge: true
-  -
-    domain: "The NROC Project"
-    title: "HippoCampus"
-    description: "Explore over 6,800 free videos in 13 subject areas."
-    avatar: "@OERhippo.png"
-    url: "https://www.hippocampus.org/"
-  -
-    domain: "Learning Express Library"
-    title: "School Center"
-    description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
-    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Learning Express Library"
     title: "Adult Learning Center"
@@ -138,24 +119,30 @@
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
-    domain: "Libby"
-    title: "Libby, by OverDrive"
+    domain: "Learning Express Library"
+    title: "School Center"
+    description: "Skill-building resources for classroom and homework success."
+    avatar: "@EBSCO.jpg"
+    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+  -
+    domain: "Libby, by OverDrive"
+    title: "Libby"
     description: "Libby, by OverDrive - an app for library ebooks and audiobooks"
     avatar: "@meetlibby.jpg"
     url: "https://libbyapp.com/"
     badge: true
   -
-    domain: "notablewomen.withgoogle.com"
-    title: "Notable Women"
-    description: "Swapping out the faces we all know for the faces we all should."
-    avatar: "@NotableWomen.png"
-    url: "https://notablewomen.withgoogle.com/"
-  -
-    domain: "www.womenshistory.org"
+    domain: "National Women's History Museum"
     title: "National Women's History Museum"
     description: "National Women's History Museum educates & shapes the future by integrating women's distinctive history into the culture & history of the U.S."
     avatar: "@womenshistory.jpg"
     url: "https://www.womenshistory.org/"
+  -
+    domain: "Notable Women"
+    title: "Notable Women"
+    description: "Swapping out the faces we all know for the faces we all should."
+    avatar: "@NotableWomen.png"
+    url: "https://notablewomen.withgoogle.com/"
   -
     domain: "Perspecs News"
     title: "Three Sides to Every Story"
@@ -169,16 +156,28 @@
     avatar: "@ReadTheory.png"
     url: "https://readtheory.org/"
     badge: true
-
-- subject: Science
-  cbt:
+  -
+    domain: "The NROC Project"
+    title: "EdReady English"
+    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
+    avatar: "@theNROCproject.jpg"
+    url: "https://edready.org/home"
+    badge: true
   -
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
     avatar: "@OERhippo.png"
     url: "https://www.hippocampus.org/"
-    badge: true
+
+- subject: Science
+  cbt:
+  -
+    domain: "Learning Express Library"
+    title: "Adult Learning Center"
+    description: "Achieve your personal education and career goals."
+    avatar: "@EBSCO.jpg"
+    url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Learning Express Library"
     title: "School Center"
@@ -187,17 +186,18 @@
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
-    domain: "Learning Express Library"
-    title: "Adult Learning Center"
-    description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
-    url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
-  -
     domain: "National Aeronautics and Space Administration"
     title: "Solar System Exploration: NASA Science"
     description: "Learn about our planetary neighborhood, and the missions we're sending out to explore it."
     avatar: "@nasa.jpg"
     url: "https://solarsystem.nasa.gov"
+  -
+    domain: "The NROC Project"
+    title: "HippoCampus"
+    description: "Explore over 6,800 free videos in 13 subject areas."
+    avatar: "@OERhippo.png"
+    url: "https://www.hippocampus.org/"
+    badge: true
 
 - subject: Social Studies
   cbt:
@@ -205,14 +205,8 @@
     domain: "Constitute"
     title: "Constitute"
     description: "The World's Constitutions to Read, Search, and Compare"
-    avatar: "@constituteproject.png"
+    avatar: "@ccpconstitute.jpeg"
     url: "https://www.constituteproject.org/"
-  -
-    domain: "The NROC Project"
-    title: "HippoCampus"
-    description: "Explore over 6,800 free videos in 13 subject areas."
-    avatar: "@OERhippo.png"
-    url: "https://www.hippocampus.org/"
   -
     domain: "iCivics"
     title: "Civic Learning"
@@ -222,27 +216,26 @@
     badge: true
   -
     domain: "Learning Express Library"
+    title: "Adult Learning Center"
+    description: "Achieve your personal education and career goals."
+    avatar: "@EBSCO.jpg"
+    url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+  -
+    domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
     avatar: "@EBSCO.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
-    domain: "Learning Express Library"
-    title: "Adult Learning Center"
-    description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
-    url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+    domain: "The NROC Project"
+    title: "HippoCampus"
+    description: "Explore over 6,800 free videos in 13 subject areas."
+    avatar: "@OERhippo.png"
+    url: "https://www.hippocampus.org/"
 
 - subject: Writing
   cbt:
-  -
-    domain: "The NROC Project"
-    title: "EdReady English"
-    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
-    url: "https://edready.org/home"
-    badge: true
   -
     domain: "Khan Academy"
     title: "Grammar"
@@ -252,22 +245,29 @@
     badge: true
   -
     domain: "Learning Express Library"
-    title: "School Center"
-    description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
-    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
-  -
-    domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
     avatar: "@EBSCO.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
+  -
+    domain: "Learning Express Library"
+    title: "School Center"
+    description: "Skill-building resources for classroom and homework success."
+    avatar: "@EBSCO.jpg"
+    url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "ReadTheory"
     title: "Reading and Writing, Improved"
     description: "ReadTheory is a powerful educational tool created to improve reading comprehension for all ages and ability levels."
     avatar: "@ReadTheory.png"
     url: "https://readtheory.org/"
+    badge: true
+  -
+    domain: "The NROC Project"
+    title: "EdReady English"
+    description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
+    avatar: "@theNROCproject.jpg"
+    url: "https://edready.org/home"
     badge: true
   -
     domain: "TypingClub"
