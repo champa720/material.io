@@ -36,14 +36,14 @@
     domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
     domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Math is Visual"
@@ -55,14 +55,14 @@
     domain: "PhotoMath"
     title: "Camera Calculator"
     description: "Photomath is the world's smartest camera calculator and math assistant! Point your camera toward a math problem and Photomath will show the result with solution."
-    avatar: "@PhotoMath.jpg"
+    avatar: "@photomath.jpg"
     url: "https://photomath.net"
     badge: true
   -
     domain: "The NROC Project"
     title: "EdReady Math"
     description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
+    avatar: "@thenrocproject.jpg"
     url: "https://edready.org/home"
 
   docs:
@@ -115,14 +115,14 @@
     domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
     domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Libby, by OverDrive"
@@ -141,33 +141,33 @@
     domain: "Notable Women"
     title: "Notable Women"
     description: "Swapping out the faces we all know for the faces we all should."
-    avatar: "@NotableWomen.png"
+    avatar: "@notablewomen.png"
     url: "https://notablewomen.withgoogle.com/"
   -
     domain: "Perspecs News"
     title: "Three Sides to Every Story"
     description: "Perspecs News - get a different perspective on major news stories from around the world."
-    avatar: "@PerspecsNews.jpg"
+    avatar: "@perspecsnews.jpg"
     url: "http://www.perspecsnews.com/"
   -
     domain: "ReadTheory"
     title: "Reading and Writing, Improved"
     description: "ReadTheory is a powerful educational tool created to improve reading comprehension for all ages and ability levels."
-    avatar: "@ReadTheory.png"
+    avatar: "@readtheory.png"
     url: "https://readtheory.org/"
     badge: true
   -
     domain: "The NROC Project"
     title: "EdReady English"
     description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
+    avatar: "@thenrocproject.jpg"
     url: "https://edready.org/home"
     badge: true
   -
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
-    avatar: "@OERhippo.png"
+    avatar: "@oerhippo.png"
     url: "https://www.hippocampus.org/"
 
 - subject: Science
@@ -176,13 +176,13 @@
     domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
@@ -195,7 +195,7 @@
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
-    avatar: "@OERhippo.png"
+    avatar: "@oerhippo.png"
     url: "https://www.hippocampus.org/"
     badge: true
 
@@ -211,27 +211,27 @@
     domain: "iCivics"
     title: "Civic Learning"
     description: "iCivics exists to engage students in meaningful civic learning. We provide teachers well-written, inventive, and free resources that enhance their practice and inspire their classrooms."
-    avatar: "@iCivics.png"
+    avatar: "@icivics.png"
     url: "https://www.icivics.org/"
     badge: true
   -
     domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
-    avatar: "@OERhippo.png"
+    avatar: "@oerhippo.png"
     url: "https://www.hippocampus.org/"
 
 - subject: Writing
@@ -247,33 +247,33 @@
     domain: "Learning Express Library"
     title: "Adult Learning Center"
     description: "Achieve your personal education and career goals."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/adult-learning-center?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "Learning Express Library"
     title: "School Center"
     description: "Skill-building resources for classroom and homework success."
-    avatar: "@EBSCO.jpg"
+    avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
     domain: "ReadTheory"
     title: "Reading and Writing, Improved"
     description: "ReadTheory is a powerful educational tool created to improve reading comprehension for all ages and ability levels."
-    avatar: "@ReadTheory.png"
+    avatar: "@readtheory.png"
     url: "https://readtheory.org/"
     badge: true
   -
     domain: "The NROC Project"
     title: "EdReady English"
     description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
-    avatar: "@theNROCproject.jpg"
+    avatar: "@thenrocproject.jpg"
     url: "https://edready.org/home"
     badge: true
   -
     domain: "TypingClub"
     title: "Learn Touch Typing"
     description: "Learn touch typing online using TypingClub's free typing courses. It includes 650 typing games, typing tests and videos."
-    avatar: "@TypingClub.jpg"
+    avatar: "@typingclub.jpg"
     url: "https://www.typingclub.com/"
     badge: true
 
