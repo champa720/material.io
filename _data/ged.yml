@@ -14,13 +14,13 @@
     -
       domain: "GED Testing Services"
       title: "Mathematical Reasoning Practice Test"
-      avatar: "@GEDTesting.png"
+      avatar: "@gedtesting.png"
       url: "https://ged.com/practice-test/en/math/"
       url_spanish: "https://ged.com/practice-test/es/math/"
     -
       domain: "Learning Express Library"
       title: "High School Equivalency Center"
-      avatar: "@EBSCO.jpg"
+      avatar: "@ebsco.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
@@ -52,13 +52,13 @@
     -
       domain: "GED Testing Services"
       title: "Reasoning through Language Arts Practice Test"
-      avatar: "@GEDTesting.png"
+      avatar: "@gedtesting.png"
       url: "https://ged.com/practice-test/en/rla/"
       url_spanish: "https://ged.com/practice-test/es/rla/"
     -
       domain: "Learning Express Library"
       title: "High School Equivalency Center"
-      avatar: "@EBSCO.jpg"
+      avatar: "@ebsco.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
@@ -116,13 +116,13 @@
     -
       domain: "GED Testing Services"
       title: "Science Practice Test"
-      avatar: "@GEDTesting.png"
+      avatar: "@gedtesting.png"
       url: "https://ged.com/practice-test/en/science/"
       url_spanish: "https://ged.com/practice-test/es/science/"
     -
       domain: "Learning Express Library"
       title: "High School Equivalency Center"
-      avatar: "@EBSCO.jpg"
+      avatar: "@ebsco.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
@@ -150,13 +150,13 @@
     -
       domain: "GED Testing Services"
       title: "Social Studies Practice Test"
-      avatar: "@GEDTesting.png"
+      avatar: "@gedtesting.png"
       url:  "https://ged.com/practice-test/en/social-studies/"
       url_spanish: "https://ged.com/practice-test/es/social-studies/"
     -
       domain: "Learning Express Library"
       title: "High School Equivalency Center"
-      avatar: "@EBSCO.jpg"
+      avatar: "@ebsco.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
@@ -187,13 +187,13 @@
     -
       domain: "GED Testing Services"
       title: "Reasoning through Language Arts Practice Test"
-      avatar: "@GEDTesting.png"
+      avatar: "@gedtesting.png"
       url: "https://ged.com/practice-test/en/rla/"
       url_spanish: "https://ged.com/practice-test/es/rla/"
     -
       domain: "Learning Express Library"
       title: "High School Equivalency Center"
-      avatar: "@EBSCO.jpg"
+      avatar: "@ebsco.jpg"
       url: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       url_spanish: "https://www.learningexpresshub.com/hsequivalencycenter?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
       badge: true
