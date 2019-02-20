@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/champa720/hse-materialize.svg?branch=master)](https://travis-ci.org/champa720/hse-materialize)
+[![Build Status](https://travis-ci.org/champa720/material.io.svg?branch=master)](https://travis-ci.org/champa720/material.io)
 
 # Jason's Classroom
 
