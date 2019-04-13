@@ -1,6 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-/assets/docs/
+assets/docs/
 node_modules
-style-bundle.js
+webpack.style-bundle.js
