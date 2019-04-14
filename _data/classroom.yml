@@ -46,6 +46,13 @@
     avatar: "@ebsco.jpg"
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
   -
+    domain: "Math-Drills.com"
+    title: "Free Math Worksheets"
+    description: "Discover over 50 thousand math worksheets on a variety of elementary and middle school topics. Our PDF math worksheets are easy to print or download and free to use in your school or home. No sign-up required."
+    avatar: "@mathdrills.png"
+    url: "https://www.math-drills.com/"
+    badge: true
+  -
     domain: "Math is Visual"
     title: "Math is Visual"
     description: "Let's teach it that way."
@@ -132,17 +139,18 @@
     url: "https://libbyapp.com/"
     badge: true
   -
-    domain: "National Women's History Museum"
-    title: "National Women's History Museum"
-    description: "National Women's History Museum educates & shapes the future by integrating women's distinctive history into the culture & history of the U.S."
-    avatar: "@womenshistory.jpg"
-    url: "https://www.womenshistory.org/"
-  -
-    domain: "Notable Women"
+    domain: "NotableWomen.withgoogle.com"
     title: "Notable Women"
     description: "Swapping out the faces we all know for the faces we all should."
     avatar: "@notablewomen.png"
     url: "https://notablewomen.withgoogle.com/"
+  -
+    domain: "Newsela"
+    title: "Instructional Content Platform"
+    description: "Newsela is an Instructional Content Platform that supercharges reading engagement and learning in every subject."
+    avatar: "@newsela.jpg"
+    url: "https://newsela.com/join/#/teach-or-read"
+    badge: true
   -
     domain: "Perspecs News"
     title: "Three Sides to Every Story"
@@ -169,9 +177,34 @@
     description: "Explore over 6,800 free videos in 13 subject areas."
     avatar: "@oerhippo.png"
     url: "https://www.hippocampus.org/"
+  -
+    domain: "WomensHistory.org"
+    title: "National Women's History Museum"
+    description: "National Women's History Museum educates & shapes the future by integrating women's distinctive history into the culture & history of the U.S."
+    avatar: "@womenshistory.jpg"
+    url: "https://www.womenshistory.org/"
 
 - subject: Science
   cbt:
+  -
+    domain: "Esri Story Maps"
+    title: "America's Most Endangered Species"
+    description: "Celebrating America's Landmark Environmental Legislation"
+    avatar: "@esristorymaps.jpg"
+    url: "https://natureserve.maps.arcgis.com/apps/Cascade/index.html?appid=5446925c6f73456f8a868652aad15b8d"
+  -
+    domain: "Esri Story Maps"
+    title: "An Atlas of Electricity"
+    description: "Electricity is integral to the modern American lifestyle. But the generation and transmission of electricity is a complex, opaque process. Here's how it all works."
+    avatar: "@esristorymaps.jpg"
+    url: "https://storymaps.esri.com/stories/2016/electricity/"
+  -
+    domain: "Esri Story Maps"
+    title: "Story Maps Gallery"
+    description: "Find inspiration in this showcase featuring a curated selection of stories created using Esri Story Maps."
+    avatar: "@esristorymaps.jpg"
+    url: "https://storymaps.arcgis.com/en/gallery/"
+    badge: true
   -
     domain: "Learning Express Library"
     title: "Adult Learning Center"
@@ -186,6 +219,12 @@
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
+    domain: "Legends of Learning"
+    title: "Science Games For Teachers and Students: Don Your Cape!"
+    description: "Science games for grades 3-8 that increase engagement and test scores. These curriculum games align to NGSS, TEKS, SOL, and GSE standards."
+    avatar: "@legendlearning.jpg"
+    url: "https://www.legendsoflearning.com/"
+  -
     domain: "National Aeronautics and Space Administration"
     title: "Solar System Exploration: NASA Science"
     description: "Learn about our planetary neighborhood, and the missions we're sending out to explore it."
@@ -198,15 +237,40 @@
     avatar: "@oerhippo.png"
     url: "https://www.hippocampus.org/"
     badge: true
+  -
+    domain: "Zooniverse"
+    title: "People-powered research"
+    description: "The Zooniverse is the world’s largest and most popular platform for people-powered research."
+    avatar: "@the_zooniverse.jpg"
+    url: "https://www.zooniverse.org/"
+    badge: true
 
 - subject: Social Studies
   cbt:
   -
     domain: "Constitute"
     title: "Constitute"
-    description: "The World's Constitutions to Read, Search, and Compare"
+    description: "The World's Constitutions to Read, Search, and Compare."
     avatar: "@ccpconstitute.jpeg"
     url: "https://www.constituteproject.org/"
+  -
+    domain: "Digital Public Library of America"
+    title: "Primary Source Sets"
+    description: "The Digital Public Library of America brings together the riches of America’s libraries, archives, and museums, and makes them freely available to the world."
+    avatar: "@dpla.png"
+    url: "https://dp.la/primary-source-sets"
+  -
+    domain: "Equal Justice Initiative"
+    title: "Segregation in America"
+    description: "Understanding the opposition to racial equality."
+    avatar: "@eji_org.jpg"
+    url: "https://segregationinamerica.eji.org/"
+  -
+    domain: "Google Arts & Culture"
+    title: "Open Heritage"
+    description: "Explore iconic locations in 3D, discover the tools of digital preservation, and download CyArk’s collection."
+    avatar: "@googlearts.jpg"
+    url: "https://artsandculture.google.com/project/cyark"
   -
     domain: "iCivics"
     title: "Civic Learning"
@@ -228,6 +292,62 @@
     url: "https://www.learningexpresshub.com/school-center-ccss?AuthToken=7551907A-DE13-4C8E-9559-72D16C4E971D"
     badge: true
   -
+    domain: "Library of Congress"
+    title: "Eagle Eye Citizen"
+    description: "Solve and create American history and civics challenges to explore Library of Congress primary sources — and look closer."
+    avatar: "@librarycongress.jpg"
+    url: "https://www.eagleeyecitizen.org/"
+  -
+    domain: "Library of Congress"
+    title: "Kid Citizen"
+    description: "KidCitizen games for young grammar school children to work with Primary Sources."
+    avatar: "@librarycongress.jpg"
+    url: "https://www.kidcitizen.net/"
+  -
+    domain: "Library of Congress"
+    title: "My Case Maker"
+    description: "Inquiry-based learning with library of congress primary source documents."
+    avatar: "@librarycongress.jpg"
+    url: "https://mycasemaker.org/"
+    badge: true
+  -
+    domain: "MyLifeElsewhere.com"
+    title: "Worldwide Country and City Comparison"
+    description: "MyLifeElsewhere allows you to compare your home country with different countries around the world. Have you ever wondered what your life would be like if you were born somewhere else? Find out at MyLifeElsewhere.com."
+    avatar: "@mylifeelsewheredotcom.jpg"
+    url: "https://www.mylifeelsewhere.com/"
+  -
+    domain: "National Constitution Center"
+    title: "Constitutional Rights Origins and Travels"
+    description: "Constitutional Rights Origins and Travels"
+    avatar: "@constitutionctr.jpg"
+    url: "http://constitutionalrights.constitutioncenter.org"
+  -
+    domain: "Native-Land.ca"
+    title: "Our home on native land"
+    description: "Welcome to Native Land. This is a resource for North Americans (and others) to find out more about local Indigenous territories and languages."
+    avatar: "@nativelandnet.jpg"
+    url: "https://native-land.ca/"
+  -
+    domain: "Pacific Standard"
+    title: "The Social Justice Foundation"
+    description: "Pacific Standard grapples with the nation's biggest issues by illuminating what shapes human behavior."
+    avatar: "@pacificstandard.jpg"
+    url: "https://psmag.com/"
+  -
+    domain: "Pacific Standard"
+    title: "A Journey Through Contested Lands"
+    description: "Six photographers went out into remote regions around the world where indigenous communities are waging unseen battles against governments and commercial interests to remain on their ancestral land. Here's what they found."
+    avatar: "@pacificstandard.jpg"
+    url: "http://contestedlands.psmag.com/"
+  -
+    domain: "Smithsonian American Indian Museum"
+    title: "Americans"
+    description: "Americans highlights the ways in which American Indians have been part of the nation’s identity since before the country began, and explores how Indians are embedded in the history, pop culture, and identity of the United States."
+    avatar: "@smithsoniannmai.jpg"
+    url: "http://contestedlands.psmag.com/"
+    badge: true
+  -
     domain: "The NROC Project"
     title: "HippoCampus"
     description: "Explore over 6,800 free videos in 13 subject areas."
@@ -236,6 +356,19 @@
 
 - subject: Writing
   cbt:
+  -
+    domain: "British Council"
+    title: "Watch grammar videos"
+    description: "Watch fun videos to learn and practise English grammar."
+    avatar: "@learnenglish_bc.jpg"
+    url: "http://learnenglishteens.britishcouncil.org/grammar"
+    badge: true
+  -
+    domain: "British Council"
+    title: "Improve your English grammar and vocabulary"
+    description: "Watch fun videos to learn English grammar and phrasal verbs and do exercises to improve your vocabulary."
+    avatar: "@learnenglish_bc.jpg"
+    url: "http://learnenglishteens.britishcouncil.org/grammar"
   -
     domain: "Khan Academy"
     title: "Grammar"
@@ -268,13 +401,19 @@
     description: "EdReady™ lets you assess your readiness for college math and English, see target options, and get a personalized study path to fill in knowledge gaps."
     avatar: "@thenrocproject.jpg"
     url: "https://edready.org/home"
-    badge: true
   -
     domain: "TypingClub"
     title: "Learn Touch Typing"
     description: "Learn touch typing online using TypingClub's free typing courses. It includes 650 typing games, typing tests and videos."
     avatar: "@typingclub.jpg"
     url: "https://www.typingclub.com/"
+    badge: true
+  -
+    domain: "Quill.org"
+    title: "Interactive Writing and Grammar"
+    description: "Free tools to make your students better writers."
+    avatar: "@quill_org.png"
+    url: "https://www.quill.org/"
     badge: true
 
   docs:
