@@ -330,12 +330,6 @@
     url: "https://native-land.ca/"
   -
     domain: "Pacific Standard"
-    title: "The Social Justice Foundation"
-    description: "Pacific Standard grapples with the nation's biggest issues by illuminating what shapes human behavior."
-    avatar: "@pacificstand.jpg"
-    url: "https://psmag.com/"
-  -
-    domain: "Pacific Standard"
     title: "A Journey Through Contested Lands"
     description: "Six photographers went out into remote regions around the world where indigenous communities are waging unseen battles against governments and commercial interests to remain on their ancestral land. Here's what they found."
     avatar: "@pacificstand.jpg"
@@ -345,7 +339,7 @@
     title: "Americans"
     description: "Americans highlights the ways in which American Indians have been part of the nation’s identity since before the country began, and explores how Indians are embedded in the history, pop culture, and identity of the United States."
     avatar: "@smithsoniannmai.jpg"
-    url: "http://contestedlands.psmag.com/"
+    url: "https://americanindian.si.edu/americans/"
     badge: true
   -
     domain: "The NROC Project"
