@@ -362,7 +362,13 @@
     title: "Improve your English grammar and vocabulary"
     description: "Watch fun videos to learn English grammar and phrasal verbs and do exercises to improve your vocabulary."
     avatar: "@learnenglish_bc.jpg"
-    url: "http://learnenglishteens.britishcouncil.org/grammar"
+    url: "http://learnenglishteens.britishcouncil.org/vocabulary"
+  -
+    domain: "GrammarManComic.com"
+    title: "Grammarman"
+    description: "Grammarman comics, templates, maze games,apps and more."
+    avatar: "@grammarmancomic.jpg"
+    url: "https://grammarmancomic.com/comics/grammarman/"
   -
     domain: "Khan Academy"
     title: "Grammar"
