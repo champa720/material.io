@@ -5,7 +5,7 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = [{
   mode: 'production',
-  entry: './_sass/app.scss',
+  entry: './_sass/_app.scss',
   output: {
     path: path.resolve(__dirname, "./"),
     filename: "webpack.style-bundle.js",
