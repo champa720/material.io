@@ -1,6 +1,6 @@
 {
   "name": "material.io",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,16 +9,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "css-loader": "^2.1.1",
-    "fibers": "^3.1.1",
-    "material-components-web": "^1.1.1",
-    "mini-css-extract-plugin": "^0.5.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.5.3",
+    "fibers": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
-    "sass": "^1.18.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "material-components-web": "^1.1.1"
   }
 }
