@@ -53,6 +53,12 @@
     url: "https://www.math-drills.com/"
     badge: true
   -
+    domain: "Mathigon"
+    title: "Mathigon"
+    description: "The Mathematical Playground: Free tools, courses and manipulatives to make online learning more interactive and engaging than ever before."
+    avatar: "@mathigon.jpg"
+    url: "https://mathigon.org"
+  -
     domain: "Math is Visual"
     title: "Math is Visual"
     description: "Let's teach it that way."
